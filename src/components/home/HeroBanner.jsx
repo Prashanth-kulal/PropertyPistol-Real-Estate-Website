@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
 import {
   Search,
   Sparkles,
@@ -94,9 +95,8 @@ export default function HeroBanner({
               </button>
 
               {/* Home Loan */}
-              <a
-                href="#consultation_form"
-                onClick={() => setActiveTab("loan")}
+              <Link
+                href="/home-loan"
                 className={`transition-colors whitespace-nowrap ${
                   activeTab === "loan"
                     ? "text-[#D29324] font-bold"
@@ -104,7 +104,7 @@ export default function HeroBanner({
                 }`}
               >
                 Home Loan
-              </a>
+              </Link>
 
               {/* PropCheck */}
               <a

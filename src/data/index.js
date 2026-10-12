@@ -415,7 +415,7 @@ export const FAQS = [
 export const FOOTER_LINKS = {
   services: [
     { label: "Aura AI Property Search", href: "#hero-search" },
-    { label: "Home Loan Services", href: "#consultation_form" },
+    { label: "Home Loan Services", href: "/home-loan" },
     { label: "PropCheck Quality Inspection", href: "#consultation_form" },
     { label: "Rent Agreement E-Registration", href: "#shots" },
     { label: "Dubai Desk (NRI & Golden Visa)", href: "#exclusive" },
