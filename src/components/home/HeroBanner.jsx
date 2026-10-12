@@ -107,9 +107,8 @@ export default function HeroBanner({
               </Link>
 
               {/* PropCheck */}
-              <a
-                href="#consultation_form"
-                onClick={() => setActiveTab("check")}
+              <Link
+                href="/propcheck"
                 className={`transition-colors whitespace-nowrap ${
                   activeTab === "check"
                     ? "text-[#D29324] font-bold"
@@ -117,7 +116,7 @@ export default function HeroBanner({
                 }`}
               >
                 PropCheck
-              </a>
+              </Link>
 
               {/* Rent Agreement */}
               <a
