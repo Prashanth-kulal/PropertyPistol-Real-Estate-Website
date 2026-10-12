@@ -39,40 +39,29 @@ export default function Header({
 
   const serviceItems = [
     {
-      title: "Broker Network (Syndicate)",
-      description: "India's most trusted platform for verified channel partners & brokers",
+      title: "Syndicate by AuraLiving",
+      description: "India's Most Trusted Platform for Real Estate Brokers",
       icon: Users,
-      href: "/services#broker-network"
+      href: "/services/syndicate",
+      badge: "Active"
     },
     {
-      title: "Builder & Developer Services",
-      description: "Channel partner services, sales acceleration, and mandate solutions",
+      title: "Builder Service",
+      description: "Channel Partner Services for Builders",
       icon: Building2,
-      href: "/services#builder-services"
+      href: "/services/builder-service"
     },
     {
-      title: "Radiate Developer Platform",
-      description: "Enterprise inventory CRM and project distribution software",
+      title: "Radiate by AuraLiving",
+      description: "Platform Designed for Developers",
       icon: Layers,
-      href: "/services#radiate-platform"
+      href: "/services/radiate"
     },
     {
-      title: "NRI Real Estate Desk",
-      description: "Dedicated property management, remote tours & leasing for global Indians",
+      title: "NRI Desk",
+      description: "Dedicated Real Estate Services for NRI Customers",
       icon: Globe2,
-      href: "/services#nri-desk"
-    },
-    {
-      title: "Home Loan Financing",
-      description: "Instant pre-approvals and lowest interest rates across 25+ banks",
-      icon: Banknote,
-      href: "/services#home-loans"
-    },
-    {
-      title: "Legal & E-Registration",
-      description: "Government-approved biometric registration and title search audits",
-      icon: FileCheck2,
-      href: "/services#legal-registration"
+      href: "/services/nri-desk"
     }
   ];
 
@@ -132,26 +121,44 @@ export default function Header({
 
               {/* Mega Dropdown Panel */}
               {servicesDropdownOpen && (
-                <div className="absolute left-0 top-full pt-1.5 w-[580px] z-50 animate-in fade-in slide-in-from-top-1 duration-200">
-                  <div className="bg-white rounded-2xl shadow-2xl border border-gray-100 p-4 ring-1 ring-black/5 overflow-hidden">
-                    <div className="grid grid-cols-2 gap-2">
+                <div className="absolute left-0 top-full pt-2 w-[390px] z-50 animate-in fade-in slide-in-from-top-1 duration-200">
+                  <div className="bg-white rounded-2xl shadow-xl border border-gray-100 p-2.5 ring-1 ring-black/5 overflow-hidden">
+                    <div className="flex flex-col divide-y divide-gray-50">
                       {serviceItems.map((item, index) => {
                         const Icon = item.icon;
+                        const isSyndicate = item.href === "/services/syndicate";
                         return (
                           <Link
                             key={index}
                             href={item.href}
                             onClick={() => setServicesDropdownOpen(false)}
-                            className="p-3 rounded-xl hover:bg-[#FAF8F4] transition-all flex items-start gap-3 group border border-transparent hover:border-[#E8E3DA]"
+                            className={`p-3 rounded-xl transition-all flex items-center gap-3.5 group border border-transparent ${
+                              isSyndicate
+                                ? "hover:bg-[#FAF8F4] hover:border-[#F2E8D8]"
+                                : "hover:bg-gray-50 hover:border-gray-100"
+                            }`}
                           >
-                            <div className="w-9 h-9 rounded-lg bg-[#FBF1DF] text-[#D29324] flex items-center justify-center shrink-0 group-hover:bg-[#D29324] group-hover:text-white transition-colors">
+                            <div className={`w-9 h-9 rounded-xl flex items-center justify-center shrink-0 transition-colors ${
+                              isSyndicate
+                                ? "bg-[#FBF1DF] text-[#D29324] group-hover:bg-[#D29324] group-hover:text-white"
+                                : "bg-gray-100 text-gray-600 group-hover:bg-gray-200"
+                            }`}>
                               <Icon className="w-4.5 h-4.5" />
                             </div>
-                            <div>
-                              <h4 className="text-xs font-bold text-gray-900 group-hover:text-[#AE7419] transition-colors line-clamp-1">
-                                {item.title}
-                              </h4>
-                              <p className="text-[11px] text-gray-500 leading-snug line-clamp-2 mt-0.5">
+                            <div className="flex-1 min-w-0">
+                              <div className="flex items-center justify-between">
+                                <h4 className={`text-xs font-bold transition-colors line-clamp-1 ${
+                                  isSyndicate ? "text-gray-900 group-hover:text-[#AE7419]" : "text-gray-800 group-hover:text-gray-900"
+                                }`}>
+                                  {item.title}
+                                </h4>
+                                {item.badge && (
+                                  <span className="px-1.5 py-0.5 rounded text-[9px] font-bold bg-[#FBF1DF] text-[#D29324] shrink-0">
+                                    {item.badge}
+                                  </span>
+                                )}
+                              </div>
+                              <p className="text-[11px] text-gray-500 leading-snug line-clamp-1 mt-0.5">
                                 {item.description}
                               </p>
                             </div>
@@ -161,20 +168,20 @@ export default function Header({
                     </div>
 
                     {/* Dropdown Bottom Banner */}
-                    <div className="mt-3 pt-3 border-t border-gray-100 flex items-center justify-between px-2 bg-gradient-to-r from-[#FAF8F4] to-white rounded-xl p-2.5">
+                    <div className="mt-2 pt-2 border-t border-gray-100 flex items-center justify-between px-2.5 py-2 bg-[#FAF8F4] rounded-xl">
                       <div className="flex items-center gap-2">
-                        <span className="w-2 h-2 rounded-full bg-[#D29324] animate-pulse"></span>
-                        <span className="text-xs font-medium text-gray-600">
-                          Looking for end-to-end guidance?
+                        <span className="w-1.5 h-1.5 rounded-full bg-[#D29324] animate-pulse"></span>
+                        <span className="text-[11px] font-medium text-gray-600">
+                          Looking for all services?
                         </span>
                       </div>
                       <Link
                         href="/services"
                         onClick={() => setServicesDropdownOpen(false)}
-                        className="text-xs font-bold text-[#AE7419] hover:text-[#D29324] flex items-center gap-1 group"
+                        className="text-[11px] font-bold text-[#AE7419] hover:text-[#D29324] flex items-center gap-1 group"
                       >
-                        <span>View All Services</span>
-                        <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
+                        <span>View Overview</span>
+                        <ArrowRight className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" />
                       </Link>
                     </div>
                   </div>
