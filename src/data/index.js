@@ -416,7 +416,9 @@ export const FOOTER_LINKS = {
   services: [
     { label: "Builder Service", href: "/services/builder-service" },
     { label: "Syndicate Broker Network", href: "/services/syndicate" },
-    { label: "Home Loan Services", href: "/home-loan" },
+    { label: "Home Loan & EMI Calculator", href: "/emi-calculator" },
+    { label: "Investment Calculator", href: "/investment-calculator" },
+    { label: "Rent Receipt Generator", href: "/rent-receipt-generator" },
     { label: "PropCheck Quality Inspection", href: "/propcheck" },
     { label: "Rent Agreement E-Registration", href: "/rent-agreement" },
     { label: "Dubai Desk (NRI & Golden Visa)", href: "#exclusive" }

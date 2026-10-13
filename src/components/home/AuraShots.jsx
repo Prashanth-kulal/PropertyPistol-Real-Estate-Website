@@ -13,7 +13,11 @@ import {
 } from "lucide-react";
 import { SHOTS_TOOLS } from "@/data";
 
+import { useRouter } from "next/navigation";
+
 export default function AuraShots({ onOpenEmi, onOpenConverter, onOpenConsultation }) {
+  const router = useRouter();
+
   const getIcon = (iconName) => {
     const iconClass = "w-4 h-4 sm:w-5 sm:h-5 text-[#D29324]";
     switch (iconName) {
@@ -35,8 +39,12 @@ export default function AuraShots({ onOpenEmi, onOpenConverter, onOpenConsultati
   };
 
   const handleToolClick = (action) => {
-    if (action === "emi" && onOpenEmi) {
-      onOpenEmi();
+    if (action === "emi") {
+      router.push("/emi-calculator");
+    } else if (action === "investment") {
+      router.push("/investment-calculator");
+    } else if (action === "rent-receipts") {
+      router.push("/rent-receipt-generator");
     } else if (action === "converter" && onOpenConverter) {
       onOpenConverter();
     } else if (action === "stamp-duty" && onOpenEmi) {

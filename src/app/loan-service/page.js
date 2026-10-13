@@ -1,3 +1,3 @@
-import HomeLoanPage from "../home-loan/page";
+import EmiCalculatorPage from "../emi-calculator/page";
 
-export default HomeLoanPage;
+export default EmiCalculatorPage;

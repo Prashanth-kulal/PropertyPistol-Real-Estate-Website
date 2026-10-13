@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
 import { X, Calculator, IndianRupee } from "lucide-react";
 
 export default function EmiCalculatorModal({ isOpen, onClose }) {
@@ -128,13 +129,20 @@ export default function EmiCalculatorModal({ isOpen, onClose }) {
             </div>
           </div>
 
-          <div className="text-center pt-2">
+          <div className="text-center pt-2 space-y-2">
             <button
               onClick={onClose}
               className="w-full py-2.5 rounded-xl bg-[#D29324] text-white font-medium text-sm hover:bg-[#AE7419] transition-colors"
             >
               Done Calculating
             </button>
+            <Link
+              href="/emi-calculator"
+              onClick={onClose}
+              className="block text-center text-xs font-semibold text-[#AE7419] hover:underline"
+            >
+              Open Full Amortization &amp; Eligibility Calculator &rarr;
+            </Link>
           </div>
         </div>
       </div>
