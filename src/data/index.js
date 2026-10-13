@@ -417,7 +417,7 @@ export const FOOTER_LINKS = {
     { label: "Aura AI Property Search", href: "#hero-search" },
     { label: "Home Loan Services", href: "/home-loan" },
     { label: "PropCheck Quality Inspection", href: "/propcheck" },
-    { label: "Rent Agreement E-Registration", href: "#shots" },
+    { label: "Rent Agreement E-Registration", href: "/rent-agreement" },
     { label: "Dubai Desk (NRI & Golden Visa)", href: "#exclusive" },
     { label: "Property Advisory & Valuation", href: "#shots" }
   ],

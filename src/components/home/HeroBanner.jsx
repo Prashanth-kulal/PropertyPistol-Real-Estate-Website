@@ -119,9 +119,8 @@ export default function HeroBanner({
               </Link>
 
               {/* Rent Agreement */}
-              <a
-                href="#shots"
-                onClick={() => setActiveTab("rent")}
+              <Link
+                href="/rent-agreement"
                 className={`transition-colors whitespace-nowrap ${
                   activeTab === "rent"
                     ? "text-[#D29324] font-bold"
@@ -129,7 +128,7 @@ export default function HeroBanner({
                 }`}
               >
                 Rent Agreement
-              </a>
+              </Link>
             </div>
 
             {/* Right Tab: Dubai Desk with Exclusive Badge */}
