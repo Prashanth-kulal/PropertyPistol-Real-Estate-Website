@@ -9,6 +9,7 @@ import TopProjects from "@/components/home/TopProjects";
 import TopCities from "@/components/home/TopCities";
 import DevelopersSection from "@/components/home/DevelopersSection";
 import AchievementsCounter from "@/components/home/AchievementsCounter";
+import PistonAiSection from "@/components/home/PistonAiSection";
 import AuraShots from "@/components/home/AuraShots";
 import ConsultationForm from "@/components/home/ConsultationForm";
 import TestimonialsSection from "@/components/home/TestimonialsSection";
@@ -81,7 +82,10 @@ export default function HomePage() {
       {/* 7. Achievements Counter */}
       <AchievementsCounter />
 
-      {/* 8. AuraLiving Shots / Tools */}
+      {/* 8. Piston AI Section (Image on Left, AI Console on Right) */}
+      <PistonAiSection onOpenAiModal={() => setIsAiModalOpen(true)} />
+
+      {/* 9. AuraLiving Shots / Tools */}
       <AuraShots
         onOpenEmi={() => setIsEmiModalOpen(true)}
         onOpenConverter={() => setIsConverterModalOpen(true)}

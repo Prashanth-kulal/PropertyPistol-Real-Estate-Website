@@ -77,13 +77,9 @@ export default function HeroBanner({
           <div className="flex items-center justify-between px-5 sm:px-8 py-3 border-b border-gray-100 text-xs sm:text-[13px] font-semibold text-gray-800">
             {/* Left Tabs Group */}
             <div className="flex items-center gap-6 sm:gap-9 overflow-x-auto no-scrollbar">
-              {/* Aura AI Tab */}
-              <button
-                type="button"
-                onClick={() => {
-                  setActiveTab("ai");
-                  onOpenAiModal && onOpenAiModal();
-                }}
+              {/* Ask AI Tab (Positioned near Home Loan section) */}
+              <Link
+                href="/ask-ai"
                 className={`flex items-center gap-1.5 transition-colors cursor-pointer whitespace-nowrap ${
                   activeTab === "ai"
                     ? "text-[#D29324] font-bold"
@@ -91,8 +87,8 @@ export default function HeroBanner({
                 }`}
               >
                 <Sparkles className="w-3.5 h-3.5 text-[#D29324] fill-[#D29324]/30" />
-                <span>Aura AI</span>
-              </button>
+                <span>Ask AI</span>
+              </Link>
 
               {/* Home Loan */}
               <Link

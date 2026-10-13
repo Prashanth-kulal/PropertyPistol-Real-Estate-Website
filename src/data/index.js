@@ -414,12 +414,12 @@ export const FAQS = [
 
 export const FOOTER_LINKS = {
   services: [
-    { label: "Aura AI Property Search", href: "#hero-search" },
+    { label: "Builder Service", href: "/services/builder-service" },
+    { label: "Syndicate Broker Network", href: "/services/syndicate" },
     { label: "Home Loan Services", href: "/home-loan" },
     { label: "PropCheck Quality Inspection", href: "/propcheck" },
     { label: "Rent Agreement E-Registration", href: "/rent-agreement" },
-    { label: "Dubai Desk (NRI & Golden Visa)", href: "#exclusive" },
-    { label: "Property Advisory & Valuation", href: "#shots" }
+    { label: "Dubai Desk (NRI & Golden Visa)", href: "#exclusive" }
   ],
   knowUs: [
     { label: "About AuraLiving", href: "#achievements" },
