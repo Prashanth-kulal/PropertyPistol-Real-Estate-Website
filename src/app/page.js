@@ -71,13 +71,7 @@ export default function HomePage() {
       <TopCities onSelectCity={(cityId) => setSelectedCity(cityId)} />
 
       {/* 6. 2,000+ Developers Under One Roof */}
-      <DevelopersSection
-        onSelectDeveloper={(dev) => {
-          setSearchQuery(dev.name);
-          const el = document.getElementById("top-projects");
-          if (el) el.scrollIntoView({ behavior: "smooth" });
-        }}
-      />
+      <DevelopersSection />
 
       {/* 7. Achievements Counter */}
       <AchievementsCounter />
