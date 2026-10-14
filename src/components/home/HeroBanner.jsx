@@ -7,14 +7,18 @@ import {
   Sparkles,
   ChevronDown,
   LocateFixed,
-  SlidersHorizontal
+  SlidersHorizontal,
+  Train,
+  Car
 } from "lucide-react";
 import { CITIES, PROJECTS } from "@/data";
 
 export default function HeroBanner({
   selectedCity,
+  isCityPage = false,
   onOpenCityModal,
   onOpenAiModal,
+  onOpenCommuteModal,
   onSearch
 }) {
   const [searchInput, setSearchInput] = useState("");
@@ -113,6 +117,21 @@ export default function HeroBanner({
               >
                 PropCheck
               </Link>
+
+              {/* Price Trends (rendered ONLY on city destination page banner near PropCheck) */}
+              {isCityPage && (
+                <Link
+                  href={`/${currentCityObj.id || "mumbai"}/price-trends`}
+                  className={`transition-colors whitespace-nowrap ${
+                    activeTab === "price-trends"
+                      ? "text-[#D29324] font-bold"
+                      : "text-gray-700 hover:text-[#D29324]"
+                  }`}
+                >
+                  Price Trends
+                </Link>
+              )}
+
 
               {/* Rent Agreement */}
               <Link
@@ -245,6 +264,32 @@ export default function HeroBanner({
               Find Property
             </button>
           </form>
+
+          {/* Search by Rail Network or Commute Time (rendered ONLY on city destination page banner) */}
+          {isCityPage && (
+            <div className="pt-2.5 pb-1 flex items-center justify-center">
+              <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/95 backdrop-blur-md shadow-xs border border-[#E8E3DA] text-xs font-semibold text-[#252525]">
+                <span className="text-[#6B7280]">Search by</span>
+                <Link
+                  href={`/rail-network/${currentCityObj.id || "mumbai"}`}
+                  className="inline-flex items-center gap-1.5 font-bold text-[#AE7419] hover:text-[#D29324] transition-colors group/rail"
+                >
+                  <Train className="w-3.5 h-3.5 text-[#D29324]" />
+                  <span className="underline decoration-[#D29324] decoration-2 underline-offset-2">Rail Network</span>
+                </Link>
+                <span className="text-gray-400">or</span>
+                <button
+                  type="button"
+                  onClick={() => onOpenCommuteModal && onOpenCommuteModal()}
+                  className="inline-flex items-center gap-1.5 font-bold text-[#AE7419] hover:text-[#D29324] transition-colors cursor-pointer group/commute"
+                >
+                  <Car className="w-3.5 h-3.5 text-[#D29324]" />
+                  <span className="underline decoration-[#D29324] decoration-2 underline-offset-2">Commute Time</span>
+                </button>
+              </div>
+            </div>
+          )}
+
         </div>
       </div>
 

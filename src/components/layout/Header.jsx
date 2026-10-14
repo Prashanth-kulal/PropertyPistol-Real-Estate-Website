@@ -189,7 +189,7 @@ export default function Header({
               )}
             </div>
 
-            {/* 3. Post Property */}
+            {/* 4. Post Property */}
             <Link
               href="/post-property"
               className="flex items-center hover:text-[#D29324] transition-colors py-2"

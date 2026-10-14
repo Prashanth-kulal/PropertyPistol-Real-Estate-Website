@@ -1,18 +1,21 @@
 "use client";
 
 import React, { useRef } from "react";
-import { MapPin, ChevronLeft, ChevronRight, ArrowRight } from "lucide-react";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { MapPin, ChevronLeft, ChevronRight, ArrowRight, Sparkles } from "lucide-react";
 import { CITIES } from "@/data";
 
 export default function TopCities({ onSelectCity }) {
+  const router = useRouter();
   const scrollContainerRef = useRef(null);
 
-  const categoryLinks = [
-    "New Projects",
-    "Developer Listings",
-    "Ready to Move",
-    "New Listings",
-    "RERA Compliant"
+  const categories = [
+    { label: "New Projects", slugPattern: (city) => `new-projects-in-${city}` },
+    { label: "Ready to Move", slugPattern: (city) => `ready-to-move-properties-in-${city}` },
+    { label: "Under Construction", slugPattern: (city) => `under-construction-properties-in-${city}` },
+    { label: "RERA Compliant", slugPattern: (city) => `rera-compliant-properties-in-${city}` },
+    { label: "Developer Listings", slugPattern: (city) => `developer-listings-in-${city}` }
   ];
 
   const scrollLeft = () => {
@@ -27,12 +30,11 @@ export default function TopCities({ onSelectCity }) {
     }
   };
 
-  const handleCityClick = (cityId) => {
+  const handleCityNavigation = (cityId) => {
     if (onSelectCity) {
       onSelectCity(cityId);
     }
-    const el = document.getElementById("top-projects");
-    if (el) el.scrollIntoView({ behavior: "smooth" });
+    router.push(`/${cityId}`);
   };
 
   return (
@@ -100,7 +102,7 @@ export default function TopCities({ onSelectCity }) {
             {CITIES.map((city) => (
               <div
                 key={city.id}
-                onClick={() => handleCityClick(city.id)}
+                onClick={() => handleCityNavigation(city.id)}
                 className="w-[260px] sm:w-[280px] shrink-0 h-[370px] rounded-2xl overflow-hidden relative group cursor-pointer shadow-md hover:shadow-xl transition-all duration-300 border border-gray-200/60"
               >
                 {/* Background City Photograph */}
@@ -150,24 +152,27 @@ export default function TopCities({ onSelectCity }) {
                         Explore Categories
                       </p>
                       <ul className="space-y-1.5 text-xs">
-                        {categoryLinks.map((cat, i) => (
-                          <li key={i}>
-                            <button
-                              type="button"
-                              onClick={(e) => {
-                                e.stopPropagation();
-                                handleCityClick(city.id);
-                              }}
-                              className="w-full text-left text-gray-200 hover:text-[#FFE2A7] flex items-center justify-between transition-colors py-0.5 cursor-pointer"
-                            >
-                              <span className="flex items-center gap-1.5">
-                                <span className="w-1.5 h-1.5 rounded-full bg-[#D29324]"></span>
-                                <span>{cat}</span>
-                              </span>
-                              <span className="text-[10px] text-gray-400">→</span>
-                            </button>
-                          </li>
-                        ))}
+                        {categories.map((cat, i) => {
+                          const href = `/${city.id}/buy/${cat.slugPattern(city.id)}`;
+                          return (
+                            <li key={i}>
+                              <Link
+                                href={href}
+                                onClick={(e) => {
+                                  e.stopPropagation();
+                                  if (onSelectCity) onSelectCity(city.id);
+                                }}
+                                className="w-full text-left text-gray-200 hover:text-[#FFE2A7] flex items-center justify-between transition-colors py-0.5 cursor-pointer group/cat"
+                              >
+                                <span className="flex items-center gap-1.5">
+                                  <span className="w-1.5 h-1.5 rounded-full bg-[#D29324] group-hover/cat:bg-[#FFE2A7] transition-colors"></span>
+                                  <span>{cat.label}</span>
+                                </span>
+                                <span className="text-[10px] text-gray-400 group-hover/cat:text-[#FFE2A7] transition-colors">→</span>
+                              </Link>
+                            </li>
+                          );
+                        })}
                       </ul>
                     </div>
 
@@ -175,7 +180,7 @@ export default function TopCities({ onSelectCity }) {
                       type="button"
                       onClick={(e) => {
                         e.stopPropagation();
-                        handleCityClick(city.id);
+                        handleCityNavigation(city.id);
                       }}
                       className="w-full py-2.5 rounded-xl bg-[#D29324] hover:bg-[#AE7419] text-white font-bold text-xs tracking-wide shadow-md transition-all flex items-center justify-center gap-1.5 cursor-pointer"
                     >
