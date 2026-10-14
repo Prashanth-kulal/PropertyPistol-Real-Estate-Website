@@ -13,7 +13,6 @@ import PistonAiSection from "@/components/home/PistonAiSection";
 import AuraShots from "@/components/home/AuraShots";
 import ConsultationForm from "@/components/home/ConsultationForm";
 import TestimonialsSection from "@/components/home/TestimonialsSection";
-import FaqSection from "@/components/home/FaqSection";
 
 // Interactive Modals
 import CitySelectorModal from "@/components/common/CitySelectorModal";
@@ -95,10 +94,7 @@ export default function HomePage() {
       {/* 10. Testimonials & Pan-India Reach */}
       <TestimonialsSection />
 
-      {/* 11. Frequently Asked Questions (FAQs) */}
-      <FaqSection />
-
-      {/* 12. Footer */}
+      {/* 11. Footer */}
       <Footer />
 
       {/* --- Interactive Modals --- */}

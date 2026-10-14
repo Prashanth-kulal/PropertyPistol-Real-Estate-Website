@@ -2,6 +2,7 @@
 
 import React, { useState, useRef, useEffect } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import {
   Menu,
   X,
@@ -9,11 +10,9 @@ import {
   User,
   ChevronDown,
   Building2,
-  Users,
+  Handshake,
+  Layers3,
   Globe2,
-  Banknote,
-  FileCheck2,
-  Layers,
   ArrowRight
 } from "lucide-react";
 
@@ -22,6 +21,7 @@ export default function Header({
   onOpenCityModal,
   onOpenAiModal
 }) {
+  const pathname = usePathname();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [servicesDropdownOpen, setServicesDropdownOpen] = useState(false);
   const dropdownRef = useRef(null);
@@ -41,9 +41,8 @@ export default function Header({
     {
       title: "Syndicate by AuraLiving",
       description: "India's Most Trusted Platform for Real Estate Brokers",
-      icon: Users,
-      href: "/services/syndicate",
-      badge: "Active"
+      icon: Handshake,
+      href: "/services/syndicate"
     },
     {
       title: "Builder Service",
@@ -54,7 +53,7 @@ export default function Header({
     {
       title: "Radiate by AuraLiving",
       description: "Platform Designed for Developers",
-      icon: Layers,
+      icon: Layers3,
       href: "/services/radiate"
     },
     {
@@ -113,7 +112,9 @@ export default function Header({
               <Link
                 href="/services"
                 onClick={() => setServicesDropdownOpen(false)}
-                className="flex items-center gap-1 hover:text-[#D29324] transition-colors py-2 cursor-pointer"
+                className={`flex items-center gap-1 hover:text-[#D29324] transition-colors py-2 cursor-pointer ${
+                  pathname?.startsWith("/services") ? "text-[#D29324] font-semibold" : ""
+                }`}
               >
                 <span>Services</span>
                 <ChevronDown className={`w-3.5 h-3.5 transition-transform duration-200 ${servicesDropdownOpen ? "rotate-180 text-[#D29324]" : "text-gray-400"}`} />
@@ -126,35 +127,41 @@ export default function Header({
                     <div className="flex flex-col divide-y divide-gray-50">
                       {serviceItems.map((item, index) => {
                         const Icon = item.icon;
-                        const isSyndicate = item.href === "/services/syndicate";
+                        const isActive = pathname === item.href;
                         return (
                           <Link
                             key={index}
                             href={item.href}
                             onClick={() => setServicesDropdownOpen(false)}
-                            className={`p-3 rounded-xl transition-all flex items-center gap-3.5 group border border-transparent ${
-                              isSyndicate
-                                ? "hover:bg-[#FAF8F4] hover:border-[#F2E8D8]"
-                                : "hover:bg-gray-50 hover:border-gray-100"
+                            className={`p-3 rounded-xl transition-all flex items-center gap-3.5 group border ${
+                              isActive
+                                ? "bg-[#FAF8F4] border-[#F2E8D8]"
+                                : "border-transparent hover:bg-[#FAF8F4] hover:border-[#F2E8D8]"
                             }`}
                           >
-                            <div className={`w-9 h-9 rounded-xl flex items-center justify-center shrink-0 transition-colors ${
-                              isSyndicate
-                                ? "bg-[#FBF1DF] text-[#D29324] group-hover:bg-[#D29324] group-hover:text-white"
-                                : "bg-gray-100 text-gray-600 group-hover:bg-gray-200"
-                            }`}>
+                            <div
+                              className={`w-9 h-9 rounded-xl flex items-center justify-center shrink-0 transition-colors border ${
+                                isActive
+                                  ? "bg-[#FBF1DF] text-[#AE7419] border-[#D29324]/40"
+                                  : "bg-gray-100 text-[#D29324] border-gray-200/60 group-hover:bg-[#FBF1DF] group-hover:text-[#AE7419] group-hover:border-[#D29324]/30"
+                              }`}
+                            >
                               <Icon className="w-4.5 h-4.5" />
                             </div>
                             <div className="flex-1 min-w-0">
-                              <div className="flex items-center justify-between">
-                                <h4 className={`text-xs font-bold transition-colors line-clamp-1 ${
-                                  isSyndicate ? "text-gray-900 group-hover:text-[#AE7419]" : "text-gray-800 group-hover:text-gray-900"
-                                }`}>
+                              <div className="flex items-center justify-between gap-2">
+                                <h4
+                                  className={`text-xs font-bold transition-colors line-clamp-1 ${
+                                    isActive
+                                      ? "text-[#AE7419]"
+                                      : "text-gray-800 group-hover:text-[#AE7419]"
+                                  }`}
+                                >
                                   {item.title}
                                 </h4>
-                                {item.badge && (
-                                  <span className="px-1.5 py-0.5 rounded text-[9px] font-bold bg-[#FBF1DF] text-[#D29324] shrink-0">
-                                    {item.badge}
+                                {isActive && (
+                                  <span className="px-1.5 py-0.5 rounded text-[9px] font-semibold bg-[#FBF1DF] text-[#AE7419] border border-[#D29324]/30 shrink-0">
+                                    Active
                                   </span>
                                 )}
                               </div>
