@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useMemo } from "react";
+import React, { useState, useMemo, Suspense } from "react";
 import Link from "next/link";
 import { useParams, useRouter } from "next/navigation";
 import {
@@ -37,7 +37,7 @@ import {
   getAllDevelopers
 } from "@/data/developersData";
 
-export default function DeveloperDetailPage() {
+function DeveloperDetailContent() {
   const params = useParams();
   const router = useRouter();
   const rawSlug = params?.slug;
@@ -677,5 +677,19 @@ export default function DeveloperDetailPage() {
       {/* 7. Global Footer */}
       <Footer />
     </div>
+  );
+}
+
+export default function DeveloperDetailPage() {
+  return (
+    <Suspense
+      fallback={
+        <div className="min-h-screen flex items-center justify-center bg-white">
+          <div className="w-8 h-8 border-3 border-[#D29324] border-t-transparent rounded-full animate-spin" />
+        </div>
+      }
+    >
+      <DeveloperDetailContent />
+    </Suspense>
   );
 }

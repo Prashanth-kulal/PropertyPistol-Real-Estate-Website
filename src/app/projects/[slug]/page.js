@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useMemo } from "react";
+import React, { useState, useMemo, Suspense } from "react";
 import Link from "next/link";
 import { useParams, useRouter } from "next/navigation";
 import {
@@ -30,7 +30,7 @@ import AuraAiModal from "@/components/common/AuraAiModal";
 import { DEVELOPERS_DATA } from "@/data/developersData";
 import { PROJECTS } from "@/data";
 
-export default function ProjectDetailPage() {
+function ProjectDetailContent() {
   const params = useParams();
   const router = useRouter();
   const rawSlug = params?.slug;
@@ -419,5 +419,19 @@ export default function ProjectDetailPage() {
       {/* 5. Footer */}
       <Footer />
     </div>
+  );
+}
+
+export default function ProjectDetailPage() {
+  return (
+    <Suspense
+      fallback={
+        <div className="min-h-screen flex items-center justify-center bg-white">
+          <div className="w-8 h-8 border-3 border-[#D29324] border-t-transparent rounded-full animate-spin" />
+        </div>
+      }
+    >
+      <ProjectDetailContent />
+    </Suspense>
   );
 }
