@@ -294,12 +294,12 @@ export const DEVELOPERS = [
 
 export const SHOTS_TOOLS = [
   {
-    id: "advisory",
-    title: "Property Advisory",
-    description: "Expert guidance for smarter decisions",
-    icon: "ShieldCheck",
-    action: "advisory"
-  },
+  id: "advisory",
+  title: "Property Advisory",
+  description: "Expert guidance for smarter decisions",
+  icon: "ShieldCheck",
+  action: "property-advisory"
+},
   {
     id: "stamp-duty",
     title: "Stamp Duty Calculator",

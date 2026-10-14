@@ -45,10 +45,12 @@ export default function AuraShots({ onOpenEmi, onOpenConverter, onOpenConsultati
       router.push("/investment-calculator");
     } else if (action === "rent-receipts") {
       router.push("/rent-receipt-generator");
-    } else if (action === "converter" && onOpenConverter) {
-      onOpenConverter();
-    } else if (action === "stamp-duty" && onOpenEmi) {
-      onOpenEmi();
+     } else if (action === "property-advisory") {
+  window.location.href = "/property-advisory";
+    } else if (action === "converter") {
+  router.push("/unit-converter");
+    } else if (action === "stamp-duty") {
+  router.push("/stamp-duty-calculator");
     } else if (onOpenConsultation) {
       onOpenConsultation();
     }
