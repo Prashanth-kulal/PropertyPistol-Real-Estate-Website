@@ -31,7 +31,7 @@ import Footer from "@/components/layout/Footer";
 import CitySelectorModal from "@/components/common/CitySelectorModal";
 import ProjectInquiryModal from "@/components/common/ProjectInquiryModal";
 import AuraAiModal from "@/components/common/AuraAiModal";
-import { CITIES } from "@/data";
+import { CITIES, getProjectSlug } from "@/data";
 import { getCityDetails, getPropertiesForCity } from "@/data/cityData";
 import { resolveCategory } from "@/data/categoryData";
 
@@ -504,6 +504,7 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
             {filteredProperties.slice(0, visibleCount).map((project, idx) => {
               const activeIdx = activeImageIndexes[project.id] || 0;
               const isSaved = !!wishlist[project.id];
+              const projectSlug = getProjectSlug(project);
               const images = project.images || [
                 "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80"
               ];
@@ -515,16 +516,18 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
                 >
                   {/* Photo Carousel Container */}
                   <div className="relative h-52 bg-gray-100 overflow-hidden">
-                    <img
-                      src={images[activeIdx]}
-                      alt={project.name}
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                    />
+                    <Link href={`/projects/${projectSlug}`} className="block w-full h-full">
+                      <img
+                        src={images[activeIdx]}
+                        alt={project.name}
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                      />
+                    </Link>
 
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/20" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/20 pointer-events-none" />
 
                     {/* Category & Status Badges */}
-                    <div className="absolute top-3 left-3 flex flex-wrap gap-1.5 z-10">
+                    <div className="absolute top-3 left-3 flex flex-wrap gap-1.5 z-10 pointer-events-none">
                       <span className="px-2.5 py-0.5 rounded-full bg-[#D29324] text-white text-[10px] font-extrabold uppercase tracking-wider shadow-xs">
                         {categoryConfig.label}
                       </span>
@@ -553,14 +556,14 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
                         <button
                           type="button"
                           onClick={(e) => handlePrevImage(project.id, images.length, e)}
-                          className="w-7 h-7 rounded-full bg-white/90 text-gray-800 flex items-center justify-center shadow-md hover:bg-white"
+                          className="w-7 h-7 rounded-full bg-white/90 text-gray-800 flex items-center justify-center shadow-md hover:bg-white cursor-pointer"
                         >
                           <ChevronLeft className="w-4 h-4" />
                         </button>
                         <button
                           type="button"
                           onClick={(e) => handleNextImage(project.id, images.length, e)}
-                          className="w-7 h-7 rounded-full bg-white/90 text-gray-800 flex items-center justify-center shadow-md hover:bg-white"
+                          className="w-7 h-7 rounded-full bg-white/90 text-gray-800 flex items-center justify-center shadow-md hover:bg-white cursor-pointer"
                         >
                           <ChevronRight className="w-4 h-4" />
                         </button>
@@ -568,7 +571,7 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
                     )}
 
                     {/* Price Tag Overlay */}
-                    <div className="absolute bottom-3 inset-x-3 flex items-end justify-between z-10 text-white">
+                    <Link href={`/projects/${projectSlug}`} className="absolute bottom-3 inset-x-3 flex items-end justify-between z-10 text-white">
                       <div>
                         <div className="text-xl font-black drop-shadow-sm">
                           ₹{project.price}
@@ -582,7 +585,7 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
                           {project.rera ? "RERA Verified" : "Direct Allotment"}
                         </span>
                       </div>
-                    </div>
+                    </Link>
                   </div>
 
                   {/* Card Body */}
@@ -593,9 +596,11 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
                         <span className="font-extrabold text-[#252525] truncate">{project.builder}</span>
                       </div>
 
-                      <h3 className="text-base font-extrabold text-[#252525] line-clamp-1 group-hover:text-[#AE7419] transition-colors">
-                        {project.name}
-                      </h3>
+                      <Link href={`/projects/${projectSlug}`}>
+                        <h3 className="text-base font-extrabold text-[#252525] line-clamp-1 group-hover:text-[#AE7419] transition-colors">
+                          {project.name}
+                        </h3>
+                      </Link>
 
                       <div className="flex items-center gap-1 text-xs text-[#6B7280]">
                         <MapPin className="w-3.5 h-3.5 text-[#AE7419] shrink-0" />
@@ -637,13 +642,20 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
                         className="flex-1 py-2.5 rounded-xl bg-[#D29324] text-white text-xs font-bold hover:bg-[#AE7419] transition-all shadow-xs flex items-center justify-center gap-1.5 cursor-pointer"
                       >
                         <PhoneCall className="w-3.5 h-3.5" />
-                        <span>Request Callback</span>
+                        <span>Callback</span>
                       </button>
+
+                      <Link
+                        href={`/projects/${projectSlug}`}
+                        className="px-3.5 py-2.5 rounded-xl border border-[#E8E3DA] hover:border-[#D29324] bg-white text-[#252525] hover:text-[#AE7419] text-xs font-bold transition-all flex items-center justify-center cursor-pointer"
+                      >
+                        View
+                      </Link>
 
                       <button
                         type="button"
                         onClick={() => showToast(`Brochure for ${project.name} will be emailed to you.`)}
-                        className="p-2.5 rounded-xl border border-[#E8E3DA] text-[#6B7280] hover:text-[#AE7419] hover:bg-[#FAF8F4] transition-all"
+                        className="p-2.5 rounded-xl border border-[#E8E3DA] text-[#6B7280] hover:text-[#AE7419] hover:bg-[#FAF8F4] transition-all cursor-pointer"
                         title="Download Brochure"
                       >
                         <Download className="w-4 h-4" />

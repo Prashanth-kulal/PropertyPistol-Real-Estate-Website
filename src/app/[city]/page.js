@@ -41,7 +41,7 @@ import EmiCalculatorModal from "@/components/common/EmiCalculatorModal";
 import UnitConverterModal from "@/components/common/UnitConverterModal";
 import AuraAiModal from "@/components/common/AuraAiModal";
 import CommuteTimeModal from "@/components/common/CommuteTimeModal";
-import { CITIES, DEVELOPERS } from "@/data";
+import { CITIES, DEVELOPERS, getProjectSlug } from "@/data";
 import {
   getCityDetails,
   getPropertiesForCity,
@@ -200,6 +200,7 @@ function CityPageContent() {
   const renderPropertyCard = (project) => {
     const isSaved = !!wishlist[project.id];
     const image = project.images?.[0] || "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80";
+    const projectSlug = getProjectSlug(project);
 
     return (
       <div
@@ -208,15 +209,17 @@ function CityPageContent() {
       >
         {/* Card Header & Image */}
         <div className="relative h-48 bg-gray-100 overflow-hidden">
-          <img
-            src={image}
-            alt={project.name}
-            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/10" />
+          <Link href={`/projects/${projectSlug}`} className="block w-full h-full">
+            <img
+              src={image}
+              alt={project.name}
+              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+            />
+          </Link>
+          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/10 pointer-events-none" />
 
           {/* Badges */}
-          <div className="absolute top-3 left-3 flex flex-wrap gap-1.5 z-10">
+          <div className="absolute top-3 left-3 flex flex-wrap gap-1.5 z-10 pointer-events-none">
             {project.tag && (
               <span className="px-2 py-0.5 rounded-md bg-[#D29324] text-white text-[10px] font-bold uppercase tracking-wider shadow-xs">
                 {project.tag}
@@ -242,7 +245,7 @@ function CityPageContent() {
           </button>
 
           {/* Price Tag Overlay */}
-          <div className="absolute bottom-3 inset-x-3 flex items-end justify-between z-10 text-white">
+          <Link href={`/projects/${projectSlug}`} className="absolute bottom-3 inset-x-3 flex items-end justify-between z-10 text-white">
             <div>
               <div className="text-lg font-black drop-shadow-sm">
                 ₹{project.price}
@@ -256,7 +259,7 @@ function CityPageContent() {
                 {project.rera ? "RERA" : "Verified"}
               </span>
             </div>
-          </div>
+          </Link>
         </div>
 
         {/* Card Body */}
@@ -266,9 +269,11 @@ function CityPageContent() {
               {project.builder}
             </span>
 
-            <h3 className="text-sm font-extrabold text-[#252525] line-clamp-1 group-hover:text-[#D29324] transition-colors">
-              {project.name}
-            </h3>
+            <Link href={`/projects/${projectSlug}`}>
+              <h3 className="text-sm font-extrabold text-[#252525] line-clamp-1 group-hover:text-[#D29324] transition-colors">
+                {project.name}
+              </h3>
+            </Link>
 
             <div className="flex items-center gap-1 text-xs text-[#6B7280]">
               <MapPin className="w-3.5 h-3.5 text-[#AE7419] shrink-0" />
@@ -289,13 +294,21 @@ function CityPageContent() {
               className="flex-1 py-2 rounded-xl bg-[#D29324] hover:bg-[#AE7419] text-white text-xs font-bold transition-all shadow-xs flex items-center justify-center gap-1.5 cursor-pointer"
             >
               <PhoneCall className="w-3.5 h-3.5" />
-              <span>Request Callback</span>
+              <span>Callback</span>
             </button>
+
+            <Link
+              href={`/projects/${projectSlug}`}
+              className="px-3 py-2 rounded-xl border border-[#E8E3DA] hover:border-[#D29324] bg-white text-[#252525] hover:text-[#AE7419] text-xs font-bold transition-all flex items-center justify-center cursor-pointer"
+              title="View Project"
+            >
+              View
+            </Link>
 
             <button
               type="button"
               onClick={() => showToast(`Brochure for ${project.name} sent to your email!`)}
-              className="p-2 rounded-xl border border-[#E8E3DA] text-[#6B7280] hover:text-[#AE7419] hover:bg-[#FAF8F4] transition-all"
+              className="p-2 rounded-xl border border-[#E8E3DA] text-[#6B7280] hover:text-[#AE7419] hover:bg-[#FAF8F4] transition-all cursor-pointer"
               title="Download Brochure"
             >
               <Download className="w-3.5 h-3.5" />

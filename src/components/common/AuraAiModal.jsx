@@ -1,9 +1,12 @@
 "use client";
 
 import React, { useState } from "react";
+import { useRouter } from "next/navigation";
+import Link from "next/link";
 import { X, Sparkles, Send, Bot, Building, ArrowRight } from "lucide-react";
 
 export default function AuraAiModal({ isOpen, onClose, onSelectProject }) {
+  const router = useRouter();
   const [prompt, setPrompt] = useState("");
   const [messages, setMessages] = useState([
     {
@@ -34,12 +37,14 @@ export default function AuraAiModal({ isOpen, onClose, onSelectProject }) {
       let suggestions = [
         {
           name: "Godrej Eternal Palms",
+          slug: "godrej-eternal-palms",
           loc: "Sanpada, Navi Mumbai",
           price: "₹2.68 Cr",
           bhk: "2 & 3 BHK"
         },
         {
           name: "L&T Elixir Reserve",
+          slug: "lt-elixir-reserve",
           loc: "Powai, Mumbai",
           price: "₹2.61 Cr",
           bhk: "2, 3 & 4 BHK"
@@ -120,10 +125,9 @@ export default function AuraAiModal({ isOpen, onClose, onSelectProject }) {
                         <button
                           onClick={() => {
                             onClose();
-                            const el = document.getElementById("top-projects");
-                            if (el) el.scrollIntoView({ behavior: "smooth" });
+                            router.push(`/projects/${card.slug}`);
                           }}
-                          className="px-2 py-1 rounded-md bg-[#D29324] text-white text-[11px] font-medium hover:bg-[#AE7419]"
+                          className="px-2.5 py-1 rounded-md bg-[#D29324] text-white text-[11px] font-medium hover:bg-[#AE7419] cursor-pointer"
                         >
                           View
                         </button>

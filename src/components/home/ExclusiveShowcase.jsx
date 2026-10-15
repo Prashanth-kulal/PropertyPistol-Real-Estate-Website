@@ -1,8 +1,9 @@
 "use client";
 
 import React, { useState } from "react";
-import { Sparkles, Crown, ArrowRight, ChevronLeft, ChevronRight, MapPin, Building } from "lucide-react";
-import { EXCLUSIVE_PROJECTS } from "@/data";
+import Link from "next/link";
+import { Sparkles, Crown, ArrowRight, ChevronLeft, ChevronRight, MapPin, Building, Eye } from "lucide-react";
+import { EXCLUSIVE_PROJECTS, getProjectSlug } from "@/data";
 
 export default function ExclusiveShowcase({ onInquireProject }) {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -16,6 +17,7 @@ export default function ExclusiveShowcase({ onInquireProject }) {
   };
 
   const current = EXCLUSIVE_PROJECTS[activeIndex];
+  const projectSlug = getProjectSlug(current);
 
   return (
     <section id="exclusive" className="py-14 bg-[#FAF8F4] border-b border-[#E8E3DA]">
@@ -39,15 +41,17 @@ export default function ExclusiveShowcase({ onInquireProject }) {
           <div className="grid grid-cols-1 lg:grid-cols-12 items-stretch">
             {/* Image Banner */}
             <div className="lg:col-span-7 relative min-h-[320px] sm:min-h-[420px] overflow-hidden group">
-              <img
-                src={current.image}
-                alt={current.name}
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-black/20"></div>
+              <Link href={`/projects/${projectSlug}`} className="block w-full h-full">
+                <img
+                  src={current.image}
+                  alt={current.name}
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                />
+              </Link>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-black/20 pointer-events-none"></div>
 
               {/* Exclusive Tag Badge */}
-              <div className="absolute top-5 left-5">
+              <div className="absolute top-5 left-5 pointer-events-none">
                 <span className="px-3.5 py-1.5 rounded-full bg-[#D29324] text-white text-xs font-bold tracking-wider uppercase shadow-md flex items-center gap-1.5">
                   <Sparkles className="w-3.5 h-3.5" />
                   {current.badge}
@@ -55,7 +59,7 @@ export default function ExclusiveShowcase({ onInquireProject }) {
               </div>
 
               {/* Slider Arrows */}
-              <div className="absolute bottom-5 right-5 flex items-center gap-2">
+              <div className="absolute bottom-5 right-5 flex items-center gap-2 z-10">
                 <button
                   onClick={prevSlide}
                   className="w-10 h-10 rounded-full bg-white/80 hover:bg-white text-[#252525] flex items-center justify-center backdrop-blur-xs transition-all shadow-md cursor-pointer"
@@ -79,9 +83,11 @@ export default function ExclusiveShowcase({ onInquireProject }) {
                   <span>{current.builder}</span>
                 </div>
 
-                <h3 className="text-2xl sm:text-3xl font-extrabold text-[#252525] leading-snug">
-                  {current.name}
-                </h3>
+                <Link href={`/projects/${projectSlug}`}>
+                  <h3 className="text-2xl sm:text-3xl font-extrabold text-[#252525] leading-snug hover:text-[#AE7419] transition-colors">
+                    {current.name}
+                  </h3>
+                </Link>
 
                 <div className="flex items-center gap-1.5 text-xs text-[#6B7280]">
                   <MapPin className="w-4 h-4 text-[#D29324] shrink-0" />
@@ -113,6 +119,13 @@ export default function ExclusiveShowcase({ onInquireProject }) {
               </div>
 
               <div className="pt-6 mt-6 border-t border-[#E8E3DA] flex flex-col sm:flex-row items-center gap-3">
+                <Link
+                  href={`/projects/${projectSlug}`}
+                  className="w-full sm:flex-1 py-3 px-5 rounded-xl bg-[#D29324] hover:bg-[#AE7419] text-white text-xs font-bold transition-all shadow-md flex items-center justify-center gap-2 cursor-pointer"
+                >
+                  <span>Explore Project Details</span>
+                  <ArrowRight className="w-4 h-4" />
+                </Link>
                 <button
                   onClick={() =>
                     onInquireProject &&
@@ -126,17 +139,10 @@ export default function ExclusiveShowcase({ onInquireProject }) {
                       images: [current.image]
                     })
                   }
-                  className="w-full sm:flex-1 py-3 px-5 rounded-xl bg-[#D29324] hover:bg-[#AE7419] text-white text-xs font-bold transition-all shadow-md flex items-center justify-center gap-2 cursor-pointer"
+                  className="w-full sm:w-auto py-3 px-5 rounded-xl border border-[#E8E3DA] bg-white hover:bg-[#FAF8F4] text-xs font-bold text-[#252525] text-center transition-colors cursor-pointer"
                 >
-                  <span>Book Private Walkthrough</span>
-                  <ArrowRight className="w-4 h-4" />
+                  Inquire
                 </button>
-                <a
-                  href="#consultation_form"
-                  className="w-full sm:w-auto py-3 px-5 rounded-xl border border-[#E8E3DA] bg-white hover:bg-[#FAF8F4] text-xs font-bold text-[#252525] text-center transition-colors"
-                >
-                  Download Brochure
-                </a>
               </div>
             </div>
           </div>

@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
 import {
   ChevronLeft,
   ChevronRight,
@@ -11,7 +12,7 @@ import {
   Eye,
   Sparkles
 } from "lucide-react";
-import { CITIES, PROJECTS } from "@/data";
+import { CITIES, PROJECTS, getProjectSlug } from "@/data";
 
 export default function TopProjects({
   selectedCity,
@@ -114,6 +115,7 @@ export default function TopProjects({
         {/* Projects Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {displayedProjects.map((project) => {
+            const projectSlug = getProjectSlug(project);
             const currentImgIndex = projectImageIndexes[project.id] || 0;
             const imagesList = project.images || [
               "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80"
@@ -123,19 +125,21 @@ export default function TopProjects({
             return (
               <div
                 key={project.id}
-                className="property-card bg-white rounded-2xl border border-[#E8E3DA] overflow-hidden flex flex-col shadow-xs"
+                className="property-card bg-white rounded-2xl border border-[#E8E3DA] overflow-hidden flex flex-col shadow-xs hover:shadow-lg transition-all duration-300 group"
               >
                 {/* Image Section with Carousel Controls */}
-                <div className="relative h-56 sm:h-60 overflow-hidden bg-gray-100 group">
-                  <img
-                    src={activeImage}
-                    alt={project.name}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/20"></div>
+                <div className="relative h-56 sm:h-60 overflow-hidden bg-gray-100">
+                  <Link href={`/projects/${projectSlug}`} className="block w-full h-full">
+                    <img
+                      src={activeImage}
+                      alt={project.name}
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
+                  </Link>
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/20 pointer-events-none"></div>
 
                   {/* Tag Badge */}
-                  <div className="absolute top-3 left-3 flex items-center gap-2">
+                  <div className="absolute top-3 left-3 flex items-center gap-2 pointer-events-none">
                     <span className="px-2.5 py-1 rounded-md bg-[#D29324] text-white text-[11px] font-bold tracking-wide uppercase shadow-sm">
                       {project.tag || "Verified"}
                     </span>
@@ -149,13 +153,13 @@ export default function TopProjects({
                     <>
                       <button
                         onClick={(e) => handlePrevImage(project.id, imagesList.length, e)}
-                        className="absolute left-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-white/80 hover:bg-white text-gray-800 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity shadow-sm"
+                        className="absolute left-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-white/80 hover:bg-white text-gray-800 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity shadow-sm cursor-pointer z-10"
                       >
                         <ChevronLeft className="w-4 h-4" />
                       </button>
                       <button
                         onClick={(e) => handleNextImage(project.id, imagesList.length, e)}
-                        className="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-white/80 hover:bg-white text-gray-800 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity shadow-sm"
+                        className="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-white/80 hover:bg-white text-gray-800 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity shadow-sm cursor-pointer z-10"
                       >
                         <ChevronRight className="w-4 h-4" />
                       </button>
@@ -163,7 +167,7 @@ export default function TopProjects({
                   )}
 
                   {/* Indicator Dots */}
-                  <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex items-center gap-1.5">
+                  <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex items-center gap-1.5 pointer-events-none">
                     {imagesList.map((_, i) => (
                       <span
                         key={i}
@@ -175,10 +179,10 @@ export default function TopProjects({
                   </div>
 
                   {/* Price Banner Overlay */}
-                  <div className="absolute bottom-3 left-3 text-white">
-                    <div className="text-xl font-bold tracking-tight">₹{project.price}</div>
+                  <Link href={`/projects/${projectSlug}`} className="absolute bottom-3 left-3 text-white">
+                    <div className="text-xl font-bold tracking-tight drop-shadow-sm">₹{project.price}</div>
                     <div className="text-[11px] text-gray-200">{project.avgPrice}</div>
-                  </div>
+                  </Link>
                 </div>
 
                 {/* Card Body */}
@@ -187,9 +191,11 @@ export default function TopProjects({
                     {/* Project Title & Builder */}
                     <div className="flex items-start justify-between gap-2">
                       <div>
-                        <h3 className="text-lg font-bold text-[#252525] group-hover:text-[#AE7419] transition-colors line-clamp-1">
-                          {project.name}
-                        </h3>
+                        <Link href={`/projects/${projectSlug}`}>
+                          <h3 className="text-lg font-bold text-[#252525] group-hover:text-[#AE7419] transition-colors line-clamp-1">
+                            {project.name}
+                          </h3>
+                        </Link>
                         <p className="text-xs text-gray-500 font-medium">
                           By {project.builder}
                         </p>
@@ -227,12 +233,13 @@ export default function TopProjects({
                       <PhoneCall className="w-3.5 h-3.5" />
                       <span>Enquire Now</span>
                     </button>
-                    <button
-                      onClick={() => onInquireProject && onInquireProject(project)}
-                      className="px-3.5 py-2.5 rounded-xl border border-[#E8E3DA] hover:border-[#D29324] bg-white text-gray-700 text-xs font-semibold transition-colors flex items-center justify-center cursor-pointer"
+                    <Link
+                      href={`/projects/${projectSlug}`}
+                      className="px-3.5 py-2.5 rounded-xl border border-[#E8E3DA] hover:border-[#D29324] bg-white text-gray-700 hover:text-[#AE7419] text-xs font-semibold transition-colors flex items-center justify-center cursor-pointer"
+                      title="View Project Details"
                     >
                       <Eye className="w-3.5 h-3.5" />
-                    </button>
+                    </Link>
                   </div>
                 </div>
               </div>

@@ -36,6 +36,7 @@ import {
   getRelatedDevelopers,
   getAllDevelopers
 } from "@/data/developersData";
+import { getProjectSlug } from "@/data";
 
 function DeveloperDetailContent() {
   const params = useParams();
@@ -415,6 +416,7 @@ function DeveloperDetailContent() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {displayedProjects.map((project) => {
                 const activeImgIdx = projectImageIndexes[project.id] || 0;
+                const projectSlug = project.slug || getProjectSlug(project);
                 const images = project.images || [
                   "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80"
                 ];
@@ -427,15 +429,17 @@ function DeveloperDetailContent() {
                     <div>
                       {/* Image Gallery Header with Slide Controls */}
                       <div className="relative h-52 w-full bg-gray-100 overflow-hidden">
-                        <img
-                          src={images[activeImgIdx]}
-                          alt={project.title}
-                          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                        />
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/30" />
+                        <Link href={`/projects/${projectSlug}`} className="block w-full h-full">
+                          <img
+                            src={images[activeImgIdx]}
+                            alt={project.title}
+                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                          />
+                        </Link>
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/30 pointer-events-none" />
 
                         {/* Top Badges */}
-                        <div className="absolute top-3 left-3 right-3 flex items-center justify-between">
+                        <div className="absolute top-3 left-3 right-3 flex items-center justify-between pointer-events-none">
                           <span className="px-2.5 py-1 rounded-full text-[11px] font-extrabold bg-[#D29324] text-white shadow-xs">
                             {project.tag || "Verified Project"}
                           </span>
@@ -467,7 +471,7 @@ function DeveloperDetailContent() {
 
                         {/* Bottom Image Indicators */}
                         {images.length > 1 && (
-                          <div className="absolute bottom-2 left-0 right-0 flex justify-center gap-1.5">
+                          <div className="absolute bottom-2 left-0 right-0 flex justify-center gap-1.5 pointer-events-none">
                             {images.map((_, i) => (
                               <div
                                 key={i}
@@ -485,9 +489,11 @@ function DeveloperDetailContent() {
                         {/* Title & Price */}
                         <div className="flex items-start justify-between gap-2">
                           <div>
-                            <h3 className="text-base font-extrabold text-[#252525] group-hover:text-[#AE7419] transition-colors line-clamp-1">
-                              {project.title}
-                            </h3>
+                            <Link href={`/projects/${projectSlug}`}>
+                              <h3 className="text-base font-extrabold text-[#252525] group-hover:text-[#AE7419] transition-colors line-clamp-1">
+                                {project.title}
+                              </h3>
+                            </Link>
                             <div className="flex items-center gap-1.5 text-xs text-[#6B7280] mt-0.5">
                               <MapPin className="w-3.5 h-3.5 text-[#D29324] shrink-0" />
                               <span className="truncate">{project.location}</span>
@@ -555,7 +561,7 @@ function DeveloperDetailContent() {
                       </button>
 
                       <Link
-                        href={`/${project.city || "mumbai"}/buy/${project.slug}`}
+                        href={`/projects/${projectSlug}`}
                         className="px-3.5 py-2.5 rounded-xl border border-[#E8E3DA] hover:border-[#D29324] bg-white text-[#252525] hover:text-[#AE7419] text-xs font-bold transition-all flex items-center justify-center gap-1 cursor-pointer"
                       >
                         <Eye className="w-3.5 h-3.5" />

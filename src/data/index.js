@@ -447,3 +447,10 @@ export const FOOTER_LINKS = {
     { label: "Aura Mobile App for Agents", href: "#" }
   ]
 };
+
+export {
+  CANONICAL_PROJECTS,
+  getProjectSlug,
+  getProjectBySlug,
+  getAllProjectSlugs
+} from "./projectsData";
