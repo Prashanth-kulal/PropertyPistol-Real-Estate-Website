@@ -13,6 +13,7 @@ import {
   Sparkles
 } from "lucide-react";
 import { CITIES, PROJECTS, getProjectSlug } from "@/data";
+import WishlistButton from "@/components/common/WishlistButton";
 
 export default function TopProjects({
   selectedCity,
@@ -146,6 +147,11 @@ export default function TopProjects({
                     <span className="px-2 py-0.5 rounded-md bg-black/60 backdrop-blur-xs text-white text-[10px] font-medium">
                       RERA: {project.rera}
                     </span>
+                  </div>
+
+                  {/* Wishlist Heart Button */}
+                  <div className="absolute top-3 right-3 z-20">
+                    <WishlistButton project={project} size="md" variant="floating" />
                   </div>
 
                   {/* Image Carousel Arrows */}

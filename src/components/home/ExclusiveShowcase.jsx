@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { Sparkles, Crown, ArrowRight, ChevronLeft, ChevronRight, MapPin, Building, Eye } from "lucide-react";
 import { EXCLUSIVE_PROJECTS, getProjectSlug } from "@/data";
+import WishlistButton from "@/components/common/WishlistButton";
 
 export default function ExclusiveShowcase({ onInquireProject }) {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -56,6 +57,11 @@ export default function ExclusiveShowcase({ onInquireProject }) {
                   <Sparkles className="w-3.5 h-3.5" />
                   {current.badge}
                 </span>
+              </div>
+
+              {/* Wishlist Heart Button */}
+              <div className="absolute top-5 right-5 z-20">
+                <WishlistButton project={current} size="lg" variant="floating" />
               </div>
 
               {/* Slider Arrows */}

@@ -15,6 +15,7 @@ import {
   Globe2,
   ArrowRight
 } from "lucide-react";
+import { useWishlist } from "@/context/WishlistContext";
 
 export default function Header({
   selectedCity,
@@ -22,6 +23,7 @@ export default function Header({
   onOpenAiModal
 }) {
   const pathname = usePathname();
+  const { savedCount } = useWishlist();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [servicesDropdownOpen, setServicesDropdownOpen] = useState(false);
   const dropdownRef = useRef(null);
@@ -211,21 +213,25 @@ export default function Header({
 
         {/* Right: Utility Area (WhatsApp, Toll Free, Wishlist, Profile) */}
         <div className="hidden sm:flex items-center gap-5">
-          {/* WhatsApp Talk to us */}
+          {/* WhatsApp Talk to us with Balanced Circular Icon */}
           <a
             href="https://wa.me/918080190190?text=Hi%20AuraLiving"
             target="_blank"
             rel="noreferrer"
-            className="flex flex-col items-start leading-tight group"
+            className="flex items-center gap-2.5 group cursor-pointer"
+            title="Talk to us on WhatsApp (+91 8080 190190)"
+            aria-label="Talk to us on WhatsApp"
           >
-            <span className="text-[10px] text-gray-400 font-normal">WhatsApp</span>
-            <div className="flex items-center gap-1.5 text-[12.5px] font-semibold text-gray-800 group-hover:text-[#25D366] transition-colors">
-              <span className="w-3.5 h-3.5 text-[#25D366] flex items-center justify-center">
-                <svg className="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24">
-                  <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.311.045-.698.056-2.072-.511-1.636-.677-2.738-2.317-2.82-2.427-.08-.109-.661-.881-.661-1.68 0-.8.419-1.192.569-1.353.15-.162.329-.202.439-.202.11 0 .22.002.316.007.102.006.239-.039.373.284.144.35.492 1.202.535 1.29.043.088.072.19.014.306-.058.115-.088.188-.175.29-.088.102-.185.228-.264.306-.088.087-.18.182-.077.359.102.175.455.751.977 1.216.671.597 1.238.783 1.413.87.175.088.277.073.38-.044.103-.117.439-.511.556-.686.117-.175.234-.146.395-.088.161.058 1.023.482 1.199.57.175.088.293.131.336.204.044.074.044.431-.1.836z" />
-                </svg>
+            <div className="w-8.5 h-8.5 rounded-full bg-[#E7FCE8] text-[#25D366] border border-[#25D366]/30 flex items-center justify-center shrink-0 transition-all shadow-2xs group-hover:scale-105 group-hover:bg-[#25D366] group-hover:text-white">
+              <svg className="w-5 h-5 fill-current shrink-0" viewBox="0 0 24 24">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+              </svg>
+            </div>
+            <div className="flex flex-col items-start leading-tight">
+              <span className="text-[10px] text-gray-400 font-normal">WhatsApp</span>
+              <span className="text-[12.5px] font-bold text-gray-900 group-hover:text-[#25D366] transition-colors">
+                Talk to us
               </span>
-              <span>Talk to us</span>
             </div>
           </a>
 
@@ -243,30 +249,95 @@ export default function Header({
             </span>
           </a>
 
-          {/* Wishlist Heart Icon */}
-          <button
-            type="button"
-            className="w-8 h-8 rounded-full flex items-center justify-center text-gray-400 hover:text-red-500 hover:bg-gray-50 transition-colors ml-1 cursor-pointer"
-            title="Saved Properties"
+          {/* Wishlist Heart Link with Real-time Count */}
+          <Link
+            href="/saved-properties"
+            className={`relative w-8.5 h-8.5 rounded-full flex items-center justify-center transition-all cursor-pointer group ${
+              pathname === "/saved-properties"
+                ? "bg-rose-50 text-rose-500 ring-2 ring-rose-300"
+                : "text-gray-500 hover:text-rose-500 hover:bg-rose-50/80"
+            }`}
+            title={savedCount > 0 ? `Saved Properties (${savedCount})` : "Saved Properties"}
+            aria-label={`Saved Properties, ${savedCount} properties saved`}
           >
-            <Heart className="w-4.5 h-4.5" />
-          </button>
+            <Heart
+              className={`w-4.5 h-4.5 transition-colors ${
+                savedCount > 0
+                  ? "text-rose-500 fill-rose-500"
+                  : "group-hover:text-rose-500"
+              }`}
+            />
+            {savedCount > 0 && (
+              <span className="absolute -top-1 -right-1 min-w-[18px] h-[18px] px-1 rounded-full bg-rose-500 text-white text-[9px] font-black flex items-center justify-center shadow-xs border-2 border-white animate-in zoom-in-50 duration-200">
+                {savedCount > 9 ? "9+" : savedCount}
+              </span>
+            )}
+          </Link>
 
-          {/* User Account Avatar */}
-          <button
-            type="button"
-            className="w-8 h-8 rounded-full bg-gray-200 text-gray-500 hover:bg-gray-300 flex items-center justify-center transition-colors cursor-pointer"
-            title="User Account"
+          {/* User Account Icon -> Post Property (Matching PropertyPistol behavior) */}
+          <Link
+            href="/post-property"
+            className={`w-8.5 h-8.5 rounded-full flex items-center justify-center transition-all cursor-pointer border ${
+              pathname === "/post-property"
+                ? "bg-[#FBF1DF] text-[#AE7419] border-[#D29324] shadow-xs"
+                : "bg-gray-100 hover:bg-[#FBF1DF] text-gray-600 hover:text-[#AE7419] border-gray-200/80 hover:border-[#D29324]/40"
+            }`}
+            title="Post Property (Free)"
+            aria-label="Post Property"
           >
             <User className="w-4 h-4" />
-          </button>
+          </Link>
         </div>
 
-        {/* Mobile Menu Button */}
+        {/* Mobile Header Right: Quick WhatsApp + Quick Heart + Quick Account + Menu Toggle */}
         <div className="flex sm:hidden items-center gap-2">
+          {/* Quick WhatsApp on Mobile with Balanced Circle */}
+          <a
+            href="https://wa.me/918080190190?text=Hi%20AuraLiving"
+            target="_blank"
+            rel="noreferrer"
+            className="w-8 h-8 rounded-full bg-[#E7FCE8] text-[#25D366] border border-[#25D366]/30 flex items-center justify-center transition-all shadow-2xs hover:bg-[#25D366] hover:text-white shrink-0"
+            title="Chat on WhatsApp"
+            aria-label="Chat on WhatsApp"
+          >
+            <svg className="w-4.5 h-4.5 fill-current shrink-0" viewBox="0 0 24 24">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+            </svg>
+          </a>
+
+          {/* Quick Heart on Mobile */}
+          <Link
+            href="/saved-properties"
+            className="relative w-8 h-8 rounded-full flex items-center justify-center text-gray-600 hover:text-rose-500"
+            title="Saved Properties"
+            aria-label={`Saved Properties (${savedCount})`}
+          >
+            <Heart
+              className={`w-4.5 h-4.5 ${
+                savedCount > 0 ? "text-rose-500 fill-rose-500" : ""
+              }`}
+            />
+            {savedCount > 0 && (
+              <span className="absolute -top-1 -right-1 min-w-4 h-4 px-1 rounded-full bg-rose-500 text-white text-[9px] font-black flex items-center justify-center border border-white">
+                {savedCount > 9 ? "9+" : savedCount}
+              </span>
+            )}
+          </Link>
+
+          {/* Quick User -> Post Property on Mobile */}
+          <Link
+            href="/post-property"
+            className="w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center text-gray-600 hover:text-[#D29324]"
+            title="Post Property"
+            aria-label="Post Property"
+          >
+            <User className="w-4 h-4" />
+          </Link>
+
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="p-2 rounded-lg text-gray-700 hover:bg-gray-100"
+            className="p-1.5 rounded-lg text-gray-700 hover:bg-gray-100 cursor-pointer"
+            aria-label="Toggle mobile navigation menu"
           >
             {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
@@ -276,6 +347,38 @@ export default function Header({
       {/* Mobile Menu Drawer */}
       {mobileMenuOpen && (
         <div className="sm:hidden border-t border-gray-200 bg-white px-5 py-4 space-y-3 shadow-lg">
+          <Link
+            href="/saved-properties"
+            onClick={() => setMobileMenuOpen(false)}
+            className="flex items-center justify-between text-sm font-semibold text-gray-800 py-2 border-b border-gray-100 hover:text-[#D29324]"
+          >
+            <span className="flex items-center gap-2.5">
+              <Heart className={`w-4.5 h-4.5 ${savedCount > 0 ? "fill-rose-500 text-rose-500" : "text-gray-400"}`} />
+              <span>Saved Properties</span>
+            </span>
+            {savedCount > 0 ? (
+              <span className="px-2 py-0.5 rounded-full bg-rose-500 text-white text-[10px] font-bold">
+                {savedCount} Saved
+              </span>
+            ) : (
+              <span className="text-xs text-gray-400 font-normal">0</span>
+            )}
+          </Link>
+
+          <Link
+            href="/post-property"
+            onClick={() => setMobileMenuOpen(false)}
+            className="flex items-center justify-between text-sm font-semibold text-gray-800 py-2 border-b border-gray-100 hover:text-[#D29324]"
+          >
+            <span className="flex items-center gap-2.5">
+              <User className="w-4.5 h-4.5 text-gray-400" />
+              <span>Post Property</span>
+            </span>
+            <span className="px-1.5 py-0.5 rounded-xs bg-[#5B51D8] text-white text-[9px] font-bold">
+              FREE
+            </span>
+          </Link>
+
           <Link
             href="/why-us"
             onClick={() => setMobileMenuOpen(false)}

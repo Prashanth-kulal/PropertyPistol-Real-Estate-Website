@@ -30,6 +30,7 @@ import CitySelectorModal from "@/components/common/CitySelectorModal";
 import EmiCalculatorModal from "@/components/common/EmiCalculatorModal";
 import UnitConverterModal from "@/components/common/UnitConverterModal";
 import AuraAiModal from "@/components/common/AuraAiModal";
+import WishlistButton from "@/components/common/WishlistButton";
 
 import {
   getDeveloperBySlug,
@@ -439,7 +440,7 @@ function DeveloperDetailContent() {
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/30 pointer-events-none" />
 
                         {/* Top Badges */}
-                        <div className="absolute top-3 left-3 right-3 flex items-center justify-between pointer-events-none">
+                        <div className="absolute top-3 left-3 flex items-center gap-1.5 pointer-events-none z-10">
                           <span className="px-2.5 py-1 rounded-full text-[11px] font-extrabold bg-[#D29324] text-white shadow-xs">
                             {project.tag || "Verified Project"}
                           </span>
@@ -447,6 +448,11 @@ function DeveloperDetailContent() {
                           <span className="px-2.5 py-1 rounded-full text-[11px] font-bold bg-white/90 text-[#252525] backdrop-blur-xs">
                             {project.status}
                           </span>
+                        </div>
+
+                        {/* Wishlist Heart Button */}
+                        <div className="absolute top-3 right-3 z-20">
+                          <WishlistButton project={project} size="md" variant="floating" />
                         </div>
 
                         {/* Arrows for multi-image */}

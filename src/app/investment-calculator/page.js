@@ -21,7 +21,8 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import CitySelectorModal from "@/components/common/CitySelectorModal";
 import AuraAiModal from "@/components/common/AuraAiModal";
-import { CITIES, PROJECTS } from "@/data";
+import WishlistButton from "@/components/common/WishlistButton";
+import { CITIES, PROJECTS, getProjectSlug } from "@/data";
 
 // Indian Digit-to-Words converter matching PropertyPistol exact implementation
 function digitToWords(e) {
@@ -476,15 +477,21 @@ export default function InvestmentCalculatorPage() {
               >
                 <div>
                   <div className="relative aspect-[16/10] overflow-hidden">
-                    <img
-                      src={proj.images[0]}
-                      alt={proj.name}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                    />
-                    <div className="absolute top-3 left-3 bg-[#D29324] text-white text-[10px] font-bold px-2 py-0.5 rounded-md uppercase">
+                    <Link href={`/projects/${getProjectSlug(proj)}`} className="block w-full h-full">
+                      <img
+                        src={proj.images[0]}
+                        alt={proj.name}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      />
+                    </Link>
+                    <div className="absolute top-3 left-3 bg-[#D29324] text-white text-[10px] font-bold px-2 py-0.5 rounded-md uppercase pointer-events-none">
                       {proj.tag || "High ROI"}
                     </div>
-                    <div className="absolute bottom-3 right-3 bg-white/90 backdrop-blur-md px-2 py-0.5 rounded text-[11px] font-bold text-[#252525] flex items-center gap-1">
+                    {/* Wishlist Button */}
+                    <div className="absolute top-3 right-3 z-20">
+                      <WishlistButton project={proj} size="sm" variant="floating" />
+                    </div>
+                    <div className="absolute bottom-3 right-3 bg-white/90 backdrop-blur-md px-2 py-0.5 rounded text-[11px] font-bold text-[#252525] flex items-center gap-1 pointer-events-none">
                       <Star className="w-3 h-3 text-amber-500 fill-amber-500" />
                       {proj.rating}
                     </div>
@@ -492,9 +499,11 @@ export default function InvestmentCalculatorPage() {
 
                   <div className="p-5 space-y-2">
                     <span className="text-xs text-[#6B7280] font-semibold">{proj.builder}</span>
-                    <h4 className="text-base font-bold text-[#252525] group-hover:text-[#AE7419] transition-colors">
-                      {proj.name}
-                    </h4>
+                    <Link href={`/projects/${getProjectSlug(proj)}`}>
+                      <h4 className="text-base font-bold text-[#252525] group-hover:text-[#AE7419] transition-colors line-clamp-1">
+                        {proj.name}
+                      </h4>
+                    </Link>
                     <div className="flex items-center gap-1 text-xs text-[#6B7280]">
                       <MapPin className="w-3.5 h-3.5 text-[#D29324]" />
                       <span>{proj.location}</span>
@@ -508,7 +517,7 @@ export default function InvestmentCalculatorPage() {
                     <span className="text-sm font-extrabold text-[#AE7419]">₹ {proj.price}</span>
                   </div>
                   <Link
-                    href="/#shots"
+                    href={`/projects/${getProjectSlug(proj)}`}
                     className="px-3.5 py-1.5 rounded-xl bg-[#FAF8F4] border border-[#E8E3DA] text-xs font-bold text-[#252525] hover:bg-[#D29324] hover:text-white transition-colors"
                   >
                     View Project

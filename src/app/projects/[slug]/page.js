@@ -69,6 +69,8 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import CitySelectorModal from "@/components/common/CitySelectorModal";
 import AuraAiModal from "@/components/common/AuraAiModal";
+import WishlistButton from "@/components/common/WishlistButton";
+import { useWishlist } from "@/context/WishlistContext";
 
 import {
   getProjectBySlug,
@@ -2036,8 +2038,9 @@ function ProjectDetailContent() {
     setTimeout(() => setToast(""), 3500);
   }, []);
 
-  // Save / Share
-  const [isSaved, setIsSaved] = useState(false);
+  // Save / Share via Centralized Wishlist
+  const { isSaved: checkIsSaved, toggleSave } = useWishlist();
+  const isSaved = project ? checkIsSaved(project.id || project.slug) : false;
 
   const handleShare = () => {
     if (typeof window !== "undefined") {
@@ -2047,11 +2050,9 @@ function ProjectDetailContent() {
   };
 
   const handleToggleSave = () => {
-    setIsSaved((prev) => {
-      const next = !prev;
-      showToast(next ? "Project saved to favorites!" : "Removed from favorites.");
-      return next;
-    });
+    if (project) {
+      toggleSave(project);
+    }
   };
 
   // Sticky in-page navigation sections (strictly matching DOM section flow)
@@ -2755,29 +2756,36 @@ function ProjectDetailContent() {
                   key={rel.slug}
                   className="rounded-2xl border border-[#E8E3DA] bg-white overflow-hidden hover:shadow-lg transition-all group"
                 >
-                  <Link
-                    href={`/projects/${rel.slug}`}
-                    className="block relative h-48 bg-gray-100 overflow-hidden"
-                  >
-                    <img
-                      src={
-                        rel.images?.[0] ||
-                        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80"
-                      }
-                      alt={rel.title}
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-                    <span className="absolute top-3 left-3 px-2 py-0.5 rounded-md bg-[#EA580C] text-white text-[10px] font-bold uppercase">
-                      {rel.tag || "Verified"}
-                    </span>
-                    <div className="absolute bottom-3 left-3 text-white">
-                      <div className="text-base font-black">₹{rel.price}</div>
-                      <div className="text-[11px] text-gray-300">
-                        {rel.flatTypes}
+                  <div className="relative h-48 bg-gray-100 overflow-hidden">
+                    <Link
+                      href={`/projects/${rel.slug}`}
+                      className="block w-full h-full"
+                    >
+                      <img
+                        src={
+                          rel.images?.[0] ||
+                          "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80"
+                        }
+                        alt={rel.title}
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent pointer-events-none" />
+                      <span className="absolute top-3 left-3 px-2 py-0.5 rounded-md bg-[#D29324] text-white text-[10px] font-bold uppercase pointer-events-none">
+                        {rel.tag || "Verified"}
+                      </span>
+                      <div className="absolute bottom-3 left-3 text-white pointer-events-none">
+                        <div className="text-base font-black">₹{rel.price}</div>
+                        <div className="text-[11px] text-gray-300">
+                          {rel.flatTypes}
+                        </div>
                       </div>
+                    </Link>
+
+                    {/* Wishlist Button */}
+                    <div className="absolute top-3 right-3 z-20">
+                      <WishlistButton project={rel} size="sm" variant="floating" />
                     </div>
-                  </Link>
+                  </div>
 
                   <div className="p-4 space-y-2">
                     <span className="text-[10px] font-bold text-[#AE7419] uppercase block truncate">

@@ -31,6 +31,7 @@ import Footer from "@/components/layout/Footer";
 import CitySelectorModal from "@/components/common/CitySelectorModal";
 import ProjectInquiryModal from "@/components/common/ProjectInquiryModal";
 import AuraAiModal from "@/components/common/AuraAiModal";
+import WishlistButton from "@/components/common/WishlistButton";
 import { CITIES, getProjectSlug } from "@/data";
 import { getCityDetails, getPropertiesForCity } from "@/data/cityData";
 import { resolveCategory } from "@/data/categoryData";
@@ -537,18 +538,9 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
                     </div>
 
                     {/* Wishlist Button */}
-                    <button
-                      type="button"
-                      onClick={(e) => handleToggleWishlist(project.id, e)}
-                      className={`absolute top-3 right-3 w-8 h-8 rounded-full flex items-center justify-center transition-all z-10 ${
-                        isSaved
-                          ? "bg-rose-500 text-white shadow-md"
-                          : "bg-white/80 hover:bg-white text-gray-700 hover:text-rose-500 shadow-sm"
-                      }`}
-                      title={isSaved ? "Remove from Favorites" : "Save Property"}
-                    >
-                      <Heart className={`w-4 h-4 ${isSaved ? "fill-current" : ""}`} />
-                    </button>
+                    <div className="absolute top-3 right-3 z-20">
+                      <WishlistButton project={project} size="md" variant="floating" />
+                    </div>
 
                     {/* Image Prev/Next Navigation */}
                     {images.length > 1 && (

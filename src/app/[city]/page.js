@@ -41,6 +41,7 @@ import EmiCalculatorModal from "@/components/common/EmiCalculatorModal";
 import UnitConverterModal from "@/components/common/UnitConverterModal";
 import AuraAiModal from "@/components/common/AuraAiModal";
 import CommuteTimeModal from "@/components/common/CommuteTimeModal";
+import WishlistButton from "@/components/common/WishlistButton";
 import { CITIES, DEVELOPERS, getProjectSlug } from "@/data";
 import {
   getCityDetails,
@@ -231,18 +232,9 @@ function CityPageContent() {
           </div>
 
           {/* Wishlist Button */}
-          <button
-            type="button"
-            onClick={(e) => handleToggleWishlist(project.id, e)}
-            className={`absolute top-3 right-3 w-8 h-8 rounded-full flex items-center justify-center transition-all z-10 ${
-              isSaved
-                ? "bg-rose-500 text-white shadow-md"
-                : "bg-white/80 hover:bg-white text-gray-700 hover:text-rose-500 shadow-sm"
-            }`}
-            title="Save Property"
-          >
-            <Heart className={`w-4 h-4 ${isSaved ? "fill-current" : ""}`} />
-          </button>
+          <div className="absolute top-3 right-3 z-20">
+            <WishlistButton project={project} size="md" variant="floating" />
+          </div>
 
           {/* Price Tag Overlay */}
           <Link href={`/projects/${projectSlug}`} className="absolute bottom-3 inset-x-3 flex items-end justify-between z-10 text-white">

@@ -27,7 +27,8 @@ import {
   Star,
   Check
 } from "lucide-react";
-import { PROJECTS, CITIES } from "@/data";
+import { PROJECTS, CITIES, getProjectSlug } from "@/data";
+import WishlistButton from "@/components/common/WishlistButton";
 
 // Initial Suggestion Prompts matching PropertyPistol reference
 const REFERENCE_PROMPTS = [
@@ -541,12 +542,18 @@ export default function AskAiPage() {
                                 >
                                   <div>
                                     <div className="flex justify-between items-start gap-2 mb-1.5">
-                                      <h4 className="text-xs font-bold text-[#252525] group-hover:text-[#AE7419] transition-colors line-clamp-1">
+                                      <Link
+                                        href={`/projects/${getProjectSlug(proj)}`}
+                                        className="text-xs font-bold text-[#252525] group-hover:text-[#AE7419] transition-colors line-clamp-1 flex-1"
+                                      >
                                         {proj.name}
-                                      </h4>
-                                      <span className="text-[10px] font-bold text-[#D29324] shrink-0">
-                                        ₹{proj.price}
-                                      </span>
+                                      </Link>
+                                      <div className="flex items-center gap-1 shrink-0">
+                                        <span className="text-[10px] font-bold text-[#D29324]">
+                                          ₹{proj.price}
+                                        </span>
+                                        <WishlistButton project={proj} size="sm" variant="minimal" />
+                                      </div>
                                     </div>
                                     <div className="flex items-center gap-1 text-[11px] text-[#6B7280] mb-2">
                                       <MapPin className="w-3 h-3 text-gray-400 shrink-0" />
