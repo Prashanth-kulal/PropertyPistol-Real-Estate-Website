@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import { useRouter } from "next/navigation";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import HeroBanner from "@/components/home/HeroBanner";
@@ -22,6 +23,7 @@ import UnitConverterModal from "@/components/common/UnitConverterModal";
 import AuraAiModal from "@/components/common/AuraAiModal";
 
 export default function HomePage() {
+  const router = useRouter();
   const [selectedCity, setSelectedCity] = useState("mumbai");
   const [searchQuery, setSearchQuery] = useState("");
 
@@ -49,7 +51,10 @@ export default function HomePage() {
       {/* 2. Hero Banner & Search Panel */}
       <HeroBanner
         selectedCity={selectedCity}
-        onSelectCity={(cityId) => setSelectedCity(cityId)}
+        onSelectCity={(cityId) => {
+          setSelectedCity(cityId);
+          router.push(`/${cityId}`);
+        }}
         onOpenCityModal={() => setIsCityModalOpen(true)}
         onOpenAiModal={() => setIsAiModalOpen(true)}
         onSearch={(query) => setSearchQuery(query)}
@@ -102,7 +107,11 @@ export default function HomePage() {
         isOpen={isCityModalOpen}
         onClose={() => setIsCityModalOpen(false)}
         selectedCity={selectedCity}
-        onSelectCity={(cityId) => setSelectedCity(cityId)}
+        onSelectCity={(cityId) => {
+          setSelectedCity(cityId);
+          setIsCityModalOpen(false);
+          router.push(`/${cityId}`);
+        }}
       />
 
       <ProjectInquiryModal

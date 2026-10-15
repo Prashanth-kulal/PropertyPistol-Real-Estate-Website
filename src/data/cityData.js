@@ -356,6 +356,203 @@ export const CITY_DETAILS = {
         a: "Luxury gated villas in Assagao, Siolim, and Anjuna generate 6% to 9% net annual rental yields through managed vacation rental operators."
       }
     ]
+  },
+
+  lucknow: {
+    id: "lucknow",
+    name: "Lucknow",
+    state: "Uttar Pradesh",
+    tagline: "The City of Nawabs & Rapidly Growing North Indian Urban Hub",
+    heroImage: "https://images.unsplash.com/photo-1629853692882-990a424ca6b8?auto=format&fit=crop&w=1600&q=80",
+    projectsCount: 290,
+    avgPriceSqFt: "₹5,400",
+    appreciationRate: "+12.4% YoY",
+    rentalYield: "4.1% p.a.",
+    reraAuthority: "UP RERA",
+    stampDuty: "7%",
+    description: "Lucknow is rapidly transforming into North India's premier residential destination with modern infrastructure like the Lucknow Metro, Kisan Path, and high-speed expressway corridors.",
+    localities: [
+      { name: "Gomti Nagar Extension", avgPrice: "₹6,800 / sq.ft", projects: 54, tag: "IT & Waterfront" },
+      { name: "Amar Shaheed Path", avgPrice: "₹6,200 / sq.ft", projects: 62, tag: "Fast Transit Corridor" },
+      { name: "Hazratganj", avgPrice: "₹14,000 / sq.ft", projects: 18, tag: "Prime Heritage" },
+      { name: "Sushant Golf City", avgPrice: "₹5,900 / sq.ft", projects: 48, tag: "Golf & Gated Living" },
+      { name: "Indira Nagar", avgPrice: "₹7,200 / sq.ft", projects: 32, tag: "Established Core" }
+    ],
+    faqs: [
+      {
+        q: "What are the highest appreciation corridors in Lucknow?",
+        a: "Amar Shaheed Path and Gomti Nagar Extension are witnessing rapid capital appreciation due to the IT City, Ekana Stadium, and expanding retail infra."
+      },
+      {
+        q: "Are all Lucknow developments UP-RERA registered?",
+        a: "Yes, 100% of the properties listed on AuraLiving are strictly verified against the UP RERA portal with valid registration numbers."
+      }
+    ]
+  },
+
+  kochi: {
+    id: "kochi",
+    name: "Kochi",
+    state: "Kerala",
+    tagline: "Queen of the Arabian Sea & Kerala's Premier Commercial & IT Epicenter",
+    heroImage: "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&w=1600&q=80",
+    projectsCount: 210,
+    avgPriceSqFt: "₹6,800",
+    appreciationRate: "+10.8% YoY",
+    rentalYield: "4.3% p.a.",
+    reraAuthority: "K-RERA (Kerala)",
+    stampDuty: "8% (incl. registration)",
+    description: "Kochi provides unmatched waterfront tranquility coupled with booming tech employment in Infopark Kakkanad and seamless transit via Kochi Metro and Water Metro.",
+    localities: [
+      { name: "Marine Drive", avgPrice: "₹14,500 / sq.ft", projects: 25, tag: "Waterfront Towers" },
+      { name: "Kakkanad", avgPrice: "₹5,800 / sq.ft", projects: 68, tag: "Infopark IT Hub" },
+      { name: "Edappally", avgPrice: "₹7,400 / sq.ft", projects: 42, tag: "Metro & Retail Hub" },
+      { name: "Panampilly Nagar", avgPrice: "₹11,000 / sq.ft", projects: 20, tag: "Boutique Enclave" },
+      { name: "Aluva", avgPrice: "₹5,200 / sq.ft", projects: 30, tag: "Riverfront Transit" }
+    ],
+    faqs: [
+      {
+        q: "How has the Kochi Water Metro impacted real estate?",
+        a: "Water Metro connectivity has boosted property values in island peripheries and along riverfront corridors like Marine Drive and Kakkanad."
+      }
+    ]
+  },
+
+  coimbatore: {
+    id: "coimbatore",
+    name: "Coimbatore",
+    state: "Tamil Nadu",
+    tagline: "The Manchester of South India & Thriving Industrial/IT Center",
+    heroImage: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80",
+    projectsCount: 160,
+    avgPriceSqFt: "₹5,600",
+    appreciationRate: "+11.1% YoY",
+    rentalYield: "4.0% p.a.",
+    reraAuthority: "TNRERA",
+    stampDuty: "7% + 4% Registration",
+    description: "Coimbatore combines pleasant climate, top-tier healthcare and educational institutions, and thriving engineering and IT corridors along Avinashi Road and Saravanampatti.",
+    localities: [
+      { name: "RS Puram", avgPrice: "₹12,800 / sq.ft", projects: 22, tag: "Prime Downtown" },
+      { name: "Race Course", avgPrice: "₹15,500 / sq.ft", projects: 16, tag: "Ultra Luxury" },
+      { name: "Saravanampatti", avgPrice: "₹5,200 / sq.ft", projects: 45, tag: "IT & Tech SEZ" },
+      { name: "Avinashi Road", avgPrice: "₹7,600 / sq.ft", projects: 38, tag: "Commercial Corridor" },
+      { name: "Peelamedu", avgPrice: "₹6,400 / sq.ft", projects: 28, tag: "Airport Proximity" }
+    ],
+    faqs: [
+      {
+        q: "Why is Saravanampatti popular for real estate investment in Coimbatore?",
+        a: "Saravanampatti houses multiple IT special economic zones (SEZs) and colleges, ensuring strong, steady rental demand from young professionals."
+      }
+    ]
+  },
+
+  nagpur: {
+    id: "nagpur",
+    name: "Nagpur",
+    state: "Maharashtra",
+    tagline: "The Orange City & Zero-Mile Logistics and MIHAN Industrial Hub",
+    heroImage: "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1600&q=80",
+    projectsCount: 150,
+    avgPriceSqFt: "₹4,900",
+    appreciationRate: "+12.0% YoY",
+    rentalYield: "4.2% p.a.",
+    reraAuthority: "MahaRERA",
+    stampDuty: "6% (incl. 1% Metro Cess)",
+    description: "Nagpur stands at the geographic heart of India, driven by the Samruddhi Mahamarg expressway, expanding Nagpur Metro, and rapid aerospace/IT expansion in MIHAN.",
+    localities: [
+      { name: "Wardha Road", avgPrice: "₹5,600 / sq.ft", projects: 44, tag: "Metro & Airport Corridor" },
+      { name: "MIHAN", avgPrice: "₹4,800 / sq.ft", projects: 36, tag: "Special Economic Zone" },
+      { name: "Dharampeth", avgPrice: "₹11,500 / sq.ft", projects: 18, tag: "Central Heritage" },
+      { name: "Besa", avgPrice: "₹4,500 / sq.ft", projects: 32, tag: "Fast Transit Suburb" },
+      { name: "Civil Lines", avgPrice: "₹13,000 / sq.ft", projects: 14, tag: "Green Enclave" }
+    ],
+    faqs: [
+      {
+        q: "What makes Wardha Road and MIHAN prime corridors in Nagpur?",
+        a: "Direct connectivity to Dr. Babasaheb Ambedkar International Airport, Nagpur Metro Line 1, and AIIMS makes Wardha Road the city's fastest-appreciating stretch."
+      }
+    ]
+  },
+
+  thrissur: {
+    id: "thrissur",
+    name: "Thrissur",
+    state: "Kerala",
+    tagline: "Cultural Capital of Kerala & Peaceful Residential Sanctuary",
+    heroImage: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=80",
+    projectsCount: 120,
+    avgPriceSqFt: "₹5,100",
+    appreciationRate: "+9.2% YoY",
+    rentalYield: "3.9% p.a.",
+    reraAuthority: "K-RERA (Kerala)",
+    stampDuty: "8%",
+    description: "Thrissur offers rich cultural heritage, leading healthcare centers, and serene luxury gated villas surrounding the iconic Swaraj Round.",
+    localities: [
+      { name: "Swaraj Round", avgPrice: "₹9,800 / sq.ft", projects: 16, tag: "Heart of City" },
+      { name: "Punkunnam", avgPrice: "₹6,200 / sq.ft", projects: 26, tag: "Prime Residential" },
+      { name: "Ayyanthole", avgPrice: "₹5,500 / sq.ft", projects: 28, tag: "Administrative Hub" },
+      { name: "Kolazhy", avgPrice: "₹4,800 / sq.ft", projects: 22, tag: "Green Suburb" }
+    ],
+    faqs: [
+      {
+        q: "Are independent villas in Thrissur in high demand?",
+        a: "Yes, NRI buyers heavily prefer gated villa communities in Punkunnam and Kolazhy for family homes and long-term security."
+      }
+    ]
+  },
+
+  trivandrum: {
+    id: "trivandrum",
+    name: "Trivandrum",
+    state: "Kerala",
+    tagline: "The Green Capital of Kerala & Epicenter of Technopark and Vizhinjam Port",
+    heroImage: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1600&q=80",
+    projectsCount: 130,
+    avgPriceSqFt: "₹5,900",
+    appreciationRate: "+13.5% YoY",
+    rentalYield: "4.5% p.a.",
+    reraAuthority: "K-RERA (Kerala)",
+    stampDuty: "8%",
+    description: "Trivandrum is experiencing monumental growth anchored by the operational Vizhinjam International Seaport and expanding Technopark Phase 3 and 4 IT hubs.",
+    localities: [
+      { name: "Kazhakkoottam", avgPrice: "₹6,800 / sq.ft", projects: 40, tag: "Technopark IT Core" },
+      { name: "Kowdiar", avgPrice: "₹14,200 / sq.ft", projects: 15, tag: "Royal Heritage" },
+      { name: "Sasthamangalam", avgPrice: "₹9,500 / sq.ft", projects: 20, tag: "Prime City Hub" },
+      { name: "Technopark Corridor", avgPrice: "₹6,400 / sq.ft", projects: 32, tag: "High Rental Yield" }
+    ],
+    faqs: [
+      {
+        q: "What is the impact of Vizhinjam Deep Sea Port on Trivandrum property?",
+        a: "Vizhinjam Port has triggered massive commercial, logistic, and residential appreciation across the NH-66 bypass and south Trivandrum."
+      }
+    ]
+  },
+
+  calicut: {
+    id: "calicut",
+    name: "Calicut",
+    state: "Kerala",
+    tagline: "The Historic City of Spices & Dynamic Northern Malabar Commercial Hub",
+    heroImage: "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?auto=format&fit=crop&w=1600&q=80",
+    projectsCount: 110,
+    avgPriceSqFt: "₹5,300",
+    appreciationRate: "+9.5% YoY",
+    rentalYield: "4.0% p.a.",
+    reraAuthority: "K-RERA (Kerala)",
+    stampDuty: "8%",
+    description: "Calicut (Kozhikode) blends historic coastal charm with Cyberpark tech parks, bustling trade markets, and high-quality residential communities.",
+    localities: [
+      { name: "Kozhikode Beach", avgPrice: "₹10,500 / sq.ft", projects: 18, tag: "Scenic Seafront" },
+      { name: "Mavoor Road", avgPrice: "₹7,200 / sq.ft", projects: 24, tag: "Central Commercial" },
+      { name: "Chevayur", avgPrice: "₹5,600 / sq.ft", projects: 22, tag: "Peaceful Residential" },
+      { name: "Palazhi", avgPrice: "₹5,900 / sq.ft", projects: 26, tag: "Cyberpark IT Hub" }
+    ],
+    faqs: [
+      {
+        q: "How is Cyberpark influencing property in Palazhi, Calicut?",
+        a: "Palazhi and Thondayad have emerged as prime residential choices for IT employees due to walking distance to Cyberpark and Hilite City."
+      }
+    ]
   }
 };
 
@@ -952,7 +1149,7 @@ export function getPropertiesForCity(cityId) {
 // -------------------------------------------------------------
 export function getPriceTrendsForCity(cityId = "mumbai") {
   const normId = (cityId || "mumbai").toLowerCase().trim();
-  const city = CITY_DETAILS[normId] || CITY_DETAILS.mumbai;
+  const city = getCityDetails(normId);
 
   const sampleHistorical = [
     { period: "Q1 2023", avgRate: 23200, label: "Q1 '23" },
@@ -1031,7 +1228,7 @@ export function getPriceTrendsForCity(cityId = "mumbai") {
 // -------------------------------------------------------------
 export function getRailTransitForCity(cityId = "mumbai") {
   const normId = (cityId || "mumbai").toLowerCase().trim();
-  const city = CITY_DETAILS[normId] || CITY_DETAILS.mumbai;
+  const city = getCityDetails(normId);
 
   if (normId === "mumbai") {
     return {

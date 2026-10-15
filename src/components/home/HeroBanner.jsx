@@ -1,7 +1,8 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect, useMemo } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import {
   Search,
   Sparkles,
@@ -9,27 +10,105 @@ import {
   LocateFixed,
   SlidersHorizontal,
   Train,
-  Car
+  Car,
+  MapPin,
+  Check
 } from "lucide-react";
 import { CITIES, PROJECTS } from "@/data";
 
 export default function HeroBanner({
   selectedCity,
   isCityPage = false,
+  onSelectCity,
   onOpenCityModal,
   onOpenAiModal,
   onOpenCommuteModal,
   onSearch
 }) {
+  const router = useRouter();
   const [searchInput, setSearchInput] = useState("");
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [activeTab, setActiveTab] = useState("ai");
 
+  // City Dropdown state
+  const [isCityDropdownOpen, setIsCityDropdownOpen] = useState(false);
+  const [citySearchQuery, setCitySearchQuery] = useState("");
+  const [highlightedIndex, setHighlightedIndex] = useState(-1);
+  const cityDropdownRef = useRef(null);
+  const cityInputRef = useRef(null);
+
+  // Close dropdown on click or touch outside
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (cityDropdownRef.current && !cityDropdownRef.current.contains(event.target)) {
+        setIsCityDropdownOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    document.addEventListener("touchstart", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener("touchstart", handleClickOutside);
+    };
+  }, []);
+
   const currentCityObj =
-    CITIES.find((c) => c.id.toLowerCase() === selectedCity.toLowerCase()) || {
+    CITIES.find((c) => c.id.toLowerCase() === (selectedCity || "").toLowerCase()) || {
       name: "Mumbai",
       id: "mumbai"
     };
+
+  // Filter cities for the dropdown
+  const filteredDropdownCities = useMemo(() => {
+    if (!citySearchQuery.trim()) return CITIES;
+    const q = citySearchQuery.toLowerCase().trim();
+    return CITIES.filter(
+      (c) =>
+        c.name.toLowerCase().includes(q) ||
+        (c.state && c.state.toLowerCase().includes(q))
+    );
+  }, [citySearchQuery]);
+
+  const popularCities = useMemo(() => CITIES.filter((c) => c.popular), []);
+
+  const handleCitySelect = (cityId) => {
+    setIsCityDropdownOpen(false);
+    setCitySearchQuery("");
+    setHighlightedIndex(-1);
+    if (onSelectCity) {
+      onSelectCity(cityId);
+    } else {
+      router.push(`/${cityId}`);
+    }
+  };
+
+  const handleKeyDown = (e) => {
+    if (!isCityDropdownOpen) {
+      if (e.key === "ArrowDown" || e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        setIsCityDropdownOpen(true);
+      }
+      return;
+    }
+
+    if (e.key === "Escape") {
+      e.preventDefault();
+      setIsCityDropdownOpen(false);
+    } else if (e.key === "ArrowDown") {
+      e.preventDefault();
+      setHighlightedIndex((prev) => (prev + 1) % filteredDropdownCities.length);
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      setHighlightedIndex((prev) => (prev - 1 + filteredDropdownCities.length) % filteredDropdownCities.length);
+    } else if (e.key === "Enter") {
+      e.preventDefault();
+      if (highlightedIndex >= 0 && highlightedIndex < filteredDropdownCities.length) {
+        handleCitySelect(filteredDropdownCities[highlightedIndex].id);
+      } else if (filteredDropdownCities.length > 0) {
+        handleCitySelect(filteredDropdownCities[0].id);
+      }
+    }
+  };
 
   const handleSearchSubmit = (e) => {
     e?.preventDefault();
@@ -178,16 +257,165 @@ export default function HeroBanner({
             onSubmit={handleSearchSubmit}
             className="p-2 sm:p-2.5 flex flex-col sm:flex-row items-stretch sm:items-center gap-2 relative bg-white rounded-b-2xl"
           >
-            {/* City Selector */}
-            <div className="shrink-0">
+            {/* City Selector Dropdown */}
+            <div className="shrink-0 relative" ref={cityDropdownRef}>
               <button
                 type="button"
-                onClick={onOpenCityModal}
-                className="w-full sm:w-auto flex items-center justify-between sm:justify-start gap-1.5 px-3 py-2 text-xs sm:text-[13.5px] font-semibold text-gray-700 hover:text-gray-900 transition-colors cursor-pointer"
+                id="city-dropdown-button"
+                aria-haspopup="listbox"
+                aria-expanded={isCityDropdownOpen}
+                onClick={() => {
+                  setIsCityDropdownOpen((prev) => !prev);
+                  setCitySearchQuery("");
+                  setHighlightedIndex(-1);
+                }}
+                onKeyDown={handleKeyDown}
+                className={`w-full sm:w-auto flex items-center justify-between sm:justify-start gap-1.5 px-3 py-2 text-xs sm:text-[13.5px] font-semibold transition-all rounded-xl cursor-pointer ${
+                  isCityDropdownOpen
+                    ? "text-[#AE7419] bg-[#FBF1DF]/80 ring-1 ring-[#D29324]/30"
+                    : "text-gray-700 hover:text-gray-900 hover:bg-[#FAF8F4]"
+                }`}
               >
-                <span>Select City</span>
-                <ChevronDown className="w-3.5 h-3.5 text-gray-500" />
+                <MapPin className="w-3.5 h-3.5 text-[#D29324] shrink-0" />
+                <span className="font-bold truncate max-w-[120px] sm:max-w-none">
+                  {isCityPage ? currentCityObj.name : "Select City"}
+                </span>
+                <ChevronDown
+                  className={`w-3.5 h-3.5 text-gray-500 transition-transform duration-200 shrink-0 ${
+                    isCityDropdownOpen ? "rotate-180 text-[#D29324]" : ""
+                  }`}
+                />
               </button>
+
+              {/* City Dropdown Menu Panel */}
+              {isCityDropdownOpen && (
+                <div
+                  role="listbox"
+                  aria-label="Select City"
+                  className="absolute top-full left-0 mt-2 w-72 sm:w-80 bg-white rounded-2xl shadow-2xl border border-[#E8E3DA] p-3 z-50 animate-in fade-in slide-in-from-top-2 duration-150 ring-1 ring-black/5"
+                >
+                  {/* Quick Search inside Dropdown */}
+                  <div className="relative mb-2.5">
+                    <Search className="w-3.5 h-3.5 absolute left-3 top-2.5 text-gray-400" />
+                    <input
+                      ref={cityInputRef}
+                      type="text"
+                      value={citySearchQuery}
+                      onChange={(e) => {
+                        setCitySearchQuery(e.target.value);
+                        setHighlightedIndex(0);
+                      }}
+                      onKeyDown={handleKeyDown}
+                      placeholder="Search city or state..."
+                      className="w-full pl-8 pr-3 py-1.5 text-xs bg-[#FAF8F4] border border-[#E8E3DA] rounded-xl text-gray-800 placeholder-gray-400 focus:outline-hidden focus:border-[#D29324] focus:bg-white font-medium transition-all"
+                      autoFocus
+                    />
+                  </div>
+
+                  {/* Popular Metros Quick Chips */}
+                  {!citySearchQuery && (
+                    <div className="mb-2.5 pb-2.5 border-b border-gray-100">
+                      <span className="text-[10px] font-bold text-gray-400 uppercase tracking-wider block mb-1.5 px-1">
+                        Popular Metros
+                      </span>
+                      <div className="flex flex-wrap gap-1.5">
+                        {popularCities.slice(0, 7).map((c) => {
+                          const isSelected = selectedCity?.toLowerCase() === c.id.toLowerCase();
+                          return (
+                            <button
+                              key={c.id}
+                              type="button"
+                              onClick={() => handleCitySelect(c.id)}
+                              className={`px-2.5 py-1 rounded-lg text-[11px] font-semibold transition-all cursor-pointer ${
+                                isSelected
+                                  ? "bg-[#D29324] text-white shadow-xs"
+                                  : "bg-[#FAF8F4] text-gray-700 hover:bg-[#FBF1DF] hover:text-[#AE7419] border border-[#E8E3DA]"
+                              }`}
+                            >
+                              {c.name}
+                            </button>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Cities Scrollable List */}
+                  <div className="max-h-56 overflow-y-auto no-scrollbar space-y-0.5">
+                    <span className="text-[10px] font-bold text-gray-400 uppercase tracking-wider block mb-1 px-1">
+                      {citySearchQuery ? "Search Results" : "All Operating Cities"}
+                    </span>
+                    {filteredDropdownCities.length > 0 ? (
+                      filteredDropdownCities.map((city, idx) => {
+                        const isSelected = selectedCity?.toLowerCase() === city.id.toLowerCase();
+                        const isHighlighted = highlightedIndex === idx;
+                        return (
+                          <button
+                            key={city.id}
+                            type="button"
+                            role="option"
+                            aria-selected={isSelected}
+                            onClick={() => handleCitySelect(city.id)}
+                            onMouseEnter={() => setHighlightedIndex(idx)}
+                            className={`w-full text-left px-3 py-2 rounded-xl flex items-center justify-between text-xs transition-colors cursor-pointer ${
+                              isSelected
+                                ? "bg-[#FBF1DF] text-[#AE7419] font-bold"
+                                : isHighlighted
+                                ? "bg-[#FAF8F4] text-gray-900"
+                                : "text-gray-700 hover:bg-[#FAF8F4]"
+                            }`}
+                          >
+                            <div className="flex items-center gap-2 min-w-0">
+                              <MapPin
+                                className={`w-3.5 h-3.5 shrink-0 ${
+                                  isSelected ? "text-[#D29324]" : "text-gray-400"
+                                }`}
+                              />
+                              <div className="truncate">
+                                <span className="font-semibold text-gray-900">{city.name}</span>
+                                {city.state && (
+                                  <span className="text-[10px] text-gray-400 ml-1.5">
+                                    ({city.state})
+                                  </span>
+                                )}
+                              </div>
+                            </div>
+                            <div className="flex items-center gap-1.5 shrink-0 ml-2">
+                              {city.projectsCount && (
+                                <span className="text-[10px] text-gray-400 font-medium">
+                                  {city.projectsCount}+
+                                </span>
+                              )}
+                              {isSelected && <Check className="w-3.5 h-3.5 text-[#D29324]" />}
+                            </div>
+                          </button>
+                        );
+                      })
+                    ) : (
+                      <div className="py-4 text-center text-xs text-gray-400">
+                        No cities match &ldquo;{citySearchQuery}&rdquo;
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Footer link to open full City Selector Modal */}
+                  <div className="mt-2 pt-2 border-t border-gray-100 flex items-center justify-between px-1">
+                    <span className="text-[10px] text-gray-400 font-medium">
+                      {CITIES.length} Metros Available
+                    </span>
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setIsCityDropdownOpen(false);
+                        if (onOpenCityModal) onOpenCityModal();
+                      }}
+                      className="text-[11px] font-bold text-[#AE7419] hover:text-[#D29324] transition-colors cursor-pointer"
+                    >
+                      View All Details &rarr;
+                    </button>
+                  </div>
+                </div>
+              )}
             </div>
 
             {/* Vertical Divider */}
