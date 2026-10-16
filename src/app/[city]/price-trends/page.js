@@ -23,6 +23,7 @@ import {
 } from "lucide-react";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import PropertiesForSalePreFooter from "@/components/common/PropertiesForSalePreFooter";
 import CitySelectorModal from "@/components/common/CitySelectorModal";
 import AuraAiModal from "@/components/common/AuraAiModal";
 import ConsultationForm from "@/components/home/ConsultationForm";
@@ -431,6 +432,9 @@ function PriceTrendsPageContent() {
         {/* 8. Free Expert Consultation Form */}
         <ConsultationForm selectedCity={matchedCity.id} />
       </main>
+
+      {/* Pre-Footer Locality Links matching Screenshot 2 */}
+      <PropertiesForSalePreFooter cityId={matchedCity.id} />
 
       {/* 9. Global Footer */}
       <Footer />

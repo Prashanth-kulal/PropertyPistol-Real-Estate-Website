@@ -67,6 +67,7 @@ import {
 
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import PropertiesForSalePreFooter from "@/components/common/PropertiesForSalePreFooter";
 import CitySelectorModal from "@/components/common/CitySelectorModal";
 import AuraAiModal from "@/components/common/AuraAiModal";
 import WishlistButton from "@/components/common/WishlistButton";
@@ -2819,6 +2820,9 @@ function ProjectDetailContent() {
           Schedule Visit
         </button>
       </div>
+
+      {/* Pre-Footer Locality Links matching Screenshot 2 */}
+      <PropertiesForSalePreFooter cityId={project?.city || "mumbai"} />
 
       {/* Footer */}
       <div className="pb-20 lg:pb-0">

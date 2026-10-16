@@ -417,39 +417,29 @@ export const FAQS = [
 
 export const FOOTER_LINKS = {
   services: [
-    { label: "Builder Service", href: "/services/builder-service" },
-    { label: "Syndicate Broker Network", href: "/services/syndicate" },
-    { label: "Home Loan Services", href: "/home-loan" },
-    { label: "Home Loan & EMI Calculator", href: "/emi-calculator" },
-    { label: "Investment Calculator", href: "/investment-calculator" },
-    { label: "Rent Receipt Generator", href: "/rent-receipt-generator" },
-    { label: "PropCheck Quality Inspection", href: "/propcheck" },
-    { label: "Rent Agreement E-Registration", href: "/rent-agreement" },
-    { label: "Radiate Platform", href: "/services/radiate" },
+    { label: "Builder Services", href: "/builder-service" },
+    { label: "Broker Services", href: "/services/syndicate" },
+    { label: "Radiate", href: "/services/radiate" },
+    { label: "Loan Services", href: "/loan-service" },
     { label: "NRI Desk", href: "/services/nri-desk" }
   ],
   knowUs: [
-    { label: "About AuraLiving", href: "/why-us" },
-    { label: "Leadership & Vision", href: "/why-us" },
-    { label: "Careers & Culture", href: "/why-us" },
-    { label: "Customer Stories", href: "/#testimonials" },
-    { label: "Terms of Service", href: "/user-agreement" },
-    { label: "Privacy Policy", href: "/privacy-policy" },
-    { label: "RERA Disclaimers", href: "/disclaimer" }
+    { label: "About Us", href: "/about-us" },
+    { label: "Careers", href: "/careers" },
+    { label: "Blog", href: "/blog" },
+    { label: "Testimonials", href: "/testimonials" },
+    { label: "FAQ", href: "/faq" },
+    { label: "Sitemap", href: "/sitemap" }
   ],
   reachUs: [
-    { label: "Toll Free: +91 8080 190190", href: "tel:18008080190" },
-    { label: "WhatsApp: +91 8080 190190", href: "https://wa.me/918080190190?text=Hi%20AuraLiving" },
-    { label: "Email: support@auraliving.com", href: "mailto:support@auraliving.com" },
-    { label: "HQ: Tower B, World Trade Center, Mumbai 400005", href: "/why-us" },
-    { label: "Mon - Sat: 9:00 AM to 8:00 PM IST", href: "/why-us" }
+    { label: "Offices", href: "/offices" },
+    { label: "Toll Free +91 8080 190190", href: "tel:+918080190190" },
+    { label: "support@propertypistol.com", href: "mailto:support@propertypistol.com" }
   ],
-  brokerApp: [
-    { label: "Aura Syndicate Partner Program", href: "/services/syndicate" },
-    { label: "Developer Listing Portal", href: "/services/builder-service" },
-    { label: "Channel Partner Network", href: "/services/syndicate" },
-    { label: "Radiate Developer Desk", href: "/services/radiate" },
-    { label: "Broker Mobile App", href: "https://play.google.com/store/apps/details?id=com.brokerapp.mobile" }
+  legal: [
+    { label: "Privacy Policy", href: "/privacy-policy" },
+    { label: "User Agreement", href: "/user-agreement" },
+    { label: "Disclaimer", href: "/disclaimer" }
   ]
 };
 

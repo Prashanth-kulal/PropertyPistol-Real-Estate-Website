@@ -31,6 +31,7 @@ import {
 } from "lucide-react";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import PropertiesForSalePreFooter from "@/components/common/PropertiesForSalePreFooter";
 import CitySelectorModal from "@/components/common/CitySelectorModal";
 import ProjectInquiryModal from "@/components/common/ProjectInquiryModal";
 import AuraAiModal from "@/components/common/AuraAiModal";
@@ -977,6 +978,9 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
 
       {/* Floating Persistent Compare Tray matching Screenshot 2 */}
       <CompareTray />
+
+      {/* Pre-Footer Locality Links matching Screenshot 2 */}
+      <PropertiesForSalePreFooter cityId={matchedCity.id} />
 
       {/* Global Footer */}
       <Footer />

@@ -31,6 +31,7 @@ import {
 } from "lucide-react";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import PropertiesForSalePreFooter from "@/components/common/PropertiesForSalePreFooter";
 import HeroBanner from "@/components/home/HeroBanner";
 import AuraShots from "@/components/home/AuraShots";
 import ConsultationForm from "@/components/home/ConsultationForm";
@@ -1133,6 +1134,9 @@ function CityPageContent() {
 
       {/* 13. SECTION 10: Testimonials matching PropertyPistol id="homeTestimonials" */}
       <TestimonialsSection />
+
+      {/* Pre-Footer Locality Links matching Screenshot 2 */}
+      <PropertiesForSalePreFooter cityId={matchedCity ? matchedCity.id : cityId} />
 
       {/* 14. Global Footer */}
       <Footer />
