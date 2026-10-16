@@ -1,6 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
 
 const brand = "#d29324";
 
@@ -61,7 +63,9 @@ export default function RadiatePage() {
   }
 
   return (
-    <main className="radiate-page">
+    <div className="min-h-screen bg-white flex flex-col">
+      <Header />
+      <main className="radiate-page flex-1">
       <style jsx>{`
         * {
           box-sizing: border-box;
@@ -695,6 +699,8 @@ export default function RadiatePage() {
           </div>
         </div>
       )}
-    </main>
+      </main>
+      <Footer />
+    </div>
   );
 }

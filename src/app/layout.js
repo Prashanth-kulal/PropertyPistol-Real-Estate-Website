@@ -1,5 +1,6 @@
 import "./globals.css";
 import { WishlistProvider } from "@/context/WishlistContext";
+import { ComparisonProvider } from "@/context/ComparisonContext";
 
 export const metadata = {
   title: "AuraLiving — India's Premier Zero Brokerage Real Estate Experience",
@@ -14,7 +15,9 @@ export default function RootLayout({ children }) {
     <html lang="en" data-scroll-behavior="smooth">
       <body className="antialiased min-h-screen flex flex-col font-['Poppins',sans-serif] bg-white text-[#252525]">
         <WishlistProvider>
-          {children}
+          <ComparisonProvider>
+            {children}
+          </ComparisonProvider>
         </WishlistProvider>
       </body>
     </html>

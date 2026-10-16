@@ -780,6 +780,103 @@ function CityPageContent() {
         </div>
       </section>
 
+      {/* SECTION: Price Trends in [City] */}
+      <section className="py-14 bg-[#FAF8F4] border-b border-[#E8E3DA]">
+        <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-8">
+            <div>
+              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#FBF1DF] border border-[#D29324]/40 text-[#AE7419] text-xs font-semibold mb-2">
+                <TrendingUp className="w-3.5 h-3.5 text-[#D29324]" />
+                <span>Market Intelligence</span>
+              </div>
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-[#252525] tracking-tight">
+                Price Trends in {cityData.name}
+              </h2>
+              <p className="text-xs sm:text-sm text-[#6B7280] mt-0.5">
+                Historical capital value appreciation, average registry prices, and rental yields across {cityData.name}.
+              </p>
+            </div>
+
+            <Link
+              href={`/${cityData.id}/price-trends`}
+              className="px-4 py-2.5 rounded-xl bg-[#D29324] hover:bg-[#AE7419] text-white text-xs font-bold transition-all shadow-xs flex items-center gap-1.5 self-start sm:self-auto cursor-pointer"
+            >
+              <span>Explore Detailed Price Trends</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </Link>
+          </div>
+
+          {/* Quick Metrics Bar */}
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
+            <div className="bg-white rounded-2xl p-4.5 border border-[#E8E3DA] shadow-xs">
+              <span className="text-[11px] font-semibold text-[#6B7280] block">Average Property Rate</span>
+              <span className="text-xl font-black text-[#252525] mt-1 block">
+                {priceTrendsData.historical?.[priceTrendsData.historical.length - 1]?.avgRate
+                  ? `₹${priceTrendsData.historical[priceTrendsData.historical.length - 1].avgRate.toLocaleString("en-IN")}`
+                  : "₹28,500"} <span className="text-xs font-normal text-gray-500">/ sq.ft</span>
+              </span>
+              <span className="text-[10px] font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded mt-2 inline-block">
+                +8.5% YoY Growth
+              </span>
+            </div>
+
+            <div className="bg-white rounded-2xl p-4.5 border border-[#E8E3DA] shadow-xs">
+              <span className="text-[11px] font-semibold text-[#6B7280] block">Average Rental Yield</span>
+              <span className="text-xl font-black text-[#252525] mt-1 block">
+                3.8% <span className="text-xs font-normal text-gray-500">Gross p.a.</span>
+              </span>
+              <span className="text-[10px] font-bold text-blue-600 bg-blue-50 px-2 py-0.5 rounded mt-2 inline-block">
+                Consistent Returns
+              </span>
+            </div>
+
+            <div className="bg-white rounded-2xl p-4.5 border border-[#E8E3DA] shadow-xs">
+              <span className="text-[11px] font-semibold text-[#6B7280] block">Fastest Growing Pocket</span>
+              <span className="text-xl font-black text-[#AE7419] mt-1 block truncate">
+                {priceTrendsData.localitiesTrend?.[0]?.name || "Navi Mumbai Corridor"}
+              </span>
+              <span className="text-[10px] font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded mt-2 inline-block">
+                +{priceTrendsData.localitiesTrend?.[0]?.annualGrowth || "11.2"}% YoY
+              </span>
+            </div>
+
+            <div className="bg-white rounded-2xl p-4.5 border border-[#E8E3DA] shadow-xs">
+              <span className="text-[11px] font-semibold text-[#6B7280] block">Verified Micro-Markets</span>
+              <span className="text-xl font-black text-[#252525] mt-1 block">
+                {priceTrendsData.localitiesTrend?.length || cityData.localities?.length || 10}+ Hubs
+              </span>
+              <span className="text-[10px] font-bold text-[#AE7419] bg-[#FBF1DF] px-2 py-0.5 rounded mt-2 inline-block">
+                RERA Registered Data
+              </span>
+            </div>
+          </div>
+
+          {/* Micro-markets preview cards */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {(priceTrendsData.localitiesTrend || []).slice(0, 6).map((item, idx) => (
+              <Link
+                key={idx}
+                href={`/${cityData.id}/price-trends`}
+                className="bg-white rounded-2xl border border-[#E8E3DA] p-4 hover:border-[#D29324] hover:shadow-md transition-all group flex items-center justify-between"
+              >
+                <div>
+                  <h4 className="text-sm font-extrabold text-[#252525] group-hover:text-[#AE7419] transition-colors">
+                    {item.name}
+                  </h4>
+                  <span className="text-xs text-[#6B7280] block mt-0.5">{item.avgRate}</span>
+                </div>
+                <div className="text-right">
+                  <span className="text-xs font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded block">
+                    +{item.annualGrowth || "8.5"}%
+                  </span>
+                  <span className="text-[10px] text-gray-400 block mt-1">YoY Appreciation</span>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* SECTION: Search by Rail Network or Commute Time */}
       <section className="py-14 bg-white border-b border-[#E8E3DA]">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">

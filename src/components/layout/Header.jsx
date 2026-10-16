@@ -2,7 +2,7 @@
 
 import React, { useState, useRef, useEffect } from "react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import {
   Menu,
   X,
@@ -13,20 +13,36 @@ import {
   Handshake,
   Layers3,
   Globe2,
-  ArrowRight
+  ArrowRight,
+  MapPin
 } from "lucide-react";
 import { useWishlist } from "@/context/WishlistContext";
+import CitySelectorModal from "@/components/common/CitySelectorModal";
 
 export default function Header({
-  selectedCity,
+  selectedCity = "mumbai",
   onOpenCityModal,
   onOpenAiModal
 }) {
+  const router = useRouter();
   const pathname = usePathname();
   const { savedCount } = useWishlist();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [servicesDropdownOpen, setServicesDropdownOpen] = useState(false);
+  const [localCityModalOpen, setLocalCityModalOpen] = useState(false);
   const dropdownRef = useRef(null);
+
+  const cityName = selectedCity
+    ? selectedCity.charAt(0).toUpperCase() + selectedCity.slice(1).replace(/-/g, " ")
+    : "Mumbai";
+
+  const handleCityClick = () => {
+    if (onOpenCityModal) {
+      onOpenCityModal();
+    } else {
+      setLocalCityModalOpen(true);
+    }
+  };
 
   // Close dropdown when clicking outside
   useEffect(() => {
@@ -93,6 +109,19 @@ export default function Header({
               </span>
             </div>
           </Link>
+
+          {/* City Selector Button (Desktop) */}
+          <button
+            type="button"
+            onClick={handleCityClick}
+            className="hidden lg:flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#FAF8F4] hover:bg-[#FBF1DF] border border-[#F2E8D8] hover:border-[#D29324]/40 text-[#252525] hover:text-[#AE7419] transition-all text-xs font-semibold cursor-pointer shadow-2xs"
+            title="Change City"
+            aria-label={`Current city: ${cityName}. Click to switch city.`}
+          >
+            <MapPin className="w-3.5 h-3.5 text-[#D29324] shrink-0" />
+            <span className="max-w-[100px] truncate">{cityName}</span>
+            <ChevronDown className="w-3 h-3 text-gray-400 shrink-0" />
+          </button>
 
           {/* Primary Navigation Menu */}
           <nav className="hidden md:flex items-center gap-7 text-[13.5px] font-medium text-gray-700">
@@ -289,8 +318,20 @@ export default function Header({
           </Link>
         </div>
 
-        {/* Mobile Header Right: Quick WhatsApp + Quick Heart + Quick Account + Menu Toggle */}
-        <div className="flex sm:hidden items-center gap-2">
+        {/* Mobile Header Right: Quick City + Quick WhatsApp + Quick Heart + Quick Account + Menu Toggle */}
+        <div className="flex sm:hidden items-center gap-1.5">
+          {/* Quick City Button on Mobile */}
+          <button
+            type="button"
+            onClick={handleCityClick}
+            className="flex items-center gap-1 px-2 py-1 rounded-full bg-[#FAF8F4] border border-[#F2E8D8] text-[#252525] text-[11px] font-semibold cursor-pointer shrink-0"
+            title="Change City"
+            aria-label={`Change city, currently ${cityName}`}
+          >
+            <MapPin className="w-3 h-3 text-[#D29324] shrink-0" />
+            <span className="max-w-[55px] truncate">{cityName}</span>
+          </button>
+
           {/* Quick WhatsApp on Mobile with Balanced Circle */}
           <a
             href="https://wa.me/918080190190?text=Hi%20AuraLiving"
@@ -347,6 +388,24 @@ export default function Header({
       {/* Mobile Menu Drawer */}
       {mobileMenuOpen && (
         <div className="sm:hidden border-t border-gray-200 bg-white px-5 py-4 space-y-3 shadow-lg">
+          {/* Mobile Select City Row */}
+          <button
+            type="button"
+            onClick={() => {
+              setMobileMenuOpen(false);
+              handleCityClick();
+            }}
+            className="w-full flex items-center justify-between text-sm font-semibold text-gray-800 py-2 border-b border-gray-100 hover:text-[#D29324] text-left"
+          >
+            <span className="flex items-center gap-2.5">
+              <MapPin className="w-4.5 h-4.5 text-[#D29324]" />
+              <span>Select City</span>
+            </span>
+            <span className="px-2 py-0.5 rounded-full bg-[#FBF1DF] text-[#AE7419] text-[11px] font-bold">
+              {cityName}
+            </span>
+          </button>
+
           <Link
             href="/saved-properties"
             onClick={() => setMobileMenuOpen(false)}
@@ -393,22 +452,23 @@ export default function Header({
           >
             Services
           </Link>
-          <Link
-            href="/post-property"
-            onClick={() => setMobileMenuOpen(false)}
-            className="flex items-center text-sm font-medium text-gray-800 py-1 hover:text-[#D29324]"
-          >
-            <span>Post Property</span>
-            <span className="ml-1.5 px-1.5 py-0.5 rounded-xs bg-[#5B51D8] text-white text-[9px] font-bold">
-              FREE
-            </span>
-          </Link>
           <div className="pt-2 border-t border-gray-100 flex items-center justify-between text-xs text-gray-600">
             <span>Toll Free: +91 8080 190190</span>
             <span className="text-[#25D366] font-semibold">WhatsApp Available</span>
           </div>
         </div>
       )}
+
+      {/* City Selector Modal Fallback (renders when header is used without an external modal handler) */}
+      <CitySelectorModal
+        isOpen={localCityModalOpen}
+        onClose={() => setLocalCityModalOpen(false)}
+        selectedCity={selectedCity}
+        onSelectCity={(cityId) => {
+          setLocalCityModalOpen(false);
+          router.push(`/${cityId}`);
+        }}
+      />
     </header>
   );
 }

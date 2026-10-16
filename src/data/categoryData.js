@@ -198,6 +198,103 @@ export function resolveCategory(rawSlug) {
   if (!rawSlug) return CATEGORIES_CONFIG["new-projects"];
   const s = rawSlug.toLowerCase();
 
+  // 1. Check for specific developer slug (e.g. projects-by-godrej-properties)
+  if (s.includes("projects-by-")) {
+    const devSlug = s.replace(/^.*projects-by-/, "");
+    const devName = devSlug
+      .split("-")
+      .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+      .join(" ");
+
+    return {
+      id: `developer-${devSlug}`,
+      slugKey: rawSlug,
+      developerFilter: devName,
+      getCitySlug: (city) => `projects-by-${devSlug}`,
+      label: `${devName} Projects`,
+      titleTemplate: (city) => `Projects by ${devName} in ${city} – AuraLiving`,
+      h1Template: (city) => `Residential Projects by ${devName} in ${city}`,
+      metaDesc: (city) => `Explore premium residential developments, apartments and luxury homes built by ${devName} in ${city} with direct builder allotments.`,
+      breadcrumbLabel: (city) => `${devName} in ${city}`,
+      statusFilterDefault: "all",
+      pills: [
+        { id: "all", label: `All ${devName}` },
+        { id: "new-launch", label: "New Launches" },
+        { id: "under-construction", label: "Under Construction" },
+        { id: "ready-to-move", label: "Ready to Move" },
+        { id: "rera-registered", label: "RERA Registered" },
+      ],
+      overviewTitle: (city) => `About ${devName} Projects in ${city}`,
+      overviewContent: (city) => [
+        `${devName} is one of India's leading and most respected real estate developers, renowned for architectural excellence, timely delivery, and sustainable design.`,
+        `Explore all ongoing, pre-launch, and completed developments by ${devName} across prime micro-markets in ${city} with verified RERA documentation and zero brokerage.`
+      ],
+      faqs: (city) => [
+        {
+          q: `Are properties by ${devName} RERA compliant?`,
+          a: `Yes, all developments by ${devName} listed on AuraLiving have verified state RERA registration numbers and approved sanctioned building plans.`
+        },
+        {
+          q: `Can I get direct developer pricing and zero brokerage for ${devName} projects?`,
+          a: `Yes, AuraLiving is an authorized institutional partner for ${devName}, providing buyers with direct developer allotments and zero brokerage.`
+        }
+      ]
+    };
+  }
+
+  // 2. Check for locality slug (e.g. real-estate-projects-in-sanpada)
+  if (
+    s.includes("real-estate-projects-in-") ||
+    (s.includes("-in-") &&
+      !s.includes("new-projects-in-") &&
+      !s.includes("ready-to-move-properties-in-") &&
+      !s.includes("under-construction-properties-in-") &&
+      !s.includes("rera-compliant-projects-in-") &&
+      !s.includes("developer-listings-in-"))
+  ) {
+    const locSlug = s.replace(/^.*projects-in-/, "").replace(/^.*-in-/, "");
+    const locName = locSlug
+      .split("-")
+      .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+      .join(" ");
+
+    return {
+      id: `locality-${locSlug}`,
+      slugKey: rawSlug,
+      localityFilter: locName,
+      getCitySlug: (city) => `real-estate-projects-in-${locSlug}`,
+      label: `${locName} Projects`,
+      titleTemplate: (city) => `Real Estate Projects in ${locName}, ${city} – AuraLiving`,
+      h1Template: (city) => `Real Estate & New Projects in ${locName}, ${city}`,
+      metaDesc: (city) => `Find verified residential properties, flats and newly launched projects in ${locName}, ${city} with complete price insights and zero brokerage.`,
+      breadcrumbLabel: (city) => `Projects in ${locName}`,
+      statusFilterDefault: "all",
+      pills: [
+        { id: "all", label: `All in ${locName}` },
+        { id: "new-launch", label: "New Launch" },
+        { id: "under-construction", label: "Under Construction" },
+        { id: "ready-to-move", label: "Ready to Move" },
+        { id: "rera-registered", label: "RERA Registered" },
+      ],
+      overviewTitle: (city) => `Real Estate Overview of ${locName}`,
+      overviewContent: (city) => [
+        `${locName} is one of the most sought-after residential micro-markets, offering seamless transit connectivity, excellent civic infrastructure, and robust historical capital appreciation.`,
+        `Explore verified residential towers, luxury apartments, and upcoming gated communities in ${locName} with zero brokerage and full advisory support.`
+      ],
+      faqs: (city) => [
+        {
+          q: `Why invest in real estate in ${locName}?`,
+          a: `${locName} provides high capital appreciation, steady rental yields, and proximity to major commercial corridors and transport hubs.`
+        },
+        {
+          q: `What is the average property rate in ${locName}?`,
+          a: `Property rates in ${locName} vary based on luxury specifications, tower height, and amenities. Contact our advisory team for current registry rates and historical trends.`
+        }
+      ]
+    };
+  }
+
+  // 3. Standard category slugs
   if (s.includes("new-project") || s.includes("new-listing")) {
     return CATEGORIES_CONFIG["new-projects"];
   }

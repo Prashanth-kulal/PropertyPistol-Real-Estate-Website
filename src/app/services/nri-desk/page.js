@@ -1,6 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
 
 const brand = "#d29324";
 
@@ -105,7 +107,9 @@ export default function NRIDeskPage() {
   }
 
   return (
-    <main className="nri-page">
+    <div className="min-h-screen bg-white flex flex-col">
+      <Header />
+      <main className="nri-page flex-1">
       <style jsx>{`
         * {
           box-sizing: border-box;
@@ -752,6 +756,8 @@ export default function NRIDeskPage() {
           </div>
         </div>
       )}
-    </main>
+      </main>
+      <Footer />
+    </div>
   );
 }

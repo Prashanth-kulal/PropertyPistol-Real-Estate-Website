@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useMemo, useState } from "react";
+import Link from "next/link";
 import {
   ArrowLeft,
   ArrowRight,
@@ -16,6 +17,8 @@ import {
   Sparkles,
 } from "lucide-react";
 import { useRouter } from "next/navigation";
+import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
 
 export default function PropertyAdvisoryPage() {
   const router = useRouter();
@@ -84,42 +87,37 @@ export default function PropertyAdvisoryPage() {
   };
 
   return (
-    <main className="min-h-screen bg-[#FAF8F4] text-[#252525]">
-      {/* Header */}
-      <header className="sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-[#E8E3DA]">
-        <div className="max-w-[1200px] mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
-          <button
-            onClick={() => router.back()}
-            className="flex items-center gap-2 text-sm font-semibold text-[#6B7280] hover:text-[#AE7419] transition"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            Back
-          </button>
+    <div className="min-h-screen bg-[#FAF8F4] text-[#252525] flex flex-col">
+      <Header />
 
-          <div className="flex items-center gap-2">
-            <div className="w-9 h-9 rounded-xl bg-[#FBF1DF] flex items-center justify-center">
-              <Home className="w-5 h-5 text-[#D29324]" />
-            </div>
-
-            <div>
-              <div className="font-extrabold text-lg leading-none">
-                Aura<span className="text-[#D29324]">Living</span>
-              </div>
-              <div className="text-[10px] text-[#6B7280]">
-                Property Advisory
-              </div>
-            </div>
-          </div>
+      {/* Breadcrumb Bar */}
+      <div className="bg-white border-b border-[#E8E3DA]">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-6 py-3 flex items-center justify-between text-xs text-[#6B7280]">
+          <ol className="flex items-center gap-2">
+            <li>
+              <Link href="/" className="hover:text-[#AE7419] transition-colors">
+                Home
+              </Link>
+            </li>
+            <li>/</li>
+            <li>
+              <Link href="/services" className="hover:text-[#AE7419] transition-colors">
+                Services
+              </Link>
+            </li>
+            <li>/</li>
+            <li className="font-bold text-[#252525]">Property Advisory</li>
+          </ol>
 
           <a
             href="#advisor"
-            className="hidden sm:flex items-center gap-2 bg-[#D29324] hover:bg-[#AE7419] text-white px-4 py-2 rounded-xl text-sm font-bold transition"
+            className="flex items-center gap-1.5 text-[#AE7419] font-bold hover:text-[#D29324] transition-colors"
           >
-            Talk to Advisor
-            <ArrowRight className="w-4 h-4" />
+            <span>Consult an Advisor</span>
+            <ArrowRight className="w-3.5 h-3.5" />
           </a>
         </div>
-      </header>
+      </div>
 
       {/* Hero */}
       <section className="bg-white border-b border-[#E8E3DA]">
@@ -499,18 +497,7 @@ export default function PropertyAdvisoryPage() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-[#252525] text-white">
-        <div className="max-w-[1200px] mx-auto px-4 sm:px-6 py-7 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <div className="font-extrabold">
-            Aura<span className="text-[#D29324]">Living</span>
-          </div>
-
-          <p className="text-xs text-gray-400">
-            Smart property guidance for better decisions.
-          </p>
-        </div>
-      </footer>
-    </main>
+      <Footer />
+    </div>
   );
 }

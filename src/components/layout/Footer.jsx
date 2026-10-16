@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+import Link from "next/link";
 import { ArrowUp, ShieldCheck } from "lucide-react";
 import { FOOTER_LINKS, CITIES } from "@/data";
 
@@ -115,13 +116,22 @@ export default function Footer() {
                 Our Services
               </h3>
               <ul className="space-y-2.5 text-xs text-gray-300">
-                {FOOTER_LINKS.services.map((item, idx) => (
-                  <li key={idx}>
-                    <a href={item.href} className="hover:text-[#D29324] transition-colors">
-                      {item.label}
-                    </a>
-                  </li>
-                ))}
+                {FOOTER_LINKS.services.map((item, idx) => {
+                  const isExternal = item.href.startsWith("http") || item.href.startsWith("tel:") || item.href.startsWith("mailto:");
+                  return (
+                    <li key={idx}>
+                      {isExternal ? (
+                        <a href={item.href} target="_blank" rel="noopener noreferrer" className="hover:text-[#D29324] transition-colors">
+                          {item.label}
+                        </a>
+                      ) : (
+                        <Link href={item.href} className="hover:text-[#D29324] transition-colors">
+                          {item.label}
+                        </Link>
+                      )}
+                    </li>
+                  );
+                })}
               </ul>
             </div>
 
@@ -131,13 +141,22 @@ export default function Footer() {
                 Know Us
               </h3>
               <ul className="space-y-2.5 text-xs text-gray-300">
-                {FOOTER_LINKS.knowUs.map((item, idx) => (
-                  <li key={idx}>
-                    <a href={item.href} className="hover:text-[#D29324] transition-colors">
-                      {item.label}
-                    </a>
-                  </li>
-                ))}
+                {FOOTER_LINKS.knowUs.map((item, idx) => {
+                  const isExternal = item.href.startsWith("http") || item.href.startsWith("tel:") || item.href.startsWith("mailto:");
+                  return (
+                    <li key={idx}>
+                      {isExternal ? (
+                        <a href={item.href} target="_blank" rel="noopener noreferrer" className="hover:text-[#D29324] transition-colors">
+                          {item.label}
+                        </a>
+                      ) : (
+                        <Link href={item.href} className="hover:text-[#D29324] transition-colors">
+                          {item.label}
+                        </Link>
+                      )}
+                    </li>
+                  );
+                })}
               </ul>
             </div>
 
@@ -147,13 +166,22 @@ export default function Footer() {
                 Reach Us
               </h3>
               <ul className="space-y-2.5 text-xs text-gray-300">
-                {FOOTER_LINKS.reachUs.map((item, idx) => (
-                  <li key={idx}>
-                    <a href={item.href} className="hover:text-[#D29324] transition-colors">
-                      {item.label}
-                    </a>
-                  </li>
-                ))}
+                {FOOTER_LINKS.reachUs.map((item, idx) => {
+                  const isExternal = item.href.startsWith("http") || item.href.startsWith("tel:") || item.href.startsWith("mailto:");
+                  return (
+                    <li key={idx}>
+                      {isExternal ? (
+                        <a href={item.href} className="hover:text-[#D29324] transition-colors">
+                          {item.label}
+                        </a>
+                      ) : (
+                        <Link href={item.href} className="hover:text-[#D29324] transition-colors">
+                          {item.label}
+                        </Link>
+                      )}
+                    </li>
+                  );
+                })}
               </ul>
             </div>
 
@@ -163,13 +191,22 @@ export default function Footer() {
                 Broker App
               </h3>
               <ul className="space-y-2.5 text-xs text-gray-300">
-                {FOOTER_LINKS.brokerApp.map((item, idx) => (
-                  <li key={idx}>
-                    <a href={item.href} className="hover:text-[#D29324] transition-colors">
-                      {item.label}
-                    </a>
-                  </li>
-                ))}
+                {FOOTER_LINKS.brokerApp.map((item, idx) => {
+                  const isExternal = item.href.startsWith("http") || item.href.startsWith("tel:") || item.href.startsWith("mailto:");
+                  return (
+                    <li key={idx}>
+                      {isExternal ? (
+                        <a href={item.href} target="_blank" rel="noopener noreferrer" className="hover:text-[#D29324] transition-colors">
+                          {item.label}
+                        </a>
+                      ) : (
+                        <Link href={item.href} className="hover:text-[#D29324] transition-colors">
+                          {item.label}
+                        </Link>
+                      )}
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           </div>
@@ -182,9 +219,13 @@ export default function Footer() {
           </p>
           <div className="flex flex-wrap gap-2 text-[11px] text-gray-400">
             {CITIES.map((city) => (
-              <span key={city.id} className="hover:text-white transition-colors cursor-pointer">
+              <Link
+                key={city.id}
+                href={`/${city.id}`}
+                className="hover:text-[#D29324] transition-colors"
+              >
                 Properties in {city.name} •
-              </span>
+              </Link>
             ))}
           </div>
         </div>
@@ -203,11 +244,17 @@ export default function Footer() {
               © 2026 AuraLiving Technologies Private Limited. All Rights Reserved.
             </div>
             <div className="flex items-center gap-4 mt-2 sm:mt-0">
-              <a href="#" className="hover:underline">Privacy Policy</a>
+              <Link href="/privacy-policy" className="hover:underline hover:text-[#D29324] transition-colors">
+                Privacy Policy
+              </Link>
               <span>•</span>
-              <a href="#" className="hover:underline">Terms of Service</a>
+              <Link href="/user-agreement" className="hover:underline hover:text-[#D29324] transition-colors">
+                Terms of Service
+              </Link>
               <span>•</span>
-              <a href="#" className="hover:underline">RERA Disclosures</a>
+              <Link href="/disclaimer" className="hover:underline hover:text-[#D29324] transition-colors">
+                RERA Disclosures
+              </Link>
             </div>
           </div>
         </div>
@@ -217,7 +264,7 @@ export default function Footer() {
       <div className="fixed bottom-6 right-6 z-30 flex flex-col items-center gap-3">
         {/* WhatsApp Floating Chat */}
         <a
-          href="https://wa.me/919876543210?text=Hi%20AuraLiving,%20I%20am%20looking%20for%20property%20recommendations"
+          href="https://wa.me/918080190190?text=Hi%20AuraLiving,%20I%20am%20looking%20for%20property%20recommendations"
           target="_blank"
           rel="noreferrer"
           className="w-12 h-12 rounded-full bg-[#25D366] text-white flex items-center justify-center shadow-lg hover:scale-110 transition-transform cursor-pointer shrink-0"

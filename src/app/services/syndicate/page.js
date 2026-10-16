@@ -1184,8 +1184,10 @@ export default function SyndicatePage() {
                 </h4>
                 <div className="flex items-center gap-3">
                   <a
-                    href="#"
-                    className="px-3.5 py-2 rounded-xl bg-white/10 hover:bg-white/20 border border-white/20 text-white text-[11px] font-bold flex items-center gap-2 transition-colors"
+                    href="https://play.google.com/store/apps/details?id=com.propertypistol.syndicate"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-3.5 py-2 rounded-xl bg-white/10 hover:bg-white/20 border border-white/20 text-white text-[11px] font-bold flex items-center gap-2 transition-colors cursor-pointer"
                   >
                     <Smartphone className="w-4 h-4 text-[#E85A2A]" />
                     <div className="text-left leading-tight">
@@ -1195,8 +1197,10 @@ export default function SyndicatePage() {
                   </a>
 
                   <a
-                    href="#"
-                    className="px-3.5 py-2 rounded-xl bg-white/10 hover:bg-white/20 border border-white/20 text-white text-[11px] font-bold flex items-center gap-2 transition-colors"
+                    href="https://apps.apple.com/in/app/propertypistol-syndicate/id1527878484"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-3.5 py-2 rounded-xl bg-white/10 hover:bg-white/20 border border-white/20 text-white text-[11px] font-bold flex items-center gap-2 transition-colors cursor-pointer"
                   >
                     <Globe2 className="w-4 h-4 text-[#E85A2A]" />
                     <div className="text-left leading-tight">

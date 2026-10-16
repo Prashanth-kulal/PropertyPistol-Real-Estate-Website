@@ -176,15 +176,23 @@ export const CANONICAL_PROJECTS = [
     city: "mumbai",
     cityName: "Mumbai",
     location: "Dhokali, Thane West, Mumbai",
+    fullAddress: "Godrej Ascend, Kolshet Road, Thane, Kolshet Road, Dhokali, Thane West, Mumbai, Maharashtra, India",
     price: "1.07 Cr onwards",
     priceNumeric: 10700000,
-    avgPrice: "₹28.08 K / sq.ft",
-    flatTypes: "1, 2 & 3 BHK",
-    carpetArea: "381 - 1,058 sq.ft",
-    possession: "March 2027",
-    rera: "P51700034608",
-    status: "Ongoing",
+    avgPrice: "INR 28.08 K / sq.ft",
+    minPricePerSqft: "INR 28.08 K per Sqft.",
+    flatTypes: "1, 2 & 3 BHK Apartment",
+    configuration: "1 BHK, 2 BHK, 3 BHK",
+    builtUpArea: "On request",
+    carpetArea: "381 - 1,058 Sq.ft.",
+    possession: "Apr 2028",
+    possessionStatus: "Under Construction",
+    possessionDate: "Apr 2028",
+    projectArea: "283974 Sq.ft.",
+    rera: "P51700034608, P51700046541, P51700049514, P51700053668",
+    status: "New Launch",
     tag: "Trending",
+    offersBadge: "Offers Available",
     rating: 4.8,
     reviewsCount: 198,
     images: [
@@ -192,7 +200,7 @@ export const CANONICAL_PROJECTS = [
       "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80"
     ],
-    overview: `Godrej Ascend is a landmark 6-acre residential development situated on Kolshet-Dhokali Road in Thane West. Designed to elevate daily urban life, the project offers over 40 lifestyle amenities integrated seamlessly across a central grand podium and sky decks.\n\nNestled against the verdant backdrop of the Yeoor Hills and Ulhas River, residents experience tranquil nature without compromising on urban convenience. Seamless connectivity to Eastern Express Highway, Ghodbunder Road, and the upcoming Metro Line 4 makes Godrej Ascend an ideal residence for progressive families.`,
+    overview: `Godrej Ascend on Kolshet Road, Thane, is an iconic 6-acre development featuring five elegant high-rise towers integrated with over 40 lifestyle amenities across a central grand podium and sky decks.\n\nNestled against the verdant backdrop of the Yeoor Hills and Ulhas River, residents experience tranquil nature without compromising on urban convenience. Seamless connectivity to Eastern Express Highway, Ghodbunder Road, and the upcoming Metro Line 4 makes Godrej Ascend an ideal residence for progressive families.`,
     highlights: [
       "6+ Acres Gated Community on Kolshet-Dhokali Corridor",
       "Over 40 Curated Lifestyle & Sports Amenities",
@@ -226,6 +234,141 @@ export const CANONICAL_PROJECTS = [
       description: "Godrej Properties is celebrated across India for contemporary design, green architecture, and reliable delivery."
     },
     relatedProjectSlugs: ["godrej-eternal-palms", "godrej-sky-terraces", "lt-vayam", "lodha-crown-kolshet"]
+  },
+
+  {
+    id: "lodha-corinthia",
+    slug: "lodha-corinthia",
+    title: "Lodha Corinthia",
+    name: "Lodha Corinthia",
+    builder: "Lodha Group",
+    developerSlug: "lodha-group",
+    city: "mumbai",
+    cityName: "Mumbai",
+    location: "Bhandup West, Mumbai",
+    fullAddress: "Lodha Corinthia Sales Gallery, LBS Marg, Lal Bahadur Shastri Marg, Ganesh Nagar, Bhandup West, Mumbai, Maharashtra, India",
+    price: "1.9 Cr onwards",
+    priceNumeric: 19000000,
+    avgPrice: "INR 25.3 K / sq.ft",
+    minPricePerSqft: "INR 25.3 K per Sqft.",
+    flatTypes: "2 & 3 BHK Apartment",
+    configuration: "2 BHK, 3 BHK",
+    builtUpArea: "On request",
+    carpetArea: "750 - 1,100 Sq.ft.",
+    possession: "Jun 2029",
+    possessionStatus: "Launch",
+    possessionDate: "Jun 2029",
+    projectArea: "304920 Sq.ft.",
+    rera: "PR1180002400022, PR1180002400043, PR1180002400044",
+    status: "New Launch",
+    tag: "RERA Verified",
+    offersBadge: "Offers Available",
+    rating: 4.9,
+    reviewsCount: 142,
+    images: [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    overview: `Introducing Lodha Corinthia, a magnificent 7-acre estate on LBS Marg that offers an international lifestyle crafted for generous luxury, green landscaped gardens, and grand sports amenities.\n\nCrafted with classical European architectural cues and modern glass facades, Lodha Corinthia redefines urban luxury in Central Mumbai with over 35 curated amenities and bespoke Saint Amand hospitality.`,
+    highlights: [
+      "7-Acre Master Planned Estate on LBS Marg",
+      "Bespoke Saint Amand Five-Star Hospitality Services",
+      "Over 35 Curated Luxury & Sports Amenities",
+      "Direct connectivity to Bhandup & Kanjurmarg Railway Stations",
+      "Direct builder inventory with zero brokerage"
+    ],
+    amenities: [
+      { name: "Olympic Lap Pool", category: "Wellness", icon: "Waves" },
+      { name: "Saint Amand Concierge", category: "Service", icon: "ShieldCheck" },
+      { name: "Grand Clubhouse", category: "Lifestyle", icon: "Building2" },
+      { name: "Indoor Badminton Court", category: "Sports", icon: "Trophy" },
+      { name: "Private Movie Screening Theatre", category: "Entertainment", icon: "Sparkles" }
+    ],
+    floorPlans: generateFloorPlans("2 & 3 BHK", "1.9 Cr", "750 - 1,100 sq.ft"),
+    landmarks: [
+      { name: "LBS Marg", distance: "0.1 km", time: "Direct Access", type: "Road" },
+      { name: "Bhandup Railway Station", distance: "1.2 km", time: "4 mins", type: "Railway" },
+      { name: "Eastern Express Highway", distance: "2.8 km", time: "7 mins", type: "Transit" },
+      { name: "Fortis Hospital Mulund", distance: "3.2 km", time: "8 mins", type: "Healthcare" }
+    ],
+    developerInfo: {
+      name: "Lodha Group",
+      slug: "lodha-group",
+      logo: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=120&h=120&q=80",
+      experience: "44 Years",
+      projectsCount: "200+ Projects",
+      established: "1980",
+      description: "Lodha Group is one of India's premier real estate developers, renowned for luxury landmarks and world-class communities."
+    },
+    relatedProjectSlugs: ["godrej-ascend", "lodha-divino", "lodha-crown-kolshet"]
+  },
+
+  {
+    id: "mahindra-marina-64",
+    slug: "mahindra-marina-64",
+    title: "Mahindra Marina 64",
+    name: "Mahindra Marina 64",
+    shortTitle: "Mahindra Marina ...",
+    builder: "Mahindra Lifespaces",
+    developerSlug: "mahindra-lifespaces",
+    city: "mumbai",
+    cityName: "Mumbai",
+    location: "Malad West, Mumbai",
+    fullAddress: "Mahindra Marina64, Navy Nagar Road, Malad, Navy Colony, Liberty Garden, Malad West, Mumbai, Maharashtra, India",
+    price: "1.8 Cr onwards",
+    priceNumeric: 18000000,
+    avgPrice: "INR 30.0 K / sq.ft",
+    minPricePerSqft: "INR 30.0 K per Sqft.",
+    flatTypes: "2 & 4 BHK Flat",
+    configuration: "2 BHK, 4 BHK",
+    builtUpArea: "On request",
+    carpetArea: "600 - 1,474 Sq.ft.",
+    possession: "Dec 2028",
+    possessionStatus: "Launch",
+    possessionDate: "Dec 2028",
+    projectArea: "198020 Sq.ft.",
+    rera: "PR1181012500087, PR1181012500523, PR1182022502285",
+    status: "New Launch",
+    tag: "Trending",
+    rating: 4.8,
+    reviewsCount: 110,
+    images: [
+      "https://images.unsplash.com/photo-1574362848149-11496d93a7c7?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    overview: `Mahindra Marina 64 in Malad West is a premium residential offering by Mahindra Lifespaces that blends luxury, sustainability, and seamless connectivity to the Link Road and Western Express Highway.\n\nDesigned with IGBC Gold green building pre-certification, the high-rise towers offer panoramic views of the city skyline and coastal mangroves, complemented by resort-style podium amenities and biometric home automation.`,
+    highlights: [
+      "Premium High-Rise Development in Prime Malad West",
+      "Crafted by Mahindra Lifespaces with IGBC Gold Standards",
+      "Comprehensive Rooftop & Podium Lifestyle Amenities",
+      "Proximity to Inorbit Mall & Mindspace Commercial IT Hub",
+      "Direct builder allocation with zero brokerage"
+    ],
+    amenities: [
+      { name: "Infinity Edge Swimming Pool", category: "Wellness", icon: "Waves" },
+      { name: "Sky Gymnasium & Yoga Lawn", category: "Fitness", icon: "Activity" },
+      { name: "Children's Adventure Play Zone", category: "Family", icon: "Smile" },
+      { name: "EV Charging Infrastructure", category: "Eco", icon: "Zap" }
+    ],
+    floorPlans: generateFloorPlans("2 & 4 BHK", "1.8 Cr", "600 - 1,474 sq.ft"),
+    landmarks: [
+      { name: "Link Road Malad", distance: "0.5 km", time: "2 mins", type: "Road" },
+      { name: "Inorbit Mall Malad", distance: "1.8 km", time: "6 mins", type: "Retail" },
+      { name: "Malad Railway Station", distance: "1.5 km", time: "5 mins", type: "Railway" },
+      { name: "Mindspace IT Park", distance: "2.2 km", time: "7 mins", type: "IT Park" }
+    ],
+    developerInfo: {
+      name: "Mahindra Lifespaces",
+      slug: "mahindra-lifespaces",
+      logo: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=120&h=120&q=80",
+      experience: "30 Years",
+      projectsCount: "60+ Projects",
+      established: "1994",
+      description: "Mahindra Lifespaces brings trust and sustainable design to urban residential living across India."
+    },
+    relatedProjectSlugs: ["godrej-ascend", "lodha-corinthia", "lt-island-cove"]
   },
 
   {
@@ -598,6 +741,9 @@ export const CANONICAL_PROJECTS = [
 
 // Master Slug Mapping for known IDs
 const ID_TO_SLUG_MAP = {
+  "godrej-ascend": "godrej-ascend",
+  "lodha-corinthia": "lodha-corinthia",
+  "mahindra-marina-64": "mahindra-marina-64",
   "proj-1": "godrej-eternal-palms",
   "proj-2": "lt-island-cove",
   "proj-3": "lt-elixir-reserve",

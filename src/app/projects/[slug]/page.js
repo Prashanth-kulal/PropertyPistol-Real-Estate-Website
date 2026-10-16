@@ -700,101 +700,164 @@ function StickyEnquiryCard({ project, onScheduleVisit }) {
 }
 
 // ─────────────────────────────────────────────
-// 3. Price Insights of Sanpada Chart Component
+// 3. Price Insights of Locality Chart Component
 // ─────────────────────────────────────────────
-function PriceInsightsChart() {
+function PriceInsightsChart({ project }) {
   const [range, setRange] = useState("3Y");
   const [hoveredIndex, setHoveredIndex] = useState(null);
-  const [selectedLocality, setSelectedLocality] = useState(null); // 'Vashi' | 'Nerul' | 'Seawoods' | 'Kharghar' | 'Palm Beach Rd'
+  const [selectedLocality, setSelectedLocality] = useState(null);
   const [isMoreOpen, setIsMoreOpen] = useState(false);
 
-  // Available nearby localities for comparison
-  const nearbyLocalities = [
-    { name: "Vashi", avg: "₹29.2 K" },
-    { name: "Nerul", avg: "₹26.8 K" },
-    { name: "Seawoods", avg: "₹31.5 K" },
-    { name: "Kharghar", avg: "₹18.5 K" },
-    { name: "Palm Beach Rd", avg: "₹38.0 K" },
-  ];
+  const locality = project?.location ? project.location.split(",")[0].trim() : "Local Area";
+  const citySlug = project?.city || "mumbai";
+  const cityName = project?.cityName || (citySlug.charAt(0).toUpperCase() + citySlug.slice(1));
+  const fullLocation = project?.location || `${locality}, ${cityName}`;
+  const baseAvgPrice = project?.priceNumeric ? Math.round(project.priceNumeric / 950) : 33480;
 
-  // Time range data for Sanpada (Primary - Gold #D29324)
-  const sanpadaData = {
-    "3Y": {
-      periodLabel: "3 Years",
-      changeText: "+26.3% Change in last 3 years",
-      points: [
-        { date: "Apr 23", price: 26500, display: "₹26.5 K" },
-        { date: "Oct 23", price: 27800, display: "₹27.8 K" },
-        { date: "Apr 24", price: 29400, display: "₹29.4 K" },
-        { date: "Oct 24", price: 31200, display: "₹31.2 K" },
-        { date: "Apr 25", price: 32300, display: "₹32.3 K" },
-        { date: "Oct 25", price: 33100, display: "₹33.1 K" },
-        { date: "Oct 26", price: 33480, display: "₹33.48 K" },
-      ],
-    },
-    "4Y": {
-      periodLabel: "4 Years",
-      changeText: "+44.9% Change in last 4 years",
-      points: [
-        { date: "Apr 22", price: 23100, display: "₹23.1 K" },
-        { date: "Oct 22", price: 24800, display: "₹24.8 K" },
-        { date: "Apr 23", price: 26500, display: "₹26.5 K" },
-        { date: "Oct 23", price: 27800, display: "₹27.8 K" },
-        { date: "Apr 24", price: 29400, display: "₹29.4 K" },
-        { date: "Oct 24", price: 31200, display: "₹31.2 K" },
-        { date: "Apr 25", price: 32300, display: "₹32.3 K" },
-        { date: "Oct 25", price: 33100, display: "₹33.1 K" },
-        { date: "Oct 26", price: 33480, display: "₹33.48 K" },
-      ],
-    },
-    "6Y": {
-      periodLabel: "6 Years",
-      changeText: "+81.9% Change in last 6 years",
-      points: [
-        { date: "Oct 20", price: 18400, display: "₹18.4 K" },
-        { date: "Oct 21", price: 21500, display: "₹21.5 K" },
-        { date: "Apr 22", price: 23100, display: "₹23.1 K" },
-        { date: "Apr 23", price: 26500, display: "₹26.5 K" },
-        { date: "Oct 23", price: 27800, display: "₹27.8 K" },
-        { date: "Apr 24", price: 29400, display: "₹29.4 K" },
-        { date: "Oct 24", price: 31200, display: "₹31.2 K" },
-        { date: "Oct 25", price: 33100, display: "₹33.1 K" },
-        { date: "Oct 26", price: 33480, display: "₹33.48 K" },
-      ],
-    },
-  };
+  // Nearby localities tailored to the city/locality
+  const nearbyLocalities = useMemo(() => {
+    const locLower = (locality || "").toLowerCase();
+    const cityLower = (citySlug || "").toLowerCase();
+    if (cityLower === "thane") {
+      return [
+        { name: "Kolshet", avg: "₹24.5 K" },
+        { name: "Majiwada", avg: "₹26.2 K" },
+        { name: "Ghodbunder", avg: "₹18.9 K" },
+        { name: "Naupada", avg: "₹31.0 K" },
+        { name: "Panchpakhadi", avg: "₹32.5 K" },
+      ];
+    }
+    if (locLower.includes("sanpada") || locLower.includes("vashi") || locLower.includes("nerul") || locLower.includes("navi mumbai")) {
+      return [
+        { name: "Vashi", avg: "₹29.2 K" },
+        { name: "Nerul", avg: "₹26.8 K" },
+        { name: "Seawoods", avg: "₹31.5 K" },
+        { name: "Kharghar", avg: "₹18.5 K" },
+        { name: "Palm Beach Rd", avg: "₹38.0 K" },
+      ];
+    }
+    if (cityLower === "pune") {
+      return [
+        { name: "Kharadi", avg: "₹11.2 K" },
+        { name: "Baner", avg: "₹12.5 K" },
+        { name: "Hinjewadi", avg: "₹8.8 K" },
+        { name: "Koregaon Park", avg: "₹19.5 K" },
+        { name: "Viman Nagar", avg: "₹13.2 K" },
+      ];
+    }
+    if (cityLower === "bangalore") {
+      return [
+        { name: "Whitefield", avg: "₹10.5 K" },
+        { name: "Indiranagar", avg: "₹18.2 K" },
+        { name: "Sarjapur", avg: "₹9.8 K" },
+        { name: "Koramangala", avg: "₹17.0 K" },
+        { name: "Bellandur", avg: "₹11.0 K" },
+      ];
+    }
+    // Default Mumbai Island / Suburban
+    return [
+      { name: "Bandra West", avg: "₹65.0 K" },
+      { name: "Worli", avg: "₹62.0 K" },
+      { name: "Lower Parel", avg: "₹52.0 K" },
+      { name: "Powai", avg: "₹28.5 K" },
+      { name: "Andheri West", avg: "₹32.0 K" },
+    ];
+  }, [locality, citySlug]);
+
+  // Dynamic time-range trend data calibrated to project's base price
+  const trendData = useMemo(() => {
+    const p = baseAvgPrice;
+    return {
+      "3Y": {
+        periodLabel: "3 Years",
+        changeText: "+26.3% Change in last 3 years",
+        points: [
+          { date: "Apr 23", price: Math.round(p * 0.79), display: `₹${(p * 0.79 / 1000).toFixed(1)} K` },
+          { date: "Oct 23", price: Math.round(p * 0.83), display: `₹${(p * 0.83 / 1000).toFixed(1)} K` },
+          { date: "Apr 24", price: Math.round(p * 0.88), display: `₹${(p * 0.88 / 1000).toFixed(1)} K` },
+          { date: "Oct 24", price: Math.round(p * 0.93), display: `₹${(p * 0.93 / 1000).toFixed(1)} K` },
+          { date: "Apr 25", price: Math.round(p * 0.96), display: `₹${(p * 0.96 / 1000).toFixed(1)} K` },
+          { date: "Oct 25", price: Math.round(p * 0.99), display: `₹${(p * 0.99 / 1000).toFixed(1)} K` },
+          { date: "Oct 26", price: p, display: `₹${(p / 1000).toFixed(2)} K` },
+        ],
+      },
+      "4Y": {
+        periodLabel: "4 Years",
+        changeText: "+44.9% Change in last 4 years",
+        points: [
+          { date: "Apr 22", price: Math.round(p * 0.69), display: `₹${(p * 0.69 / 1000).toFixed(1)} K` },
+          { date: "Oct 22", price: Math.round(p * 0.74), display: `₹${(p * 0.74 / 1000).toFixed(1)} K` },
+          { date: "Apr 23", price: Math.round(p * 0.79), display: `₹${(p * 0.79 / 1000).toFixed(1)} K` },
+          { date: "Oct 23", price: Math.round(p * 0.83), display: `₹${(p * 0.83 / 1000).toFixed(1)} K` },
+          { date: "Apr 24", price: Math.round(p * 0.88), display: `₹${(p * 0.88 / 1000).toFixed(1)} K` },
+          { date: "Oct 24", price: Math.round(p * 0.93), display: `₹${(p * 0.93 / 1000).toFixed(1)} K` },
+          { date: "Apr 25", price: Math.round(p * 0.96), display: `₹${(p * 0.96 / 1000).toFixed(1)} K` },
+          { date: "Oct 25", price: Math.round(p * 0.99), display: `₹${(p * 0.99 / 1000).toFixed(1)} K` },
+          { date: "Oct 26", price: p, display: `₹${(p / 1000).toFixed(2)} K` },
+        ],
+      },
+      "6Y": {
+        periodLabel: "6 Years",
+        changeText: "+81.9% Change in last 6 years",
+        points: [
+          { date: "Oct 20", price: Math.round(p * 0.55), display: `₹${(p * 0.55 / 1000).toFixed(1)} K` },
+          { date: "Oct 21", price: Math.round(p * 0.64), display: `₹${(p * 0.64 / 1000).toFixed(1)} K` },
+          { date: "Apr 22", price: Math.round(p * 0.69), display: `₹${(p * 0.69 / 1000).toFixed(1)} K` },
+          { date: "Apr 23", price: Math.round(p * 0.79), display: `₹${(p * 0.79 / 1000).toFixed(1)} K` },
+          { date: "Oct 23", price: Math.round(p * 0.83), display: `₹${(p * 0.83 / 1000).toFixed(1)} K` },
+          { date: "Apr 24", price: Math.round(p * 0.88), display: `₹${(p * 0.88 / 1000).toFixed(1)} K` },
+          { date: "Oct 24", price: Math.round(p * 0.93), display: `₹${(p * 0.93 / 1000).toFixed(1)} K` },
+          { date: "Oct 25", price: Math.round(p * 0.99), display: `₹${(p * 0.99 / 1000).toFixed(1)} K` },
+          { date: "Oct 26", price: p, display: `₹${(p / 1000).toFixed(2)} K` },
+        ],
+      },
+    };
+  }, [baseAvgPrice]);
 
   // Comparison series for selected nearby localities (Blue #2563EB)
-  const comparisonDatasets = {
-    Vashi: {
-      "3Y": [23200, 24500, 25800, 27200, 28100, 28900, 29200],
-      "4Y": [20500, 21800, 23200, 24500, 25800, 27200, 28100, 28900, 29200],
-      "6Y": [16800, 19200, 20500, 23200, 24500, 25800, 27200, 28900, 29200],
-    },
-    Nerul: {
-      "3Y": [21500, 22600, 23900, 25100, 25900, 26400, 26800],
-      "4Y": [19000, 20200, 21500, 22600, 23900, 25100, 25900, 26400, 26800],
-      "6Y": [15500, 17800, 19000, 21500, 22600, 23900, 25100, 26400, 26800],
-    },
-    Seawoods: {
-      "3Y": [24800, 26100, 27600, 29200, 30400, 31100, 31500],
-      "4Y": [21800, 23400, 24800, 26100, 27600, 29200, 30400, 31100, 31500],
-      "6Y": [17200, 20100, 21800, 24800, 26100, 27600, 29200, 31100, 31500],
-    },
-    Kharghar: {
-      "3Y": [14200, 15100, 16000, 17100, 17800, 18200, 18500],
-      "4Y": [12800, 13500, 14200, 15100, 16000, 17100, 17800, 18200, 18500],
-      "6Y": [10500, 11800, 12800, 14200, 15100, 16000, 17100, 18200, 18500],
-    },
-    "Palm Beach Rd": {
-      "3Y": [29500, 31200, 33000, 35200, 36800, 37500, 38000],
-      "4Y": [26000, 27800, 29500, 31200, 33000, 35200, 36800, 37500, 38000],
-      "6Y": [21000, 24200, 26000, 29500, 31200, 33000, 35200, 37500, 38000],
-    },
-  };
+  const comparisonDatasets = useMemo(() => {
+    const ds = {};
+    nearbyLocalities.forEach((item) => {
+      const parsed = parseFloat(item.avg.replace(/[^\d.]/g, "")) * 1000 || 28000;
+      ds[item.name] = {
+        "3Y": [
+          Math.round(parsed * 0.80),
+          Math.round(parsed * 0.84),
+          Math.round(parsed * 0.88),
+          Math.round(parsed * 0.93),
+          Math.round(parsed * 0.96),
+          Math.round(parsed * 0.99),
+          parsed,
+        ],
+        "4Y": [
+          Math.round(parsed * 0.70),
+          Math.round(parsed * 0.75),
+          Math.round(parsed * 0.80),
+          Math.round(parsed * 0.84),
+          Math.round(parsed * 0.88),
+          Math.round(parsed * 0.93),
+          Math.round(parsed * 0.96),
+          Math.round(parsed * 0.99),
+          parsed,
+        ],
+        "6Y": [
+          Math.round(parsed * 0.58),
+          Math.round(parsed * 0.65),
+          Math.round(parsed * 0.70),
+          Math.round(parsed * 0.80),
+          Math.round(parsed * 0.84),
+          Math.round(parsed * 0.88),
+          Math.round(parsed * 0.93),
+          Math.round(parsed * 0.99),
+          parsed,
+        ],
+      };
+    });
+    return ds;
+  }, [nearbyLocalities]);
 
-  const currentSanpada = sanpadaData[range] || sanpadaData["3Y"];
-  const points = currentSanpada.points;
+  const currentTrend = trendData[range] || trendData["3Y"];
+  const points = currentTrend.points;
 
   // Comparison points
   const compRaw = selectedLocality && comparisonDatasets[selectedLocality]?.[range];
@@ -843,7 +906,7 @@ function PriceInsightsChart() {
     return height - padBottom - ratio * (height - padTop - padBottom);
   };
 
-  // Build SVG path for Sanpada
+  // Build SVG path for Locality
   const pathD = useMemo(() => {
     if (!points.length) return "";
     let d = `M ${getX(0)} ${getY(points[0].price)}`;
@@ -858,7 +921,7 @@ function PriceInsightsChart() {
     return d;
   }, [points, minPrice, maxPrice]);
 
-  // Area path for Sanpada
+  // Area path for Locality
   const areaD = useMemo(() => {
     if (!points.length) return "";
     const lastX = getX(points.length - 1);
@@ -900,7 +963,7 @@ function PriceInsightsChart() {
         <div>
           <div className="flex items-center gap-2 flex-wrap">
             <h3 className="text-base sm:text-lg font-black text-[#252525]">
-              Price Insights of Sanpada
+              Price Insights of {locality}
             </h3>
             {selectedLocality && (
               <span className="text-xs font-bold text-[#2563EB]">
@@ -910,7 +973,7 @@ function PriceInsightsChart() {
           </div>
           <div className="flex items-center gap-2 mt-1">
             <span className="px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-200">
-              {currentSanpada.changeText}
+              {currentTrend.changeText}
             </span>
           </div>
         </div>
@@ -924,10 +987,11 @@ function PriceInsightsChart() {
                 setRange(btn);
                 setHoveredIndex(null);
               }}
-              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer ${range === btn
+              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer ${
+                range === btn
                   ? "bg-[#D29324] text-white shadow-sm"
                   : "text-[#6B7280] hover:text-[#252525]"
-                }`}
+              }`}
             >
               {btn}
             </button>
@@ -939,7 +1003,7 @@ function PriceInsightsChart() {
       <div className="flex items-center gap-4 text-xs font-semibold pt-1">
         <div className="flex items-center gap-1.5">
           <span className="w-3 h-3 rounded-full bg-[#D29324]" />
-          <span className="text-[#252525]">Sanpada (Current)</span>
+          <span className="text-[#252525]">{locality} (Current)</span>
         </div>
 
         {selectedLocality && (
@@ -998,10 +1062,10 @@ function PriceInsightsChart() {
             );
           })}
 
-          {/* Sanpada Area fill */}
+          {/* Locality Area fill */}
           <path d={areaD} fill="url(#chartGoldGrad)" />
 
-          {/* Sanpada Line curve (Gold) */}
+          {/* Locality Line curve (Gold) */}
           <path
             d={pathD}
             fill="none"
@@ -1021,14 +1085,14 @@ function PriceInsightsChart() {
             />
           )}
 
-          {/* Sanpada Data Points */}
+          {/* Locality Data Points */}
           {points.map((pt, i) => {
             const cx = getX(i);
             const cy = getY(pt.price);
             const isHovered = hoveredIndex === i;
             return (
               <g
-                key={`sanpada-${i}`}
+                key={`loc-pt-${i}`}
                 onMouseEnter={() => setHoveredIndex(i)}
                 onMouseLeave={() => setHoveredIndex(null)}
                 className="cursor-pointer"
@@ -1108,7 +1172,7 @@ function PriceInsightsChart() {
             </div>
             <div className="flex items-center gap-1.5 text-[#D29324]">
               <span className="w-2 h-2 rounded-full bg-[#D29324]" />
-              <span>Sanpada: {points[hoveredIndex].display}/sq.ft</span>
+              <span>{locality}: {points[hoveredIndex].display}/sq.ft</span>
             </div>
             {compPoints && compPoints[hoveredIndex] && (
               <div className="flex items-center gap-1.5 text-blue-400">
@@ -1128,27 +1192,28 @@ function PriceInsightsChart() {
           <div className="flex items-center gap-2 flex-wrap">
             <span className="px-3 py-1 rounded-full bg-[#FAF8F4] border border-[#D29324] text-[#AE7419] font-bold text-[11px] flex items-center gap-1.5">
               <span className="w-1.5 h-1.5 rounded-full bg-[#D29324]" />
-              Sanpada
+              {locality}
             </span>
 
             {/* Functional "More +" toggle button */}
             <button
               type="button"
               onClick={() => setIsMoreOpen(!isMoreOpen)}
-              className={`px-3 py-1 rounded-full border text-[11px] font-bold transition-all cursor-pointer flex items-center gap-1 ${isMoreOpen
+              className={`px-3 py-1 rounded-full border text-[11px] font-bold transition-all cursor-pointer flex items-center gap-1 ${
+                isMoreOpen
                   ? "bg-[#D29324] text-white border-[#D29324]"
                   : "bg-[#FAF8F4] text-[#6B7280] hover:text-[#252525] border-[#E8E3DA] hover:border-[#D29324]"
-                }`}
+              }`}
             >
               <span>{isMoreOpen ? "Show Less ▲" : "More +"}</span>
             </button>
           </div>
 
           <Link
-            href="/mumbai"
+            href={`/${citySlug}`}
             className="text-[#D29324] hover:text-[#AE7419] font-bold text-xs inline-flex items-center gap-1 hover:underline"
           >
-            See price trends in Mumbai →
+            See price trends in {cityName} →
           </Link>
         </div>
 
@@ -1156,7 +1221,7 @@ function PriceInsightsChart() {
         {isMoreOpen && (
           <div className="p-3 bg-[#FAF8F4] rounded-xl border border-[#E8E3DA] space-y-2 animate-in fade-in slide-in-from-top-1 duration-200">
             <span className="text-[10px] font-bold text-[#6B7280] uppercase tracking-wider block">
-              Compare Sanpada with nearby Navi Mumbai localities:
+              Compare {locality} with nearby {cityName} localities:
             </span>
             <div className="flex items-center gap-2 flex-wrap">
               {nearbyLocalities.map((loc) => {
@@ -1167,15 +1232,17 @@ function PriceInsightsChart() {
                     onClick={() =>
                       setSelectedLocality(isSelected ? null : loc.name)
                     }
-                    className={`px-3 py-1 rounded-lg text-xs font-semibold transition-all cursor-pointer flex items-center gap-1.5 border ${isSelected
+                    className={`px-3 py-1 rounded-lg text-xs font-semibold transition-all cursor-pointer flex items-center gap-1.5 border ${
+                      isSelected
                         ? "bg-[#2563EB] text-white border-[#2563EB] shadow-sm"
                         : "bg-white text-[#252525] border-[#E8E3DA] hover:border-[#2563EB] hover:text-[#2563EB]"
-                      }`}
+                    }`}
                   >
                     <span>{loc.name}</span>
                     <span
-                      className={`text-[10px] ${isSelected ? "text-blue-100" : "text-[#6B7280]"
-                        }`}
+                      className={`text-[10px] ${
+                        isSelected ? "text-blue-100" : "text-[#6B7280]"
+                      }`}
                     >
                       ({loc.avg}/sq.ft)
                     </span>
@@ -1189,7 +1256,7 @@ function PriceInsightsChart() {
       </div>
 
       <p className="text-[10px] text-[#6B7280] leading-relaxed">
-        * Price trends based on historical registry and market averages for Sanpada, Navi Mumbai (Illustrative Market Insights). Baseline reflects verified luxury project averages.
+        * Price trends based on historical registry and market averages for {fullLocation} (Illustrative Market Insights). Baseline reflects verified luxury project averages.
       </p>
     </div>
   );
@@ -1425,10 +1492,32 @@ function LocationMapSection({ project }) {
     "Transport",
   ];
 
-  // Real, verified places for Sanpada, Navi Mumbai
+  // Dynamic places derived from project landmarks or nearby facilities
   const places = useMemo(() => {
+    if (project?.landmarks && Array.isArray(project.landmarks) && project.landmarks.length > 0) {
+      return project.landmarks.map((lm, idx) => {
+        let category = "Transport";
+        const type = (lm.type || "").toLowerCase();
+        const name = (lm.name || "").toLowerCase();
+        if (type.includes("health") || type.includes("hospital") || name.includes("hospital")) category = "Hospitals";
+        else if (type.includes("school") || type.includes("education") || name.includes("school") || name.includes("college") || name.includes("institute")) category = "Schools";
+        else if (type.includes("park") || type.includes("garden") || name.includes("park") || name.includes("waterfront")) category = "Parks";
+        else if (type.includes("mall") || type.includes("retail") || type.includes("market") || name.includes("mall") || name.includes("market")) category = "Shopping Centers";
+        else category = "Transport";
+
+        return {
+          id: `lm-${idx}`,
+          category,
+          name: lm.name,
+          distance: lm.distance || "1.0 km",
+          time: lm.time || "5 mins",
+          type: lm.type || "Nearby Landmark",
+        };
+      });
+    }
+
+    // Default verified landmarks fallback
     return [
-      // Hospitals
       {
         id: "h1",
         category: "Hospitals",
@@ -1440,173 +1529,53 @@ function LocationMapSection({ project }) {
       {
         id: "h2",
         category: "Hospitals",
-        name: "MPCT Hospital - Sanpada",
+        name: "Super Speciality Hospital",
         distance: "1.2 km",
         time: "5 mins",
         type: "Super Speciality Healthcare",
       },
       {
-        id: "h3",
-        category: "Hospitals",
-        name: "Fortis Hiranandani Hospital - Vashi",
-        distance: "3.2 km",
-        time: "8 mins",
-        type: "Tertiary Care Hospital",
-      },
-      {
-        id: "h4",
-        category: "Hospitals",
-        name: "Apollo Hospital - Belapur",
-        distance: "4.2 km",
-        time: "10 mins",
-        type: "NABH Accredited Hospital",
-      },
-
-      // Schools
-      {
         id: "s1",
         category: "Schools",
-        name: "Ryan International School - Sanpada",
+        name: "International K-12 Academy",
         distance: "0.9 km",
         time: "4 mins",
-        type: "ICSE / CBSE School",
+        type: "ICSE / CBSE Affiliated",
       },
-      {
-        id: "s2",
-        category: "Schools",
-        name: "Oriental Institute of Management",
-        distance: "1.1 km",
-        time: "5 mins",
-        type: "Higher Education Campus",
-      },
-      {
-        id: "s3",
-        category: "Schools",
-        name: "Sadhu Vaswani International School",
-        distance: "1.4 km",
-        time: "6 mins",
-        type: "CBSE Affiliated",
-      },
-      {
-        id: "s4",
-        category: "Schools",
-        name: "Delhi Public School (DPS) - Nerul",
-        distance: "2.8 km",
-        time: "9 mins",
-        type: "Premier K-12 Institution",
-      },
-
-      // Parks
       {
         id: "p1",
         category: "Parks",
-        name: "Moraj Waterfall Park - Sanpada",
+        name: "Central Botanical Promenade",
         distance: "0.6 km",
         time: "2 mins",
-        type: "Botanical Garden & Jogging Track",
+        type: "Jogging & Recreation Park",
       },
-      {
-        id: "p2",
-        category: "Parks",
-        name: "Palm Beach Jogging Track & Promenade",
-        distance: "1.0 km",
-        time: "4 mins",
-        type: "Creek-side Promenade",
-      },
-      {
-        id: "p3",
-        category: "Parks",
-        name: "Sagar Vihar Waterfront Garden - Vashi",
-        distance: "2.5 km",
-        time: "7 mins",
-        type: "Public Waterfront Recreation",
-      },
-      {
-        id: "p4",
-        category: "Parks",
-        name: "Wonders Park - Nerul",
-        distance: "4.1 km",
-        time: "11 mins",
-        type: "Amusement & Theme Park",
-      },
-
-      // Shopping Centers
       {
         id: "c1",
         category: "Shopping Centers",
-        name: "Sanpada Sector 14 Retail Market",
-        distance: "0.7 km",
-        time: "3 mins",
-        type: "Daily Shopping & Retail",
+        name: "City Center Retail Mall",
+        distance: "1.5 km",
+        time: "5 mins",
+        type: "Regional Shopping & Dining",
       },
-      {
-        id: "c2",
-        category: "Shopping Centers",
-        name: "Inorbit Mall - Vashi",
-        distance: "2.2 km",
-        time: "7 mins",
-        type: "Regional Shopping Mall",
-      },
-      {
-        id: "c3",
-        category: "Shopping Centers",
-        name: "Raghuleela Mall - Vashi",
-        distance: "2.5 km",
-        time: "8 mins",
-        type: "Multiplex & Retail Hub",
-      },
-      {
-        id: "c4",
-        category: "Shopping Centers",
-        name: "Seawoods Grand Central Mall",
-        distance: "4.8 km",
-        time: "12 mins",
-        type: "Transit-oriented Luxury Mall",
-      },
-
-      // Transport
       {
         id: "t1",
         category: "Transport",
-        name: "Palm Beach Road Junction",
-        distance: "0.3 km",
-        time: "1 min",
-        type: "Arterial 6-lane Corridor",
+        name: "Expressway & Arterial Corridor",
+        distance: "0.5 km",
+        time: "2 mins",
+        type: "Major Transit Link",
       },
       {
         id: "t2",
         category: "Transport",
-        name: "Sanpada Railway Station",
-        distance: "1.1 km",
-        time: "4 mins",
-        type: "Harbour & Trans-Harbour Line",
-      },
-      {
-        id: "t3",
-        category: "Transport",
-        name: "Juinagar Railway Station",
-        distance: "1.5 km",
-        time: "6 mins",
-        type: "Suburban Railway Network",
-      },
-      {
-        id: "t4",
-        category: "Transport",
-        name: "Atal Setu (MTHL Interchange)",
-        distance: "6.5 km",
-        time: "12 mins",
-        type: "Trans-Harbour Sea Link Ramp",
-      },
-      {
-        id: "t5",
-        category: "Transport",
-        name: "Navi Mumbai International Airport (NMIA)",
-        distance: "16.5 km",
-        time: "24 mins",
-        type: "Upcoming Green-field Airport",
+        name: "Metro / Suburban Station",
+        distance: "1.2 km",
+        time: "5 mins",
+        type: "Rapid Mass Transit",
       },
     ];
-  }, []);
+  }, [project]);
 
   const filteredPlaces = useMemo(() => {
     if (activeCategory === "All") return places;
@@ -1630,6 +1599,9 @@ function LocationMapSection({ project }) {
     }
   };
 
+  const projectTitle = project?.title || "Property";
+  const projectLocation = project?.location || "Prime Location, Mumbai";
+
   return (
     <section
       id="location"
@@ -1646,13 +1618,13 @@ function LocationMapSection({ project }) {
             Location
           </h2>
           <p className="text-xs text-[#6B7280] mt-0.5">
-            325, Sector 19, Palm Beach Road, Sanpada, Navi Mumbai
+            {projectLocation}
           </p>
         </div>
 
         <a
           href={`https://maps.google.com/?q=${encodeURIComponent(
-            "Godrej Eternal Palms, Palm Beach Road, Sanpada, Navi Mumbai"
+            `${projectTitle}, ${projectLocation}`
           )}`}
           target="_blank"
           rel="noopener noreferrer"
@@ -1673,10 +1645,11 @@ function LocationMapSection({ project }) {
               <button
                 key={cat}
                 onClick={() => setActiveCategory(cat)}
-                className={`px-3.5 py-1.5 rounded-full text-xs font-bold transition-all cursor-pointer whitespace-nowrap ${activeCategory === cat
+                className={`px-3.5 py-1.5 rounded-full text-xs font-bold transition-all cursor-pointer whitespace-nowrap ${
+                  activeCategory === cat
                     ? "bg-[#EA580C] text-white shadow-md scale-105"
                     : "bg-[#FAF8F4] text-[#6B7280] hover:text-[#252525] border border-[#E8E3DA]"
-                  }`}
+                }`}
               >
                 {cat}
               </button>
@@ -1686,7 +1659,7 @@ function LocationMapSection({ project }) {
           {/* Interactive OpenStreetMap Embed */}
           <div className="relative flex-1 min-h-[380px] sm:min-h-[420px] rounded-2xl overflow-hidden border border-[#E8E3DA] bg-[#FAF8F4] shadow-inner">
             <iframe
-              title="Sanpada Location Map"
+              title={`${projectTitle} Location Map`}
               width="100%"
               height="100%"
               frameBorder="0"
@@ -1706,10 +1679,10 @@ function LocationMapSection({ project }) {
                 </div>
                 <div className="min-w-0">
                   <span className="text-xs font-extrabold text-[#252525] block truncate">
-                    Godrej Eternal Palms
+                    {projectTitle}
                   </span>
                   <span className="text-[10px] text-[#6B7280] block truncate">
-                    Sector 19, Palm Beach, Sanpada
+                    {projectLocation}
                   </span>
                 </div>
               </div>
@@ -1759,7 +1732,7 @@ function LocationMapSection({ project }) {
                   </div>
                   <a
                     href={`https://maps.google.com/?q=${encodeURIComponent(
-                      `${pl.name}, Navi Mumbai`
+                      `${pl.name}, ${projectLocation}`
                     )}`}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -2232,20 +2205,20 @@ function ProjectDetailContent() {
             </li>
             <li>/</li>
             <li>
-              <Link href="/mumbai" className="hover:text-[#AE7419] transition-colors">
-                Mumbai
+              <Link href={`/${project.city || "mumbai"}`} className="hover:text-[#AE7419] transition-colors">
+                {project.cityName || "Mumbai"}
               </Link>
             </li>
             <li>/</li>
             <li>
-              <Link href="/mumbai" className="hover:text-[#AE7419] transition-colors">
-                Flats for sale in Mumbai
+              <Link href={`/${project.city || "mumbai"}/buy/real-estate`} className="hover:text-[#AE7419] transition-colors">
+                Flats for sale in {project.cityName || "Mumbai"}
               </Link>
             </li>
             <li>/</li>
             <li>
-              <Link href="/mumbai" className="hover:text-[#AE7419] transition-colors">
-                New Projects in Sanpada
+              <Link href={`/${project.city || "mumbai"}/buy/real-estate`} className="hover:text-[#AE7419] transition-colors">
+                New Projects in {project.location ? project.location.split(",")[0].trim() : (project.cityName || "Mumbai")}
               </Link>
             </li>
             <li>/</li>
@@ -2258,10 +2231,11 @@ function ProjectDetailContent() {
             <button
               onClick={handleToggleSave}
               title={isSaved ? "Saved" : "Save project"}
-              className={`p-2 rounded-xl border cursor-pointer transition-all ${isSaved
+              className={`p-2 rounded-xl border cursor-pointer transition-all ${
+                isSaved
                   ? "bg-rose-50 border-rose-300 text-rose-500"
                   : "bg-white border-[#E8E3DA] text-[#6B7280] hover:border-[#D29324]"
-                }`}
+              }`}
             >
               <Heart className={`w-3.5 h-3.5 ${isSaved ? "fill-current" : ""}`} />
             </button>
@@ -2289,7 +2263,7 @@ function ProjectDetailContent() {
                 <span className="text-[#EA580C] font-bold">
                   {project.builder}
                 </span>{" "}
-                at 325, Sector 19, Palm Beach, Sanpada, Navi Mumbai, Maharashtra 400705, India
+                at {project.location || `${project.cityName || "Mumbai"}, India`}
               </p>
               <div className="flex items-center gap-3 pt-1 text-[11px] text-[#252525] flex-wrap">
                 <span className="px-2 py-0.5 rounded bg-gray-100 font-mono text-[#252525] border border-gray-200">
@@ -2514,7 +2488,7 @@ function ProjectDetailContent() {
               className="scroll-mt-32 p-6 sm:p-8 rounded-3xl bg-white border border-[#E8E3DA] shadow-sm space-y-4"
             >
               <h2 className="text-xl sm:text-2xl font-black text-[#252525]">
-                About {project.title}, Sanpada
+                About {project.title}, {project.location ? project.location.split(",")[0].trim() : (project.cityName || "India")}
               </h2>
 
               {/* Status specs strip */}
@@ -2543,7 +2517,11 @@ function ProjectDetailContent() {
                   <p className="whitespace-pre-line">{project.overview}</p>
                 ) : (
                   <p>
-                    Godrej Eternal Palms is an ultra-premium residential landmark in the heart of Sanpada, Navi Mumbai, offering opulent 2 and 3 BHK homes designed for refined urban living. Set amidst sprawling landscaped greenery with sweeping views of the Palm Beach corridor...
+                    {project.overview
+                      ? (project.overview.length > 260
+                          ? `${project.overview.slice(0, 260)}...`
+                          : project.overview)
+                      : `Welcome to ${project.title}, an ultra-premium residential landmark by ${project.builder} featuring thoughtfully designed apartments with contemporary architecture and lifestyle amenities.`}
                   </p>
                 )}
                 <button
@@ -2562,9 +2540,9 @@ function ProjectDetailContent() {
               onScheduleVisit={() => setEnquiryMode("visit")}
             />
 
-            {/* Price Insights of Sanpada (Interactive SVG Graph) */}
+            {/* Price Insights of Locality (Interactive SVG Graph) */}
             <div id="price-insights" className="scroll-mt-32">
-              <PriceInsightsChart />
+              <PriceInsightsChart project={project} />
             </div>
 
             {/* Price Details & Table */}

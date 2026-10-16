@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useMemo, useState } from "react";
+import Link from "next/link";
 import {
   ArrowLeft,
   ArrowLeftRight,
@@ -11,6 +12,8 @@ import {
   Ruler,
 } from "lucide-react";
 import { useRouter } from "next/navigation";
+import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
 
 export default function UnitConverterPage() {
   const router = useRouter();
@@ -31,9 +34,29 @@ export default function UnitConverterPage() {
       toSqFt: 10.7639104167,
     },
     sqyd: {
-      name: "Square Yards",
+      name: "Square Yards (Gaj)",
       short: "sq. yd.",
       toSqFt: 9,
+    },
+    gunta: {
+      name: "Gunta / Guntha",
+      short: "gunta",
+      toSqFt: 1089,
+    },
+    ground: {
+      name: "Ground",
+      short: "ground",
+      toSqFt: 2400,
+    },
+    bigha: {
+      name: "Bigha (Standard)",
+      short: "bigha",
+      toSqFt: 27225,
+    },
+    cent: {
+      name: "Cent",
+      short: "cent",
+      toSqFt: 435.6,
     },
     acre: {
       name: "Acres",
@@ -79,42 +102,34 @@ export default function UnitConverterPage() {
   };
 
   return (
-    <main className="min-h-screen bg-[#FAF8F4] text-[#252525]">
-      {/* HEADER */}
-      <header className="sticky top-0 z-50 bg-white border-b border-[#E8E3DA]">
-        <div className="max-w-[1200px] mx-auto px-4 sm:px-6 py-4">
-          <div className="flex items-center justify-between">
-            <button
-              onClick={() => router.back()}
-              className="flex items-center gap-2 text-sm font-semibold text-[#6B7280] hover:text-[#AE7419] transition-colors"
-            >
-              <ArrowLeft className="w-4 h-4" />
-              Back
-            </button>
+    <div className="min-h-screen bg-[#FAF8F4] text-[#252525] flex flex-col">
+      <Header />
 
-            <div className="flex items-center gap-2">
-              <div className="w-9 h-9 rounded-xl bg-[#FBF1DF] border border-[#D29324]/30 flex items-center justify-center">
-                <ArrowLeftRight className="w-5 h-5 text-[#D29324]" />
-              </div>
+      {/* BREADCRUMB STRIP */}
+      <div className="bg-white border-b border-[#E8E3DA]">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-6 py-3 flex items-center justify-between text-xs text-[#6B7280]">
+          <ol className="flex items-center gap-2">
+            <li>
+              <Link href="/" className="hover:text-[#AE7419] transition-colors">
+                Home
+              </Link>
+            </li>
+            <li>/</li>
+            <li>
+              <Link href="/services" className="hover:text-[#AE7419] transition-colors">
+                Services
+              </Link>
+            </li>
+            <li>/</li>
+            <li className="font-bold text-[#252525]">Unit Converter</li>
+          </ol>
 
-              <div>
-                <div className="font-extrabold text-[#252525]">
-                  AuraLiving
-                </div>
-
-                <div className="text-[10px] uppercase tracking-wider text-[#AE7419] font-bold">
-                  Smart Tools
-                </div>
-              </div>
-            </div>
-
-            <div className="hidden sm:flex items-center gap-2 text-xs font-semibold text-[#6B7280]">
-              <CheckCircle2 className="w-4 h-4 text-[#D29324]" />
-              Free Tool
-            </div>
+          <div className="flex items-center gap-2">
+            <CheckCircle2 className="w-4 h-4 text-[#D29324]" />
+            <span className="font-semibold">Free Real Estate Tool</span>
           </div>
         </div>
-      </header>
+      </div>
 
       {/* HERO */}
       <section className="py-12 sm:py-16">
@@ -358,27 +373,7 @@ export default function UnitConverterPage() {
         </div>
       </section>
 
-      {/* FOOTER */}
-      <footer className="bg-[#252525] text-white py-7">
-        <div className="max-w-[1100px] mx-auto px-4 sm:px-6">
-          <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
-            <div>
-              <p className="font-extrabold">AuraLiving</p>
-
-              <p className="text-xs text-white/50 mt-1">
-                Smart tools for smarter property decisions.
-              </p>
-            </div>
-
-            <button
-              onClick={() => router.push("/")}
-              className="text-xs font-semibold text-[#F2C56B] hover:text-white transition-colors"
-            >
-              Back to Home
-            </button>
-          </div>
-        </div>
-      </footer>
-    </main>
+      <Footer />
+    </div>
   );
 }
