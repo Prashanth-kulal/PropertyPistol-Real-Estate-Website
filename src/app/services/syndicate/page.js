@@ -319,7 +319,7 @@ export default function SyndicatePage() {
   return (
     <div className="min-h-screen bg-white text-[#252525] font-sans selection:bg-[#FBF1DF] selection:text-[#AE7419]">
       {/* 1. SYNDICATE STICKY SUB-NAV / HEADER */}
-      <header className="bg-[#1C1C1C] text-white sticky top-[70px] z-30 shadow-lg border-b border-white/10 transition-all">
+      <header className="bg-[#1C1C1C] text-white sticky top-0 z-30 shadow-lg border-b border-white/10 transition-all">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-10 h-[68px] flex items-center justify-between">
           {/* Left: Brand Logo */}
           <div className="flex items-center gap-3">
@@ -359,8 +359,8 @@ export default function SyndicatePage() {
 
           {/* Right Action Buttons */}
           <div className="flex items-center gap-3">
-            <button
-              onClick={() => setProjectsModalOpen(true)}
+            <Link
+              href="/services/syndicate/projects"
               className="px-3.5 py-2 rounded-xl bg-white/10 hover:bg-white/15 text-white border border-white/20 transition-all text-xs font-semibold flex items-center gap-2 cursor-pointer shadow-sm group"
             >
               <div className="text-right leading-tight">
@@ -368,7 +368,7 @@ export default function SyndicatePage() {
                 <span className="text-xs font-bold text-white">Projects</span>
               </div>
               <Building2 className="w-4 h-4 text-[#E85A2A] group-hover:scale-110 transition-transform" />
-            </button>
+            </Link>
 
             <button
               onClick={() => setBrochureModalOpen(true)}
