@@ -17,7 +17,6 @@ import {
   MapPin
 } from "lucide-react";
 import { useWishlist } from "@/context/WishlistContext";
-import CitySelectorModal from "@/components/common/CitySelectorModal";
 
 export default function Header({
   selectedCity = "mumbai",
@@ -28,23 +27,11 @@ export default function Header({
   const pathname = usePathname();
   const { savedCount } = useWishlist();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
   const [servicesDropdownOpen, setServicesDropdownOpen] = useState(false);
-  const [localCityModalOpen, setLocalCityModalOpen] = useState(false);
   const dropdownRef = useRef(null);
 
-  const cityName = selectedCity
-    ? selectedCity.charAt(0).toUpperCase() + selectedCity.slice(1).replace(/-/g, " ")
-    : "Mumbai";
-
-  const handleCityClick = () => {
-    if (onOpenCityModal) {
-      onOpenCityModal();
-    } else {
-      setLocalCityModalOpen(true);
-    }
-  };
-
-  // Close dropdown when clicking outside
+  // Close dropdown when clicking or touching outside
   useEffect(() => {
     function handleClickOutside(event) {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
@@ -52,7 +39,11 @@ export default function Header({
       }
     }
     document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
+    document.addEventListener("touchstart", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener("touchstart", handleClickOutside);
+    };
   }, []);
 
   const serviceItems = [
@@ -110,18 +101,6 @@ export default function Header({
             </div>
           </Link>
 
-          {/* City Selector Button (Desktop) */}
-          <button
-            type="button"
-            onClick={handleCityClick}
-            className="hidden lg:flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#FAF8F4] hover:bg-[#FBF1DF] border border-[#F2E8D8] hover:border-[#D29324]/40 text-[#252525] hover:text-[#AE7419] transition-all text-xs font-semibold cursor-pointer shadow-2xs"
-            title="Change City"
-            aria-label={`Current city: ${cityName}. Click to switch city.`}
-          >
-            <MapPin className="w-3.5 h-3.5 text-[#D29324] shrink-0" />
-            <span className="max-w-[100px] truncate">{cityName}</span>
-            <ChevronDown className="w-3 h-3 text-gray-400 shrink-0" />
-          </button>
 
           {/* Primary Navigation Menu */}
           <nav className="hidden md:flex items-center gap-7 text-[13.5px] font-medium text-gray-700">
@@ -140,16 +119,18 @@ export default function Header({
               onMouseEnter={() => setServicesDropdownOpen(true)}
               onMouseLeave={() => setServicesDropdownOpen(false)}
             >
-              <Link
-                href="/services"
-                onClick={() => setServicesDropdownOpen(false)}
+              <button
+                type="button"
+                onClick={() => setServicesDropdownOpen((prev) => !prev)}
                 className={`flex items-center gap-1 hover:text-[#D29324] transition-colors py-2 cursor-pointer ${
                   pathname?.startsWith("/services") ? "text-[#D29324] font-semibold" : ""
                 }`}
+                aria-expanded={servicesDropdownOpen}
+                aria-haspopup="true"
               >
                 <span>Services</span>
                 <ChevronDown className={`w-3.5 h-3.5 transition-transform duration-200 ${servicesDropdownOpen ? "rotate-180 text-[#D29324]" : "text-gray-400"}`} />
-              </Link>
+              </button>
 
               {/* Mega Dropdown Panel */}
               {servicesDropdownOpen && (
@@ -318,19 +299,8 @@ export default function Header({
           </Link>
         </div>
 
-        {/* Mobile Header Right: Quick City + Quick WhatsApp + Quick Heart + Quick Account + Menu Toggle */}
-        <div className="flex sm:hidden items-center gap-1.5">
-          {/* Quick City Button on Mobile */}
-          <button
-            type="button"
-            onClick={handleCityClick}
-            className="flex items-center gap-1 px-2 py-1 rounded-full bg-[#FAF8F4] border border-[#F2E8D8] text-[#252525] text-[11px] font-semibold cursor-pointer shrink-0"
-            title="Change City"
-            aria-label={`Change city, currently ${cityName}`}
-          >
-            <MapPin className="w-3 h-3 text-[#D29324] shrink-0" />
-            <span className="max-w-[55px] truncate">{cityName}</span>
-          </button>
+        {/* Mobile Header Right: Quick WhatsApp + Quick Heart + Quick Account + Menu Toggle */}
+        <div className="flex sm:hidden items-center gap-2 shrink-0">
 
           {/* Quick WhatsApp on Mobile with Balanced Circle */}
           <a
@@ -387,29 +357,108 @@ export default function Header({
 
       {/* Mobile Menu Drawer */}
       {mobileMenuOpen && (
-        <div className="sm:hidden border-t border-gray-200 bg-white px-5 py-4 space-y-3 shadow-lg">
-          {/* Mobile Select City Row */}
-          <button
-            type="button"
-            onClick={() => {
-              setMobileMenuOpen(false);
-              handleCityClick();
-            }}
-            className="w-full flex items-center justify-between text-sm font-semibold text-gray-800 py-2 border-b border-gray-100 hover:text-[#D29324] text-left"
+        <div className="sm:hidden border-t border-gray-200 bg-white px-5 py-4 space-y-2.5 shadow-lg">
+          {/* Why Us? */}
+          <Link
+            href="/why-us"
+            onClick={() => setMobileMenuOpen(false)}
+            className="flex items-center justify-between text-sm font-semibold text-gray-800 py-2.5 px-3 rounded-xl hover:bg-[#FAF8F4] hover:text-[#D29324] transition-colors"
+          >
+            <span>Why Us?</span>
+            <ArrowRight className="w-4 h-4 text-gray-400" />
+          </Link>
+
+          {/* Services Accordion (All 4 Options Accessible) */}
+          <div className="rounded-xl border border-gray-100 bg-gray-50/50 overflow-hidden">
+            <button
+              type="button"
+              onClick={() => setMobileServicesOpen((prev) => !prev)}
+              className="w-full flex items-center justify-between text-sm font-semibold text-gray-800 py-2.5 px-3 hover:text-[#D29324] text-left cursor-pointer transition-colors"
+              aria-expanded={mobileServicesOpen}
+            >
+              <span>Services</span>
+              <ChevronDown
+                className={`w-4 h-4 text-gray-400 transition-transform duration-200 ${
+                  mobileServicesOpen ? "rotate-180 text-[#D29324]" : ""
+                }`}
+              />
+            </button>
+
+            {mobileServicesOpen && (
+              <div className="px-2 pb-2 pt-1 space-y-1.5 border-t border-gray-100 bg-white animate-in fade-in duration-200">
+                {serviceItems.map((item, index) => {
+                  const Icon = item.icon;
+                  const isActive = pathname === item.href;
+                  return (
+                    <Link
+                      key={index}
+                      href={item.href}
+                      onClick={() => {
+                        setMobileMenuOpen(false);
+                        setMobileServicesOpen(false);
+                      }}
+                      className={`p-2.5 rounded-xl flex items-center gap-3 transition-all ${
+                        isActive
+                          ? "bg-[#FAF8F4] text-[#AE7419] font-bold border border-[#F2E8D8]"
+                          : "text-gray-700 hover:bg-[#FAF8F4] hover:text-[#D29324] border border-transparent"
+                      }`}
+                    >
+                      <div
+                        className={`w-8 h-8 rounded-lg flex items-center justify-center shrink-0 border ${
+                          isActive
+                            ? "bg-[#FBF1DF] text-[#AE7419] border-[#D29324]/40"
+                            : "bg-gray-100 text-[#D29324] border-gray-200/60"
+                        }`}
+                      >
+                        <Icon className="w-4 h-4" />
+                      </div>
+                      <div className="flex-1 min-w-0">
+                        <div className="text-xs font-bold leading-tight line-clamp-1">
+                          {item.title}
+                        </div>
+                        <div className="text-[10px] text-gray-500 line-clamp-1 mt-0.5 font-normal">
+                          {item.description}
+                        </div>
+                      </div>
+                    </Link>
+                  );
+                })}
+
+                <Link
+                  href="/services"
+                  onClick={() => {
+                    setMobileMenuOpen(false);
+                    setMobileServicesOpen(false);
+                  }}
+                  className="mt-1 p-2 rounded-lg bg-[#FAF8F4] text-[11px] font-bold text-[#AE7419] hover:text-[#D29324] flex items-center justify-between"
+                >
+                  <span>View All Services</span>
+                  <ArrowRight className="w-3.5 h-3.5" />
+                </Link>
+              </div>
+            )}
+          </div>
+
+          {/* Post Property (FREE) */}
+          <Link
+            href="/post-property"
+            onClick={() => setMobileMenuOpen(false)}
+            className="flex items-center justify-between text-sm font-semibold text-gray-800 py-2.5 px-3 rounded-xl hover:bg-[#FAF8F4] hover:text-[#D29324] transition-colors"
           >
             <span className="flex items-center gap-2.5">
-              <MapPin className="w-4.5 h-4.5 text-[#D29324]" />
-              <span>Select City</span>
+              <User className="w-4.5 h-4.5 text-gray-500" />
+              <span>Post Property</span>
             </span>
-            <span className="px-2 py-0.5 rounded-full bg-[#FBF1DF] text-[#AE7419] text-[11px] font-bold">
-              {cityName}
+            <span className="px-1.5 py-0.5 rounded-xs bg-[#5B51D8] text-white text-[9px] font-bold tracking-wider">
+              FREE
             </span>
-          </button>
+          </Link>
 
+          {/* Saved Properties */}
           <Link
             href="/saved-properties"
             onClick={() => setMobileMenuOpen(false)}
-            className="flex items-center justify-between text-sm font-semibold text-gray-800 py-2 border-b border-gray-100 hover:text-[#D29324]"
+            className="flex items-center justify-between text-sm font-semibold text-gray-800 py-2.5 px-3 rounded-xl hover:bg-[#FAF8F4] hover:text-[#D29324] transition-colors"
           >
             <span className="flex items-center gap-2.5">
               <Heart className={`w-4.5 h-4.5 ${savedCount > 0 ? "fill-rose-500 text-rose-500" : "text-gray-400"}`} />
@@ -424,51 +473,13 @@ export default function Header({
             )}
           </Link>
 
-          <Link
-            href="/post-property"
-            onClick={() => setMobileMenuOpen(false)}
-            className="flex items-center justify-between text-sm font-semibold text-gray-800 py-2 border-b border-gray-100 hover:text-[#D29324]"
-          >
-            <span className="flex items-center gap-2.5">
-              <User className="w-4.5 h-4.5 text-gray-400" />
-              <span>Post Property</span>
-            </span>
-            <span className="px-1.5 py-0.5 rounded-xs bg-[#5B51D8] text-white text-[9px] font-bold">
-              FREE
-            </span>
-          </Link>
-
-          <Link
-            href="/why-us"
-            onClick={() => setMobileMenuOpen(false)}
-            className="block text-sm font-medium text-gray-800 py-1 hover:text-[#D29324]"
-          >
-            Why Us?
-          </Link>
-          <Link
-            href="/services"
-            onClick={() => setMobileMenuOpen(false)}
-            className="block text-sm font-medium text-gray-800 py-1 hover:text-[#D29324]"
-          >
-            Services
-          </Link>
-          <div className="pt-2 border-t border-gray-100 flex items-center justify-between text-xs text-gray-600">
+          {/* Mobile Contact Bar */}
+          <div className="pt-2 border-t border-gray-100 flex items-center justify-between text-xs text-gray-600 px-1">
             <span>Toll Free: +91 8080 190190</span>
             <span className="text-[#25D366] font-semibold">WhatsApp Available</span>
           </div>
         </div>
       )}
-
-      {/* City Selector Modal Fallback (renders when header is used without an external modal handler) */}
-      <CitySelectorModal
-        isOpen={localCityModalOpen}
-        onClose={() => setLocalCityModalOpen(false)}
-        selectedCity={selectedCity}
-        onSelectCity={(cityId) => {
-          setLocalCityModalOpen(false);
-          router.push(`/${cityId}`);
-        }}
-      />
     </header>
   );
 }

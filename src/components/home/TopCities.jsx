@@ -1,14 +1,30 @@
 "use client";
 
-import React, { useRef } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { MapPin, ChevronLeft, ChevronRight, ArrowRight, Sparkles } from "lucide-react";
+import { MapPin, ChevronLeft, ChevronRight, ArrowRight, Sparkles, X } from "lucide-react";
 import { CITIES } from "@/data";
 
 export default function TopCities({ onSelectCity }) {
   const router = useRouter();
   const scrollContainerRef = useRef(null);
+  const [activeCityId, setActiveCityId] = useState(null);
+
+  // Close active card on outside click/touch
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (scrollContainerRef.current && !scrollContainerRef.current.contains(event.target)) {
+        setActiveCityId(null);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    document.addEventListener("touchstart", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener("touchstart", handleClickOutside);
+    };
+  }, []);
 
   const categories = [
     { label: "New Projects", slugPattern: (city) => `new-projects-in-${city}` },
@@ -35,6 +51,14 @@ export default function TopCities({ onSelectCity }) {
       onSelectCity(cityId);
     }
     router.push(`/${cityId}`);
+  };
+
+  const handleCardClick = (cityId) => {
+    if (activeCityId === cityId) {
+      handleCityNavigation(cityId);
+    } else {
+      setActiveCityId(cityId);
+    }
   };
 
   return (
@@ -102,7 +126,7 @@ export default function TopCities({ onSelectCity }) {
             {CITIES.map((city) => (
               <div
                 key={city.id}
-                onClick={() => handleCityNavigation(city.id)}
+                onClick={() => handleCardClick(city.id)}
                 className="w-[260px] sm:w-[280px] shrink-0 h-[370px] rounded-2xl overflow-hidden relative group cursor-pointer shadow-md hover:shadow-xl transition-all duration-300 border border-gray-200/60"
               >
                 {/* Background City Photograph */}
@@ -115,8 +139,14 @@ export default function TopCities({ onSelectCity }) {
                 {/* Ambient Dark Gradient Overlays */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-black/20 group-hover:from-black/95 group-hover:via-black/90 group-hover:to-black/75 transition-all duration-300" />
 
-                {/* Default Clean View (Bottom-aligned, fades out smoothly on hover) */}
-                <div className="absolute inset-x-0 bottom-0 p-5 text-white z-10 transition-opacity duration-300 group-hover:opacity-0 group-hover:pointer-events-none">
+                {/* Default Clean View (Bottom-aligned, fades out smoothly on hover/active) */}
+                <div
+                  className={`absolute inset-x-0 bottom-0 p-5 text-white z-10 transition-opacity duration-300 ${
+                    activeCityId === city.id
+                      ? "opacity-0 pointer-events-none"
+                      : "group-hover:opacity-0 group-hover:pointer-events-none"
+                  }`}
+                >
                   <div className="flex items-center gap-1.5 text-xs text-[#FFE2A7] font-semibold mb-1">
                     <MapPin className="w-3.5 h-3.5 text-[#D29324]" />
                     <span>{city.state}</span>
@@ -127,22 +157,50 @@ export default function TopCities({ onSelectCity }) {
                   <p className="text-xs text-gray-300 font-medium mt-0.5">
                     {city.projectsCount}+ Verified Properties
                   </p>
+                  {/* Subtle mobile hint */}
+                  <div className="sm:hidden mt-2 inline-flex items-center gap-1 text-[11px] font-semibold text-[#FFE2A7] bg-white/15 backdrop-blur-xs px-2.5 py-0.5 rounded-full border border-white/20">
+                    <span>Tap to view options</span>
+                    <span>&rarr;</span>
+                  </div>
                 </div>
 
-                {/* Hover-Only Clean View (Neatly organized inside card boundaries) */}
-                <div className="absolute inset-0 p-5 text-white z-20 opacity-0 group-hover:opacity-100 transition-all duration-300 pointer-events-none group-hover:pointer-events-auto flex flex-col justify-between">
+                {/* Hover & Mobile Tap Clean View */}
+                <div
+                  className={`absolute inset-0 p-5 text-white z-20 transition-all duration-300 flex flex-col justify-between ${
+                    activeCityId === city.id
+                      ? "opacity-100 pointer-events-auto bg-black/85"
+                      : "opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto"
+                  }`}
+                >
                   {/* Top: City Details */}
-                  <div>
-                    <div className="flex items-center gap-1.5 text-xs text-[#FFE2A7] font-semibold mb-1">
-                      <MapPin className="w-3.5 h-3.5 text-[#D29324]" />
-                      <span>{city.state}</span>
+                  <div className="flex items-start justify-between">
+                    <div>
+                      <div className="flex items-center gap-1.5 text-xs text-[#FFE2A7] font-semibold mb-1">
+                        <MapPin className="w-3.5 h-3.5 text-[#D29324]" />
+                        <span>{city.state}</span>
+                      </div>
+                      <h3 className="text-2xl font-extrabold tracking-tight drop-shadow-sm text-white">
+                        {city.name}
+                      </h3>
+                      <p className="text-xs text-gray-300 font-medium mt-0.5">
+                        {city.projectsCount}+ Verified Properties
+                      </p>
                     </div>
-                    <h3 className="text-2xl font-extrabold tracking-tight drop-shadow-sm text-white">
-                      {city.name}
-                    </h3>
-                    <p className="text-xs text-gray-300 font-medium mt-0.5">
-                      {city.projectsCount}+ Verified Properties
-                    </p>
+                    {/* Mobile dismiss button */}
+                    {activeCityId === city.id && (
+                      <button
+                        type="button"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          setActiveCityId(null);
+                        }}
+                        className="sm:hidden w-7 h-7 rounded-full bg-white/20 hover:bg-white/30 text-white flex items-center justify-center text-xs cursor-pointer"
+                        title="Close options"
+                        aria-label="Close options"
+                      >
+                        <X className="w-4 h-4" />
+                      </button>
+                    )}
                   </div>
 
                   {/* Bottom: Categories List & Action Button */}
