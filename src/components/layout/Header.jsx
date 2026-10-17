@@ -70,6 +70,12 @@ export default function Header({
       description: "Dedicated Real Estate Services for NRI Customers",
       icon: Globe2,
       href: "/services/nri-desk"
+    },
+    {
+      title: "Dubai Desk",
+      description: "Exclusive Tax-Free UAE Property Investments",
+      icon: Building2,
+      href: "/dubai-desk"
     }
   ];
 

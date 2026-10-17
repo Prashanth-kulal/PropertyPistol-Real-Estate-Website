@@ -260,23 +260,15 @@ export default function HeroBanner({
 
             {/* Right Tab: Dubai Desk with Exclusive Badge */}
             <div className="hidden sm:flex items-center pl-6 border-l border-gray-200">
-              <a
-                href="#exclusive"
-                onClick={() => setActiveTab("dubai")}
-                className={`relative flex items-center gap-1.5 py-3 sm:py-3.5 transition-colors whitespace-nowrap text-xs sm:text-[13px] font-semibold ${
-                  activeTab === "dubai"
-                    ? "text-[#D29324] font-bold"
-                    : "text-gray-800 hover:text-[#D29324]"
-                }`}
+              <Link
+                href="/dubai-desk"
+                className="relative flex items-center gap-1.5 py-3 sm:py-3.5 transition-colors whitespace-nowrap text-xs sm:text-[13px] font-semibold text-gray-800 hover:text-[#D29324] group"
               >
-                <span>Dubai Desk</span>
-                <span className="px-1.5 py-[1px] rounded-full bg-[#1D7E95] text-white text-[9.5px] font-bold tracking-wider uppercase">
+                <span className="group-hover:text-[#D29324]">Dubai Desk</span>
+                <span className="px-1.5 py-[1px] rounded-full bg-[#167C80] text-white text-[9.5px] font-bold tracking-wider uppercase">
                   Exclusive
                 </span>
-                {activeTab === "dubai" && (
-                  <span className="absolute bottom-0 left-0 right-0 h-[2.5px] bg-[#D29324] rounded-full shadow-xs" />
-                )}
-              </a>
+              </Link>
             </div>
           </div>
 
