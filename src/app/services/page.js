@@ -331,10 +331,28 @@ export default function ServicesPage() {
           </div>
         </section>
 
-        {/* 4. Builder & Developer Solutions Spotlight */}
+        {/* 4. Builder & Developer Solutions Spotlight (Image on Left, Information on Right) */}
         <section id="builder-services" className="py-20 bg-[#FAF8F4] border-t border-b border-[#E8E3DA]">
           <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-10">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+              {/* Left: Showcase Image */}
+              <div className="lg:col-span-6">
+                <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
+                  <img
+                    src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=900&q=80"
+                    alt="Builder Services"
+                    className="w-full h-[380px] object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent p-6 flex flex-col justify-end text-white">
+                    <h3 className="text-xl font-bold">AuraLiving Radiate Suite</h3>
+                    <p className="text-xs text-gray-300 mt-1">
+                      Real-time inventory management, digitized allocation vouchers, and verified channel partner lead routing.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Right: Information & Action */}
               <div className="lg:col-span-6 space-y-5">
                 <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#D29324]/15 border border-[#D29324]/40 text-[#AE7419] text-xs font-bold">
                   <Building2 className="w-3.5 h-3.5 text-[#D29324]" />
@@ -369,22 +387,6 @@ export default function ServicesPage() {
                     <span>Request Developer Solutions Deck</span>
                     <ArrowRight className="w-4 h-4" />
                   </button>
-                </div>
-              </div>
-
-              <div className="lg:col-span-6">
-                <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
-                  <img
-                    src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=900&q=80"
-                    alt="Builder Services"
-                    className="w-full h-[380px] object-cover"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent p-6 flex flex-col justify-end text-white">
-                    <h3 className="text-xl font-bold">AuraLiving Radiate Suite</h3>
-                    <p className="text-xs text-gray-300 mt-1">
-                      Real-time inventory management, digitized allocation vouchers, and verified channel partner lead routing.
-                    </p>
-                  </div>
                 </div>
               </div>
             </div>

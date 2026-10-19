@@ -2251,209 +2251,208 @@ function ProjectDetailContent() {
         </div>
       </div>
 
-      {/* 3. Hero Project Identity Bar (matching screenshot 1) */}
-      <div className="bg-white border-b border-[#E8E3DA]">
-        <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <div className="flex flex-col md:flex-row md:items-start justify-between gap-4">
-            <div className="space-y-1">
-              <h1 className="text-2xl sm:text-3xl font-black text-[#252525] tracking-tight">
-                {project.title}
-              </h1>
-              <p className="text-xs text-[#6B7280] leading-snug">
-                Flats by{" "}
-                <span className="text-[#EA580C] font-bold">
-                  {project.builder}
-                </span>{" "}
-                at {project.location || `${project.cityName || "Mumbai"}, India`}
-              </p>
-              <div className="flex items-center gap-3 pt-1 text-[11px] text-[#252525] flex-wrap">
-                <span className="px-2 py-0.5 rounded bg-gray-100 font-mono text-[#252525] border border-gray-200">
-                  RERA: {project.rera || "PM1330002500429"}
-                </span>
-                <span className="text-[#6B7280]">
-                  Agent RERA - A51700000043
-                </span>
-                <a
-                  href="https://maharera.maharashtra.gov.in/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[#EA580C] hover:underline"
-                >
-                  Visit maharera.maharashtra.gov.in
-                </a>
-              </div>
-            </div>
+      {/* 3. Hero Showcase: Image Gallery on LEFT, Project Information & Actions on RIGHT */}
+      <section className="bg-white border-b border-[#E8E3DA]">
+        <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-5">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">
+            {/* LEFT (7 cols): Hero Gallery */}
+            <div className="lg:col-span-7 flex flex-col gap-3">
+              {/* Main Large Image */}
+              <div
+                onClick={() => {
+                  setLightboxOpen(true);
+                }}
+                className="relative rounded-2xl overflow-hidden bg-gray-100 border border-[#E8E3DA] group cursor-pointer shadow-sm h-[280px] sm:h-[360px] lg:h-[400px]"
+              >
+                <img
+                  src={images[activeImageIndex] || images[0]}
+                  alt={project.title}
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                />
 
-            {/* Price & Action Buttons */}
-            <div className="flex flex-col items-start md:items-end gap-2 shrink-0">
-              <div className="text-right">
-                <div className="text-2xl sm:text-3xl font-black text-[#252525]">
-                  INR {project.price}
-                </div>
-                <span className="text-[10px] text-[#6B7280]">Onwards</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <button
-                  onClick={() => setEnquiryMode("brochure")}
-                  className="px-3.5 py-2 rounded-xl border border-[#E8E3DA] bg-white hover:border-[#EA580C] text-xs font-bold text-[#252525] transition-all flex items-center gap-1.5 cursor-pointer"
-                >
-                  <Download className="w-3.5 h-3.5 text-[#EA580C]" />
-                  Brochure
-                </button>
-                <button
-                  onClick={() => setEnquiryMode("enquire")}
-                  className="px-5 py-2 rounded-xl bg-[#EA580C] hover:bg-[#c2410c] text-white text-xs font-bold transition-all shadow-md cursor-pointer"
-                >
-                  Contact Seller
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+                {/* Top Bar with Badges and RERA info */}
+                <div className="absolute top-0 left-0 right-0 p-3 sm:p-4 z-10 flex items-start justify-between gap-2 pointer-events-none">
+                  <div className="flex flex-col gap-1.5 pointer-events-auto">
+                    <span className="inline-flex items-center px-2.5 py-1 rounded-lg bg-[#EA580C] text-white text-[10px] font-bold tracking-wide shadow-sm">
+                      0% Zero Brokerage
+                    </span>
+                    <span className="inline-flex items-center px-2.5 py-1 rounded-lg bg-amber-600 text-white text-[10px] font-bold tracking-wide shadow-sm">
+                      ₹ Best Price Guarantee
+                    </span>
+                  </div>
 
-      {/* 4. Top Hero 3-Image Gallery */}
-      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-4 w-full">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-3 h-[280px] sm:h-[380px] lg:h-[440px]">
-          {/* Main Large Image (Left 8 cols) */}
-          <div
-            onClick={() => {
-              setActiveImageIndex(0);
-              setLightboxOpen(true);
-            }}
-            className="md:col-span-8 relative rounded-2xl overflow-hidden bg-gray-100 border border-[#E8E3DA] group cursor-pointer shadow-sm"
-          >
-            <img
-              src={images[0]}
-              alt={project.title}
-              className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-            />
-
-            {/* Top Bar with Badges and RERA info (responsive, non-overlapping) */}
-            <div className="absolute top-0 left-0 right-0 p-3 sm:p-4 z-10 flex items-start justify-between gap-2 pointer-events-none">
-              <div className="flex flex-col gap-1.5 pointer-events-auto">
-                <span className="inline-flex items-center px-2.5 py-1 rounded-lg bg-[#EA580C] text-white text-[10px] font-bold tracking-wide shadow-sm">
-                  0% Zero Brokerage
-                </span>
-                <span className="inline-flex items-center px-2.5 py-1 rounded-lg bg-amber-600 text-white text-[10px] font-bold tracking-wide shadow-sm">
-                  ₹ Best Price Guarantee
-                </span>
-              </div>
-
-              {/* MahaRERA QR Badge */}
-              <div className="bg-black/65 backdrop-blur-md p-1.5 sm:p-2 rounded-xl border border-white/20 text-white flex items-center gap-2 pointer-events-auto shadow-md max-w-[210px]">
-                <div className="w-8 h-8 sm:w-9 sm:h-9 bg-white p-1 rounded shrink-0">
-                  <div className="w-full h-full bg-black/90 flex items-center justify-center text-[7px] font-mono text-white">
-                    QR
+                  {/* MahaRERA QR Badge */}
+                  <div className="bg-black/65 backdrop-blur-md p-1.5 sm:p-2 rounded-xl border border-white/20 text-white flex items-center gap-2 pointer-events-auto shadow-md max-w-[210px]">
+                    <div className="w-8 h-8 sm:w-9 sm:h-9 bg-white p-1 rounded shrink-0">
+                      <div className="w-full h-full bg-black/90 flex items-center justify-center text-[7px] font-mono text-white">
+                        QR
+                      </div>
+                    </div>
+                    <div className="text-[9px] leading-tight min-w-0">
+                      <div className="font-bold truncate">MAHA RERA</div>
+                      <div className="font-mono text-gray-200 truncate text-[8px] sm:text-[9px]">
+                        {project.rera || "PM1330002500429"}
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div className="text-[9px] leading-tight min-w-0">
-                  <div className="font-bold truncate">MAHA RERA</div>
-                  <div className="font-mono text-gray-200 truncate text-[8px] sm:text-[9px]">
-                    {project.rera || "PM1330002500429"}
+
+                {/* Bottom Dark Gradient */}
+                <div className="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-black/80 via-black/35 to-transparent pointer-events-none" />
+
+                {/* Bottom Details & Photo Counter Button */}
+                <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between gap-3 z-10 pointer-events-none">
+                  <div className="min-w-0 max-w-[65%]">
+                    <div className="text-white text-xs sm:text-sm font-extrabold truncate drop-shadow">
+                      {project.title}
+                    </div>
+                    <div className="text-white/85 text-[10px] sm:text-xs truncate drop-shadow">
+                      {project.location} · {project.builder}
+                    </div>
+                  </div>
+                  <div className="px-3 py-1.5 rounded-xl bg-black/70 hover:bg-black/90 backdrop-blur-md text-white text-xs font-bold flex items-center gap-1.5 pointer-events-auto shadow-md transition-all shrink-0 border border-white/20">
+                    <Maximize2 className="w-3.5 h-3.5 text-[#D29324]" />
+                    <span>Photos ({images.length})</span>
                   </div>
                 </div>
               </div>
+
+              {/* Gallery Thumbnails Strip */}
+              <div className="grid grid-cols-4 gap-2">
+                {images.slice(0, 4).map((img, i) => (
+                  <button
+                    key={i}
+                    type="button"
+                    onClick={() => setActiveImageIndex(i)}
+                    className={`relative h-16 sm:h-20 rounded-xl overflow-hidden border-2 transition-all cursor-pointer ${
+                      activeImageIndex === i
+                        ? "border-[#EA580C] ring-2 ring-[#EA580C]/20 shadow-sm"
+                        : "border-transparent opacity-70 hover:opacity-100"
+                    }`}
+                  >
+                    <img src={img} alt="" className="w-full h-full object-cover" />
+                    {i === 3 && images.length > 4 && (
+                      <div className="absolute inset-0 bg-black/60 flex items-center justify-center text-white text-xs font-bold">
+                        +{images.length - 4} More
+                      </div>
+                    )}
+                  </button>
+                ))}
+              </div>
             </div>
 
-            {/* Bottom Dark Gradient for Maximum Overlay Text Readability */}
-            <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/80 via-black/40 to-transparent pointer-events-none" />
+            {/* RIGHT (5 cols): Project Information & Action Panel */}
+            <div className="lg:col-span-5 flex flex-col justify-between p-5 sm:p-6 bg-[#FAF8F4] rounded-2xl border border-[#E8E3DA] shadow-sm">
+              <div className="space-y-4">
+                {/* Title & Builder */}
+                <div>
+                  <span className="text-[11px] font-bold text-[#AE7419] uppercase tracking-wider block">
+                    {project.builder}
+                  </span>
+                  <h1 className="text-2xl sm:text-3xl font-black text-[#252525] tracking-tight mt-0.5">
+                    {project.title}
+                  </h1>
+                  <p className="text-xs text-[#6B7280] mt-1 flex items-center gap-1.5">
+                    <MapPin className="w-3.5 h-3.5 text-[#D29324] shrink-0" />
+                    <span>{project.location || `${project.cityName || "Mumbai"}, India`}</span>
+                  </p>
 
-            {/* Bottom Details & Photo Counter Button */}
-            <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between gap-3 z-10 pointer-events-none">
-              <div className="min-w-0 max-w-[65%]">
-                <div className="text-white text-xs sm:text-sm font-extrabold truncate drop-shadow">
-                  {project.title}
+                  <div className="flex items-center gap-2 pt-2 text-[11px] text-[#252525] flex-wrap">
+                    <span className="px-2 py-0.5 rounded bg-white font-mono text-[#252525] border border-[#E8E3DA] text-[10px]">
+                      RERA: {project.rera || "PM1330002500429"}
+                    </span>
+                    <a
+                      href="https://maharera.maharashtra.gov.in/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[#EA580C] text-[11px] hover:underline inline-flex items-center gap-0.5 font-medium"
+                    >
+                      <span>MahaRERA Portal</span>
+                      <ExternalLink className="w-3 h-3" />
+                    </a>
+                  </div>
                 </div>
-                <div className="text-white/85 text-[10px] sm:text-xs truncate drop-shadow">
-                  {project.location} · {project.builder}
+
+                {/* Price Box */}
+                <div className="p-3.5 bg-white rounded-xl border border-[#E8E3DA] flex items-center justify-between">
+                  <div>
+                    <span className="text-[10px] text-[#6B7280] uppercase tracking-wider font-semibold block">
+                      Starting Price
+                    </span>
+                    <div className="text-2xl sm:text-3xl font-black text-[#252525]">
+                      INR {project.price}
+                    </div>
+                  </div>
+                  <div className="text-right">
+                    <span className="text-[10px] text-[#6B7280] block">Average Rate</span>
+                    <span className="text-xs font-bold text-[#D29324]">
+                      INR {project.avgPrice || "33.48 K"}/sq.ft
+                    </span>
+                  </div>
+                </div>
+
+                {/* Quick Specs Grid */}
+                <div className="grid grid-cols-2 gap-2.5 text-xs">
+                  <div className="p-3 bg-white rounded-xl border border-[#E8E3DA]">
+                    <span className="text-[10px] text-[#6B7280] block font-medium">Configurations</span>
+                    <span className="font-extrabold text-[#252525] text-xs block truncate mt-0.5">
+                      {project.flatTypes || "2 BHK, 3 BHK"}
+                    </span>
+                  </div>
+                  <div className="p-3 bg-white rounded-xl border border-[#E8E3DA]">
+                    <span className="text-[10px] text-[#6B7280] block font-medium">Possession</span>
+                    <span className="font-extrabold text-[#252525] text-xs block truncate mt-0.5">
+                      {project.possession || "Dec 2026"}
+                    </span>
+                  </div>
+                  <div className="p-3 bg-white rounded-xl border border-[#E8E3DA]">
+                    <span className="text-[10px] text-[#6B7280] block font-medium">Carpet Area</span>
+                    <span className="font-extrabold text-[#252525] text-xs block truncate mt-0.5">
+                      {project.carpetArea || "800 - 1,408 Sq.ft"}
+                    </span>
+                  </div>
+                  <div className="p-3 bg-white rounded-xl border border-[#E8E3DA]">
+                    <span className="text-[10px] text-[#6B7280] block font-medium">Project Status</span>
+                    <span className="font-extrabold text-[#252525] text-xs block truncate mt-0.5">
+                      {project.status || "Under Construction"}
+                    </span>
+                  </div>
                 </div>
               </div>
-              <div className="px-3 py-1.5 rounded-xl bg-black/70 hover:bg-black/90 backdrop-blur-md text-white text-xs font-bold flex items-center gap-1.5 pointer-events-auto shadow-md transition-all shrink-0 border border-white/20">
-                <Maximize2 className="w-3.5 h-3.5 text-[#D29324]" />
-                <span>Photos ({images.length})</span>
-              </div>
-            </div>
-          </div>
 
-          {/* Right Two Stacked Images (Right 4 cols) */}
-          <div className="hidden md:grid md:col-span-4 grid-rows-2 gap-3 h-full">
-            <div
-              onClick={() => {
-                setActiveImageIndex(1);
-                setLightboxOpen(true);
-              }}
-              className="relative rounded-2xl overflow-hidden bg-gray-100 border border-[#E8E3DA] group cursor-pointer shadow-sm"
-            >
-              <img
-                src={images[1] || images[0]}
-                alt="Exterior Perspective"
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-              />
-              <div className="absolute inset-x-0 bottom-0 p-3 bg-gradient-to-t from-black/75 via-black/30 to-transparent pointer-events-none">
-                <span className="text-white text-xs font-semibold block truncate drop-shadow">
-                  Scenic Architecture
-                </span>
-              </div>
-            </div>
-            <div
-              onClick={() => {
-                setActiveImageIndex(2);
-                setLightboxOpen(true);
-              }}
-              className="relative rounded-2xl overflow-hidden bg-gray-100 border border-[#E8E3DA] group cursor-pointer shadow-sm"
-            >
-              <img
-                src={images[2] || images[0]}
-                alt="Interior Perspective"
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-              />
-              <div className="absolute inset-0 bg-black/40 hover:bg-black/55 transition-colors flex items-center justify-center p-3">
-                <span className="text-white font-bold text-xs sm:text-sm flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-black/60 backdrop-blur-md border border-white/20 shadow-lg">
-                  <Eye className="w-4 h-4 text-[#D29324]" />
-                  View All {images.length} Images
-                </span>
+              {/* Action CTAs */}
+              <div className="space-y-2 pt-4 border-t border-[#E8E3DA] mt-4">
+                <div className="flex items-center gap-2">
+                  <button
+                    type="button"
+                    onClick={() => setEnquiryMode("brochure")}
+                    className="flex-1 py-2.5 rounded-xl border border-[#E8E3DA] bg-white hover:border-[#EA580C] text-xs font-bold text-[#252525] transition-all flex items-center justify-center gap-1.5 cursor-pointer shadow-xs"
+                  >
+                    <Download className="w-3.5 h-3.5 text-[#EA580C]" />
+                    <span>Brochure</span>
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setEnquiryMode("enquire")}
+                    className="flex-1 py-2.5 rounded-xl bg-[#EA580C] hover:bg-[#c2410c] text-white text-xs font-bold transition-all shadow-md flex items-center justify-center gap-1.5 cursor-pointer"
+                  >
+                    <PhoneCall className="w-3.5 h-3.5" />
+                    <span>Contact Seller</span>
+                  </button>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => setEnquiryMode("visit")}
+                  className="w-full py-2.5 rounded-xl border border-[#D29324] bg-amber-50 hover:bg-amber-100/60 text-[#AE7419] text-xs font-bold transition-all flex items-center justify-center gap-1.5 cursor-pointer"
+                >
+                  <Calendar className="w-3.5 h-3.5 text-[#D29324]" />
+                  <span>Schedule Guided Site Visit</span>
+                </button>
               </div>
             </div>
           </div>
         </div>
-      </div>
-
-      {/* 5. Quick Specs Strip (matching screenshot 2) */}
-      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-2 w-full">
-        <div className="grid grid-cols-2 sm:grid-cols-5 gap-3 p-4 bg-white rounded-2xl border border-[#E8E3DA] shadow-sm text-center">
-          <div>
-            <span className="text-[10px] text-[#6B7280] block">Configurations</span>
-            <span className="text-sm font-extrabold text-[#252525] mt-0.5 block">
-              {project.flatTypes || "2 BHK, 3 BHK"}
-            </span>
-          </div>
-          <div>
-            <span className="text-[10px] text-[#6B7280] block">Possession Date</span>
-            <span className="text-sm font-extrabold text-[#252525] mt-0.5 block">
-              {project.possession || "Dec 2026"}
-            </span>
-          </div>
-          <div>
-            <span className="text-[10px] text-[#6B7280] block">Built up Area</span>
-            <span className="text-sm font-extrabold text-[#252525] mt-0.5 block">
-              On request
-            </span>
-          </div>
-          <div>
-            <span className="text-[10px] text-[#6B7280] block">Carpet Area</span>
-            <span className="text-sm font-extrabold text-[#252525] mt-0.5 block">
-              {project.carpetArea || "800 - 1,408 Sq.ft"}
-            </span>
-          </div>
-          <div className="col-span-2 sm:col-span-1">
-            <span className="text-[10px] text-[#6B7280] block">Min. Price per Sqft.</span>
-            <span className="text-sm font-extrabold text-[#252525] mt-0.5 block">
-              INR {project.avgPrice || "33.48 K"} per Sqft.
-            </span>
-          </div>
-        </div>
-      </div>
+      </section>
 
       {/* 6. Sticky In-Page Navigation Bar */}
       <div className="sticky top-[70px] z-30 bg-white border-y border-[#E8E3DA] shadow-sm">
@@ -2724,79 +2723,7 @@ function ProjectDetailContent() {
 
         {/* Similar Projects Section */}
         {relatedProjects.length > 0 && (
-          <section id="similar" className="scroll-mt-32 space-y-4">
-            <h2 className="text-xl sm:text-2xl font-black text-[#252525]">
-              Similar Projects
-            </h2>
-
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
-              {relatedProjects.map((rel) => (
-                <div
-                  key={rel.slug}
-                  className="rounded-2xl border border-[#E8E3DA] bg-white overflow-hidden hover:shadow-lg transition-all group"
-                >
-                  <div className="relative h-48 bg-gray-100 overflow-hidden">
-                    <Link
-                      href={`/projects/${rel.slug}`}
-                      className="block w-full h-full"
-                    >
-                      <img
-                        src={
-                          rel.images?.[0] ||
-                          "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80"
-                        }
-                        alt={rel.title}
-                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent pointer-events-none" />
-                      <span className="absolute top-3 left-3 px-2 py-0.5 rounded-md bg-[#D29324] text-white text-[10px] font-bold uppercase pointer-events-none">
-                        {rel.tag || "Verified"}
-                      </span>
-                      <div className="absolute bottom-3 left-3 text-white pointer-events-none">
-                        <div className="text-base font-black">₹{rel.price}</div>
-                        <div className="text-[11px] text-gray-300">
-                          {rel.flatTypes}
-                        </div>
-                      </div>
-                    </Link>
-
-                    {/* Wishlist Button */}
-                    <div className="absolute top-3 right-3 z-20">
-                      <WishlistButton project={rel} size="sm" variant="floating" />
-                    </div>
-                  </div>
-
-                  <div className="p-4 space-y-2">
-                    <span className="text-[10px] font-bold text-[#AE7419] uppercase block truncate">
-                      {rel.builder}
-                    </span>
-                    <Link
-                      href={`/projects/${rel.slug}`}
-                      className="text-sm font-extrabold text-[#252525] group-hover:text-[#EA580C] transition-colors line-clamp-1"
-                    >
-                      {rel.title}
-                    </Link>
-                    <div className="flex items-center gap-1 text-[11px] text-[#6B7280]">
-                      <MapPin className="w-3 h-3 text-[#EA580C] shrink-0" />
-                      <span className="truncate">{rel.location}</span>
-                    </div>
-
-                    <div className="flex items-center justify-between pt-2 border-t border-[#E8E3DA] text-xs">
-                      <Link
-                        href={`/projects/${rel.slug}`}
-                        className="font-bold text-[#EA580C] hover:underline"
-                      >
-                        View Details →
-                      </Link>
-                      <span className="text-[10px] text-[#6B7280]">
-                        {rel.rera ? "RERA Verified" : "Direct Builder"}
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </section>
+          <SimilarProjectsCarousel relatedProjects={relatedProjects} />
         )}
 
         {/* FAQs */}
@@ -2829,6 +2756,165 @@ function ProjectDetailContent() {
         <Footer />
       </div>
     </div>
+  );
+}
+
+// ─────────────────────────────────────────────
+// Similar Projects Carousel Component (Image-Left, Info-Right)
+// ─────────────────────────────────────────────
+function SimilarProjectsCarousel({ relatedProjects }) {
+  const scrollRef = useRef(null);
+  const [canScrollLeft, setCanScrollLeft] = useState(false);
+  const [canScrollRight, setCanScrollRight] = useState(true);
+
+  const checkScroll = useCallback(() => {
+    if (scrollRef.current) {
+      const { scrollLeft, scrollWidth, clientWidth } = scrollRef.current;
+      setCanScrollLeft(scrollLeft > 10);
+      setCanScrollRight(scrollLeft + clientWidth < scrollWidth - 10);
+    }
+  }, []);
+
+  useEffect(() => {
+    checkScroll();
+    const el = scrollRef.current;
+    if (el) {
+      el.addEventListener("scroll", checkScroll);
+      window.addEventListener("resize", checkScroll);
+      return () => {
+        el.removeEventListener("scroll", checkScroll);
+        window.removeEventListener("resize", checkScroll);
+      };
+    }
+  }, [checkScroll]);
+
+  const handleScroll = (direction) => {
+    if (scrollRef.current) {
+      const offset = direction === "left" ? -380 : 380;
+      scrollRef.current.scrollBy({ left: offset, behavior: "smooth" });
+    }
+  };
+
+  return (
+    <section id="similar" className="scroll-mt-32 space-y-4">
+      <div className="flex items-center justify-between">
+        <div>
+          <h2 className="text-xl sm:text-2xl font-black text-[#252525]">
+            Similar Projects
+          </h2>
+          <p className="text-xs text-[#6B7280] mt-0.5">
+            Handpicked alternatives matching your preferences &amp; budget
+          </p>
+        </div>
+
+        {/* Scroll Arrows */}
+        <div className="flex items-center gap-2">
+          <button
+            type="button"
+            onClick={() => handleScroll("left")}
+            disabled={!canScrollLeft}
+            aria-label="Previous projects"
+            className={`w-9 h-9 rounded-full border flex items-center justify-center transition-all ${
+              canScrollLeft
+                ? "border-[#E8E3DA] bg-white text-[#252525] hover:bg-[#FAF8F4] hover:border-[#D29324] shadow-xs cursor-pointer"
+                : "border-gray-200 bg-gray-50 text-gray-300 cursor-not-allowed"
+            }`}
+          >
+            <ChevronLeft className="w-4 h-4" />
+          </button>
+          <button
+            type="button"
+            onClick={() => handleScroll("right")}
+            disabled={!canScrollRight}
+            aria-label="Next projects"
+            className={`w-9 h-9 rounded-full border flex items-center justify-center transition-all ${
+              canScrollRight
+                ? "border-[#E8E3DA] bg-white text-[#252525] hover:bg-[#FAF8F4] hover:border-[#D29324] shadow-xs cursor-pointer"
+                : "border-gray-200 bg-gray-50 text-gray-300 cursor-not-allowed"
+            }`}
+          >
+            <ChevronRight className="w-4 h-4" />
+          </button>
+        </div>
+      </div>
+
+      <div
+        ref={scrollRef}
+        className="flex gap-4 sm:gap-5 overflow-x-auto pb-4 pt-1 snap-x scroll-smooth no-scrollbar"
+        style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
+      >
+        {relatedProjects.map((rel) => (
+          <div
+            key={rel.slug}
+            className="w-[320px] sm:w-[420px] shrink-0 snap-start rounded-2xl border border-[#E8E3DA] bg-white overflow-hidden hover:shadow-lg transition-all flex flex-row group"
+          >
+            {/* Left: Project Image */}
+            <div className="w-[130px] sm:w-[170px] shrink-0 relative bg-gray-100 overflow-hidden">
+              <Link
+                href={`/projects/${rel.slug}`}
+                className="block w-full h-full"
+              >
+                <img
+                  src={
+                    rel.images?.[0] ||
+                    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80"
+                  }
+                  alt={rel.title}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent pointer-events-none" />
+                <span className="absolute top-2.5 left-2.5 px-2 py-0.5 rounded-md bg-[#D29324] text-white text-[9px] font-bold uppercase pointer-events-none shadow-xs">
+                  {rel.tag || "Verified"}
+                </span>
+                <div className="absolute bottom-2 left-2.5 right-2 text-white pointer-events-none">
+                  <div className="text-sm sm:text-base font-black leading-tight drop-shadow-xs">₹{rel.price}</div>
+                  <div className="text-[10px] text-gray-200 truncate">
+                    {rel.flatTypes}
+                  </div>
+                </div>
+              </Link>
+
+              {/* Wishlist Button */}
+              <div className="absolute top-2.5 right-2.5 z-20">
+                <WishlistButton project={rel} size="sm" variant="floating" />
+              </div>
+            </div>
+
+            {/* Right: Project Details */}
+            <div className="p-3.5 sm:p-4 flex-1 flex flex-col justify-between space-y-2 min-w-0">
+              <div className="space-y-1">
+                <span className="text-[10px] font-bold text-[#AE7419] uppercase block truncate tracking-wide">
+                  {rel.builder}
+                </span>
+                <Link
+                  href={`/projects/${rel.slug}`}
+                  className="text-xs sm:text-sm font-extrabold text-[#252525] group-hover:text-[#EA580C] transition-colors line-clamp-1"
+                >
+                  {rel.title}
+                </Link>
+                <div className="flex items-center gap-1 text-[11px] text-[#6B7280]">
+                  <MapPin className="w-3 h-3 text-[#EA580C] shrink-0" />
+                  <span className="truncate">{rel.location}</span>
+                </div>
+              </div>
+
+              <div className="flex items-center justify-between pt-2 border-t border-[#E8E3DA] text-xs">
+                <Link
+                  href={`/projects/${rel.slug}`}
+                  className="font-bold text-[#EA580C] hover:underline text-xs flex items-center gap-1"
+                >
+                  <span>Details</span>
+                  <span>→</span>
+                </Link>
+                <span className="text-[10px] text-[#6B7280]">
+                  {rel.rera ? "RERA" : "Verified"}
+                </span>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
   );
 }
 

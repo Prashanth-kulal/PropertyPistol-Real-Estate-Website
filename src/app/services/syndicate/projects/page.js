@@ -947,15 +947,15 @@ export default function SyndicateProjectsPage() {
             </button>
           </div>
         ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-6 lg:gap-8">
+          <div className="grid grid-cols-1 xl:grid-cols-2 gap-5 sm:gap-6">
             {paginatedProjects.map((proj) => (
               <div
                 key={proj.id}
-                className="bg-white rounded-2xl overflow-hidden border border-[#E6E3DC] shadow-sm hover:shadow-xl hover:border-[#D6B36A]/50 transition-all duration-300 flex flex-col group"
+                className="bg-white rounded-2xl overflow-hidden border border-[#E6E3DC] shadow-sm hover:shadow-xl hover:border-[#D6B36A]/50 transition-all duration-300 flex flex-col sm:flex-row group"
               >
                 
-                {/* Media Image & Video Trigger Header */}
-                <div className="relative aspect-video w-full overflow-hidden bg-gray-900">
+                {/* Left: Media Image & Video Trigger Header */}
+                <div className="w-full sm:w-[240px] md:w-[270px] shrink-0 relative min-h-[190px] sm:min-h-full overflow-hidden bg-gray-900">
                   <img
                     src={proj.thumbnail}
                     alt={proj.title}
@@ -966,13 +966,13 @@ export default function SyndicateProjectsPage() {
 
                   {/* Top Badges */}
                   <div className="absolute top-3 left-3 right-3 flex items-center justify-between">
-                    <span className="px-2.5 py-1 rounded-md text-[10px] font-extrabold uppercase tracking-wider bg-[#14263D]/90 text-[#D6B36A] border border-[#D6B36A]/40 backdrop-blur-xs">
+                    <span className="px-2 py-0.5 rounded-md text-[9px] font-extrabold uppercase tracking-wider bg-[#14263D]/90 text-[#D6B36A] border border-[#D6B36A]/40 backdrop-blur-xs">
                       {proj.statusBadge}
                     </span>
 
                     <button
                       onClick={() => handleOpenShare(proj)}
-                      className="w-8 h-8 rounded-full bg-black/50 hover:bg-[#167C80] text-white flex items-center justify-center backdrop-blur-xs transition-colors cursor-pointer"
+                      className="w-7 h-7 rounded-full bg-black/50 hover:bg-[#167C80] text-white flex items-center justify-center backdrop-blur-xs transition-colors cursor-pointer"
                       title="Share Opportunity"
                     >
                       <Share2 className="w-3.5 h-3.5" />
@@ -985,26 +985,26 @@ export default function SyndicateProjectsPage() {
                     className="absolute inset-0 flex items-center justify-center group/btn cursor-pointer"
                     title="Watch Walkthrough Film"
                   >
-                    <div className="w-12 h-12 rounded-full bg-[#167C80]/90 text-white flex items-center justify-center shadow-lg group-hover/btn:scale-110 group-hover/btn:bg-[#D6B36A] group-hover/btn:text-[#14263D] transition-all">
-                      <Play className="w-5 h-5 fill-current ml-0.5" />
+                    <div className="w-11 h-11 rounded-full bg-[#167C80]/90 text-white flex items-center justify-center shadow-lg group-hover/btn:scale-110 group-hover/btn:bg-[#D6B36A] group-hover/btn:text-[#14263D] transition-all">
+                      <Play className="w-4 h-4 fill-current ml-0.5" />
                     </div>
                   </button>
 
                   {/* Bottom Image Stats (City & Payout) */}
-                  <div className="absolute bottom-2.5 left-3 right-3 flex items-center justify-between text-white text-xs">
-                    <div className="flex items-center gap-1 text-gray-200 text-[11px] font-semibold bg-black/60 px-2 py-0.5 rounded backdrop-blur-xs">
+                  <div className="absolute bottom-2.5 left-2.5 right-2.5 flex items-center justify-between text-white text-xs">
+                    <div className="flex items-center gap-1 text-gray-200 text-[10px] font-semibold bg-black/60 px-1.5 py-0.5 rounded backdrop-blur-xs">
                       <MapPin className="w-3 h-3 text-[#D6B36A]" />
                       <span>{proj.cityName}</span>
                     </div>
 
-                    <span className="bg-[#167C80] text-white text-[10px] font-bold px-2 py-0.5 rounded shadow-xs border border-white/20">
+                    <span className="bg-[#167C80] text-white text-[9px] font-bold px-1.5 py-0.5 rounded shadow-xs border border-white/20">
                       {proj.commission}
                     </span>
                   </div>
                 </div>
 
-                {/* Card Body Details */}
-                <div className="p-4 sm:p-5 flex-1 flex flex-col justify-between">
+                {/* Right: Card Body Details */}
+                <div className="p-4 sm:p-5 flex-1 flex flex-col justify-between space-y-3">
                   <div>
                     {/* Developer Name */}
                     <span className="text-[11px] font-bold text-[#167C80] uppercase tracking-wider block">
@@ -1023,7 +1023,7 @@ export default function SyndicateProjectsPage() {
                     </p>
 
                     {/* Specifications grid */}
-                    <div className="mt-3.5 pt-3 border-t border-[#E6E3DC] grid grid-cols-2 gap-2 text-xs">
+                    <div className="mt-3 pt-2.5 border-t border-[#E6E3DC] grid grid-cols-2 gap-2 text-xs">
                       <div>
                         <span className="text-[10px] text-[#697386] block font-medium">
                           Configuration
@@ -1044,7 +1044,7 @@ export default function SyndicateProjectsPage() {
                     </div>
 
                     {/* Pricing */}
-                    <div className="mt-3 pt-3 border-t border-[#E6E3DC] flex items-center justify-between">
+                    <div className="mt-2.5 pt-2 border-t border-[#E6E3DC] flex items-center justify-between">
                       <div>
                         <span className="text-[10px] text-[#697386] block font-medium">
                           Price Point
@@ -1066,7 +1066,7 @@ export default function SyndicateProjectsPage() {
                   </div>
 
                   {/* Card Action CTAs */}
-                  <div className="mt-4 pt-3 border-t border-[#E6E3DC] grid grid-cols-2 gap-2">
+                  <div className="pt-2.5 border-t border-[#E6E3DC] grid grid-cols-2 gap-2">
                     <button
                       onClick={() => handleOpenBrochure(proj)}
                       className="w-full py-2 px-2 rounded-xl bg-[#FAF8F2] hover:bg-gray-200 text-[#14263D] border border-[#E6E3DC] text-[11px] font-bold flex items-center justify-center gap-1.5 transition-colors cursor-pointer"

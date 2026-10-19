@@ -271,10 +271,10 @@ function ComparePageContent() {
                   return (
                     <div
                       key={id}
-                      className="bg-white rounded-2xl border border-gray-200 shadow-xs p-4 flex flex-col space-y-3.5 relative group"
+                      className="bg-white rounded-2xl border border-gray-200 shadow-xs p-3.5 flex flex-col sm:flex-row gap-3.5 relative group items-start"
                     >
-                      {/* Image Thumbnail with Remove Button */}
-                      <div className="w-full h-44 sm:h-48 rounded-xl overflow-hidden relative bg-gray-100 border border-gray-100">
+                      {/* Left: Image Thumbnail with Remove Button */}
+                      <div className="w-full sm:w-28 md:w-32 h-28 sm:h-32 shrink-0 rounded-xl overflow-hidden relative bg-gray-100 border border-gray-100">
                         <Link href={`/projects/${slug}`} className="block w-full h-full">
                           <img
                             src={image}
@@ -287,43 +287,58 @@ function ComparePageContent() {
                         <button
                           type="button"
                           onClick={() => removeCompare(id)}
-                          className="absolute top-2.5 right-2.5 w-7 h-7 rounded-full bg-black/60 hover:bg-[#EA580C] text-white flex items-center justify-center transition-colors cursor-pointer shadow-md z-10"
+                          className="absolute top-1.5 right-1.5 w-6 h-6 rounded-full bg-black/60 hover:bg-[#EA580C] text-white flex items-center justify-center transition-colors cursor-pointer shadow-md z-10"
                           title={`Remove ${title} from comparison`}
                           aria-label={`Remove ${title}`}
                         >
-                          <X className="w-4 h-4 stroke-[2.5]" />
+                          <X className="w-3.5 h-3.5 stroke-[2.5]" />
                         </button>
                       </div>
 
-                      {/* Project Name with Link Icon */}
-                      <div>
-                        <Link
-                          href={`/projects/${slug}`}
-                          className="inline-flex items-center gap-1.5 text-base font-extrabold text-[#252525] hover:text-[#EA580C] transition-colors group/title"
-                        >
-                          <span className="line-clamp-1">{title}</span>
-                          <ExternalLink className="w-3.5 h-3.5 text-gray-400 group-hover/title:text-[#EA580C] transition-colors shrink-0" />
-                        </Link>
+                      {/* Right: Project Information & Action Buttons */}
+                      <div className="flex-1 flex flex-col justify-between w-full min-w-0 space-y-2">
+                        <div>
+                          <Link
+                            href={`/projects/${slug}`}
+                            className="inline-flex items-center gap-1.5 text-sm font-extrabold text-[#252525] hover:text-[#EA580C] transition-colors group/title"
+                          >
+                            <span className="line-clamp-1">{title}</span>
+                            <ExternalLink className="w-3.5 h-3.5 text-gray-400 group-hover/title:text-[#EA580C] transition-colors shrink-0" />
+                          </Link>
+                          {project.builder && (
+                            <span className="text-[11px] text-[#AE7419] font-bold block truncate">
+                              {project.builder}
+                            </span>
+                          )}
+                          {project.price && (
+                            <span className="text-xs font-black text-[#252525] block mt-0.5">
+                              ₹{project.price}
+                            </span>
+                          )}
+                        </div>
+
+                        <div className="space-y-1.5 pt-1">
+                          {/* Primary CTA: Contact Seller */}
+                          <button
+                            type="button"
+                            onClick={() => setInquiryProject(project)}
+                            className="w-full py-1.5 px-2.5 rounded-lg bg-[#EA580C] hover:bg-[#D29324] text-white font-bold text-xs tracking-wide shadow-xs hover:shadow-md transition-all flex items-center justify-center gap-1.5 cursor-pointer active:scale-95"
+                          >
+                            <PhoneCall className="w-3 h-3" />
+                            <span>Contact Seller</span>
+                          </button>
+
+                          {/* Secondary Link: Download Brochure */}
+                          <button
+                            type="button"
+                            onClick={() => showToast(`Brochure for ${title} has been requested. It will be emailed to you.`)}
+                            className="w-full py-0.5 text-center text-[11px] font-semibold text-blue-600 hover:text-blue-800 transition-colors flex items-center justify-center gap-1 cursor-pointer"
+                          >
+                            <Download className="w-3 h-3 text-blue-500" />
+                            <span>Download Brochure</span>
+                          </button>
+                        </div>
                       </div>
-
-                      {/* Primary CTA: Contact Seller */}
-                      <button
-                        type="button"
-                        onClick={() => setInquiryProject(project)}
-                        className="w-full py-2.5 rounded-xl bg-[#EA580C] hover:bg-[#D29324] text-white font-bold text-xs tracking-wide shadow-xs hover:shadow-md transition-all flex items-center justify-center gap-1.5 cursor-pointer active:scale-95"
-                      >
-                        <PhoneCall className="w-3.5 h-3.5" />
-                        <span>Contact Seller</span>
-                      </button>
-
-                      {/* Secondary Link: Download Brochure */}
-                      <button
-                        type="button"
-                        onClick={() => showToast(`Brochure for ${title} has been requested. It will be emailed to you.`)}
-                        className="text-center text-xs font-semibold text-blue-600 hover:text-blue-800 transition-colors py-0.5 cursor-pointer"
-                      >
-                        Download Brochure
-                      </button>
                     </div>
                   );
                 })}

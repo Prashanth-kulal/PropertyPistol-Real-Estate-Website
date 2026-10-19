@@ -249,7 +249,7 @@ export default function SavedPropertiesPage() {
           </div>
         ) : (
           /* PROPERTIES GRID */
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+          <div className="grid grid-cols-1 xl:grid-cols-2 gap-5 sm:gap-6">
             {filteredProperties.map((project) => {
               const projectSlug = project.slug;
               const image = project.image || project.images?.[0] || "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80";
@@ -257,10 +257,10 @@ export default function SavedPropertiesPage() {
               return (
                 <div
                   key={project.id || project.slug}
-                  className="property-card bg-white rounded-2xl border border-[#E8E3DA] overflow-hidden flex flex-col shadow-xs hover:shadow-xl transition-all duration-300 group"
+                  className="property-card bg-white rounded-2xl border border-[#E8E3DA] overflow-hidden flex flex-col sm:flex-row shadow-xs hover:shadow-xl transition-all duration-300 group"
                 >
-                  {/* Card Image Area */}
-                  <div className="relative h-56 sm:h-60 overflow-hidden bg-gray-100">
+                  {/* Left: Card Image Area */}
+                  <div className="w-full sm:w-[220px] md:w-[250px] shrink-0 relative min-h-[190px] sm:min-h-full overflow-hidden bg-gray-100">
                     <Link href={`/projects/${projectSlug}`} className="block w-full h-full">
                       <img
                         src={image}
@@ -297,25 +297,25 @@ export default function SavedPropertiesPage() {
                       className="absolute bottom-3 left-3 right-3 text-white flex items-end justify-between z-10"
                     >
                       <div>
-                        <div className="text-xl font-extrabold tracking-tight drop-shadow-sm">
+                        <div className="text-lg font-extrabold tracking-tight drop-shadow-sm">
                           ₹{project.price}
                         </div>
                         {project.avgPrice && (
-                          <div className="text-[11px] text-gray-200">
+                          <div className="text-[10px] text-gray-200">
                             {project.avgPrice}
                           </div>
                         )}
                       </div>
                       {project.rera && (
-                        <span className="px-2 py-0.5 rounded bg-black/50 backdrop-blur-xs text-[10px] text-gray-200 font-mono">
+                        <span className="px-2 py-0.5 rounded bg-black/50 backdrop-blur-xs text-[9px] text-gray-200 font-mono">
                           RERA Verified
                         </span>
                       )}
                     </Link>
                   </div>
 
-                  {/* Card Body */}
-                  <div className="p-5 flex-1 flex flex-col justify-between space-y-4">
+                  {/* Right: Card Body & Details */}
+                  <div className="p-4 sm:p-5 flex-1 flex flex-col justify-between space-y-3">
                     <div className="space-y-2">
                       {/* Builder & Title */}
                       <div className="flex items-start justify-between gap-2">
@@ -324,7 +324,7 @@ export default function SavedPropertiesPage() {
                             {project.builder}
                           </span>
                           <Link href={`/projects/${projectSlug}`}>
-                            <h3 className="text-lg font-bold text-[#252525] group-hover:text-[#AE7419] transition-colors line-clamp-1">
+                            <h3 className="text-base sm:text-lg font-bold text-[#252525] group-hover:text-[#AE7419] transition-colors line-clamp-1">
                               {project.name}
                             </h3>
                           </Link>
@@ -362,7 +362,7 @@ export default function SavedPropertiesPage() {
                     </div>
 
                     {/* Card Actions */}
-                    <div className="pt-3 border-t border-[#E8E3DA] flex items-center gap-2">
+                    <div className="pt-2.5 border-t border-[#E8E3DA] flex items-center gap-2">
                       <button
                         type="button"
                         onClick={() =>
@@ -376,7 +376,7 @@ export default function SavedPropertiesPage() {
                             images: project.images || [image]
                           })
                         }
-                        className="flex-1 py-2.5 px-3 rounded-xl bg-[#D29324] hover:bg-[#AE7419] text-white text-xs font-bold transition-all shadow-xs flex items-center justify-center gap-1.5 cursor-pointer"
+                        className="flex-1 py-2 px-3 rounded-xl bg-[#D29324] hover:bg-[#AE7419] text-white text-xs font-bold transition-all shadow-xs flex items-center justify-center gap-1.5 cursor-pointer"
                       >
                         <PhoneCall className="w-3.5 h-3.5" />
                         <span>Inquire</span>
@@ -384,7 +384,7 @@ export default function SavedPropertiesPage() {
 
                       <Link
                         href={`/projects/${projectSlug}`}
-                        className="flex-1 py-2.5 px-3 rounded-xl border border-[#E8E3DA] hover:border-[#D29324] bg-white text-[#252525] hover:text-[#AE7419] text-xs font-bold transition-all flex items-center justify-center gap-1 cursor-pointer"
+                        className="flex-1 py-2 px-3 rounded-xl border border-[#E8E3DA] hover:border-[#D29324] bg-white text-[#252525] hover:text-[#AE7419] text-xs font-bold transition-all flex items-center justify-center gap-1 cursor-pointer"
                       >
                         <span>View Details</span>
                         <ArrowRight className="w-3.5 h-3.5" />

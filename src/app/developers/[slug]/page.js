@@ -414,7 +414,7 @@ function DeveloperDetailContent() {
 
           {/* Project Listings Grid */}
           {displayedProjects.length > 0 ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 xl:grid-cols-2 gap-5 sm:gap-6">
               {displayedProjects.map((project) => {
                 const activeImgIdx = projectImageIndexes[project.id] || 0;
                 const projectSlug = project.slug || getProjectSlug(project);
@@ -425,76 +425,76 @@ function DeveloperDetailContent() {
                 return (
                   <div
                     key={project.id}
-                    className="rounded-2xl border border-[#E8E3DA] bg-white overflow-hidden shadow-xs hover:shadow-xl transition-all flex flex-col justify-between group"
+                    className="rounded-2xl border border-[#E8E3DA] bg-white overflow-hidden shadow-xs hover:shadow-xl transition-all flex flex-col sm:flex-row justify-between group"
                   >
-                    <div>
-                      {/* Image Gallery Header with Slide Controls */}
-                      <div className="relative h-52 w-full bg-gray-100 overflow-hidden">
-                        <Link href={`/projects/${projectSlug}`} className="block w-full h-full">
-                          <img
-                            src={images[activeImgIdx]}
-                            alt={project.title}
-                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                          />
-                        </Link>
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/30 pointer-events-none" />
+                    {/* Left: Image Gallery Header with Slide Controls */}
+                    <div className="w-full sm:w-[220px] md:w-[250px] shrink-0 relative min-h-[190px] sm:min-h-full overflow-hidden bg-gray-100">
+                      <Link href={`/projects/${projectSlug}`} className="block w-full h-full">
+                        <img
+                          src={images[activeImgIdx]}
+                          alt={project.title}
+                          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                        />
+                      </Link>
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/30 pointer-events-none" />
 
-                        {/* Top Badges */}
-                        <div className="absolute top-3 left-3 flex items-center gap-1.5 pointer-events-none z-10">
-                          <span className="px-2.5 py-1 rounded-full text-[11px] font-extrabold bg-[#D29324] text-white shadow-xs">
-                            {project.tag || "Verified Project"}
-                          </span>
+                      {/* Top Badges */}
+                      <div className="absolute top-2.5 left-2.5 flex items-center gap-1.5 pointer-events-none z-10">
+                        <span className="px-2 py-0.5 rounded-full text-[10px] font-extrabold bg-[#D29324] text-white shadow-xs">
+                          {project.tag || "Verified"}
+                        </span>
 
-                          <span className="px-2.5 py-1 rounded-full text-[11px] font-bold bg-white/90 text-[#252525] backdrop-blur-xs">
-                            {project.status}
-                          </span>
-                        </div>
-
-                        {/* Wishlist Heart Button */}
-                        <div className="absolute top-3 right-3 z-20">
-                          <WishlistButton project={project} size="md" variant="floating" />
-                        </div>
-
-                        {/* Arrows for multi-image */}
-                        {images.length > 1 && (
-                          <div className="absolute inset-y-0 left-2 right-2 flex items-center justify-between pointer-events-none">
-                            <button
-                              onClick={(e) => handlePrevImage(project.id, images.length, e)}
-                              className="w-7 h-7 rounded-full bg-black/40 hover:bg-black/70 text-white flex items-center justify-center pointer-events-auto transition-colors cursor-pointer"
-                              aria-label="Previous image"
-                            >
-                              <ChevronLeft className="w-4 h-4" />
-                            </button>
-                            <button
-                              onClick={(e) => handleNextImage(project.id, images.length, e)}
-                              className="w-7 h-7 rounded-full bg-black/40 hover:bg-black/70 text-white flex items-center justify-center pointer-events-auto transition-colors cursor-pointer"
-                              aria-label="Next image"
-                            >
-                              <ChevronRight className="w-4 h-4" />
-                            </button>
-                          </div>
-                        )}
-
-                        {/* Bottom Image Indicators */}
-                        {images.length > 1 && (
-                          <div className="absolute bottom-2 left-0 right-0 flex justify-center gap-1.5 pointer-events-none">
-                            {images.map((_, i) => (
-                              <div
-                                key={i}
-                                className={`h-1.5 rounded-full transition-all ${
-                                  activeImgIdx === i ? "w-5 bg-[#D29324]" : "w-1.5 bg-white/60"
-                                }`}
-                              />
-                            ))}
-                          </div>
-                        )}
+                        <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-white/90 text-[#252525] backdrop-blur-xs">
+                          {project.status}
+                        </span>
                       </div>
 
-                      {/* Content Box */}
-                      <div className="p-5 space-y-3">
+                      {/* Wishlist Heart Button */}
+                      <div className="absolute top-2.5 right-2.5 z-20">
+                        <WishlistButton project={project} size="md" variant="floating" />
+                      </div>
+
+                      {/* Arrows for multi-image */}
+                      {images.length > 1 && (
+                        <div className="absolute inset-y-0 left-2 right-2 flex items-center justify-between pointer-events-none">
+                          <button
+                            onClick={(e) => handlePrevImage(project.id, images.length, e)}
+                            className="w-6 h-6 rounded-full bg-black/50 hover:bg-black/80 text-white flex items-center justify-center pointer-events-auto transition-colors cursor-pointer"
+                            aria-label="Previous image"
+                          >
+                            <ChevronLeft className="w-3.5 h-3.5" />
+                          </button>
+                          <button
+                            onClick={(e) => handleNextImage(project.id, images.length, e)}
+                            className="w-6 h-6 rounded-full bg-black/50 hover:bg-black/80 text-white flex items-center justify-center pointer-events-auto transition-colors cursor-pointer"
+                            aria-label="Next image"
+                          >
+                            <ChevronRight className="w-3.5 h-3.5" />
+                          </button>
+                        </div>
+                      )}
+
+                      {/* Bottom Image Indicators */}
+                      {images.length > 1 && (
+                        <div className="absolute bottom-2 left-0 right-0 flex justify-center gap-1 pointer-events-none">
+                          {images.map((_, i) => (
+                            <div
+                              key={i}
+                              className={`h-1 rounded-full transition-all ${
+                                activeImgIdx === i ? "w-4 bg-[#D29324]" : "w-1 bg-white/60"
+                              }`}
+                            />
+                          ))}
+                        </div>
+                      )}
+                    </div>
+
+                    {/* Right: Content Box */}
+                    <div className="p-4 sm:p-5 flex-1 flex flex-col justify-between space-y-3">
+                      <div className="space-y-2">
                         {/* Title & Price */}
                         <div className="flex items-start justify-between gap-2">
-                          <div>
+                          <div className="min-w-0 flex-1">
                             <Link href={`/projects/${projectSlug}`}>
                               <h3 className="text-base font-extrabold text-[#252525] group-hover:text-[#AE7419] transition-colors line-clamp-1">
                                 {project.title}
@@ -507,7 +507,7 @@ function DeveloperDetailContent() {
                           </div>
 
                           <div className="text-right shrink-0">
-                            <div className="text-sm font-extrabold text-[#AE7419]">
+                            <div className="text-sm sm:text-base font-extrabold text-[#AE7419]">
                               ₹{project.price}
                             </div>
                             <div className="text-[10px] text-[#6B7280] font-medium">
@@ -522,7 +522,7 @@ function DeveloperDetailContent() {
                             <span className="text-[10px] text-[#6B7280] block font-medium uppercase tracking-wider">
                               Typology
                             </span>
-                            <span className="font-bold text-[#252525]">
+                            <span className="font-bold text-[#252525] truncate block">
                               {project.flatTypes}
                             </span>
                           </div>
@@ -530,49 +530,49 @@ function DeveloperDetailContent() {
                             <span className="text-[10px] text-[#6B7280] block font-medium uppercase tracking-wider">
                               Carpet Area
                             </span>
-                            <span className="font-bold text-[#252525]">
+                            <span className="font-bold text-[#252525] truncate block">
                               {project.carpetArea}
                             </span>
                           </div>
                         </div>
 
-                        {/* RERA Badge */}
+                        {/* RERA Badge & Rating */}
                         <div className="flex items-center justify-between text-[11px] text-[#6B7280] pt-1">
-                          <span className="font-medium">RERA: {project.rera}</span>
+                          <span className="font-medium truncate max-w-[140px]">RERA: {project.rera}</span>
                           <span className="inline-flex items-center gap-1 text-[#AE7419] font-bold">
                             ★ {project.rating}
                           </span>
                         </div>
                       </div>
-                    </div>
 
-                    {/* Action Buttons */}
-                    <div className="p-5 pt-0 flex items-center gap-2">
-                      <button
-                        onClick={() =>
-                          setInquiryProject({
-                            id: project.id,
-                            name: project.title,
-                            builder: developer.name,
-                            price: project.price,
-                            location: project.location,
-                            flatTypes: project.flatTypes,
-                            images: project.images
-                          })
-                        }
-                        className="flex-1 py-2.5 rounded-xl bg-[#D29324] hover:bg-[#AE7419] text-white text-xs font-bold transition-all shadow-xs hover:shadow-md flex items-center justify-center gap-1.5 cursor-pointer"
-                      >
-                        <PhoneCall className="w-3.5 h-3.5" />
-                        <span>Enquire Now</span>
-                      </button>
+                      {/* Action Buttons */}
+                      <div className="pt-2.5 border-t border-[#E8E3DA] flex items-center gap-2">
+                        <button
+                          onClick={() =>
+                            setInquiryProject({
+                              id: project.id,
+                              name: project.title,
+                              builder: developer.name,
+                              price: project.price,
+                              location: project.location,
+                              flatTypes: project.flatTypes,
+                              images: project.images
+                            })
+                          }
+                          className="flex-1 py-2 px-3 rounded-xl bg-[#D29324] hover:bg-[#AE7419] text-white text-xs font-bold transition-all shadow-xs hover:shadow-md flex items-center justify-center gap-1.5 cursor-pointer"
+                        >
+                          <PhoneCall className="w-3.5 h-3.5" />
+                          <span>Enquire Now</span>
+                        </button>
 
-                      <Link
-                        href={`/projects/${projectSlug}`}
-                        className="px-3.5 py-2.5 rounded-xl border border-[#E8E3DA] hover:border-[#D29324] bg-white text-[#252525] hover:text-[#AE7419] text-xs font-bold transition-all flex items-center justify-center gap-1 cursor-pointer"
-                      >
-                        <Eye className="w-3.5 h-3.5" />
-                        <span>View</span>
-                      </Link>
+                        <Link
+                          href={`/projects/${projectSlug}`}
+                          className="px-3.5 py-2 rounded-xl border border-[#E8E3DA] hover:border-[#D29324] bg-white text-[#252525] hover:text-[#AE7419] text-xs font-bold transition-all flex items-center justify-center gap-1 cursor-pointer"
+                        >
+                          <Eye className="w-3.5 h-3.5" />
+                          <span>View</span>
+                        </Link>
+                      </div>
                     </div>
                   </div>
                 );

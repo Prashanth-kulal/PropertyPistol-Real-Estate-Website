@@ -709,7 +709,7 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
                 </button>
               </div>
             ) : (
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+              <div className="grid grid-cols-1 xl:grid-cols-2 gap-5">
                 {filteredProperties.slice(0, visibleCount).map((project, idx) => {
                   const activeIdx = activeImageIndexes[project.id] || 0;
                   const projectSlug = getProjectSlug(project);
@@ -724,10 +724,10 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
                   return (
                     <div
                       key={project.id || idx}
-                      className="bg-white rounded-2xl border border-gray-200/90 shadow-xs hover:shadow-xl transition-all duration-300 flex flex-col group overflow-hidden"
+                      className="bg-white rounded-2xl border border-gray-200/90 shadow-xs hover:shadow-xl transition-all duration-300 flex flex-col sm:flex-row group overflow-hidden"
                     >
-                      {/* Photo Container */}
-                      <div className="relative h-56 bg-gray-100 overflow-hidden">
+                      {/* Left: Photo Container (Image on the Left) */}
+                      <div className="w-full sm:w-[220px] md:w-[250px] shrink-0 relative min-h-[190px] sm:min-h-full overflow-hidden bg-gray-100">
                         <Link href={`/projects/${projectSlug}`} className="block w-full h-full">
                           <img
                             src={images[activeIdx]}
@@ -737,15 +737,15 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
                         </Link>
 
                         {/* Top-Left: Offers Available Badge */}
-                        <div className="absolute top-3 left-3 z-10 pointer-events-none">
-                          <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-[#EA580C] text-white text-[10px] font-extrabold uppercase tracking-wider shadow-xs">
+                        <div className="absolute top-2.5 left-2.5 z-10 pointer-events-none">
+                          <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-[#EA580C] text-white text-[9px] font-extrabold uppercase tracking-wider shadow-xs">
                             <Flame className="w-3 h-3 fill-current text-white" />
                             <span>Offers Available</span>
                           </span>
                         </div>
 
                         {/* Top-Right: Heart (Wishlist) & Compare Checkbox (Completely Independent) */}
-                        <div className="absolute top-3 right-3 z-20 flex items-center gap-1.5">
+                        <div className="absolute top-2.5 right-2.5 z-20 flex items-center gap-1.5">
                           {/* Heart Wishlist Button */}
                           <WishlistButton
                             project={project}
@@ -760,7 +760,7 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
 
                         {/* Bottom-Center Image Dots Indicator */}
                         {images.length > 1 && (
-                          <div className="absolute bottom-3 left-1/2 -translate-y-0 -translate-x-1/2 flex items-center gap-1.5 z-10 pointer-events-none">
+                          <div className="absolute bottom-2.5 left-1/2 -translate-y-0 -translate-x-1/2 flex items-center gap-1.5 z-10 pointer-events-none">
                             {images.map((_, dotIdx) => (
                               <span
                                 key={dotIdx}
@@ -775,8 +775,8 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
                         )}
 
                         {/* Bottom-Left Price Tag Overlay Pill */}
-                        <div className="absolute bottom-3 left-3 z-10 pointer-events-none">
-                          <div className="px-3 py-1 bg-white/95 backdrop-blur-xs rounded-full shadow-md text-xs font-black text-[#252525]">
+                        <div className="absolute bottom-2.5 left-2.5 z-10 pointer-events-none">
+                          <div className="px-2.5 py-0.5 bg-white/95 backdrop-blur-xs rounded-full shadow-md text-xs font-black text-[#252525]">
                             ₹ {project.price}
                           </div>
                         </div>
@@ -802,8 +802,8 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
                         )}
                       </div>
 
-                      {/* Card Body */}
-                      <div className="p-4 flex-1 flex flex-col justify-between space-y-3.5">
+                      {/* Right: Card Body (Information on the Right) */}
+                      <div className="p-4 sm:p-4.5 flex-1 flex flex-col justify-between space-y-3 min-w-0">
                         <div className="space-y-1.5">
                           {/* Tag: Trending or RERA Verified */}
                           <div className="flex items-center gap-1.5">
@@ -823,7 +823,7 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
                           {/* Project Name */}
                           <Link href={`/projects/${projectSlug}`}>
                             <h2
-                              className="text-base font-extrabold text-[#252525] truncate hover:text-[#EA580C] transition-colors"
+                              className="text-sm sm:text-base font-extrabold text-[#252525] truncate hover:text-[#EA580C] transition-colors"
                               title={project.name}
                             >
                               {title}
@@ -838,14 +838,14 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
                             {project.flatTypes} for Sale in {project.location}
                           </p>
 
-                          {/* 2x2 Specs Grid matching Screenshot 1 */}
-                          <div className="grid grid-cols-2 gap-x-3 gap-y-2 pt-3 border-t border-gray-100 text-xs">
+                          {/* 2x2 Specs Grid */}
+                          <div className="grid grid-cols-2 gap-x-3 gap-y-1.5 pt-2 border-t border-gray-100 text-xs">
                             {/* Configurations */}
                             <div className="min-w-0">
                               <span className="font-semibold text-gray-900 block truncate text-xs">
                                 {project.flatTypes}
                               </span>
-                              <span className="text-[11px] text-gray-400 block font-medium">
+                              <span className="text-[10px] text-gray-400 block font-medium">
                                 Configurations
                               </span>
                             </div>
@@ -855,7 +855,7 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
                               <span className="font-semibold text-gray-900 block truncate text-xs">
                                 {project.avgPrice || "INR 28.08 K"}
                               </span>
-                              <span className="text-[11px] text-gray-400 block font-medium">
+                              <span className="text-[10px] text-gray-400 block font-medium">
                                 Per Sq.ft
                               </span>
                             </div>
@@ -865,7 +865,7 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
                               <span className="font-semibold text-gray-900 block truncate text-xs">
                                 {project.builtUpArea || "On request"}
                               </span>
-                              <span className="text-[11px] text-gray-400 block font-medium">
+                              <span className="text-[10px] text-gray-400 block font-medium">
                                 Built up Area
                               </span>
                             </div>
@@ -875,19 +875,19 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
                               <span className="font-semibold text-gray-900 block truncate text-xs">
                                 {project.carpetArea || "On Request"}
                               </span>
-                              <span className="text-[11px] text-gray-400 block font-medium">
+                              <span className="text-[10px] text-gray-400 block font-medium">
                                 Carpet Area
                               </span>
                             </div>
                           </div>
                         </div>
 
-                        {/* Bottom CTA Button: Get in Touch (Screenshot 1) */}
-                        <div className="pt-2">
+                        {/* Bottom CTA Button: Get in Touch */}
+                        <div className="pt-2 border-t border-gray-100">
                           <button
                             type="button"
                             onClick={() => setInquiryProject(project)}
-                            className="w-full py-2.5 rounded-full border border-[#EA580C]/40 text-[#EA580C] hover:bg-[#EA580C]/5 font-bold text-xs tracking-wide transition-colors flex items-center justify-center gap-1.5 cursor-pointer shadow-2xs active:scale-98"
+                            className="w-full py-2 rounded-xl border border-[#EA580C]/40 text-[#EA580C] hover:bg-[#EA580C]/5 font-bold text-xs tracking-wide transition-colors flex items-center justify-center gap-1.5 cursor-pointer shadow-2xs active:scale-98"
                           >
                             <PhoneCall className="w-3.5 h-3.5" />
                             <span>Get in Touch</span>

@@ -198,7 +198,7 @@ function CityPageContent() {
     );
   }
 
-  // Reusable Property Card matching PropertyPistol layout
+  // Reusable Property Card matching Image-Left, Info-Right layout
   const renderPropertyCard = (project) => {
     const isSaved = !!wishlist[project.id];
     const image = project.images?.[0] || "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80";
@@ -207,10 +207,10 @@ function CityPageContent() {
     return (
       <div
         key={project.id}
-        className="w-[280px] sm:w-[320px] shrink-0 bg-white rounded-2xl border border-[#E8E3DA] overflow-hidden shadow-xs hover:shadow-lg transition-all duration-300 flex flex-col group"
+        className="w-[330px] sm:w-[440px] shrink-0 bg-white rounded-2xl border border-[#E8E3DA] overflow-hidden shadow-xs hover:shadow-lg transition-all duration-300 flex flex-row group"
       >
-        {/* Card Header & Image */}
-        <div className="relative h-48 bg-gray-100 overflow-hidden">
+        {/* Left: Card Image */}
+        <div className="w-[135px] sm:w-[175px] shrink-0 relative bg-gray-100 overflow-hidden">
           <Link href={`/projects/${projectSlug}`} className="block w-full h-full">
             <img
               src={image}
@@ -221,78 +221,68 @@ function CityPageContent() {
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/10 pointer-events-none" />
 
           {/* Badges */}
-          <div className="absolute top-3 left-3 flex flex-wrap gap-1.5 z-10 pointer-events-none">
+          <div className="absolute top-2.5 left-2.5 flex flex-wrap gap-1 z-10 pointer-events-none">
             {project.tag && (
-              <span className="px-2 py-0.5 rounded-md bg-[#D29324] text-white text-[10px] font-bold uppercase tracking-wider shadow-xs">
+              <span className="px-2 py-0.5 rounded-md bg-[#D29324] text-white text-[9px] font-bold uppercase tracking-wider shadow-xs">
                 {project.tag}
               </span>
             )}
-            <span className="px-2 py-0.5 rounded-md bg-black/60 backdrop-blur-xs text-white text-[10px] font-semibold">
-              {project.status}
-            </span>
           </div>
 
           {/* Wishlist Button */}
-          <div className="absolute top-3 right-3 z-20">
-            <WishlistButton project={project} size="md" variant="floating" />
+          <div className="absolute top-2.5 right-2.5 z-20">
+            <WishlistButton project={project} size="sm" variant="floating" />
           </div>
 
           {/* Price Tag Overlay */}
-          <Link href={`/projects/${projectSlug}`} className="absolute bottom-3 inset-x-3 flex items-end justify-between z-10 text-white">
-            <div>
-              <div className="text-lg font-black drop-shadow-sm">
-                ₹{project.price}
-              </div>
-              <div className="text-[10px] text-gray-200 font-semibold drop-shadow-xs">
-                {project.avgPrice}
-              </div>
+          <Link href={`/projects/${projectSlug}`} className="absolute bottom-2.5 left-2.5 right-2.5 text-white">
+            <div className="text-sm sm:text-base font-black drop-shadow-sm leading-tight">
+              ₹{project.price}
             </div>
-            <div className="text-right">
-              <span className="text-[9px] bg-black/50 backdrop-blur-xs px-2 py-0.5 rounded text-gray-200 font-mono">
-                {project.rera ? "RERA" : "Verified"}
-              </span>
+            <div className="text-[10px] text-gray-200 truncate">
+              {project.avgPrice}
             </div>
           </Link>
         </div>
 
-        {/* Card Body */}
-        <div className="p-4 flex-1 flex flex-col justify-between space-y-3">
-          <div className="space-y-1.5">
-            <span className="text-[11px] font-bold text-[#AE7419] block uppercase tracking-wide truncate">
+        {/* Right: Card Body */}
+        <div className="p-3.5 sm:p-4 flex-1 flex flex-col justify-between space-y-2 min-w-0">
+          <div className="space-y-1">
+            <span className="text-[10px] font-bold text-[#AE7419] block uppercase tracking-wide truncate">
               {project.builder}
             </span>
 
             <Link href={`/projects/${projectSlug}`}>
-              <h3 className="text-sm font-extrabold text-[#252525] line-clamp-1 group-hover:text-[#D29324] transition-colors">
+              <h3 className="text-xs sm:text-sm font-extrabold text-[#252525] line-clamp-1 group-hover:text-[#D29324] transition-colors">
                 {project.name}
               </h3>
             </Link>
 
-            <div className="flex items-center gap-1 text-xs text-[#6B7280]">
-              <MapPin className="w-3.5 h-3.5 text-[#AE7419] shrink-0" />
+            <div className="flex items-center gap-1 text-[11px] text-[#6B7280]">
+              <MapPin className="w-3 h-3 text-[#AE7419] shrink-0" />
               <span className="truncate">{project.location}</span>
             </div>
 
-            <div className="pt-2 border-t border-[#E8E3DA] flex items-center justify-between text-xs">
-              <span className="font-semibold text-[#252525]">{project.flatTypes}</span>
-              <span className="text-[11px] text-[#6B7280]">{project.carpetArea}</span>
+            <div className="pt-1.5 border-t border-[#E8E3DA] flex items-center justify-between text-[11px]">
+              <span className="font-semibold text-[#252525] truncate">{project.flatTypes}</span>
+              <span className="text-[10px] text-[#6B7280] shrink-0">{project.carpetArea}</span>
             </div>
           </div>
 
           {/* CTA Buttons */}
-          <div className="pt-2 border-t border-[#E8E3DA] flex items-center gap-2">
+          <div className="pt-2 border-t border-[#E8E3DA] flex items-center gap-1.5">
             <button
               type="button"
               onClick={() => setInquiryProject(project)}
-              className="flex-1 py-2 rounded-xl bg-[#D29324] hover:bg-[#AE7419] text-white text-xs font-bold transition-all shadow-xs flex items-center justify-center gap-1.5 cursor-pointer"
+              className="flex-1 py-1.5 rounded-xl bg-[#D29324] hover:bg-[#AE7419] text-white text-xs font-bold transition-all shadow-xs flex items-center justify-center gap-1 cursor-pointer"
             >
-              <PhoneCall className="w-3.5 h-3.5" />
+              <PhoneCall className="w-3 h-3" />
               <span>Callback</span>
             </button>
 
             <Link
               href={`/projects/${projectSlug}`}
-              className="px-3 py-2 rounded-xl border border-[#E8E3DA] hover:border-[#D29324] bg-white text-[#252525] hover:text-[#AE7419] text-xs font-bold transition-all flex items-center justify-center cursor-pointer"
+              className="px-2.5 py-1.5 rounded-xl border border-[#E8E3DA] hover:border-[#D29324] bg-white text-[#252525] hover:text-[#AE7419] text-xs font-bold transition-all flex items-center justify-center cursor-pointer shadow-2xs"
               title="View Project"
             >
               View
@@ -301,10 +291,10 @@ function CityPageContent() {
             <button
               type="button"
               onClick={() => showToast(`Brochure for ${project.name} sent to your email!`)}
-              className="p-2 rounded-xl border border-[#E8E3DA] text-[#6B7280] hover:text-[#AE7419] hover:bg-[#FAF8F4] transition-all cursor-pointer"
+              className="p-1.5 rounded-xl border border-[#E8E3DA] text-[#6B7280] hover:text-[#AE7419] hover:bg-[#FAF8F4] transition-all cursor-pointer shadow-2xs"
               title="Download Brochure"
             >
-              <Download className="w-3.5 h-3.5" />
+              <Download className="w-3 h-3" />
             </button>
           </div>
         </div>
