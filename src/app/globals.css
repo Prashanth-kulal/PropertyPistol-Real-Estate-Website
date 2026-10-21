@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import "leaflet/dist/leaflet.css";
 @import "tailwindcss";
 
 @theme {
@@ -96,4 +97,30 @@ body {
 
 .animate-shimmer {
   animation: shimmer 2s infinite;
+}
+
+/* Custom Leaflet Map Enhancements */
+.leaflet-popup-content-wrapper {
+  padding: 0;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.15), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #E8E3DA;
+  background: #ffffff;
+}
+.leaflet-popup-content {
+  margin: 0;
+  line-height: 1.4;
+  font-family: inherit;
+}
+.leaflet-popup-tip {
+  background: #ffffff;
+  border: 1px solid #E8E3DA;
+}
+.leaflet-container {
+  font-family: inherit;
+}
+.leaflet-div-icon {
+  background: transparent;
+  border: none;
 }

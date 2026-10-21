@@ -944,6 +944,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Dahanu Road",
     "id": "dahanu_road",
+    "lat": 19.9729,
+    "lng": 72.7412,
     "uuid": "e64cba8d-35a4-4169-8350-4312ceec78a5",
     "type": "main_station",
     "position": {
@@ -963,6 +965,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Vangaon",
     "id": "vangaon",
+    "lat": 19.8687,
+    "lng": 72.7562,
     "uuid": "a808243a-f143-483e-9980-f29b906428f0",
     "type": "station",
     "position": {
@@ -982,6 +986,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Boisar",
     "id": "boisar",
+    "lat": 19.7997,
+    "lng": 72.7578,
     "uuid": "6cc699a9-2424-41a2-842c-16c8a25c8ae2",
     "type": "station",
     "position": {
@@ -1001,6 +1007,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Umroli",
     "id": "umroli",
+    "lat": 19.7423,
+    "lng": 72.7663,
     "uuid": "aa8d6129-fa58-4c38-8c33-edfeb779af3b",
     "type": "station",
     "position": {
@@ -1020,6 +1028,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Palghar",
     "id": "palghar",
+    "lat": 19.697,
+    "lng": 72.7656,
     "uuid": "4a0be5da-dc57-4a7d-b199-9de2760e439e",
     "type": "station",
     "position": {
@@ -1039,6 +1049,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Saphale",
     "id": "saphale",
+    "lat": 19.5765,
+    "lng": 72.8202,
     "type": "station",
     "uuid": "59ee7e6c-dba4-4556-9ef8-725404b0121c",
     "position": {
@@ -1058,6 +1070,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Vaitarna",
     "id": "vaitarna",
+    "lat": 19.5052,
+    "lng": 72.8465,
     "type": "station",
     "uuid": "23a3c4f1-a826-4ab5-9c7d-299e63b63af0",
     "position": {
@@ -1077,6 +1091,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Virar",
     "id": "virar",
+    "lat": 19.4552,
+    "lng": 72.8105,
     "type": "main_station",
     "uuid": "d7b044c3-de6a-490f-a4ce-ca263bd1472b",
     "position": {
@@ -1096,6 +1112,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Nalasopara",
     "id": "nalasopara",
+    "lat": 19.4184,
+    "lng": 72.8194,
     "type": "station",
     "uuid": "ec7c39a2-ccff-4ac7-93ea-5032aa8459b3",
     "position": {
@@ -1115,6 +1133,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Vasai Road",
     "id": "vasairoad",
+    "lat": 19.3809,
+    "lng": 72.8322,
     "uuid": "ddf947ae-d9e7-41cc-85d2-42c4f6123b7e",
     "type": "station",
     "position": {
@@ -1134,6 +1154,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Bhayandar",
     "id": "bhayandar",
+    "lat": 19.3125,
+    "lng": 72.8533,
     "uuid": "d8d3d0df-e8ad-4e18-83cb-47cff802be73",
     "type": "main_station",
     "position": {
@@ -1153,6 +1175,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Borivali",
     "id": "borivali",
+    "lat": 19.2291,
+    "lng": 72.8569,
     "uuid": "bbb7f84f-8cff-4130-8530-168a537f4f55",
     "type": "main_station",
     "position": {
@@ -1172,6 +1196,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Goregaon",
     "id": "goregaon",
+    "lat": 19.1643,
+    "lng": 72.8493,
     "uuid": "dfe7c3f4-139d-458c-b110-9d34d84c7495",
     "type": "main_station",
     "position": {
@@ -1191,6 +1217,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Kurla",
     "id": "kurla",
+    "lat": 19.0657,
+    "lng": 72.8793,
     "uuid": "60bf59e0-7db7-4a7a-9e6d-8e1a53bdc8fc",
     "type": "main_station",
     "position": {
@@ -1210,6 +1238,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Ghatkopar",
     "id": "ghatkopar",
+    "lat": 19.0864,
+    "lng": 72.9081,
     "type": "main_station",
     "uuid": "90654193-0be4-4dff-af71-d9947117ac5b",
     "position": {
@@ -1229,6 +1259,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Thane",
     "id": "thane",
+    "lat": 19.186,
+    "lng": 72.9757,
     "uuid": "d8c2cc5a-8559-45a1-8276-ec95479cabfb",
     "type": "main_station",
     "position": {
@@ -1248,6 +1280,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Diva",
     "id": "diva",
+    "lat": 19.1895,
+    "lng": 73.0427,
     "uuid": "ef6509ca-e50d-452e-b30e-94522044f5eb",
     "type": "main_station",
     "position": {
@@ -1267,6 +1301,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Kalyan",
     "id": "kalyan",
+    "lat": 19.2364,
+    "lng": 73.1307,
     "uuid": "a7424d3b-810a-4678-9a1e-85b25c43f95d",
     "type": "main_station",
     "position": {
@@ -1286,6 +1322,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Kasara",
     "id": "kasara",
+    "lat": 19.6548,
+    "lng": 73.4839,
     "uuid": "8a93542f-84d3-4ac2-93a1-93ff9086d52d",
     "type": "main_station",
     "position": {
@@ -1305,6 +1343,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Karjat",
     "id": "karjat",
+    "lat": 18.9105,
+    "lng": 73.3242,
     "uuid": "94c74560-7805-4cda-8dfd-6a4ec5756c42",
     "type": "main_station",
     "position": {
@@ -1324,6 +1364,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Khopoli",
     "id": "khopoli",
+    "lat": 18.7844,
+    "lng": 73.3444,
     "uuid": "b87cc152-1e1c-4142-9140-2175b20a0e0d",
     "type": "main_station",
     "position": {
@@ -1343,6 +1385,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Mumbai Central",
     "id": "mumbaicentral",
+    "lat": 18.9696,
+    "lng": 72.8194,
     "uuid": "45c4a100-2461-4f4f-9ce3-2d16f9e66ed5",
     "type": "main_station",
     "position": {
@@ -1362,6 +1406,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Churchgate",
     "id": "churchgate",
+    "lat": 18.9322,
+    "lng": 72.8264,
     "uuid": "8595c971-e613-4a1c-943e-4acd15094066",
     "type": "main_station",
     "position": {
@@ -1381,6 +1427,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Dadar",
     "id": "dadar",
+    "lat": 19.0178,
+    "lng": 72.8478,
     "uuid": "54fa1467-4423-43bd-8d05-ce74d83c295c",
     "type": "main_station",
     "position": {
@@ -1400,6 +1448,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Naigaon",
     "id": "naigaon",
+    "lat": 19.3512,
+    "lng": 72.849,
     "type": "station",
     "uuid": "39cc0e82-d6ef-4e30-aedf-b88b5e4e4816",
     "position": {
@@ -1419,6 +1469,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Mira Road",
     "id": "miraroad",
+    "lat": 19.2812,
+    "lng": 72.8559,
     "uuid": "8bcb47d0-1f43-4261-a7a1-25c2d2087997",
     "type": "station",
     "position": {
@@ -1438,6 +1490,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Dahisar",
     "id": "dahisar",
+    "lat": 19.2505,
+    "lng": 72.8597,
     "uuid": "d7d6b6fb-1042-4dd4-839f-692b72f5a5ec",
     "type": "station",
     "position": {
@@ -1457,6 +1511,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Kandivali",
     "id": "kandivali",
+    "lat": 19.2045,
+    "lng": 72.8524,
     "uuid": "afbb31eb-e203-4ae6-b51e-838ce3108bd6",
     "type": "station",
     "position": {
@@ -1476,6 +1532,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Malad",
     "id": "malad",
+    "lat": 19.1868,
+    "lng": 72.8488,
     "uuid": "22b627e9-963d-433f-9699-2a4a0f7987d6",
     "type": "station",
     "position": {
@@ -1495,6 +1553,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Jogeshwari",
     "id": "jogeshwari",
+    "lat": 19.136,
+    "lng": 72.8492,
     "uuid": "0abc8f6c-1b88-450f-af3b-fe8ea02af9e8",
     "type": "station",
     "position": {
@@ -1514,6 +1574,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Matunga Road",
     "id": "matungaroad",
+    "lat": 19.0305,
+    "lng": 72.8427,
     "uuid": "a479e5d7-a8a9-4bf2-a7bf-5bf035abf8ef",
     "type": "station",
     "position": {
@@ -1533,6 +1595,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Prabhadevi",
     "id": "prabhadevi",
+    "lat": 19.0146,
+    "lng": 72.8302,
     "type": "station",
     "uuid": "e94c7902-3e24-408b-9bbb-e90323d4fcc7",
     "position": {
@@ -1552,6 +1616,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Lower Parel",
     "id": "lowerparel",
+    "lat": 18.9953,
+    "lng": 72.8302,
     "uuid": "11067133-7b07-49ff-afe9-35c18419ed7a",
     "type": "station",
     "position": {
@@ -1571,6 +1637,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Mahalaxmi",
     "id": "mahalaxmi",
+    "lat": 18.9827,
+    "lng": 72.8239,
     "uuid": "1b010eac-78b0-499e-b7e8-7681a418f319",
     "type": "station",
     "position": {
@@ -1590,6 +1658,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Grant Road",
     "id": "grantroad",
+    "lat": 18.9629,
+    "lng": 72.8162,
     "uuid": "3782b034-154b-4187-8e28-ac33d3141f9f",
     "type": "station",
     "position": {
@@ -1609,6 +1679,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Charni Road",
     "id": "charniroad",
+    "lat": 18.9519,
+    "lng": 72.8193,
     "uuid": "d375d55c-58f8-4b2d-8c95-48c3b7448384",
     "type": "station",
     "position": {
@@ -1628,6 +1700,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Marine Lines",
     "id": "marinelines",
+    "lat": 18.9438,
+    "lng": 72.8236,
     "uuid": "f60d1db2-dff7-4fe2-afee-d01d36c62874",
     "type": "station",
     "position": {
@@ -1647,6 +1721,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Masjid",
     "id": "masjid",
+    "lat": 18.9515,
+    "lng": 72.8385,
     "uuid": "4bbca719-eb7e-4b50-85f1-4f78b139fce9",
     "type": "station",
     "position": {
@@ -1666,6 +1742,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Sandhurst Road",
     "id": "sandhurstroad",
+    "lat": 18.961,
+    "lng": 72.8383,
     "uuid": "0c1a2604-fa4e-4b6e-bf60-0b96bb0f1de4",
     "type": "station",
     "position": {
@@ -1685,6 +1763,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Chunabhatti",
     "id": "chunabhatti",
+    "lat": 19.0519,
+    "lng": 72.8711,
     "uuid": "a4da108a-ae2c-4422-bd9d-663274dcf3e3",
     "type": "station",
     "position": {
@@ -1704,6 +1784,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Tilak Nagar",
     "id": "tilaknagar",
+    "lat": 19.0683,
+    "lng": 72.8907,
     "uuid": "d5f22dd8-b09e-451c-8646-c8bc4e2980d7",
     "type": "station",
     "position": {
@@ -1723,6 +1805,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Chembur",
     "id": "chembur",
+    "lat": 19.0624,
+    "lng": 72.8997,
     "type": "station",
     "uuid": "5b3c3152-335f-4081-9103-180b1619623c",
     "position": {
@@ -1742,6 +1826,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Govandi",
     "id": "govandi",
+    "lat": 19.0558,
+    "lng": 72.9148,
     "uuid": "31e70918-b442-4aa0-98c2-dddd794cff33",
     "type": "station",
     "position": {
@@ -1761,6 +1847,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Mankhurd",
     "id": "mankhurd",
+    "lat": 19.0505,
+    "lng": 72.9318,
     "uuid": "0b8a013f-0443-449b-83e1-07a8d2daf4a7",
     "type": "station",
     "position": {
@@ -1780,6 +1868,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Seawoods",
     "id": "seawoods",
+    "lat": 19.0205,
+    "lng": 73.0182,
     "uuid": "0e319eb0-e093-4631-86af-3cb367e14ee1",
     "type": "station",
     "position": {
@@ -1799,6 +1889,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "CBD Belapur",
     "id": "cbdbelapur",
+    "lat": 19.0183,
+    "lng": 73.0396,
     "uuid": "146080cd-c552-4c08-8823-78aada31c85f",
     "type": "station",
     "position": {
@@ -1818,6 +1910,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Kharghar",
     "id": "kharghar",
+    "lat": 19.0282,
+    "lng": 73.0645,
     "uuid": "266eeaff-3165-454c-9298-9fa61bf60cc8",
     "type": "station",
     "position": {
@@ -1837,6 +1931,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Mansarovar",
     "id": "mansarovar",
+    "lat": 19.0179,
+    "lng": 73.0851,
     "uuid": "25834e6b-103b-4003-a621-93db95df63c2",
     "type": "station",
     "position": {
@@ -1856,6 +1952,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Khandeshwar",
     "id": "khandeshwar",
+    "lat": 19.0063,
+    "lng": 73.1009,
     "uuid": "7e2278e4-dfad-4692-b877-19e01549dc32",
     "type": "station",
     "position": {
@@ -1875,6 +1973,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Chikhale",
     "id": "chikhale",
+    "lat": 18.9654,
+    "lng": 73.142,
     "uuid": "98fedae0-aa10-40f4-b6c1-835f4f3abb49",
     "type": "station",
     "position": {
@@ -1894,6 +1994,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Kalamboli",
     "id": "kalamboli",
+    "lat": 19.0192,
+    "lng": 73.1121,
     "uuid": "9b9fc5f1-9734-4f88-9990-41f2c981160d",
     "type": "station",
     "position": {
@@ -1913,6 +2015,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Taloja",
     "id": "taloja",
+    "lat": 19.0832,
+    "lng": 73.0945,
     "type": "station",
     "uuid": "b3231f92-ff76-45ca-8ef2-056522a26d5d",
     "position": {
@@ -1932,6 +2036,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Navade Road",
     "id": "navaderoad",
+    "lat": 19.0435,
+    "lng": 73.1082,
     "type": "station",
     "uuid": "77479c06-cdbe-4515-af9a-eb9951bf72ab",
     "position": {
@@ -1951,6 +2057,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Nilaje",
     "id": "nilaje",
+    "lat": 19.1382,
+    "lng": 73.0722,
     "type": "station",
     "uuid": "e298644e-dcd3-48fc-b3c9-72a99e0101e4",
     "position": {
@@ -1971,6 +2079,8 @@ export const MUMBAI_STATIONS = [
     "name": "Dativali",
     "uuid": "3acec197-7b03-47df-9319-509a39b87b49",
     "id": "dativali",
+    "lat": 19.1672,
+    "lng": 73.0561,
     "type": "station",
     "position": {
       "x": 849,
@@ -1989,6 +2099,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Mohape",
     "id": "mohape",
+    "lat": 18.924,
+    "lng": 73.198,
     "uuid": "474e2c5b-6db4-4b33-80cd-357f32e83f8c",
     "type": "station",
     "position": {
@@ -2008,6 +2120,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Chowk",
     "id": "chowk",
+    "lat": 18.895,
+    "lng": 73.235,
     "uuid": "d23fcbd7-11c8-488c-90cf-45470da05687",
     "type": "station",
     "position": {
@@ -2027,6 +2141,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Matheran",
     "id": "matheran",
+    "lat": 18.9827,
+    "lng": 73.2691,
     "type": "station",
     "uuid": "21a10a49-8146-4db3-879b-9c3a748074ff",
     "position": {
@@ -2046,6 +2162,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "GTB Nagar",
     "id": "gtbnagar",
+    "lat": 19.0326,
+    "lng": 72.8631,
     "type": "station",
     "uuid": "3a35e177-8aef-4045-87cf-c3da008a7cd4",
     "position": {
@@ -2065,6 +2183,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Sewri",
     "id": "sewri",
+    "lat": 19.0016,
+    "lng": 72.8557,
     "type": "station",
     "uuid": "1c7a688b-3d79-4fb7-941d-ea8fb10ebc97",
     "position": {
@@ -2084,6 +2204,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Cotton Green",
     "id": "cottongreen",
+    "lat": 18.9866,
+    "lng": 72.851,
     "uuid": "4d0eb6d3-9375-406a-b5fe-0bafae6d3e4f",
     "type": "station",
     "position": {
@@ -2103,6 +2225,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Reay Road",
     "id": "reayroad",
+    "lat": 18.9757,
+    "lng": 72.8475,
     "type": "station",
     "uuid": "ed560be5-06d3-458d-a51c-9ae7839e6a1b",
     "position": {
@@ -2122,6 +2246,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Dockyard Road",
     "id": "dockyardroad",
+    "lat": 18.966,
+    "lng": 72.8444,
     "uuid": "4e2b722f-7c78-4ba8-afd0-f7f4bc6580f6",
     "type": "station",
     "position": {
@@ -2141,6 +2267,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Byculla",
     "id": "byculla",
+    "lat": 18.9774,
+    "lng": 72.8328,
     "type": "station",
     "uuid": "0d1d5d0c-832d-463e-8897-1b4dbeac62cc",
     "position": {
@@ -2160,6 +2288,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Chinchpokli",
     "id": "chinchpokli",
+    "lat": 18.9886,
+    "lng": 72.8306,
     "uuid": "d4582887-16ed-4a77-ba54-b4de92d2ac40",
     "type": "station",
     "position": {
@@ -2179,6 +2309,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Currey Road",
     "id": "curreyroad",
+    "lat": 18.9972,
+    "lng": 72.8317,
     "uuid": "65ec5f5e-b8ef-4529-a290-a140c0c5a7da",
     "type": "station",
     "position": {
@@ -2198,6 +2330,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Parel",
     "id": "parel",
+    "lat": 19.0094,
+    "lng": 72.8375,
     "uuid": "602d2542-9e34-44e0-8e8d-45432b0c8a38",
     "type": "station",
     "position": {
@@ -2217,6 +2351,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Matunga",
     "id": "matunga",
+    "lat": 19.027,
+    "lng": 72.855,
     "uuid": "90e29c9e-2a7c-449c-89b8-874438c635aa",
     "type": "station",
     "position": {
@@ -2236,6 +2372,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "King's Circle",
     "id": "kingscircle",
+    "lat": 19.0315,
+    "lng": 72.8557,
     "uuid": "231d030a-cd79-4c8f-84c3-f27ce17c5be7",
     "type": "station",
     "position": {
@@ -2255,6 +2393,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Sion",
     "id": "sion",
+    "lat": 19.0434,
+    "lng": 72.8624,
     "type": "station",
     "uuid": "e461e854-2fef-4455-9651-aba3bd363e4b",
     "position": {
@@ -2274,6 +2414,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Vidyavihar",
     "id": "vidyavihar",
+    "lat": 19.0798,
+    "lng": 72.8973,
     "uuid": "41961884-e320-46ac-90d4-c275f46ebfbf",
     "type": "station",
     "position": {
@@ -2293,6 +2435,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Vikhroli",
     "id": "vikhroli",
+    "lat": 19.1112,
+    "lng": 72.9282,
     "uuid": "5d0ba547-deb3-4bb8-9213-6eeab06f8607",
     "type": "station",
     "position": {
@@ -2312,6 +2456,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Juchandra",
     "id": "juchandra",
+    "lat": 19.3496,
+    "lng": 72.8845,
     "uuid": "3b66e134-a9bb-48a1-9605-9bf51938d97e",
     "type": "station",
     "position": {
@@ -2331,6 +2477,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Kaman Road",
     "id": "kamanroad",
+    "lat": 19.3363,
+    "lng": 72.9238,
     "type": "station",
     "uuid": "e35795c8-22b2-4a67-89f9-ffc20a68a5e2",
     "position": {
@@ -2350,6 +2498,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Kharbao",
     "id": "kharbao",
+    "lat": 19.2941,
+    "lng": 72.9815,
     "uuid": "e1137241-ac45-41b4-94bf-cbe2ca143332",
     "type": "station",
     "position": {
@@ -2369,6 +2519,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Bhiwandi",
     "id": "bhiwandi",
+    "lat": 19.2812,
+    "lng": 73.0633,
     "type": "station",
     "uuid": "03db25bd-1283-44f1-9767-86aa4b9840ed",
     "position": {
@@ -2388,6 +2540,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Kanjumarg",
     "id": "kanjumarg",
+    "lat": 19.1302,
+    "lng": 72.9298,
     "uuid": "70172270-76f0-4a9b-be08-8d2863b89225",
     "type": "station",
     "position": {
@@ -2407,6 +2561,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Bhandup",
     "id": "bhandup",
+    "lat": 19.1455,
+    "lng": 72.9372,
     "uuid": "26349b4c-674d-4d41-9df6-86c69bb7c851",
     "type": "station",
     "position": {
@@ -2426,6 +2582,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Nahur",
     "id": "nahur",
+    "lat": 19.1566,
+    "lng": 72.9439,
     "uuid": "b30321c8-01c4-4f48-a871-bf4e49c1a485",
     "type": "station",
     "position": {
@@ -2445,6 +2603,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Mulund",
     "id": "mulund",
+    "lat": 19.1726,
+    "lng": 72.9563,
     "uuid": "75bf371a-cc45-473c-9604-0cbc378e06c0",
     "type": "station",
     "position": {
@@ -2464,6 +2624,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Turbhe",
     "id": "turbhe",
+    "lat": 19.0782,
+    "lng": 73.0178,
     "uuid": "e15dbce0-97e4-4400-8d31-52bd463a02cc",
     "type": "station",
     "position": {
@@ -2483,6 +2645,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Koparkhairane",
     "id": "koparkhairane",
+    "lat": 19.1039,
+    "lng": 73.0085,
     "uuid": "e44a919f-a39c-4657-85c6-871e635e85b1",
     "type": "station",
     "position": {
@@ -2502,6 +2666,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Ghansoli",
     "id": "ghansoli",
+    "lat": 19.1248,
+    "lng": 73.0039,
     "type": "station",
     "uuid": "46913e56-47cf-4e67-9bf1-dd3ff6834187",
     "position": {
@@ -2521,6 +2687,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Rabale",
     "id": "rabale",
+    "lat": 19.1378,
+    "lng": 73.0016,
     "uuid": "d7a19da4-bef8-4804-b615-bd910d668b21",
     "type": "station",
     "position": {
@@ -2540,6 +2708,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Airoli",
     "id": "airoli",
+    "lat": 19.1578,
+    "lng": 72.9972,
     "uuid": "d1f0cbc8-1cdc-4bb1-8148-a5f8705b699d",
     "type": "station",
     "position": {
@@ -2559,6 +2729,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Kalwa",
     "id": "kalwa",
+    "lat": 19.1963,
+    "lng": 72.9944,
     "uuid": "5c64c2a2-76da-4261-8489-1fd58ec1e479",
     "type": "station",
     "position": {
@@ -2578,6 +2750,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Mumbra",
     "id": "mumbra",
+    "lat": 19.1764,
+    "lng": 73.0228,
     "uuid": "aa6a7c68-26b3-4532-ac04-fb63bc81012a",
     "type": "station",
     "position": {
@@ -2599,6 +2773,8 @@ export const MUMBAI_STATIONS = [
     "type": "station",
     "uuid": "962eb2e4-a727-4a24-803b-ebc6e2a5e8b4",
     "id": "dombivali",
+    "lat": 19.2184,
+    "lng": 73.0867,
     "position": {
       "x": 906,
       "y": 417
@@ -2616,6 +2792,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Thakurli",
     "id": "thakurli",
+    "lat": 19.2273,
+    "lng": 73.1025,
     "uuid": "9d0b3754-de12-43dc-8e23-0fb4b001d7af",
     "type": "station",
     "position": {
@@ -2636,6 +2814,8 @@ export const MUMBAI_STATIONS = [
     "name": "Vithalwadi",
     "uuid": "1bb99812-25ea-4148-8a20-230648ba9466",
     "id": "vithalwadi",
+    "lat": 19.2257,
+    "lng": 73.1519,
     "type": "station",
     "position": {
       "x": 1059,
@@ -2654,6 +2834,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Shahad",
     "id": "shahad",
+    "lat": 19.2483,
+    "lng": 73.1558,
     "uuid": "aef774ff-9ca0-4366-875a-5f8d26ede0c9",
     "type": "station",
     "position": {
@@ -2673,6 +2855,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Ambivali",
     "id": "ambivali",
+    "lat": 19.2774,
+    "lng": 73.1812,
     "uuid": "12449d70-df70-4207-9a48-69f9580f4f22",
     "type": "station",
     "position": {
@@ -2692,6 +2876,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Titwala",
     "id": "titwala",
+    "lat": 19.2995,
+    "lng": 73.2081,
     "uuid": "08b0edaa-6584-4176-81ce-6f15d05faa63",
     "type": "station",
     "position": {
@@ -2713,6 +2899,8 @@ export const MUMBAI_STATIONS = [
     "uuid": "ac23d09a-fb33-4667-bb2d-df3b0e9ade42",
     "type": "station",
     "id": "khadavali",
+    "lat": 19.3496,
+    "lng": 73.2384,
     "position": {
       "x": 1123,
       "y": 303
@@ -2730,6 +2918,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Vashid",
     "id": "vashid",
+    "lat": 19.419,
+    "lng": 73.298,
     "uuid": "e1de6eeb-7243-4643-8a7e-c7e91f2bf555",
     "type": "station",
     "position": {
@@ -2749,6 +2939,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Asangaon",
     "id": "asangaon",
+    "lat": 19.4396,
+    "lng": 73.3082,
     "uuid": "e8ef6b0f-a8a6-43b3-9b2a-c07640b8f38c",
     "type": "station",
     "position": {
@@ -2768,6 +2960,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Khardi",
     "id": "khardi",
+    "lat": 19.5841,
+    "lng": 73.4112,
     "uuid": "ab1abf19-af47-4718-bb85-cc7f656a5d09",
     "type": "station",
     "position": {
@@ -2787,6 +2981,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Ulhasnagar",
     "id": "ulhasnagar",
+    "lat": 19.2186,
+    "lng": 73.1492,
     "uuid": "d5e02717-6029-49ef-aecc-46e31d83a3d1",
     "type": "station",
     "position": {
@@ -2806,6 +3002,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Ambarnath",
     "id": "ambarnath",
+    "lat": 19.1864,
+    "lng": 73.1923,
     "uuid": "786542b8-69b1-417b-bbcb-c2d6bf645e11",
     "type": "station",
     "position": {
@@ -2826,6 +3024,8 @@ export const MUMBAI_STATIONS = [
     "name": "Badlapur",
     "uuid": "c884cf6b-a7cb-48d1-9f27-9fd240e516a8",
     "id": "badlapur",
+    "lat": 19.1554,
+    "lng": 73.2625,
     "type": "station",
     "position": {
       "x": 1163,
@@ -2844,6 +3044,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Vangani",
     "id": "vangani",
+    "lat": 19.0793,
+    "lng": 73.3032,
     "uuid": "461a41e1-52bc-4f17-a934-659dba44bef4",
     "type": "station",
     "position": {
@@ -2863,6 +3065,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Shelu",
     "id": "shelu",
+    "lat": 19.0437,
+    "lng": 73.3094,
     "uuid": "f8fa98a8-dab7-4e0b-af0f-566e4bbb79a7",
     "type": "station",
     "position": {
@@ -2882,6 +3086,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Neral",
     "id": "neral",
+    "lat": 18.9877,
+    "lng": 73.3195,
     "uuid": "804a7e6e-57b2-4eeb-812c-e385950a6924",
     "type": "station",
     "position": {
@@ -2901,6 +3107,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Bhivpuri",
     "id": "bhivpuri",
+    "lat": 18.9482,
+    "lng": 73.3211,
     "uuid": "4bb47ed1-c71b-442a-83ce-b0ed137d9db0",
     "type": "station",
     "position": {
@@ -2920,6 +3128,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Kelavli",
     "id": "kelavli",
+    "lat": 18.8411,
+    "lng": 73.3212,
     "uuid": "f552af7b-7f2b-41a7-971b-e8efb3237297",
     "type": "station",
     "position": {
@@ -2940,6 +3150,8 @@ export const MUMBAI_STATIONS = [
     "name": "Dolavli",
     "uuid": "e0e48507-d1af-400e-837f-10911802a415",
     "id": "dolavli",
+    "lat": 18.8251,
+    "lng": 73.3235,
     "type": "station",
     "position": {
       "x": 1102,
@@ -2958,6 +3170,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Lowjee",
     "id": "lowjee",
+    "lat": 18.7992,
+    "lng": 73.3321,
     "uuid": "458ebc40-bb32-4dfd-82aa-01b868658f01",
     "type": "station",
     "position": {
@@ -2977,6 +3191,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Mumbai CST",
     "id": "mumbaicst",
+    "lat": 18.94,
+    "lng": 72.8353,
     "uuid": "60974ec0-f4bf-4612-8d96-29319f040cdf",
     "type": "main_junction",
     "position": {
@@ -2998,6 +3214,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Wadala Road",
     "id": "wadalaroad",
+    "lat": 19.0166,
+    "lng": 72.8584,
     "uuid": "55ae52f3-063c-4c48-81a8-02a3f80a0fe2",
     "type": "main_junction",
     "position": {
@@ -3019,6 +3237,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Bandra",
     "id": "bandra",
+    "lat": 19.0544,
+    "lng": 72.8402,
     "type": "main_junction",
     "uuid": "4899894e-2534-444f-9ffa-5d4e36934ac8",
     "position": {
@@ -3040,6 +3260,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Andheri",
     "id": "andheri",
+    "lat": 19.1197,
+    "lng": 72.8464,
     "type": "main_junction",
     "uuid": "84d5cefa-98bb-4af6-9a98-d915dd11be9c",
     "position": {
@@ -3063,6 +3285,8 @@ export const MUMBAI_STATIONS = [
     "type": "junction",
     "uuid": "bcdb0291-428a-4f24-a746-c7e2d127ab80",
     "id": "mahimjunction",
+    "lat": 19.0415,
+    "lng": 72.8441,
     "position": {
       "x": 231.5,
       "y": 598.5
@@ -3082,6 +3306,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Santacruz",
     "id": "santacruz",
+    "lat": 19.0818,
+    "lng": 72.8406,
     "uuid": "ff879065-efaa-484d-8e7c-e923bd4d1d53",
     "type": "junction",
     "position": {
@@ -3103,6 +3329,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Khar Road",
     "id": "kharroad",
+    "lat": 19.0694,
+    "lng": 72.8372,
     "type": "junction",
     "uuid": "38487819-250d-43e7-879b-cad8f6d4cc7f",
     "position": {
@@ -3124,6 +3352,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Vile Parle",
     "id": "vileparle",
+    "lat": 19.0988,
+    "lng": 72.844,
     "type": "junction",
     "uuid": "578029b1-070a-4f3d-9cfb-880ab12cee25",
     "position": {
@@ -3145,6 +3375,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Panvel",
     "id": "panvel",
+    "lat": 18.9902,
+    "lng": 73.1189,
     "uuid": "627a7b51-3e9c-428d-af33-cc77a0b4bcf2",
     "type": "main_junction",
     "position": {
@@ -3167,6 +3399,8 @@ export const MUMBAI_STATIONS = [
     "name": "Nerul",
     "uuid": "8f453856-febc-44c7-929b-507898a19f40",
     "id": "nerul",
+    "lat": 19.0335,
+    "lng": 73.0163,
     "type": "main_junction",
     "position": {
       "x": 724.5,
@@ -3187,6 +3421,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Vashi",
     "id": "vashi",
+    "lat": 19.0771,
+    "lng": 72.9986,
     "uuid": "5a695ced-7759-4150-aca5-1ff6790f3d64",
     "type": "main_junction",
     "position": {
@@ -3208,6 +3444,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Juinagar",
     "id": "juinagar",
+    "lat": 19.0573,
+    "lng": 73.0178,
     "uuid": "a276fb95-b9df-46a7-ab57-8cc2506afea2",
     "type": "junction",
     "position": {
@@ -3229,6 +3467,8 @@ export const MUMBAI_STATIONS = [
   {
     "name": "Sanpada",
     "id": "sanpada",
+    "lat": 19.0688,
+    "lng": 73.0175,
     "type": "junction",
     "uuid": "a9e0e502-a25a-4e5f-8a55-c41bdffa689d",
     "position": {

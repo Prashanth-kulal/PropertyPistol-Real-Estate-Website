@@ -29,7 +29,7 @@ import ConsultationForm from "@/components/home/ConsultationForm";
 import RailNetworkMap from "@/components/transit/RailNetworkMap";
 import { CITIES } from "@/data";
 import { getRailTransitForCity, getCityDetails } from "@/data/cityData";
-import { POPULAR_RAIL_HUBS } from "@/data/mumbaiTransitData";
+import { getTransitNetworkForCity } from "@/data/transitNetworks";
 
 function RailNetworkPageContent() {
   const params = useParams();
@@ -47,9 +47,17 @@ function RailNetworkPageContent() {
     );
   }, [cityId]);
 
+  const network = useMemo(() => {
+    return getTransitNetworkForCity(matchedCity.id);
+  }, [matchedCity.id]);
+
   const railData = useMemo(() => {
     return getRailTransitForCity(matchedCity.id);
   }, [matchedCity.id]);
+
+  const popularHubs = useMemo(() => {
+    return network.popularHubs || [];
+  }, [network]);
 
   // Modals state
   const [isCityModalOpen, setIsCityModalOpen] = useState(false);
@@ -129,7 +137,7 @@ function RailNetworkPageContent() {
             Explore Properties by Rail Network in {matchedCity.name}
           </h1>
           <p className="text-xs sm:text-sm text-[#6B7280] max-w-3xl leading-relaxed">
-            Navigate Mumbai&apos;s Western, Central, Harbour, and Trans-Harbour suburban rail corridors. Inspect station nodes, average capital rates, and discover verified zero-brokerage homes within walking distance.
+            Navigate {matchedCity.name}&apos;s verified transit corridors ({network.networkSubtitle || network.lines.map(l => l.label).join(", ")}). Inspect station nodes, average capital rates, and discover verified zero-brokerage homes within walking distance.
           </p>
         </div>
 
@@ -168,7 +176,7 @@ function RailNetworkPageContent() {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {POPULAR_RAIL_HUBS.map((station) => (
+            {popularHubs.map((station) => (
               <div
                 key={station.id}
                 className="bg-white rounded-3xl border border-[#E8E3DA] p-5 shadow-xs hover:shadow-lg hover:border-[#D29324] transition-all flex flex-col justify-between space-y-4 group"
@@ -176,7 +184,7 @@ function RailNetworkPageContent() {
                 <div className="space-y-2">
                   <div className="flex items-center justify-between">
                     <span className="text-[10px] font-extrabold text-[#AE7419] bg-[#FBF1DF] px-2 py-0.5 rounded-md">
-                      {station.tag}
+                      {station.tag || "Prime Node"}
                     </span>
                     <Train className="w-4 h-4 text-gray-400 group-hover:text-[#D29324] transition-colors" />
                   </div>
@@ -195,7 +203,7 @@ function RailNetworkPageContent() {
                       <span className="text-[10px] text-[#6B7280]">Avg price per sqft</span>
                     </div>
                     <div className="text-right">
-                      <span className="font-bold text-[#D29324] block">{station.projects}</span>
+                      <span className="font-bold text-[#D29324] block">{station.projects || 24}</span>
                       <span className="text-[10px] text-[#6B7280]">New Projects</span>
                     </div>
                   </div>
@@ -213,6 +221,7 @@ function RailNetworkPageContent() {
             ))}
           </div>
         </section>
+
 
         {/* 6. Commute Time Feature Showcase Card */}
         <section className="bg-gradient-to-r from-[#252525] via-[#2d2d2d] to-[#1f1f1f] text-white rounded-3xl p-6 sm:p-10 shadow-xl flex flex-col lg:flex-row items-center justify-between gap-6">

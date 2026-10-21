@@ -140,11 +140,10 @@ export default function CommuteTimeModal({ isOpen, onClose, cityId = "mumbai" })
                     key={hub.id}
                     type="button"
                     onClick={() => setSelectedHubId(hub.id)}
-                    className={`p-3 rounded-2xl border text-left transition-all cursor-pointer flex items-center justify-between ${
-                      isSelected
+                    className={`p-3 rounded-2xl border text-left transition-all cursor-pointer flex items-center justify-between ${isSelected
                         ? "border-[#D29324] bg-[#FBF1DF]/60 shadow-xs ring-1 ring-[#D29324]"
                         : "border-[#E8E3DA] bg-white hover:border-gray-300 hover:bg-[#FAF8F4]"
-                    }`}
+                      }`}
                   >
                     <div className="space-y-0.5">
                       <div className="text-xs font-black text-[#252525] flex items-center gap-1.5">
@@ -205,11 +204,10 @@ export default function CommuteTimeModal({ isOpen, onClose, cityId = "mumbai" })
                   key={t}
                   type="button"
                   onClick={() => setMaxTime(t)}
-                  className={`flex-1 py-1.5 rounded-xl text-xs font-extrabold transition-all cursor-pointer ${
-                    maxTime === t
+                  className={`flex-1 py-1.5 rounded-xl text-xs font-extrabold transition-all cursor-pointer ${maxTime === t
                       ? "bg-[#D29324] text-white shadow-xs"
                       : "bg-[#FAF8F4] border border-[#E8E3DA] text-[#6B7280] hover:text-[#252525]"
-                  }`}
+                    }`}
                 >
                   &le; {t}m
                 </button>
@@ -235,11 +233,10 @@ export default function CommuteTimeModal({ isOpen, onClose, cityId = "mumbai" })
                   key={m.id}
                   type="button"
                   onClick={() => setSelectedMode(m.id)}
-                  className={`px-3.5 py-2 rounded-xl text-xs font-extrabold transition-all cursor-pointer flex-1 text-center ${
-                    selectedMode === m.id
+                  className={`px-3.5 py-2 rounded-xl text-xs font-extrabold transition-all cursor-pointer flex-1 text-center ${selectedMode === m.id
                       ? "bg-[#252525] text-white shadow-xs"
                       : "bg-[#FAF8F4] border border-[#E8E3DA] text-[#6B7280] hover:text-[#252525]"
-                  }`}
+                    }`}
                 >
                   {m.label}
                 </button>

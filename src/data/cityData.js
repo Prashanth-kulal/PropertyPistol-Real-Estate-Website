@@ -1331,118 +1331,28 @@ export function getPriceTrendsForCity(cityId = "mumbai") {
 // -------------------------------------------------------------
 // RAIL NETWORK & TRANSIT DATA HELPER
 // -------------------------------------------------------------
+import { getTransitNetworkForCity } from "@/data/transitNetworks";
+
 export function getRailTransitForCity(cityId = "mumbai") {
   const normId = (cityId || "mumbai").toLowerCase().trim();
-  const city = getCityDetails(normId);
+  const net = getTransitNetworkForCity(normId);
 
-  if (normId === "mumbai") {
-    return {
-      cityId: "mumbai",
-      cityName: "Mumbai",
-      networkTitle: "Mumbai Suburban Railway & Metro Network",
-      lines: [
-        { id: "all", label: "All Transit Lines" },
-        { id: "western", label: "Western Line" },
-        { id: "central", label: "Central Line" },
-        { id: "harbour", label: "Harbour Line" },
-        { id: "metro", label: "Mumbai Metro" }
-      ],
-      stations: [
-        {
-          id: "panvel",
-          name: "Panvel",
-          line: "Central & Harbour Line",
-          avgPrice: "₹11.09 K",
-          newProjectsCount: 208,
-          slug: "real-estate-projects-near-panvel-railway-station",
-          tag: "Airport Hub"
-        },
-        {
-          id: "thane",
-          name: "Thane",
-          line: "Central & Trans-Harbour Line",
-          avgPrice: "₹15.72 K",
-          newProjectsCount: 203,
-          slug: "real-estate-projects-near-thane-railway-station",
-          tag: "Mega Interchange"
-        },
-        {
-          id: "ulwe",
-          name: "Ulwe - Baman Dongri",
-          line: "Seawoods - Uran Line",
-          avgPrice: "₹9.80 K",
-          newProjectsCount: 176,
-          slug: "real-estate-projects-near-ulwe---baman-dongri-railway-station",
-          tag: "MTHL Corridor"
-        },
-        {
-          id: "kalyan",
-          name: "Kalyan",
-          line: "Central Railway",
-          avgPrice: "₹7.74 K",
-          newProjectsCount: 164,
-          slug: "real-estate-projects-near-kalyan-railway-station",
-          tag: "Express Junction"
-        },
-        {
-          id: "borivali",
-          name: "Borivali",
-          line: "Western Line & Metro 2A",
-          avgPrice: "₹21.65 K",
-          newProjectsCount: 144,
-          slug: "real-estate-projects-near-borivali-railway-station",
-          tag: "Suburban Anchor"
-        },
-        {
-          id: "andheri",
-          name: "Andheri",
-          line: "Western Line & Metro 1",
-          avgPrice: "₹31.20 K",
-          newProjectsCount: 128,
-          slug: "real-estate-projects-near-andheri-railway-station",
-          tag: "Commercial Core"
-        },
-        {
-          id: "dadar",
-          name: "Dadar",
-          line: "Western & Central Junction",
-          avgPrice: "₹38.50 K",
-          newProjectsCount: 96,
-          slug: "real-estate-projects-near-dadar-railway-station",
-          tag: "Central Heart"
-        },
-        {
-          id: "ghatkopar",
-          name: "Ghatkopar",
-          line: "Central Line & Metro 1",
-          avgPrice: "₹22.40 K",
-          newProjectsCount: 112,
-          slug: "real-estate-projects-near-ghatkopar-railway-station",
-          tag: "Metro Interchange"
-        }
-      ]
-    };
-  }
-
-  // Fallback / Other Metros
   return {
-    cityId: city.id,
-    cityName: city.name,
-    networkTitle: `${city.name} Metro & Transit Rail Corridor`,
-    lines: [
-      { id: "all", label: "All Stations" },
-      { id: "metro-1", label: "Line 1" },
-      { id: "metro-2", label: "Line 2" }
-    ],
-    stations: (city.localities || []).slice(0, 6).map((loc, idx) => ({
-      id: loc.name.toLowerCase().replace(/[^a-z0-9]/g, "-"),
-      name: `${loc.name} Station`,
-      line: "Metro Transit Corridor",
-      avgPrice: loc.avgPrice.split(" ")[0] || "₹9.5 K",
-      newProjectsCount: loc.projects * 2 || 80,
-      slug: `real-estate-projects-near-${loc.name.toLowerCase().replace(/[^a-z0-9]/g, "-")}-railway-station`,
-      tag: loc.tag || "Fast Transit"
-    }))
+    cityId: net.cityId,
+    cityName: net.cityName,
+    networkTitle: net.networkTitle,
+    networkSubtitle: net.networkSubtitle,
+    lines: net.lines,
+    stations: net.stations.slice(0, 12).map((st) => ({
+      id: st.id,
+      name: st.name,
+      line: st.line,
+      avgPrice: st.avgPrice ? st.avgPrice.split(" ")[0] : "₹14.5 K",
+      newProjectsCount: st.newProjectsCount || 20,
+      slug: `real-estate-projects-near-${st.id}-railway-station`,
+      tag: st.isJunction ? "Mega Interchange" : "Transit Node"
+    })),
+    popularHubs: net.popularHubs
   };
 }
 
@@ -1452,8 +1362,8 @@ export function getRailTransitForCity(cityId = "mumbai") {
 export function getCommuteHubsForCity(cityId = "mumbai") {
   const normId = (cityId || "mumbai").toLowerCase().trim();
 
-  if (normId === "mumbai") {
-    return [
+  const COMMUTE_HUBS_BY_CITY = {
+    mumbai: [
       {
         id: "bkc",
         name: "BKC (Bandra Kurla Complex)",
@@ -1502,20 +1412,147 @@ export function getCommuteHubsForCity(cityId = "mumbai") {
           { locality: "Panvel", timeMins: 55, mode: "Harbour Train", distance: "28 km", avgPrice: "₹8,400 / sq.ft" }
         ]
       }
-    ];
+    ],
+    pune: [
+      {
+        id: "hinjawadi-it",
+        name: "Hinjawadi Rajiv Gandhi Infotech Park",
+        zone: "Premier IT & Tech SEZ",
+        popularDestinations: [
+          { locality: "Wakad", timeMins: 12, mode: "Car / Bus", distance: "4.5 km", avgPrice: "₹8,200 / sq.ft" },
+          { locality: "Baner", timeMins: 20, mode: "Expressway / Highway", distance: "8.2 km", avgPrice: "₹10,800 / sq.ft" },
+          { locality: "Balewadi", timeMins: 22, mode: "Car / Auto", distance: "9.0 km", avgPrice: "₹10,200 / sq.ft" },
+          { locality: "Pimpri", timeMins: 30, mode: "Suburban Train / Road", distance: "14 km", avgPrice: "₹8,200 / sq.ft" },
+          { locality: "Akurdi", timeMins: 25, mode: "Suburban Train", distance: "11 km", avgPrice: "₹7,900 / sq.ft" }
+        ]
+      },
+      {
+        id: "kharadi-wtc",
+        name: "Kharadi (EON Free Zone / WTC)",
+        zone: "Eastern Tech Corridor",
+        popularDestinations: [
+          { locality: "Kharadi Central", timeMins: 8, mode: "Walk / Taxi", distance: "1.8 km", avgPrice: "₹9,600 / sq.ft" },
+          { locality: "Kalyani Nagar", timeMins: 15, mode: "Metro 2 / Car", distance: "5.5 km", avgPrice: "₹12,800 / sq.ft" },
+          { locality: "Viman Nagar", timeMins: 18, mode: "Car / Auto", distance: "6.2 km", avgPrice: "₹11,400 / sq.ft" },
+          { locality: "Magarpatta", timeMins: 22, mode: "Mundhwa Road", distance: "7.8 km", avgPrice: "₹9,800 / sq.ft" }
+        ]
+      }
+    ],
+    delhi: [
+      {
+        id: "cyber-city",
+        name: "DLF Cyber City Gurugram",
+        zone: "MNC & Corporate Hub",
+        popularDestinations: [
+          { locality: "DLF Phase 2", timeMins: 8, mode: "Walk / Rapid Metro", distance: "1.5 km", avgPrice: "₹18,500 / sq.ft" },
+          { locality: "Golf Course Road", timeMins: 18, mode: "Rapid Metro / Car", distance: "6.5 km", avgPrice: "₹22,000 / sq.ft" },
+          { locality: "Sikanderpur", timeMins: 12, mode: "Yellow Line Metro", distance: "2.8 km", avgPrice: "₹15,800 / sq.ft" },
+          { locality: "Hauz Khas", timeMins: 35, mode: "Yellow Line Metro", distance: "16 km", avgPrice: "₹24,500 / sq.ft" },
+          { locality: "Aerocity", timeMins: 25, mode: "Expressway / Taxi", distance: "12 km", avgPrice: "₹19,000 / sq.ft" }
+        ]
+      },
+      {
+        id: "connaught-place",
+        name: "Connaught Place / Rajiv Chowk",
+        zone: "National Capital CBD",
+        popularDestinations: [
+          { locality: "Karol Bagh", timeMins: 12, mode: "Blue Line Metro", distance: "3.5 km", avgPrice: "₹16,500 / sq.ft" },
+          { locality: "Patel Nagar", timeMins: 18, mode: "Blue Line Metro", distance: "5.8 km", avgPrice: "₹14,200 / sq.ft" },
+          { locality: "Central Secretariat", timeMins: 10, mode: "Yellow Line Metro", distance: "2.5 km", avgPrice: "₹28,000 / sq.ft" },
+          { locality: "Noida Sector 18", timeMins: 32, mode: "Blue Line Metro", distance: "14 km", avgPrice: "₹13,800 / sq.ft" }
+        ]
+      }
+    ],
+    bangalore: [
+      {
+        id: "whitefield-itpl",
+        name: "Whitefield (ITPL & Tech Parks)",
+        zone: "Silicon Valley Tech Corridor",
+        popularDestinations: [
+          { locality: "Whitefield Main", timeMins: 10, mode: "Purple Metro / Walk", distance: "2.1 km", avgPrice: "₹9,800 / sq.ft" },
+          { locality: "Hoodi", timeMins: 15, mode: "Purple Metro", distance: "4.2 km", avgPrice: "₹9,200 / sq.ft" },
+          { locality: "KR Puram", timeMins: 22, mode: "Purple Metro / Rail", distance: "7.8 km", avgPrice: "₹8,900 / sq.ft" },
+          { locality: "Indiranagar", timeMins: 35, mode: "Purple Metro", distance: "14 km", avgPrice: "₹22,000 / sq.ft" }
+        ]
+      },
+      {
+        id: "outer-ring-road",
+        name: "ORR Bellandur / Marathahalli",
+        zone: "Global Technology Corridor",
+        popularDestinations: [
+          { locality: "Bellandur", timeMins: 8, mode: "Walk / Car", distance: "1.8 km", avgPrice: "₹11,400 / sq.ft" },
+          { locality: "Sarjapur Road", timeMins: 18, mode: "Car / Bus", distance: "5.5 km", avgPrice: "₹9,200 / sq.ft" },
+          { locality: "HSR Layout", timeMins: 22, mode: "Car / Auto", distance: "6.8 km", avgPrice: "₹13,500 / sq.ft" },
+          { locality: "Electronic City", timeMins: 35, mode: "Elevated Highway", distance: "16 km", avgPrice: "₹6,800 / sq.ft" }
+        ]
+      }
+    ],
+    hyderabad: [
+      {
+        id: "hitec-city",
+        name: "Hitec City / Madhapur",
+        zone: "Cyberabad IT & Financial Core",
+        popularDestinations: [
+          { locality: "Madhapur", timeMins: 10, mode: "Blue Metro / Walk", distance: "2.2 km", avgPrice: "₹12,800 / sq.ft" },
+          { locality: "Raidurg", timeMins: 8, mode: "Blue Metro", distance: "1.8 km", avgPrice: "₹12,500 / sq.ft" },
+          { locality: "Gachibowli", timeMins: 18, mode: "ORR / Car", distance: "5.5 km", avgPrice: "₹11,200 / sq.ft" },
+          { locality: "Kukatpally", timeMins: 25, mode: "Road / MMTS", distance: "8.5 km", avgPrice: "₹8,400 / sq.ft" },
+          { locality: "Ameerpet", timeMins: 28, mode: "Blue Metro", distance: "11 km", avgPrice: "₹11,500 / sq.ft" }
+        ]
+      }
+    ],
+    chennai: [
+      {
+        id: "omr-tidel",
+        name: "OMR (Tidel Park / Thiruvanmiyur)",
+        zone: "IT Expressway Corridor",
+        popularDestinations: [
+          { locality: "Thiruvanmiyur", timeMins: 10, mode: "Walk / MRTS", distance: "2 km", avgPrice: "₹14,000 / sq.ft" },
+          { locality: "Velachery", timeMins: 15, mode: "MRTS / Car", distance: "4.5 km", avgPrice: "₹10,500 / sq.ft" },
+          { locality: "Guindy", timeMins: 22, mode: "Road / Metro", distance: "7.2 km", avgPrice: "₹13,500 / sq.ft" },
+          { locality: "Perungudi", timeMins: 12, mode: "Car / Bus", distance: "3.5 km", avgPrice: "₹9,200 / sq.ft" }
+        ]
+      }
+    ],
+    dubai: [
+      {
+        id: "difc-downtown",
+        name: "DIFC / Downtown Dubai",
+        zone: "Global Financial Centre",
+        popularDestinations: [
+          { locality: "Business Bay", timeMins: 10, mode: "Red Metro / Taxi", distance: "2.5 km", avgPrice: "AED 2,100 / sq.ft" },
+          { locality: "Financial Centre", timeMins: 6, mode: "Walk / Metro", distance: "1.0 km", avgPrice: "AED 2,400 / sq.ft" },
+          { locality: "Dubai Marina", timeMins: 25, mode: "Red Metro", distance: "18 km", avgPrice: "AED 2,450 / sq.ft" },
+          { locality: "Jumeirah", timeMins: 18, mode: "Car / Taxi", distance: "6.5 km", avgPrice: "AED 2,800 / sq.ft" }
+        ]
+      }
+    ]
+  };
+
+  if (COMMUTE_HUBS_BY_CITY[normId]) {
+    return COMMUTE_HUBS_BY_CITY[normId];
   }
 
-  // Generic fallback for other cities
+  // Alias checks for gurugram & noida
+  if (normId === "gurugram" || normId === "noida") {
+    return COMMUTE_HUBS_BY_CITY["delhi"];
+  }
+
+  // Authentic fallback derived from city details
+  const city = getCityDetails(normId);
   return [
     {
-      id: "central-cbd",
-      name: "Central Business District",
-      zone: "Commercial Hub",
-      popularDestinations: [
-        { locality: "Central City", timeMins: 15, mode: "Metro", distance: "4 km", avgPrice: "₹12,000 / sq.ft" },
-        { locality: "Green Belt", timeMins: 30, mode: "Car / Bus", distance: "12 km", avgPrice: "₹8,500 / sq.ft" },
-        { locality: "Suburban Hills", timeMins: 45, mode: "Transit Train", distance: "22 km", avgPrice: "₹6,800 / sq.ft" }
-      ]
+      id: `${normId}-center`,
+      name: `${city.name} Central Commercial Hub`,
+      zone: `${city.name} Prime Transit Hub`,
+      popularDestinations: (city.localities || []).slice(0, 4).map((loc, idx) => ({
+        locality: loc.name,
+        timeMins: 12 + idx * 8,
+        mode: idx % 2 === 0 ? "Metro / Transit" : "Car / Highway",
+        distance: `${(3.5 + idx * 4.2).toFixed(1)} km`,
+        avgPrice: loc.avgPrice
+      }))
     }
   ];
 }
+
