@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import {
@@ -116,16 +117,17 @@ export default function LoginPage() {
 
             <div className="relative z-10 space-y-6">
               {/* Brand Logo */}
-              <div className="flex items-center gap-2.5">
-                <div className="flex items-end gap-[3px] h-7 shrink-0">
-                  <span className="w-1.5 h-3 bg-[#D29324] rounded-xs"></span>
-                  <span className="w-1.5 h-4.5 bg-[#AE7419] rounded-xs"></span>
-                  <span className="w-1.5 h-6 bg-[#D29324] rounded-xs"></span>
-                  <span className="w-1.5 h-7 bg-[#8C5810] rounded-xs"></span>
-                </div>
-                <div className="text-xl font-black tracking-tight">
-                  AURA<span className="text-[#D29324]">LIVING</span>
-                </div>
+              <div>
+                <Link href="/" className="inline-block group" aria-label="Deepshi Group of Companies Home">
+                  <Image
+                    src="/images/logo/logo-white.png"
+                    alt="Deepshi Group of Companies"
+                    width={240}
+                    height={101}
+                    priority
+                    className="h-11 w-auto object-contain transition-transform duration-200 group-hover:scale-[1.02]"
+                  />
+                </Link>
               </div>
 
               <div>

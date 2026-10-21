@@ -1127,24 +1127,14 @@ export default function SyndicatePage() {
             
             {/* Left Brand Column */}
             <div className="md:col-span-4 space-y-4">
-              <Link href="/" className="flex items-center gap-2.5">
-                <div className="flex items-end gap-[3px] h-7 shrink-0">
-                  <span className="w-1.5 h-3 bg-[#E85A2A] rounded-xs"></span>
-                  <span className="w-1.5 h-4.5 bg-[#D29324] rounded-xs"></span>
-                  <span className="w-1.5 h-6 bg-[#E85A2A] rounded-xs"></span>
-                  <span className="w-1.5 h-7 bg-[#AE7419] rounded-xs"></span>
-                </div>
-                <div className="flex flex-col">
-                  <div className="flex items-baseline">
-                    <span className="text-[22px] font-black tracking-tight text-white">
-                      AURA<span className="text-[#E85A2A]">LIVING</span>
-                    </span>
-                    <span className="text-[12px] font-semibold text-gray-400">.com</span>
-                  </div>
-                  <span className="text-[8px] font-bold tracking-widest text-[#E85A2A] uppercase -mt-1">
-                    Your Trusted Real Estate Partner
-                  </span>
-                </div>
+              <Link href="/" className="inline-block group" aria-label="Deepshi Group of Companies Home">
+                <Image
+                  src="/images/logo/logo-white.png"
+                  alt="Deepshi Group of Companies"
+                  width={240}
+                  height={101}
+                  className="h-11 sm:h-12 w-auto object-contain transition-transform duration-200 group-hover:scale-[1.02]"
+                />
               </Link>
 
               <p className="text-xs text-gray-400 max-w-sm leading-relaxed">

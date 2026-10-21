@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowUp } from "lucide-react";
 import { FOOTER_LINKS } from "@/data";
@@ -37,19 +38,17 @@ export default function Footer() {
               <span className="font-semibold text-white">age of home buying.</span>
             </p>
 
-            {/* AuraLiving Brand Logo */}
-            <div className="flex items-center gap-2 pt-2">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#D29324] to-[#AE7419] text-white flex items-center justify-center font-bold text-xl shadow-md">
-                AL
-              </div>
-              <div className="flex flex-col">
-                <span className="text-2xl font-extrabold tracking-tight text-white">
-                  Aura<span className="text-[#D29324]">Living</span>
-                </span>
-                <span className="text-[10px] uppercase tracking-widest text-gray-400 font-semibold">
-                  Zero Brokerage Real Estate
-                </span>
-              </div>
+            {/* Deepshi Group of Companies Brand Logo */}
+            <div className="pt-2">
+              <Link href="/" className="inline-block group" aria-label="Deepshi Group of Companies Home">
+                <Image
+                  src="/images/logo/logo-white.png"
+                  alt="Deepshi Group of Companies"
+                  width={240}
+                  height={101}
+                  className="h-11 sm:h-12 w-auto object-contain transition-transform duration-200 group-hover:scale-[1.02]"
+                />
+              </Link>
             </div>
 
             <p className="text-xs text-gray-400 max-w-sm leading-relaxed">

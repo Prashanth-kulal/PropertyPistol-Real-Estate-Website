@@ -6,7 +6,13 @@ export const metadata = {
   title: "AuraLiving — India's Premier Zero Brokerage Real Estate Experience",
   description: "Explore 30,000+ luxury apartments, new projects, and prime residential developments with zero brokerage advisory across Mumbai, Pune, Bangalore, Delhi NCR, and Dubai.",
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/images/logo/logo-emblem.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: [
+      { url: "/images/logo/logo-emblem.png", sizes: "180x180", type: "image/png" },
+    ],
   },
 };
 

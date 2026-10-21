@@ -247,19 +247,23 @@ export default function AskAiPage() {
         >
           {/* Logo Section */}
           <div className="p-4 border-b border-gray-800 flex items-center justify-between">
-            <Link href="/" className="flex items-center gap-2 group">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#D29324] to-[#AE7419] flex items-center justify-center font-bold text-white text-sm shadow-md">
-                AL
-              </div>
-              {!sidebarCollapsed && (
-                <div className="flex flex-col">
-                  <span className="text-base font-extrabold tracking-tight text-white">
-                    Aura<span className="text-[#D29324]">AI</span>
-                  </span>
-                  <span className="text-[9px] uppercase tracking-widest text-gray-400 font-semibold">
-                    By AuraLiving
-                  </span>
-                </div>
+            <Link href="/" className="flex items-center gap-2 group" aria-label="Deepshi Group of Companies Home">
+              {sidebarCollapsed ? (
+                <Image
+                  src="/images/logo/logo-emblem.png"
+                  alt="Deepshi Group of Companies"
+                  width={32}
+                  height={32}
+                  className="w-8 h-8 object-contain transition-transform duration-200 group-hover:scale-105"
+                />
+              ) : (
+                <Image
+                  src="/images/logo/logo-white.png"
+                  alt="Deepshi Group of Companies"
+                  width={180}
+                  height={76}
+                  className="h-8 w-auto object-contain transition-transform duration-200 group-hover:scale-105"
+                />
               )}
             </Link>
 

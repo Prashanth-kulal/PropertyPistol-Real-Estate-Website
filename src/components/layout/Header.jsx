@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useRef, useEffect } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import {
@@ -84,27 +85,16 @@ export default function Header({
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-10 h-[70px] flex items-center justify-between">
         {/* Left: Brand Logo & Main Nav Menu */}
         <div className="flex items-center gap-8 lg:gap-10">
-          {/* AuraLiving Brand Logo */}
-          <Link href="/" className="flex items-center gap-2.5 group">
-            {/* Visual Skyline Bars Icon */}
-            <div className="flex items-end gap-[3px] h-7 shrink-0">
-              <span className="w-1.5 h-3 bg-[#D29324] rounded-xs"></span>
-              <span className="w-1.5 h-4.5 bg-[#AE7419] rounded-xs"></span>
-              <span className="w-1.5 h-6 bg-[#D29324] rounded-xs"></span>
-              <span className="w-1.5 h-7 bg-[#8C5810] rounded-xs"></span>
-            </div>
-
-            <div className="flex flex-col">
-              <div className="flex items-baseline">
-                <span className="text-[20px] font-extrabold tracking-tight text-[#252525]">
-                  AURA<span className="text-[#D29324]">LIVING</span>
-                </span>
-                <span className="text-[12px] font-semibold text-gray-400">.com</span>
-              </div>
-              <span className="text-[8px] font-bold tracking-widest text-[#AE7419] uppercase -mt-1">
-                Your Trusted Real Estate Partner
-              </span>
-            </div>
+          {/* Deepshi Group of Companies Brand Logo */}
+          <Link href="/" className="flex items-center group py-1" aria-label="Deepshi Group of Companies Home">
+            <Image
+              src="/images/logo/logo.png"
+              alt="Deepshi Group of Companies"
+              width={240}
+              height={101}
+              priority
+              className="h-10 sm:h-11 w-auto object-contain transition-transform duration-200 group-hover:scale-[1.02]"
+            />
           </Link>
 
 
