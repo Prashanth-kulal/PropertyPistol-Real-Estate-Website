@@ -134,23 +134,31 @@ function CityPageContent() {
         (p) =>
           p.name.toLowerCase().includes(q) ||
           p.builder.toLowerCase().includes(q) ||
+          (p.locality && p.locality.toLowerCase().includes(q)) ||
           p.location.toLowerCase().includes(q)
       );
     }
     if (selectedLocality) {
       const locQ = selectedLocality.toLowerCase();
-      list = list.filter((p) => p.location.toLowerCase().includes(locQ));
+      list = list.filter((p) => (p.locality && p.locality.toLowerCase().includes(locQ)) || p.location.toLowerCase().includes(locQ));
+    }
+    if (!searchQuery.trim() && !selectedLocality && list.length > 24) {
+      return list.slice(0, 24);
     }
     return list;
   }, [cityProperties, searchQuery, selectedLocality]);
 
   // Featured and New projects subsets
   const displayedFeatured = useMemo(() => {
-    return cityProperties.filter((p) => p.tag === "Featured" || p.status === "Ready to Move").slice(0, 6);
+    return cityProperties
+      .filter((p) => p.tag === "Featured" || p.status === "Ready to Move" || (p.priceNumeric && p.priceNumeric >= 30000000))
+      .slice(0, 12);
   }, [cityProperties]);
 
   const displayedNewLaunches = useMemo(() => {
-    return cityProperties.filter((p) => p.status === "New Launch" || p.status === "Under Construction").slice(0, 6);
+    return cityProperties
+      .filter((p) => p.status === "New Launch" || p.status === "Under Construction")
+      .slice(0, 12);
   }, [cityProperties]);
 
   // If unknown city with no match

@@ -2013,10 +2013,18 @@ function ProjectDetailContent() {
 
                   {/* MahaRERA QR Badge */}
                   <div className="bg-black/65 backdrop-blur-md p-1.5 sm:p-2 rounded-xl border border-white/20 text-white flex items-center gap-2 pointer-events-auto shadow-md max-w-[210px]">
-                    <div className="w-8 h-8 sm:w-9 sm:h-9 bg-white p-1 rounded shrink-0">
-                      <div className="w-full h-full bg-black/90 flex items-center justify-center text-[7px] font-mono text-white">
-                        QR
-                      </div>
+                    <div className="w-8 h-8 sm:w-9 sm:h-9 bg-white p-1 rounded shrink-0 overflow-hidden">
+                      {project.rera_informations?.[0]?.qr_url ? (
+                        <img
+                          src={project.rera_informations[0].qr_url}
+                          alt="MahaRERA QR"
+                          className="w-full h-full object-contain"
+                        />
+                      ) : (
+                        <div className="w-full h-full bg-black/90 flex items-center justify-center text-[7px] font-mono text-white">
+                          QR
+                        </div>
+                      )}
                     </div>
                     <div className="text-[9px] leading-tight min-w-0">
                       <div className="font-bold truncate">MAHA RERA</div>

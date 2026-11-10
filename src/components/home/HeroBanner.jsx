@@ -119,13 +119,29 @@ export default function HeroBanner({
     if (el) el.scrollIntoView({ behavior: "smooth" });
   };
 
-  // Filter suggestion list
-  const matchingProjects = PROJECTS.filter(
-    (p) =>
-      p.name.toLowerCase().includes(searchInput.toLowerCase()) ||
-      p.location.toLowerCase().includes(searchInput.toLowerCase()) ||
-      p.builder.toLowerCase().includes(searchInput.toLowerCase())
-  ).slice(0, 4);
+  // Filter suggestion list across all catalog projects
+  const matchingProjects = useMemo(() => {
+    if (!searchInput || !searchInput.trim()) return [];
+    const q = searchInput.toLowerCase().trim();
+    const cityKey = (selectedCity || "mumbai").toLowerCase();
+
+    const matches = PROJECTS.filter((p) => {
+      const nameMatch = p.name && p.name.toLowerCase().includes(q);
+      const locMatch = p.location && p.location.toLowerCase().includes(q);
+      const localityMatch = p.locality && p.locality.toLowerCase().includes(q);
+      const builderMatch = p.builder && p.builder.toLowerCase().includes(q);
+      const regionMatch = p.region && p.region.toLowerCase().includes(q);
+      return nameMatch || locMatch || localityMatch || builderMatch || regionMatch;
+    });
+
+    matches.sort((a, b) => {
+      const aCity = a.city?.toLowerCase() === cityKey ? -1 : 1;
+      const bCity = b.city?.toLowerCase() === cityKey ? -1 : 1;
+      return aCity - bCity;
+    });
+
+    return matches.slice(0, 6);
+  }, [searchInput, selectedCity]);
 
   return (
     <section className="relative w-full overflow-hidden sm:overflow-visible bg-[#1C1B18] bg-[url('/images/hero-luxury-residence.jpg')] bg-cover bg-center bg-no-repeat pt-8 pb-10 sm:pt-14 sm:pb-16 min-h-[440px] sm:min-h-[490px] lg:min-h-[520px] flex flex-col justify-center transition-all duration-300">
@@ -139,10 +155,10 @@ export default function HeroBanner({
         {/* Top Centered Headline & Subtitle */}
         <div className="text-center max-w-4xl mx-auto space-y-3 mb-5 sm:mb-8">
           {/* Main Headline */}
-          <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-[44px] font-extrabold text-white tracking-tight flex items-center justify-center flex-wrap gap-2 sm:gap-2.5 drop-shadow-md leading-tight">
+          <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-[44px] font-extrabold text-white tracking-tight flex items-center justify-center flex-wrap gap-2 sm:gap-2.5 drop-shadow-md leading-tight animate-hero-fade-up">
             <span>Find Your</span>
             {/* Magnifying Glass Icon Badge */}
-            <span className="inline-flex items-center justify-center w-7 h-7 sm:w-9 sm:h-9 rounded-full border-2 border-white/70 bg-white/15 backdrop-blur-md text-white shadow-sm">
+            <span className="inline-flex items-center justify-center w-7 h-7 sm:w-9 sm:h-9 rounded-full border-2 border-white/70 bg-white/15 backdrop-blur-md text-white shadow-sm transition-transform duration-300 hover:scale-110">
               <Search className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#FFE2A7]" />
             </span>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FFF5DC] via-[#FFE3A7] to-[#FBF1DF] font-black drop-shadow-sm">
@@ -152,24 +168,24 @@ export default function HeroBanner({
           </h1>
 
           {/* Supporting Statement with Highlighted Gold Accents */}
-          <p className="text-xs sm:text-sm md:text-base text-gray-100 font-normal tracking-wide drop-shadow-md max-w-2xl mx-auto leading-relaxed flex items-center justify-center flex-wrap gap-1.5">
+          <p className="text-xs sm:text-sm md:text-base text-gray-100 font-normal tracking-wide drop-shadow-md max-w-2xl mx-auto leading-relaxed flex items-center justify-center flex-wrap gap-1.5 animate-hero-fade-up [animation-delay:150ms]">
             <span>Over</span>
-            <span className="font-bold text-[#FFE2A7] px-2 py-0.5 rounded-lg bg-white/15 backdrop-blur-md border border-white/20 shadow-xs">
+            <span className="font-bold text-[#FFE2A7] px-2 py-0.5 rounded-lg bg-white/15 backdrop-blur-md border border-white/20 shadow-xs hover:border-[#D29324]/60 transition-colors">
               40K+
             </span>
             <span>properties worth</span>
-            <span className="font-bold text-[#FFE2A7] px-2 py-0.5 rounded-lg bg-white/15 backdrop-blur-md border border-white/20 shadow-xs">
+            <span className="font-bold text-[#FFE2A7] px-2 py-0.5 rounded-lg bg-white/15 backdrop-blur-md border border-white/20 shadow-xs hover:border-[#D29324]/60 transition-colors">
               3 Billion Dollars
             </span>
             <span>sold with</span>
-            <span className="font-bold text-[#FFE2A7] px-2 py-0.5 rounded-lg bg-[#D29324]/30 backdrop-blur-md border border-[#D29324]/50 shadow-xs">
+            <span className="font-bold text-[#FFE2A7] px-2 py-0.5 rounded-lg bg-[#D29324]/30 backdrop-blur-md border border-[#D29324]/50 shadow-xs hover:bg-[#D29324]/40 transition-colors">
               0% brokerage!
             </span>
           </p>
         </div>
 
         {/* Floating White Search Card Container */}
-        <div className="w-full max-w-4xl lg:max-w-[940px] mx-auto bg-white rounded-2xl shadow-2xl border border-white/40 overflow-visible relative z-30 backdrop-blur-xs">
+        <div className="w-full max-w-4xl lg:max-w-[940px] mx-auto bg-white rounded-2xl shadow-2xl border border-white/40 overflow-visible relative z-30 backdrop-blur-xs animate-hero-scale-up [animation-delay:260ms]">
           {/* Top Row: Service & Feature Tabs */}
           <div className="flex items-center justify-between px-4 sm:px-8 border-b border-gray-100 bg-[#FAF8F4]/80 rounded-t-2xl">
             {/* Left Tabs Group */}
@@ -495,9 +511,7 @@ export default function HeroBanner({
                         onClick={() => {
                           setSearchInput(proj.name);
                           setShowSuggestions(false);
-                          if (onSearch) onSearch(proj.name);
-                          const el = document.getElementById("top-projects");
-                          if (el) el.scrollIntoView({ behavior: "smooth" });
+                          router.push(`/projects/${proj.slug || proj.id}`);
                         }}
                         className="w-full text-left px-3 py-2 rounded-lg hover:bg-[#FAF8F4] flex items-center justify-between text-xs transition-colors"
                       >
@@ -522,7 +536,7 @@ export default function HeroBanner({
             {/* Find Property CTA Button */}
             <button
               type="submit"
-              className="w-full sm:w-auto bg-[#252525] hover:bg-[#D29324] text-white font-bold text-xs sm:text-sm px-6 sm:px-7 py-3 sm:py-2.5 rounded-xl shadow-sm hover:shadow-md transition-all shrink-0 cursor-pointer text-center"
+              className="w-full sm:w-auto bg-[#252525] hover:bg-[#D29324] text-white font-bold text-xs sm:text-sm px-6 sm:px-7 py-3 sm:py-2.5 rounded-xl shadow-xs hover:shadow-md transition-all shrink-0 cursor-pointer text-center active:scale-[0.98] btn-tactile"
             >
               Find Property
             </button>
@@ -560,7 +574,7 @@ export default function HeroBanner({
       </div>
 
       {/* Floating WhatsApp Help Widget */}
-      <div className="hidden lg:flex items-center gap-2 absolute right-6 -bottom-5 z-20">
+      <div className="hidden lg:flex items-center gap-2 absolute right-6 -bottom-5 z-20 animate-subtle-float">
         <div className="bg-white px-3 py-1.5 rounded-xl shadow-md border border-gray-100 text-right leading-tight">
           <div className="text-[11px] text-gray-700 font-semibold">Looking for a property?</div>
           <div className="text-[10px] text-gray-400">Let us help you!</div>
@@ -569,7 +583,7 @@ export default function HeroBanner({
           href="https://wa.me/918080190190?text=Hi%20AuraLiving,%20I%20am%20looking%20for%20a%20property"
           target="_blank"
           rel="noreferrer"
-          className="w-12 h-12 rounded-full bg-[#25D366] text-white flex items-center justify-center shadow-lg hover:scale-105 transition-transform cursor-pointer shrink-0"
+          className="w-12 h-12 rounded-full bg-[#25D366] text-white flex items-center justify-center shadow-lg hover:scale-105 active:scale-95 transition-all duration-300 cursor-pointer shrink-0"
           title="WhatsApp Support"
         >
           <svg className="w-7 h-7 fill-current shrink-0" viewBox="0 0 24 24">

@@ -22,7 +22,7 @@ export default function TestimonialsSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Heading */}
         <div className="text-center max-w-2xl mx-auto mb-12">
-          <div className="inline-flex items-center gap-2 bg-white px-3.5 py-1.5 rounded-full border border-[#E8E3DA] shadow-2xs mb-2">
+          <div className="inline-flex items-center gap-2 bg-white px-3.5 py-1.5 rounded-full border border-[#E8E3DA] shadow-2xs mb-2 animate-pulse-subtle">
             <div className="flex">
               {[...Array(5)].map((_, i) => (
                 <Star key={i} className="w-3.5 h-3.5 fill-amber-400 text-amber-400" />
@@ -41,8 +41,8 @@ export default function TestimonialsSection() {
 
         {/* 4 Metrics Tiles */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mb-12">
-          <div className="bg-white p-5 rounded-2xl border border-[#E8E3DA] shadow-xs flex items-center gap-4">
-            <div className="w-12 h-12 rounded-xl bg-[#FBF1DF] text-[#D29324] flex items-center justify-center shrink-0">
+          <div className="bg-white p-5 rounded-2xl border border-[#E8E3DA] shadow-xs hover:shadow-xl hover:-translate-y-2 hover:border-[#D29324]/50 transition-all duration-300 flex items-center gap-4 group stagger-1">
+            <div className="w-12 h-12 rounded-xl bg-[#FBF1DF] text-[#D29324] flex items-center justify-center shrink-0 group-hover:bg-[#D29324] group-hover:text-white group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 shadow-2xs">
               <Home className="w-6 h-6" />
             </div>
             <div>
@@ -51,8 +51,8 @@ export default function TestimonialsSection() {
             </div>
           </div>
 
-          <div className="bg-white p-5 rounded-2xl border border-[#E8E3DA] shadow-xs flex items-center gap-4">
-            <div className="w-12 h-12 rounded-xl bg-[#FBF1DF] text-[#D29324] flex items-center justify-center shrink-0">
+          <div className="bg-white p-5 rounded-2xl border border-[#E8E3DA] shadow-xs hover:shadow-xl hover:-translate-y-2 hover:border-[#D29324]/50 transition-all duration-300 flex items-center gap-4 group stagger-2">
+            <div className="w-12 h-12 rounded-xl bg-[#FBF1DF] text-[#D29324] flex items-center justify-center shrink-0 group-hover:bg-[#D29324] group-hover:text-white group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 shadow-2xs">
               <Building className="w-6 h-6" />
             </div>
             <div>
@@ -61,8 +61,8 @@ export default function TestimonialsSection() {
             </div>
           </div>
 
-          <div className="bg-white p-5 rounded-2xl border border-[#E8E3DA] shadow-xs flex items-center gap-4">
-            <div className="w-12 h-12 rounded-xl bg-[#FBF1DF] text-[#D29324] flex items-center justify-center shrink-0">
+          <div className="bg-white p-5 rounded-2xl border border-[#E8E3DA] shadow-xs hover:shadow-xl hover:-translate-y-2 hover:border-[#D29324]/50 transition-all duration-300 flex items-center gap-4 group stagger-3">
+            <div className="w-12 h-12 rounded-xl bg-[#FBF1DF] text-[#D29324] flex items-center justify-center shrink-0 group-hover:bg-[#D29324] group-hover:text-white group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 shadow-2xs">
               <Trophy className="w-6 h-6" />
             </div>
             <div>
@@ -73,8 +73,8 @@ export default function TestimonialsSection() {
             </div>
           </div>
 
-          <div className="bg-white p-5 rounded-2xl border border-[#E8E3DA] shadow-xs flex items-center gap-4">
-            <div className="w-12 h-12 rounded-xl bg-[#FBF1DF] text-[#D29324] flex items-center justify-center shrink-0">
+          <div className="bg-white p-5 rounded-2xl border border-[#E8E3DA] shadow-xs hover:shadow-xl hover:-translate-y-2 hover:border-[#D29324]/50 transition-all duration-300 flex items-center gap-4 group stagger-4">
+            <div className="w-12 h-12 rounded-xl bg-[#FBF1DF] text-[#D29324] flex items-center justify-center shrink-0 group-hover:bg-[#D29324] group-hover:text-white group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 shadow-2xs">
               <DollarSign className="w-6 h-6" />
             </div>
             <div>
@@ -87,11 +87,11 @@ export default function TestimonialsSection() {
         </div>
 
         {/* Testimonial Showcase Card */}
-        <div className="max-w-3xl mx-auto bg-white rounded-3xl border border-[#E8E3DA] p-8 sm:p-10 shadow-lg relative">
+        <div className="max-w-3xl mx-auto bg-white rounded-3xl border border-[#E8E3DA] p-8 sm:p-10 shadow-lg hover:shadow-xl transition-shadow duration-300 relative">
           <Quote className="w-12 h-12 text-[#FBF1DF] absolute top-6 right-6 pointer-events-none" />
 
-          <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 text-center sm:text-left">
-            <div className="w-20 h-20 rounded-2xl overflow-hidden bg-gray-100 border-2 border-[#D29324] shrink-0 shadow-md">
+          <div key={t.id} className="flex flex-col sm:flex-row items-center sm:items-start gap-6 text-center sm:text-left animate-in fade-in duration-300">
+            <div className="w-20 h-20 rounded-2xl overflow-hidden bg-gray-100 border-2 border-[#D29324] shrink-0 shadow-md hover:scale-105 transition-transform duration-300">
               <img
                 src={t.avatar}
                 alt={t.name}
@@ -124,9 +124,10 @@ export default function TestimonialsSection() {
                 <button
                   key={i}
                   onClick={() => setActiveTestimonial(i)}
-                  className={`h-2 rounded-full transition-all ${
-                    i === activeTestimonial ? "w-6 bg-[#D29324]" : "w-2 bg-gray-200"
+                  className={`h-2 rounded-full transition-all duration-300 cursor-pointer ${
+                    i === activeTestimonial ? "w-6 bg-[#D29324]" : "w-2 bg-gray-200 hover:bg-[#D29324]/50"
                   }`}
+                  aria-label={`Go to slide ${i + 1}`}
                 />
               ))}
             </div>
@@ -134,13 +135,15 @@ export default function TestimonialsSection() {
             <div className="flex items-center gap-2">
               <button
                 onClick={prev}
-                className="w-9 h-9 rounded-full bg-[#FAF8F4] hover:bg-[#FBF1DF] border border-[#E8E3DA] text-gray-700 flex items-center justify-center transition-colors cursor-pointer"
+                className="w-9 h-9 rounded-full bg-[#FAF8F4] hover:bg-[#FBF1DF] border border-[#E8E3DA] text-gray-700 hover:text-[#AE7419] flex items-center justify-center transition-all duration-200 hover:scale-105 active:scale-95 cursor-pointer btn-tactile"
+                aria-label="Previous Testimonial"
               >
                 <ChevronLeft className="w-4 h-4" />
               </button>
               <button
                 onClick={next}
-                className="w-9 h-9 rounded-full bg-[#D29324] hover:bg-[#AE7419] text-white flex items-center justify-center transition-colors shadow-xs cursor-pointer"
+                className="w-9 h-9 rounded-full bg-[#D29324] hover:bg-[#AE7419] text-white flex items-center justify-center transition-all duration-200 hover:scale-105 active:scale-95 shadow-xs hover:shadow-md cursor-pointer btn-tactile"
+                aria-label="Next Testimonial"
               >
                 <ChevronRight className="w-4 h-4" />
               </button>

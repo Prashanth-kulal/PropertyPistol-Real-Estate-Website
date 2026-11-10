@@ -2,6 +2,8 @@
 // Curated mock dataset following PropertyPistol's developer information hierarchy
 // Uses AuraLiving's design principles and local sample assets
 
+import { MUMBAI_REGISTRY_PROJECTS } from "./mumbaiProjectsRegistry.js";
+
 export const DEVELOPERS_DATA = [
   {
     id: "godrej",
@@ -930,28 +932,304 @@ export const DEVELOPERS_DATA = [
         ]
       }
     ]
+  },
+  {
+    id: "kalpataru",
+    slug: "kalpataru-limited",
+    name: "Kalpataru Limited",
+    logo: "https://images.unsplash.com/photo-1541888946425-d0fbb186f5f7?auto=format&fit=crop&w=120&h=120&q=80",
+    tagline: "Building Landmark Addresses Across Mumbai Since 1969",
+    experience: "55+ Years",
+    projectCount: "110+ Projects",
+    established: "1969",
+    aboutUs: "Kalpataru Limited is one of India's leading real estate developers with a distinguished track record of building premium residential towers and commercial parks across Mumbai and MMR.",
+    description: "Founded in 1969, Kalpataru has redefined modern living in Mumbai with iconic skyscrapers, integrated townships, and award-winning architectural designs. Known for timely project completion and cutting-edge construction engineering.",
+    stats: [
+      { label: "Experience", value: "55+ Years" },
+      { label: "Total Projects", value: "110+" },
+      { label: "Happy Families", value: "22,000+" },
+      { label: "Delivered Space", value: "24M+ sq.ft" }
+    ],
+    featuredProjects: [
+      {
+        title: "Kalpataru Vienta",
+        location: "Kandivali East, Mumbai",
+        price: "₹2.30 Cr*",
+        image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80",
+        slug: "kalpataru-vienta"
+      }
+    ],
+    cities: [
+      {
+        name: "Mumbai",
+        citySlug: "mumbai",
+        projects: []
+      }
+    ]
+  },
+  {
+    id: "sugee",
+    slug: "sugee-group",
+    name: "Sugee Group",
+    logo: "https://images.unsplash.com/photo-1541888946425-d0fbb186f5f7?auto=format&fit=crop&w=120&h=120&q=80",
+    tagline: "Pioneers of Premium Redevelopment in South & Central Mumbai",
+    experience: "35+ Years",
+    projectCount: "30+ Projects",
+    established: "1988",
+    aboutUs: "Sugee Group is renowned for landmark redevelopment residences in prestigious South Mumbai and Dadar micro-markets.",
+    description: "With over three decades of mastery, Sugee Group has transformed iconic neighborhoods in Dadar, Worli, and Prabhadevi into luxury residential landmarks with panoramic sea vistas.",
+    stats: [
+      { label: "Experience", value: "35+ Years" },
+      { label: "Total Projects", value: "30+" },
+      { label: "Delivered Units", value: "5,000+" },
+      { label: "Specialty", value: "Luxury Redevelopment" }
+    ],
+    featuredProjects: [
+      {
+        title: "Sugee Marina Bay",
+        location: "Worli, Mumbai",
+        price: "₹7.20 Cr*",
+        image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=600&q=80",
+        slug: "sugee-marina-bay"
+      }
+    ],
+    cities: [
+      {
+        name: "Mumbai",
+        citySlug: "mumbai",
+        projects: []
+      }
+    ]
+  },
+  {
+    id: "rustomjee",
+    slug: "rustomjee-builders",
+    name: "Rustomjee Builders",
+    logo: "https://images.unsplash.com/photo-1541888946425-d0fbb186f5f7?auto=format&fit=crop&w=120&h=120&q=80",
+    tagline: "It's Thoughtful. It's Rustomjee.",
+    experience: "28+ Years",
+    projectCount: "45+ Projects",
+    established: "1996",
+    aboutUs: "Rustomjee is celebrated for human-centric gated communities, grand podium townships, and premier Western Suburbs residences.",
+    description: "Established in 1996, Rustomjee has earned widespread acclaim for integrating thoughtful social spaces, children's creative parks, and sustainable living across Mumbai.",
+    stats: [
+      { label: "Experience", value: "28+ Years" },
+      { label: "Total Projects", value: "45+" },
+      { label: "Townships", value: "Multiple Across MMR" },
+      { label: "Delivered Space", value: "20M+ sq.ft" }
+    ],
+    featuredProjects: [
+      {
+        title: "Rustomjee Seasons",
+        location: "Bandra East, Mumbai",
+        price: "₹4.50 Cr*",
+        image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80",
+        slug: "rustomjee-seasons"
+      }
+    ],
+    cities: [
+      {
+        name: "Mumbai",
+        citySlug: "mumbai",
+        projects: []
+      }
+    ]
+  },
+  {
+    id: "raunak",
+    slug: "raunak-group",
+    name: "Raunak Group",
+    logo: "https://images.unsplash.com/photo-1541888946425-d0fbb186f5f7?auto=format&fit=crop&w=120&h=120&q=80",
+    tagline: "Passion for Quality Real Estate Since 1980",
+    experience: "44+ Years",
+    projectCount: "50+ Projects",
+    established: "1980",
+    aboutUs: "Raunak Group is a leading property developer in Mumbai, Thane, and Kalyan, delivering quality homes with transparent customer service.",
+    description: "Since 1980, Raunak Group has housed over 14,000 families across vibrant townships and high-rise residences in Chembur, Thane, and Beyond Thane.",
+    stats: [
+      { label: "Experience", value: "44+ Years" },
+      { label: "Total Projects", value: "50+" },
+      { label: "Happy Customers", value: "14,000+" },
+      { label: "Delivered Area", value: "10M+ sq.ft" }
+    ],
+    featuredProjects: [
+      {
+        title: "Raunak Centrum",
+        location: "Chembur, Mumbai",
+        price: "₹1.42 Cr*",
+        image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80",
+        slug: "raunak-centrum"
+      }
+    ],
+    cities: [
+      {
+        name: "Mumbai",
+        citySlug: "mumbai",
+        projects: []
+      }
+    ]
   }
 ];
+
+// Helper function to dynamically enrich developers with all matching projects from the Mumbai catalog
+export function enrichDeveloperWithProjects(dev) {
+  if (!dev) return null;
+  const normDevName = dev.name.toLowerCase().replace(/[^a-z0-9]/g, "");
+  const normSlug = dev.slug.toLowerCase().replace(/[^a-z0-9]/g, "");
+  const matches = MUMBAI_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === dev.slug) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return (
+      bNorm === normSlug ||
+      bNorm.includes(normSlug) ||
+      normSlug.includes(bNorm) ||
+      bNorm === normDevName ||
+      bNorm.includes(normDevName) ||
+      normDevName.includes(bNorm)
+    );
+  });
+
+  const existingCities = dev.cities || [];
+  const existingMumbaiCity = existingCities.find((c) => c.citySlug === "mumbai") || {
+    name: "Mumbai",
+    citySlug: "mumbai"
+  };
+
+  const finalProjects = matches.length > 0 ? matches : (existingMumbaiCity.projects || []);
+  const ongoingCount = finalProjects.filter(
+    (p) => p.status === "Under Construction" || p.status === "New Launch"
+  ).length;
+  const upcomingCount = finalProjects.filter(
+    (p) => p.status === "Upcoming" || p.status === "New Launch"
+  ).length;
+
+  const updatedCities = existingCities.map((c) => {
+    if (c.citySlug === "mumbai") {
+      return {
+        ...c,
+        ongoingCount: ongoingCount || c.ongoingCount || 1,
+        upcomingCount: upcomingCount || c.upcomingCount || 1,
+        projects: finalProjects
+      };
+    }
+    return c;
+  });
+
+  if (!updatedCities.some((c) => c.citySlug === "mumbai")) {
+    updatedCities.unshift({
+      name: "Mumbai",
+      citySlug: "mumbai",
+      ongoingCount,
+      upcomingCount,
+      projects: finalProjects
+    });
+  }
+
+  // Use top matching projects for featured showcase
+  const featured = matches.length > 0
+    ? matches.slice(0, 3).map((p) => ({
+        title: p.name,
+        location: p.location,
+        price: `₹${p.price}*`,
+        image: p.images?.[0] || "/images/placeholder-property.jpg",
+        slug: p.slug
+      }))
+    : dev.featuredProjects;
+
+  return {
+    ...dev,
+    projectCount: `${finalProjects.length}+ Projects`,
+    featuredProjects: featured,
+    cities: updatedCities
+  };
+}
 
 // Helper functions for easy querying
 export function getDeveloperBySlug(slug) {
   if (!slug) return null;
   const normalized = slug.toLowerCase().trim();
-  return (
-    DEVELOPERS_DATA.find(
-      (d) =>
-        d.slug === normalized ||
-        d.id === normalized ||
-        d.slug.replace(/-/g, "") === normalized.replace(/-/g, "") ||
-        d.name.toLowerCase().replace(/[^a-z0-9]/g, "") === normalized.replace(/[^a-z0-9]/g, "")
-    ) || DEVELOPERS_DATA[0]
+
+  // 1. Direct search in DEVELOPERS_DATA
+  const found = DEVELOPERS_DATA.find(
+    (d) =>
+      d.slug === normalized ||
+      d.id === normalized ||
+      d.slug.replace(/-/g, "") === normalized.replace(/-/g, "") ||
+      d.name.toLowerCase().replace(/[^a-z0-9]/g, "") === normalized.replace(/[^a-z0-9]/g, "")
   );
+
+  if (found) {
+    return enrichDeveloperWithProjects(found);
+  }
+
+  // 2. Synthesize developer profile dynamically from MUMBAI_REGISTRY_PROJECTS
+  const normSlug = normalized.replace(/[^a-z0-9]/g, "");
+  const matches = MUMBAI_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === normalized) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return bNorm === normSlug || bNorm.includes(normSlug) || normSlug.includes(bNorm);
+  });
+
+  if (matches.length > 0) {
+    const builderName = matches[0].builder;
+    const logo =
+      matches[0].builderLogo ||
+      "https://images.unsplash.com/photo-1541888946425-d0fbb186f5f7?auto=format&fit=crop&w=120&h=120&q=80";
+    const ongoing = matches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch"
+    ).length;
+    const upcoming = matches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch"
+    ).length;
+
+    return {
+      id: normalized,
+      slug: matches[0].developerSlug || normalized,
+      name: builderName,
+      logo: logo,
+      tagline: `Premium Residential Developments Across Mumbai & MMR`,
+      experience: "20+ Years",
+      projectCount: `${matches.length}+ Projects`,
+      established: "2000",
+      aboutUs: `${builderName} is a premier real estate developer with verified developments across key micro-markets in the Mumbai Metropolitan Region.`,
+      description: `${builderName} has delivered iconic residential landmarks in Mumbai and MMR, known for quality construction, transparent MahaRERA compliance, and contemporary lifestyle amenities.`,
+      stats: [
+        { label: "Active Projects", value: `${matches.length}+` },
+        { label: "Location", value: "Mumbai & MMR" },
+        { label: "RERA Compliant", value: "100%" },
+        { label: "Brokerage", value: "0%" }
+      ],
+      featuredProjects: matches.slice(0, 3).map((p) => ({
+        title: p.name,
+        location: p.location,
+        price: `₹${p.price}*`,
+        image: p.images?.[0] || "/images/placeholder-property.jpg",
+        slug: p.slug
+      })),
+      cities: [
+        {
+          name: "Mumbai",
+          citySlug: "mumbai",
+          ongoingCount: ongoing,
+          upcomingCount: upcoming,
+          projects: matches
+        }
+      ]
+    };
+  }
+
+  return enrichDeveloperWithProjects(DEVELOPERS_DATA[0]);
 }
 
 export function getAllDevelopers() {
-  return DEVELOPERS_DATA;
+  return DEVELOPERS_DATA.map(enrichDeveloperWithProjects);
 }
 
 export function getRelatedDevelopers(currentSlug, limit = 4) {
-  return DEVELOPERS_DATA.filter((d) => d.slug !== currentSlug).slice(0, limit);
+  return DEVELOPERS_DATA
+    .filter((d) => d.slug !== currentSlug)
+    .slice(0, limit)
+    .map(enrichDeveloperWithProjects);
 }

@@ -1,6 +1,8 @@
 // City-Specific Mock Data Store for AuraLiving
 // Maps every supported metro to verified property listings, top localities, market trends, and FAQs
 
+import { MUMBAI_REGISTRY_PROJECTS } from "./mumbaiProjectsRegistry.js";
+
 export const CITY_DETAILS = {
   mumbai: {
     id: "mumbai",
@@ -8,7 +10,7 @@ export const CITY_DETAILS = {
     state: "Maharashtra",
     tagline: "The Financial Capital of India & Premier Luxury Real Estate Hub",
     heroImage: "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=1600&q=80",
-    projectsCount: 1420,
+    projectsCount: 662,
     avgPriceSqFt: "₹28,500",
     appreciationRate: "+11.4% YoY",
     rentalYield: "3.8% p.a.",
@@ -16,14 +18,23 @@ export const CITY_DETAILS = {
     stampDuty: "5% + 1% Metro Cess",
     description: "Mumbai remains India's most coveted property market, driven by landmark connectivity upgrades like the Mumbai Trans Harbour Link (Atal Setu), Coastal Road, and expanding Metro lines.",
     localities: [
-      { name: "Bandra West", avgPrice: "₹58,000 / sq.ft", projects: 48, tag: "Ultra Luxury" },
-      { name: "Powai", avgPrice: "₹26,500 / sq.ft", projects: 62, tag: "Tech & Lakeside" },
-      { name: "Thane West", avgPrice: "₹14,200 / sq.ft", projects: 120, tag: "Green Metros" },
-      { name: "Andheri West", avgPrice: "₹31,000 / sq.ft", projects: 85, tag: "Central Hub" },
-      { name: "Kharghar", avgPrice: "₹10,500 / sq.ft", projects: 94, tag: "Navi Mumbai" },
-      { name: "Panvel", avgPrice: "₹8,400 / sq.ft", projects: 110, tag: "Airport Corridor" },
-      { name: "Worli", avgPrice: "₹64,000 / sq.ft", projects: 32, tag: "Seafront Towers" },
-      { name: "Malad West", avgPrice: "₹18,900 / sq.ft", projects: 76, tag: "Suburban Core" }
+      { name: "Taloja", avgPrice: "₹5,800 / sq.ft", projects: 32, tag: "Navi Mumbai Hub" },
+      { name: "Chembur", avgPrice: "₹24,500 / sq.ft", projects: 22, tag: "Central Transit Hub" },
+      { name: "Palghar", avgPrice: "₹4,200 / sq.ft", projects: 21, tag: "Growth Corridor" },
+      { name: "Thane West", avgPrice: "₹14,200 / sq.ft", projects: 20, tag: "Green Metros" },
+      { name: "Panvel", avgPrice: "₹8,400 / sq.ft", projects: 20, tag: "Airport Corridor" },
+      { name: "Mira Road East", avgPrice: "₹9,800 / sq.ft", projects: 18, tag: "Western Suburbs" },
+      { name: "Dadar West", avgPrice: "₹42,000 / sq.ft", projects: 18, tag: "Heritage Central" },
+      { name: "Worli", avgPrice: "₹64,000 / sq.ft", projects: 15, tag: "Seafront Towers" },
+      { name: "Kalyan West", avgPrice: "₹6,800 / sq.ft", projects: 13, tag: "Smart City" },
+      { name: "Kharghar", avgPrice: "₹11,500 / sq.ft", projects: 12, tag: "Navi Mumbai Core" },
+      { name: "Vikhroli East", avgPrice: "₹22,000 / sq.ft", projects: 12, tag: "Eastern Corridor" },
+      { name: "Badlapur West", avgPrice: "₹4,100 / sq.ft", projects: 10, tag: "Affordable Enclave" },
+      { name: "Malad West", avgPrice: "₹18,900 / sq.ft", projects: 9, tag: "Suburban Core" },
+      { name: "Goregaon West", avgPrice: "₹21,500 / sq.ft", projects: 9, tag: "Corporate Suburb" },
+      { name: "Andheri East", avgPrice: "₹23,000 / sq.ft", projects: 8, tag: "Commercial Corridor" },
+      { name: "Bandra West", avgPrice: "₹58,000 / sq.ft", projects: 5, tag: "Ultra Luxury" },
+      { name: "Powai", avgPrice: "₹26,500 / sq.ft", projects: 5, tag: "Tech & Lakeside" }
     ],
     faqs: [
       {
@@ -603,252 +614,7 @@ export function getCityDetails(cityId) {
 
 // City-specific sample properties
 export const CITY_PROPERTIES = {
-  mumbai: [
-    {
-      id: "godrej-ascend",
-      slug: "godrej-ascend",
-      name: "Godrej Ascend",
-      title: "Godrej Ascend",
-      builder: "Godrej Properties",
-      builderLogo: "https://s3.ap-south-1.amazonaws.com/website-prod-public/builders/logos/000/000/007/medium/godrej.jpg?1578047383",
-      city: "mumbai",
-      location: "Dhokali, Thane West, Mumbai",
-      fullAddress: "Godrej Ascend, Kolshet Road, Thane, Kolshet Road, Dhokali, Thane West, Mumbai, Maharashtra, India",
-      price: "1.07 Cr",
-      priceNumeric: 10700000,
-      avgPrice: "INR 28.08 K / sq.ft",
-      minPricePerSqft: "INR 28.08 K per Sqft.",
-      flatTypes: "1, 2 & 3 BHK Apartment",
-      configuration: "1 BHK, 2 BHK, 3 BHK",
-      builtUpArea: "On request",
-      carpetArea: "381 - 1,058 Sq.ft.",
-      possession: "Apr 2028",
-      possessionStatus: "Under Construction",
-      possessionDate: "Apr 2028",
-      projectArea: "283974 Sq.ft.",
-      rera: "P51700034608, P51700046541, P51700049514, P51700053668",
-      status: "New Launch",
-      tag: "Trending",
-      offersBadge: "Offers Available",
-      rating: 4.8,
-      type: "Apartment",
-      images: [
-        "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=900&q=80",
-        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80"
-      ],
-      description: "Godrej Ascend on Kolshet Road, Thane, is an iconic 6-acre development featuring five elegant high-rise towers integrated with over 40 lifestyle amenities across a central grand podium and sky decks.",
-      features: ["Clubhouse", "Swimming Pool", "Kids Play Area", "Gymnasium", "Rooftop Sky Deck", "Lift", "Parking", "Gated Community"]
-    },
-    {
-      id: "lodha-corinthia",
-      slug: "lodha-corinthia",
-      name: "Lodha Corinthia",
-      title: "Lodha Corinthia",
-      builder: "Lodha Group",
-      builderLogo: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=120&h=120&q=80",
-      city: "mumbai",
-      location: "Bhandup West, Mumbai",
-      fullAddress: "Lodha Corinthia Sales Gallery, LBS Marg, Lal Bahadur Shastri Marg, Ganesh Nagar, Bhandup West, Mumbai, Maharashtra, India",
-      price: "1.9 Cr",
-      priceNumeric: 19000000,
-      avgPrice: "INR 25.3 K / sq.ft",
-      minPricePerSqft: "INR 25.3 K per Sq.ft.",
-      flatTypes: "2 & 3 BHK Apartment",
-      configuration: "2 BHK, 3 BHK",
-      builtUpArea: "On request",
-      carpetArea: "750 - 1,100 Sq.ft.",
-      possession: "Jun 2029",
-      possessionStatus: "Launch",
-      possessionDate: "Jun 2029",
-      projectArea: "304920 Sq.ft.",
-      rera: "PR1180002400022, PR1180002400043, PR1180002400044",
-      status: "New Launch",
-      tag: "RERA Verified",
-      offersBadge: "Offers Available",
-      rating: 4.9,
-      type: "Apartment",
-      images: [
-        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=900&q=80",
-        "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=900&q=80"
-      ],
-      description: "Introducing Lodha Corinthia, a magnificent 7-acre estate on LBS Marg that offers an international lifestyle crafted for generous luxury, green landscaped gardens, and grand sports amenities.",
-      features: ["Saint Amand Concierge", "Grand Clubhouse", "Olympic Lap Pool", "Indoor Badminton", "Gated Community", "Gas Pipeline"]
-    },
-    {
-      id: "mahindra-marina-64",
-      slug: "mahindra-marina-64",
-      name: "Mahindra Marina 64",
-      title: "Mahindra Marina 64",
-      shortTitle: "Mahindra Marina ...",
-      builder: "Mahindra Lifespaces",
-      builderLogo: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=120&h=120&q=80",
-      city: "mumbai",
-      location: "Malad West, Mumbai",
-      fullAddress: "Mahindra Marina64, Navy Nagar Road, Malad, Navy Colony, Liberty Garden, Malad West, Mumbai, Maharashtra, India",
-      price: "1.8 Cr",
-      priceNumeric: 18000000,
-      avgPrice: "INR 30.0 K / sq.ft",
-      minPricePerSqft: "INR 30.0 K per Sqft.",
-      flatTypes: "2 & 4 BHK Flat",
-      configuration: "2 BHK, 4 BHK",
-      builtUpArea: "On request",
-      carpetArea: "600 - 1,474 Sq.ft.",
-      possession: "Dec 2028",
-      possessionStatus: "Launch",
-      possessionDate: "Dec 2028",
-      projectArea: "198020 Sq.ft.",
-      rera: "PR1181012500087, PR1181012500523, PR1182022502285",
-      status: "New Launch",
-      tag: "Trending",
-      rating: 4.8,
-      type: "Apartment",
-      images: [
-        "https://images.unsplash.com/photo-1574362848149-11496d93a7c7?auto=format&fit=crop&w=900&q=80",
-        "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=900&q=80"
-      ],
-      description: "Mahindra Marina 64 in Malad West is a premium residential offering by Mahindra Lifespaces that blends luxury, sustainability, and seamless connectivity to the Link Road and Western Express Highway.",
-      features: ["Infinity Pool", "Yoga Lawn", "EV Charging Bay", "Jogging Track", "Parking", "Lift"]
-    },
-    {
-      id: "mum-1",
-      name: "Godrej Eternal Palms",
-      builder: "Godrej Properties",
-      builderLogo: "https://images.unsplash.com/photo-1541888946425-d0fbb186f5f7?auto=format&fit=crop&w=120&h=120&q=80",
-      city: "mumbai",
-      location: "Sanpada, Navi Mumbai",
-      price: "2.68 Cr",
-      priceNumeric: 26800000,
-      avgPrice: "₹33.48 K / sq.ft",
-      flatTypes: "2 BHK, 3 BHK",
-      carpetArea: "800 - 1,408 sq.ft",
-      status: "Under Construction",
-      rera: "P51700049211",
-      tag: "Exclusive",
-      rating: 4.8,
-      type: "Apartment",
-      images: [
-        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80",
-        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=900&q=80",
-        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=80"
-      ],
-      features: ["Infinity Pool", "Clubhouse", "Panoramic Sea View", "EV Charging"]
-    },
-    {
-      id: "mum-2",
-      name: "L&T Island Cove",
-      builder: "L&T Realty",
-      builderLogo: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=120&h=120&q=80",
-      city: "mumbai",
-      location: "Mahim West, Mumbai",
-      price: "3.15 Cr",
-      priceNumeric: 31500000,
-      avgPrice: "₹46.38 K / sq.ft",
-      flatTypes: "2 BHK, 3 BHK",
-      carpetArea: "680 - 1,394 sq.ft",
-      status: "New Launch",
-      rera: "P51900052341",
-      tag: "Featured",
-      rating: 4.9,
-      type: "Apartment",
-      images: [
-        "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=900&q=80",
-        "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=900&q=80"
-      ],
-      features: ["Sealink View", "Sky Lounge", "Smart Automation"]
-    },
-    {
-      id: "mum-3",
-      name: "L&T Elixir Reserve",
-      builder: "L&T Realty",
-      builderLogo: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=120&h=120&q=80",
-      city: "mumbai",
-      location: "Powai, Mumbai",
-      price: "2.61 Cr",
-      priceNumeric: 26100000,
-      avgPrice: "₹36.6 K / sq.ft",
-      flatTypes: "2 BHK, 3 BHK, 4 BHK",
-      carpetArea: "713 - 2,200 sq.ft",
-      status: "Under Construction",
-      rera: "P51800034102",
-      tag: "Luxury",
-      rating: 4.7,
-      type: "Apartment",
-      images: [
-        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=80",
-        "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=900&q=80"
-      ],
-      features: ["Lake Facing", "Olympic Pool", "Spa & Wellness"]
-    },
-    {
-      id: "mum-4",
-      name: "Tata Orbis",
-      builder: "Tata Housing",
-      builderLogo: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=120&h=120&q=80",
-      city: "mumbai",
-      location: "Ghansoli, Navi Mumbai",
-      price: "1.99 Cr",
-      priceNumeric: 19900000,
-      avgPrice: "₹26.53 K / sq.ft",
-      flatTypes: "2 BHK, 3 BHK",
-      carpetArea: "750 - 1,155 sq.ft",
-      status: "Under Construction",
-      rera: "P51700048129",
-      tag: "Trending",
-      rating: 4.8,
-      type: "Apartment",
-      images: [
-        "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=900&q=80",
-        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=900&q=80"
-      ],
-      features: ["Metro Connected", "Rooftop Garden", "Sports Complex"]
-    },
-    {
-      id: "mum-5",
-      name: "Kanakia Valley",
-      builder: "Kanakia Spaces",
-      builderLogo: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=120&h=120&q=80",
-      city: "mumbai",
-      location: "Panvel, Navi Mumbai",
-      price: "56.9 Lacs",
-      priceNumeric: 5690000,
-      avgPrice: "₹14.23 K / sq.ft",
-      flatTypes: "1 BHK, 2 BHK",
-      carpetArea: "400 - 600 sq.ft",
-      status: "Ready to Move",
-      rera: "P52000021980",
-      tag: "Affordable",
-      rating: 4.6,
-      type: "Apartment",
-      images: [
-        "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=900&q=80",
-        "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=900&q=80"
-      ],
-      features: ["Airport Proximity", "Clubhouse", "Lush Greens"]
-    },
-    {
-      id: "mum-6",
-      name: "L&T Vayam",
-      builder: "L&T Realty",
-      builderLogo: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=120&h=120&q=80",
-      city: "mumbai",
-      location: "Thane West",
-      price: "1.4 Cr",
-      priceNumeric: 14000000,
-      avgPrice: "₹12.56 K / sq.ft",
-      flatTypes: "2 BHK, 4 BHK",
-      carpetArea: "1,113 - 2,413 sq.ft",
-      status: "Under Construction",
-      rera: "P51700054321",
-      tag: "New Launch",
-      rating: 4.8,
-      type: "Apartment",
-      images: [
-        "https://images.unsplash.com/photo-1574362848149-11496d93a7c7?auto=format&fit=crop&w=900&q=80",
-        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80"
-      ],
-      features: ["Yeoor Hills View", "Grand Podium", "Jogging Track"]
-    }
-  ],
+  mumbai: MUMBAI_REGISTRY_PROJECTS,
 
   pune: [
     {
@@ -1331,7 +1097,7 @@ export function getPriceTrendsForCity(cityId = "mumbai") {
 // -------------------------------------------------------------
 // RAIL NETWORK & TRANSIT DATA HELPER
 // -------------------------------------------------------------
-import { getTransitNetworkForCity } from "@/data/transitNetworks";
+import { getTransitNetworkForCity } from "./transitNetworks.js";
 
 export function getRailTransitForCity(cityId = "mumbai") {
   const normId = (cityId || "mumbai").toLowerCase().trim();

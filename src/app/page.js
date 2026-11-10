@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
@@ -34,6 +34,50 @@ export default function HomePage() {
   const [isConverterModalOpen, setIsConverterModalOpen] = useState(false);
   const [inquiryProject, setInquiryProject] = useState(null);
 
+  // Smooth scroll reveal observer
+  useEffect(() => {
+    if (
+      typeof window === "undefined" ||
+      !("IntersectionObserver" in window) ||
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches
+    ) {
+      document.querySelectorAll(".reveal-on-scroll, .reveal-fade").forEach((el) => {
+        el.classList.add("is-revealed");
+      });
+      return;
+    }
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-revealed");
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      {
+        threshold: 0.08,
+        rootMargin: "0px 0px -40px 0px",
+      }
+    );
+
+    const targets = document.querySelectorAll(".reveal-on-scroll, .reveal-fade");
+    targets.forEach((el) => observer.observe(el));
+
+    // Safety fallback: reveal all elements after 1.8s in case of edge scenarios
+    const safetyTimeout = setTimeout(() => {
+      document.querySelectorAll(".reveal-on-scroll, .reveal-fade").forEach((el) => {
+        el.classList.add("is-revealed");
+      });
+    }, 1800);
+
+    return () => {
+      observer.disconnect();
+      clearTimeout(safetyTimeout);
+    };
+  }, []);
+
   const handleInquire = (project) => {
     setInquiryProject(project);
   };
@@ -61,43 +105,61 @@ export default function HomePage() {
       />
 
       {/* 3. AuraLiving Exclusive Showcase */}
-      <ExclusiveShowcase onInquireProject={handleInquire} />
+      <div className="reveal-on-scroll">
+        <ExclusiveShowcase onInquireProject={handleInquire} />
+      </div>
 
       {/* 4. Top Projects Section */}
-      <TopProjects
-        selectedCity={selectedCity}
-        onSelectCity={(cityId) => setSelectedCity(cityId)}
-        onInquireProject={handleInquire}
-        searchFilter={searchQuery}
-      />
+      <div className="reveal-on-scroll">
+        <TopProjects
+          selectedCity={selectedCity}
+          onSelectCity={(cityId) => setSelectedCity(cityId)}
+          onInquireProject={handleInquire}
+          searchFilter={searchQuery}
+        />
+      </div>
 
       {/* 5. Top Cities Section */}
-      <TopCities onSelectCity={(cityId) => setSelectedCity(cityId)} />
+      <div className="reveal-on-scroll">
+        <TopCities onSelectCity={(cityId) => setSelectedCity(cityId)} />
+      </div>
 
       {/* 6. 2,000+ Developers Under One Roof */}
-      <DevelopersSection />
+      <div className="reveal-on-scroll">
+        <DevelopersSection />
+      </div>
 
       {/* 7. Achievements Counter */}
-      <AchievementsCounter />
+      <div className="reveal-on-scroll">
+        <AchievementsCounter />
+      </div>
 
       {/* 8. Piston AI Section (Image on Left, AI Console on Right) */}
-      <PistonAiSection onOpenAiModal={() => setIsAiModalOpen(true)} />
+      <div className="reveal-on-scroll">
+        <PistonAiSection onOpenAiModal={() => setIsAiModalOpen(true)} />
+      </div>
 
       {/* 9. AuraLiving Shots / Tools */}
-      <AuraShots
-        onOpenEmi={() => setIsEmiModalOpen(true)}
-        onOpenConverter={() => setIsConverterModalOpen(true)}
-        onOpenConsultation={() => {
-          const el = document.getElementById("consultation_form");
-          if (el) el.scrollIntoView({ behavior: "smooth" });
-        }}
-      />
+      <div className="reveal-on-scroll">
+        <AuraShots
+          onOpenEmi={() => setIsEmiModalOpen(true)}
+          onOpenConverter={() => setIsConverterModalOpen(true)}
+          onOpenConsultation={() => {
+            const el = document.getElementById("consultation_form");
+            if (el) el.scrollIntoView({ behavior: "smooth" });
+          }}
+        />
+      </div>
 
       {/* 9. FREE Expert Consultation Form */}
-      <ConsultationForm selectedCity={selectedCity} />
+      <div className="reveal-on-scroll">
+        <ConsultationForm selectedCity={selectedCity} />
+      </div>
 
       {/* 10. Testimonials & Pan-India Reach */}
-      <TestimonialsSection />
+      <div className="reveal-on-scroll">
+        <TestimonialsSection />
+      </div>
 
       {/* 11. Footer */}
       <Footer />

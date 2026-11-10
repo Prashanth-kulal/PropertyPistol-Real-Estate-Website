@@ -33,15 +33,16 @@ export default function TopProjects({
   const [canScrollRight, setCanScrollRight] = useState(true);
 
   // Filter projects by active city and search input
-  let displayedProjects = PROJECTS.filter((p) => {
+  let cityProjects = PROJECTS.filter((p) => {
     const matchCity = activeCityTab === "all" || p.city.toLowerCase() === activeCityTab.toLowerCase();
     return matchCity;
   });
 
-  // If active city has fewer projects in seed, show remaining seed projects to provide rich UI
-  if (displayedProjects.length === 0) {
-    displayedProjects = PROJECTS.slice(0, 6);
+  if (cityProjects.length === 0) {
+    cityProjects = PROJECTS.slice(0, 16);
   }
+
+  let displayedProjects = cityProjects;
 
   if (searchFilter && searchFilter.trim()) {
     const q = searchFilter.toLowerCase().trim();
@@ -52,8 +53,11 @@ export default function TopProjects({
         p.location.toLowerCase().includes(q)
     );
     if (searchMatches.length > 0) {
-      displayedProjects = searchMatches;
+      displayedProjects = searchMatches.slice(0, 5);
     }
+  } else {
+    // Exactly 5 top projects displayed in Top Projects section
+    displayedProjects = cityProjects.slice(0, 5);
   }
 
   const checkScrollState = useCallback(() => {
@@ -125,11 +129,11 @@ export default function TopProjects({
             </div>
 
             {/* Layout Toggle (Compact Carousel vs Grid) */}
-            <div className="flex items-center bg-[#FAF8F4] border border-[#E8E3DA] p-1 rounded-xl">
+            <div className="flex items-center bg-[#FAF8F4] border border-[#E8E3DA] p-1 rounded-xl shadow-2xs">
               <button
                 type="button"
                 onClick={() => setLayoutMode("carousel")}
-                className={`p-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1 cursor-pointer ${
+                className={`p-1.5 rounded-lg text-xs font-bold transition-all duration-200 flex items-center gap-1 cursor-pointer btn-tactile ${
                   layoutMode === "carousel"
                     ? "bg-[#D29324] text-white shadow-xs"
                     : "text-gray-600 hover:text-[#AE7419]"
@@ -143,7 +147,7 @@ export default function TopProjects({
               <button
                 type="button"
                 onClick={() => setLayoutMode("grid")}
-                className={`p-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1 cursor-pointer ${
+                className={`p-1.5 rounded-lg text-xs font-bold transition-all duration-200 flex items-center gap-1 cursor-pointer btn-tactile ${
                   layoutMode === "grid"
                     ? "bg-[#D29324] text-white shadow-xs"
                     : "text-gray-600 hover:text-[#AE7419]"
@@ -164,9 +168,9 @@ export default function TopProjects({
                   onClick={() => handleScroll("left")}
                   disabled={!canScrollLeft}
                   aria-label="Previous Projects"
-                  className={`w-9 h-9 rounded-full border flex items-center justify-center transition-all ${
+                  className={`w-9 h-9 rounded-full border flex items-center justify-center transition-all duration-200 ${
                     canScrollLeft
-                      ? "border-[#E8E3DA] bg-white text-[#252525] hover:bg-[#FAF8F4] hover:border-[#D29324] shadow-xs cursor-pointer"
+                      ? "border-[#E8E3DA] bg-white text-[#252525] hover:bg-[#FAF8F4] hover:border-[#D29324] hover:scale-105 active:scale-95 shadow-xs cursor-pointer"
                       : "border-gray-200 bg-gray-50 text-gray-300 cursor-not-allowed"
                   }`}
                 >
@@ -177,9 +181,9 @@ export default function TopProjects({
                   onClick={() => handleScroll("right")}
                   disabled={!canScrollRight}
                   aria-label="Next Projects"
-                  className={`w-9 h-9 rounded-full border flex items-center justify-center transition-all ${
+                  className={`w-9 h-9 rounded-full border flex items-center justify-center transition-all duration-200 ${
                     canScrollRight
-                      ? "border-[#E8E3DA] bg-white text-[#252525] hover:bg-[#FAF8F4] hover:border-[#D29324] shadow-xs cursor-pointer"
+                      ? "border-[#E8E3DA] bg-white text-[#252525] hover:bg-[#FAF8F4] hover:border-[#D29324] hover:scale-105 active:scale-95 shadow-xs cursor-pointer"
                       : "border-gray-200 bg-gray-50 text-gray-300 cursor-not-allowed"
                   }`}
                 >
@@ -202,10 +206,10 @@ export default function TopProjects({
                     setActiveCityTab(city.id);
                     if (onSelectCity) onSelectCity(city.id);
                   }}
-                  className={`px-4 py-2 rounded-xl text-xs font-bold capitalize transition-all cursor-pointer ${
+                  className={`px-4 py-2 rounded-xl text-xs font-bold capitalize transition-all duration-300 cursor-pointer btn-tactile ${
                     isActive
-                      ? "bg-[#D29324] text-white shadow-md shadow-amber-950/10"
-                      : "bg-[#FAF8F4] text-gray-700 hover:bg-[#FBF1DF] hover:text-[#AE7419] border border-[#E8E3DA]"
+                      ? "bg-[#D29324] text-white shadow-md shadow-amber-950/10 scale-[1.02]"
+                      : "bg-[#FAF8F4] text-gray-700 hover:bg-[#FBF1DF] hover:text-[#AE7419] border border-[#E8E3DA] hover:border-[#D29324]/50"
                   }`}
                 >
                   {city.name}
@@ -239,7 +243,7 @@ export default function TopProjects({
             return (
               <div
                 key={project.id}
-                className={`property-card bg-white rounded-2xl border border-[#E8E3DA] overflow-hidden flex flex-col sm:flex-row shadow-xs hover:shadow-lg transition-all duration-300 group ${
+                className={`property-card bg-white rounded-2xl border border-[#E8E3DA] overflow-hidden flex flex-col sm:flex-row shadow-xs group ${
                   layoutMode === "carousel"
                     ? "w-[330px] sm:w-[470px] shrink-0 snap-start"
                     : "w-full"
@@ -251,7 +255,7 @@ export default function TopProjects({
                     <img
                       src={activeImage}
                       alt={project.name}
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                      className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-108"
                     />
                   </Link>
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/20 pointer-events-none"></div>
@@ -273,13 +277,15 @@ export default function TopProjects({
                     <>
                       <button
                         onClick={(e) => handlePrevImage(project.id, imagesList.length, e)}
-                        className="absolute left-1.5 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full bg-white/85 hover:bg-white text-gray-800 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity shadow-sm cursor-pointer z-10"
+                        className="absolute left-1.5 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full bg-white/85 hover:bg-white text-gray-800 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-200 hover:scale-110 active:scale-90 shadow-sm cursor-pointer z-10"
+                        aria-label="Previous Project Image"
                       >
                         <ChevronLeft className="w-3.5 h-3.5" />
                       </button>
                       <button
                         onClick={(e) => handleNextImage(project.id, imagesList.length, e)}
-                        className="absolute right-1.5 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full bg-white/85 hover:bg-white text-gray-800 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity shadow-sm cursor-pointer z-10"
+                        className="absolute right-1.5 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full bg-white/85 hover:bg-white text-gray-800 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-200 hover:scale-110 active:scale-90 shadow-sm cursor-pointer z-10"
+                        aria-label="Next Project Image"
                       >
                         <ChevronRight className="w-3.5 h-3.5" />
                       </button>
@@ -308,7 +314,7 @@ export default function TopProjects({
                           </h3>
                         </Link>
                       </div>
-                      <div className="w-7 h-7 rounded-lg bg-[#FAF8F4] border border-[#E8E3DA] flex items-center justify-center text-[#D29324] shrink-0 font-bold text-xs shadow-2xs">
+                      <div className="w-7 h-7 rounded-lg bg-[#FAF8F4] border border-[#E8E3DA] flex items-center justify-center text-[#D29324] shrink-0 font-bold text-xs shadow-2xs group-hover:border-[#D29324]/40 transition-colors">
                         {project.builder.charAt(0)}
                       </div>
                     </div>
@@ -337,14 +343,14 @@ export default function TopProjects({
                     <button
                       type="button"
                       onClick={() => onInquireProject && onInquireProject(project)}
-                      className="flex-1 py-2 rounded-xl bg-[#D29324] hover:bg-[#AE7419] text-white text-xs font-bold transition-all shadow-xs hover:shadow-md flex items-center justify-center gap-1.5 cursor-pointer"
+                      className="flex-1 py-2 rounded-xl bg-[#D29324] hover:bg-[#AE7419] text-white text-xs font-bold transition-all duration-200 shadow-xs hover:shadow-md flex items-center justify-center gap-1.5 cursor-pointer btn-tactile"
                     >
                       <PhoneCall className="w-3.5 h-3.5" />
                       <span>Enquire</span>
                     </button>
                     <Link
                       href={`/projects/${projectSlug}`}
-                      className="px-3 py-2 rounded-xl border border-[#E8E3DA] hover:border-[#D29324] bg-white text-gray-700 hover:text-[#AE7419] text-xs font-semibold transition-colors flex items-center justify-center cursor-pointer shadow-2xs"
+                      className="px-3 py-2 rounded-xl border border-[#E8E3DA] hover:border-[#D29324] bg-white text-gray-700 hover:text-[#AE7419] text-xs font-semibold transition-all duration-200 flex items-center justify-center cursor-pointer shadow-2xs btn-tactile"
                       title="View Project Details"
                     >
                       <Eye className="w-3.5 h-3.5" />
@@ -354,6 +360,17 @@ export default function TopProjects({
               </div>
             );
           })}
+        </div>
+
+        {/* View All Projects CTA */}
+        <div className="mt-8 text-center">
+          <Link
+            href={activeCityTab === "mumbai" ? "/new-projects" : `/${activeCityTab}`}
+            className="inline-flex items-center gap-2 px-8 py-3 rounded-xl bg-[#D29324] hover:bg-[#AE7419] text-white text-xs font-bold uppercase tracking-wider transition-all duration-200 shadow-md hover:shadow-lg cursor-pointer btn-tactile hover:scale-[1.02]"
+          >
+            <span>View All Projects</span>
+            <ChevronRight className="w-4 h-4 text-white" />
+          </Link>
         </div>
       </div>
     </section>

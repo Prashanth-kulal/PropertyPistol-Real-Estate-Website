@@ -25,7 +25,7 @@ export default function AchievementsCounter() {
 
       <div className="relative max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 z-10">
         <div className="text-center max-w-3xl mx-auto mb-14 sm:mb-16 space-y-3">
-          <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-[#D29324]/25 border border-[#D29324]/60 text-[#FFE2A7] text-xs font-bold tracking-wider uppercase mb-1 shadow-sm backdrop-blur-md">
+          <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-[#D29324]/25 border border-[#D29324]/60 text-[#FFE2A7] text-xs font-bold tracking-wider uppercase mb-1 shadow-sm backdrop-blur-md animate-pulse-subtle">
             <Globe2 className="w-3.5 h-3.5 text-[#D29324]" />
             <span>Unmatched Scale & Global Reach</span>
           </div>
@@ -44,13 +44,13 @@ export default function AchievementsCounter() {
           {ACHIEVEMENTS.map((item, index) => (
             <div
               key={index}
-              className="p-6 sm:p-8 rounded-2xl bg-white/10 hover:bg-white/15 border border-white/20 hover:border-[#D29324] backdrop-blur-md transition-all duration-300 text-center flex flex-col items-center justify-center space-y-3 group hover:-translate-y-1.5 hover:shadow-2xl hover:shadow-black/40"
+              className={`p-6 sm:p-8 rounded-2xl bg-white/10 hover:bg-white/15 border border-white/20 hover:border-[#D29324] backdrop-blur-md transition-all duration-300 text-center flex flex-col items-center justify-center space-y-3 group hover:-translate-y-2 hover:shadow-2xl hover:shadow-[#D29324]/20 stagger-${index + 1}`}
             >
-              <div className="w-14 h-14 rounded-2xl bg-white/15 border border-white/20 flex items-center justify-center group-hover:bg-[#D29324]/30 group-hover:border-[#D29324]/60 group-hover:scale-110 transition-all duration-300 shadow-sm">
+              <div className="w-14 h-14 rounded-2xl bg-white/15 border border-white/20 flex items-center justify-center group-hover:bg-[#D29324]/30 group-hover:border-[#D29324]/60 group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 shadow-sm">
                 {iconMap[item.icon] || <Building2 className="w-7 h-7 text-[#D29324]" />}
               </div>
 
-              <div className="text-3xl sm:text-4xl lg:text-[40px] font-black text-transparent bg-clip-text bg-gradient-to-r from-[#FFF5DC] via-[#FFE2A7] to-[#D29324] tracking-tight drop-shadow-sm">
+              <div className="text-3xl sm:text-4xl lg:text-[40px] font-black text-transparent bg-clip-text bg-gradient-to-r from-[#FFF5DC] via-[#FFE2A7] to-[#D29324] tracking-tight drop-shadow-sm group-hover:scale-105 transition-transform duration-300">
                 {item.value}
               </div>
 

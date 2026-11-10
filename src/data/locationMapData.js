@@ -3,10 +3,13 @@
 // Provides verified coordinates, nearby landmarks with category filtering,
 // and property & land/plot locator data.
 
+import { MUMBAI_PROJECT_COORDINATES } from "./mumbaiProjectsRegistry";
+
 // ─────────────────────────────────────────────
 // 1. Verified Coordinates Registry by Project Slug/ID
 // ─────────────────────────────────────────────
 export const PROJECT_COORDINATES = {
+  ...MUMBAI_PROJECT_COORDINATES,
   // Reference Project: Sanpada, Navi Mumbai
   "godrej-eternal-palms": {
     lat: 19.0624,

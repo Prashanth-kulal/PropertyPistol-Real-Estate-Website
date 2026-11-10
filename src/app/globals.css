@@ -57,11 +57,15 @@ body {
 
 /* Card hover transitions */
 .property-card {
-  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease;
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+              box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+              border-color 0.3s ease;
+  will-change: transform, box-shadow;
 }
 .property-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 14px 30px -10px rgba(210, 147, 36, 0.15), 0 4px 12px -2px rgba(0, 0, 0, 0.05);
+  transform: translateY(-5px);
+  box-shadow: 0 20px 30px -10px rgba(210, 147, 36, 0.14), 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+  border-color: rgba(210, 147, 36, 0.45);
 }
 
 /* Glassmorphism accent */
@@ -74,19 +78,28 @@ body {
 .btn-primary {
   background-color: #D29324;
   color: #FFFFFF;
-  transition: all 0.2s ease;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
 .btn-primary:hover {
   background-color: #AE7419;
+  box-shadow: 0 6px 16px -2px rgba(210, 147, 36, 0.3);
+}
+.btn-primary:active {
+  transform: scale(0.98);
 }
 
 .btn-secondary {
   background-color: #FBF1DF;
   color: #AE7419;
   border: 1px solid #D29324;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
 .btn-secondary:hover {
   background-color: #f7e6c9;
+  box-shadow: 0 4px 12px -2px rgba(210, 147, 36, 0.15);
+}
+.btn-secondary:active {
+  transform: scale(0.98);
 }
 
 /* Shimmer animation */
@@ -97,6 +110,186 @@ body {
 
 .animate-shimmer {
   animation: shimmer 2s infinite;
+}
+
+/* ==========================================================================
+   Premium Animation & Polish System
+   ========================================================================== */
+
+/* Keyframe Animations */
+@keyframes heroFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes heroFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes heroScaleUp {
+  from {
+    opacity: 0;
+    transform: scale(0.98) translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes subtleFloat {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes pulseSubtle {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.88;
+    transform: scale(1.02);
+  }
+}
+
+/* Animation Utility Classes */
+.animate-hero-fade-up {
+  animation: heroFadeUp 0.65s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-hero-fade-in {
+  animation: heroFadeIn 0.75s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-hero-scale-up {
+  animation: heroScaleUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-subtle-float {
+  animation: subtleFloat 4s ease-in-out infinite;
+}
+
+.animate-pulse-subtle {
+  animation: pulseSubtle 3s ease-in-out infinite;
+}
+
+/* Scroll Reveal System */
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.reveal-on-scroll.is-revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-fade {
+  opacity: 0;
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity;
+}
+
+.reveal-fade.is-revealed {
+  opacity: 1;
+}
+
+/* Staggered Delays for Child Items */
+.stagger-1 { transition-delay: 60ms; }
+.stagger-2 { transition-delay: 120ms; }
+.stagger-3 { transition-delay: 180ms; }
+.stagger-4 { transition-delay: 240ms; }
+.stagger-5 { transition-delay: 300ms; }
+.stagger-6 { transition-delay: 360ms; }
+
+/* Interactive Card & Tile Utilities */
+.interactive-card {
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1),
+              box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1),
+              border-color 0.25s ease;
+}
+
+.interactive-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 25px -8px rgba(0, 0, 0, 0.08);
+}
+
+/* Tactile Button Press Micro-interaction */
+.btn-tactile {
+  transition: transform 0.15s cubic-bezier(0.16, 1, 0.3, 1),
+              box-shadow 0.2s ease,
+              background-color 0.2s ease;
+}
+
+.btn-tactile:active {
+  transform: scale(0.97);
+}
+
+/* Smooth Image Container Zoom */
+.img-smooth-zoom {
+  overflow: hidden;
+}
+
+.img-smooth-zoom img {
+  transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform;
+}
+
+.img-smooth-zoom:hover img {
+  transform: scale(1.06);
+}
+
+/* Accessibility: Respect Prefers Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .reveal-on-scroll,
+  .reveal-fade {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+
+  .animate-hero-fade-up,
+  .animate-hero-fade-in,
+  .animate-hero-scale-up,
+  .animate-subtle-float,
+  .animate-pulse-subtle {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .property-card:hover,
+  .interactive-card:hover {
+    transform: none !important;
+  }
 }
 
 /* Custom Leaflet Map Enhancements */

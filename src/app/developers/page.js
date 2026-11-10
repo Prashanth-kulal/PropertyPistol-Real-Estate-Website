@@ -20,7 +20,7 @@ import UnitConverterModal from "@/components/common/UnitConverterModal";
 import AuraAiModal from "@/components/common/AuraAiModal";
 import ProjectInquiryModal from "@/components/common/ProjectInquiryModal";
 
-import { DEVELOPERS_DATA } from "@/data/developersData";
+import { getAllDevelopers } from "@/data/developersData";
 
 export default function DevelopersDirectoryPage() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -35,7 +35,7 @@ export default function DevelopersDirectoryPage() {
 
   // Filter developers by search and city
   const filteredDevelopers = useMemo(() => {
-    let list = [...DEVELOPERS_DATA];
+    let list = getAllDevelopers();
 
     if (searchQuery.trim()) {
       const q = searchQuery.toLowerCase().trim();

@@ -153,11 +153,12 @@ export default function RailNetworkMap({
   const handleSelectProject = (project) => {
     setSelectedProject(project);
 
-    // Get coordinates from PROJECT_COORDINATES
+    // Get coordinates from PROJECT_COORDINATES or project lat/lng directly
     const coords =
       PROJECT_COORDINATES[project.id] ||
       PROJECT_COORDINATES[project.slug] ||
-      (project.name && PROJECT_COORDINATES[project.name.toLowerCase().replace(/[^a-z0-9]/g, "-")]);
+      (project.name && PROJECT_COORDINATES[project.name.toLowerCase().replace(/[^a-z0-9]/g, "-")]) ||
+      (project.lat && project.lng ? { lat: project.lat, lng: project.lng } : null);
 
     if (coords && coords.lat && coords.lng) {
       const nearest = getNearestStationForCoordinates(coords.lat, coords.lng, currentCityKey);
@@ -186,7 +187,8 @@ export default function RailNetworkMap({
       const coords =
         PROJECT_COORDINATES[selectedProject.id] ||
         PROJECT_COORDINATES[selectedProject.slug] ||
-        (selectedProject.name && PROJECT_COORDINATES[selectedProject.name.toLowerCase().replace(/[^a-z0-9]/g, "-")]);
+        (selectedProject.name && PROJECT_COORDINATES[selectedProject.name.toLowerCase().replace(/[^a-z0-9]/g, "-")]) ||
+        (selectedProject.lat && selectedProject.lng ? { lat: selectedProject.lat, lng: selectedProject.lng } : null);
       if (coords?.lat && coords?.lng) {
         targetLat = coords.lat;
         targetLng = coords.lng;
@@ -378,7 +380,7 @@ export default function RailNetworkMap({
                 <option value="">Filter by Project...</option>
                 {cityProjects.map((p) => (
                   <option key={p.id} value={p.id}>
-                    {p.name} ({p.location.split(",")[0]})
+                    {p.name} ({p.location ? p.location.split(",")[0] : p.locality || "Mumbai"})
                   </option>
                 ))}
               </select>

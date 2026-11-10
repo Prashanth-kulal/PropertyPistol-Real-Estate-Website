@@ -67,7 +67,7 @@ export default function TopCities({ onSelectCity }) {
         {/* Title & Navigation Controls Header */}
         <div className="flex items-end justify-between mb-8">
           <div>
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#FBF1DF] border border-[#D29324]/40 text-[#AE7419] text-xs font-semibold mb-2">
+            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#FBF1DF] border border-[#D29324]/40 text-[#AE7419] text-xs font-semibold mb-2 animate-pulse-subtle shadow-2xs">
               <MapPin className="w-3.5 h-3.5 text-[#D29324]" />
               <span>Pan-India Presence</span>
             </div>
@@ -83,7 +83,7 @@ export default function TopCities({ onSelectCity }) {
           <div className="hidden sm:flex items-center gap-2">
             <button
               onClick={scrollLeft}
-              className="w-10 h-10 rounded-full bg-white hover:bg-[#FBF1DF] border border-[#E8E3DA] text-gray-700 hover:text-[#AE7419] flex items-center justify-center transition-all shadow-xs hover:shadow-md cursor-pointer"
+              className="w-10 h-10 rounded-full bg-white hover:bg-[#FBF1DF] border border-[#E8E3DA] text-gray-700 hover:text-[#AE7419] flex items-center justify-center transition-all duration-200 hover:scale-105 active:scale-95 shadow-xs hover:shadow-md cursor-pointer btn-tactile"
               title="Previous Cities"
               aria-label="Previous Cities"
             >
@@ -91,7 +91,7 @@ export default function TopCities({ onSelectCity }) {
             </button>
             <button
               onClick={scrollRight}
-              className="w-10 h-10 rounded-full bg-[#D29324] hover:bg-[#AE7419] text-white flex items-center justify-center transition-all shadow-xs hover:shadow-md cursor-pointer"
+              className="w-10 h-10 rounded-full bg-[#D29324] hover:bg-[#AE7419] text-white flex items-center justify-center transition-all duration-200 hover:scale-105 active:scale-95 shadow-xs hover:shadow-md cursor-pointer btn-tactile"
               title="Next Cities"
               aria-label="Next Cities"
             >
@@ -105,14 +105,14 @@ export default function TopCities({ onSelectCity }) {
           {/* Edge Navigation Buttons Overlay */}
           <button
             onClick={scrollLeft}
-            className="sm:hidden absolute left-1 top-1/2 -translate-y-1/2 z-20 w-9 h-9 rounded-full bg-white/90 text-gray-800 flex items-center justify-center shadow-lg backdrop-blur-xs"
+            className="sm:hidden absolute left-1 top-1/2 -translate-y-1/2 z-20 w-9 h-9 rounded-full bg-white/90 text-gray-800 flex items-center justify-center shadow-lg backdrop-blur-xs transition-transform active:scale-90"
             aria-label="Previous"
           >
             <ChevronLeft className="w-4 h-4" />
           </button>
           <button
             onClick={scrollRight}
-            className="sm:hidden absolute right-1 top-1/2 -translate-y-1/2 z-20 w-9 h-9 rounded-full bg-white/90 text-gray-800 flex items-center justify-center shadow-lg backdrop-blur-xs"
+            className="sm:hidden absolute right-1 top-1/2 -translate-y-1/2 z-20 w-9 h-9 rounded-full bg-white/90 text-gray-800 flex items-center justify-center shadow-lg backdrop-blur-xs transition-transform active:scale-90"
             aria-label="Next"
           >
             <ChevronRight className="w-4 h-4" />
@@ -127,17 +127,17 @@ export default function TopCities({ onSelectCity }) {
               <div
                 key={city.id}
                 onClick={() => handleCardClick(city.id)}
-                className="w-[260px] sm:w-[280px] shrink-0 h-[370px] rounded-2xl overflow-hidden relative group cursor-pointer shadow-md hover:shadow-xl transition-all duration-300 border border-gray-200/60"
+                className="w-[260px] sm:w-[280px] shrink-0 h-[370px] rounded-2xl overflow-hidden relative group cursor-pointer shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 border border-gray-200/60"
               >
                 {/* Background City Photograph */}
                 <img
                   src={city.image || "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=800&q=80"}
                   alt={city.name}
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 absolute inset-0"
+                  className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110 absolute inset-0"
                 />
 
                 {/* Ambient Dark Gradient Overlays */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-black/20 group-hover:from-black/95 group-hover:via-black/90 group-hover:to-black/75 transition-all duration-300" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-black/20 group-hover:from-black/95 group-hover:via-black/90 group-hover:to-black/75 transition-all duration-500" />
 
                 {/* Default Clean View (Bottom-aligned, fades out smoothly on hover/active) */}
                 <div

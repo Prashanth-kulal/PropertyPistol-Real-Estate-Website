@@ -25,7 +25,7 @@ export default function ExclusiveShowcase({ onInquireProject }) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Heading */}
         <div className="text-center max-w-2xl mx-auto mb-10">
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#FBF1DF] border border-[#D29324]/40 text-[#AE7419] text-xs font-semibold mb-2">
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#FBF1DF] border border-[#D29324]/40 text-[#AE7419] text-xs font-semibold mb-2 animate-pulse-subtle shadow-2xs">
             <Crown className="w-3.5 h-3.5 text-[#D29324]" />
             <span>Ultra Luxury Collection</span>
           </div>
@@ -38,22 +38,23 @@ export default function ExclusiveShowcase({ onInquireProject }) {
         </div>
 
         {/* Featured Showcase Card */}
-        <div className="relative bg-white rounded-3xl border border-[#E8E3DA] shadow-xl overflow-hidden">
+        <div className="relative bg-white rounded-3xl border border-[#E8E3DA] shadow-xl hover:shadow-2xl hover:border-[#D29324]/40 transition-all duration-500 overflow-hidden">
           <div className="grid grid-cols-1 lg:grid-cols-12 items-stretch">
             {/* Image Banner */}
             <div className="lg:col-span-7 relative min-h-[320px] sm:min-h-[420px] overflow-hidden group">
               <Link href={`/projects/${projectSlug}`} className="block w-full h-full">
                 <img
+                  key={current.id}
                   src={current.image}
                   alt={current.name}
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                 />
               </Link>
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-black/20 pointer-events-none"></div>
 
               {/* Exclusive Tag Badge */}
               <div className="absolute top-5 left-5 pointer-events-none">
-                <span className="px-3.5 py-1.5 rounded-full bg-[#D29324] text-white text-xs font-bold tracking-wider uppercase shadow-md flex items-center gap-1.5">
+                <span className="px-3.5 py-1.5 rounded-full bg-[#D29324] text-white text-xs font-bold tracking-wider uppercase shadow-md flex items-center gap-1.5 backdrop-blur-xs">
                   <Sparkles className="w-3.5 h-3.5" />
                   {current.badge}
                 </span>
@@ -68,13 +69,15 @@ export default function ExclusiveShowcase({ onInquireProject }) {
               <div className="absolute bottom-5 right-5 flex items-center gap-2 z-10">
                 <button
                   onClick={prevSlide}
-                  className="w-10 h-10 rounded-full bg-white/80 hover:bg-white text-[#252525] flex items-center justify-center backdrop-blur-xs transition-all shadow-md cursor-pointer"
+                  className="w-10 h-10 rounded-full bg-white/80 hover:bg-white text-[#252525] flex items-center justify-center backdrop-blur-xs transition-all duration-200 hover:scale-105 active:scale-95 shadow-md cursor-pointer"
+                  aria-label="Previous Showcase"
                 >
                   <ChevronLeft className="w-5 h-5" />
                 </button>
                 <button
                   onClick={nextSlide}
-                  className="w-10 h-10 rounded-full bg-[#D29324] hover:bg-[#AE7419] text-white flex items-center justify-center transition-all shadow-md cursor-pointer"
+                  className="w-10 h-10 rounded-full bg-[#D29324] hover:bg-[#AE7419] text-white flex items-center justify-center transition-all duration-200 hover:scale-105 active:scale-95 shadow-md cursor-pointer"
+                  aria-label="Next Showcase"
                 >
                   <ChevronRight className="w-5 h-5" />
                 </button>
@@ -105,7 +108,7 @@ export default function ExclusiveShowcase({ onInquireProject }) {
                 </p>
 
                 <div className="pt-2 border-t border-[#E8E3DA] grid grid-cols-2 gap-4">
-                  <div>
+                  <div className="p-2.5 rounded-xl bg-white/70 border border-[#E8E3DA]/80">
                     <span className="text-[11px] uppercase text-gray-400 font-semibold block">
                       Configuration
                     </span>
@@ -113,7 +116,7 @@ export default function ExclusiveShowcase({ onInquireProject }) {
                       {current.configuration}
                     </span>
                   </div>
-                  <div>
+                  <div className="p-2.5 rounded-xl bg-white/70 border border-[#E8E3DA]/80">
                     <span className="text-[11px] uppercase text-gray-400 font-semibold block">
                       Investment Range
                     </span>
@@ -127,10 +130,10 @@ export default function ExclusiveShowcase({ onInquireProject }) {
               <div className="pt-6 mt-6 border-t border-[#E8E3DA] flex flex-col sm:flex-row items-center gap-3">
                 <Link
                   href={`/projects/${projectSlug}`}
-                  className="w-full sm:flex-1 py-3 px-5 rounded-xl bg-[#D29324] hover:bg-[#AE7419] text-white text-xs font-bold transition-all shadow-md flex items-center justify-center gap-2 cursor-pointer"
+                  className="w-full sm:flex-1 py-3 px-5 rounded-xl bg-[#D29324] hover:bg-[#AE7419] text-white text-xs font-bold transition-all shadow-md hover:shadow-lg flex items-center justify-center gap-2 cursor-pointer btn-tactile group/cta"
                 >
                   <span>Explore Project Details</span>
-                  <ArrowRight className="w-4 h-4" />
+                  <ArrowRight className="w-4 h-4 group-hover/cta:translate-x-1 transition-transform duration-200" />
                 </Link>
                 <button
                   onClick={() =>
@@ -145,7 +148,7 @@ export default function ExclusiveShowcase({ onInquireProject }) {
                       images: [current.image]
                     })
                   }
-                  className="w-full sm:w-auto py-3 px-5 rounded-xl border border-[#E8E3DA] bg-white hover:bg-[#FAF8F4] text-xs font-bold text-[#252525] text-center transition-colors cursor-pointer"
+                  className="w-full sm:w-auto py-3 px-5 rounded-xl border border-[#E8E3DA] hover:border-[#D29324] bg-white hover:bg-[#FAF8F4] text-xs font-bold text-[#252525] hover:text-[#AE7419] text-center transition-all duration-200 cursor-pointer btn-tactile"
                 >
                   Inquire
                 </button>
@@ -160,10 +163,10 @@ export default function ExclusiveShowcase({ onInquireProject }) {
             <button
               key={item.id}
               onClick={() => setActiveIndex(idx)}
-              className={`px-4 py-2 rounded-xl text-xs font-medium border transition-all ${
+              className={`px-4 py-2 rounded-xl text-xs font-medium border transition-all duration-300 btn-tactile ${
                 activeIndex === idx
-                  ? "border-[#D29324] bg-[#FBF1DF] text-[#AE7419] font-bold shadow-xs"
-                  : "border-[#E8E3DA] bg-white text-gray-600 hover:border-[#D29324]"
+                  ? "border-[#D29324] bg-[#FBF1DF] text-[#AE7419] font-bold shadow-xs scale-[1.02]"
+                  : "border-[#E8E3DA] bg-white text-gray-600 hover:border-[#D29324] hover:text-gray-900"
               }`}
             >
               {item.name.replace("Aura ", "")}

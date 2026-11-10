@@ -242,7 +242,58 @@ export function resolveCategory(rawSlug) {
     };
   }
 
-  // 2. Check for locality slug (e.g. real-estate-projects-in-sanpada)
+  // 2. Check for region slug (e.g. flats-in-region-western-suburbs)
+  if (s.includes("region-") || s.includes("flats-in-region-")) {
+    const regSlug = s.replace(/^.*region-/, "").trim();
+    const REGION_MAP = {
+      "western-suburbs": "Western Suburbs",
+      "central-mumbai": "Central Mumbai",
+      "south-mumbai": "South Mumbai",
+      "navi-mumbai": "Navi Mumbai",
+      "thane": "Thane",
+      "beyond-thane": "Beyond Thane",
+      "mira-road-and-beyond": "Mira Road and Beyond",
+      "raigad": "Raigad"
+    };
+    const regName = REGION_MAP[regSlug] || regSlug.split("-").map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+
+    return {
+      id: `region-${regSlug}`,
+      slugKey: rawSlug,
+      regionFilter: regName,
+      getCitySlug: (city) => `flats-in-region-${regSlug}`,
+      label: `Flats in ${regName}`,
+      titleTemplate: (city) => `Flats for Sale in ${regName}, ${city} – PropertyPistol`,
+      h1Template: (city) => `Real Estate & Residential Projects in ${regName}, ${city}`,
+      metaDesc: (city) => `Explore verified apartments, new launches, and ready to move flats for sale in ${regName}, ${city} with zero brokerage.`,
+      breadcrumbLabel: (city) => `${regName} Flats`,
+      statusFilterDefault: "all",
+      pills: [
+        { id: "all", label: `All in ${regName}` },
+        { id: "new-launch", label: "New Launch" },
+        { id: "under-construction", label: "Under Construction" },
+        { id: "ready-to-move", label: "Ready to Move" },
+        { id: "rera-registered", label: "RERA Registered" }
+      ],
+      overviewTitle: (city) => `Overview of Real Estate in ${regName}`,
+      overviewContent: (city) => [
+        `${regName} represents a premier residential and investment corridor in ${city}, offering high-rise apartments, integrated communities, and superior connectivity.`,
+        `All listed projects in ${regName} comply strictly with MahaRERA guidelines, providing buyers with verified pricing and authentic developer documentation.`
+      ],
+      faqs: (city) => [
+        {
+          q: `What are the advantages of buying property in ${regName}?`,
+          a: `${regName} offers competitive real estate capital appreciation, expanding transit hubs, and a rich selection of lifestyle communities.`
+        },
+        {
+          q: `Are all listed projects in ${regName} RERA compliant?`,
+          a: `Yes, all properties listed in ${regName} feature valid MahaRERA registration certificates and sanctioned plans.`
+        }
+      ]
+    };
+  }
+
+  // 3. Check for locality slug (e.g. real-estate-projects-in-sanpada)
   if (
     s.includes("real-estate-projects-in-") ||
     (s.includes("-in-") &&

@@ -11,11 +11,12 @@ import {
   Building2,
   Sparkles
 } from "lucide-react";
-import { DEVELOPERS_DATA } from "@/data/developersData";
+import { getAllDevelopers } from "@/data/developersData";
 
 export default function DevelopersSection({ onSelectDeveloper }) {
   const scrollRef = useRef(null);
   const router = useRouter();
+  const developers = getAllDevelopers();
 
   const scrollLeft = () => {
     if (scrollRef.current) {
@@ -44,7 +45,7 @@ export default function DevelopersSection({ onSelectDeveloper }) {
         {/* Title, Badge & Navigation Controls */}
         <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-8 gap-4">
           <div>
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#FBF1DF] border border-[#D29324]/40 text-[#AE7419] text-xs font-semibold mb-2">
+            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#FBF1DF] border border-[#D29324]/40 text-[#AE7419] text-xs font-semibold mb-2 animate-pulse-subtle shadow-2xs">
               <Award className="w-3.5 h-3.5 text-[#D29324]" />
               <span>Grade-A Builder Partnerships</span>
             </div>
@@ -60,16 +61,16 @@ export default function DevelopersSection({ onSelectDeveloper }) {
           <div className="flex items-center gap-3">
             <Link
               href="/developers"
-              className="hidden md:inline-flex items-center gap-1.5 px-4 py-2 rounded-xl border border-[#E8E3DA] hover:border-[#D29324] bg-[#FAF8F4] hover:bg-white text-xs font-bold text-[#AE7419] transition-all shadow-2xs hover:shadow-sm"
+              className="hidden md:inline-flex items-center gap-1.5 px-4 py-2 rounded-xl border border-[#E8E3DA] hover:border-[#D29324] bg-[#FAF8F4] hover:bg-white text-xs font-bold text-[#AE7419] transition-all shadow-2xs hover:shadow-sm btn-tactile hover:scale-[1.02] group/devbtn"
             >
               <span>View All Developers</span>
-              <ArrowUpRight className="w-3.5 h-3.5" />
+              <ArrowUpRight className="w-3.5 h-3.5 group-hover/devbtn:translate-x-0.5 group-hover/devbtn:-translate-y-0.5 transition-transform duration-200" />
             </Link>
 
             <div className="flex items-center gap-2">
               <button
                 onClick={scrollLeft}
-                className="w-10 h-10 rounded-full bg-white hover:bg-[#FBF1DF] border border-[#E8E3DA] text-gray-700 hover:text-[#AE7419] flex items-center justify-center transition-all shadow-2xs hover:shadow-md cursor-pointer"
+                className="w-10 h-10 rounded-full bg-white hover:bg-[#FBF1DF] border border-[#E8E3DA] text-gray-700 hover:text-[#AE7419] flex items-center justify-center transition-all duration-200 hover:scale-105 active:scale-95 shadow-2xs hover:shadow-md cursor-pointer btn-tactile"
                 title="Previous Developers"
                 aria-label="Previous Developers"
               >
@@ -77,7 +78,7 @@ export default function DevelopersSection({ onSelectDeveloper }) {
               </button>
               <button
                 onClick={scrollRight}
-                className="w-10 h-10 rounded-full bg-[#D29324] hover:bg-[#AE7419] text-white flex items-center justify-center transition-all shadow-2xs hover:shadow-md cursor-pointer"
+                className="w-10 h-10 rounded-full bg-[#D29324] hover:bg-[#AE7419] text-white flex items-center justify-center transition-all duration-200 hover:scale-105 active:scale-95 shadow-2xs hover:shadow-md cursor-pointer btn-tactile"
                 title="Next Developers"
                 aria-label="Next Developers"
               >
@@ -92,18 +93,18 @@ export default function DevelopersSection({ onSelectDeveloper }) {
           ref={scrollRef}
           className="flex items-stretch gap-5 overflow-x-auto scroll-smooth no-scrollbar py-2"
         >
-          {DEVELOPERS_DATA.map((dev) => {
+          {developers.map((dev) => {
             const featured = dev.featuredProjects?.[0];
             return (
               <div
                 key={dev.slug}
                 onClick={(e) => handleCardClick(dev, e)}
-                className="w-[280px] sm:w-[310px] shrink-0 p-5 rounded-2xl border border-[#E8E3DA] bg-[#FAF8F4] hover:bg-white hover:border-[#D29324] hover:shadow-xl transition-all flex flex-col justify-between cursor-pointer group"
+                className="w-[280px] sm:w-[310px] shrink-0 p-5 rounded-2xl border border-[#E8E3DA] bg-[#FAF8F4] hover:bg-white hover:border-[#D29324] hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col justify-between cursor-pointer group"
               >
                 {/* Developer Identity Row */}
                 <div>
                   <div className="flex items-start gap-3.5 mb-3">
-                    <div className="w-14 h-14 rounded-xl bg-white border border-[#E8E3DA] p-1.5 flex items-center justify-center shrink-0 shadow-2xs group-hover:border-[#D29324] transition-colors overflow-hidden">
+                    <div className="w-14 h-14 rounded-xl bg-white border border-[#E8E3DA] p-1.5 flex items-center justify-center shrink-0 shadow-2xs group-hover:border-[#D29324] group-hover:scale-105 transition-all duration-300 overflow-hidden">
                       {dev.logo ? (
                         <img
                           src={dev.logo}
@@ -150,7 +151,7 @@ export default function DevelopersSection({ onSelectDeveloper }) {
                       <img
                         src={featured.image}
                         alt={featured.title}
-                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                        className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-108"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
                       <div className="absolute bottom-2 left-2 right-2 flex items-end justify-between text-white">
@@ -175,7 +176,7 @@ export default function DevelopersSection({ onSelectDeveloper }) {
                   <span className="group-hover:text-[#D29324] transition-colors">
                     Explore Developer Portfolio
                   </span>
-                  <div className="w-7 h-7 rounded-full bg-[#FBF1DF] group-hover:bg-[#D29324] text-[#AE7419] group-hover:text-white flex items-center justify-center transition-all">
+                  <div className="w-7 h-7 rounded-full bg-[#FBF1DF] group-hover:bg-[#D29324] text-[#AE7419] group-hover:text-white flex items-center justify-center transition-all duration-300 group-hover:scale-110 group-hover:rotate-45">
                     <ArrowUpRight className="w-4 h-4" />
                   </div>
                 </div>

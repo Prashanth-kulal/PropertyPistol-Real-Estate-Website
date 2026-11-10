@@ -30,7 +30,17 @@ export default function Header({
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
   const [servicesDropdownOpen, setServicesDropdownOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
   const dropdownRef = useRef(null);
+
+  // Monitor scroll for subtle shadow and glass elevation
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 15);
+    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   // Close dropdown when clicking or touching outside
   useEffect(() => {
@@ -81,7 +91,9 @@ export default function Header({
   ];
 
   return (
-    <header className="bg-white border-b border-gray-200/80 sticky top-0 z-40">
+    <header className={`sticky top-0 z-40 transition-all duration-300 ${
+      isScrolled ? "bg-white/95 backdrop-blur-md shadow-xs border-b border-[#E8E3DA]" : "bg-white border-b border-gray-200/80"
+    }`}>
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-10 h-[70px] flex items-center justify-between">
         {/* Left: Brand Logo & Main Nav Menu */}
         <div className="flex items-center gap-8 lg:gap-10">

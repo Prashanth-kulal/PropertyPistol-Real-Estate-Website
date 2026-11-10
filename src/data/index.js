@@ -1,8 +1,10 @@
 // AuraLiving Mock Data Store
 // Structured for seamless future integration with GET /api/listings and Node/Express/MongoDB backend
 
+import { MUMBAI_REGISTRY_PROJECTS } from "./mumbaiProjectsRegistry.js";
+
 export const CITIES = [
-  { id: "mumbai", name: "Mumbai", state: "Maharashtra", projectsCount: 1420, popular: true, image: "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=800&q=80" },
+  { id: "mumbai", name: "Mumbai", state: "Maharashtra", projectsCount: 662, popular: true, image: "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=800&q=80" },
   { id: "pune", name: "Pune", state: "Maharashtra", projectsCount: 980, popular: true, image: "https://images.unsplash.com/photo-1588416936097-41850ab3d86d?auto=format&fit=crop&w=800&q=80" },
   { id: "delhi", name: "Delhi NCR", state: "Delhi", projectsCount: 1150, popular: true, image: "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=800&q=80" },
   { id: "bangalore", name: "Bangalore", state: "Karnataka", projectsCount: 1320, popular: true, image: "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?auto=format&fit=crop&w=800&q=80" },
@@ -36,141 +38,7 @@ export const SEARCH_SHORTCUTS = [
   "Cyber City Gurugram"
 ];
 
-export const PROJECTS = [
-  {
-    id: "proj-1",
-    name: "Godrej Eternal Palms",
-    builder: "Godrej Properties",
-    builderLogo: "https://images.unsplash.com/photo-1541888946425-d0fbb186f5f7?auto=format&fit=crop&w=120&h=120&q=80",
-    city: "mumbai",
-    location: "Sanpada, Navi Mumbai",
-    price: "2.68 Cr",
-    priceNumeric: 26800000,
-    avgPrice: "₹33.48 K / sq.ft",
-    flatTypes: "2 BHK, 3 BHK",
-    carpetArea: "800 - 1,408 sq.ft",
-    status: "Under Construction",
-    rera: "P51700049211",
-    tag: "Exclusive",
-    rating: 4.8,
-    images: [
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=80"
-    ],
-    features: ["Infinity Pool", "Clubhouse", "Panoramic Sea View", "EV Charging"]
-  },
-  {
-    id: "proj-2",
-    name: "L&T Island Cove",
-    builder: "L&T Realty",
-    builderLogo: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=120&h=120&q=80",
-    city: "mumbai",
-    location: "Mahim West, Mumbai",
-    price: "3.15 Cr",
-    priceNumeric: 31500000,
-    avgPrice: "₹46.38 K / sq.ft",
-    flatTypes: "2 BHK, 3 BHK",
-    carpetArea: "680 - 1,394 sq.ft",
-    status: "New Launch",
-    rera: "P51900052341",
-    tag: "Featured",
-    rating: 4.9,
-    images: [
-      "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=900&q=80"
-    ],
-    features: ["Bandra-Worli Sealink View", "Sky Lounge", "Smart Home Automation"]
-  },
-  {
-    id: "proj-3",
-    name: "L&T Elixir Reserve",
-    builder: "L&T Realty",
-    builderLogo: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=120&h=120&q=80",
-    city: "mumbai",
-    location: "Powai, Mumbai",
-    price: "2.61 Cr",
-    priceNumeric: 26100000,
-    avgPrice: "₹36.6 K / sq.ft",
-    flatTypes: "2 BHK, 3 BHK, 4 BHK",
-    carpetArea: "713 - 2,200 sq.ft",
-    status: "Under Construction",
-    rera: "P51800034102",
-    tag: "Luxury",
-    rating: 4.7,
-    images: [
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=900&q=80"
-    ],
-    features: ["Lake Facing", "Forest Trail", "Olympic Pool", "Spa & Wellness"]
-  },
-  {
-    id: "proj-4",
-    name: "Tata Orbis",
-    builder: "Tata Housing",
-    builderLogo: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=120&h=120&q=80",
-    city: "mumbai",
-    location: "Ghansoli, Navi Mumbai",
-    price: "1.99 Cr",
-    priceNumeric: 19900000,
-    avgPrice: "₹26.53 K / sq.ft",
-    flatTypes: "2 BHK, 3 BHK",
-    carpetArea: "750 - 1,155 sq.ft",
-    status: "Under Construction",
-    rera: "P51700048129",
-    tag: "Trending",
-    rating: 4.8,
-    images: [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=900&q=80"
-    ],
-    features: ["Metro Connectivity", "Rooftop Garden", "Sports Complex"]
-  },
-  {
-    id: "proj-5",
-    name: "Kanakia Valley",
-    builder: "Kanakia Spaces",
-    builderLogo: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=120&h=120&q=80",
-    city: "mumbai",
-    location: "Panvel, Navi Mumbai",
-    price: "56.9 Lacs",
-    priceNumeric: 5690000,
-    avgPrice: "₹14.23 K / sq.ft",
-    flatTypes: "1 BHK, 2 BHK",
-    carpetArea: "400 - 600 sq.ft",
-    status: "Ready to Move",
-    rera: "P52000021980",
-    tag: "Affordable",
-    rating: 4.6,
-    images: [
-      "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=900&q=80"
-    ],
-    features: ["Airport Proximity", "Clubhouse", "Lush Greens"]
-  },
-  {
-    id: "proj-6",
-    name: "L&T Vayam",
-    builder: "L&T Realty",
-    builderLogo: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=120&h=120&q=80",
-    city: "mumbai",
-    location: "Thane West",
-    price: "1.4 Cr",
-    priceNumeric: 14000000,
-    avgPrice: "₹12.56 K / sq.ft",
-    flatTypes: "2 BHK, 4 BHK",
-    carpetArea: "1,113 - 2,413 sq.ft",
-    status: "Under Construction",
-    rera: "P51700054321",
-    tag: "New Launch",
-    rating: 4.8,
-    images: [
-      "https://images.unsplash.com/photo-1574362848149-11496d93a7c7?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80"
-    ],
-    features: ["Yeoor Hills View", "Grand Podium", "Jogging Track"]
-  },
+export const NON_MUMBAI_PROJECTS = [
   {
     id: "proj-7",
     name: "Prestige Falcon City",
@@ -239,6 +107,10 @@ export const PROJECTS = [
   }
 ];
 
+export const PROJECTS = [
+  ...MUMBAI_REGISTRY_PROJECTS,
+  ...NON_MUMBAI_PROJECTS
+];
 export const EXCLUSIVE_PROJECTS = [
   {
     id: "ex-1",
@@ -276,9 +148,49 @@ export const EXCLUSIVE_PROJECTS = [
     badge: "Golden Visa Eligible",
     description: "Direct Burj Khalifa and Dubai Fountain views with zero tax investment and guaranteed 8% rental yield."
   }
+,
+  {
+    id: "prestige-nautilus",
+    slug: "prestige-nautilus",
+    name: "Prestige Nautilus",
+    builder: "Prestige Group",
+    city: "Mumbai",
+    location: "Worli, South Mumbai",
+    priceRange: "₹42.0 Cr onwards",
+    configuration: "4 & 5 BHK Ultra Luxury Sea Mansions",
+    image: "/projects/4407/cover.jpg",
+    badge: "Ultra Luxury",
+    description: "Iconic Worli seafront landmark featuring uninterrupted Arabian Sea panoramas, private elevator foyers, and world-class concierge services."
+  },
+  {
+    id: "lt-the-gateway",
+    slug: "lt-the-gateway",
+    name: "L&T The Gateway",
+    builder: "L&T Realty",
+    city: "Mumbai",
+    location: "Sewri, South Mumbai",
+    priceRange: "₹11.73 Cr onwards",
+    configuration: "3 & 4 BHK Luxury Residences",
+    image: "/projects/16032/cover.jpg",
+    badge: "Exclusive Launch",
+    description: "Panoramic harbour views overlooking the Mumbai Trans Harbour Link (Atal Setu), crafted with expansive double-height sundecks."
+  },
+  {
+    id: "godrej-eternal-palms",
+    slug: "godrej-eternal-palms",
+    name: "Godrej Eternal Palms",
+    builder: "Godrej Properties",
+    city: "Mumbai",
+    location: "Sanpada, Navi Mumbai",
+    priceRange: "₹4.89 Cr onwards",
+    configuration: "3 BHK Apartment",
+    image: "/projects/20550/cover.jpg",
+    badge: "RERA Verified",
+    description: "Ultra-premium green living in the heart of Sanpada with 70% open landscaped spaces, modern smart homes, and high-speed Atal Setu transit."
+  }
 ];
 
-export { DEVELOPERS_DATA, getDeveloperBySlug, getAllDevelopers, getRelatedDevelopers } from "./developersData";
+export { DEVELOPERS_DATA, getDeveloperBySlug, getAllDevelopers, getRelatedDevelopers } from "./developersData.js";
 
 export const DEVELOPERS = [
   { id: "godrej", slug: "godrej-properties", name: "Godrej Properties", experience: "34 Years", projects: "140+ Projects", logo: "https://s3.ap-south-1.amazonaws.com/website-prod-public/builders/logos/000/000/007/medium/godrej.jpg?1578047383" },
@@ -448,4 +360,4 @@ export {
   getProjectSlug,
   getProjectBySlug,
   getAllProjectSlugs
-} from "./projectsData";
+} from "./projectsData.js";

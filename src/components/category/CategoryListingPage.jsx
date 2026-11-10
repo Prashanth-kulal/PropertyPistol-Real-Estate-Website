@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useMemo } from "react";
+import React, { useState, useMemo, useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import {
@@ -38,9 +38,24 @@ import AuraAiModal from "@/components/common/AuraAiModal";
 import WishlistButton from "@/components/common/WishlistButton";
 import CompareCheckbox from "@/components/common/CompareCheckbox";
 import CompareTray from "@/components/common/CompareTray";
+import { useWishlist } from "@/context/WishlistContext";
 import { CITIES, getProjectSlug } from "@/data";
 import { getCityDetails, getPropertiesForCity } from "@/data/cityData";
 import { resolveCategory } from "@/data/categoryData";
+
+// Helper for dynamic numbered pagination with ellipses (matching Screenshot 2)
+function getPageNumbers(current, total) {
+  if (total <= 7) {
+    return Array.from({ length: total }, (_, i) => i + 1);
+  }
+  if (current <= 3) {
+    return [1, 2, 3, "...", total];
+  }
+  if (current >= total - 2) {
+    return [1, "...", total - 2, total - 1, total];
+  }
+  return [1, "...", current - 1, current, current + 1, "...", total];
+}
 
 export default function CategoryListingPage({ cityId = "mumbai", categorySlug = "new-projects" }) {
   const router = useRouter();
@@ -69,6 +84,9 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
     return getPropertiesForCity(matchedCity.id);
   }, [matchedCity.id]);
 
+  // Wishlist context
+  const { savedCount } = useWishlist ? useWishlist() : { savedCount: 0 };
+
   // Modals state
   const [isCityModalOpen, setIsCityModalOpen] = useState(false);
   const [isAiModalOpen, setIsAiModalOpen] = useState(false);
@@ -82,7 +100,25 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
   const [selectedPossession, setSelectedPossession] = useState("all");
   const [sortBy, setSortBy] = useState("relevance");
   const [showMobileFilterDrawer, setShowMobileFilterDrawer] = useState(false);
-  const [visibleCount, setVisibleCount] = useState(12);
+
+  // Quick Filter Chips State (Screenshot 1: New Projects, Ready to Move, 70 L - 1 Cr, Possession in 1 Year)
+  const [activeQuickFilter, setActiveQuickFilter] = useState("new-projects");
+
+  // Pagination State (Screenshot 2: 20 per page)
+  const [currentPage, setCurrentPage] = useState(1);
+  const PAGE_SIZE = 20;
+
+  // Floating Back to Top Button state (Screenshot 2)
+  const [showScrollTop, setShowScrollTop] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setShowScrollTop(window.scrollY > 300);
+    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    handleScroll();
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   // Accordion Expand/Collapse States for Sidebar
   const [openAccordions, setOpenAccordions] = useState({
@@ -126,13 +162,30 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
   };
 
   const handleResetFilters = () => {
+    setActiveQuickFilter("all");
     setSelectedBhk("all");
     setSelectedBudget("all");
     setSelectedAmenity("all");
     setSelectedPossession("all");
     setSearchQuery("");
     setSortBy("relevance");
+    setCurrentPage(1);
   };
+
+  // Automatically reset to page 1 whenever any filter, search or sort changes
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [
+    selectedBhk,
+    selectedBudget,
+    selectedAmenity,
+    selectedPossession,
+    searchQuery,
+    sortBy,
+    activeQuickFilter,
+    cityId,
+    categorySlug
+  ]);
 
   // Switch City while preserving current category
   const handleCityChange = (newCity) => {
@@ -143,38 +196,62 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
     router.push(`/${newCity}/buy/${targetSlug}`);
   };
 
-  // Safe Back Navigation returning to originating City page
-  const handleBackNavigation = () => {
-    if (
-      typeof window !== "undefined" &&
-      window.history.length > 1 &&
-      document.referrer &&
-      document.referrer.includes(window.location.host) &&
-      !document.referrer.endsWith(window.location.pathname)
-    ) {
-      router.back();
-    } else {
-      router.push(`/${matchedCity.id}`);
-    }
-  };
-
   // Filtered and sorted properties for this category
   const filteredProperties = useMemo(() => {
     let list = [...rawProperties];
 
     // Category-specific or Custom-slug base filtering
     if (categoryConfig.developerFilter) {
-      const devMatch = list.filter((p) =>
-        p.builder.toLowerCase().includes(categoryConfig.developerFilter.toLowerCase())
-      );
+      const devQ = categoryConfig.developerFilter.toLowerCase().replace(/[^a-z0-9]/g, "");
+      const devMatch = list.filter((p) => {
+        const bNorm = (p.builder || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+        const sNorm = (p.developerSlug || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+        return bNorm.includes(devQ) || devQ.includes(bNorm) || sNorm.includes(devQ) || devQ.includes(sNorm);
+      });
       if (devMatch.length > 0) list = devMatch;
+    } else if (categoryConfig.regionFilter) {
+      const regMatch = list.filter(
+        (p) =>
+          (p.region && p.region.toLowerCase().includes(categoryConfig.regionFilter.toLowerCase())) ||
+          (p.location && p.location.toLowerCase().includes(categoryConfig.regionFilter.toLowerCase()))
+      );
+      if (regMatch.length > 0) list = regMatch;
     } else if (categoryConfig.localityFilter) {
+      const locQ = categoryConfig.localityFilter.toLowerCase();
       const locMatch = list.filter(
         (p) =>
-          p.location.toLowerCase().includes(categoryConfig.localityFilter.toLowerCase()) ||
-          p.name.toLowerCase().includes(categoryConfig.localityFilter.toLowerCase())
+          (p.locality && p.locality.toLowerCase().includes(locQ)) ||
+          (p.location && p.location.toLowerCase().includes(locQ)) ||
+          (p.name && p.name.toLowerCase().includes(locQ))
       );
       if (locMatch.length > 0) list = locMatch;
+    }
+
+    // Quick Filter Chips Logic (Screenshot 1)
+    if (activeQuickFilter === "new-projects") {
+      list = list.filter((p) => {
+        const st = (p.status || p.possessionStatus || "").toLowerCase();
+        return st.includes("new") || st.includes("construction") || st.includes("launch") || st.includes("under");
+      });
+    } else if (activeQuickFilter === "ready-to-move") {
+      list = list.filter((p) => {
+        const st = (p.status || p.possessionStatus || "").toLowerCase();
+        const pos = (p.possessionDate || p.possession || "").toLowerCase();
+        return st.includes("ready") || pos.includes("ready") || st.includes("immediate") || pos.includes("immediate");
+      });
+    } else if (activeQuickFilter === "70l-1cr") {
+      list = list.filter((p) => (p.priceNumeric || 0) >= 7000000 && (p.priceNumeric || 0) <= 10000000);
+    } else if (activeQuickFilter === "possession-1yr") {
+      list = list.filter((p) => {
+        const pos = (p.possessionDate || p.possession || p.possessionStatus || "").toLowerCase();
+        return (
+          pos.includes("2024") ||
+          pos.includes("2025") ||
+          pos.includes("2026") ||
+          pos.includes("ready") ||
+          pos.includes("immediate")
+        );
+      });
     }
 
     // BHK filter
@@ -255,7 +332,9 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
   }, [
     rawProperties,
     categoryConfig.developerFilter,
+    categoryConfig.regionFilter,
     categoryConfig.localityFilter,
+    activeQuickFilter,
     selectedBhk,
     selectedBudget,
     selectedAmenity,
@@ -263,6 +342,11 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
     searchQuery,
     sortBy
   ]);
+
+  // Dynamic Pagination calculations (20 items per page)
+  const totalPages = Math.max(1, Math.ceil(filteredProperties.length / PAGE_SIZE));
+  const startIndex = (currentPage - 1) * PAGE_SIZE;
+  const paginatedProperties = filteredProperties.slice(startIndex, startIndex + PAGE_SIZE);
 
   const cityFaqs = useMemo(() => {
     return categoryConfig.faqs(matchedCity.name);
@@ -273,18 +357,19 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
   }, [categoryConfig, matchedCity.name]);
 
   const hasActiveFilters =
+    activeQuickFilter !== "all" ||
     selectedBhk !== "all" ||
     selectedBudget !== "all" ||
     selectedAmenity !== "all" ||
     selectedPossession !== "all" ||
-    searchQuery !== "";
+    searchQuery.trim() !== "";
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#F9FAFB] text-[#252525] selection:bg-[#D29324] selection:text-white">
+    <div className="min-h-screen flex flex-col bg-[#F9FAFB] text-[#252525] selection:bg-[#EA580C] selection:text-white">
       {/* Toast Alert */}
       {toastMessage && (
         <div className="fixed bottom-6 right-6 z-50 bg-[#252525] text-white px-5 py-3 rounded-2xl shadow-2xl border border-white/10 text-xs font-semibold flex items-center gap-2.5 animate-in fade-in duration-300">
-          <CheckCircle2 className="w-4 h-4 text-[#D29324]" />
+          <CheckCircle2 className="w-4 h-4 text-[#EA580C]" />
           <span>{toastMessage}</span>
         </div>
       )}
@@ -296,56 +381,72 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
         onOpenAiModal={() => setIsAiModalOpen(true)}
       />
 
-      {/* 2. Breadcrumbs & Header Bar */}
-      <div className="bg-white border-b border-[#E8E3DA] py-2.5">
-        <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between gap-3">
-          <div className="flex items-center gap-3 min-w-0">
-            <button
-              type="button"
-              onClick={handleBackNavigation}
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl border border-[#E8E3DA] bg-[#FAF8F4] hover:bg-[#FBF1DF] text-xs font-bold text-[#252525] hover:text-[#AE7419] transition-all cursor-pointer shrink-0 group"
-              title={`Back to ${matchedCity.name} City Page`}
-            >
-              <ArrowLeft className="w-3.5 h-3.5 text-[#D29324] group-hover:-translate-x-0.5 transition-transform" />
-              <span>Back</span>
-            </button>
+      {/* 2. Sticky Sub-Search Bar below Header matching Screenshot 1 */}
+      <div className="bg-white border-b border-gray-200/80 sticky top-[70px] z-30 shadow-2xs">
+        <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-2.5 flex items-center gap-3">
+          {/* City Selector Pill */}
+          <button
+            type="button"
+            onClick={() => setIsCityModalOpen(true)}
+            className="flex items-center gap-1.5 px-3.5 py-2 rounded-xl border border-gray-200 hover:border-gray-300 bg-white text-xs font-bold text-gray-800 transition-colors shrink-0 cursor-pointer"
+          >
+            <MapPin className="w-3.5 h-3.5 text-[#EA580C]" />
+            <span>{matchedCity.name}</span>
+            <ChevronDown className="w-3.5 h-3.5 text-gray-400" />
+          </button>
 
-            <nav className="flex items-center gap-1.5 text-xs font-semibold text-[#6B7280] overflow-x-auto no-scrollbar whitespace-nowrap">
-              <Link href="/" className="hover:text-[#D29324] transition-colors">
-                Home
-              </Link>
-              <span>/</span>
-              <Link href={`/${matchedCity.id}`} className="hover:text-[#D29324] transition-colors capitalize">
-                {matchedCity.name}
-              </Link>
-              <span>/</span>
-              <span className="text-[#6B7280]">Flats for Sale in {matchedCity.name}</span>
-              <span>/</span>
-              <span className="text-[#EA580C] font-bold">
-                {categoryConfig.breadcrumbLabel(matchedCity.name)}
-              </span>
-            </nav>
+          {/* Search Input matching Screenshot 1 */}
+          <div className="relative flex-1 max-w-xl">
+            <Search className="w-4 h-4 text-gray-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
+            <input
+              type="text"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              placeholder="Enter Locality, Property or Developer"
+              className="w-full pl-10 pr-8 py-2 rounded-xl border border-gray-200 bg-white text-xs text-gray-800 placeholder-gray-400 focus:outline-hidden focus:border-[#EA580C] transition-colors"
+            />
+            {searchQuery && (
+              <button
+                type="button"
+                onClick={() => setSearchQuery("")}
+                className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 text-sm cursor-pointer"
+              >
+                &times;
+              </button>
+            )}
           </div>
 
-          <Link
-            href={`/${matchedCity.id}`}
-            className="hidden sm:inline-flex items-center gap-1 text-xs font-bold text-[#AE7419] hover:text-[#D29324] shrink-0 transition-colors"
+          {/* Commute Search Button matching Screenshot 1 */}
+          <button
+            type="button"
+            onClick={() => showToast("Commute search will be available soon!")}
+            className="hidden md:inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl border border-gray-200 hover:border-gray-300 bg-white text-xs font-semibold text-gray-700 transition-colors shrink-0 cursor-pointer"
           >
-            <span>{matchedCity.name} Overview</span>
-            <ChevronRight className="w-3 h-3" />
-          </Link>
+            <span className="text-sm">🚗</span>
+            <span>Commute Search</span>
+          </button>
+
+          {/* More Filters Toggle for Mobile */}
+          <button
+            type="button"
+            onClick={() => setShowMobileFilterDrawer(true)}
+            className="inline-flex lg:hidden items-center gap-1.5 px-3.5 py-2 rounded-xl border border-gray-200 bg-white text-xs font-semibold text-gray-700 shrink-0 cursor-pointer"
+          >
+            <SlidersHorizontal className="w-3.5 h-3.5 text-[#EA580C]" />
+            <span>More Filters</span>
+          </button>
         </div>
       </div>
 
-      {/* Main Layout Container: Left Sidebar Filters + Right Listings Grid (Matching Screenshots 1 & 2) */}
+      {/* 3. Main Layout Container: Sticky Left Sidebar + Right Listings Grid */}
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-6 w-full flex-1">
         
-        {/* Mobile Filter Toggle Button */}
-        <div className="lg:hidden flex items-center justify-between gap-3 mb-4 bg-white p-3 rounded-xl border border-[#E8E3DA] shadow-xs">
+        {/* Mobile Filter Drawer Toggle */}
+        <div className="lg:hidden flex items-center justify-between gap-3 mb-4 bg-white p-3 rounded-xl border border-gray-200 shadow-xs">
           <button
             type="button"
             onClick={() => setShowMobileFilterDrawer(!showMobileFilterDrawer)}
-            className="flex items-center gap-2 text-xs font-bold text-[#252525] bg-[#FAF8F4] px-4 py-2 rounded-xl border border-[#E8E3DA]"
+            className="flex items-center gap-2 text-xs font-bold text-gray-800 bg-[#FAF8F4] px-4 py-2 rounded-xl border border-gray-200 cursor-pointer"
           >
             <SlidersHorizontal className="w-3.5 h-3.5 text-[#EA580C]" />
             <span>Filters</span>
@@ -362,13 +463,13 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
         <div className="flex items-start gap-8">
           
           {/* ========================================================= */}
-          {/* LEFT SIDEBAR: Active Filters & Accordions (Screenshot 1)  */}
+          {/* LEFT SIDEBAR: Sticky Filters & Accordions (Screenshots 1 & 2) */}
           {/* ========================================================= */}
           <aside
-            className={`w-72 lg:w-76 shrink-0 bg-white rounded-2xl border border-gray-200/80 p-5 shadow-xs space-y-6 ${
+            className={`w-72 lg:w-76 shrink-0 bg-white rounded-2xl border border-gray-200/80 p-5 shadow-xs space-y-5 ${
               showMobileFilterDrawer
                 ? "fixed inset-y-0 left-0 z-50 w-80 overflow-y-auto block shadow-2xl p-6"
-                : "hidden lg:block sticky top-[85px]"
+                : "hidden lg:block sticky top-[138px] self-start max-h-[calc(100vh-150px)] overflow-y-auto no-scrollbar"
             }`}
           >
             {/* Mobile Close Button */}
@@ -378,14 +479,27 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
                 <button
                   type="button"
                   onClick={() => setShowMobileFilterDrawer(false)}
-                  className="p-1 rounded-lg text-gray-400 hover:text-gray-700"
+                  className="p-1 rounded-lg text-gray-400 hover:text-gray-700 cursor-pointer"
                 >
                   <X className="w-5 h-5" />
                 </button>
               </div>
             )}
 
-            {/* 1. Active Filters Header with Clear All link */}
+            {/* 1. Saved Properties Box matching Screenshot 1 */}
+            <div className="bg-[#FAF8F4] rounded-xl border border-[#E8E3DA] p-3.5 space-y-1">
+              <div className="flex items-center justify-between">
+                <span className="text-xs font-bold text-gray-900">Saved Properties</span>
+                <span className="text-[10px] font-semibold text-gray-500">
+                  {savedCount > 0 ? `${savedCount} Saved` : "0 Saved"}
+                </span>
+              </div>
+              <p className="text-[11px] text-gray-500 leading-snug">
+                You don&apos;t have any saved properties or projects, click an <span className="inline-block text-xs">🤍</span> to save
+              </p>
+            </div>
+
+            {/* 2. Active Filters Header with Clear All link matching Screenshot 1 */}
             <div>
               <div className="flex items-center justify-between mb-2.5">
                 <h3 className="text-sm font-bold text-gray-900 tracking-tight">
@@ -402,19 +516,28 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
                 )}
               </div>
 
-              {/* Active Filter Chips */}
+              {/* Active Filter Chips with Orange Border matching Screenshot 1 */}
               <div className="flex flex-wrap gap-1.5 pt-1">
-                {/* Default Tag for Category */}
-                <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-[#EA580C] bg-[#EA580C]/5 text-[#EA580C] text-xs font-semibold">
-                  <span>{categoryConfig.label}</span>
-                  <button
-                    type="button"
-                    onClick={handleResetFilters}
-                    className="hover:text-black transition-colors"
-                  >
-                    &times;
-                  </button>
-                </span>
+                {activeQuickFilter !== "all" && (
+                  <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-[#EA580C] bg-[#EA580C]/5 text-[#EA580C] text-xs font-semibold">
+                    <span>
+                      {activeQuickFilter === "new-projects"
+                        ? "New Projects"
+                        : activeQuickFilter === "ready-to-move"
+                        ? "Ready to Move"
+                        : activeQuickFilter === "70l-1cr"
+                        ? "70 L – 1 Cr"
+                        : "Possession in 1 Year"}
+                    </span>
+                    <button
+                      type="button"
+                      onClick={() => setActiveQuickFilter("all")}
+                      className="hover:text-black transition-colors cursor-pointer"
+                    >
+                      &times;
+                    </button>
+                  </span>
+                )}
 
                 {selectedBhk !== "all" && (
                   <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-[#EA580C] bg-[#EA580C]/5 text-[#EA580C] text-xs font-semibold">
@@ -422,7 +545,7 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
                     <button
                       type="button"
                       onClick={() => setSelectedBhk("all")}
-                      className="hover:text-black transition-colors"
+                      className="hover:text-black transition-colors cursor-pointer"
                     >
                       &times;
                     </button>
@@ -435,7 +558,7 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
                     <button
                       type="button"
                       onClick={() => setSelectedBudget("all")}
-                      className="hover:text-black transition-colors"
+                      className="hover:text-black transition-colors cursor-pointer"
                     >
                       &times;
                     </button>
@@ -448,7 +571,7 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
                     <button
                       type="button"
                       onClick={() => setSelectedAmenity("all")}
-                      className="hover:text-black transition-colors"
+                      className="hover:text-black transition-colors cursor-pointer"
                     >
                       &times;
                     </button>
@@ -461,7 +584,7 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
                     <button
                       type="button"
                       onClick={() => setSelectedPossession("all")}
-                      className="hover:text-black transition-colors"
+                      className="hover:text-black transition-colors cursor-pointer"
                     >
                       &times;
                     </button>
@@ -470,7 +593,7 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
               </div>
             </div>
 
-            {/* 2. Accordion: No. of Bedrooms */}
+            {/* 3. Accordion: No. of Bedrooms */}
             <div className="pt-4 border-t border-gray-100">
               <button
                 type="button"
@@ -508,7 +631,7 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
               )}
             </div>
 
-            {/* 3. Accordion: Budget */}
+            {/* 4. Accordion: Budget */}
             <div className="pt-4 border-t border-gray-100">
               <button
                 type="button"
@@ -553,7 +676,7 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
               )}
             </div>
 
-            {/* 4. Accordion: Amenities */}
+            {/* 5. Accordion: Amenities */}
             <div className="pt-4 border-t border-gray-100">
               <button
                 type="button"
@@ -593,7 +716,7 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
               )}
             </div>
 
-            {/* 5. Accordion: Possession */}
+            {/* 6. Accordion: Possession */}
             <div className="pt-4 border-t border-gray-100">
               <button
                 type="button"
@@ -633,62 +756,96 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
           </aside>
 
           {/* ========================================================= */}
-          {/* RIGHT MAIN AREA: Search/Sort Header + 3-Col Project Cards */}
+          {/* RIGHT MAIN AREA: Top Info, Chips & Project Cards          */}
           {/* ========================================================= */}
-          <main className="flex-1 min-w-0 space-y-6">
+          <main className="flex-1 min-w-0 space-y-4">
             
-            {/* Top Bar: Title, Count, Search, & Sort Controls */}
-            <div className="bg-white rounded-2xl border border-gray-200/80 p-4 sm:p-5 shadow-xs flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4">
-              <div>
-                <h1 className="text-xl sm:text-2xl font-black text-gray-900 tracking-tight">
-                  New Projects in {matchedCity.name}
-                </h1>
-                <p className="text-xs text-gray-500 mt-0.5 font-medium">
-                  Showing {filteredProperties.length} Verified Developments
-                </p>
+            {/* Missing Top Section matching Screenshot 1 */}
+            <div className="space-y-2">
+              {/* Breadcrumb Navigation matching Screenshot 1 */}
+              <nav className="flex items-center gap-1.5 text-xs text-gray-500 overflow-x-auto no-scrollbar whitespace-nowrap">
+                <Link href="/" className="hover:text-[#EA580C] transition-colors">
+                  Home
+                </Link>
+                <span>/</span>
+                <Link href={`/${matchedCity.id}`} className="hover:text-[#EA580C] transition-colors capitalize">
+                  {matchedCity.name}
+                </Link>
+                <span>/</span>
+                <span className="text-gray-700 font-semibold">
+                  Real Estate {matchedCity.name}
+                </span>
+              </nav>
+
+              {/* Introductory Description matching Screenshot 1 */}
+              <p className="text-xs text-gray-600 leading-relaxed">
+                Choose from our comprehensive list of luxury residential properties available for sale. Have an enriching home buying experience with PropertyPistol!
+              </p>
+
+              {/* Main Listing Heading matching Screenshot 1 */}
+              <h1 className="text-xl sm:text-2xl font-black text-gray-900 tracking-tight pt-1">
+                Real Estate {matchedCity.name} – Property to buy in {matchedCity.name}
+              </h1>
+
+              {/* Quick-Filter Chips + Sorting Dropdown matching Screenshot 1 */}
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pt-1 pb-1">
+                {/* Quick Filter Chips on Left */}
+                <div className="flex items-center gap-2 overflow-x-auto no-scrollbar py-0.5">
+                  {[
+                    { id: "new-projects", label: "New Projects" },
+                    { id: "ready-to-move", label: "Ready to Move" },
+                    { id: "70l-1cr", label: "70 L – 1 Cr" },
+                    { id: "possession-1yr", label: "Possession in 1 Year" }
+                  ].map((chip) => {
+                    const isActive = activeQuickFilter === chip.id;
+                    return (
+                      <button
+                        key={chip.id}
+                        type="button"
+                        onClick={() => {
+                          setActiveQuickFilter(isActive ? "all" : chip.id);
+                          setCurrentPage(1);
+                        }}
+                        className={`px-3.5 py-1.5 rounded-full text-xs transition-all whitespace-nowrap cursor-pointer ${
+                          isActive
+                            ? "border border-[#EA580C] text-gray-900 font-bold bg-white shadow-2xs"
+                            : "border border-gray-200 text-gray-700 bg-white hover:border-gray-400 font-medium"
+                        }`}
+                      >
+                        {chip.label}
+                      </button>
+                    );
+                  })}
+                </div>
+
+                {/* Sort Dropdown on Right matching Screenshot 1: [ ≡ Relevance ⌵ ] */}
+                <div className="relative inline-flex items-center self-end sm:self-auto shrink-0">
+                  <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl border border-gray-200 bg-white hover:border-gray-300 transition-colors">
+                    <SlidersHorizontal className="w-3.5 h-3.5 text-gray-500" />
+                    <select
+                      value={sortBy}
+                      onChange={(e) => {
+                        setSortBy(e.target.value);
+                        setCurrentPage(1);
+                      }}
+                      className="bg-transparent text-xs font-semibold text-gray-800 focus:outline-hidden cursor-pointer pr-1"
+                    >
+                      <option value="relevance">Relevance</option>
+                      <option value="most-recent">Most Recent</option>
+                      <option value="price-low">Price: Low to High</option>
+                      <option value="price-high">Price: High to Low</option>
+                    </select>
+                  </div>
+                </div>
               </div>
 
-              {/* Search & Sort Dropdown */}
-              <div className="flex items-center gap-2.5">
-                {/* Search Input */}
-                <div className="relative flex-1 sm:w-60">
-                  <Search className="w-3.5 h-3.5 text-gray-400 absolute left-3 top-1/2 -translate-y-1/2" />
-                  <input
-                    type="text"
-                    value={searchQuery}
-                    onChange={(e) => setSearchQuery(e.target.value)}
-                    placeholder="Search project or area..."
-                    className="w-full pl-8 pr-3 py-1.5 rounded-xl border border-gray-200 text-xs text-gray-800 bg-[#FAF8F4] focus:outline-hidden focus:border-[#EA580C] transition-colors"
-                  />
-                  {searchQuery && (
-                    <button
-                      type="button"
-                      onClick={() => setSearchQuery("")}
-                      className="text-xs text-gray-400 hover:text-gray-700 absolute right-2.5 top-1/2 -translate-y-1/2"
-                    >
-                      &times;
-                    </button>
-                  )}
-                </div>
-
-                {/* Sort Dropdown */}
-                <div className="flex items-center gap-1.5 bg-[#FAF8F4] border border-gray-200 px-2.5 py-1.5 rounded-xl shrink-0">
-                  <ArrowUpDown className="w-3.5 h-3.5 text-[#EA580C]" />
-                  <select
-                    value={sortBy}
-                    onChange={(e) => setSortBy(e.target.value)}
-                    className="bg-transparent text-xs font-bold text-gray-800 focus:outline-hidden cursor-pointer"
-                  >
-                    <option value="relevance">Relevance</option>
-                    <option value="most-recent">Most Recent</option>
-                    <option value="price-low">Price: Low to High</option>
-                    <option value="price-high">Price: High to Low</option>
-                  </select>
-                </div>
+              {/* Dynamic Project Result Count matching Screenshot 1 */}
+              <div className="text-xs text-gray-500 font-medium">
+                Showing {filteredProperties.length > 0 ? startIndex + 1 : 0}–{Math.min(startIndex + PAGE_SIZE, filteredProperties.length)} of {filteredProperties.length}
               </div>
             </div>
 
-            {/* 3-Column Grid of Project Cards matching Screenshot 1 & 2 */}
+            {/* Project Cards Grid (20 items per page) */}
             {filteredProperties.length === 0 ? (
               <div className="bg-white rounded-3xl p-12 text-center border border-gray-200 shadow-xs space-y-4">
                 <div className="w-12 h-12 rounded-full bg-[#FAF8F4] text-gray-400 flex items-center justify-center mx-auto">
@@ -698,7 +855,7 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
                   No projects match your current filter selection
                 </h3>
                 <p className="text-xs text-gray-500 max-w-sm mx-auto">
-                  Try clearing some bedroom or budget filters to explore other luxury developments in {matchedCity.name}.
+                  Try clearing some bedroom, budget or quick filters to explore other luxury developments in {matchedCity.name}.
                 </p>
                 <button
                   type="button"
@@ -710,7 +867,7 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
               </div>
             ) : (
               <div className="grid grid-cols-1 xl:grid-cols-2 gap-5">
-                {filteredProperties.slice(0, visibleCount).map((project, idx) => {
+                {paginatedProperties.map((project, idx) => {
                   const activeIdx = activeImageIndexes[project.id] || 0;
                   const projectSlug = getProjectSlug(project);
                   const images = project.images || [
@@ -726,7 +883,7 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
                       key={project.id || idx}
                       className="bg-white rounded-2xl border border-gray-200/90 shadow-xs hover:shadow-xl transition-all duration-300 flex flex-col sm:flex-row group overflow-hidden"
                     >
-                      {/* Left: Photo Container (Image on the Left) */}
+                      {/* Left: Photo Container */}
                       <div className="w-full sm:w-[220px] md:w-[250px] shrink-0 relative min-h-[190px] sm:min-h-full overflow-hidden bg-gray-100">
                         <Link href={`/projects/${projectSlug}`} className="block w-full h-full">
                           <img
@@ -744,17 +901,14 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
                           </span>
                         </div>
 
-                        {/* Top-Right: Heart (Wishlist) & Compare Checkbox (Completely Independent) */}
+                        {/* Top-Right: Heart (Wishlist) & Compare Checkbox */}
                         <div className="absolute top-2.5 right-2.5 z-20 flex items-center gap-1.5">
-                          {/* Heart Wishlist Button */}
                           <WishlistButton
                             project={project}
                             size="sm"
                             variant="minimal"
                             className="w-7 h-7 rounded-md bg-black/40 hover:bg-black/60 text-white flex items-center justify-center transition-colors shadow-xs backdrop-blur-xs"
                           />
-
-                          {/* Compare Checkbox */}
                           <CompareCheckbox project={project} size="sm" />
                         </div>
 
@@ -781,7 +935,7 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
                           </div>
                         </div>
 
-                        {/* Hover Next/Prev image arrows */}
+                        {/* Hover Next/Prev Image Arrows */}
                         {images.length > 1 && (
                           <div className="absolute inset-x-2 top-1/2 -translate-y-1/2 flex justify-between z-10 opacity-0 group-hover:opacity-100 transition-opacity">
                             <button
@@ -802,7 +956,7 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
                         )}
                       </div>
 
-                      {/* Right: Card Body (Information on the Right) */}
+                      {/* Right: Card Body Details */}
                       <div className="p-4 sm:p-4.5 flex-1 flex flex-col justify-between space-y-3 min-w-0">
                         <div className="space-y-1.5">
                           {/* Tag: Trending or RERA Verified */}
@@ -840,7 +994,6 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
 
                           {/* 2x2 Specs Grid */}
                           <div className="grid grid-cols-2 gap-x-3 gap-y-1.5 pt-2 border-t border-gray-100 text-xs">
-                            {/* Configurations */}
                             <div className="min-w-0">
                               <span className="font-semibold text-gray-900 block truncate text-xs">
                                 {project.flatTypes}
@@ -850,7 +1003,6 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
                               </span>
                             </div>
 
-                            {/* Per Sq.ft */}
                             <div className="min-w-0">
                               <span className="font-semibold text-gray-900 block truncate text-xs">
                                 {project.avgPrice || "INR 28.08 K"}
@@ -860,7 +1012,6 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
                               </span>
                             </div>
 
-                            {/* Built up Area */}
                             <div className="min-w-0">
                               <span className="font-semibold text-gray-900 block truncate text-xs">
                                 {project.builtUpArea || "On request"}
@@ -870,7 +1021,6 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
                               </span>
                             </div>
 
-                            {/* Carpet Area */}
                             <div className="min-w-0">
                               <span className="font-semibold text-gray-900 block truncate text-xs">
                                 {project.carpetArea || "On Request"}
@@ -882,7 +1032,7 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
                           </div>
                         </div>
 
-                        {/* Bottom CTA Button: Get in Touch */}
+                        {/* Bottom CTA: Get in Touch */}
                         <div className="pt-2 border-t border-gray-100">
                           <button
                             type="button"
@@ -900,87 +1050,170 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
               </div>
             )}
 
-            {/* Load More Button */}
-            {filteredProperties.length > visibleCount && (
-              <div className="text-center pt-4">
+            {/* Centered Pagination matching Screenshot 2: [ < ] [ 1 ] [ 2 ] [ 3 ] [ ... ] [ 34 ] [ > ] */}
+            {totalPages > 1 && (
+              <div className="flex items-center justify-center gap-2 pt-10 pb-4">
+                {/* Previous Button */}
                 <button
                   type="button"
-                  onClick={() => setVisibleCount((prev) => prev + 6)}
-                  className="px-8 py-3 rounded-2xl bg-white border border-[#EA580C] text-[#EA580C] hover:bg-[#EA580C] hover:text-white text-xs font-bold transition-all shadow-xs cursor-pointer"
+                  onClick={() => {
+                    if (currentPage > 1) {
+                      setCurrentPage((p) => p - 1);
+                      window.scrollTo({ top: 120, behavior: "smooth" });
+                    }
+                  }}
+                  disabled={currentPage === 1}
+                  className={`w-9 h-9 rounded-lg border flex items-center justify-center transition-colors cursor-pointer ${
+                    currentPage === 1
+                      ? "border-gray-200 text-gray-300 cursor-not-allowed"
+                      : "border-gray-200 text-gray-600 hover:border-gray-400 hover:text-gray-900 bg-white"
+                  }`}
+                  aria-label="Previous Page"
                 >
-                  Load More Properties ({filteredProperties.length - visibleCount} remaining)
+                  <ChevronLeft className="w-4 h-4" />
                 </button>
-              </div>
-            )}
 
-            {/* 4. In-Depth Category Guide / Overview */}
-            <div className="bg-white rounded-3xl p-6 sm:p-8 border border-gray-200/80 space-y-4 shadow-xs mt-8">
-              <span className="text-[10px] font-bold uppercase tracking-wider text-[#AE7419] bg-[#FBF1DF] px-2.5 py-0.5 rounded-full inline-block">
-                Buyer&apos;s Knowledge Base
-              </span>
-              <h2 className="text-xl sm:text-2xl font-extrabold text-[#252525]">
-                {categoryConfig.overviewTitle(matchedCity.name)}
-              </h2>
-              <div className="space-y-3 text-xs sm:text-sm text-[#6B7280] leading-relaxed">
-                {overviewParagraphs.map((para, pIdx) => (
-                  <p key={pIdx}>{para}</p>
-                ))}
-              </div>
-            </div>
-
-            {/* 5. FAQs Accordion */}
-            {cityFaqs && cityFaqs.length > 0 && (
-              <div className="bg-white rounded-3xl p-6 sm:p-8 border border-gray-200/80 space-y-6 shadow-xs">
-                <div>
-                  <span className="text-[10px] font-bold uppercase tracking-wider text-[#AE7419] bg-[#FBF1DF] px-2.5 py-0.5 rounded-full inline-block mb-1">
-                    Got Questions?
-                  </span>
-                  <h3 className="text-xl sm:text-2xl font-extrabold text-[#252525] flex items-center gap-2">
-                    <HelpCircle className="w-5 h-5 text-[#D29324]" />
-                    <span>Frequently Asked Questions about {categoryConfig.label} in {matchedCity.name}</span>
-                  </h3>
-                </div>
-
-                <div className="space-y-3">
-                  {cityFaqs.map((faq, idx) => {
-                    const isOpen = openFaq === idx;
+                {/* Numbered Page Buttons & Ellipsis */}
+                {getPageNumbers(currentPage, totalPages).map((item, idx) => {
+                  if (item === "...") {
                     return (
-                      <div
-                        key={idx}
-                        className="border border-[#E8E3DA] rounded-2xl overflow-hidden transition-all"
+                      <span
+                        key={`ellipsis-${idx}`}
+                        className="w-9 h-9 flex items-center justify-center text-gray-400 text-xs font-semibold select-none"
                       >
-                        <button
-                          type="button"
-                          onClick={() => setOpenFaq(isOpen ? -1 : idx)}
-                          className="w-full p-4 text-left font-bold text-xs sm:text-sm text-[#252525] flex items-center justify-between gap-4 cursor-pointer"
-                        >
-                          <span>{faq.q}</span>
-                          <ChevronDown
-                            className={`w-4 h-4 text-[#D29324] transition-transform duration-200 shrink-0 ${
-                              isOpen ? "rotate-180" : ""
-                            }`}
-                          />
-                        </button>
-                        {isOpen && (
-                          <div className="p-4 text-xs text-[#6B7280] leading-relaxed border-t border-[#E8E3DA] bg-[#FAF8F4]/40">
-                            {faq.a}
-                          </div>
-                        )}
-                      </div>
+                        ...
+                      </span>
                     );
-                  })}
-                </div>
+                  }
+
+                  const pageNum = Number(item);
+                  const isActive = currentPage === pageNum;
+
+                  return (
+                    <button
+                      key={`page-${pageNum}`}
+                      type="button"
+                      onClick={() => {
+                        setCurrentPage(pageNum);
+                        window.scrollTo({ top: 120, behavior: "smooth" });
+                      }}
+                      className={`w-9 h-9 rounded-lg text-xs font-semibold transition-all cursor-pointer ${
+                        isActive
+                          ? "border border-[#EA580C] text-[#EA580C] bg-white shadow-2xs font-bold"
+                          : "border border-gray-200 text-gray-700 bg-white hover:border-gray-400"
+                      }`}
+                    >
+                      {pageNum}
+                    </button>
+                  );
+                })}
+
+                {/* Next Button */}
+                <button
+                  type="button"
+                  onClick={() => {
+                    if (currentPage < totalPages) {
+                      setCurrentPage((p) => p + 1);
+                      window.scrollTo({ top: 120, behavior: "smooth" });
+                    }
+                  }}
+                  disabled={currentPage === totalPages}
+                  className={`w-9 h-9 rounded-lg border flex items-center justify-center transition-colors cursor-pointer ${
+                    currentPage === totalPages
+                      ? "border-gray-200 text-gray-300 cursor-not-allowed"
+                      : "border-gray-200 text-gray-600 hover:border-gray-400 hover:text-gray-900 bg-white"
+                  }`}
+                  aria-label="Next Page"
+                >
+                  <ChevronRight className="w-4 h-4" />
+                </button>
               </div>
             )}
           </main>
         </div>
       </div>
 
-      {/* Floating Persistent Compare Tray matching Screenshot 2 */}
+      {/* 4. Missing Bottom Section matching Screenshot 2: "Properties in Mumbai For Sale" */}
+      <PropertiesForSalePreFooter cityId={matchedCity.id} />
+
+      {/* 5. In-Depth Category Guide / Overview & FAQs */}
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full space-y-6">
+        {/* Knowledge Base */}
+        <div className="bg-white rounded-3xl p-6 sm:p-8 border border-gray-200/80 space-y-4 shadow-xs">
+          <span className="text-[10px] font-bold uppercase tracking-wider text-[#AE7419] bg-[#FBF1DF] px-2.5 py-0.5 rounded-full inline-block">
+            Buyer&apos;s Knowledge Base
+          </span>
+          <h2 className="text-xl sm:text-2xl font-extrabold text-[#252525]">
+            {categoryConfig.overviewTitle(matchedCity.name)}
+          </h2>
+          <div className="space-y-3 text-xs sm:text-sm text-[#6B7280] leading-relaxed">
+            {overviewParagraphs.map((para, pIdx) => (
+              <p key={pIdx}>{para}</p>
+            ))}
+          </div>
+        </div>
+
+        {/* FAQs Accordion */}
+        {cityFaqs && cityFaqs.length > 0 && (
+          <div className="bg-white rounded-3xl p-6 sm:p-8 border border-gray-200/80 space-y-6 shadow-xs">
+            <div>
+              <span className="text-[10px] font-bold uppercase tracking-wider text-[#AE7419] bg-[#FBF1DF] px-2.5 py-0.5 rounded-full inline-block mb-1">
+                Got Questions?
+              </span>
+              <h3 className="text-xl sm:text-2xl font-extrabold text-[#252525] flex items-center gap-2">
+                <HelpCircle className="w-5 h-5 text-[#EA580C]" />
+                <span>Frequently Asked Questions about {categoryConfig.label} in {matchedCity.name}</span>
+              </h3>
+            </div>
+
+            <div className="space-y-3">
+              {cityFaqs.map((faq, idx) => {
+                const isOpen = openFaq === idx;
+                return (
+                  <div
+                    key={idx}
+                    className="border border-[#E8E3DA] rounded-2xl overflow-hidden transition-all"
+                  >
+                    <button
+                      type="button"
+                      onClick={() => setOpenFaq(isOpen ? -1 : idx)}
+                      className="w-full p-4 text-left font-bold text-xs sm:text-sm text-[#252525] flex items-center justify-between gap-4 cursor-pointer"
+                    >
+                      <span>{faq.q}</span>
+                      <ChevronDown
+                        className={`w-4 h-4 text-[#EA580C] transition-transform duration-200 shrink-0 ${
+                          isOpen ? "rotate-180" : ""
+                        }`}
+                      />
+                    </button>
+                    {isOpen && (
+                      <div className="p-4 text-xs text-[#6B7280] leading-relaxed border-t border-[#E8E3DA] bg-[#FAF8F4]/40">
+                        {faq.a}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        )}
+      </div>
+
+      {/* Floating Persistent Compare Tray */}
       <CompareTray />
 
-      {/* Pre-Footer Locality Links matching Screenshot 2 */}
-      <PropertiesForSalePreFooter cityId={matchedCity.id} />
+      {/* Floating Back to Top Button matching Screenshot 2 */}
+      {showScrollTop && (
+        <button
+          type="button"
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          className="fixed bottom-8 right-8 z-50 w-11 h-11 rounded-full bg-white border border-gray-200 shadow-xl flex items-center justify-center text-[#EA580C] hover:text-[#D29324] hover:shadow-2xl hover:scale-105 transition-all cursor-pointer group"
+          aria-label="Back to top"
+          title="Back to top"
+        >
+          <ChevronUp className="w-5 h-5 stroke-[2.5] group-hover:-translate-y-0.5 transition-transform" />
+        </button>
+      )}
 
       {/* Global Footer */}
       <Footer />
