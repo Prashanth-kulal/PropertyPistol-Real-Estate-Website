@@ -36,7 +36,27 @@ export const SEARCH_SHORTCUTS = [
   "Cyber City Gurugram"
 ];
 
-export const PROJECTS = [
+import { DELHI_PROJECTS } from "./delhiProjects";
+
+// Transform Delhi projects to match existing schema
+const transformedDelhiProjects = DELHI_PROJECTS.map((p, idx) => ({
+  id: `delhi-${idx}`,
+  name: p.title,
+  builder: p.builder || "Unknown",
+  city: "delhi",
+  location: p.location,
+  price: p.price.replace(/₹\s*/, "₹"),
+  avgPrice: p.pricePerSqft,
+  flatTypes: p.configuration,
+  carpetArea: p.carpetArea,
+  images: p.imageUrls,
+  tag: p.tag || "Verified",
+  description: p.description,
+  // Preserve original URL for detail page linking
+  url: p.url,
+}));
+
+export const PROJECTS = [...transformedDelhiProjects,
   {
     id: "proj-1",
     name: "Godrej Eternal Palms",

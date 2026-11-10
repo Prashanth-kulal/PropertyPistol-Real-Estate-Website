@@ -15,6 +15,7 @@ import {
   LayoutGrid
 } from "lucide-react";
 import { CITIES, PROJECTS, getProjectSlug } from "@/data";
+import { DELHI_PROJECTS } from "@/data/delhiProjects";
 import WishlistButton from "@/components/common/WishlistButton";
 
 export default function TopProjects({
