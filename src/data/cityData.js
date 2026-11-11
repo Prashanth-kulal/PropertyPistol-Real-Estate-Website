@@ -2,6 +2,7 @@
 // Maps every supported metro to verified property listings, top localities, market trends, and FAQs
 
 import { MUMBAI_REGISTRY_PROJECTS } from "./mumbaiProjectsRegistry.js";
+import { DELHI_REGISTRY_PROJECTS } from "./delhiProjectsRegistry.js";
 
 export const CITY_DETAILS = {
   mumbai: {
@@ -125,21 +126,26 @@ export const CITY_DETAILS = {
     name: "Delhi NCR",
     state: "Delhi",
     tagline: "India's Capital Region & Power Center of North India",
-    heroImage: "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=1600&q=80",
-    projectsCount: 1150,
-    avgPriceSqFt: "₹16,200",
+    heroImage: "/projects/4709/cover.jpg",
+    projectsCount: 16,
+    avgPriceSqFt: "₹18,500",
     appreciationRate: "+12.1% YoY",
     rentalYield: "3.5% p.a.",
     reraAuthority: "D-RERA / HRERA / UP-RERA",
     stampDuty: "6% (Male) / 4% (Female)",
-    description: "Delhi NCR brings together premier luxury enclaves in South Delhi with massive futuristic infrastructure across Dwarka Expressway and Noida corridors.",
+    description: "Delhi NCR brings together premier luxury enclaves in South Delhi with massive futuristic infrastructure across Dwarka Expressway and NCR corridors.",
     localities: [
-      { name: "Dwarka", avgPrice: "₹14,500 / sq.ft", projects: 65, tag: "Airport & Diplomatic" },
-      { name: "South Delhi", avgPrice: "₹38,000 / sq.ft", projects: 35, tag: "Legacy Luxury" },
-      { name: "Golf Course Ext", avgPrice: "₹16,500 / sq.ft", projects: 80, tag: "Gurugram Prime" },
-      { name: "Sector 150", avgPrice: "₹9,200 / sq.ft", projects: 74, tag: "Sports City Noida" },
-      { name: "Okhla", avgPrice: "₹18,000 / sq.ft", projects: 25, tag: "Central Hub" },
-      { name: "Rohini", avgPrice: "₹11,000 / sq.ft", projects: 45, tag: "Suburban Core" }
+      { name: "Dwarka Expressway", avgPrice: "₹14,500 / sq.ft", projects: 4, tag: "Super Expressway" },
+      { name: "Dwarka", avgPrice: "₹16,200 / sq.ft", projects: 2, tag: "Diplomatic Enclave" },
+      { name: "Kirti Nagar", avgPrice: "₹24,000 / sq.ft", projects: 2, tag: "West Delhi Luxury" },
+      { name: "Okhla", avgPrice: "₹24,660 / sq.ft", projects: 1, tag: "South Delhi Hub" },
+      { name: "Connaught Place", avgPrice: "₹45,000 / sq.ft", projects: 1, tag: "Central Heritage" },
+      { name: "Aerocity / Bijwasan", avgPrice: "₹20,000 / sq.ft", projects: 1, tag: "Airport Corridor" },
+      { name: "Chattarpur", avgPrice: "₹16,000 / sq.ft", projects: 1, tag: "Farmhouse Belt" },
+      { name: "Rohini", avgPrice: "₹12,500 / sq.ft", projects: 1, tag: "North West Hub" },
+      { name: "Lawrence Road", avgPrice: "₹13,000 / sq.ft", projects: 1, tag: "Metro Transit" },
+      { name: "Lodhi Colony", avgPrice: "₹35,000 / sq.ft", projects: 1, tag: "Lutyens Proximity" },
+      { name: "Indirapuram", avgPrice: "₹13,880 / sq.ft", projects: 1, tag: "NCR Corridor" }
     ],
     faqs: [
       {
@@ -783,54 +789,7 @@ export const CITY_PROPERTIES = {
     }
   ],
 
-  delhi: [
-    {
-      id: "del-1",
-      name: "DLF One Midtown",
-      builder: "DLF Limited",
-      builderLogo: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=120&h=120&q=80",
-      city: "delhi",
-      location: "Moti Nagar, West Delhi",
-      price: "3.85 Cr",
-      priceNumeric: 38500000,
-      avgPrice: "₹21.4 K / sq.ft",
-      flatTypes: "2 BHK, 3 BHK, 4 BHK",
-      carpetArea: "1,750 - 3,050 sq.ft",
-      status: "Under Construction",
-      rera: "DLRERA2021P0007",
-      tag: "Iconic",
-      rating: 4.9,
-      type: "Apartment",
-      images: [
-        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=80",
-        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80"
-      ],
-      features: ["128-Acre Greens", "Clubhouse", "Concierge Service"]
-    },
-    {
-      id: "del-2",
-      name: "Godrej South Estate",
-      builder: "Godrej Properties",
-      builderLogo: "https://images.unsplash.com/photo-1541888946425-d0fbb186f5f7?auto=format&fit=crop&w=120&h=120&q=80",
-      city: "delhi",
-      location: "Okhla Phase 1, South Delhi",
-      price: "4.9 Cr",
-      priceNumeric: 49000000,
-      avgPrice: "₹26.5 K / sq.ft",
-      flatTypes: "3 BHK, 4 BHK",
-      carpetArea: "1,850 - 3,200 sq.ft",
-      status: "Under Construction",
-      rera: "DLRERA2019P0003",
-      tag: "Ultra Luxury",
-      rating: 4.8,
-      type: "Apartment",
-      images: [
-        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=80",
-        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=900&q=80"
-      ],
-      features: ["Copper Clad Facade", "Air Purification", "South Delhi Address"]
-    }
-  ],
+  delhi: DELHI_REGISTRY_PROJECTS,
 
   gurugram: [
     {

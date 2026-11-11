@@ -5,6 +5,7 @@
 import { DEVELOPERS_DATA } from "./developersData.js";
 import { PROJECTS as GLOBAL_PROJECTS, EXCLUSIVE_PROJECTS } from "./index.js";
 import { getMumbaiProjectBySlug, MUMBAI_ALL_SLUGS } from "./mumbaiProjectsRegistry.js";
+import { getDelhiProjectBySlug, DELHI_ALL_SLUGS } from "./delhiProjectsRegistry.js";
 
 // Standard Floor Plan Generator Helper
 function generateFloorPlans(typologies = "2, 3 BHK", basePriceStr = "2.5 Cr", carpetAreaStr = "800 - 1,400 sq.ft") {
@@ -757,6 +758,8 @@ const ID_TO_SLUG_MAP = {
   "mum-1": "godrej-eternal-palms",
   "mum-2": "lt-island-cove",
   "mum-3": "lt-elixir-reserve",
+  "del-1": "godrej-south-estate-prima-4709",
+  "del-2": "tarc-kailasa-15408",
   "pune-1": "godrej-woodsville",
   "blr-1": "prestige-falcon-city",
   "ex-1": "aura-signature-waterfront",
@@ -805,6 +808,12 @@ export function getProjectBySlug(rawSlug) {
   const mumbaiProject = getMumbaiProjectBySlug(cleanSlug);
   if (mumbaiProject) {
     return mumbaiProject;
+  }
+
+  // 2b. Direct match in Delhi Projects Registry (16 verified projects)
+  const delhiProject = getDelhiProjectBySlug(cleanSlug);
+  if (delhiProject) {
+    return delhiProject;
   }
 
   // 3. Search in DEVELOPERS_DATA
@@ -1018,6 +1027,7 @@ export function getProjectBySlug(rawSlug) {
 export function getAllProjectSlugs() {
   const slugs = new Set();
   MUMBAI_ALL_SLUGS.forEach((s) => slugs.add(s));
+  DELHI_ALL_SLUGS.forEach((s) => slugs.add(s));
   CANONICAL_PROJECTS.forEach((p) => slugs.add(p.slug));
   GLOBAL_PROJECTS.forEach((p) => slugs.add(getProjectSlug(p)));
   DEVELOPERS_DATA.forEach((d) => {

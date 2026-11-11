@@ -2,11 +2,14 @@
 // Structured for seamless future integration with GET /api/listings and Node/Express/MongoDB backend
 
 import { MUMBAI_REGISTRY_PROJECTS } from "./mumbaiProjectsRegistry.js";
+import { DELHI_REGISTRY_PROJECTS } from "./delhiProjectsRegistry.js";
+
+export { DELHI_REGISTRY_PROJECTS };
 
 export const CITIES = [
   { id: "mumbai", name: "Mumbai", state: "Maharashtra", projectsCount: 662, popular: true, image: "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=800&q=80" },
   { id: "pune", name: "Pune", state: "Maharashtra", projectsCount: 980, popular: true, image: "https://images.unsplash.com/photo-1588416936097-41850ab3d86d?auto=format&fit=crop&w=800&q=80" },
-  { id: "delhi", name: "Delhi NCR", state: "Delhi", projectsCount: 1150, popular: true, image: "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=800&q=80" },
+  { id: "delhi", name: "Delhi NCR", state: "Delhi", projectsCount: 16, popular: true, image: "/projects/4709/cover.jpg" },
   { id: "bangalore", name: "Bangalore", state: "Karnataka", projectsCount: 1320, popular: true, image: "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?auto=format&fit=crop&w=800&q=80" },
   { id: "hyderabad", name: "Hyderabad", state: "Telangana", projectsCount: 890, popular: true, image: "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=800&q=80" },
   { id: "chennai", name: "Chennai", state: "Tamil Nadu", projectsCount: 760, popular: true, image: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=80" },
@@ -109,9 +112,36 @@ export const NON_MUMBAI_PROJECTS = [
 
 export const PROJECTS = [
   ...MUMBAI_REGISTRY_PROJECTS,
+  ...DELHI_REGISTRY_PROJECTS,
   ...NON_MUMBAI_PROJECTS
 ];
 export const EXCLUSIVE_PROJECTS = [
+  {
+    id: "godrej-south-estate-prima",
+    slug: "godrej-south-estate-prima-4709",
+    name: "Godrej South Estate - Prima",
+    builder: "Godrej Properties",
+    city: "Delhi",
+    location: "Okhla, South Delhi",
+    priceRange: "₹5.51 Cr onwards",
+    configuration: "2, 3 & 4 BHK Luxury Apartments",
+    image: "/projects/4709/cover.jpg",
+    badge: "Ultra Luxury",
+    description: "First luxury development by Godrej in South Delhi featuring air purification technology, lavish clubhouse, and panoramic views of lush green surroundings."
+  },
+  {
+    id: "the-leela-sky-villas",
+    slug: "the-leela-sky-villas-8382",
+    name: "The Leela Sky Villas",
+    builder: "Raheja Developers",
+    city: "Delhi",
+    location: "Kirti Nagar, West Delhi",
+    priceRange: "₹6.35 Cr onwards",
+    configuration: "3, 4 & 5 BHK Sky Villas",
+    image: "/projects/8382/cover.jpg",
+    badge: "Exclusive Launch",
+    description: "Tallest planned residential development in Delhi offering private lap pools in each apartment and hospitality curated by The Leela."
+  },
   {
     id: "ex-1",
     name: "Aura Living Signature Waterfront",

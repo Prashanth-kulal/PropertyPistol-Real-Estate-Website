@@ -365,7 +365,7 @@ export default function TopProjects({
         {/* View All Projects CTA */}
         <div className="mt-8 text-center">
           <Link
-            href={activeCityTab === "mumbai" ? "/new-projects" : `/${activeCityTab}`}
+            href={activeCityTab && activeCityTab !== "mumbai" ? `/projects?city=${activeCityTab}` : "/projects"}
             className="inline-flex items-center gap-2 px-8 py-3 rounded-xl bg-[#D29324] hover:bg-[#AE7419] text-white text-xs font-bold uppercase tracking-wider transition-all duration-200 shadow-md hover:shadow-lg cursor-pointer btn-tactile hover:scale-[1.02]"
           >
             <span>View All Projects</span>

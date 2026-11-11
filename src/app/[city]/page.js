@@ -467,13 +467,12 @@ function CityPageContent() {
             </div>
 
             <div className="flex items-center gap-3">
-              <button
-                type="button"
-                onClick={() => setSelectedLocality("")}
+              <Link
+                href={`/projects?city=${matchedCity ? matchedCity.id : cityId}`}
                 className="text-xs font-bold text-[#AE7419] hover:text-[#D29324] transition-colors hidden sm:block"
               >
                 View All &rarr;
-              </button>
+              </Link>
 
               {/* Slider Arrows */}
               <div className="flex items-center gap-2">
@@ -524,16 +523,12 @@ function CityPageContent() {
               </p>
             </div>
 
-            <button
-              type="button"
-              onClick={() => {
-                const el = document.getElementById("top-localities");
-                if (el) el.scrollIntoView({ behavior: "smooth" });
-              }}
+            <Link
+              href={`/projects?city=${matchedCity ? matchedCity.id : cityId}`}
               className="text-xs font-bold text-[#AE7419] hover:text-[#D29324] transition-colors hidden sm:block"
             >
               View All &rarr;
-            </button>
+            </Link>
           </div>
 
           {/* Exclusive Spotlight Showcase Card */}

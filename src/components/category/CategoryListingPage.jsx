@@ -102,7 +102,37 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
   const [showMobileFilterDrawer, setShowMobileFilterDrawer] = useState(false);
 
   // Quick Filter Chips State (Screenshot 1: New Projects, Ready to Move, 70 L - 1 Cr, Possession in 1 Year)
-  const [activeQuickFilter, setActiveQuickFilter] = useState("new-projects");
+  const isCompleteCollection =
+    categorySlug === "projects" ||
+    categorySlug === "all" ||
+    categorySlug === "all-projects" ||
+    categoryConfig?.statusFilterDefault === "all";
+
+  const initialQuickFilter = isCompleteCollection
+    ? "all"
+    : categoryConfig?.id === "ready-to-move"
+    ? "ready-to-move"
+    : categoryConfig?.id === "new-projects"
+    ? "new-projects"
+    : "all";
+
+  const [activeQuickFilter, setActiveQuickFilter] = useState(initialQuickFilter);
+
+  // Sync activeQuickFilter when categorySlug changes dynamically
+  useEffect(() => {
+    if (
+      categorySlug === "projects" ||
+      categorySlug === "all" ||
+      categorySlug === "all-projects" ||
+      categoryConfig?.statusFilterDefault === "all"
+    ) {
+      setActiveQuickFilter("all");
+    } else if (categorySlug === "new-projects") {
+      setActiveQuickFilter("new-projects");
+    } else if (categorySlug === "ready-to-move") {
+      setActiveQuickFilter("ready-to-move");
+    }
+  }, [categorySlug, categoryConfig?.statusFilterDefault]);
 
   // Pagination State (Screenshot 2: 20 per page)
   const [currentPage, setCurrentPage] = useState(1);
@@ -190,6 +220,10 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
   // Switch City while preserving current category
   const handleCityChange = (newCity) => {
     setIsCityModalOpen(false);
+    if (categorySlug === "projects" || categorySlug === "all" || categorySlug === "all-projects") {
+      router.push(`/projects?city=${newCity}`);
+      return;
+    }
     const targetSlug = categoryConfig.getCitySlug
       ? categoryConfig.getCitySlug(newCity)
       : `${categoryConfig.slugKey}-in-${newCity}`;

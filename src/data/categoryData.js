@@ -2,6 +2,39 @@
 // Faithfully matching the 5 actual PropertyPistol destinations
 
 export const CATEGORIES_CONFIG = {
+  "projects": {
+    id: "projects",
+    slugKey: "projects",
+    getCitySlug: (city) => `projects`,
+    label: "All Projects",
+    titleTemplate: (city) => `Real Estate ${city} – Property to buy in ${city}`,
+    h1Template: (city) => `Real Estate ${city} – Property to buy in ${city}`,
+    metaDesc: (city) => `Choose from our comprehensive list of luxury residential properties available for sale in ${city}. Have an enriching home buying experience with PropertyPistol!`,
+    breadcrumbLabel: (city) => `Real Estate ${city}`,
+    statusFilterDefault: "all",
+    pills: [
+      { id: "all", label: "All Projects" },
+      { id: "new-projects", label: "New Projects" },
+      { id: "ready-to-move", label: "Ready to Move" },
+      { id: "under-construction", label: "Under Construction" },
+      { id: "rera-compliant", label: "RERA Compliant" }
+    ],
+    overviewTitle: (city) => `Overview of Real Estate in ${city}`,
+    overviewContent: (city) => [
+      `Discover verified luxury residential properties, apartments, and builder projects in ${city} with zero brokerage and direct developer pricing.`,
+      `Every project featured on our platform undergoes strict RERA verification, legal scrutiny, and on-ground progress tracking to ensure complete peace of mind for buyers.`
+    ],
+    faqs: (city) => [
+      {
+        q: `What is the property price range in ${city}?`,
+        a: `Properties in ${city} range from affordable residential apartments to ultra-luxury penthouses and sea-facing/expressway residences. Browse our live verified inventory for active prices.`
+      },
+      {
+        q: `Are all projects in ${city} verified by RERA?`,
+        a: `Yes, every project listed in our catalog features authentic RERA registration documentation and direct developer allocations.`
+      }
+    ]
+  },
   "new-projects": {
     id: "new-projects",
     slugKey: "new-projects",
@@ -346,6 +379,9 @@ export function resolveCategory(rawSlug) {
   }
 
   // 3. Standard category slugs
+  if (s === "projects" || s === "all" || s === "all-projects" || s === "real-estate" || s.startsWith("projects?")) {
+    return CATEGORIES_CONFIG["projects"];
+  }
   if (s.includes("new-project") || s.includes("new-listing")) {
     return CATEGORIES_CONFIG["new-projects"];
   }

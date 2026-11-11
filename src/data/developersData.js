@@ -3,6 +3,7 @@
 // Uses AuraLiving's design principles and local sample assets
 
 import { MUMBAI_REGISTRY_PROJECTS } from "./mumbaiProjectsRegistry.js";
+import { DELHI_REGISTRY_PROJECTS } from "./delhiProjectsRegistry.js";
 
 export const DEVELOPERS_DATA = [
   {
@@ -1090,6 +1091,20 @@ export function enrichDeveloperWithProjects(dev) {
     );
   });
 
+  const delhiMatches = DELHI_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === dev.slug) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return (
+      bNorm === normSlug ||
+      bNorm.includes(normSlug) ||
+      normSlug.includes(bNorm) ||
+      bNorm === normDevName ||
+      bNorm.includes(normDevName) ||
+      normDevName.includes(bNorm)
+    );
+  });
+
   const existingCities = dev.cities || [];
   const existingMumbaiCity = existingCities.find((c) => c.citySlug === "mumbai") || {
     name: "Mumbai",
@@ -1126,6 +1141,33 @@ export function enrichDeveloperWithProjects(dev) {
     });
   }
 
+  if (delhiMatches.length > 0) {
+    const delhiOngoing = delhiMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch"
+    ).length;
+    const delhiUpcoming = delhiMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch"
+    ).length;
+    const existingDelhiIndex = updatedCities.findIndex((c) => c.citySlug === "delhi");
+    if (existingDelhiIndex >= 0) {
+      updatedCities[existingDelhiIndex] = {
+        ...updatedCities[existingDelhiIndex],
+        name: "Delhi NCR",
+        ongoingCount: delhiOngoing || updatedCities[existingDelhiIndex].ongoingCount || 1,
+        upcomingCount: delhiUpcoming || updatedCities[existingDelhiIndex].upcomingCount || 1,
+        projects: delhiMatches
+      };
+    } else {
+      updatedCities.push({
+        name: "Delhi NCR",
+        citySlug: "delhi",
+        ongoingCount: delhiOngoing,
+        upcomingCount: delhiUpcoming,
+        projects: delhiMatches
+      });
+    }
+  }
+
   // Use top matching projects for featured showcase
   const featured = matches.length > 0
     ? matches.slice(0, 3).map((p) => ({
@@ -1137,9 +1179,10 @@ export function enrichDeveloperWithProjects(dev) {
       }))
     : dev.featuredProjects;
 
+  const totalCount = finalProjects.length + delhiMatches.length;
   return {
     ...dev,
-    projectCount: `${finalProjects.length}+ Projects`,
+    projectCount: `${totalCount}+ Projects`,
     featuredProjects: featured,
     cities: updatedCities
   };
@@ -1149,6 +1192,7 @@ export function enrichDeveloperWithProjects(dev) {
 export function getDeveloperBySlug(slug) {
   if (!slug) return null;
   const normalized = slug.toLowerCase().trim();
+  const normSlug = normalized.replace(/[^a-z0-9]/g, "");
 
   // 1. Direct search in DEVELOPERS_DATA
   const found = DEVELOPERS_DATA.find(
@@ -1163,8 +1207,63 @@ export function getDeveloperBySlug(slug) {
     return enrichDeveloperWithProjects(found);
   }
 
-  // 2. Synthesize developer profile dynamically from MUMBAI_REGISTRY_PROJECTS
-  const normSlug = normalized.replace(/[^a-z0-9]/g, "");
+  // 2. Synthesize developer profile dynamically from DELHI_REGISTRY_PROJECTS
+  const delhiDevMatches = DELHI_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === normalized) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return bNorm === normSlug || bNorm.includes(normSlug) || normSlug.includes(bNorm);
+  });
+
+  if (delhiDevMatches.length > 0) {
+    const builderName = delhiDevMatches[0].builder;
+    const logo =
+      delhiDevMatches[0].builderLogo ||
+      "https://images.unsplash.com/photo-1541888946425-d0fbb186f5f7?auto=format&fit=crop&w=120&h=120&q=80";
+    const ongoing = delhiDevMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch"
+    ).length;
+    const upcoming = delhiDevMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch"
+    ).length;
+
+    return {
+      id: normalized,
+      slug: delhiDevMatches[0].developerSlug || normalized,
+      name: builderName,
+      logo: logo,
+      tagline: `Premium Residential Developments Across Delhi NCR`,
+      experience: "20+ Years",
+      projectCount: `${delhiDevMatches.length}+ Projects`,
+      established: "2000",
+      aboutUs: `${builderName} is a premier real estate developer with verified developments across key micro-markets in Delhi NCR.`,
+      description: `${builderName} has delivered iconic residential landmarks in Delhi NCR, known for quality construction, transparent RERA compliance, and contemporary lifestyle amenities.`,
+      stats: [
+        { label: "Active Projects", value: `${delhiDevMatches.length}+` },
+        { label: "Location", value: "Delhi NCR" },
+        { label: "RERA Compliant", value: "100%" },
+        { label: "Brokerage", value: "0%" }
+      ],
+      featuredProjects: delhiDevMatches.slice(0, 3).map((p) => ({
+        title: p.name,
+        location: p.location,
+        price: `${p.price}*`,
+        image: p.images?.[0] || "/images/placeholder-property.jpg",
+        slug: p.slug
+      })),
+      cities: [
+        {
+          name: "Delhi NCR",
+          citySlug: "delhi",
+          ongoingCount: ongoing,
+          upcomingCount: upcoming,
+          projects: delhiDevMatches
+        }
+      ]
+    };
+  }
+
+  // 3. Synthesize developer profile dynamically from MUMBAI_REGISTRY_PROJECTS
   const matches = MUMBAI_REGISTRY_PROJECTS.filter((p) => {
     if (p.developerSlug === normalized) return true;
     if (!p.builder) return false;
