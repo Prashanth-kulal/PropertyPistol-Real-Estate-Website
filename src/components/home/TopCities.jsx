@@ -62,19 +62,24 @@ export default function TopCities({ onSelectCity }) {
   };
 
   return (
-    <section className="py-14 bg-[#FAF8F4] border-b border-[#E8E3DA] relative">
-      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-8 sm:py-10 bg-[#FAF8F4] border-b border-[#E8E3DA] relative overflow-hidden">
+      {/* Subtle warm ambient illumination behind frosted glass label */}
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute -top-20 left-1/4 w-[420px] h-[220px] rounded-full bg-[radial-gradient(ellipse_at_center,rgba(210,147,36,0.11),rgba(246,214,158,0.05)_50%,transparent_75%)] blur-2xl"
+      />
+      <div className="relative max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
         {/* Title & Navigation Controls Header */}
-        <div className="flex items-end justify-between mb-8">
+        <div className="flex items-end justify-between mb-5 gap-4">
           <div>
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#FBF1DF] border border-[#D29324]/40 text-[#AE7419] text-xs font-semibold mb-2 animate-pulse-subtle shadow-2xs">
-              <MapPin className="w-3.5 h-3.5 text-[#D29324]" />
+            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-gradient-to-br from-[#FFFDF9]/72 via-[#FBF1DF]/58 to-[#F6E2BE]/52 backdrop-blur-[14px] backdrop-saturate-150 border border-[#D29324]/30 text-[#8C5809] text-[11px] font-semibold tracking-[0.1em] uppercase mb-2 shadow-[inset_0_1px_0_rgba(255,255,255,0.85),0_4px_16px_-2px_rgba(174,116,25,0.12)] transition-all duration-300 hover:border-[#D29324]/50 hover:shadow-[inset_0_1px_0_rgba(255,255,255,0.9),0_6px_18px_-2px_rgba(174,116,25,0.18)]">
+              <MapPin className="w-3.5 h-3.5 text-[#B97814] shrink-0" />
               <span>Pan-India Presence</span>
             </div>
-            <h2 className="text-2xl sm:text-4xl font-extrabold text-[#252525] tracking-tight">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#252525] tracking-tight leading-tight">
               Top Cities
             </h2>
-            <p className="text-sm text-[#6B7280] mt-1">
+            <p className="text-xs sm:text-sm text-[#6B7280] mt-1">
               Explore premium verified developments, builder handovers, and ready-to-move homes across key metros.
             </p>
           </div>

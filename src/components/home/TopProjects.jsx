@@ -6,16 +6,25 @@ import {
   ChevronLeft,
   ChevronRight,
   MapPin,
-  Building,
   ShieldCheck,
   PhoneCall,
   Eye,
   Sparkles,
   Columns3,
-  LayoutGrid
+  LayoutGrid,
+  ArrowRight
 } from "lucide-react";
 import { CITIES, PROJECTS, getProjectSlug } from "@/data";
 import WishlistButton from "@/components/common/WishlistButton";
+
+function formatProjectPrice(rawPrice) {
+  if (!rawPrice) return "On Request";
+  const cleaned = String(rawPrice).trim();
+  if (!cleaned || /^on request$/i.test(cleaned) || cleaned.startsWith("₹")) {
+    return cleaned || "On Request";
+  }
+  return `₹ ${cleaned}`;
+}
 
 export default function TopProjects({
   selectedCity,
@@ -23,7 +32,8 @@ export default function TopProjects({
   onInquireProject,
   searchFilter
 }) {
-  const [activeCityTab, setActiveCityTab] = useState(selectedCity || "mumbai");
+  const [localCityTab, setLocalCityTab] = useState(selectedCity || "mumbai");
+  const activeCityTab = selectedCity || localCityTab;
   const [projectImageIndexes, setProjectImageIndexes] = useState({});
   const [layoutMode, setLayoutMode] = useState("carousel"); // 'carousel' | 'grid'
 
@@ -31,6 +41,10 @@ export default function TopProjects({
   const scrollRef = useRef(null);
   const [canScrollLeft, setCanScrollLeft] = useState(false);
   const [canScrollRight, setCanScrollRight] = useState(true);
+
+  const selectedCityObj =
+    CITIES.find((c) => c.id.toLowerCase() === (activeCityTab || "mumbai").toLowerCase()) ||
+    CITIES[0];
 
   // Filter projects by active city and search input
   let cityProjects = PROJECTS.filter((p) => {
@@ -104,75 +118,93 @@ export default function TopProjects({
     }));
   };
 
+  const viewAllHref =
+    activeCityTab && activeCityTab.toLowerCase() !== "mumbai"
+      ? `/projects?city=${encodeURIComponent(activeCityTab.toLowerCase())}`
+      : "/projects";
+
   return (
-    <section id="top-projects" className="py-14 bg-white border-b border-[#E8E3DA]">
-      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Title, Badge & Navigation Controls Header */}
-        <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-8 gap-4">
-          <div>
-            <div className="flex items-center gap-2 text-xs font-bold text-[#D29324] uppercase tracking-wider mb-1">
-              <Sparkles className="w-3.5 h-3.5" />
+    <section id="top-projects" className="relative py-6 sm:py-8 bg-gradient-to-b from-white via-[#FDFBF7] to-[#FAF8F4]/70 border-b border-[#E8E3DA] overflow-hidden">
+      {/* Subtle champagne ambient warmth behind glass surfaces */}
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute -top-24 left-12 w-[520px] h-[220px] rounded-full bg-[radial-gradient(ellipse_at_center,rgba(210,147,36,0.10),rgba(246,214,158,0.05)_50%,transparent_75%)] blur-2xl"
+      />
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute top-0 right-16 w-[380px] h-[200px] rounded-full bg-[radial-gradient(ellipse_at_center,rgba(210,147,36,0.08),transparent_70%)] blur-2xl"
+      />
+
+      <div className="relative max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
+        {/* 1 & 2. Compact Heading, Eyebrow & Frosted Glass Controls */}
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-3 mb-3.5">
+          <div className="min-w-0">
+            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-gradient-to-br from-[#FFFDF9]/72 via-[#FBF1DF]/58 to-[#F6E2BE]/52 backdrop-blur-[14px] backdrop-saturate-150 border border-[#D29324]/30 text-[11px] font-semibold text-[#8C5809] uppercase tracking-[0.1em] shadow-[inset_0_1px_0_rgba(255,255,255,0.85),0_4px_14px_-2px_rgba(174,116,25,0.12)] mb-1.5">
+              <Sparkles className="w-3 h-3 text-[#B97814] shrink-0" />
               <span>Handpicked Real Estate</span>
             </div>
-            <h2 className="text-2xl sm:text-4xl font-extrabold text-[#252525] tracking-tight">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#252525] tracking-tight leading-tight">
               Top Projects
             </h2>
-            <p className="text-sm text-[#6B7280] mt-1">
+            <p className="text-xs sm:text-sm text-[#6B7280] mt-0.5">
               Prime residential developments with direct builder pricing and zero brokerage.
             </p>
           </div>
 
-          <div className="flex items-center gap-3">
-            <div className="hidden lg:flex items-center gap-2 text-xs font-semibold text-[#AE7419] bg-[#FBF1DF] px-3 py-1.5 rounded-xl border border-[#D29324]/30">
-              <ShieldCheck className="w-4 h-4 text-[#D29324]" />
+          <div className="flex flex-wrap items-center gap-2 shrink-0">
+            <div className="hidden lg:inline-flex items-center gap-1.5 text-[11px] font-semibold text-[#7A5416] bg-gradient-to-br from-[#FFFDF9]/75 to-[#FBF1DF]/60 backdrop-blur-[14px] backdrop-saturate-150 px-3 py-1.5 rounded-xl border border-[#D29324]/25 shadow-[inset_0_1px_0_rgba(255,255,255,0.8),0_2px_10px_rgba(174,116,25,0.08)]">
+              <ShieldCheck className="w-3.5 h-3.5 text-[#B97814] shrink-0" />
               <span>{displayedProjects.length} Verified Properties</span>
             </div>
 
-            {/* Layout Toggle (Compact Carousel vs Grid) */}
-            <div className="flex items-center bg-[#FAF8F4] border border-[#E8E3DA] p-1 rounded-xl shadow-2xs">
+            {/* Compact Segmented Layout Toggle (Scroll vs Grid) */}
+            <div
+              className="inline-flex items-center p-0.5 rounded-xl bg-gradient-to-b from-[#FAF6EE]/80 to-[#F5EFE3]/70 backdrop-blur-[14px] backdrop-saturate-150 border border-[#D29324]/25 shadow-[inset_0_1px_0_rgba(255,255,255,0.75),0_2px_10px_rgba(174,116,25,0.08)]"
+              role="group"
+              aria-label="Layout View"
+            >
               <button
                 type="button"
                 onClick={() => setLayoutMode("carousel")}
-                className={`p-1.5 rounded-lg text-xs font-bold transition-all duration-200 flex items-center gap-1 cursor-pointer btn-tactile ${
-                  layoutMode === "carousel"
-                    ? "bg-[#D29324] text-white shadow-xs"
-                    : "text-gray-600 hover:text-[#AE7419]"
-                }`}
+                aria-pressed={layoutMode === "carousel"}
+                className={`px-2.5 py-1.5 rounded-lg text-[11px] font-semibold transition-all duration-200 flex items-center gap-1 cursor-pointer ${layoutMode === "carousel"
+                    ? "bg-gradient-to-b from-white/95 to-[#FBF1DF]/80 text-[#8C5809] border border-[#D29324]/40 shadow-[inset_0_1px_0_rgba(255,255,255,0.9),0_2px_6px_rgba(174,116,25,0.12)]"
+                    : "text-[#4B5563] hover:text-[#252525] border border-transparent"
+                  }`}
                 title="Compact Horizontal Scroll View"
                 aria-label="Compact Horizontal Scroll View"
               >
-                <Columns3 className="w-4 h-4" />
-                <span className="hidden sm:inline text-[11px]">Scroll</span>
+                <Columns3 className="w-3.5 h-3.5 shrink-0" />
+                <span className="hidden sm:inline">Scroll</span>
               </button>
               <button
                 type="button"
                 onClick={() => setLayoutMode("grid")}
-                className={`p-1.5 rounded-lg text-xs font-bold transition-all duration-200 flex items-center gap-1 cursor-pointer btn-tactile ${
-                  layoutMode === "grid"
-                    ? "bg-[#D29324] text-white shadow-xs"
-                    : "text-gray-600 hover:text-[#AE7419]"
-                }`}
+                aria-pressed={layoutMode === "grid"}
+                className={`px-2.5 py-1.5 rounded-lg text-[11px] font-semibold transition-all duration-200 flex items-center gap-1 cursor-pointer ${layoutMode === "grid"
+                    ? "bg-gradient-to-b from-white/95 to-[#FBF1DF]/80 text-[#8C5809] border border-[#D29324]/40 shadow-[inset_0_1px_0_rgba(255,255,255,0.9),0_2px_6px_rgba(174,116,25,0.12)]"
+                    : "text-[#4B5563] hover:text-[#252525] border border-transparent"
+                  }`}
                 title="Grid View"
                 aria-label="Grid View"
               >
-                <LayoutGrid className="w-4 h-4" />
-                <span className="hidden sm:inline text-[11px]">Grid</span>
+                <LayoutGrid className="w-3.5 h-3.5 shrink-0" />
+                <span className="hidden sm:inline">Grid</span>
               </button>
             </div>
 
             {/* Carousel Navigation Arrow Controls */}
             {layoutMode === "carousel" && (
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-1.5">
                 <button
                   type="button"
                   onClick={() => handleScroll("left")}
                   disabled={!canScrollLeft}
                   aria-label="Previous Projects"
-                  className={`w-9 h-9 rounded-full border flex items-center justify-center transition-all duration-200 ${
-                    canScrollLeft
-                      ? "border-[#E8E3DA] bg-white text-[#252525] hover:bg-[#FAF8F4] hover:border-[#D29324] hover:scale-105 active:scale-95 shadow-xs cursor-pointer"
-                      : "border-gray-200 bg-gray-50 text-gray-300 cursor-not-allowed"
-                  }`}
+                  className={`w-8 h-8 rounded-full border flex items-center justify-center transition-all duration-200 backdrop-blur-[14px] ${canScrollLeft
+                      ? "border-[#D29324]/30 bg-gradient-to-b from-white/85 to-[#FBF4E7]/75 text-[#252525] hover:border-[#D29324]/60 hover:text-[#8C5809] shadow-[inset_0_1px_0_rgba(255,255,255,0.85),0_2px_8px_rgba(174,116,25,0.1)] cursor-pointer"
+                      : "border-[#E8E3DA]/80 bg-white/50 text-gray-300 cursor-not-allowed"
+                    }`}
                 >
                   <ChevronLeft className="w-4 h-4" />
                 </button>
@@ -181,11 +213,10 @@ export default function TopProjects({
                   onClick={() => handleScroll("right")}
                   disabled={!canScrollRight}
                   aria-label="Next Projects"
-                  className={`w-9 h-9 rounded-full border flex items-center justify-center transition-all duration-200 ${
-                    canScrollRight
-                      ? "border-[#E8E3DA] bg-white text-[#252525] hover:bg-[#FAF8F4] hover:border-[#D29324] hover:scale-105 active:scale-95 shadow-xs cursor-pointer"
-                      : "border-gray-200 bg-gray-50 text-gray-300 cursor-not-allowed"
-                  }`}
+                  className={`w-8 h-8 rounded-full border flex items-center justify-center transition-all duration-200 backdrop-blur-[14px] ${canScrollRight
+                      ? "border-[#D29324]/30 bg-gradient-to-b from-white/85 to-[#FBF4E7]/75 text-[#252525] hover:border-[#D29324]/60 hover:text-[#8C5809] shadow-[inset_0_1px_0_rgba(255,255,255,0.85),0_2px_8px_rgba(174,116,25,0.1)] cursor-pointer"
+                      : "border-[#E8E3DA]/80 bg-white/50 text-gray-300 cursor-not-allowed"
+                    }`}
                 >
                   <ChevronRight className="w-4 h-4" />
                 </button>
@@ -194,43 +225,57 @@ export default function TopProjects({
           </div>
         </div>
 
-        {/* City Navigation Slider / Tabs */}
-        <div className="mb-8 border-b border-[#E8E3DA] overflow-x-auto no-scrollbar">
-          <div className="flex items-center gap-2 pb-3 min-w-max">
-            {CITIES.map((city) => {
-              const isActive = activeCityTab.toLowerCase() === city.id.toLowerCase();
-              return (
-                <button
-                  key={city.id}
-                  onClick={() => {
-                    setActiveCityTab(city.id);
-                    if (onSelectCity) onSelectCity(city.id);
-                  }}
-                  className={`px-4 py-2 rounded-xl text-xs font-bold capitalize transition-all duration-300 cursor-pointer btn-tactile ${
-                    isActive
-                      ? "bg-[#D29324] text-white shadow-md shadow-amber-950/10 scale-[1.02]"
-                      : "bg-[#FAF8F4] text-gray-700 hover:bg-[#FBF1DF] hover:text-[#AE7419] border border-[#E8E3DA] hover:border-[#D29324]/50"
-                  }`}
-                >
-                  {city.name}
-                </button>
-              );
-            })}
+        {/* 3. Connected City Tabs Row Directly Above Cards + Highlighted View All CTA */}
+        <div className="flex flex-col md:flex-row md:items-center justify-between gap-2.5 mb-3.5 pb-2.5 border-b border-[#E8E3DA]/80">
+          <div
+            className="flex-1 min-w-0 overflow-x-auto no-scrollbar scroll-smooth"
+            style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
+          >
+            <div className="flex items-center gap-1.5 min-w-max">
+              {CITIES.map((city) => {
+                const isActive = activeCityTab.toLowerCase() === city.id.toLowerCase();
+                return (
+                  <button
+                    key={city.id}
+                    type="button"
+                    onClick={() => {
+                      setLocalCityTab(city.id);
+                      if (onSelectCity) onSelectCity(city.id);
+                    }}
+                    aria-pressed={isActive}
+                    className={`px-3 py-1.5 rounded-lg text-xs capitalize transition-all duration-200 cursor-pointer whitespace-nowrap backdrop-blur-[12px] ${isActive
+                        ? "bg-gradient-to-b from-[#FBF1DF]/95 to-[#F5E0BA]/80 border border-[#D29324]/45 text-[#8C5809] font-semibold shadow-[inset_0_1px_0_rgba(255,255,255,0.85),0_2px_8px_rgba(174,116,25,0.12)]"
+                        : "bg-white/60 border border-[#E5DDD0]/90 text-[#4B5563] font-medium hover:bg-[#FFFBF4]/85 hover:border-[#D29324]/35 hover:text-[#252525] shadow-[inset_0_1px_0_rgba(255,255,255,0.7)]"
+                      }`}
+                  >
+                    {city.name}
+                  </button>
+                );
+              })}
+            </div>
           </div>
+
+          <Link
+            href={viewAllHref}
+            className="group/viewall inline-flex items-center gap-2 px-3.5 py-1.5 rounded-xl bg-gradient-to-r from-[#FBF0DA]/90 via-[#F9E7C5]/85 to-[#F4D9A6]/80 backdrop-blur-[14px] backdrop-saturate-150 border border-[#D29324]/50 text-[#734505] hover:text-[#523002] hover:from-[#F9E8C6] hover:to-[#EFC986] hover:border-[#AE7419]/70 shadow-[inset_0_1px_0_rgba(255,255,255,0.85),0_3px_12px_-2px_rgba(174,116,25,0.18)] text-xs font-semibold transition-all duration-200 whitespace-nowrap shrink-0 self-start md:self-auto"
+          >
+            <span>View All {selectedCityObj.name} Projects</span>
+            <ArrowRight className="w-3.5 h-3.5 text-[#9A6311] shrink-0 transition-transform duration-200 group-hover/viewall:translate-x-0.5" />
+          </Link>
         </div>
 
-        {/* 
-          COMPACT SIDE-BY-SIDE PROJECT CARDS (Image on LEFT, Information on RIGHT):
-          Uses either compact horizontal scroll track or 2-column grid.
+        {/*
+          UNIFORM PROJECT CARDS (Image LEFT, Structured Details RIGHT on sm+):
+          Uses fixed horizontal card height on sm+ and structured clamping across all cards.
         */}
         <div
           ref={scrollRef}
           className={
             layoutMode === "carousel"
-              ? "flex items-stretch gap-5 overflow-x-auto scroll-smooth no-scrollbar pb-4 pt-1 snap-x"
-              : "grid grid-cols-1 md:grid-cols-2 gap-5"
+              ? "flex items-stretch gap-4 sm:gap-5 overflow-x-auto scroll-smooth no-scrollbar pb-1 pt-0.5 snap-x"
+              : "grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-5"
           }
-          style={layoutMode === "carousel" ? { scrollbarWidth: "none", msOverflowStyle: "none" } : {}}
+          style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
         >
           {displayedProjects.map((project) => {
             const projectSlug = getProjectSlug(project);
@@ -239,30 +284,30 @@ export default function TopProjects({
               "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80"
             ];
             const activeImage = imagesList[currentImgIndex];
+            const formattedPrice = formatProjectPrice(project.price);
 
             return (
               <div
                 key={project.id}
-                className={`property-card bg-white rounded-2xl border border-[#E8E3DA] overflow-hidden flex flex-col sm:flex-row shadow-xs group ${
-                  layoutMode === "carousel"
-                    ? "w-[330px] sm:w-[470px] shrink-0 snap-start"
+                className={`property-card bg-white rounded-2xl border border-[#E8E3DA]/90 overflow-hidden flex flex-col sm:flex-row sm:h-[238px] shadow-[0_4px_16px_rgba(37,37,37,0.04)] group ${layoutMode === "carousel"
+                    ? "w-[310px] sm:w-[465px] lg:w-[480px] shrink-0 snap-start"
                     : "w-full"
-                }`}
+                  }`}
               >
-                {/* LEFT: Project Image with Badges & Slide Controls */}
-                <div className="w-full sm:w-[190px] md:w-[210px] shrink-0 relative min-h-[190px] sm:min-h-full overflow-hidden bg-gray-100">
+                {/* LEFT: Fixed-Proportion Project Image */}
+                <div className="w-full h-[185px] sm:h-full sm:w-[195px] md:w-[210px] shrink-0 relative overflow-hidden bg-[#F5F2EC]">
                   <Link href={`/projects/${projectSlug}`} className="block w-full h-full">
                     <img
                       src={activeImage}
                       alt={project.name}
-                      className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-108"
+                      className="w-full h-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105"
                     />
                   </Link>
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/20 pointer-events-none"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/15 to-black/20 pointer-events-none"></div>
 
                   {/* Tag Badge */}
-                  <div className="absolute top-2.5 left-2.5 flex items-center gap-1.5 pointer-events-none z-10">
-                    <span className="px-2 py-0.5 rounded-md bg-[#D29324] text-white text-[10px] font-bold tracking-wide uppercase shadow-xs">
+                  <div className="absolute top-2.5 left-2.5 flex items-center pointer-events-none z-10 max-w-[calc(100%-3.5rem)]">
+                    <span className="px-2 py-0.5 rounded-md bg-white/90 backdrop-blur-xs border border-[#D29324]/30 text-[#8A560B] text-[10px] font-semibold tracking-wide uppercase shadow-2xs truncate">
                       {project.tag || "Verified"}
                     </span>
                   </div>
@@ -276,6 +321,7 @@ export default function TopProjects({
                   {imagesList.length > 1 && (
                     <>
                       <button
+                        type="button"
                         onClick={(e) => handlePrevImage(project.id, imagesList.length, e)}
                         className="absolute left-1.5 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full bg-white/85 hover:bg-white text-gray-800 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-200 hover:scale-110 active:scale-90 shadow-sm cursor-pointer z-10"
                         aria-label="Previous Project Image"
@@ -283,6 +329,7 @@ export default function TopProjects({
                         <ChevronLeft className="w-3.5 h-3.5" />
                       </button>
                       <button
+                        type="button"
                         onClick={(e) => handleNextImage(project.id, imagesList.length, e)}
                         className="absolute right-1.5 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full bg-white/85 hover:bg-white text-gray-800 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-200 hover:scale-110 active:scale-90 shadow-sm cursor-pointer z-10"
                         aria-label="Next Project Image"
@@ -293,65 +340,80 @@ export default function TopProjects({
                   )}
 
                   {/* Price Banner Overlay */}
-                  <Link href={`/projects/${projectSlug}`} className="absolute bottom-2.5 left-2.5 right-2.5 text-white">
-                    <div className="text-base sm:text-lg font-black tracking-tight drop-shadow-sm">₹{project.price}</div>
-                    <div className="text-[10px] text-gray-200 truncate">{project.avgPrice}</div>
+                  <Link href={`/projects/${projectSlug}`} className="absolute bottom-2.5 left-2.5 right-2.5 text-white z-10">
+                    <div className="text-base sm:text-[17px] font-bold tracking-tight drop-shadow-sm truncate">
+                      {formattedPrice}
+                    </div>
+                    {project.avgPrice && (
+                      <div className="text-[10px] text-white/85 font-medium truncate">
+                        {project.avgPrice}
+                      </div>
+                    )}
                   </Link>
                 </div>
 
-                {/* RIGHT: Information, Specs & Actions */}
-                <div className="p-4 sm:p-4.5 flex-1 flex flex-col justify-between space-y-3 min-w-0">
-                  <div className="space-y-1.5">
-                    {/* Builder & Initial */}
-                    <div className="flex items-start justify-between gap-2">
-                      <div className="min-w-0">
-                        <span className="text-[10px] uppercase font-bold text-[#AE7419] block tracking-wide truncate">
+                {/* RIGHT: Structured & Aligned Specs + Actions */}
+                <div className="p-3.5 sm:p-4 flex-1 flex flex-col justify-between min-w-0">
+                  <div className="space-y-2 min-w-0">
+                    {/* Developer, Title & Monogram */}
+                    <div className="flex items-start justify-between gap-2 min-w-0">
+                      <div className="min-w-0 flex-1">
+                        <span className="text-[10px] uppercase font-semibold text-[#9A6311] block tracking-wider truncate">
                           {project.builder}
                         </span>
-                        <Link href={`/projects/${projectSlug}`}>
-                          <h3 className="text-sm sm:text-base font-extrabold text-[#252525] group-hover:text-[#AE7419] transition-colors truncate">
+                        <Link href={`/projects/${projectSlug}`} className="block">
+                          <h3 className="text-sm sm:text-[15px] font-bold text-[#252525] group-hover:text-[#AE7419] transition-colors truncate mt-0.5">
                             {project.name}
                           </h3>
                         </Link>
                       </div>
-                      <div className="w-7 h-7 rounded-lg bg-[#FAF8F4] border border-[#E8E3DA] flex items-center justify-center text-[#D29324] shrink-0 font-bold text-xs shadow-2xs group-hover:border-[#D29324]/40 transition-colors">
-                        {project.builder.charAt(0)}
+                      <div className="w-7 h-7 rounded-lg bg-[#FAF8F4] border border-[#E8E3DA] flex items-center justify-center text-[#AE7419] shrink-0 font-bold text-xs shadow-2xs group-hover:border-[#D29324]/40 transition-colors">
+                        {project.builder?.charAt(0) || "P"}
                       </div>
                     </div>
 
                     {/* Location */}
-                    <div className="flex items-center gap-1 text-xs text-gray-500">
-                      <MapPin className="w-3 h-3 text-[#D29324] shrink-0" />
+                    <div className="flex items-center gap-1 text-xs text-[#6B7280] min-w-0">
+                      <MapPin className="w-3.5 h-3.5 text-[#D29324] shrink-0" />
                       <span className="truncate">{project.location}</span>
                     </div>
 
                     {/* Specs Grid */}
-                    <div className="grid grid-cols-2 gap-2 pt-2 border-t border-[#E8E3DA] bg-[#FAF8F4] p-2 rounded-xl text-xs">
+                    <div className="grid grid-cols-2 gap-2 border border-[#E8E3DA]/80 bg-[#FAF8F4]/90 p-2 rounded-xl text-xs">
                       <div className="min-w-0">
-                        <span className="text-[10px] text-gray-400 block font-medium">BHK</span>
-                        <span className="font-bold text-[#252525] truncate block text-[11px] sm:text-xs">{project.flatTypes}</span>
+                        <span className="text-[10px] text-gray-400 uppercase tracking-wider block font-medium">
+                          Configuration
+                        </span>
+                        <span className="font-semibold text-[#252525] truncate block text-[11px] sm:text-xs mt-0.5">
+                          {project.flatTypes || project.configuration || "On Request"}
+                        </span>
                       </div>
                       <div className="min-w-0">
-                        <span className="text-[10px] text-gray-400 block font-medium">Carpet Area</span>
-                        <span className="font-bold text-[#252525] truncate block text-[11px] sm:text-xs">{project.carpetArea}</span>
+                        <span className="text-[10px] text-gray-400 uppercase tracking-wider block font-medium">
+                          Carpet Area
+                        </span>
+                        <span className="font-semibold text-[#252525] truncate block text-[11px] sm:text-xs mt-0.5">
+                          {project.carpetArea || "On Request"}
+                        </span>
                       </div>
                     </div>
                   </div>
 
-                  {/* Actions */}
-                  <div className="pt-2 border-t border-gray-100 flex items-center gap-2">
+                  {/* Aligned Controls */}
+                  <div className="pt-2.5 mt-3 sm:mt-0 border-t border-[#E8E3DA]/70 flex items-center gap-2 shrink-0">
                     <button
                       type="button"
                       onClick={() => onInquireProject && onInquireProject(project)}
-                      className="flex-1 py-2 rounded-xl bg-[#D29324] hover:bg-[#AE7419] text-white text-xs font-bold transition-all duration-200 shadow-xs hover:shadow-md flex items-center justify-center gap-1.5 cursor-pointer btn-tactile"
+                      className="flex-1 py-2 px-3 rounded-xl bg-[#D29324] hover:bg-[#AE7419] text-white text-xs font-semibold transition-all duration-200 shadow-2xs hover:shadow-sm flex items-center justify-center gap-1.5 cursor-pointer btn-tactile"
                     >
-                      <PhoneCall className="w-3.5 h-3.5" />
+                      <PhoneCall className="w-3.5 h-3.5 shrink-0" />
                       <span>Enquire</span>
                     </button>
                     <Link
                       href={`/projects/${projectSlug}`}
-                      className="px-3 py-2 rounded-xl border border-[#E8E3DA] hover:border-[#D29324] bg-white text-gray-700 hover:text-[#AE7419] text-xs font-semibold transition-all duration-200 flex items-center justify-center cursor-pointer shadow-2xs btn-tactile"
+                      className="px-3 py-2 rounded-xl border border-[#E8E3DA] hover:border-[#D29324]/60 bg-white text-gray-700 hover:text-[#9A6311] text-xs font-semibold transition-all duration-200 flex items-center justify-center cursor-pointer shadow-2xs btn-tactile"
                       title="View Project Details"
+                      aria-label={`View details for ${project.name}`}
                     >
                       <Eye className="w-3.5 h-3.5" />
                     </Link>
@@ -360,17 +422,6 @@ export default function TopProjects({
               </div>
             );
           })}
-        </div>
-
-        {/* View All Projects CTA */}
-        <div className="mt-8 text-center">
-          <Link
-            href={activeCityTab && activeCityTab !== "mumbai" ? `/projects?city=${activeCityTab}` : "/projects"}
-            className="inline-flex items-center gap-2 px-8 py-3 rounded-xl bg-[#D29324] hover:bg-[#AE7419] text-white text-xs font-bold uppercase tracking-wider transition-all duration-200 shadow-md hover:shadow-lg cursor-pointer btn-tactile hover:scale-[1.02]"
-          >
-            <span>View All Projects</span>
-            <ChevronRight className="w-4 h-4 text-white" />
-          </Link>
         </div>
       </div>
     </section>
