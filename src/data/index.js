@@ -3,8 +3,11 @@
 
 import { MUMBAI_REGISTRY_PROJECTS } from "./mumbaiProjectsRegistry.js";
 import { DELHI_REGISTRY_PROJECTS } from "./delhiProjectsRegistry.js";
+import { GOA_REGISTRY_PROJECTS } from "./goaProjectsRegistry.js";
+import { COIMBATORE_REGISTRY_PROJECTS } from "./coimbatoreProjectsRegistry.js";
+import { NAGPUR_REGISTRY_PROJECTS } from "./nagpurProjectsRegistry.js";
 
-export { DELHI_REGISTRY_PROJECTS };
+export { DELHI_REGISTRY_PROJECTS, GOA_REGISTRY_PROJECTS, COIMBATORE_REGISTRY_PROJECTS, NAGPUR_REGISTRY_PROJECTS };
 
 export const CITIES = [
   { id: "mumbai", name: "Mumbai", state: "Maharashtra", projectsCount: 662, popular: true, image: "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=800&q=80" },
@@ -20,9 +23,9 @@ export const CITIES = [
   { id: "dubai", name: "Dubai", state: "UAE", projectsCount: 320, popular: true, image: "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=80" },
   { id: "lucknow", name: "Lucknow", state: "Uttar Pradesh", projectsCount: 290, popular: false, image: "https://images.unsplash.com/photo-1629853692882-990a424ca6b8?auto=format&fit=crop&w=800&q=80" },
   { id: "kochi", name: "Kochi", state: "Kerala", projectsCount: 210, popular: false, image: "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&w=800&q=80" },
-  { id: "goa", name: "Goa", state: "Goa", projectsCount: 180, popular: false, image: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=800&q=80" },
-  { id: "coimbatore", name: "Coimbatore", state: "Tamil Nadu", projectsCount: 160, popular: false, image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" },
-  { id: "nagpur", name: "Nagpur", state: "Maharashtra", projectsCount: 150, popular: false, image: "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=800&q=80" },
+  { id: "goa", name: "Goa", state: "Goa", projectsCount: 48, popular: false, image: "/projects/17853/cover.jpg" },
+  { id: "coimbatore", name: "Coimbatore", state: "Tamil Nadu", projectsCount: 79, popular: false, image: "/projects/17588/cover.jpg" },
+  { id: "nagpur", name: "Nagpur", state: "Maharashtra", projectsCount: 128, popular: false, image: "/projects/17226/cover.jpg" },
   { id: "thrissur", name: "Thrissur", state: "Kerala", projectsCount: 120, popular: false, image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80" },
   { id: "trivandrum", name: "Trivandrum", state: "Kerala", projectsCount: 130, popular: false, image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80" },
   { id: "calicut", name: "Calicut", state: "Kerala", projectsCount: 110, popular: false, image: "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?auto=format&fit=crop&w=800&q=80" }
@@ -113,6 +116,9 @@ export const NON_MUMBAI_PROJECTS = [
 export const PROJECTS = [
   ...MUMBAI_REGISTRY_PROJECTS,
   ...DELHI_REGISTRY_PROJECTS,
+  ...GOA_REGISTRY_PROJECTS,
+  ...COIMBATORE_REGISTRY_PROJECTS,
+  ...NAGPUR_REGISTRY_PROJECTS,
   ...NON_MUMBAI_PROJECTS
 ];
 export const EXCLUSIVE_PROJECTS = [

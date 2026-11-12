@@ -6,6 +6,9 @@ import { DEVELOPERS_DATA } from "./developersData.js";
 import { PROJECTS as GLOBAL_PROJECTS, EXCLUSIVE_PROJECTS } from "./index.js";
 import { getMumbaiProjectBySlug, MUMBAI_ALL_SLUGS } from "./mumbaiProjectsRegistry.js";
 import { getDelhiProjectBySlug, DELHI_ALL_SLUGS } from "./delhiProjectsRegistry.js";
+import { getGoaProjectBySlug, GOA_ALL_SLUGS } from "./goaProjectsRegistry.js";
+import { getCoimbatoreProjectBySlug, COIMBATORE_ALL_SLUGS } from "./coimbatoreProjectsRegistry.js";
+import { getNagpurProjectBySlug, NAGPUR_ALL_SLUGS } from "./nagpurProjectsRegistry.js";
 
 // Standard Floor Plan Generator Helper
 function generateFloorPlans(typologies = "2, 3 BHK", basePriceStr = "2.5 Cr", carpetAreaStr = "800 - 1,400 sq.ft") {
@@ -816,6 +819,24 @@ export function getProjectBySlug(rawSlug) {
     return delhiProject;
   }
 
+  // 2c. Direct match in Goa Projects Registry (48 verified projects)
+  const goaProject = getGoaProjectBySlug(cleanSlug);
+  if (goaProject) {
+    return goaProject;
+  }
+
+  // 2d. Direct match in Coimbatore Projects Registry (79 verified projects)
+  const coimbatoreProject = getCoimbatoreProjectBySlug(cleanSlug);
+  if (coimbatoreProject) {
+    return coimbatoreProject;
+  }
+
+  // 2e. Direct match in Nagpur Projects Registry (128 verified projects)
+  const nagpurProject = getNagpurProjectBySlug(cleanSlug);
+  if (nagpurProject) {
+    return nagpurProject;
+  }
+
   // 3. Search in DEVELOPERS_DATA
   for (const dev of DEVELOPERS_DATA) {
     for (const city of dev.cities || []) {
@@ -1028,6 +1049,9 @@ export function getAllProjectSlugs() {
   const slugs = new Set();
   MUMBAI_ALL_SLUGS.forEach((s) => slugs.add(s));
   DELHI_ALL_SLUGS.forEach((s) => slugs.add(s));
+  GOA_ALL_SLUGS.forEach((s) => slugs.add(s));
+  COIMBATORE_ALL_SLUGS.forEach((s) => slugs.add(s));
+  NAGPUR_ALL_SLUGS.forEach((s) => slugs.add(s));
   CANONICAL_PROJECTS.forEach((p) => slugs.add(p.slug));
   GLOBAL_PROJECTS.forEach((p) => slugs.add(getProjectSlug(p)));
   DEVELOPERS_DATA.forEach((d) => {

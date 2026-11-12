@@ -3,6 +3,9 @@
 
 import { MUMBAI_REGISTRY_PROJECTS } from "./mumbaiProjectsRegistry.js";
 import { DELHI_REGISTRY_PROJECTS } from "./delhiProjectsRegistry.js";
+import { GOA_REGISTRY_PROJECTS } from "./goaProjectsRegistry.js";
+import { COIMBATORE_REGISTRY_PROJECTS } from "./coimbatoreProjectsRegistry.js";
+import { NAGPUR_REGISTRY_PROJECTS } from "./nagpurProjectsRegistry.js";
 
 export const CITY_DETAILS = {
   mumbai: {
@@ -353,8 +356,8 @@ export const CITY_DETAILS = {
     name: "Goa",
     state: "Goa",
     tagline: "India's Premier Coastal Holiday Home & Luxury Villa Sanctuary",
-    heroImage: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1600&q=80",
-    projectsCount: 180,
+    heroImage: "/projects/17853/cover.jpg",
+    projectsCount: 48,
     avgPriceSqFt: "₹14,200",
     appreciationRate: "+16.8% YoY",
     rentalYield: "6.5% p.a.",
@@ -440,8 +443,8 @@ export const CITY_DETAILS = {
     name: "Coimbatore",
     state: "Tamil Nadu",
     tagline: "The Manchester of South India & Thriving Industrial/IT Center",
-    heroImage: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80",
-    projectsCount: 160,
+    heroImage: "/projects/17588/cover.jpg",
+    projectsCount: 79,
     avgPriceSqFt: "₹5,600",
     appreciationRate: "+11.1% YoY",
     rentalYield: "4.0% p.a.",
@@ -468,8 +471,8 @@ export const CITY_DETAILS = {
     name: "Nagpur",
     state: "Maharashtra",
     tagline: "The Orange City & Zero-Mile Logistics and MIHAN Industrial Hub",
-    heroImage: "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1600&q=80",
-    projectsCount: 150,
+    heroImage: "/projects/17226/cover.jpg",
+    projectsCount: 128,
     avgPriceSqFt: "₹4,900",
     appreciationRate: "+12.0% YoY",
     rentalYield: "4.2% p.a.",
@@ -790,6 +793,9 @@ export const CITY_PROPERTIES = {
   ],
 
   delhi: DELHI_REGISTRY_PROJECTS,
+  goa: GOA_REGISTRY_PROJECTS,
+  coimbatore: COIMBATORE_REGISTRY_PROJECTS,
+  nagpur: NAGPUR_REGISTRY_PROJECTS,
 
   gurugram: [
     {

@@ -4,6 +4,9 @@
 
 import { MUMBAI_REGISTRY_PROJECTS } from "./mumbaiProjectsRegistry.js";
 import { DELHI_REGISTRY_PROJECTS } from "./delhiProjectsRegistry.js";
+import { GOA_REGISTRY_PROJECTS } from "./goaProjectsRegistry.js";
+import { COIMBATORE_REGISTRY_PROJECTS } from "./coimbatoreProjectsRegistry.js";
+import { NAGPUR_REGISTRY_PROJECTS } from "./nagpurProjectsRegistry.js";
 
 export const DEVELOPERS_DATA = [
   {
@@ -1105,6 +1108,48 @@ export function enrichDeveloperWithProjects(dev) {
     );
   });
 
+  const goaMatches = GOA_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === dev.slug) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return (
+      bNorm === normSlug ||
+      bNorm.includes(normSlug) ||
+      normSlug.includes(bNorm) ||
+      bNorm === normDevName ||
+      bNorm.includes(normDevName) ||
+      normDevName.includes(bNorm)
+    );
+  });
+
+  const coimbatoreMatches = COIMBATORE_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === dev.slug) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return (
+      bNorm === normSlug ||
+      bNorm.includes(normSlug) ||
+      normSlug.includes(bNorm) ||
+      bNorm === normDevName ||
+      bNorm.includes(normDevName) ||
+      normDevName.includes(bNorm)
+    );
+  });
+
+  const nagpurMatches = NAGPUR_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === dev.slug) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return (
+      bNorm === normSlug ||
+      bNorm.includes(normSlug) ||
+      normSlug.includes(bNorm) ||
+      bNorm === normDevName ||
+      bNorm.includes(normDevName) ||
+      normDevName.includes(bNorm)
+    );
+  });
+
   const existingCities = dev.cities || [];
   const existingMumbaiCity = existingCities.find((c) => c.citySlug === "mumbai") || {
     name: "Mumbai",
@@ -1168,6 +1213,87 @@ export function enrichDeveloperWithProjects(dev) {
     }
   }
 
+  if (goaMatches.length > 0) {
+    const goaOngoing = goaMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch"
+    ).length;
+    const goaUpcoming = goaMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch"
+    ).length;
+    const existingGoaIndex = updatedCities.findIndex((c) => c.citySlug === "goa");
+    if (existingGoaIndex >= 0) {
+      updatedCities[existingGoaIndex] = {
+        ...updatedCities[existingGoaIndex],
+        name: "Goa",
+        ongoingCount: goaOngoing || updatedCities[existingGoaIndex].ongoingCount || 1,
+        upcomingCount: goaUpcoming || updatedCities[existingGoaIndex].upcomingCount || 1,
+        projects: goaMatches
+      };
+    } else {
+      updatedCities.push({
+        name: "Goa",
+        citySlug: "goa",
+        ongoingCount: goaOngoing,
+        upcomingCount: goaUpcoming,
+        projects: goaMatches
+      });
+    }
+  }
+
+  if (coimbatoreMatches.length > 0) {
+    const cbeOngoing = coimbatoreMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch"
+    ).length;
+    const cbeUpcoming = coimbatoreMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch"
+    ).length;
+    const existingCbeIndex = updatedCities.findIndex((c) => c.citySlug === "coimbatore");
+    if (existingCbeIndex >= 0) {
+      updatedCities[existingCbeIndex] = {
+        ...updatedCities[existingCbeIndex],
+        name: "Coimbatore",
+        ongoingCount: cbeOngoing || updatedCities[existingCbeIndex].ongoingCount || 1,
+        upcomingCount: cbeUpcoming || updatedCities[existingCbeIndex].upcomingCount || 1,
+        projects: coimbatoreMatches
+      };
+    } else {
+      updatedCities.push({
+        name: "Coimbatore",
+        citySlug: "coimbatore",
+        ongoingCount: cbeOngoing,
+        upcomingCount: cbeUpcoming,
+        projects: coimbatoreMatches
+      });
+    }
+  }
+
+  if (nagpurMatches.length > 0) {
+    const ngpOngoing = nagpurMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch"
+    ).length;
+    const ngpUpcoming = nagpurMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch"
+    ).length;
+    const existingNgpIndex = updatedCities.findIndex((c) => c.citySlug === "nagpur");
+    if (existingNgpIndex >= 0) {
+      updatedCities[existingNgpIndex] = {
+        ...updatedCities[existingNgpIndex],
+        name: "Nagpur",
+        ongoingCount: ngpOngoing || updatedCities[existingNgpIndex].ongoingCount || 1,
+        upcomingCount: ngpUpcoming || updatedCities[existingNgpIndex].upcomingCount || 1,
+        projects: nagpurMatches
+      };
+    } else {
+      updatedCities.push({
+        name: "Nagpur",
+        citySlug: "nagpur",
+        ongoingCount: ngpOngoing,
+        upcomingCount: ngpUpcoming,
+        projects: nagpurMatches
+      });
+    }
+  }
+
   // Use top matching projects for featured showcase
   const featured = matches.length > 0
     ? matches.slice(0, 3).map((p) => ({
@@ -1179,7 +1305,7 @@ export function enrichDeveloperWithProjects(dev) {
       }))
     : dev.featuredProjects;
 
-  const totalCount = finalProjects.length + delhiMatches.length;
+  const totalCount = finalProjects.length + delhiMatches.length + goaMatches.length + coimbatoreMatches.length + nagpurMatches.length;
   return {
     ...dev,
     projectCount: `${totalCount}+ Projects`,
@@ -1258,6 +1384,170 @@ export function getDeveloperBySlug(slug) {
           ongoingCount: ongoing,
           upcomingCount: upcoming,
           projects: delhiDevMatches
+        }
+      ]
+    };
+  }
+
+  // 2b. Synthesize developer profile dynamically from GOA_REGISTRY_PROJECTS
+  const goaDevMatches = GOA_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === normalized) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return bNorm === normSlug || bNorm.includes(normSlug) || normSlug.includes(bNorm);
+  });
+
+  if (goaDevMatches.length > 0) {
+    const builderName = goaDevMatches[0].builder;
+    const logo =
+      goaDevMatches[0].builderLogo ||
+      "https://images.unsplash.com/photo-1541888946425-d0fbb186f5f7?auto=format&fit=crop&w=120&h=120&q=80";
+    const ongoing = goaDevMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch"
+    ).length;
+    const upcoming = goaDevMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch"
+    ).length;
+
+    return {
+      id: normalized,
+      slug: goaDevMatches[0].developerSlug || normalized,
+      name: builderName,
+      logo: logo,
+      tagline: `Premier Residential & Coastal Developments in Goa`,
+      experience: "15+ Years",
+      projectCount: `${goaDevMatches.length}+ Projects`,
+      established: "2008",
+      aboutUs: `${builderName} is a real estate developer with verified residential developments across North and South Goa.`,
+      description: `${builderName} delivers residences and holiday homes in Goa with verified Goa RERA registration and transparent specifications.`,
+      stats: [
+        { label: "Active Projects", value: `${goaDevMatches.length}+` },
+        { label: "Location", value: "Goa" },
+        { label: "RERA Compliant", value: "100%" },
+        { label: "Brokerage", value: "0%" }
+      ],
+      featuredProjects: goaDevMatches.slice(0, 3).map((p) => ({
+        title: p.name,
+        location: p.location,
+        price: `${p.price}*`,
+        image: p.images?.[0] || "/images/placeholder-property.jpg",
+        slug: p.slug
+      })),
+      cities: [
+        {
+          name: "Goa",
+          citySlug: "goa",
+          ongoingCount: ongoing,
+          upcomingCount: upcoming,
+          projects: goaDevMatches
+        }
+      ]
+    };
+  }
+
+  // 2c. Synthesize developer profile dynamically from COIMBATORE_REGISTRY_PROJECTS
+  const coimbatoreDevMatches = COIMBATORE_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === normalized) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return bNorm === normSlug || bNorm.includes(normSlug) || normSlug.includes(bNorm);
+  });
+
+  if (coimbatoreDevMatches.length > 0) {
+    const builderName = coimbatoreDevMatches[0].builder;
+    const logo = coimbatoreDevMatches[0].builderLogo || "/images/logo/logo-emblem.png";
+    const ongoing = coimbatoreDevMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch"
+    ).length;
+    const upcoming = coimbatoreDevMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch"
+    ).length;
+
+    return {
+      id: normalized,
+      slug: coimbatoreDevMatches[0].developerSlug || normalized,
+      name: builderName,
+      logo: logo,
+      tagline: `Premier Residential Developments Across Coimbatore`,
+      experience: "15+ Years",
+      projectCount: `${coimbatoreDevMatches.length}+ Projects`,
+      established: "2008",
+      aboutUs: coimbatoreDevMatches[0].builderDescription || `${builderName} is a trusted real estate developer with verified residential developments across Coimbatore.`,
+      description: coimbatoreDevMatches[0].builderDescription || `${builderName} delivers verified residential communities across Coimbatore with TNRERA compliance and transparent specifications.`,
+      stats: [
+        { label: "Active Projects", value: `${coimbatoreDevMatches.length}+` },
+        { label: "Location", value: "Coimbatore" },
+        { label: "RERA Compliant", value: "100%" },
+        { label: "Brokerage", value: "0%" }
+      ],
+      featuredProjects: coimbatoreDevMatches.slice(0, 3).map((p) => ({
+        title: p.name,
+        location: p.location,
+        price: p.price === "On Request" ? "On Request" : `₹${p.price}*`,
+        image: p.images?.[0] || "/images/placeholder-property.jpg",
+        slug: p.slug
+      })),
+      cities: [
+        {
+          name: "Coimbatore",
+          citySlug: "coimbatore",
+          ongoingCount: ongoing,
+          upcomingCount: upcoming,
+          projects: coimbatoreDevMatches
+        }
+      ]
+    };
+  }
+
+  // 2d. Synthesize developer profile dynamically from NAGPUR_REGISTRY_PROJECTS
+  const nagpurDevMatches = NAGPUR_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === normalized) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return bNorm === normSlug || bNorm.includes(normSlug) || normSlug.includes(bNorm);
+  });
+
+  if (nagpurDevMatches.length > 0) {
+    const builderName = nagpurDevMatches[0].builder;
+    const logo = nagpurDevMatches[0].builderLogo || "/images/logo/logo-emblem.png";
+    const ongoing = nagpurDevMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch"
+    ).length;
+    const upcoming = nagpurDevMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch"
+    ).length;
+
+    return {
+      id: normalized,
+      slug: nagpurDevMatches[0].developerSlug || normalized,
+      name: builderName,
+      logo: logo,
+      tagline: `Premier Residential Developments Across Nagpur`,
+      experience: "15+ Years",
+      projectCount: `${nagpurDevMatches.length}+ Projects`,
+      established: "2008",
+      aboutUs: nagpurDevMatches[0].builderDescription || `${builderName} is a trusted real estate developer with verified residential developments across Nagpur.`,
+      description: nagpurDevMatches[0].builderDescription || `${builderName} delivers verified residential communities across Nagpur with MahaRERA compliance and transparent specifications.`,
+      stats: [
+        { label: "Active Projects", value: `${nagpurDevMatches.length}+` },
+        { label: "Location", value: "Nagpur" },
+        { label: "RERA Compliant", value: "100%" },
+        { label: "Brokerage", value: "0%" }
+      ],
+      featuredProjects: nagpurDevMatches.slice(0, 3).map((p) => ({
+        title: p.name,
+        location: p.location,
+        price: p.price === "On Request" ? "On Request" : `₹${p.price}*`,
+        image: p.images?.[0] || "/images/placeholder-property.jpg",
+        slug: p.slug
+      })),
+      cities: [
+        {
+          name: "Nagpur",
+          citySlug: "nagpur",
+          ongoingCount: ongoing,
+          upcomingCount: upcoming,
+          projects: nagpurDevMatches
         }
       ]
     };
