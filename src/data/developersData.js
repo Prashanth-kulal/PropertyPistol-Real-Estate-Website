@@ -7,6 +7,7 @@ import { DELHI_REGISTRY_PROJECTS } from "./delhiProjectsRegistry.js";
 import { GOA_REGISTRY_PROJECTS } from "./goaProjectsRegistry.js";
 import { COIMBATORE_REGISTRY_PROJECTS } from "./coimbatoreProjectsRegistry.js";
 import { NAGPUR_REGISTRY_PROJECTS } from "./nagpurProjectsRegistry.js";
+import { THRISSUR_REGISTRY_PROJECTS } from "./thrissurProjectsRegistry.js";
 
 export const DEVELOPERS_DATA = [
   {
@@ -1150,6 +1151,20 @@ export function enrichDeveloperWithProjects(dev) {
     );
   });
 
+  const thrissurMatches = THRISSUR_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === dev.slug) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return (
+      bNorm === normSlug ||
+      bNorm.includes(normSlug) ||
+      normSlug.includes(bNorm) ||
+      bNorm === normDevName ||
+      bNorm.includes(normDevName) ||
+      normDevName.includes(bNorm)
+    );
+  });
+
   const existingCities = dev.cities || [];
   const existingMumbaiCity = existingCities.find((c) => c.citySlug === "mumbai") || {
     name: "Mumbai",
@@ -1294,6 +1309,33 @@ export function enrichDeveloperWithProjects(dev) {
     }
   }
 
+  if (thrissurMatches.length > 0) {
+    const tsrOngoing = thrissurMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch"
+    ).length;
+    const tsrUpcoming = thrissurMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch"
+    ).length;
+    const existingTsrIndex = updatedCities.findIndex((c) => c.citySlug === "thrissur");
+    if (existingTsrIndex >= 0) {
+      updatedCities[existingTsrIndex] = {
+        ...updatedCities[existingTsrIndex],
+        name: "Thrissur",
+        ongoingCount: tsrOngoing || updatedCities[existingTsrIndex].ongoingCount || 1,
+        upcomingCount: tsrUpcoming || updatedCities[existingTsrIndex].upcomingCount || 1,
+        projects: thrissurMatches
+      };
+    } else {
+      updatedCities.push({
+        name: "Thrissur",
+        citySlug: "thrissur",
+        ongoingCount: tsrOngoing,
+        upcomingCount: tsrUpcoming,
+        projects: thrissurMatches
+      });
+    }
+  }
+
   // Use top matching projects for featured showcase
   const featured = matches.length > 0
     ? matches.slice(0, 3).map((p) => ({
@@ -1305,7 +1347,7 @@ export function enrichDeveloperWithProjects(dev) {
       }))
     : dev.featuredProjects;
 
-  const totalCount = finalProjects.length + delhiMatches.length + goaMatches.length + coimbatoreMatches.length + nagpurMatches.length;
+  const totalCount = finalProjects.length + delhiMatches.length + goaMatches.length + coimbatoreMatches.length + nagpurMatches.length + thrissurMatches.length;
   return {
     ...dev,
     projectCount: `${totalCount}+ Projects`,
@@ -1548,6 +1590,60 @@ export function getDeveloperBySlug(slug) {
           ongoingCount: ongoing,
           upcomingCount: upcoming,
           projects: nagpurDevMatches
+        }
+      ]
+    };
+  }
+
+  // 2e. Synthesize developer profile dynamically from THRISSUR_REGISTRY_PROJECTS
+  const thrissurDevMatches = THRISSUR_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === normalized) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return bNorm === normSlug || bNorm.includes(normSlug) || normSlug.includes(bNorm);
+  });
+
+  if (thrissurDevMatches.length > 0) {
+    const builderName = thrissurDevMatches[0].builder;
+    const logo = thrissurDevMatches[0].builderLogo || "/images/logo/logo-emblem.png";
+    const ongoing = thrissurDevMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch"
+    ).length;
+    const upcoming = thrissurDevMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch"
+    ).length;
+
+    return {
+      id: normalized,
+      slug: thrissurDevMatches[0].developerSlug || normalized,
+      name: builderName,
+      logo: logo,
+      tagline: `Premier Residential Developments Across Thrissur`,
+      experience: "15+ Years",
+      projectCount: `${thrissurDevMatches.length}+ Projects`,
+      established: "2008",
+      aboutUs: thrissurDevMatches[0].builderDescription || `${builderName} is a trusted real estate developer with verified residential developments across Thrissur.`,
+      description: thrissurDevMatches[0].builderDescription || `${builderName} delivers verified residential communities across Thrissur with K-RERA compliance and transparent specifications.`,
+      stats: [
+        { label: "Active Projects", value: `${thrissurDevMatches.length}+` },
+        { label: "Location", value: "Thrissur" },
+        { label: "RERA Compliant", value: "100%" },
+        { label: "Brokerage", value: "0%" }
+      ],
+      featuredProjects: thrissurDevMatches.slice(0, 3).map((p) => ({
+        title: p.name,
+        location: p.location,
+        price: p.price === "On Request" ? "On Request" : `₹${p.price}*`,
+        image: p.images?.[0] || "/images/placeholder-property.jpg",
+        slug: p.slug
+      })),
+      cities: [
+        {
+          name: "Thrissur",
+          citySlug: "thrissur",
+          ongoingCount: ongoing,
+          upcomingCount: upcoming,
+          projects: thrissurDevMatches
         }
       ]
     };

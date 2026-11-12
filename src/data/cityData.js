@@ -6,6 +6,7 @@ import { DELHI_REGISTRY_PROJECTS } from "./delhiProjectsRegistry.js";
 import { GOA_REGISTRY_PROJECTS } from "./goaProjectsRegistry.js";
 import { COIMBATORE_REGISTRY_PROJECTS } from "./coimbatoreProjectsRegistry.js";
 import { NAGPUR_REGISTRY_PROJECTS } from "./nagpurProjectsRegistry.js";
+import { THRISSUR_REGISTRY_PROJECTS } from "./thrissurProjectsRegistry.js";
 
 export const CITY_DETAILS = {
   mumbai: {
@@ -499,8 +500,8 @@ export const CITY_DETAILS = {
     name: "Thrissur",
     state: "Kerala",
     tagline: "Cultural Capital of Kerala & Peaceful Residential Sanctuary",
-    heroImage: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=80",
-    projectsCount: 120,
+    heroImage: "/projects/11931/cover.jpg",
+    projectsCount: 8,
     avgPriceSqFt: "₹5,100",
     appreciationRate: "+9.2% YoY",
     rentalYield: "3.9% p.a.",
@@ -508,10 +509,10 @@ export const CITY_DETAILS = {
     stampDuty: "8%",
     description: "Thrissur offers rich cultural heritage, leading healthcare centers, and serene luxury gated villas surrounding the iconic Swaraj Round.",
     localities: [
-      { name: "Swaraj Round", avgPrice: "₹9,800 / sq.ft", projects: 16, tag: "Heart of City" },
-      { name: "Punkunnam", avgPrice: "₹6,200 / sq.ft", projects: 26, tag: "Prime Residential" },
-      { name: "Ayyanthole", avgPrice: "₹5,500 / sq.ft", projects: 28, tag: "Administrative Hub" },
-      { name: "Kolazhy", avgPrice: "₹4,800 / sq.ft", projects: 22, tag: "Green Suburb" }
+      { name: "Kuriachira", avgPrice: "₹6,500 / sq.ft", projects: 3, tag: "Prime Residential" },
+      { name: "Ollur", avgPrice: "₹17,830 / sq.ft", projects: 1, tag: "Luxury Township" },
+      { name: "Chembukkav", avgPrice: "₹7,810 / sq.ft", projects: 1, tag: "Heart of City" },
+      { name: "Viyyur", avgPrice: "₹5,600 / sq.ft", projects: 1, tag: "Green Suburb" }
     ],
     faqs: [
       {
@@ -796,6 +797,7 @@ export const CITY_PROPERTIES = {
   goa: GOA_REGISTRY_PROJECTS,
   coimbatore: COIMBATORE_REGISTRY_PROJECTS,
   nagpur: NAGPUR_REGISTRY_PROJECTS,
+  thrissur: THRISSUR_REGISTRY_PROJECTS,
 
   gurugram: [
     {

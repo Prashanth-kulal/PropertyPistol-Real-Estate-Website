@@ -6,8 +6,9 @@ import { DELHI_REGISTRY_PROJECTS } from "./delhiProjectsRegistry.js";
 import { GOA_REGISTRY_PROJECTS } from "./goaProjectsRegistry.js";
 import { COIMBATORE_REGISTRY_PROJECTS } from "./coimbatoreProjectsRegistry.js";
 import { NAGPUR_REGISTRY_PROJECTS } from "./nagpurProjectsRegistry.js";
+import { THRISSUR_REGISTRY_PROJECTS } from "./thrissurProjectsRegistry.js";
 
-export { DELHI_REGISTRY_PROJECTS, GOA_REGISTRY_PROJECTS, COIMBATORE_REGISTRY_PROJECTS, NAGPUR_REGISTRY_PROJECTS };
+export { DELHI_REGISTRY_PROJECTS, GOA_REGISTRY_PROJECTS, COIMBATORE_REGISTRY_PROJECTS, NAGPUR_REGISTRY_PROJECTS, THRISSUR_REGISTRY_PROJECTS };
 
 export const CITIES = [
   { id: "mumbai", name: "Mumbai", state: "Maharashtra", projectsCount: 662, popular: true, image: "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=800&q=80" },
@@ -26,7 +27,7 @@ export const CITIES = [
   { id: "goa", name: "Goa", state: "Goa", projectsCount: 48, popular: false, image: "/projects/17853/cover.jpg" },
   { id: "coimbatore", name: "Coimbatore", state: "Tamil Nadu", projectsCount: 79, popular: false, image: "/projects/17588/cover.jpg" },
   { id: "nagpur", name: "Nagpur", state: "Maharashtra", projectsCount: 128, popular: false, image: "/projects/17226/cover.jpg" },
-  { id: "thrissur", name: "Thrissur", state: "Kerala", projectsCount: 120, popular: false, image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80" },
+  { id: "thrissur", name: "Thrissur", state: "Kerala", projectsCount: 8, popular: false, image: "/projects/11931/cover.jpg" },
   { id: "trivandrum", name: "Trivandrum", state: "Kerala", projectsCount: 130, popular: false, image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80" },
   { id: "calicut", name: "Calicut", state: "Kerala", projectsCount: 110, popular: false, image: "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?auto=format&fit=crop&w=800&q=80" }
 ];
@@ -119,6 +120,7 @@ export const PROJECTS = [
   ...GOA_REGISTRY_PROJECTS,
   ...COIMBATORE_REGISTRY_PROJECTS,
   ...NAGPUR_REGISTRY_PROJECTS,
+  ...THRISSUR_REGISTRY_PROJECTS,
   ...NON_MUMBAI_PROJECTS
 ];
 export const EXCLUSIVE_PROJECTS = [
