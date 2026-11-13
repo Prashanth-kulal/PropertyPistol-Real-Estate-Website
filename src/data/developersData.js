@@ -7,6 +7,7 @@ import { DELHI_REGISTRY_PROJECTS } from "./delhiProjectsRegistry.js";
 import { GOA_REGISTRY_PROJECTS } from "./goaProjectsRegistry.js";
 import { COIMBATORE_REGISTRY_PROJECTS } from "./coimbatoreProjectsRegistry.js";
 import { NAGPUR_REGISTRY_PROJECTS } from "./nagpurProjectsRegistry.js";
+import { NOIDA_REGISTRY_PROJECTS } from "./noidaProjectsRegistry.js";
 
 export const DEVELOPERS_DATA = [
   {
@@ -1548,6 +1549,60 @@ export function getDeveloperBySlug(slug) {
           ongoingCount: ongoing,
           upcomingCount: upcoming,
           projects: nagpurDevMatches
+        }
+      ]
+    };
+  }
+
+  // 2e. Synthesize developer profile dynamically from NOIDA_REGISTRY_PROJECTS
+  const noidaDevMatches = NOIDA_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === normalized) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return bNorm === normSlug || bNorm.includes(normSlug) || normSlug.includes(bNorm);
+  });
+
+  if (noidaDevMatches.length > 0) {
+    const builderName = noidaDevMatches[0].builder;
+    const logo = noidaDevMatches[0].builderLogo || "/images/logo/logo-emblem.png";
+    const ongoing = noidaDevMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch"
+    ).length;
+    const upcoming = noidaDevMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch"
+    ).length;
+
+    return {
+      id: normalized,
+      slug: noidaDevMatches[0].developerSlug || normalized,
+      name: builderName,
+      logo: logo,
+      tagline: `Premier Residential Developments Across Noida & Greater Noida`,
+      experience: "15+ Years",
+      projectCount: `${noidaDevMatches.length}+ Projects`,
+      established: "2010",
+      aboutUs: noidaDevMatches[0].builderDescription || `${builderName} is a leading real estate developer with verified residential developments across Noida and Greater Noida.`,
+      description: noidaDevMatches[0].builderDescription || `${builderName} delivers high-grade residential and commercial communities across Noida with UP RERA compliance and modern architectural standards.`,
+      stats: [
+        { label: "Active Projects", value: `${noidaDevMatches.length}+` },
+        { label: "Location", value: "Noida NCR" },
+        { label: "RERA Compliant", value: "100%" },
+        { label: "Brokerage", value: "0%" }
+      ],
+      featuredProjects: noidaDevMatches.slice(0, 3).map((p) => ({
+        title: p.name,
+        location: p.location,
+        price: p.price === "On Request" ? "On Request" : `₹${p.price}*`,
+        image: p.images?.[0] || "/images/placeholder-property.jpg",
+        slug: p.slug
+      })),
+      cities: [
+        {
+          name: "Noida",
+          citySlug: "noida",
+          ongoingCount: ongoing,
+          upcomingCount: upcoming,
+          projects: noidaDevMatches
         }
       ]
     };

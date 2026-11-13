@@ -6,8 +6,9 @@ import { DELHI_REGISTRY_PROJECTS } from "./delhiProjectsRegistry.js";
 import { GOA_REGISTRY_PROJECTS } from "./goaProjectsRegistry.js";
 import { COIMBATORE_REGISTRY_PROJECTS } from "./coimbatoreProjectsRegistry.js";
 import { NAGPUR_REGISTRY_PROJECTS } from "./nagpurProjectsRegistry.js";
+import { NOIDA_REGISTRY_PROJECTS } from "./noidaProjectsRegistry.js";
 
-export { DELHI_REGISTRY_PROJECTS, GOA_REGISTRY_PROJECTS, COIMBATORE_REGISTRY_PROJECTS, NAGPUR_REGISTRY_PROJECTS };
+export { DELHI_REGISTRY_PROJECTS, GOA_REGISTRY_PROJECTS, COIMBATORE_REGISTRY_PROJECTS, NAGPUR_REGISTRY_PROJECTS, NOIDA_REGISTRY_PROJECTS };
 
 export const CITIES = [
   { id: "mumbai", name: "Mumbai", state: "Maharashtra", projectsCount: 662, popular: true, image: "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=800&q=80" },
@@ -17,7 +18,7 @@ export const CITIES = [
   { id: "hyderabad", name: "Hyderabad", state: "Telangana", projectsCount: 890, popular: true, image: "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=800&q=80" },
   { id: "chennai", name: "Chennai", state: "Tamil Nadu", projectsCount: 760, popular: true, image: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=80" },
   { id: "gurugram", name: "Gurugram", state: "Haryana", projectsCount: 650, popular: true, image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80" },
-  { id: "noida", name: "Noida", state: "Uttar Pradesh", projectsCount: 580, popular: true, image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80" },
+  { id: "noida", name: "Noida", state: "Uttar Pradesh", projectsCount: 100, popular: true, image: "/projects/15680/cover.jpg" },
   { id: "kolkata", name: "Kolkata", state: "West Bengal", projectsCount: 540, popular: true, image: "https://images.unsplash.com/photo-1558431382-27e303142255?auto=format&fit=crop&w=800&q=80" },
   { id: "ahmedabad", name: "Ahmedabad", state: "Gujarat", projectsCount: 490, popular: true, image: "https://images.unsplash.com/photo-1609137144822-26d24fc6170c?auto=format&fit=crop&w=800&q=80" },
   { id: "dubai", name: "Dubai", state: "UAE", projectsCount: 320, popular: true, image: "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=80" },
@@ -119,6 +120,7 @@ export const PROJECTS = [
   ...GOA_REGISTRY_PROJECTS,
   ...COIMBATORE_REGISTRY_PROJECTS,
   ...NAGPUR_REGISTRY_PROJECTS,
+  ...NOIDA_REGISTRY_PROJECTS,
   ...NON_MUMBAI_PROJECTS
 ];
 export const EXCLUSIVE_PROJECTS = [
