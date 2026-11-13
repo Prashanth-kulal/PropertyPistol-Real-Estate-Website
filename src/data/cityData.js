@@ -10,6 +10,7 @@ import { THRISSUR_REGISTRY_PROJECTS } from "./thrissurProjectsRegistry.js";
 import { TRIVANDRUM_REGISTRY_PROJECTS } from "./trivandrumProjectsRegistry.js";
 import { CALICUT_REGISTRY_PROJECTS } from "./calicutProjectsRegistry.js";
 import { BANGALORE_REGISTRY_PROJECTS } from "./bangaloreProjectsRegistry.js";
+import { NOIDA_REGISTRY_PROJECTS } from "./noidaProjectsRegistry.js";
 
 export const CITY_DETAILS = {
   mumbai: {
@@ -252,8 +253,8 @@ export const CITY_DETAILS = {
     name: "Noida",
     state: "Uttar Pradesh",
     tagline: "Planned Infrastructure Haven with World-Class Jewar Airport Proximity",
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1600&q=80",
-    projectsCount: 580,
+    heroImage: "/projects/15680/cover.jpg",
+    projectsCount: 100,
     avgPriceSqFt: "₹8,200",
     appreciationRate: "+13.8% YoY",
     rentalYield: "4.1% p.a.",
@@ -261,10 +262,14 @@ export const CITY_DETAILS = {
     stampDuty: "7%",
     description: "Noida offers wide multi-lane boulevards, extensive green cover, and proximity to the upcoming Noida International Airport at Jewar.",
     localities: [
-      { name: "Sector 150", avgPrice: "₹9,800 / sq.ft", projects: 65, tag: "Sports City" },
-      { name: "Noida Expressway", avgPrice: "₹8,900 / sq.ft", projects: 80, tag: "Corporate Axis" },
-      { name: "Sector 128", avgPrice: "₹12,400 / sq.ft", projects: 40, tag: "Golf Enclave" },
-      { name: "Greater Noida West", avgPrice: "₹5,800 / sq.ft", projects: 95, tag: "High Affordability" }
+      { name: "Sector 1 Greater Noida", avgPrice: "₹6,800 / sq.ft", projects: 13, tag: "Express Corridor" },
+      { name: "Sector 150", avgPrice: "₹9,800 / sq.ft", projects: 12, tag: "Sports City" },
+      { name: "Greater Noida", avgPrice: "₹5,800 / sq.ft", projects: 9, tag: "High Affordability" },
+      { name: "Sector 12 Greater Noida", avgPrice: "₹6,500 / sq.ft", projects: 5, tag: "Rapid Expansion" },
+      { name: "Sector 10 Greater Noida", avgPrice: "₹6,200 / sq.ft", projects: 5, tag: "Emerging Enclave" },
+      { name: "Sector 128", avgPrice: "₹12,400 / sq.ft", projects: 5, tag: "Golf Enclave" },
+      { name: "Yamuna Expressway", avgPrice: "₹7,200 / sq.ft", projects: 4, tag: "Airport Gateway" },
+      { name: "Techzone 4", avgPrice: "₹5,900 / sq.ft", projects: 4, tag: "IT & Commercial Hub" }
     ],
     faqs: [
       {
@@ -733,6 +738,7 @@ export const CITY_PROPERTIES = {
   thrissur: THRISSUR_REGISTRY_PROJECTS,
   trivandrum: TRIVANDRUM_REGISTRY_PROJECTS,
   calicut: CALICUT_REGISTRY_PROJECTS,
+  noida: NOIDA_REGISTRY_PROJECTS,
 
   gurugram: [
     {
