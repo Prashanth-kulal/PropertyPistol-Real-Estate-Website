@@ -1,0 +1,49 @@
+{
+  "projectId": 20672,
+  "slug": "adarsh-paradise-hoskote-pid-20672",
+  "projectName": "Adarsh Paradise",
+  "city": "bangalore",
+  "totalImages": 3,
+  "cover": "/projects/20672/cover.jpg",
+  "gallery": [
+    "/projects/20672/gallery-1.jpg",
+    "/projects/20672/gallery-2.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/20672/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/156590/original/cf66cffb0184af3.png?1757698733",
+      "width": 753,
+      "height": 600,
+      "bytes": 125342
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/20672/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/156841/original/cf66d00e3618a22.jpeg?1757698734",
+      "width": 800,
+      "height": 450,
+      "bytes": 74901
+    },
+    {
+      "index": 2,
+      "filename": "gallery-2.jpg",
+      "path": "/projects/20672/gallery-2.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/156842/original/cf66d00e39357e0.png?1757698734",
+      "width": 759,
+      "height": 565,
+      "bytes": 193398
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T09:15:52Z"
+}

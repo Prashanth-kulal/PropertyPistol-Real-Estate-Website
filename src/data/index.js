@@ -9,14 +9,15 @@ import { NAGPUR_REGISTRY_PROJECTS } from "./nagpurProjectsRegistry.js";
 import { THRISSUR_REGISTRY_PROJECTS } from "./thrissurProjectsRegistry.js";
 import { TRIVANDRUM_REGISTRY_PROJECTS } from "./trivandrumProjectsRegistry.js";
 import { CALICUT_REGISTRY_PROJECTS } from "./calicutProjectsRegistry.js";
+import { BANGALORE_REGISTRY_PROJECTS } from "./bangaloreProjectsRegistry.js";
 
-export { DELHI_REGISTRY_PROJECTS, GOA_REGISTRY_PROJECTS, COIMBATORE_REGISTRY_PROJECTS, NAGPUR_REGISTRY_PROJECTS, THRISSUR_REGISTRY_PROJECTS, TRIVANDRUM_REGISTRY_PROJECTS, CALICUT_REGISTRY_PROJECTS };
+export { DELHI_REGISTRY_PROJECTS, GOA_REGISTRY_PROJECTS, COIMBATORE_REGISTRY_PROJECTS, NAGPUR_REGISTRY_PROJECTS, THRISSUR_REGISTRY_PROJECTS, TRIVANDRUM_REGISTRY_PROJECTS, CALICUT_REGISTRY_PROJECTS, BANGALORE_REGISTRY_PROJECTS };
 
 export const CITIES = [
   { id: "mumbai", name: "Mumbai", state: "Maharashtra", projectsCount: 662, popular: true, image: "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=800&q=80" },
   { id: "pune", name: "Pune", state: "Maharashtra", projectsCount: 980, popular: true, image: "https://images.unsplash.com/photo-1588416936097-41850ab3d86d?auto=format&fit=crop&w=800&q=80" },
   { id: "delhi", name: "Delhi NCR", state: "Delhi", projectsCount: 16, popular: true, image: "/projects/4709/cover.jpg" },
-  { id: "bangalore", name: "Bangalore", state: "Karnataka", projectsCount: 1320, popular: true, image: "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?auto=format&fit=crop&w=800&q=80" },
+  { id: "bangalore", name: "Bangalore", state: "Karnataka", projectsCount: 799, popular: true, image: "/projects/19794/cover.jpg" },
   { id: "hyderabad", name: "Hyderabad", state: "Telangana", projectsCount: 890, popular: true, image: "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=800&q=80" },
   { id: "chennai", name: "Chennai", state: "Tamil Nadu", projectsCount: 760, popular: true, image: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=80" },
   { id: "gurugram", name: "Gurugram", state: "Haryana", projectsCount: 650, popular: true, image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80" },
@@ -125,6 +126,7 @@ export const PROJECTS = [
   ...THRISSUR_REGISTRY_PROJECTS,
   ...TRIVANDRUM_REGISTRY_PROJECTS,
   ...CALICUT_REGISTRY_PROJECTS,
+  ...BANGALORE_REGISTRY_PROJECTS,
   ...NON_MUMBAI_PROJECTS
 ];
 export const EXCLUSIVE_PROJECTS = [

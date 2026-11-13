@@ -1,0 +1,39 @@
+{
+  "projectId": 15664,
+  "slug": "prestige-glenbrook-white-field-pid-15664",
+  "projectName": "Prestige Glenbrook",
+  "city": "bangalore",
+  "totalImages": 2,
+  "cover": "/projects/15664/cover.jpg",
+  "gallery": [
+    "/projects/15664/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/15664/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/110563/original/ghj2.PNG?1732974611",
+      "width": 4096,
+      "height": 2176,
+      "bytes": 879350
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/15664/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/110710/original/ghj.PNG?1732974612",
+      "width": 4096,
+      "height": 2280,
+      "bytes": 1365653
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T09:04:40Z"
+}

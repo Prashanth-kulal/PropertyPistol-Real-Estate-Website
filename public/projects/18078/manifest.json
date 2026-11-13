@@ -1,0 +1,39 @@
+{
+  "projectId": 18078,
+  "slug": "gina-artize-bommasandra-pid-18078",
+  "projectName": "Gina Artize ",
+  "city": "bangalore",
+  "totalImages": 2,
+  "cover": "/projects/18078/cover.jpg",
+  "gallery": [
+    "/projects/18078/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/18078/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/138130/original/gina2.jpg?1743755680",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 463002
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/18078/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/138129/original/gina.jpg?1743755679",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 424892
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T09:07:52Z"
+}

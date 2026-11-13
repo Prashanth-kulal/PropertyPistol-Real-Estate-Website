@@ -1,0 +1,39 @@
+{
+  "projectId": 20656,
+  "slug": "sv-polaris-panathur-pid-20656",
+  "projectName": "SV Polaris",
+  "city": "bangalore",
+  "totalImages": 2,
+  "cover": "/projects/20656/cover.jpg",
+  "gallery": [
+    "/projects/20656/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/20656/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/156574/original/Frame_128_%281%29.jpg?1766828960",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 507259
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/20656/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/156835/original/2_%281%29.jpg?1766828960",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 472326
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T09:15:22Z"
+}

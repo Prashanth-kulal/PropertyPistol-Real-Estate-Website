@@ -1,0 +1,49 @@
+{
+  "projectId": 19182,
+  "slug": "sakura-blossom-mandur-pid-19182",
+  "projectName": "Sakura Blossom",
+  "city": "bangalore",
+  "totalImages": 3,
+  "cover": "/projects/19182/cover.jpg",
+  "gallery": [
+    "/projects/19182/gallery-1.jpg",
+    "/projects/19182/gallery-2.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/19182/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/147191/original/project1new.png?1743573123",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 528513
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/19182/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/147192/original/project2new.png?1743573125",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 607648
+    },
+    {
+      "index": 2,
+      "filename": "gallery-2.jpg",
+      "path": "/projects/19182/gallery-2.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/147193/original/project3new.png?1743573126",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 686311
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T09:09:28Z"
+}

@@ -1,0 +1,39 @@
+{
+  "projectId": 20900,
+  "slug": "sobha-magnus-opus-bannerghatta-pid-20900",
+  "projectName": "Sobha Magnus Opus",
+  "city": "bangalore",
+  "totalImages": 2,
+  "cover": "/projects/20900/cover.jpg",
+  "gallery": [
+    "/projects/20900/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/20900/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/157139/original/mag.PNG?1758865760",
+      "width": 1014,
+      "height": 720,
+      "bytes": 170662
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/20900/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/157140/original/sob.PNG?1758865761",
+      "width": 1466,
+      "height": 803,
+      "bytes": 259728
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T09:18:12Z"
+}

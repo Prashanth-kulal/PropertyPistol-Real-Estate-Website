@@ -1,0 +1,39 @@
+{
+  "projectId": 19809,
+  "slug": "vbhc-aurora-yelahanka-pid-19809",
+  "projectName": "VBHC Aurora",
+  "city": "bangalore",
+  "totalImages": 2,
+  "cover": "/projects/19809/cover.jpg",
+  "gallery": [
+    "/projects/19809/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/19809/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/151690/original/aura.png?1746258879",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 410837
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/19809/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/151691/original/aura2.png?1746258881",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 448561
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T09:11:49Z"
+}

@@ -1,0 +1,39 @@
+{
+  "projectId": 6131,
+  "slug": "gr-floret-begur-pid-6131",
+  "projectName": "GR Floret",
+  "city": "bangalore",
+  "totalImages": 2,
+  "cover": "/projects/6131/cover.jpg",
+  "gallery": [
+    "/projects/6131/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/6131/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/161341/original/sgh.PNG?1790319820",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 490109
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/6131/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/29099/original/pixelcut-export_%281%29_copy_1440x1920.png?1745317943",
+      "width": 1440,
+      "height": 1920,
+      "bytes": 492534
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T09:00:42Z"
+}

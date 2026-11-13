@@ -1,0 +1,39 @@
+{
+  "projectId": 8228,
+  "slug": "brigade-laguna-hebbal-pid-8228",
+  "projectName": "Brigade Laguna",
+  "city": "bangalore",
+  "totalImages": 2,
+  "cover": "/projects/8228/cover.jpg",
+  "gallery": [
+    "/projects/8228/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/8228/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/36811/original/Capture_%286%29.jpg?1742887969",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 348101
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/8228/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/149604/original/cf65e58f60d911e.jpg?1742888120",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 450063
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T09:01:16Z"
+}

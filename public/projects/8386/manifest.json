@@ -1,0 +1,39 @@
+{
+  "projectId": 8386,
+  "slug": "brigade-nanda-heights-uttarahalli-pid-8386",
+  "projectName": "Brigade Nanda Heights",
+  "city": "bangalore",
+  "totalImages": 2,
+  "cover": "/projects/8386/cover.jpg",
+  "gallery": [
+    "/projects/8386/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/8386/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/141830/original/02.jpg?1732898283",
+      "width": 1449,
+      "height": 754,
+      "bytes": 198114
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/8386/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/37622/original/nanda.jpg?1732898283",
+      "width": 1470,
+      "height": 760,
+      "bytes": 276035
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T09:01:24Z"
+}

@@ -1,0 +1,39 @@
+{
+  "projectId": 5826,
+  "slug": "shriram-the-poem-jalahalli-pid-5826",
+  "projectName": "Shriram The Poem",
+  "city": "bangalore",
+  "totalImages": 2,
+  "cover": "/projects/5826/cover.jpg",
+  "gallery": [
+    "/projects/5826/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/5826/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/28734/original/poem.PNG?1748254590",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 447432
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/5826/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/152636/original/ppe.png?1748254591",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 397521
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T09:00:36Z"
+}

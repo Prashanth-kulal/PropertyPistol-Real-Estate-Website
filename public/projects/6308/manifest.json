@@ -1,0 +1,39 @@
+{
+  "projectId": 6308,
+  "slug": "gr-samskruthi-sarjapura-pid-6308",
+  "projectName": "GR Samskruthi",
+  "city": "bangalore",
+  "totalImages": 2,
+  "cover": "/projects/6308/cover.jpg",
+  "gallery": [
+    "/projects/6308/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/6308/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/29338/original/pixelcut-export_%2822%29.jpg?1739961277",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 442304
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/6308/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/156166/original/gr2.PNG?1755153311",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 243898
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T09:00:55Z"
+}

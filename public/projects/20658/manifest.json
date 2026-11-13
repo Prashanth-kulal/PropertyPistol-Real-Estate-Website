@@ -1,0 +1,39 @@
+{
+  "projectId": 20658,
+  "slug": "dusk-and-dawn-jigani-pid-20658",
+  "projectName": "Dusk and Dawn",
+  "city": "bangalore",
+  "totalImages": 2,
+  "cover": "/projects/20658/cover.jpg",
+  "gallery": [
+    "/projects/20658/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/20658/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/156576/original/dawn.png?1787035738",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 543565
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/20658/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/156754/original/download_%2813%29.png?1787035740",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 520335
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T09:15:44Z"
+}

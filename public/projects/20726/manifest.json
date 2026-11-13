@@ -1,0 +1,39 @@
+{
+  "projectId": 20726,
+  "slug": "ksr-pearls-bellary-road-pid-20726",
+  "projectName": "KSR Pearls",
+  "city": "bangalore",
+  "totalImages": 2,
+  "cover": "/projects/20726/cover.jpg",
+  "gallery": [
+    "/projects/20726/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/20726/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/156644/original/r.PNG?1757681961",
+      "width": 1180,
+      "height": 715,
+      "bytes": 205062
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/20726/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/156778/original/sun.PNG?1757681961",
+      "width": 1093,
+      "height": 576,
+      "bytes": 143289
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T09:16:33Z"
+}

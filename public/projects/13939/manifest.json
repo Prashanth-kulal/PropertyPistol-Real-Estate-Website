@@ -1,0 +1,39 @@
+{
+  "projectId": 13939,
+  "slug": "sobha-insignia-bellandur-pid-13939",
+  "projectName": "Sobha Insignia ",
+  "city": "bangalore",
+  "totalImages": 2,
+  "cover": "/projects/13939/cover.jpg",
+  "gallery": [
+    "/projects/13939/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/13939/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/84811/original/sobha2_copy_1920x1440.jpg?1744307814",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 625366
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/13939/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/84812/original/sobha_copy_1920x1440.jpg?1744307815",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 354345
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T09:03:31Z"
+}

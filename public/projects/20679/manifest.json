@@ -1,0 +1,39 @@
+{
+  "projectId": 20679,
+  "slug": "vakil-metropolis-1-anekal-taluk-pid-20679",
+  "projectName": "Vakil Metropolis 1",
+  "city": "bangalore",
+  "totalImages": 2,
+  "cover": "/projects/20679/cover.jpg",
+  "gallery": [
+    "/projects/20679/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/20679/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/156597/original/images_%287%29.jpeg?1757699756",
+      "width": 739,
+      "height": 415,
+      "bytes": 38546
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/20679/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/156847/original/vmp-perspective.jpg?1757699756",
+      "width": 1000,
+      "height": 624,
+      "bytes": 275486
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T09:15:51Z"
+}

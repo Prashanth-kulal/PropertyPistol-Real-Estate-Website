@@ -1,0 +1,39 @@
+{
+  "projectId": 20772,
+  "slug": "affinity-gardenia-yelahanka-pid-20772",
+  "projectName": "Affinity Gardenia",
+  "city": "bangalore",
+  "totalImages": 2,
+  "cover": "/projects/20772/cover.jpg",
+  "gallery": [
+    "/projects/20772/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/20772/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/156690/original/shutterstock_370227581.jpg?1790765499",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 478469
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/20772/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/156786/original/shutterstock_79891969.jpg?1790765499",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 508248
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T09:17:35Z"
+}

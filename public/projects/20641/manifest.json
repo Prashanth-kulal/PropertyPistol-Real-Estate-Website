@@ -1,0 +1,39 @@
+{
+  "projectId": 20641,
+  "slug": "park-cubix-devanahalli-pid-20641",
+  "projectName": "Park Cubix",
+  "city": "bangalore",
+  "totalImages": 2,
+  "cover": "/projects/20641/cover.jpg",
+  "gallery": [
+    "/projects/20641/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/20641/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/156559/original/Swimming-Pool-Night-View_edited.png?1757686447",
+      "width": 1468,
+      "height": 798,
+      "bytes": 391751
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/20641/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/156796/original/Aerial_f1.png?1757686448",
+      "width": 1075,
+      "height": 798,
+      "bytes": 443191
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T09:15:03Z"
+}

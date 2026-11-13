@@ -1,0 +1,39 @@
+{
+  "projectId": 11671,
+  "slug": "geown-oasis-phase-3-sarjapura-pid-11671",
+  "projectName": "Geown Oasis Phase 3",
+  "city": "bangalore",
+  "totalImages": 2,
+  "cover": "/projects/11671/cover.jpg",
+  "gallery": [
+    "/projects/11671/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/11671/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/55254/original/phase2.jpg?1742385496",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 348731
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/11671/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/55255/original/cf63760185ace32.jpeg?1742385496",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 269024
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T09:02:21Z"
+}

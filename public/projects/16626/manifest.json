@@ -1,0 +1,39 @@
+{
+  "projectId": 16626,
+  "slug": "mjr-north-park-bagaluru-pid-16626",
+  "projectName": "MJR North Park",
+  "city": "bangalore",
+  "totalImages": 2,
+  "cover": "/projects/16626/cover.jpg",
+  "gallery": [
+    "/projects/16626/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/16626/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/131830/original/mj2_copy_1920x1440_copy_1920x1440.png?1744115698",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 501794
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/16626/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/131829/original/mj_copy_1920x1440_copy_1920x1440.png?1744115700",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 494663
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T09:05:43Z"
+}

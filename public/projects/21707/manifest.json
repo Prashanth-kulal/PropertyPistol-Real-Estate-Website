@@ -1,0 +1,49 @@
+{
+  "projectId": 21707,
+  "slug": "sv-green-view-seegehalli-pid-21707",
+  "projectName": "SV Green View",
+  "city": "bangalore",
+  "totalImages": 3,
+  "cover": "/projects/21707/cover.jpg",
+  "gallery": [
+    "/projects/21707/gallery-1.jpg",
+    "/projects/21707/gallery-2.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/21707/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/159374/original/img4.jpeg?1777548991",
+      "width": 1600,
+      "height": 900,
+      "bytes": 483598
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/21707/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/159375/original/img1.jpeg?1777548992",
+      "width": 1600,
+      "height": 900,
+      "bytes": 302881
+    },
+    {
+      "index": 2,
+      "filename": "gallery-2.jpg",
+      "path": "/projects/21707/gallery-2.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/159376/original/img2.jpeg?1777548992",
+      "width": 1280,
+      "height": 720,
+      "bytes": 229512
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T09:18:36Z"
+}

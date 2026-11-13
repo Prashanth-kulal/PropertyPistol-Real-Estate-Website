@@ -1,0 +1,39 @@
+{
+  "projectId": 15848,
+  "slug": "purva-celestial-hosahalli-pid-15848",
+  "projectName": "Purva Celestial",
+  "city": "bangalore",
+  "totalImages": 2,
+  "cover": "/projects/15848/cover.jpg",
+  "gallery": [
+    "/projects/15848/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/15848/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/118328/original/project1new1.png?1745058452",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 506774
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/15848/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/118329/original/project2new2.png?1745058453",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 505266
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T09:04:58Z"
+}

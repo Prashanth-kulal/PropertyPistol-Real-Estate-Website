@@ -1,0 +1,39 @@
+{
+  "projectId": 10997,
+  "slug": "jrc-palladio-sarjapura-pid-10997",
+  "projectName": "JRC Palladio",
+  "city": "bangalore",
+  "totalImages": 2,
+  "cover": "/projects/10997/cover.jpg",
+  "gallery": [
+    "/projects/10997/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/10997/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/50547/original/p.png?1744095994",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 461648
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/10997/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/50548/original/p1.png?1744095995",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 405277
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T09:02:11Z"
+}

@@ -1,0 +1,39 @@
+{
+  "projectId": 6231,
+  "slug": "suraksha-tranquil-gardens-hulimavu-pid-6231",
+  "projectName": "Suraksha Tranquil Gardens",
+  "city": "bangalore",
+  "totalImages": 2,
+  "cover": "/projects/6231/cover.jpg",
+  "gallery": [
+    "/projects/6231/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/6231/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/150711/original/tranquil.png?1744635062",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 425578
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/6231/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/150712/original/tra_%281%29.png?1744635062",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 513727
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T09:00:46Z"
+}

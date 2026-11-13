@@ -1,0 +1,39 @@
+{
+  "projectId": 6245,
+  "slug": "profound-symphony-jigani-pid-6245",
+  "projectName": "Profound Symphony",
+  "city": "bangalore",
+  "totalImages": 2,
+  "cover": "/projects/6245/cover.jpg",
+  "gallery": [
+    "/projects/6245/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/6245/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/29263/original/mm.PNG?1732878140",
+      "width": 4096,
+      "height": 2048,
+      "bytes": 1605325
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/6245/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/144673/original/pixelcut-export_%2888%29.jpeg?1737025359",
+      "width": 1600,
+      "height": 900,
+      "bytes": 355517
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T09:00:46Z"
+}

@@ -1,0 +1,49 @@
+{
+  "projectId": 22288,
+  "slug": "ds-max-sky-sampurn-varthur-pid-22288",
+  "projectName": "DS Max Sky Sampurn",
+  "city": "bangalore",
+  "totalImages": 3,
+  "cover": "/projects/22288/cover.jpg",
+  "gallery": [
+    "/projects/22288/gallery-1.jpg",
+    "/projects/22288/gallery-2.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/22288/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/161588/original/sma.PNG?1792574274",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 336981
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/22288/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/161589/original/sk.PNG?1792574275",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 333284
+    },
+    {
+      "index": 2,
+      "filename": "gallery-2.jpg",
+      "path": "/projects/22288/gallery-2.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/161590/original/ssk.PNG?1792574276",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 331703
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T09:19:39Z"
+}

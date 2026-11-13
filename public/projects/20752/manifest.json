@@ -1,0 +1,39 @@
+{
+  "projectId": 20752,
+  "slug": "sobha-neopolis-panathur-pid-20752",
+  "projectName": "Sobha Neopolis",
+  "city": "bangalore",
+  "totalImages": 2,
+  "cover": "/projects/20752/cover.jpg",
+  "gallery": [
+    "/projects/20752/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/20752/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/156670/original/12.jpg?1757571535",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 612336
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/20752/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/156712/original/123.jpg?1757571536",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 530567
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T09:17:07Z"
+}

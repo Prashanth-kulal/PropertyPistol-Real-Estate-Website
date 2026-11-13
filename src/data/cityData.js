@@ -9,6 +9,7 @@ import { NAGPUR_REGISTRY_PROJECTS } from "./nagpurProjectsRegistry.js";
 import { THRISSUR_REGISTRY_PROJECTS } from "./thrissurProjectsRegistry.js";
 import { TRIVANDRUM_REGISTRY_PROJECTS } from "./trivandrumProjectsRegistry.js";
 import { CALICUT_REGISTRY_PROJECTS } from "./calicutProjectsRegistry.js";
+import { BANGALORE_REGISTRY_PROJECTS } from "./bangaloreProjectsRegistry.js";
 
 export const CITY_DETAILS = {
   mumbai: {
@@ -98,8 +99,8 @@ export const CITY_DETAILS = {
     name: "Bangalore",
     state: "Karnataka",
     tagline: "The Silicon Valley of India & Global Tech Innovation Hub",
-    heroImage: "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?auto=format&fit=crop&w=1600&q=80",
-    projectsCount: 1320,
+    heroImage: "/projects/19794/cover.jpg",
+    projectsCount: 799,
     avgPriceSqFt: "₹10,500",
     appreciationRate: "+14.8% YoY",
     rentalYield: "4.8% p.a.",
@@ -723,77 +724,7 @@ export const CITY_PROPERTIES = {
     }
   ],
 
-  bangalore: [
-    {
-      id: "blr-1",
-      name: "Prestige Falcon City",
-      builder: "Prestige Group",
-      builderLogo: "https://images.unsplash.com/photo-1541888946425-d0fbb186f5f7?auto=format&fit=crop&w=120&h=120&q=80",
-      city: "bangalore",
-      location: "Kanakapura Road, Bangalore",
-      price: "1.85 Cr",
-      priceNumeric: 18500000,
-      avgPrice: "₹11.8 K / sq.ft",
-      flatTypes: "2 BHK, 3 BHK, 4 BHK",
-      carpetArea: "1,204 - 2,726 sq.ft",
-      status: "Ready to Move",
-      rera: "PRM/KA/RERA/1251/310/PR/170915/000216",
-      tag: "Featured",
-      rating: 4.9,
-      type: "Apartment",
-      images: [
-        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=900&q=80",
-        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=80"
-      ],
-      features: ["Metro Attached", "Forum Mall Onsite", "World-class Sports"]
-    },
-    {
-      id: "blr-2",
-      name: "Sobha Dream Acres",
-      builder: "Sobha Limited",
-      builderLogo: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=120&h=120&q=80",
-      city: "bangalore",
-      location: "Panathur, Outer Ring Road",
-      price: "95 Lacs",
-      priceNumeric: 9500000,
-      avgPrice: "₹9.8 K / sq.ft",
-      flatTypes: "1 BHK, 2 BHK",
-      carpetArea: "650 - 1,020 sq.ft",
-      status: "Ready to Move",
-      rera: "PRM/KA/RERA/1251/308/PR/170918/000451",
-      tag: "High Yield",
-      rating: 4.7,
-      type: "Apartment",
-      images: [
-        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80",
-        "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=900&q=80"
-      ],
-      features: ["German Precast Tech", "5 Clubhouses", "ORR Proximity"]
-    },
-    {
-      id: "blr-3",
-      name: "Brigade Cornerstone Utopia",
-      builder: "Brigade Group",
-      builderLogo: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=120&h=120&q=80",
-      city: "bangalore",
-      location: "Varthur, Whitefield",
-      price: "1.42 Cr",
-      priceNumeric: 14200000,
-      avgPrice: "₹10.9 K / sq.ft",
-      flatTypes: "2 BHK, 3 BHK",
-      carpetArea: "850 - 1,480 sq.ft",
-      status: "Under Construction",
-      rera: "PRM/KA/RERA/1251/446/PR/181122/002176",
-      tag: "Smart Township",
-      rating: 4.8,
-      type: "Apartment",
-      images: [
-        "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=900&q=80",
-        "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=900&q=80"
-      ],
-      features: ["Integrated Commercial", "High Street Retail", "Biodiverse Park"]
-    }
-  ],
+  bangalore: BANGALORE_REGISTRY_PROJECTS,
 
   delhi: DELHI_REGISTRY_PROJECTS,
   goa: GOA_REGISTRY_PROJECTS,

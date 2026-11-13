@@ -10,6 +10,7 @@ import { NAGPUR_REGISTRY_PROJECTS } from "./nagpurProjectsRegistry.js";
 import { THRISSUR_REGISTRY_PROJECTS } from "./thrissurProjectsRegistry.js";
 import { TRIVANDRUM_REGISTRY_PROJECTS } from "./trivandrumProjectsRegistry.js";
 import { CALICUT_REGISTRY_PROJECTS } from "./calicutProjectsRegistry.js";
+import { BANGALORE_REGISTRY_PROJECTS } from "./bangaloreProjectsRegistry.js";
 
 export const DEVELOPERS_DATA = [
   {
@@ -1195,6 +1196,20 @@ export function enrichDeveloperWithProjects(dev) {
     );
   });
 
+  const bangaloreMatches = BANGALORE_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === dev.slug) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return (
+      bNorm === normSlug ||
+      bNorm.includes(normSlug) ||
+      normSlug.includes(bNorm) ||
+      bNorm === normDevName ||
+      bNorm.includes(normDevName) ||
+      normDevName.includes(bNorm)
+    );
+  });
+
   const existingCities = dev.cities || [];
   const existingMumbaiCity = existingCities.find((c) => c.citySlug === "mumbai") || {
     name: "Mumbai",
@@ -1420,6 +1435,33 @@ export function enrichDeveloperWithProjects(dev) {
     }
   }
 
+  if (bangaloreMatches.length > 0) {
+    const blrOngoing = bangaloreMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch" || p.status === "Pre-Launch"
+    ).length;
+    const blrUpcoming = bangaloreMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch" || p.status === "Pre-Launch"
+    ).length;
+    const existingBlrIndex = updatedCities.findIndex((c) => c.citySlug === "bangalore");
+    if (existingBlrIndex >= 0) {
+      updatedCities[existingBlrIndex] = {
+        ...updatedCities[existingBlrIndex],
+        name: "Bangalore",
+        ongoingCount: blrOngoing || updatedCities[existingBlrIndex].ongoingCount || 1,
+        upcomingCount: blrUpcoming || updatedCities[existingBlrIndex].upcomingCount || 1,
+        projects: bangaloreMatches
+      };
+    } else {
+      updatedCities.push({
+        name: "Bangalore",
+        citySlug: "bangalore",
+        ongoingCount: blrOngoing,
+        upcomingCount: blrUpcoming,
+        projects: bangaloreMatches
+      });
+    }
+  }
+
   // Use top matching projects for featured showcase
   const featured = matches.length > 0
     ? matches.slice(0, 3).map((p) => ({
@@ -1431,7 +1473,7 @@ export function enrichDeveloperWithProjects(dev) {
       }))
     : dev.featuredProjects;
 
-  const totalCount = finalProjects.length + delhiMatches.length + goaMatches.length + coimbatoreMatches.length + nagpurMatches.length + thrissurMatches.length + trivandrumMatches.length + calicutMatches.length;
+  const totalCount = finalProjects.length + delhiMatches.length + goaMatches.length + coimbatoreMatches.length + nagpurMatches.length + thrissurMatches.length + trivandrumMatches.length + calicutMatches.length + bangaloreMatches.length;
   return {
     ...dev,
     projectCount: `${totalCount}+ Projects`,
@@ -1836,6 +1878,60 @@ export function getDeveloperBySlug(slug) {
           ongoingCount: ongoing,
           upcomingCount: upcoming,
           projects: calicutDevMatches
+        }
+      ]
+    };
+  }
+
+  // 2h. Synthesize developer profile dynamically from BANGALORE_REGISTRY_PROJECTS
+  const bangaloreDevMatches = BANGALORE_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === normalized) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return bNorm === normSlug || bNorm.includes(normSlug) || normSlug.includes(bNorm);
+  });
+
+  if (bangaloreDevMatches.length > 0) {
+    const builderName = bangaloreDevMatches[0].builder;
+    const logo = bangaloreDevMatches[0].builderLogo || "/images/logo/logo-emblem.png";
+    const ongoing = bangaloreDevMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch" || p.status === "Pre-Launch"
+    ).length;
+    const upcoming = bangaloreDevMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch" || p.status === "Pre-Launch"
+    ).length;
+
+    return {
+      id: normalized,
+      slug: bangaloreDevMatches[0].developerSlug || normalized,
+      name: builderName,
+      logo: logo,
+      tagline: `Premier Residential Developments Across Bangalore`,
+      experience: "15+ Years",
+      projectCount: `${bangaloreDevMatches.length}+ Projects`,
+      established: "2005",
+      aboutUs: bangaloreDevMatches[0].builderDescription || `${builderName} is a trusted real estate developer with verified residential developments across Bangalore.`,
+      description: bangaloreDevMatches[0].builderDescription || `${builderName} delivers verified residential communities across Bangalore with K-RERA compliance and transparent specifications.`,
+      stats: [
+        { label: "Active Projects", value: `${bangaloreDevMatches.length}+` },
+        { label: "Location", value: "Bangalore" },
+        { label: "RERA Compliant", value: "100%" },
+        { label: "Brokerage", value: "0%" }
+      ],
+      featuredProjects: bangaloreDevMatches.slice(0, 3).map((p) => ({
+        title: p.name,
+        location: p.location,
+        price: p.price === "On Request" ? "On Request" : `₹${p.price}*`,
+        image: p.images?.[0] || "/images/placeholder-property.jpg",
+        slug: p.slug
+      })),
+      cities: [
+        {
+          name: "Bangalore",
+          citySlug: "bangalore",
+          ongoingCount: ongoing,
+          upcomingCount: upcoming,
+          projects: bangaloreDevMatches
         }
       ]
     };

@@ -1,0 +1,39 @@
+{
+  "projectId": 20678,
+  "slug": "vaarahi-vivarea-kengeri-pid-20678",
+  "projectName": "Vaarahi Vivarea",
+  "city": "bangalore",
+  "totalImages": 2,
+  "cover": "/projects/20678/cover.jpg",
+  "gallery": [
+    "/projects/20678/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/20678/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/156596/original/IMG_20250912_232158.png?1757699547",
+      "width": 710,
+      "height": 408,
+      "bytes": 76159
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/20678/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/156846/original/IMG_20250912_232214.png?1757699547",
+      "width": 708,
+      "height": 408,
+      "bytes": 65247
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T09:15:51Z"
+}

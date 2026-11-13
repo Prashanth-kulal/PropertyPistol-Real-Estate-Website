@@ -1,0 +1,39 @@
+{
+  "projectId": 20323,
+  "slug": "sinovik-nirvana-gattahalli-pid-20323",
+  "projectName": "Sinovik Nirvana",
+  "city": "bangalore",
+  "totalImages": 2,
+  "cover": "/projects/20323/cover.jpg",
+  "gallery": [
+    "/projects/20323/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/20323/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/155046/original/project1new.png?1753695037",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 375307
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/20323/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/155047/original/project2.PNG?1753695038",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 321998
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T09:14:39Z"
+}

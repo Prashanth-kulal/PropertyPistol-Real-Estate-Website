@@ -1,0 +1,39 @@
+{
+  "projectId": 20755,
+  "slug": "niva-earthscape-devanahalli-pid-20755",
+  "projectName": "Niva Earthscape",
+  "city": "bangalore",
+  "totalImages": 2,
+  "cover": "/projects/20755/cover.jpg",
+  "gallery": [
+    "/projects/20755/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/20755/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/156673/original/ni.png?1790766052",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 271016
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/20755/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/156819/original/nirv.png?1790766053",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 262038
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T09:17:08Z"
+}

@@ -1,0 +1,39 @@
+{
+  "projectId": 20003,
+  "slug": "raheja-vivarea-sarjapur-road-pid-20003",
+  "projectName": "Raheja Vivarea",
+  "city": "bangalore",
+  "totalImages": 2,
+  "cover": "/projects/20003/cover.jpg",
+  "gallery": [
+    "/projects/20003/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/20003/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/153290/original/Raheja_Vivarea-Banner%281%29_copy_1920x1440.jpg?1749730830",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 626568
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/20003/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/153291/original/IMG_20250612_174959_copy_1920x1440.jpg?1749730830",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 402309
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T09:12:26Z"
+}

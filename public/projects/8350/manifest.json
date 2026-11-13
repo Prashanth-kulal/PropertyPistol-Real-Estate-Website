@@ -1,0 +1,39 @@
+{
+  "projectId": 8350,
+  "slug": "godrej-splendour-white-field-pid-8350",
+  "projectName": "Godrej Splendour",
+  "city": "bangalore",
+  "totalImages": 2,
+  "cover": "/projects/8350/cover.jpg",
+  "gallery": [
+    "/projects/8350/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/8350/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/37484/original/1200x600-03_copy_1920x1440.jpg?1745567740",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 648959
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/8350/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/43977/original/1200x600-02_copy_1920x1440.jpg?1745567740",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 871903
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T09:01:18Z"
+}

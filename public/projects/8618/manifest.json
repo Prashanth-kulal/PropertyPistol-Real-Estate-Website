@@ -1,0 +1,39 @@
+{
+  "projectId": 8618,
+  "slug": "sm-art-balagere-pid-8618",
+  "projectName": "SM Art",
+  "city": "bangalore",
+  "totalImages": 2,
+  "cover": "/projects/8618/cover.jpg",
+  "gallery": [
+    "/projects/8618/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/8618/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/39417/original/pixelcut-export_%286%29.png?1740736582",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 411100
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/8618/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/39418/original/pixelcut-export_%287%29.png?1740736583",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 845368
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T09:01:45Z"
+}

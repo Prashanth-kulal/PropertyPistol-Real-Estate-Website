@@ -1,0 +1,39 @@
+{
+  "projectId": 20705,
+  "slug": "bold-aspire-white-field-pid-20705",
+  "projectName": "Bold Aspire",
+  "city": "bangalore",
+  "totalImages": 2,
+  "cover": "/projects/20705/cover.jpg",
+  "gallery": [
+    "/projects/20705/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/20705/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/156623/original/download_%2849%29_%281%29.png?1766825089",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 551735
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/20705/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/156788/original/cf68a4572e08850_%281%29.jpeg?1766825089",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 591752
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T09:16:09Z"
+}

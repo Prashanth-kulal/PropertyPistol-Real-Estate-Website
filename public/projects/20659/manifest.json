@@ -1,0 +1,39 @@
+{
+  "projectId": 20659,
+  "slug": "bren-avaana-kaggalipura-pid-20659",
+  "projectName": "Bren Avaana",
+  "city": "bangalore",
+  "totalImages": 2,
+  "cover": "/projects/20659/cover.jpg",
+  "gallery": [
+    "/projects/20659/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/20659/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/156577/original/bren.PNG?1757695385",
+      "width": 1909,
+      "height": 858,
+      "bytes": 468506
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/20659/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/156832/original/bre2.PNG?1757695386",
+      "width": 1588,
+      "height": 802,
+      "bytes": 242649
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T09:15:43Z"
+}

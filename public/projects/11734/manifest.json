@@ -1,0 +1,49 @@
+{
+  "projectId": 11734,
+  "slug": "aston-park-sarjapura-pid-11734",
+  "projectName": "Aston Park",
+  "city": "bangalore",
+  "totalImages": 3,
+  "cover": "/projects/11734/cover.jpg",
+  "gallery": [
+    "/projects/11734/gallery-1.jpg",
+    "/projects/11734/gallery-2.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/11734/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/55600/original/project1new1.png?1741856720",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 795337
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/11734/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/55601/original/project2new2.png?1741856722",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 673312
+    },
+    {
+      "index": 2,
+      "filename": "gallery-2.jpg",
+      "path": "/projects/11734/gallery-2.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/55602/original/project3new3.png?1741856723",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 670888
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T09:03:12Z"
+}

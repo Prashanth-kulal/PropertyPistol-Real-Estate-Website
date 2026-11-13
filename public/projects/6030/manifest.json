@@ -1,0 +1,39 @@
+{
+  "projectId": 6030,
+  "slug": "s2-the-watergrove-electronic-city-pid-6030",
+  "projectName": "S2 The Watergrove",
+  "city": "bangalore",
+  "totalImages": 2,
+  "cover": "/projects/6030/cover.jpg",
+  "gallery": [
+    "/projects/6030/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/6030/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/28979/original/pixelcut-export_%2811%29_copy_1920x1440.jpg?1745220862",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 401596
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/6030/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/145402/original/pixelcut-export_%2810%29_copy_1920x1440.jpg?1745220862",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 450398
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T09:00:25Z"
+}
