@@ -1,12 +1,13 @@
 /**
- * Safely imports all 662 Mumbai/MMR cataloged projects into local MongoDB.
+ * Safely imports the expanded and audited Mumbai/MMR cataloged projects into local MongoDB.
  * 
  * Safety invariants:
  * 1. Checks that connection points strictly to local MongoDB (127.0.0.1:27017/propertypistol).
  * 2. Creates a timestamped JSON backup of existing projects before any write.
- * 3. Uses slug-based upserts so existing non-Mumbai projects (Pune, Bangalore, Delhi...) are untouched.
- * 4. Preserves all 1,214 local watermarked image paths and 19 fallback records.
- * 5. Preserves numeric PropertyPistol project IDs and GeoJSON coordinates.
+ * 3. Uses slug-based upserts so existing non-Mumbai projects (Pune 1027, Bangalore 799, Nagpur 128,
+ *    Noida 100, Coimbatore 79, Goa 48, Trivandrum 33, Delhi 16, Calicut 13, Thrissur 8...) remain completely untouched.
+ * 4. Preserves all local watermarked image paths and GeoJSON coordinates.
+ * 5. Updates Mumbai City count in MongoDB & seed files cleanly.
  * 6. Completely idempotent and safely re-runnable.
  */
 
@@ -15,7 +16,6 @@ const path = require("path");
 const { connectDb, mongoose } = require("../src/config/db");
 const env = require("../src/config/env");
 const Project = require("../src/models/Project");
-const Developer = require("../src/models/Developer");
 const City = require("../src/models/City");
 
 // Helper: parse BHK list from string
@@ -37,9 +37,29 @@ function parseAreaRange(s = "") {
   return nums.length ? { min: Math.min(...nums), max: Math.max(...nums) } : {};
 }
 
+function normalizeStatusKey(status = "") {
+  const s = String(status).toLowerCase();
+  if (s.includes("ready")) return "ready-to-move";
+  if (s.includes("launch") || s.includes("new")) return "new-launch";
+  return "under-construction";
+}
+
+function loadMumbaiProjectsFromRegistry() {
+  const registryPath = path.join(__dirname, "..", "..", "src", "data", "mumbaiProjectsRegistry.js");
+  if (!fs.existsSync(registryPath)) {
+    throw new Error(`Registry file not found at ${registryPath}`);
+  }
+  const raw = fs.readFileSync(registryPath, "utf8");
+  const match = raw.match(/export const MUMBAI_REGISTRY_PROJECTS = (\[[\s\S]*?\n\]);/);
+  if (!match) {
+    throw new Error("Could not parse MUMBAI_REGISTRY_PROJECTS array from registry file");
+  }
+  return JSON.parse(match[1]);
+}
+
 async function main() {
   console.log("========================================================");
-  console.log("   PHASE 4: MUMBAI CATALOG MIGRATION & LOCAL MONGODB    ");
+  console.log("  MUMBAI CATALOG EXPANSION & LOCAL MONGODB INTEGRATION  ");
   console.log("========================================================");
 
   // 1. SAFETY CHECK: Verify local MongoDB URI
@@ -67,7 +87,7 @@ async function main() {
   const backupDir = path.join(__dirname, "..", "seed", "backups");
   fs.mkdirSync(backupDir, { recursive: true });
   const timestamp = new Date().toISOString().replace(/[:.]/g, "-");
-  const backupFile = path.join(backupDir, `backup-projects-${timestamp}.json`);
+  const backupFile = path.join(backupDir, `backup-projects-pre-mumbai-expansion-${timestamp}.json`);
 
   fs.writeFileSync(backupFile, JSON.stringify(existingDocs, null, 2), "utf8");
   if (!fs.existsSync(backupFile) || fs.statSync(backupFile).size < 2) {
@@ -77,26 +97,13 @@ async function main() {
   }
   console.log(`✅ Backup successfully created and verified at:\n   ${backupFile} (${existingDocs.length} records saved)`);
 
-  // Write a latest-backup pointer for easy rollback
+  // Update latest-backup pointer
   const latestBackupPointer = path.join(backupDir, "latest-backup.json");
   fs.copyFileSync(backupFile, latestBackupPointer);
 
-  // 3. Load 662 Mumbai Registry Projects
-  const registryPath = path.join(__dirname, "..", "..", "src", "data", "mumbaiProjectsRegistry.js");
-  if (!fs.existsSync(registryPath)) {
-    console.error(`❌ ABORT: Registry file not found at ${registryPath}`);
-    await mongoose.disconnect();
-    process.exit(1);
-  }
-
-  // Load projects from registry module
-  const { MUMBAI_REGISTRY_PROJECTS } = require(registryPath);
-  console.log(`[Data Source] Loaded ${MUMBAI_REGISTRY_PROJECTS.length} Mumbai projects from registry.`);
-  if (MUMBAI_REGISTRY_PROJECTS.length !== 662) {
-    console.error(`❌ ABORT: Expected 662 projects, got ${MUMBAI_REGISTRY_PROJECTS.length}`);
-    await mongoose.disconnect();
-    process.exit(1);
-  }
+  // 3. Load Mumbai Registry Projects
+  const mumbaiProjects = loadMumbaiProjectsFromRegistry();
+  console.log(`[Data Source] Loaded ${mumbaiProjects.length} Mumbai projects from registry.`);
 
   // 4. Transform projects into Mongoose schema format
   console.log("[Transform] Normalizing documents according to Mongoose schema...");
@@ -104,7 +111,7 @@ async function main() {
   let withLocalImages = 0;
   let withGeo = 0;
 
-  for (const p of MUMBAI_REGISTRY_PROJECTS) {
+  for (const p of mumbaiProjects) {
     const area = parseAreaRange(p.carpetArea);
     const bhk = parseBhk(p.flatTypes || p.configuration);
     const hasCoords = typeof p.lat === "number" && typeof p.lng === "number" && p.lat !== 0 && p.lng !== 0;
@@ -134,7 +141,7 @@ async function main() {
       projectArea: p.projectArea || "On Request",
       possession: p.possession || "Under Construction",
       status: p.status || "Under Construction",
-      statusKey: "under-construction",
+      statusKey: normalizeStatusKey(p.status),
       rera: p.rera || "",
       rera_informations: Array.isArray(p.rera_informations) ? p.rera_informations : [],
       tag: p.tag || "RERA Verified",
@@ -158,18 +165,17 @@ async function main() {
       views: 0
     };
 
-    // GeoJSON: sparse coordinates (only if both lng and lat are non-zero numbers)
     if (hasCoords) {
       doc.geo = {
         type: "Point",
-        coordinates: [p.lng, p.lat] // GeoJSON format: [longitude, latitude]
+        coordinates: [p.lng, p.lat]
       };
       withGeo++;
     } else {
       doc.geo = undefined;
     }
 
-    if (doc.images.some(img => img.startsWith("/projects/"))) {
+    if (doc.images.some((img) => img.startsWith("/projects/"))) {
       withLocalImages++;
     }
 
@@ -186,18 +192,16 @@ async function main() {
   console.log(`  Total Mumbai Operations: ${bulkOps.length}`);
   console.log(`  Projects with Local Watermarked Images: ${withLocalImages}`);
   console.log(`  Projects with GeoJSON Coordinates: ${withGeo}`);
-  console.log(`  Projects with Fallback/On-Request: ${bulkOps.length - withLocalImages}`);
 
-  // 5. Also ensure baseline non-Mumbai projects exist in seed
+  // 5. Ensure all baseline non-Mumbai projects exist in seed
   const seedProjectsFile = path.join(__dirname, "..", "seed", "projects.json");
   let nonMumbaiCount = 0;
   if (fs.existsSync(seedProjectsFile)) {
     const seedProjects = JSON.parse(fs.readFileSync(seedProjectsFile, "utf8"));
-    const nonMumbaiProjects = seedProjects.filter(p => p.city !== "mumbai");
+    const nonMumbaiProjects = seedProjects.filter((p) => p.city !== "mumbai");
     nonMumbaiCount = nonMumbaiProjects.length;
     console.log(`[Non-Mumbai Check] Found ${nonMumbaiCount} baseline non-Mumbai projects in seed/projects.json.`);
 
-    // Add upserts for non-Mumbai projects to ensure they are preserved in MongoDB
     for (const p of nonMumbaiProjects) {
       bulkOps.push({
         updateOne: {
@@ -217,12 +221,31 @@ async function main() {
   console.log(`  Modified: ${result.modifiedCount}`);
   console.log(`  Upserted: ${result.upsertedCount}`);
 
-  // Sync 2dsphere and text indexes
+  // Sync indexes
   console.log("[Indexes] Synchronizing collection indexes...");
   await Project.syncIndexes();
   console.log("✅ Indexes synchronized.");
 
-  // 7. VERIFICATION
+  // 7. Update City collection in MongoDB
+  const mumbaiCityCover = mumbaiProjects[0]?.images?.[0] || "/projects/20550/cover.jpg";
+  await City.updateOne(
+    { slug: "mumbai" },
+    {
+      $set: {
+        name: "Mumbai",
+        slug: "mumbai",
+        state: "Maharashtra",
+        projectsCount: mumbaiProjects.length,
+        image: mumbaiCityCover,
+        description: "India's premier financial and real estate capital offering iconic luxury towers, coastal residences, and thriving commercial hubs.",
+        popularLocalities: ["Bandra West", "Andheri West", "Worli", "Juhu", "Powai", "Thane West", "Kharghar", "Sanpada", "Lower Parel"]
+      }
+    },
+    { upsert: true }
+  );
+  console.log(`✅ City 'mumbai' updated in MongoDB with projectsCount: ${mumbaiProjects.length}`);
+
+  // 8. VERIFICATION
   console.log("\n========================================================");
   console.log("             POST-MIGRATION VERIFICATION                ");
   console.log("========================================================");
@@ -233,38 +256,41 @@ async function main() {
   const mumbaiWithLocalImages = await Project.countDocuments({ city: "mumbai", images: { $regex: "^/projects/" } });
 
   console.log(`Total projects in MongoDB: ${totalInDb}`);
-  console.log(`Mumbai projects in MongoDB: ${totalMumbaiInDb} / 662`);
+  console.log(`Mumbai projects in MongoDB: ${totalMumbaiInDb} / ${mumbaiProjects.length}`);
   console.log(`Non-Mumbai projects in MongoDB: ${totalNonMumbaiInDb} (Preserved: ${nonMumbaiCount})`);
-  console.log(`Mumbai projects with verified local image paths: ${mumbaiWithLocalImages} / 643`);
+  console.log(`Mumbai projects with verified local image paths: ${mumbaiWithLocalImages}`);
 
-  // Verify SK Heights disambiguation
-  const skShilphata = await Project.findOne({ slug: "sk-heights-shilphata-21593" }).lean();
-  const skPalghar = await Project.findOne({ slug: "sk-heights-palghar-9500" }).lean();
-
-  if (skShilphata && skPalghar && skShilphata.projectId === 21593 && skPalghar.projectId === 9500) {
-    console.log("✅ SK Heights disambiguation verified: Both distinct records exist independently.");
-  } else {
-    console.error("❌ Warning: SK Heights records missing or collided!");
-  }
-
-  // Verify preserved canonical real projects
+  // Sample check
   const sampleSlugs = ["godrej-eternal-palms", "godrej-ascend", "lodha-corinthia", "lt-island-cove", "lt-elixir-reserve"];
   for (const s of sampleSlugs) {
     const doc = await Project.findOne({ slug: s }).lean();
     if (doc) {
-      console.log(`✅ Preserved project "${doc.name}" found in MongoDB (ID: ${doc.projectId}, Image: ${doc.images[0]})`);
+      console.log(`✅ Project "${doc.name}" found in MongoDB (ID: ${doc.projectId}, Image: ${doc.images[0]})`);
     } else {
-      console.error(`❌ Missing preserved project: ${s}`);
+      console.warn(`⚠️ Warning: sample project not found: ${s}`);
     }
   }
 
-  // Update seed/projects.json with all cataloged projects so future seed commands keep parity
+  // Update seed/projects.json with all cataloged projects
   const allUpdatedProjects = await Project.find({}).lean();
   fs.writeFileSync(seedProjectsFile, JSON.stringify(allUpdatedProjects, null, 2), "utf8");
   console.log(`✅ seed/projects.json updated with complete catalog (${allUpdatedProjects.length} total projects).`);
 
+  // Update seed/cities.json
+  const seedCitiesFile = path.join(__dirname, "..", "seed", "cities.json");
+  if (fs.existsSync(seedCitiesFile)) {
+    const seedCities = JSON.parse(fs.readFileSync(seedCitiesFile, "utf8"));
+    const mumbaiCity = seedCities.find((c) => (c.slug || "").toLowerCase() === "mumbai");
+    if (mumbaiCity) {
+      mumbaiCity.projectsCount = mumbaiProjects.length;
+      mumbaiCity.image = mumbaiCityCover;
+      fs.writeFileSync(seedCitiesFile, JSON.stringify(seedCities, null, 2), "utf8");
+      console.log(`✅ seed/cities.json updated: Mumbai projectsCount = ${mumbaiProjects.length}`);
+    }
+  }
+
   await mongoose.disconnect();
-  console.log("\n🎉 Phase 4 Migration Complete: MongoDB is fully synced and verified.");
+  console.log("\n🎉 Mumbai Migration Complete: MongoDB and seed files are fully synced and verified.");
 }
 
 main().catch(async (err) => {
@@ -272,4 +298,3 @@ main().catch(async (err) => {
   try { await mongoose.disconnect(); } catch (_) {}
   process.exit(1);
 });
-

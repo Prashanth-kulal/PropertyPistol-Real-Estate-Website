@@ -813,7 +813,7 @@ export function getProjectBySlug(rawSlug) {
     return canonicalMatch;
   }
 
-  // 2. Direct match in Mumbai Projects Registry (662 verified projects)
+  // 2. Direct match in Mumbai Projects Registry (2,771 verified projects)
   const mumbaiProject = getMumbaiProjectBySlug(cleanSlug);
   if (mumbaiProject) {
     return mumbaiProject;

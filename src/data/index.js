@@ -13,10 +13,10 @@ import { BANGALORE_REGISTRY_PROJECTS } from "./bangaloreProjectsRegistry.js";
 import { NOIDA_REGISTRY_PROJECTS } from "./noidaProjectsRegistry.js";
 import { PUNE_REGISTRY_PROJECTS } from "./puneProjectsRegistry.js";
 
-export { DELHI_REGISTRY_PROJECTS, GOA_REGISTRY_PROJECTS, COIMBATORE_REGISTRY_PROJECTS, NAGPUR_REGISTRY_PROJECTS, THRISSUR_REGISTRY_PROJECTS, TRIVANDRUM_REGISTRY_PROJECTS, CALICUT_REGISTRY_PROJECTS, BANGALORE_REGISTRY_PROJECTS, NOIDA_REGISTRY_PROJECTS, PUNE_REGISTRY_PROJECTS };
+export { MUMBAI_REGISTRY_PROJECTS, DELHI_REGISTRY_PROJECTS, GOA_REGISTRY_PROJECTS, COIMBATORE_REGISTRY_PROJECTS, NAGPUR_REGISTRY_PROJECTS, THRISSUR_REGISTRY_PROJECTS, TRIVANDRUM_REGISTRY_PROJECTS, CALICUT_REGISTRY_PROJECTS, BANGALORE_REGISTRY_PROJECTS, NOIDA_REGISTRY_PROJECTS, PUNE_REGISTRY_PROJECTS };
 
 export const CITIES = [
-  { id: "mumbai", name: "Mumbai", state: "Maharashtra", projectsCount: 662, popular: true, image: "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=800&q=80" },
+  { id: "mumbai", name: "Mumbai", state: "Maharashtra", projectsCount: 2771, popular: true, image: "/projects/20550/cover.jpg" },
   { id: "pune", name: "Pune", state: "Maharashtra", projectsCount: 1027, popular: true, image: "/projects/21271/cover.jpg" },
   { id: "delhi", name: "Delhi NCR", state: "Delhi", projectsCount: 16, popular: true, image: "/projects/4709/cover.jpg" },
   { id: "bangalore", name: "Bangalore", state: "Karnataka", projectsCount: 799, popular: true, image: "/projects/19794/cover.jpg" },
