@@ -1,0 +1,49 @@
+{
+  "projectId": 7111,
+  "slug": "vivaan-park-wagholi-pid-7111",
+  "projectName": "Vivaan Park ",
+  "city": "pune",
+  "totalImages": 3,
+  "cover": "/projects/7111/cover.jpg",
+  "gallery": [
+    "/projects/7111/gallery-1.jpg",
+    "/projects/7111/gallery-2.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/7111/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/30907/original/4.jpg?1792408019",
+      "width": 1920,
+      "height": 1088,
+      "bytes": 439181
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/7111/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/161574/original/vivvan-.jpg?1792408019",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 366459
+    },
+    {
+      "index": 2,
+      "filename": "gallery-2.jpg",
+      "path": "/projects/7111/gallery-2.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/161575/original/2.jpg?1792408020",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 569091
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:42:51Z"
+}

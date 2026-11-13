@@ -1,0 +1,39 @@
+{
+  "projectId": 21080,
+  "slug": "suraj-ekyum-tathawade-pid-21080",
+  "projectName": "Suraj Ekyum",
+  "city": "pune",
+  "totalImages": 2,
+  "cover": "/projects/21080/cover.jpg",
+  "gallery": [
+    "/projects/21080/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/21080/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/157393/original/edd.PNG?1780300789",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 399154
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/21080/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/159789/original/23.PNG?1780300790",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 468147
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T12:05:40Z"
+}

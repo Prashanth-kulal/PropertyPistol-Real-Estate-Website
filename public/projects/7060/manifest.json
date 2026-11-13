@@ -1,0 +1,49 @@
+{
+  "projectId": 7060,
+  "slug": "urban-skyline-ravet-pid-7060",
+  "projectName": "Urban Skyline",
+  "city": "pune",
+  "totalImages": 3,
+  "cover": "/projects/7060/cover.jpg",
+  "gallery": [
+    "/projects/7060/gallery-1.jpg",
+    "/projects/7060/gallery-2.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/7060/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/124502/original/project1new_%2873%29_%281%29.png?1743246950",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 505194
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/7060/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/124503/original/project2new_%2828%29_%281%29.png?1743246951",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 592786
+    },
+    {
+      "index": 2,
+      "filename": "gallery-2.jpg",
+      "path": "/projects/7060/gallery-2.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/124504/original/project3new_%2813%29_%281%29.png?1743246952",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 448684
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:42:31Z"
+}

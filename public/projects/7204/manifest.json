@@ -1,0 +1,39 @@
+{
+  "projectId": 7204,
+  "slug": "ganga-acropolis-baner-pid-7204",
+  "projectName": "Ganga Acropolis",
+  "city": "pune",
+  "totalImages": 2,
+  "cover": "/projects/7204/cover.jpg",
+  "gallery": [
+    "/projects/7204/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/7204/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/31196/original/Acropolis-Banner.jpg?1739254922",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 305764
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/7204/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/149739/original/vh1y9wlz_optOrig.jpg?1742997601",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 441705
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:43:34Z"
+}

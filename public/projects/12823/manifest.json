@@ -1,0 +1,39 @@
+{
+  "projectId": 12823,
+  "slug": "kohinoor-sportsville-hinjawadi-pid-12823",
+  "projectName": "Kohinoor Sportsville",
+  "city": "pune",
+  "totalImages": 2,
+  "cover": "/projects/12823/cover.jpg",
+  "gallery": [
+    "/projects/12823/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/12823/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/151007/original/project1new.jpeg?1793355011",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 606117
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/12823/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/151008/original/project2new.jpeg?1793355012",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 467078
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:49:05Z"
+}

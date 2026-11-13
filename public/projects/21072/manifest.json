@@ -1,0 +1,39 @@
+{
+  "projectId": 21072,
+  "slug": "r48-the-canopy-bhugaon-pid-21072",
+  "projectName": "R48 The Canopy",
+  "city": "pune",
+  "totalImages": 2,
+  "cover": "/projects/21072/cover.jpg",
+  "gallery": [
+    "/projects/21072/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/21072/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/157383/original/rt2.png?1759480242",
+      "width": 1080,
+      "height": 560,
+      "bytes": 144934
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/21072/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/157384/original/rt.png?1759480243",
+      "width": 1080,
+      "height": 581,
+      "bytes": 299407
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T12:05:31Z"
+}

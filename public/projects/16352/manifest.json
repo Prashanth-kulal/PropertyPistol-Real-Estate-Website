@@ -1,0 +1,39 @@
+{
+  "projectId": 16352,
+  "slug": "millennium-falcon-tathawade-pid-16352",
+  "projectName": "Millennium Falcon",
+  "city": "pune",
+  "totalImages": 2,
+  "cover": "/projects/16352/cover.jpg",
+  "gallery": [
+    "/projects/16352/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/16352/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/130296/original/project1new.png?1744826916",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 272608
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/16352/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/141896/original/project2new.png?1744826918",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 288557
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:54:06Z"
+}

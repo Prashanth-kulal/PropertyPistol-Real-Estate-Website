@@ -1,0 +1,39 @@
+{
+  "projectId": 16998,
+  "slug": "the-orchids-bavdhan-pid-16998",
+  "projectName": "The Orchids",
+  "city": "pune",
+  "totalImages": 2,
+  "cover": "/projects/16998/cover.jpg",
+  "gallery": [
+    "/projects/16998/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/16998/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/133466/original/project1new1.png?1742634848",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 549659
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/16998/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/133467/original/project2new2.png?1742634850",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 882132
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:55:25Z"
+}

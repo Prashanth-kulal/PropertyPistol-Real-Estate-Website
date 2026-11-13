@@ -1,0 +1,39 @@
+{
+  "projectId": 12710,
+  "slug": "vtp-belair-mahalunge-pid-12710",
+  "projectName": "VTP Belair",
+  "city": "pune",
+  "totalImages": 2,
+  "cover": "/projects/12710/cover.jpg",
+  "gallery": [
+    "/projects/12710/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/12710/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/149903/original/project2new.jpeg?1743167705",
+      "width": 1920,
+      "height": 1081,
+      "bytes": 558282
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/12710/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/149904/original/project3new.png?1743167706",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 447769
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:49:06Z"
+}

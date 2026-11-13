@@ -1,0 +1,39 @@
+{
+  "projectId": 7102,
+  "slug": "primespace-the-address-baner-pid-7102",
+  "projectName": "Primespace The Address",
+  "city": "pune",
+  "totalImages": 2,
+  "cover": "/projects/7102/cover.jpg",
+  "gallery": [
+    "/projects/7102/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/7102/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/30892/original/pixelcut-export_%2811%29_%281%29.jpeg?1744016674",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 474517
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/7102/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/47607/original/Capture_%285%29.jpg?1744016674",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 447175
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:42:41Z"
+}

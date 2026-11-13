@@ -1,0 +1,39 @@
+{
+  "projectId": 9875,
+  "slug": "legacy-woods-kiwale-pid-9875",
+  "projectName": "Legacy Woods",
+  "city": "pune",
+  "totalImages": 2,
+  "cover": "/projects/9875/cover.jpg",
+  "gallery": [
+    "/projects/9875/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/9875/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/149100/original/project1new.jpg?1746248338",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 493685
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/9875/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/149101/original/project2new2.png?1746248338",
+      "width": 1440,
+      "height": 1920,
+      "bytes": 522617
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:47:12Z"
+}

@@ -1,0 +1,39 @@
+{
+  "projectId": 19363,
+  "slug": "oriana-nest-baner-pid-19363",
+  "projectName": "Oriana Nest",
+  "city": "pune",
+  "totalImages": 2,
+  "cover": "/projects/19363/cover.jpg",
+  "gallery": [
+    "/projects/19363/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/19363/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/148731/original/project1new1.png?1741782094",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 489203
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/19363/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/148732/original/project2new2.png?1741782095",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 929896
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:59:39Z"
+}

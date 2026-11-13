@@ -1,0 +1,49 @@
+{
+  "projectId": 8229,
+  "slug": "raheja-sterling-nibm-road-pid-8229",
+  "projectName": "Raheja Sterling",
+  "city": "pune",
+  "totalImages": 3,
+  "cover": "/projects/8229/cover.jpg",
+  "gallery": [
+    "/projects/8229/gallery-1.jpg",
+    "/projects/8229/gallery-2.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/8229/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/36812/original/project1.jpg?1748242826",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 408037
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/8229/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/146282/original/project2.jpg?1748242827",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 489101
+    },
+    {
+      "index": 2,
+      "filename": "gallery-2.jpg",
+      "path": "/projects/8229/gallery-2.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/152620/original/raheja_%281%29.png?1748242827",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 506243
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:46:31Z"
+}

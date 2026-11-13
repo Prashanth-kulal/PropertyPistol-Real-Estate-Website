@@ -1,0 +1,49 @@
+{
+  "projectId": 18275,
+  "slug": "legacy-kairos-rahatani-pid-18275",
+  "projectName": "Legacy Kairos",
+  "city": "pune",
+  "totalImages": 3,
+  "cover": "/projects/18275/cover.jpg",
+  "gallery": [
+    "/projects/18275/gallery-1.jpg",
+    "/projects/18275/gallery-2.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/18275/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/139064/original/project1new.png?1745392275",
+      "width": 1440,
+      "height": 1920,
+      "bytes": 512679
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/18275/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/139066/original/project3new3.png?1741599363",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 715930
+    },
+    {
+      "index": 2,
+      "filename": "gallery-2.jpg",
+      "path": "/projects/18275/gallery-2.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/139065/original/project2new2.png?1741599361",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 666540
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:56:40Z"
+}

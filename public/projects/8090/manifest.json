@@ -1,0 +1,39 @@
+{
+  "projectId": 8090,
+  "slug": "platinum-abhiaayu-heights-wakad-pid-8090",
+  "projectName": "Platinum Abhiaayu Heights",
+  "city": "pune",
+  "totalImages": 2,
+  "cover": "/projects/8090/cover.jpg",
+  "gallery": [
+    "/projects/8090/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/8090/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/36165/original/1738927629067_copy_1920x1440.jpg?1742793338",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 456413
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/8090/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/48273/original/abiyaayu-slide3_copy_1920x1440.jpg?1742793338",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 528212
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:45:37Z"
+}

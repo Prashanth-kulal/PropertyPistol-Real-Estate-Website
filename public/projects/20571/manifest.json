@@ -1,0 +1,49 @@
+{
+  "projectId": 20571,
+  "slug": "mantra-marvilla-mundhwa-pid-20571",
+  "projectName": "Mantra Marvilla",
+  "city": "pune",
+  "totalImages": 3,
+  "cover": "/projects/20571/cover.jpg",
+  "gallery": [
+    "/projects/20571/gallery-1.jpg",
+    "/projects/20571/gallery-2.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/20571/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/156201/original/1.jpg?1755510475",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 351400
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/20571/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/156202/original/2.jpg?1755510476",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 494204
+    },
+    {
+      "index": 2,
+      "filename": "gallery-2.jpg",
+      "path": "/projects/20571/gallery-2.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/156203/original/3.jpg?1755510476",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 542515
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T12:05:04Z"
+}

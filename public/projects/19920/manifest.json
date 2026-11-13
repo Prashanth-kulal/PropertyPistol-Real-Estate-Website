@@ -1,0 +1,39 @@
+{
+  "projectId": 19920,
+  "slug": "sky-2-cosmos-pimpri-chinchwad-pid-19920",
+  "projectName": "Sky 2 Cosmos",
+  "city": "pune",
+  "totalImages": 2,
+  "cover": "/projects/19920/cover.jpg",
+  "gallery": [
+    "/projects/19920/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/19920/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/152764/original/project1new1.png?1748512230",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 403152
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/19920/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/152765/original/project2new2.png?1748512231",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 492970
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T12:03:35Z"
+}

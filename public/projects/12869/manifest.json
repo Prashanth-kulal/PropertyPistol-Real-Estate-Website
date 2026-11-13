@@ -1,0 +1,39 @@
+{
+  "projectId": 12869,
+  "slug": "godrej-park-ridge-manjri-pid-12869",
+  "projectName": "Godrej Park Ridge",
+  "city": "pune",
+  "totalImages": 2,
+  "cover": "/projects/12869/cover.jpg",
+  "gallery": [
+    "/projects/12869/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/12869/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/67039/original/park1.jpg?1717160971",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 300016
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/12869/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/67038/original/park.jpg?1717160971",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 483583
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:49:18Z"
+}

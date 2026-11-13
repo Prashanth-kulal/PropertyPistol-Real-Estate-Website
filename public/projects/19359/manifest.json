@@ -1,0 +1,39 @@
+{
+  "projectId": 19359,
+  "slug": "kohinoor-central-park-hinjawadi-pid-19359",
+  "projectName": "Kohinoor Central Park",
+  "city": "pune",
+  "totalImages": 2,
+  "cover": "/projects/19359/cover.jpg",
+  "gallery": [
+    "/projects/19359/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/19359/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/148721/original/project1new1.png?1741780257",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 564315
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/19359/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/148722/original/project2new2.png?1741780259",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 1035459
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:59:25Z"
+}

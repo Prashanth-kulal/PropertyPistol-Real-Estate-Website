@@ -1,0 +1,39 @@
+{
+  "projectId": 13185,
+  "slug": "rainbow-sunrise-tower-nigdi-pid-13185",
+  "projectName": "Rainbow Sunrise Tower",
+  "city": "pune",
+  "totalImages": 2,
+  "cover": "/projects/13185/cover.jpg",
+  "gallery": [
+    "/projects/13185/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/13185/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/71020/original/project1new.png?1742061309",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 345245
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/13185/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/71021/original/project2new2.png?1742061310",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 924453
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:50:17Z"
+}

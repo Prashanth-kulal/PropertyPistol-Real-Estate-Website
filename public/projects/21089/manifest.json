@@ -1,0 +1,49 @@
+{
+  "projectId": 21089,
+  "slug": "happycity-varale-talegaon-pid-21089",
+  "projectName": "Happycity Varale",
+  "city": "pune",
+  "totalImages": 3,
+  "cover": "/projects/21089/cover.jpg",
+  "gallery": [
+    "/projects/21089/gallery-1.jpg",
+    "/projects/21089/gallery-2.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/21089/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/157408/original/01.jpg?1759565320",
+      "width": 900,
+      "height": 390,
+      "bytes": 67384
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/21089/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/157409/original/02.jpg?1759565321",
+      "width": 900,
+      "height": 480,
+      "bytes": 74758
+    },
+    {
+      "index": 2,
+      "filename": "gallery-2.jpg",
+      "path": "/projects/21089/gallery-2.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/157410/original/03.jpg?1759565321",
+      "width": 900,
+      "height": 720,
+      "bytes": 102037
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T12:05:41Z"
+}

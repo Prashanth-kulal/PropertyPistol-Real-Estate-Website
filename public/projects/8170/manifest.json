@@ -1,0 +1,39 @@
+{
+  "projectId": 8170,
+  "slug": "38-park-majestique-undri-pid-8170",
+  "projectName": "38 Park Majestique",
+  "city": "pune",
+  "totalImages": 2,
+  "cover": "/projects/8170/cover.jpg",
+  "gallery": [
+    "/projects/8170/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/8170/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/36517/original/project1new.png?1742564030",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 500269
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/8170/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/146377/original/project2new.png?1742564032",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 720153
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:46:26Z"
+}

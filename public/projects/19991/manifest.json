@@ -1,0 +1,49 @@
+{
+  "projectId": 19991,
+  "slug": "vtp-altamira-kharadi-pid-19991",
+  "projectName": "VTP Altamira",
+  "city": "pune",
+  "totalImages": 3,
+  "cover": "/projects/19991/cover.jpg",
+  "gallery": [
+    "/projects/19991/gallery-1.jpg",
+    "/projects/19991/gallery-2.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/19991/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/153226/original/1.PNG?1749645054",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 331208
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/19991/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/153227/original/2.PNG?1749645055",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 362061
+    },
+    {
+      "index": 2,
+      "filename": "gallery-2.jpg",
+      "path": "/projects/19991/gallery-2.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/153228/original/3.PNG?1749645056",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 502858
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T12:03:40Z"
+}

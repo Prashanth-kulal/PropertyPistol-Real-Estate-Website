@@ -1,0 +1,39 @@
+{
+  "projectId": 7078,
+  "slug": "marne-maithili-square-kiwale-pid-7078",
+  "projectName": "Marne Maithili Square",
+  "city": "pune",
+  "totalImages": 2,
+  "cover": "/projects/7078/cover.jpg",
+  "gallery": [
+    "/projects/7078/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/7078/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/31100/original/IMG_20250110_154857.jpg?1743843618",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 331623
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/7078/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/49207/original/pixelcut-export_%2816%29.jpeg?1743843619",
+      "width": 1440,
+      "height": 1920,
+      "bytes": 424540
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:42:29Z"
+}

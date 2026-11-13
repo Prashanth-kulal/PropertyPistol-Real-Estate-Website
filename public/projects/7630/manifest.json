@@ -1,0 +1,39 @@
+{
+  "projectId": 7630,
+  "slug": "platinum-glory-baner-pid-7630",
+  "projectName": "Platinum Glory",
+  "city": "pune",
+  "totalImages": 2,
+  "cover": "/projects/7630/cover.jpg",
+  "gallery": [
+    "/projects/7630/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/7630/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/32777/original/unnamed_%281%29%281%29_copy_1440x1920.jpg?1742990764",
+      "width": 1440,
+      "height": 1920,
+      "bytes": 498857
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/7630/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/140782/original/unnamed_%282%29_copy_1440x1920.jpg?1742990764",
+      "width": 1440,
+      "height": 1920,
+      "bytes": 482469
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:44:52Z"
+}

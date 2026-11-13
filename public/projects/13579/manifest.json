@@ -1,0 +1,49 @@
+{
+  "projectId": 13579,
+  "slug": "shiv-zen-world-manjri-pid-13579",
+  "projectName": "Shiv Zen World",
+  "city": "pune",
+  "totalImages": 3,
+  "cover": "/projects/13579/cover.jpg",
+  "gallery": [
+    "/projects/13579/gallery-1.jpg",
+    "/projects/13579/gallery-2.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/13579/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/77852/original/Captureesq_%281%29.png?1743146779",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 356759
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/13579/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/153946/original/project2new2new.jpg?1751631056",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 480944
+    },
+    {
+      "index": 2,
+      "filename": "gallery-2.jpg",
+      "path": "/projects/13579/gallery-2.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/153947/original/project3new3.jpg?1751631056",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 433677
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:51:16Z"
+}

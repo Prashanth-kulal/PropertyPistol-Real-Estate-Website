@@ -1,0 +1,39 @@
+{
+  "projectId": 8360,
+  "slug": "united-athashri-dhanori-pid-8360",
+  "projectName": "United Athashri",
+  "city": "pune",
+  "totalImages": 2,
+  "cover": "/projects/8360/cover.jpg",
+  "gallery": [
+    "/projects/8360/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/8360/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/37551/original/project1new.jpg?1738661066",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 445520
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/8360/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/146147/original/project2new.png?1742493571",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 690608
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:46:47Z"
+}

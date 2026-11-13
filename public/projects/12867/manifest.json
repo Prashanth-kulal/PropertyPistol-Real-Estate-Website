@@ -1,0 +1,39 @@
+{
+  "projectId": 12867,
+  "slug": "the-rising-ravet-pid-12867",
+  "projectName": "The Rising",
+  "city": "pune",
+  "totalImages": 2,
+  "cover": "/projects/12867/cover.jpg",
+  "gallery": [
+    "/projects/12867/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/12867/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/67035/original/rising_%281%29.jpeg?1748936687",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 650483
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/12867/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/67036/original/rising2_%281%29.jpeg?1748936688",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 506583
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:49:18Z"
+}

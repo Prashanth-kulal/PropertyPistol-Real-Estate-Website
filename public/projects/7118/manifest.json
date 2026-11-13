@@ -1,0 +1,39 @@
+{
+  "projectId": 7118,
+  "slug": "miravet-district-ravet-pid-7118",
+  "projectName": "Miravet District",
+  "city": "pune",
+  "totalImages": 2,
+  "cover": "/projects/7118/cover.jpg",
+  "gallery": [
+    "/projects/7118/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/7118/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/30939/original/Capture.PNG?1731949839",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 431914
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/7118/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/140901/original/g.PNG?1731949840",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 491617
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:42:58Z"
+}

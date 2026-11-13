@@ -12,6 +12,7 @@ import { TRIVANDRUM_REGISTRY_PROJECTS } from "./trivandrumProjectsRegistry.js";
 import { CALICUT_REGISTRY_PROJECTS } from "./calicutProjectsRegistry.js";
 import { BANGALORE_REGISTRY_PROJECTS } from "./bangaloreProjectsRegistry.js";
 import { NOIDA_REGISTRY_PROJECTS } from "./noidaProjectsRegistry.js";
+import { PUNE_REGISTRY_PROJECTS } from "./puneProjectsRegistry.js";
 
 export const DEVELOPERS_DATA = [
   {
@@ -1211,6 +1212,20 @@ export function enrichDeveloperWithProjects(dev) {
     );
   });
 
+  const puneMatches = PUNE_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === dev.slug) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return (
+      bNorm === normSlug ||
+      bNorm.includes(normSlug) ||
+      normSlug.includes(bNorm) ||
+      bNorm === normDevName ||
+      bNorm.includes(normDevName) ||
+      normDevName.includes(bNorm)
+    );
+  });
+
   const existingCities = dev.cities || [];
   const existingMumbaiCity = existingCities.find((c) => c.citySlug === "mumbai") || {
     name: "Mumbai",
@@ -1463,6 +1478,33 @@ export function enrichDeveloperWithProjects(dev) {
     }
   }
 
+  if (puneMatches.length > 0) {
+    const puneOngoing = puneMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch" || p.status === "Pre-Launch"
+    ).length;
+    const puneUpcoming = puneMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch" || p.status === "Pre-Launch"
+    ).length;
+    const existingPuneIndex = updatedCities.findIndex((c) => c.citySlug === "pune");
+    if (existingPuneIndex >= 0) {
+      updatedCities[existingPuneIndex] = {
+        ...updatedCities[existingPuneIndex],
+        name: "Pune",
+        ongoingCount: puneOngoing || updatedCities[existingPuneIndex].ongoingCount || 1,
+        upcomingCount: puneUpcoming || updatedCities[existingPuneIndex].upcomingCount || 1,
+        projects: puneMatches
+      };
+    } else {
+      updatedCities.push({
+        name: "Pune",
+        citySlug: "pune",
+        ongoingCount: puneOngoing,
+        upcomingCount: puneUpcoming,
+        projects: puneMatches
+      });
+    }
+  }
+
   // Use top matching projects for featured showcase
   const featured = matches.length > 0
     ? matches.slice(0, 3).map((p) => ({
@@ -1474,7 +1516,7 @@ export function enrichDeveloperWithProjects(dev) {
       }))
     : dev.featuredProjects;
 
-  const totalCount = finalProjects.length + delhiMatches.length + goaMatches.length + coimbatoreMatches.length + nagpurMatches.length + thrissurMatches.length + trivandrumMatches.length + calicutMatches.length + bangaloreMatches.length;
+  const totalCount = finalProjects.length + delhiMatches.length + goaMatches.length + coimbatoreMatches.length + nagpurMatches.length + thrissurMatches.length + trivandrumMatches.length + calicutMatches.length + bangaloreMatches.length + puneMatches.length;
   return {
     ...dev,
     projectCount: `${totalCount}+ Projects`,
@@ -1987,6 +2029,60 @@ export function getDeveloperBySlug(slug) {
           ongoingCount: ongoing,
           upcomingCount: upcoming,
           projects: noidaDevMatches
+        }
+      ]
+    };
+  }
+
+  // 2j. Synthesize developer profile dynamically from PUNE_REGISTRY_PROJECTS
+  const puneDevMatches = PUNE_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === normalized) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return bNorm === normSlug || bNorm.includes(normSlug) || normSlug.includes(bNorm);
+  });
+
+  if (puneDevMatches.length > 0) {
+    const builderName = puneDevMatches[0].builder;
+    const logo = puneDevMatches[0].builderLogo || "/images/logo/logo-emblem.png";
+    const ongoing = puneDevMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch"
+    ).length;
+    const upcoming = puneDevMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch"
+    ).length;
+
+    return {
+      id: normalized,
+      slug: puneDevMatches[0].developerSlug || normalized,
+      name: builderName,
+      logo: logo,
+      tagline: `Premier Residential Developments Across Pune & PCMC`,
+      experience: "18+ Years",
+      projectCount: `${puneDevMatches.length}+ Projects`,
+      established: "2006",
+      aboutUs: puneDevMatches[0].builderDescription || `${builderName} is a premier real estate developer with verified residential landmarks across Pune and PCMC.`,
+      description: puneDevMatches[0].builderDescription || `${builderName} delivers high-grade residential and integrated township communities across Pune with MahaRERA compliance and sustainable design standards.`,
+      stats: [
+        { label: "Active Projects", value: `${puneDevMatches.length}+` },
+        { label: "Location", value: "Pune Metro" },
+        { label: "MahaRERA Compliant", value: "100%" },
+        { label: "Brokerage", value: "0%" }
+      ],
+      featuredProjects: puneDevMatches.slice(0, 3).map((p) => ({
+        title: p.name,
+        location: p.location,
+        price: p.price === "On Request" ? "On Request" : `₹${p.price}*`,
+        image: p.images?.[0] || "/images/placeholder-property.jpg",
+        slug: p.slug
+      })),
+      cities: [
+        {
+          name: "Pune",
+          citySlug: "pune",
+          ongoingCount: ongoing,
+          upcomingCount: upcoming,
+          projects: puneDevMatches
         }
       ]
     };

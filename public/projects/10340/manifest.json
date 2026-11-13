@@ -1,0 +1,39 @@
+{
+  "projectId": 10340,
+  "slug": "empire-square-pimpri-chinchwad-pid-10340",
+  "projectName": "Empire Square",
+  "city": "pune",
+  "totalImages": 2,
+  "cover": "/projects/10340/cover.jpg",
+  "gallery": [
+    "/projects/10340/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/10340/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/46278/original/project1new1.png?1742055184",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 519440
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/10340/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/46279/original/project2new.jpg?1745929771",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 721996
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:47:48Z"
+}

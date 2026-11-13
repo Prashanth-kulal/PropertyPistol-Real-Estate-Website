@@ -1,0 +1,49 @@
+{
+  "projectId": 18852,
+  "slug": "ace-aster-kiwale-pid-18852",
+  "projectName": "Ace Aster",
+  "city": "pune",
+  "totalImages": 3,
+  "cover": "/projects/18852/cover.jpg",
+  "gallery": [
+    "/projects/18852/gallery-1.jpg",
+    "/projects/18852/gallery-2.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/18852/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/142251/original/the-ace.PNG?1746775392",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 293206
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/18852/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/145220/original/ace2.PNG?1746775393",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 360750
+    },
+    {
+      "index": 2,
+      "filename": "gallery-2.jpg",
+      "path": "/projects/18852/gallery-2.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/152080/original/ace.png?1746775394",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 499068
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:57:00Z"
+}

@@ -1,0 +1,39 @@
+{
+  "projectId": 9861,
+  "slug": "majestique-the-ornate-baner-pid-9861",
+  "projectName": "Majestique The Ornate",
+  "city": "pune",
+  "totalImages": 2,
+  "cover": "/projects/9861/cover.jpg",
+  "gallery": [
+    "/projects/9861/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/9861/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/43642/original/g4.jpg?1743574379",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 331787
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/9861/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/43641/original/Capture_%285%29.jpg?1743574379",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 485905
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:47:04Z"
+}

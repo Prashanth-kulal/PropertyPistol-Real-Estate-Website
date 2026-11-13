@@ -1,0 +1,49 @@
+{
+  "projectId": 7123,
+  "slug": "godrej-green-vistas-baner-pid-7123",
+  "projectName": "Godrej Green Vistas",
+  "city": "pune",
+  "totalImages": 3,
+  "cover": "/projects/7123/cover.jpg",
+  "gallery": [
+    "/projects/7123/gallery-1.jpg",
+    "/projects/7123/gallery-2.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/7123/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/31079/original/Elevation_%281%29.jpg?1743262876",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 460086
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/7123/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/49192/original/Entrance.jpg?1743262876",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 619396
+    },
+    {
+      "index": 2,
+      "filename": "gallery-2.jpg",
+      "path": "/projects/7123/gallery-2.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/49194/original/Elevation_%282%29.jpg?1743262876",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 329071
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:42:54Z"
+}

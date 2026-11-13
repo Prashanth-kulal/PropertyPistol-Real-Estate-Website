@@ -1,0 +1,39 @@
+{
+  "projectId": 8143,
+  "slug": "regency-astra-baner-pid-8143",
+  "projectName": "Regency Astra",
+  "city": "pune",
+  "totalImages": 2,
+  "cover": "/projects/8143/cover.jpg",
+  "gallery": [
+    "/projects/8143/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/8143/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/36296/original/project1new_%285%29.jpg?1746442344",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 427383
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/8143/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/161491/original/regency-Picsart-AiImageEnhancer.PNG?1792060161",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 635395
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:46:10Z"
+}

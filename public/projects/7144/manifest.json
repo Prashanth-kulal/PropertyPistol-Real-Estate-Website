@@ -1,0 +1,39 @@
+{
+  "projectId": 7144,
+  "slug": "anp-atlantis-balewadi-pid-7144",
+  "projectName": "ANP Atlantis",
+  "city": "pune",
+  "totalImages": 2,
+  "cover": "/projects/7144/cover.jpg",
+  "gallery": [
+    "/projects/7144/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/7144/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/31041/original/project1new1.png?1791448962",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 732445
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/7144/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/47561/original/project2new2.png?1742498975",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 438234
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:43:45Z"
+}

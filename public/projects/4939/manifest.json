@@ -1,0 +1,39 @@
+{
+  "projectId": 4939,
+  "slug": "mantra-insignia-mundhwa-pid-4939",
+  "projectName": "Mantra Insignia",
+  "city": "pune",
+  "totalImages": 2,
+  "cover": "/projects/4939/cover.jpg",
+  "gallery": [
+    "/projects/4939/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/4939/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/27454/original/images_%2814%29.jpg?1736789738",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 384915
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/4939/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/79537/original/images_%2813%29.jpeg?1736789739",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 382253
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:41:11Z"
+}

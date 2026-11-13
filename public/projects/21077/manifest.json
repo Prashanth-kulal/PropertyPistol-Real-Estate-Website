@@ -1,0 +1,39 @@
+{
+  "projectId": 21077,
+  "slug": "grandeur-premium-undri-pid-21077",
+  "projectName": "Grandeur Premium",
+  "city": "pune",
+  "totalImages": 2,
+  "cover": "/projects/21077/cover.jpg",
+  "gallery": [
+    "/projects/21077/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/21077/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/157389/original/av.png?1791286889",
+      "width": 1440,
+      "height": 1920,
+      "bytes": 492978
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/21077/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/157390/original/gre.png?1791286890",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 515662
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T12:05:56Z"
+}

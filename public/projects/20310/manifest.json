@@ -1,0 +1,49 @@
+{
+  "projectId": 20310,
+  "slug": "space-37-grandstand-baner-pid-20310",
+  "projectName": "Space 37 Grandstand",
+  "city": "pune",
+  "totalImages": 3,
+  "cover": "/projects/20310/cover.jpg",
+  "gallery": [
+    "/projects/20310/gallery-1.jpg",
+    "/projects/20310/gallery-2.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/20310/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/154957/original/rand2.png?1753465379",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 374545
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/20310/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/154958/original/rand.png?1753465380",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 407319
+    },
+    {
+      "index": 2,
+      "filename": "gallery-2.jpg",
+      "path": "/projects/20310/gallery-2.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/154959/original/rand3.png?1753465381",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 374502
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T12:04:56Z"
+}

@@ -1,0 +1,39 @@
+{
+  "projectId": 10829,
+  "slug": "krisala-magia-avenue-mamurdi-pid-10829",
+  "projectName": "Krisala Magia Avenue",
+  "city": "pune",
+  "totalImages": 2,
+  "cover": "/projects/10829/cover.jpg",
+  "gallery": [
+    "/projects/10829/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/10829/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/49036/original/Capture.JPG?1672230736",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 234547
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/10829/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/49037/original/ma.jpg?1717853609",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 356181
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:47:56Z"
+}

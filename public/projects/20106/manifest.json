@@ -1,0 +1,39 @@
+{
+  "projectId": 20106,
+  "slug": "yashada-jubilee-hills-baner-pid-20106",
+  "projectName": "Yashada Jubilee Hills",
+  "city": "pune",
+  "totalImages": 2,
+  "cover": "/projects/20106/cover.jpg",
+  "gallery": [
+    "/projects/20106/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/20106/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/154165/original/jubili.png?1752158406",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 460990
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/20106/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/154166/original/jubil.png?1752158407",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 290351
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T12:04:11Z"
+}

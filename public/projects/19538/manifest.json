@@ -1,0 +1,49 @@
+{
+  "projectId": 19538,
+  "slug": "queens-tower-nibm-road-pid-19538",
+  "projectName": "Queens Tower",
+  "city": "pune",
+  "totalImages": 3,
+  "cover": "/projects/19538/cover.jpg",
+  "gallery": [
+    "/projects/19538/gallery-1.jpg",
+    "/projects/19538/gallery-2.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/19538/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/150198/original/project3new3.png?1743686373",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 519566
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/19538/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/150193/original/project1new1.png?1743686009",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 381953
+    },
+    {
+      "index": 2,
+      "filename": "gallery-2.jpg",
+      "path": "/projects/19538/gallery-2.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/150194/original/project2new2.png?1743686010",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 506994
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T12:01:54Z"
+}

@@ -1,0 +1,49 @@
+{
+  "projectId": 11175,
+  "slug": "bella-rossa-phase-2-punawale-pid-11175",
+  "projectName": "Bella Rossa Phase 2",
+  "city": "pune",
+  "totalImages": 3,
+  "cover": "/projects/11175/cover.jpg",
+  "gallery": [
+    "/projects/11175/gallery-1.jpg",
+    "/projects/11175/gallery-2.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/11175/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/151003/original/08.jpg?1745046455",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 331692
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/11175/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/151004/original/010.jpg?1745046455",
+      "width": 1400,
+      "height": 1080,
+      "bytes": 424591
+    },
+    {
+      "index": 2,
+      "filename": "gallery-2.jpg",
+      "path": "/projects/11175/gallery-2.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/151005/original/09.jpg?1745046456",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 516105
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:48:22Z"
+}

@@ -1,0 +1,49 @@
+{
+  "projectId": 5000,
+  "slug": "arv-royale-hadapsar-pid-5000",
+  "projectName": "ARV Royale",
+  "city": "pune",
+  "totalImages": 3,
+  "cover": "/projects/5000/cover.jpg",
+  "gallery": [
+    "/projects/5000/gallery-1.jpg",
+    "/projects/5000/gallery-2.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/5000/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/144509/original/projectimage1new.jpg?1744299292",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 436475
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/5000/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/161711/original/r-Picsart-AiImageEnhancer.PNG?1793602171",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 456167
+    },
+    {
+      "index": 2,
+      "filename": "gallery-2.jpg",
+      "path": "/projects/5000/gallery-2.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/161712/original/royale-Picsart-AiImageEnhancer.PNG?1793602173",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 594614
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:41:36Z"
+}

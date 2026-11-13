@@ -11,6 +11,7 @@ import { TRIVANDRUM_REGISTRY_PROJECTS } from "./trivandrumProjectsRegistry.js";
 import { CALICUT_REGISTRY_PROJECTS } from "./calicutProjectsRegistry.js";
 import { BANGALORE_REGISTRY_PROJECTS } from "./bangaloreProjectsRegistry.js";
 import { NOIDA_REGISTRY_PROJECTS } from "./noidaProjectsRegistry.js";
+import { PUNE_REGISTRY_PROJECTS } from "./puneProjectsRegistry.js";
 
 export const CITY_DETAILS = {
   mumbai: {
@@ -66,8 +67,8 @@ export const CITY_DETAILS = {
     name: "Pune",
     state: "Maharashtra",
     tagline: "India's Cultural & IT Powerhouse with Unrivaled Livability",
-    heroImage: "https://images.unsplash.com/photo-1588416936097-41850ab3d86d?auto=format&fit=crop&w=1600&q=80",
-    projectsCount: 980,
+    heroImage: "/projects/21271/cover.jpg",
+    projectsCount: 1027,
     avgPriceSqFt: "₹8,900",
     appreciationRate: "+13.2% YoY",
     rentalYield: "4.4% p.a.",
@@ -633,102 +634,7 @@ export function getCityDetails(cityId) {
 // City-specific sample properties
 export const CITY_PROPERTIES = {
   mumbai: MUMBAI_REGISTRY_PROJECTS,
-
-  pune: [
-    {
-      id: "pun-1",
-      name: "Godrej Woodsville",
-      builder: "Godrej Properties",
-      builderLogo: "https://images.unsplash.com/photo-1541888946425-d0fbb186f5f7?auto=format&fit=crop&w=120&h=120&q=80",
-      city: "pune",
-      location: "Hinjewadi Phase 1, Pune",
-      price: "82.5 Lacs",
-      priceNumeric: 8250000,
-      avgPrice: "₹9.2 K / sq.ft",
-      flatTypes: "1 BHK, 2 BHK, 3 BHK",
-      carpetArea: "512 - 980 sq.ft",
-      status: "Under Construction",
-      rera: "P52100046729",
-      tag: "Popular",
-      rating: 4.7,
-      type: "Apartment",
-      images: [
-        "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=900&q=80",
-        "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=900&q=80"
-      ],
-      features: ["IT Park Adjacent", "Sky Walk", "Organic Garden"]
-    },
-    {
-      id: "pun-2",
-      name: "VTP Sierra",
-      builder: "VTP Realty",
-      builderLogo: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=120&h=120&q=80",
-      city: "pune",
-      location: "Baner - Sus, Pune",
-      price: "1.12 Cr",
-      priceNumeric: 11200000,
-      avgPrice: "₹10.5 K / sq.ft",
-      flatTypes: "2 BHK, 3 BHK",
-      carpetArea: "780 - 1,250 sq.ft",
-      status: "Ready to Move",
-      rera: "P52100026781",
-      tag: "Ready",
-      rating: 4.8,
-      type: "Apartment",
-      images: [
-        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80",
-        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=900&q=80"
-      ],
-      features: ["Mountain Vistas", "Podium Sports", "Co-working Lounge"]
-    },
-    {
-      id: "pun-3",
-      name: "Panchshil Towers",
-      builder: "Panchshil Realty",
-      builderLogo: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=120&h=120&q=80",
-      city: "pune",
-      location: "Kharadi, Pune",
-      price: "3.4 Cr",
-      priceNumeric: 34000000,
-      avgPrice: "₹14.8 K / sq.ft",
-      flatTypes: "3 BHK, 4 BHK, Villa",
-      carpetArea: "1,800 - 3,500 sq.ft",
-      status: "Ready to Move",
-      rera: "P52100002528",
-      tag: "Ultra Luxury",
-      rating: 5.0,
-      type: "Villa",
-      images: [
-        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=80",
-        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=80"
-      ],
-      features: ["WTC Proximity", "Private Concierge", "Olympic Pool"]
-    },
-    {
-      id: "pun-4",
-      name: "Kolte-Patil Life Republic",
-      builder: "Kolte-Patil Developers",
-      builderLogo: "https://images.unsplash.com/photo-1541888946425-d0fbb186f5f7?auto=format&fit=crop&w=120&h=120&q=80",
-      city: "pune",
-      location: "Marunji - Hinjawadi, Pune",
-      price: "48.5 Lacs",
-      priceNumeric: 4850000,
-      avgPrice: "₹7.4 K / sq.ft",
-      flatTypes: "1 BHK, 2 BHK",
-      carpetArea: "450 - 720 sq.ft",
-      status: "New Launch",
-      rera: "P52100034871",
-      tag: "High Value",
-      rating: 4.6,
-      type: "Apartment",
-      images: [
-        "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=900&q=80",
-        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=900&q=80"
-      ],
-      features: ["400-Acre Township", "Botanical Lake", "School Onsite"]
-    }
-  ],
-
+  pune: PUNE_REGISTRY_PROJECTS,
   bangalore: BANGALORE_REGISTRY_PROJECTS,
 
   delhi: DELHI_REGISTRY_PROJECTS,

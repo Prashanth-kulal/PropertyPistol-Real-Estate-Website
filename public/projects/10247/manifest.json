@@ -1,0 +1,39 @@
+{
+  "projectId": 10247,
+  "slug": "swaraaj-heights-punawale-pid-10247",
+  "projectName": "Swaraaj Heights",
+  "city": "pune",
+  "totalImages": 2,
+  "cover": "/projects/10247/cover.jpg",
+  "gallery": [
+    "/projects/10247/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/10247/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/45522/original/1.png?1738647495",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 355376
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/10247/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/146110/original/2.png?1738647494",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 279493
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:47:29Z"
+}

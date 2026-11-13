@@ -1,0 +1,49 @@
+{
+  "projectId": 8530,
+  "slug": "mihir-amara-wakad-pid-8530",
+  "projectName": "Mihir Amara",
+  "city": "pune",
+  "totalImages": 3,
+  "cover": "/projects/8530/cover.jpg",
+  "gallery": [
+    "/projects/8530/gallery-1.jpg",
+    "/projects/8530/gallery-2.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/8530/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/38762/original/project1new.jpg?1746279905",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 493851
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/8530/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/48622/original/project2new.jpg?1746279906",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 374263
+    },
+    {
+      "index": 2,
+      "filename": "gallery-2.jpg",
+      "path": "/projects/8530/gallery-2.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/48623/original/project3new.jpg?1746279906",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 536299
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:46:54Z"
+}

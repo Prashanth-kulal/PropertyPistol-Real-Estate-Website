@@ -1,0 +1,39 @@
+{
+  "projectId": 8181,
+  "slug": "godrej-sky-greens-kharadi-pid-8181",
+  "projectName": "Godrej Sky Greens",
+  "city": "pune",
+  "totalImages": 2,
+  "cover": "/projects/8181/cover.jpg",
+  "gallery": [
+    "/projects/8181/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/8181/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/36693/original/Project_Interior_Exterior_1_%281%29.jpg?1742399146",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 674098
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/8181/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/36694/original/1_%281%29.jpg?1742399146",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 830534
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:46:07Z"
+}

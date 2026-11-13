@@ -11,12 +11,13 @@ import { TRIVANDRUM_REGISTRY_PROJECTS } from "./trivandrumProjectsRegistry.js";
 import { CALICUT_REGISTRY_PROJECTS } from "./calicutProjectsRegistry.js";
 import { BANGALORE_REGISTRY_PROJECTS } from "./bangaloreProjectsRegistry.js";
 import { NOIDA_REGISTRY_PROJECTS } from "./noidaProjectsRegistry.js";
+import { PUNE_REGISTRY_PROJECTS } from "./puneProjectsRegistry.js";
 
-export { DELHI_REGISTRY_PROJECTS, GOA_REGISTRY_PROJECTS, COIMBATORE_REGISTRY_PROJECTS, NAGPUR_REGISTRY_PROJECTS, THRISSUR_REGISTRY_PROJECTS, TRIVANDRUM_REGISTRY_PROJECTS, CALICUT_REGISTRY_PROJECTS, BANGALORE_REGISTRY_PROJECTS, NOIDA_REGISTRY_PROJECTS };
+export { DELHI_REGISTRY_PROJECTS, GOA_REGISTRY_PROJECTS, COIMBATORE_REGISTRY_PROJECTS, NAGPUR_REGISTRY_PROJECTS, THRISSUR_REGISTRY_PROJECTS, TRIVANDRUM_REGISTRY_PROJECTS, CALICUT_REGISTRY_PROJECTS, BANGALORE_REGISTRY_PROJECTS, NOIDA_REGISTRY_PROJECTS, PUNE_REGISTRY_PROJECTS };
 
 export const CITIES = [
   { id: "mumbai", name: "Mumbai", state: "Maharashtra", projectsCount: 662, popular: true, image: "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?auto=format&fit=crop&w=800&q=80" },
-  { id: "pune", name: "Pune", state: "Maharashtra", projectsCount: 980, popular: true, image: "https://images.unsplash.com/photo-1588416936097-41850ab3d86d?auto=format&fit=crop&w=800&q=80" },
+  { id: "pune", name: "Pune", state: "Maharashtra", projectsCount: 1027, popular: true, image: "/projects/21271/cover.jpg" },
   { id: "delhi", name: "Delhi NCR", state: "Delhi", projectsCount: 16, popular: true, image: "/projects/4709/cover.jpg" },
   { id: "bangalore", name: "Bangalore", state: "Karnataka", projectsCount: 799, popular: true, image: "/projects/19794/cover.jpg" },
   { id: "hyderabad", name: "Hyderabad", state: "Telangana", projectsCount: 890, popular: true, image: "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=800&q=80" },
@@ -73,28 +74,6 @@ export const NON_MUMBAI_PROJECTS = [
     features: ["Metro Attached", "Huge Mall Onsite", "World-class Sports"]
   },
   {
-    id: "proj-8",
-    name: "Godrej Woodsville",
-    builder: "Godrej Properties",
-    builderLogo: "https://images.unsplash.com/photo-1541888946425-d0fbb186f5f7?auto=format&fit=crop&w=120&h=120&q=80",
-    city: "pune",
-    location: "Hinjewadi Phase 1, Pune",
-    price: "82.5 Lacs",
-    priceNumeric: 8250000,
-    avgPrice: "₹9.2 K / sq.ft",
-    flatTypes: "1 BHK, 2 BHK, 3 BHK",
-    carpetArea: "512 - 980 sq.ft",
-    status: "Under Construction",
-    rera: "P52100046729",
-    tag: "Popular",
-    rating: 4.7,
-    images: [
-      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=900&q=80"
-    ],
-    features: ["IT Park Adjacent", "Sky Walk", "Organic Garden"]
-  },
-  {
     id: "proj-9",
     name: "DLF The Arbour",
     builder: "DLF Limited",
@@ -129,6 +108,7 @@ export const PROJECTS = [
   ...CALICUT_REGISTRY_PROJECTS,
   ...BANGALORE_REGISTRY_PROJECTS,
   ...NOIDA_REGISTRY_PROJECTS,
+  ...PUNE_REGISTRY_PROJECTS,
   ...NON_MUMBAI_PROJECTS
 ];
 export const EXCLUSIVE_PROJECTS = [

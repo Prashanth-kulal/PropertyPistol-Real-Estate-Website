@@ -1,0 +1,39 @@
+{
+  "projectId": 11377,
+  "slug": "mi-casa-primaliva-hadapsar-pid-11377",
+  "projectName": "Mi Casa Primaliva",
+  "city": "pune",
+  "totalImages": 2,
+  "cover": "/projects/11377/cover.jpg",
+  "gallery": [
+    "/projects/11377/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/11377/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/142825/original/mi-casa-primaliva-elevation-136483410.jpeg?1742197749",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 408494
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/11377/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/52695/original/newbanner4.jpg?1742197750",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 375010
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:48:47Z"
+}

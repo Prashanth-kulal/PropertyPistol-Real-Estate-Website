@@ -1,0 +1,39 @@
+{
+  "projectId": 21119,
+  "slug": "gera-own-the-blue-kharadi-pid-21119",
+  "projectName": "Gera Own The Blue",
+  "city": "pune",
+  "totalImages": 2,
+  "cover": "/projects/21119/cover.jpg",
+  "gallery": [
+    "/projects/21119/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/21119/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/161535/original/gera.PNG?1792231182",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 345243
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/21119/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/157471/original/gera.PNG?1763798644",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 439979
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T12:06:55Z"
+}

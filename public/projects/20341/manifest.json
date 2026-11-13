@@ -1,0 +1,49 @@
+{
+  "projectId": 20341,
+  "slug": "aalap-sinhgad-road-pid-20341",
+  "projectName": "Aalap",
+  "city": "pune",
+  "totalImages": 3,
+  "cover": "/projects/20341/cover.jpg",
+  "gallery": [
+    "/projects/20341/gallery-1.jpg",
+    "/projects/20341/gallery-2.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/20341/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/155135/original/aa3.png?1753708702",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 505350
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/20341/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/155136/original/aa2.png?1753708704",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 323825
+    },
+    {
+      "index": 2,
+      "filename": "gallery-2.jpg",
+      "path": "/projects/20341/gallery-2.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/155137/original/aa.png?1753708705",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 598514
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T12:05:22Z"
+}

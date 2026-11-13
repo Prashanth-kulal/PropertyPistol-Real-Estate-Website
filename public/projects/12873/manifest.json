@@ -1,0 +1,39 @@
+{
+  "projectId": 12873,
+  "slug": "nyati-ekaant-1-dhayari-pid-12873",
+  "projectName": "Nyati Ekaant 1",
+  "city": "pune",
+  "totalImages": 2,
+  "cover": "/projects/12873/cover.jpg",
+  "gallery": [
+    "/projects/12873/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/12873/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/151009/original/project1new.png?1748951508",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 534496
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/12873/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/151010/original/project2new.png?1748951509",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 523350
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:49:26Z"
+}

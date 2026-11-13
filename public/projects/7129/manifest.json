@@ -1,0 +1,39 @@
+{
+  "projectId": 7129,
+  "slug": "krishna-amarillo-hinjawadi-pid-7129",
+  "projectName": "Krishna Amarillo",
+  "city": "pune",
+  "totalImages": 2,
+  "cover": "/projects/7129/cover.jpg",
+  "gallery": [
+    "/projects/7129/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/7129/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/31084/original/1-min_copy_1920x1440.jpg?1743065792",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 604925
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/7129/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/160961/original/2-min_%281%29.jpg?1787039219",
+      "width": 1656,
+      "height": 1038,
+      "bytes": 321295
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T11:42:54Z"
+}
