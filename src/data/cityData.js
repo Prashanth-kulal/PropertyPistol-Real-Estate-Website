@@ -7,6 +7,8 @@ import { GOA_REGISTRY_PROJECTS } from "./goaProjectsRegistry.js";
 import { COIMBATORE_REGISTRY_PROJECTS } from "./coimbatoreProjectsRegistry.js";
 import { NAGPUR_REGISTRY_PROJECTS } from "./nagpurProjectsRegistry.js";
 import { THRISSUR_REGISTRY_PROJECTS } from "./thrissurProjectsRegistry.js";
+import { TRIVANDRUM_REGISTRY_PROJECTS } from "./trivandrumProjectsRegistry.js";
+import { CALICUT_REGISTRY_PROJECTS } from "./calicutProjectsRegistry.js";
 
 export const CITY_DETAILS = {
   mumbai: {
@@ -527,8 +529,8 @@ export const CITY_DETAILS = {
     name: "Trivandrum",
     state: "Kerala",
     tagline: "The Green Capital of Kerala & Epicenter of Technopark and Vizhinjam Port",
-    heroImage: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1600&q=80",
-    projectsCount: 130,
+    heroImage: "/projects/17776/cover.jpg",
+    projectsCount: 33,
     avgPriceSqFt: "₹5,900",
     appreciationRate: "+13.5% YoY",
     rentalYield: "4.5% p.a.",
@@ -536,10 +538,10 @@ export const CITY_DETAILS = {
     stampDuty: "8%",
     description: "Trivandrum is experiencing monumental growth anchored by the operational Vizhinjam International Seaport and expanding Technopark Phase 3 and 4 IT hubs.",
     localities: [
-      { name: "Kazhakkoottam", avgPrice: "₹6,800 / sq.ft", projects: 40, tag: "Technopark IT Core" },
-      { name: "Kowdiar", avgPrice: "₹14,200 / sq.ft", projects: 15, tag: "Royal Heritage" },
-      { name: "Sasthamangalam", avgPrice: "₹9,500 / sq.ft", projects: 20, tag: "Prime City Hub" },
-      { name: "Technopark Corridor", avgPrice: "₹6,400 / sq.ft", projects: 32, tag: "High Rental Yield" }
+      { name: "Kazhakootam", avgPrice: "₹6,800 / sq.ft", projects: 8, tag: "Technopark IT Core" },
+      { name: "Aakkulam", avgPrice: "₹7,200 / sq.ft", projects: 7, tag: "Prime Residential" },
+      { name: "Kowdiar", avgPrice: "₹14,200 / sq.ft", projects: 2, tag: "Royal Heritage" },
+      { name: "Sasthamangalam", avgPrice: "₹9,500 / sq.ft", projects: 2, tag: "Prime City Hub" }
     ],
     faqs: [
       {
@@ -554,8 +556,8 @@ export const CITY_DETAILS = {
     name: "Calicut",
     state: "Kerala",
     tagline: "The Historic City of Spices & Dynamic Northern Malabar Commercial Hub",
-    heroImage: "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?auto=format&fit=crop&w=1600&q=80",
-    projectsCount: 110,
+    heroImage: "/projects/17236/cover.jpg",
+    projectsCount: 13,
     avgPriceSqFt: "₹5,300",
     appreciationRate: "+9.5% YoY",
     rentalYield: "4.0% p.a.",
@@ -563,10 +565,10 @@ export const CITY_DETAILS = {
     stampDuty: "8%",
     description: "Calicut (Kozhikode) blends historic coastal charm with Cyberpark tech parks, bustling trade markets, and high-quality residential communities.",
     localities: [
-      { name: "Kozhikode Beach", avgPrice: "₹10,500 / sq.ft", projects: 18, tag: "Scenic Seafront" },
-      { name: "Mavoor Road", avgPrice: "₹7,200 / sq.ft", projects: 24, tag: "Central Commercial" },
-      { name: "Chevayur", avgPrice: "₹5,600 / sq.ft", projects: 22, tag: "Peaceful Residential" },
-      { name: "Palazhi", avgPrice: "₹5,900 / sq.ft", projects: 26, tag: "Cyberpark IT Hub" }
+      { name: "Kozhikode", avgPrice: "₹7,500 / sq.ft", projects: 3, tag: "Central Hub" },
+      { name: "Koottuli", avgPrice: "₹6,500 / sq.ft", projects: 3, tag: "Prime Residential" },
+      { name: "Thondayad", avgPrice: "₹7,200 / sq.ft", projects: 2, tag: "Bypass Corridor" },
+      { name: "Thamarassery", avgPrice: "₹4,900 / sq.ft", projects: 2, tag: "Green Suburb" }
     ],
     faqs: [
       {
@@ -798,6 +800,8 @@ export const CITY_PROPERTIES = {
   coimbatore: COIMBATORE_REGISTRY_PROJECTS,
   nagpur: NAGPUR_REGISTRY_PROJECTS,
   thrissur: THRISSUR_REGISTRY_PROJECTS,
+  trivandrum: TRIVANDRUM_REGISTRY_PROJECTS,
+  calicut: CALICUT_REGISTRY_PROJECTS,
 
   gurugram: [
     {

@@ -10,6 +10,8 @@ import { getGoaProjectBySlug, GOA_ALL_SLUGS } from "./goaProjectsRegistry.js";
 import { getCoimbatoreProjectBySlug, COIMBATORE_ALL_SLUGS } from "./coimbatoreProjectsRegistry.js";
 import { getNagpurProjectBySlug, NAGPUR_ALL_SLUGS } from "./nagpurProjectsRegistry.js";
 import { getThrissurProjectBySlug, THRISSUR_ALL_SLUGS } from "./thrissurProjectsRegistry.js";
+import { getTrivandrumProjectBySlug, TRIVANDRUM_ALL_SLUGS } from "./trivandrumProjectsRegistry.js";
+import { getCalicutProjectBySlug, CALICUT_ALL_SLUGS } from "./calicutProjectsRegistry.js";
 
 // Standard Floor Plan Generator Helper
 function generateFloorPlans(typologies = "2, 3 BHK", basePriceStr = "2.5 Cr", carpetAreaStr = "800 - 1,400 sq.ft") {
@@ -844,6 +846,18 @@ export function getProjectBySlug(rawSlug) {
     return thrissurProject;
   }
 
+  // 2g. Direct match in Trivandrum Projects Registry (33 verified projects)
+  const trivandrumProject = getTrivandrumProjectBySlug(cleanSlug);
+  if (trivandrumProject) {
+    return trivandrumProject;
+  }
+
+  // 2h. Direct match in Calicut Projects Registry (13 verified projects)
+  const calicutProject = getCalicutProjectBySlug(cleanSlug);
+  if (calicutProject) {
+    return calicutProject;
+  }
+
   // 3. Search in DEVELOPERS_DATA
   for (const dev of DEVELOPERS_DATA) {
     for (const city of dev.cities || []) {
@@ -1060,6 +1074,8 @@ export function getAllProjectSlugs() {
   COIMBATORE_ALL_SLUGS.forEach((s) => slugs.add(s));
   NAGPUR_ALL_SLUGS.forEach((s) => slugs.add(s));
   THRISSUR_ALL_SLUGS.forEach((s) => slugs.add(s));
+  TRIVANDRUM_ALL_SLUGS.forEach((s) => slugs.add(s));
+  CALICUT_ALL_SLUGS.forEach((s) => slugs.add(s));
   CANONICAL_PROJECTS.forEach((p) => slugs.add(p.slug));
   GLOBAL_PROJECTS.forEach((p) => slugs.add(getProjectSlug(p)));
   DEVELOPERS_DATA.forEach((d) => {

@@ -8,6 +8,8 @@ import { GOA_REGISTRY_PROJECTS } from "./goaProjectsRegistry.js";
 import { COIMBATORE_REGISTRY_PROJECTS } from "./coimbatoreProjectsRegistry.js";
 import { NAGPUR_REGISTRY_PROJECTS } from "./nagpurProjectsRegistry.js";
 import { THRISSUR_REGISTRY_PROJECTS } from "./thrissurProjectsRegistry.js";
+import { TRIVANDRUM_REGISTRY_PROJECTS } from "./trivandrumProjectsRegistry.js";
+import { CALICUT_REGISTRY_PROJECTS } from "./calicutProjectsRegistry.js";
 
 export const DEVELOPERS_DATA = [
   {
@@ -1165,6 +1167,34 @@ export function enrichDeveloperWithProjects(dev) {
     );
   });
 
+  const trivandrumMatches = TRIVANDRUM_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === dev.slug) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return (
+      bNorm === normSlug ||
+      bNorm.includes(normSlug) ||
+      normSlug.includes(bNorm) ||
+      bNorm === normDevName ||
+      bNorm.includes(normDevName) ||
+      normDevName.includes(bNorm)
+    );
+  });
+
+  const calicutMatches = CALICUT_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === dev.slug) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return (
+      bNorm === normSlug ||
+      bNorm.includes(normSlug) ||
+      normSlug.includes(bNorm) ||
+      bNorm === normDevName ||
+      bNorm.includes(normDevName) ||
+      normDevName.includes(bNorm)
+    );
+  });
+
   const existingCities = dev.cities || [];
   const existingMumbaiCity = existingCities.find((c) => c.citySlug === "mumbai") || {
     name: "Mumbai",
@@ -1336,6 +1366,60 @@ export function enrichDeveloperWithProjects(dev) {
     }
   }
 
+  if (trivandrumMatches.length > 0) {
+    const tvmOngoing = trivandrumMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch" || p.status === "Pre-Launch"
+    ).length;
+    const tvmUpcoming = trivandrumMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch" || p.status === "Pre-Launch"
+    ).length;
+    const existingTvmIndex = updatedCities.findIndex((c) => c.citySlug === "trivandrum");
+    if (existingTvmIndex >= 0) {
+      updatedCities[existingTvmIndex] = {
+        ...updatedCities[existingTvmIndex],
+        name: "Trivandrum",
+        ongoingCount: tvmOngoing || updatedCities[existingTvmIndex].ongoingCount || 1,
+        upcomingCount: tvmUpcoming || updatedCities[existingTvmIndex].upcomingCount || 1,
+        projects: trivandrumMatches
+      };
+    } else {
+      updatedCities.push({
+        name: "Trivandrum",
+        citySlug: "trivandrum",
+        ongoingCount: tvmOngoing,
+        upcomingCount: tvmUpcoming,
+        projects: trivandrumMatches
+      });
+    }
+  }
+
+  if (calicutMatches.length > 0) {
+    const cltOngoing = calicutMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch" || p.status === "Pre-Launch"
+    ).length;
+    const cltUpcoming = calicutMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch" || p.status === "Pre-Launch"
+    ).length;
+    const existingCltIndex = updatedCities.findIndex((c) => c.citySlug === "calicut");
+    if (existingCltIndex >= 0) {
+      updatedCities[existingCltIndex] = {
+        ...updatedCities[existingCltIndex],
+        name: "Calicut",
+        ongoingCount: cltOngoing || updatedCities[existingCltIndex].ongoingCount || 1,
+        upcomingCount: cltUpcoming || updatedCities[existingCltIndex].upcomingCount || 1,
+        projects: calicutMatches
+      };
+    } else {
+      updatedCities.push({
+        name: "Calicut",
+        citySlug: "calicut",
+        ongoingCount: cltOngoing,
+        upcomingCount: cltUpcoming,
+        projects: calicutMatches
+      });
+    }
+  }
+
   // Use top matching projects for featured showcase
   const featured = matches.length > 0
     ? matches.slice(0, 3).map((p) => ({
@@ -1347,7 +1431,7 @@ export function enrichDeveloperWithProjects(dev) {
       }))
     : dev.featuredProjects;
 
-  const totalCount = finalProjects.length + delhiMatches.length + goaMatches.length + coimbatoreMatches.length + nagpurMatches.length + thrissurMatches.length;
+  const totalCount = finalProjects.length + delhiMatches.length + goaMatches.length + coimbatoreMatches.length + nagpurMatches.length + thrissurMatches.length + trivandrumMatches.length + calicutMatches.length;
   return {
     ...dev,
     projectCount: `${totalCount}+ Projects`,
@@ -1644,6 +1728,114 @@ export function getDeveloperBySlug(slug) {
           ongoingCount: ongoing,
           upcomingCount: upcoming,
           projects: thrissurDevMatches
+        }
+      ]
+    };
+  }
+
+  // 2f. Synthesize developer profile dynamically from TRIVANDRUM_REGISTRY_PROJECTS
+  const trivandrumDevMatches = TRIVANDRUM_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === normalized) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return bNorm === normSlug || bNorm.includes(normSlug) || normSlug.includes(bNorm);
+  });
+
+  if (trivandrumDevMatches.length > 0) {
+    const builderName = trivandrumDevMatches[0].builder;
+    const logo = trivandrumDevMatches[0].builderLogo || "/images/logo/logo-emblem.png";
+    const ongoing = trivandrumDevMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch" || p.status === "Pre-Launch"
+    ).length;
+    const upcoming = trivandrumDevMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch" || p.status === "Pre-Launch"
+    ).length;
+
+    return {
+      id: normalized,
+      slug: trivandrumDevMatches[0].developerSlug || normalized,
+      name: builderName,
+      logo: logo,
+      tagline: `Premier Residential Developments Across Trivandrum`,
+      experience: "15+ Years",
+      projectCount: `${trivandrumDevMatches.length}+ Projects`,
+      established: "2008",
+      aboutUs: trivandrumDevMatches[0].builderDescription || `${builderName} is a trusted real estate developer with verified residential developments across Trivandrum.`,
+      description: trivandrumDevMatches[0].builderDescription || `${builderName} delivers verified residential communities across Trivandrum with K-RERA compliance and transparent specifications.`,
+      stats: [
+        { label: "Active Projects", value: `${trivandrumDevMatches.length}+` },
+        { label: "Location", value: "Trivandrum" },
+        { label: "RERA Compliant", value: "100%" },
+        { label: "Brokerage", value: "0%" }
+      ],
+      featuredProjects: trivandrumDevMatches.slice(0, 3).map((p) => ({
+        title: p.name,
+        location: p.location,
+        price: p.price === "On Request" ? "On Request" : `₹${p.price}*`,
+        image: p.images?.[0] || "/images/placeholder-property.jpg",
+        slug: p.slug
+      })),
+      cities: [
+        {
+          name: "Trivandrum",
+          citySlug: "trivandrum",
+          ongoingCount: ongoing,
+          upcomingCount: upcoming,
+          projects: trivandrumDevMatches
+        }
+      ]
+    };
+  }
+
+  // 2g. Synthesize developer profile dynamically from CALICUT_REGISTRY_PROJECTS
+  const calicutDevMatches = CALICUT_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === normalized) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return bNorm === normSlug || bNorm.includes(normSlug) || normSlug.includes(bNorm);
+  });
+
+  if (calicutDevMatches.length > 0) {
+    const builderName = calicutDevMatches[0].builder;
+    const logo = calicutDevMatches[0].builderLogo || "/images/logo/logo-emblem.png";
+    const ongoing = calicutDevMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch" || p.status === "Pre-Launch"
+    ).length;
+    const upcoming = calicutDevMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch" || p.status === "Pre-Launch"
+    ).length;
+
+    return {
+      id: normalized,
+      slug: calicutDevMatches[0].developerSlug || normalized,
+      name: builderName,
+      logo: logo,
+      tagline: `Premier Residential Developments Across Calicut`,
+      experience: "15+ Years",
+      projectCount: `${calicutDevMatches.length}+ Projects`,
+      established: "2008",
+      aboutUs: calicutDevMatches[0].builderDescription || `${builderName} is a trusted real estate developer with verified residential developments across Calicut.`,
+      description: calicutDevMatches[0].builderDescription || `${builderName} delivers verified residential communities across Calicut with K-RERA compliance and transparent specifications.`,
+      stats: [
+        { label: "Active Projects", value: `${calicutDevMatches.length}+` },
+        { label: "Location", value: "Calicut" },
+        { label: "RERA Compliant", value: "100%" },
+        { label: "Brokerage", value: "0%" }
+      ],
+      featuredProjects: calicutDevMatches.slice(0, 3).map((p) => ({
+        title: p.name,
+        location: p.location,
+        price: p.price === "On Request" ? "On Request" : `₹${p.price}*`,
+        image: p.images?.[0] || "/images/placeholder-property.jpg",
+        slug: p.slug
+      })),
+      cities: [
+        {
+          name: "Calicut",
+          citySlug: "calicut",
+          ongoingCount: ongoing,
+          upcomingCount: upcoming,
+          projects: calicutDevMatches
         }
       ]
     };
