@@ -1,0 +1,49 @@
+{
+  "projectId": 13847,
+  "slug": "my-home-raka-hafeezpet-pid-13847",
+  "projectName": "My Home Raka",
+  "city": "hyderabad",
+  "totalImages": 3,
+  "cover": "/projects/13847/cover.jpg",
+  "gallery": [
+    "/projects/13847/gallery-1.jpg",
+    "/projects/13847/gallery-2.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/13847/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/82821/original/cf62bc38b42579f_%281%29.jpeg?1745666875",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 385847
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/13847/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/82822/original/cf62bc38a3c55b6.jpeg?1745666876",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 340693
+    },
+    {
+      "index": 2,
+      "filename": "gallery-2.jpg",
+      "path": "/projects/13847/gallery-2.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/145818/original/cf62bc38a374e5e.jpeg?1745666876",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 379244
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T23:48:40Z"
+}

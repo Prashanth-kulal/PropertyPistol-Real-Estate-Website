@@ -1,0 +1,39 @@
+{
+  "projectId": 13851,
+  "slug": "my-home-vipina-tellapur-pid-13851",
+  "projectName": "My Home Vipina",
+  "city": "hyderabad",
+  "totalImages": 2,
+  "cover": "/projects/13851/cover.jpg",
+  "gallery": [
+    "/projects/13851/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/13851/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/83043/original/cf646f05524bcd4.jpeg?1742525116",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 623516
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/13851/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/83044/original/cf646f0595e2da7.jpeg?1742525116",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 525027
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T23:58:43Z"
+}

@@ -1,0 +1,59 @@
+{
+  "projectId": 8379,
+  "slug": "my-home-sayuk-tellapur-pid-8379",
+  "projectName": "My Home Sayuk",
+  "city": "hyderabad",
+  "totalImages": 4,
+  "cover": "/projects/8379/cover.jpg",
+  "gallery": [
+    "/projects/8379/gallery-1.jpg",
+    "/projects/8379/gallery-2.jpg",
+    "/projects/8379/gallery-3.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/8379/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/37600/original/15-TOWER-FACADE-VIEW-min-scaled.jpg?1766815044",
+      "width": 2560,
+      "height": 1440,
+      "bytes": 783113
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/8379/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/158123/original/Balcony-view-min-scaled.jpg?1766815044",
+      "width": 2560,
+      "height": 1440,
+      "bytes": 892244
+    },
+    {
+      "index": 2,
+      "filename": "gallery-2.jpg",
+      "path": "/projects/8379/gallery-2.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/158124/original/Cycle-Parking-view_Hires-min-scaled.jpg?1766815045",
+      "width": 2560,
+      "height": 1440,
+      "bytes": 1275618
+    },
+    {
+      "index": 3,
+      "filename": "gallery-3.jpg",
+      "path": "/projects/8379/gallery-3.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/158125/original/Central-Lawn-view-min-scaled.jpg?1766815046",
+      "width": 2560,
+      "height": 1440,
+      "bytes": 1178685
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T23:58:40Z"
+}

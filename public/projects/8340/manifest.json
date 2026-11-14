@@ -1,0 +1,39 @@
+{
+  "projectId": 8340,
+  "slug": "aparna-zenon-puppalaguda-pid-8340",
+  "projectName": "Aparna Zenon",
+  "city": "hyderabad",
+  "totalImages": 2,
+  "cover": "/projects/8340/cover.jpg",
+  "gallery": [
+    "/projects/8340/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/8340/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/37372/original/images_%281%29.jpeg?1742453255",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 413791
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/8340/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/37373/original/images_%282%29.jpeg?1742453256",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 322454
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T23:47:11Z"
+}

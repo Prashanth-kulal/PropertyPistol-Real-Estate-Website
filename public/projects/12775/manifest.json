@@ -1,0 +1,39 @@
+{
+  "projectId": 12775,
+  "slug": "myra-villas-bolarum-pid-12775",
+  "projectName": "Myra Villas",
+  "city": "hyderabad",
+  "totalImages": 2,
+  "cover": "/projects/12775/cover.jpg",
+  "gallery": [
+    "/projects/12775/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/12775/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/64122/original/project1new.png?1742892072",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 465004
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/12775/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/64123/original/project2new.png?1742892073",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 478892
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T23:49:27Z"
+}

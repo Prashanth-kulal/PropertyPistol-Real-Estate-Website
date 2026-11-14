@@ -1,0 +1,39 @@
+{
+  "projectId": 21239,
+  "slug": "tripura-land-mark-5-bowrampet-pid-21239",
+  "projectName": "Tripura Land Mark 5",
+  "city": "hyderabad",
+  "totalImages": 2,
+  "cover": "/projects/21239/cover.jpg",
+  "gallery": [
+    "/projects/21239/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/21239/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/157746/original/tr.png?1762410187",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 340513
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/21239/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/157747/original/land.png?1762410189",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 233320
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-14T00:01:47Z"
+}

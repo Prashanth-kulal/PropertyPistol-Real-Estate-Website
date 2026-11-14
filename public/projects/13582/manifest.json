@@ -1,0 +1,39 @@
+{
+  "projectId": 13582,
+  "slug": "vasavi-sarovar-kukatpally-pid-13582",
+  "projectName": "Vasavi Sarovar",
+  "city": "hyderabad",
+  "totalImages": 2,
+  "cover": "/projects/13582/cover.jpg",
+  "gallery": [
+    "/projects/13582/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/13582/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/77929/original/project1new_%283%29.jpg?1747311350",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 501429
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/13582/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/77930/original/project2new.jpg?1743527665",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 424014
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T23:51:07Z"
+}

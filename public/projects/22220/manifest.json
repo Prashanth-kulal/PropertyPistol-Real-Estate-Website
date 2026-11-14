@@ -1,0 +1,39 @@
+{
+  "projectId": 22220,
+  "slug": "dsr-ciel-osman-nagar-pid-22220",
+  "projectName": "DSR Ciel",
+  "city": "hyderabad",
+  "totalImages": 2,
+  "cover": "/projects/22220/cover.jpg",
+  "gallery": [
+    "/projects/22220/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/22220/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/161077/original/1_%281%29.jpeg?1794213337",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 704214
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/22220/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/161078/original/download_%2826%29.png?1794213338",
+      "width": 1080,
+      "height": 1440,
+      "bytes": 537571
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T23:50:21Z"
+}

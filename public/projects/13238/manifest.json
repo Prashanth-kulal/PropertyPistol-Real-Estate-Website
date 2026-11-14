@@ -1,0 +1,39 @@
+{
+  "projectId": 13238,
+  "slug": "gks-festoon-sainikpuri-pid-13238",
+  "projectName": "GKs Festoon",
+  "city": "hyderabad",
+  "totalImages": 2,
+  "cover": "/projects/13238/cover.jpg",
+  "gallery": [
+    "/projects/13238/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/13238/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/72188/original/project1new1.png?1743141092",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 553927
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/13238/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/72189/original/project2new2.png?1743141093",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 981330
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T23:53:58Z"
+}

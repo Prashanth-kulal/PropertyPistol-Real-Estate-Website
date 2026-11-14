@@ -15,6 +15,7 @@ import { getCalicutProjectBySlug, CALICUT_ALL_SLUGS } from "./calicutProjectsReg
 import { getBangaloreProjectBySlug, BANGALORE_ALL_SLUGS } from "./bangaloreProjectsRegistry.js";
 import { getNoidaProjectBySlug, NOIDA_ALL_SLUGS } from "./noidaProjectsRegistry.js";
 import { getPuneProjectBySlug, PUNE_ALL_SLUGS } from "./puneProjectsRegistry.js";
+import { getHyderabadProjectBySlug, HYDERABAD_ALL_SLUGS } from "./hyderabadProjectsRegistry.js";
 
 // Standard Floor Plan Generator Helper
 function generateFloorPlans(typologies = "2, 3 BHK", basePriceStr = "2.5 Cr", carpetAreaStr = "800 - 1,400 sq.ft") {
@@ -879,6 +880,12 @@ export function getProjectBySlug(rawSlug) {
     return puneProject;
   }
 
+  // 2l. Direct match in Hyderabad Projects Registry (720 verified projects)
+  const hyderabadProject = getHyderabadProjectBySlug(cleanSlug);
+  if (hyderabadProject) {
+    return hyderabadProject;
+  }
+
   // 3. Search in DEVELOPERS_DATA
   for (const dev of DEVELOPERS_DATA) {
     for (const city of dev.cities || []) {
@@ -1100,6 +1107,7 @@ export function getAllProjectSlugs() {
   BANGALORE_ALL_SLUGS.forEach((s) => slugs.add(s));
   NOIDA_ALL_SLUGS.forEach((s) => slugs.add(s));
   PUNE_ALL_SLUGS.forEach((s) => slugs.add(s));
+  HYDERABAD_ALL_SLUGS.forEach((s) => slugs.add(s));
   CANONICAL_PROJECTS.forEach((p) => slugs.add(p.slug));
   GLOBAL_PROJECTS.forEach((p) => slugs.add(getProjectSlug(p)));
   DEVELOPERS_DATA.forEach((d) => {

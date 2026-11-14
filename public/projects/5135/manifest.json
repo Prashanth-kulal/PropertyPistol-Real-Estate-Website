@@ -1,0 +1,39 @@
+{
+  "projectId": 5135,
+  "slug": "saket-pranamam-kompally-pid-5135",
+  "projectName": "Saket Pranamam",
+  "city": "hyderabad",
+  "totalImages": 2,
+  "cover": "/projects/5135/cover.jpg",
+  "gallery": [
+    "/projects/5135/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/5135/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/27707/original/project1new.jpg?1740142334",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 366497
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/5135/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/27708/original/project3new.png?1743874257",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 429091
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T23:55:49Z"
+}

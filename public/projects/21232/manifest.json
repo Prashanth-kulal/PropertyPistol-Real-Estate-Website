@@ -1,0 +1,39 @@
+{
+  "projectId": 21232,
+  "slug": "pgr-elira-attapur-pid-21232",
+  "projectName": "PGR Elira",
+  "city": "hyderabad",
+  "totalImages": 2,
+  "cover": "/projects/21232/cover.jpg",
+  "gallery": [
+    "/projects/21232/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/21232/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/157715/original/pgr-elira-3.jpg?1762346779",
+      "width": 1768,
+      "height": 1050,
+      "bytes": 386837
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/21232/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/157716/original/glimpse.jpg?1762346779",
+      "width": 1140,
+      "height": 1091,
+      "bytes": 479439
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T23:59:53Z"
+}

@@ -1,0 +1,39 @@
+{
+  "projectId": 4796,
+  "slug": "candeur-40-miyapur-pid-4796",
+  "projectName": "Candeur 40",
+  "city": "hyderabad",
+  "totalImages": 2,
+  "cover": "/projects/4796/cover.jpg",
+  "gallery": [
+    "/projects/4796/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/4796/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/26938/original/project1new.jpg?1740129013",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 574792
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/4796/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/110577/original/project2new.jpg?1740129015",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 590929
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-14T00:00:45Z"
+}

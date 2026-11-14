@@ -1,0 +1,39 @@
+{
+  "projectId": 13232,
+  "slug": "white-rock-isnapur-pid-13232",
+  "projectName": "White Rock",
+  "city": "hyderabad",
+  "totalImages": 2,
+  "cover": "/projects/13232/cover.jpg",
+  "gallery": [
+    "/projects/13232/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/13232/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/149556/original/3-1_%281%29.jpg?1742815331",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 358522
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/13232/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/149557/original/cf646f253a99898_%281%29.jpeg?1742815331",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 439335
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T23:48:32Z"
+}

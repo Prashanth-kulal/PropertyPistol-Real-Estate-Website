@@ -1,0 +1,39 @@
+{
+  "projectId": 11290,
+  "slug": "sreeniwasam-kondapur-pid-11290",
+  "projectName": "Sreeniwasam",
+  "city": "hyderabad",
+  "totalImages": 2,
+  "cover": "/projects/11290/cover.jpg",
+  "gallery": [
+    "/projects/11290/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/11290/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/52295/original/images_%286%29.jpg?1746011615",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 377006
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/11290/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/52296/original/images_%285%29_%281%29.jpg?1746011615",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 921605
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T23:48:15Z"
+}

@@ -1,0 +1,39 @@
+{
+  "projectId": 13343,
+  "slug": "apr-praveens-golden-leaf-toroor-pid-13343",
+  "projectName": "APR Praveens Golden Leaf",
+  "city": "hyderabad",
+  "totalImages": 2,
+  "cover": "/projects/13343/cover.jpg",
+  "gallery": [
+    "/projects/13343/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/13343/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/73970/original/project1new.jpg?1743527318",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 429019
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/13343/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/73969/original/project2new.jpg?1743527319",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 343619
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T23:51:29Z"
+}

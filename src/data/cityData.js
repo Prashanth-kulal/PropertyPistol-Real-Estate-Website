@@ -12,6 +12,7 @@ import { CALICUT_REGISTRY_PROJECTS } from "./calicutProjectsRegistry.js";
 import { BANGALORE_REGISTRY_PROJECTS } from "./bangaloreProjectsRegistry.js";
 import { NOIDA_REGISTRY_PROJECTS } from "./noidaProjectsRegistry.js";
 import { PUNE_REGISTRY_PROJECTS } from "./puneProjectsRegistry.js";
+import { HYDERABAD_REGISTRY_PROJECTS } from "./hyderabadProjectsRegistry.js";
 
 export const CITY_DETAILS = {
   mumbai: {
@@ -170,8 +171,8 @@ export const CITY_DETAILS = {
     name: "Hyderabad",
     state: "Telangana",
     tagline: "The City of Pearls & Top Performing Real Estate Market",
-    heroImage: "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=1600&q=80",
-    projectsCount: 890,
+    heroImage: "/projects/20581/cover.jpg",
+    projectsCount: 720,
     avgPriceSqFt: "₹8,400",
     appreciationRate: "+15.6% YoY",
     rentalYield: "4.2% p.a.",
@@ -179,12 +180,21 @@ export const CITY_DETAILS = {
     stampDuty: "7.5%",
     description: "Hyderabad boasts unparalleled infrastructure with its 158 km Outer Ring Road, zero water shortages, and booming IT/pharma corridors in Gachibowli and Financial District.",
     localities: [
-      { name: "Gachibowli", avgPrice: "₹9,800 / sq.ft", projects: 92, tag: "Financial District" },
-      { name: "Hitec City", avgPrice: "₹11,200 / sq.ft", projects: 78, tag: "Tech Mega Hub" },
-      { name: "Tellapur", avgPrice: "₹7,600 / sq.ft", projects: 85, tag: "ORR Gateway" },
-      { name: "Kondapur", avgPrice: "₹8,900 / sq.ft", projects: 65, tag: "Lifestyle Center" },
-      { name: "Jubilee Hills", avgPrice: "₹24,000 / sq.ft", projects: 24, tag: "Elite Enclave" },
-      { name: "Kokapet", avgPrice: "₹11,500 / sq.ft", projects: 70, tag: "Neopolis Towers" }
+      { name: "Bachupally", avgPrice: "₹6,200 / sq.ft", projects: 49, tag: "North West Hub" },
+      { name: "Kompally", avgPrice: "₹5,800 / sq.ft", projects: 33, tag: "Green Enclave" },
+      { name: "Kokapet", avgPrice: "₹11,500 / sq.ft", projects: 32, tag: "Neopolis Towers" },
+      { name: "Kondapur", avgPrice: "₹8,900 / sq.ft", projects: 31, tag: "Lifestyle Center" },
+      { name: "Patancheru", avgPrice: "₹4,900 / sq.ft", projects: 27, tag: "Industrial Growth" },
+      { name: "Tellapur", avgPrice: "₹7,600 / sq.ft", projects: 27, tag: "ORR Gateway" },
+      { name: "Kollur", avgPrice: "₹6,800 / sq.ft", projects: 26, tag: "Emerging IT Corridor" },
+      { name: "Miyapur", avgPrice: "₹6,500 / sq.ft", projects: 23, tag: "Metro Terminal" },
+      { name: "Narsingi", avgPrice: "₹8,200 / sq.ft", projects: 23, tag: "ORR Junction" },
+      { name: "Uppal", avgPrice: "₹5,900 / sq.ft", projects: 19, tag: "Eastern Corridor" },
+      { name: "Mokila", avgPrice: "₹5,400 / sq.ft", projects: 15, tag: "Villa Corridor" },
+      { name: "Kukatpally", avgPrice: "₹7,800 / sq.ft", projects: 15, tag: "Commercial Suburb" },
+      { name: "Manikonda", avgPrice: "₹8,100 / sq.ft", projects: 14, tag: "Transit Hub" },
+      { name: "Gachibowli", avgPrice: "₹9,800 / sq.ft", projects: 13, tag: "Financial District" },
+      { name: "Hitec City", avgPrice: "₹11,200 / sq.ft", projects: 12, tag: "Tech Mega Hub" }
     ],
     faqs: [
       {

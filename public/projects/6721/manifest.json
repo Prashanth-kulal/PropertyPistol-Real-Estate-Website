@@ -1,0 +1,39 @@
+{
+  "projectId": 6721,
+  "slug": "qualitas-nestilo-osman-nagar-pid-6721",
+  "projectName": "Qualitas Nestilo",
+  "city": "hyderabad",
+  "totalImages": 2,
+  "cover": "/projects/6721/cover.jpg",
+  "gallery": [
+    "/projects/6721/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/6721/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/29774/original/qual.jpg?1732282183",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 400075
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/6721/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/150384/original/nest.jpg?1744031076",
+      "width": 1440,
+      "height": 1080,
+      "bytes": 294421
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T23:47:37Z"
+}

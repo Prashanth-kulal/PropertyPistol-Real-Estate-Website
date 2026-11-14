@@ -1,0 +1,49 @@
+{
+  "projectId": 15995,
+  "slug": "ssi-som-boulevard-mokila-pid-15995",
+  "projectName": "SSI Som Boulevard",
+  "city": "hyderabad",
+  "totalImages": 3,
+  "cover": "/projects/15995/cover.jpg",
+  "gallery": [
+    "/projects/15995/gallery-1.jpg",
+    "/projects/15995/gallery-2.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/15995/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/148862/original/bu.png?1745663279",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 670658
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/15995/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/121606/original/bu2.png?1745663281",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 528081
+    },
+    {
+      "index": 2,
+      "filename": "gallery-2.jpg",
+      "path": "/projects/15995/gallery-2.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/121607/original/bu3.png?1745663282",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 398933
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T23:51:28Z"
+}

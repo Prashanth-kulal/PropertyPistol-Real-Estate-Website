@@ -1,0 +1,39 @@
+{
+  "projectId": 10299,
+  "slug": "vasavi-metropolis-uppal-pid-10299",
+  "projectName": "Vasavi Metropolis",
+  "city": "hyderabad",
+  "totalImages": 2,
+  "cover": "/projects/10299/cover.jpg",
+  "gallery": [
+    "/projects/10299/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/10299/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/45920/original/pixelcut-export_%2877%29_copy_1440x1920.jpg?1743575745",
+      "width": 1440,
+      "height": 1920,
+      "bytes": 352144
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/10299/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/150020/original/images%2814%29_copy_1440x1920.jpg?1743575745",
+      "width": 1440,
+      "height": 1920,
+      "bytes": 414055
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T23:57:25Z"
+}

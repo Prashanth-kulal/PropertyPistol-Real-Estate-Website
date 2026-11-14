@@ -1,0 +1,39 @@
+{
+  "projectId": 10024,
+  "slug": "sree-kalpa-pristine-bachupally-pid-10024",
+  "projectName": "Sree Kalpa Pristine",
+  "city": "hyderabad",
+  "totalImages": 2,
+  "cover": "/projects/10024/cover.jpg",
+  "gallery": [
+    "/projects/10024/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/10024/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/44292/original/project1new_%2814%29.jpeg?1742993557",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 410586
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/10024/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/44293/original/project2new_%2811%29.jpeg?1742993557",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 511283
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T23:46:30Z"
+}

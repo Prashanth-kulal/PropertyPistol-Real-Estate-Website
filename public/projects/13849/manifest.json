@@ -1,0 +1,39 @@
+{
+  "projectId": 13849,
+  "slug": "my-home-nishada-gandipet-pid-13849",
+  "projectName": "My Home Nishada",
+  "city": "hyderabad",
+  "totalImages": 2,
+  "cover": "/projects/13849/cover.jpg",
+  "gallery": [
+    "/projects/13849/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/13849/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/82841/original/projectimage1.png?1742295343",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 589829
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/13849/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/82840/original/projectimage2.png?1742295344",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 755273
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T23:46:28Z"
+}

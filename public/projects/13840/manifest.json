@@ -1,0 +1,39 @@
+{
+  "projectId": 13840,
+  "slug": "kalpavriksha-bahadurpally-pid-13840",
+  "projectName": "Kalpavriksha",
+  "city": "hyderabad",
+  "totalImages": 2,
+  "cover": "/projects/13840/cover.jpg",
+  "gallery": [
+    "/projects/13840/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/13840/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/82686/original/kal.png?1762151601",
+      "width": 2008,
+      "height": 798,
+      "bytes": 446175
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/13840/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/82687/original/kalpa.png?1762151602",
+      "width": 2032,
+      "height": 601,
+      "bytes": 301897
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T23:53:53Z"
+}

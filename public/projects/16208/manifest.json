@@ -1,0 +1,39 @@
+{
+  "projectId": 16208,
+  "slug": "abinandana-skylark-1-kollur-pid-16208",
+  "projectName": "Abinandana Skylark 1",
+  "city": "hyderabad",
+  "totalImages": 2,
+  "cover": "/projects/16208/cover.jpg",
+  "gallery": [
+    "/projects/16208/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/16208/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/129025/original/sky.png?1745652203",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 386945
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/16208/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/145752/original/skylark_%281%29.jpg?1745652204",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 569059
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T23:55:42Z"
+}

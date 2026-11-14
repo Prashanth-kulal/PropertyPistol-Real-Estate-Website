@@ -1,0 +1,39 @@
+{
+  "projectId": 13346,
+  "slug": "ksr-signature-4-tellapur-pid-13346",
+  "projectName": "KSR Signature 4",
+  "city": "hyderabad",
+  "totalImages": 2,
+  "cover": "/projects/13346/cover.jpg",
+  "gallery": [
+    "/projects/13346/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/13346/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/74011/original/project1new.png?1743527131",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 413700
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/13346/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/74012/original/project2new.jpg?1743527133",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 320339
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T23:57:50Z"
+}

@@ -1,0 +1,39 @@
+{
+  "projectId": 15316,
+  "slug": "nsl-east-luxoria-uppal-pid-15316",
+  "projectName": "NSL East Luxoria",
+  "city": "hyderabad",
+  "totalImages": 2,
+  "cover": "/projects/15316/cover.jpg",
+  "gallery": [
+    "/projects/15316/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/15316/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/106994/original/project1new1.png?1741614416",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 623495
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/15316/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/106995/original/project2new2.png?1741614418",
+      "width": 1920,
+      "height": 1440,
+      "bytes": 1115123
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T23:56:32Z"
+}

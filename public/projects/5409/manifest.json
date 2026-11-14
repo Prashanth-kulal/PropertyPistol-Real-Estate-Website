@@ -1,0 +1,39 @@
+{
+  "projectId": 5409,
+  "slug": "sunyuga-vista-kompally-pid-5409",
+  "projectName": "Sunyuga Vista",
+  "city": "hyderabad",
+  "totalImages": 2,
+  "cover": "/projects/5409/cover.jpg",
+  "gallery": [
+    "/projects/5409/gallery-1.jpg"
+  ],
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/5409/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/138345/original/projectnew.png?1744134696",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 304956
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/5409/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/138346/original/project1new.png?1744134697",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 481646
+    }
+  ],
+  "watermark": {
+    "source": "public/images/logo/logo-emblem.png",
+    "opacity": 0.65,
+    "paddingRatio": 0.03,
+    "scaleRatio": 0.1,
+    "quality": 90
+  },
+  "processedAt": "2026-11-13T23:45:42Z"
+}
