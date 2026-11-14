@@ -706,54 +706,7 @@ export const CITY_PROPERTIES = {
     }
   ],
 
-  hyderabad: [
-    {
-      id: "hyd-1",
-      name: "My Home Sayuk",
-      builder: "My Home Group",
-      builderLogo: "https://images.unsplash.com/photo-1541888946425-d0fbb186f5f7?auto=format&fit=crop&w=120&h=120&q=80",
-      city: "hyderabad",
-      location: "Tellapur, Gachibowli Extension",
-      price: "1.45 Cr",
-      priceNumeric: 14500000,
-      avgPrice: "₹8.8 K / sq.ft",
-      flatTypes: "2 BHK, 3 BHK",
-      carpetArea: "1,350 - 2,250 sq.ft",
-      status: "Under Construction",
-      rera: "P02400004523",
-      tag: "Best Seller",
-      rating: 4.9,
-      type: "Apartment",
-      images: [
-        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80",
-        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=900&q=80"
-      ],
-      features: ["40-Acre Gated Hub", "1 Lakh sqft Clubhouse", "ORR Direct Entry"]
-    },
-    {
-      id: "hyd-2",
-      name: "Aparna Zenon",
-      builder: "Aparna Constructions",
-      builderLogo: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=120&h=120&q=80",
-      city: "hyderabad",
-      location: "Nanakramguda, Financial District",
-      price: "2.1 Cr",
-      priceNumeric: 21000000,
-      avgPrice: "₹10.5 K / sq.ft",
-      flatTypes: "2 BHK, 3 BHK, 4 BHK",
-      carpetArea: "1,450 - 2,800 sq.ft",
-      status: "Ready to Move",
-      rera: "P02400003482",
-      tag: "Ready to Move",
-      rating: 4.8,
-      type: "Apartment",
-      images: [
-        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=80",
-        "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=900&q=80"
-      ],
-      features: ["Walk to Tech Offices", "Helipad Access", "Squash Courts"]
-    }
-  ]
+  hyderabad: HYDERABAD_REGISTRY_PROJECTS
 };
 
 // Returns city projects or smartly generates rich verified mock projects for secondary cities
