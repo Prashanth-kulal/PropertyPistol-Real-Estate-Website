@@ -62,7 +62,7 @@ export default function TopCities({ onSelectCity }) {
   };
 
   return (
-    <section className="py-8 sm:py-10 bg-[#FAF8F4] border-b border-[#E8E3DA] relative overflow-hidden">
+    <section className="pt-5 sm:pt-6 pb-8 sm:pb-10 bg-[#FAF8F4] border-b border-[#E8E3DA] relative overflow-hidden">
       {/* Subtle warm ambient illumination behind frosted glass label */}
       <div
         aria-hidden="true"

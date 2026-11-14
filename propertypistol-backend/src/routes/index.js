@@ -7,6 +7,7 @@ router.use("/me", require("./me"));
 router.use("/property-submissions", require("./submissions"));
 router.use("/tools", require("./tools"));
 router.use("/admin", require("./admin"));
+router.use("/price-trends", require("./priceTrends"));
 router.use("/", require("./catalog"));
 router.use("/", require("./content"));
 

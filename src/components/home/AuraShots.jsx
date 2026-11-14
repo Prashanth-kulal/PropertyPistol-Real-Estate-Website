@@ -57,7 +57,7 @@ export default function AuraShots({ onOpenEmi, onOpenConverter, onOpenConsultati
   };
 
   return (
-    <section id="shots" className="py-14 bg-[#FAF8F4] border-b border-[#E8E3DA]">
+    <section id="shots" className="pt-7 sm:pt-8 pb-14 bg-[#FAF8F4] border-b border-[#E8E3DA]">
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Heading */}
         <div className="mb-8">

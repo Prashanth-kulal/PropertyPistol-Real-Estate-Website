@@ -40,7 +40,7 @@ export default function DevelopersSection({ onSelectDeveloper }) {
   };
 
   return (
-    <section id="featured-developers" className="py-14 bg-white border-b border-[#E8E3DA]">
+    <section id="featured-developers" className="pt-7 sm:pt-8 pb-14 bg-white border-b border-[#E8E3DA]">
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
         {/* Title, Badge & Navigation Controls */}
         <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-8 gap-4">
