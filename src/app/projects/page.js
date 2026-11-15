@@ -6,7 +6,7 @@ import CategoryListingPage from "@/components/category/CategoryListingPage";
 
 function ProjectsPageContent() {
   const searchParams = useSearchParams();
-  const city = searchParams.get("city") || "mumbai";
+  const city = searchParams.get("city") || (searchParams.get("bhk") ? "all" : "mumbai");
   return <CategoryListingPage cityId={city} categorySlug="projects" />;
 }
 

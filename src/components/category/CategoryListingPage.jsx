@@ -1,8 +1,8 @@
 "use client";
 
-import React, { useState, useMemo, useEffect } from "react";
+import React, { useState, useMemo, useEffect, useRef } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import {
   MapPin,
   Search,
@@ -10,6 +10,7 @@ import {
   ChevronDown,
   ChevronUp,
   Building,
+  Building2,
   ShieldCheck,
   PhoneCall,
   Download,
@@ -39,9 +40,10 @@ import WishlistButton from "@/components/common/WishlistButton";
 import CompareCheckbox from "@/components/common/CompareCheckbox";
 import CompareTray from "@/components/common/CompareTray";
 import { useWishlist } from "@/context/WishlistContext";
-import { CITIES, getProjectSlug } from "@/data";
+import { CITIES, PROJECTS, getProjectSlug } from "@/data";
 import { getCityDetails, getPropertiesForCity } from "@/data/cityData";
 import { resolveCategory } from "@/data/categoryData";
+import { getSearchSuggestions, interpretSearchQuery } from "@/data/searchIndex";
 
 // Helper for dynamic numbered pagination with ellipses (matching Screenshot 2)
 function getPageNumbers(current, total) {
@@ -59,10 +61,16 @@ function getPageNumbers(current, total) {
 
 export default function CategoryListingPage({ cityId = "mumbai", categorySlug = "new-projects" }) {
   const router = useRouter();
+  const searchParams = useSearchParams();
 
   // Normalize city & category
   const normalizedCityId = (cityId || "mumbai").toLowerCase().trim();
+  const isPanIndia = normalizedCityId === "all" || normalizedCityId === "pan-india";
+
   const matchedCity = useMemo(() => {
+    if (isPanIndia) {
+      return { id: "all", name: "All Cities (Pan-India)", state: "India" };
+    }
     return (
       CITIES.find(
         (c) =>
@@ -70,19 +78,31 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
           c.name.toLowerCase() === normalizedCityId.replace(/-/g, " ")
       ) || CITIES[0]
     );
-  }, [normalizedCityId]);
+  }, [normalizedCityId, isPanIndia]);
 
   const categoryConfig = useMemo(() => {
     return resolveCategory(categorySlug);
   }, [categorySlug]);
 
   const cityData = useMemo(() => {
+    if (isPanIndia) {
+      return {
+        id: "all",
+        name: "All Cities",
+        state: "Pan-India",
+        projectsCount: PROJECTS.length,
+        description: "Explore verified luxury residential properties across top Indian metropolitan regions."
+      };
+    }
     return getCityDetails(matchedCity.id);
-  }, [matchedCity.id]);
+  }, [matchedCity.id, isPanIndia]);
 
   const rawProperties = useMemo(() => {
+    if (isPanIndia) {
+      return PROJECTS;
+    }
     return getPropertiesForCity(matchedCity.id);
-  }, [matchedCity.id]);
+  }, [matchedCity.id, isPanIndia]);
 
   // Wishlist context
   const { savedCount } = useWishlist ? useWishlist() : { savedCount: 0 };
@@ -100,6 +120,207 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
   const [selectedPossession, setSelectedPossession] = useState("all");
   const [sortBy, setSortBy] = useState("relevance");
   const [showMobileFilterDrawer, setShowMobileFilterDrawer] = useState(false);
+
+  // Autocomplete Suggestions State for Sub-Search Bar
+  const [showSuggestions, setShowSuggestions] = useState(false);
+  const [highlightedSuggestionIndex, setHighlightedSuggestionIndex] = useState(-1);
+  const searchContainerRef = useRef(null);
+
+  // Close suggestions on outside click/touch
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (searchContainerRef.current && !searchContainerRef.current.contains(event.target)) {
+        setShowSuggestions(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    document.addEventListener("touchstart", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener("touchstart", handleClickOutside);
+    };
+  }, []);
+
+  // Reset highlight on query change
+  useEffect(() => {
+    setHighlightedSuggestionIndex(-1);
+  }, [searchQuery]);
+
+  // Read and apply URL query parameters on initial load / navigation changes
+  useEffect(() => {
+    if (!searchParams) return;
+
+    // 1. BHK Filter from URL: ?bhk=2 or ?bhk=2bhk or ?bhk=2+BHK
+    const rawBhk = searchParams.get("bhk");
+    if (rawBhk) {
+      const bClean = rawBhk.toLowerCase().trim().replace(/[-_]+/g, "");
+      if (bClean.startsWith("1")) setSelectedBhk("1 BHK");
+      else if (bClean.startsWith("2")) setSelectedBhk("2 BHK");
+      else if (bClean.startsWith("3")) setSelectedBhk("3 BHK");
+      else if (bClean.startsWith("4+")) setSelectedBhk("4+ BHK");
+      else if (bClean.startsWith("4")) setSelectedBhk("4 BHK");
+    }
+
+    // 2. Locality Filter from URL: ?locality=Baner
+    const rawLocality = searchParams.get("locality");
+    if (rawLocality) {
+      setSearchQuery(rawLocality);
+    }
+
+    // 3. Developer Filter from URL: ?developer=Godrej
+    const rawDeveloper = searchParams.get("developer");
+    if (rawDeveloper) {
+      setSearchQuery(rawDeveloper);
+    }
+
+    // 4. Free text Search / Q from URL: ?q=... or ?search=...
+    const rawQ = searchParams.get("search") || searchParams.get("q");
+    if (rawQ) {
+      const qClean = rawQ.toLowerCase().trim();
+      const bhkMatch = qClean.match(/^(\d+(?:\.5)?)\s*bhk$/i) || qClean.replace(/[^a-z0-9]/g, "").match(/^(\d+(?:\.5)?)\s*bhk$/i);
+      if (bhkMatch) {
+        const num = bhkMatch[1];
+        if (num === "1") setSelectedBhk("1 BHK");
+        else if (num === "2") setSelectedBhk("2 BHK");
+        else if (num === "3") setSelectedBhk("3 BHK");
+        else if (num.startsWith("4") && num !== "4") setSelectedBhk("4+ BHK");
+        else if (num === "4") setSelectedBhk("4 BHK");
+      } else {
+        setSearchQuery(rawQ);
+      }
+    }
+
+    // 5. Budget from URL: ?budget=70l-1cr
+    const rawBudget = searchParams.get("budget");
+    if (rawBudget) {
+      setSelectedBudget(rawBudget);
+    }
+  }, [searchParams]);
+
+  // Suggestions for Sub-Search Bar
+  const suggestions = useMemo(() => {
+    return getSearchSuggestions(searchQuery, isPanIndia ? "" : matchedCity.id, 8);
+  }, [searchQuery, isPanIndia, matchedCity.id]);
+
+  const handleSelectSuggestion = (item) => {
+    setShowSuggestions(false);
+    setHighlightedSuggestionIndex(-1);
+    if (!item) return;
+
+    if (item.type === "project") {
+      router.push(item.destination || `/projects/${item.slug || item.id}`);
+    } else if (item.type === "bhk") {
+      setSelectedBhk(`${item.bhk} BHK`);
+      setSearchQuery("");
+      if (item.city && item.city !== matchedCity.id) {
+        router.push(`/${item.city}?bhk=${item.bhk}`);
+      }
+    } else if (item.type === "locality") {
+      setSearchQuery(item.title);
+      if (item.city && item.city !== matchedCity.id) {
+        router.push(`/${item.city}?locality=${encodeURIComponent(item.title)}`);
+      }
+    } else if (item.type === "developer") {
+      if (item.destination && item.destination.startsWith("/developers/")) {
+        router.push(item.destination);
+      } else {
+        setSearchQuery(item.title);
+      }
+    } else if (item.type === "city") {
+      router.push(`/${item.city}`);
+    } else if (item.destination) {
+      router.push(item.destination);
+    }
+  };
+
+  const handleSubSearchKeyDown = (e) => {
+    if (!showSuggestions || suggestions.length === 0) {
+      if (e.key === "Enter") {
+        handleSubSearchSubmit(e);
+      }
+      return;
+    }
+
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      setHighlightedSuggestionIndex((prev) => (prev + 1) % suggestions.length);
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      setHighlightedSuggestionIndex((prev) => (prev - 1 + suggestions.length) % suggestions.length);
+    } else if (e.key === "Enter") {
+      e.preventDefault();
+      if (highlightedSuggestionIndex >= 0 && highlightedSuggestionIndex < suggestions.length) {
+        handleSelectSuggestion(suggestions[highlightedSuggestionIndex]);
+      } else {
+        handleSubSearchSubmit(e);
+      }
+    } else if (e.key === "Escape") {
+      e.preventDefault();
+      setShowSuggestions(false);
+    }
+  };
+
+  const handleSubSearchSubmit = (e) => {
+    e?.preventDefault();
+    setShowSuggestions(false);
+
+    if (highlightedSuggestionIndex >= 0 && highlightedSuggestionIndex < suggestions.length) {
+      handleSelectSuggestion(suggestions[highlightedSuggestionIndex]);
+      return;
+    }
+
+    if (!searchQuery.trim()) return;
+
+    const interpreted = interpretSearchQuery(searchQuery, isPanIndia ? "" : matchedCity.id);
+    if (interpreted.type === "bhk") {
+      setSelectedBhk(interpreted.bhkLabel);
+      setSearchQuery("");
+      return;
+    }
+    if (interpreted.type === "project") {
+      router.push(interpreted.destination);
+      return;
+    }
+    if (interpreted.type === "city" && interpreted.city !== matchedCity.id) {
+      router.push(interpreted.destination);
+      return;
+    }
+    if (interpreted.type === "developer" && interpreted.slug) {
+      router.push(interpreted.destination);
+      return;
+    }
+  };
+
+  const getSuggestionIcon = (type) => {
+    switch (type) {
+      case "city":
+      case "locality":
+        return <MapPin className="w-4 h-4 text-[#EA580C] shrink-0" />;
+      case "developer":
+        return <Building2 className="w-4 h-4 text-[#167C80] shrink-0" />;
+      case "bhk":
+        return <Home className="w-4 h-4 text-[#EA580C] shrink-0" />;
+      case "project":
+      default:
+        return <Building className="w-4 h-4 text-gray-500 shrink-0" />;
+    }
+  };
+
+  const getBadgeStyle = (badge) => {
+    switch (badge) {
+      case "CITY":
+        return "bg-amber-100 text-[#AE7419] border-amber-200";
+      case "LOCALITY":
+        return "bg-[#FBF1DF] text-[#AE7419] border-[#D29324]/30";
+      case "DEVELOPER":
+        return "bg-teal-50 text-[#167C80] border-[#167C80]/30";
+      case "CONFIG":
+        return "bg-purple-50 text-purple-700 border-purple-200";
+      case "PROJECT":
+      default:
+        return "bg-gray-100 text-gray-700 border-gray-200";
+    }
+  };
 
   // Quick Filter Chips State (Screenshot 1: New Projects, Ready to Move, 70 L - 1 Cr, Possession in 1 Year)
   const isCompleteCollection =
@@ -342,15 +563,26 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
       });
     }
 
-    // Search input
+    // Search input (supports standard and compact matching across name, builder, locality, location)
     if (searchQuery.trim()) {
       const q = searchQuery.toLowerCase().trim();
-      list = list.filter(
-        (p) =>
-          p.name.toLowerCase().includes(q) ||
-          p.builder.toLowerCase().includes(q) ||
-          p.location.toLowerCase().includes(q)
-      );
+      const qCompact = q.replace(/[^a-z0-9]/g, "");
+      list = list.filter((p) => {
+        const nNorm = (p.name || "").toLowerCase();
+        const bNorm = (p.builder || "").toLowerCase();
+        const lNorm = (p.location || "").toLowerCase();
+        const locNorm = (p.locality || "").toLowerCase();
+        const nComp = nNorm.replace(/[^a-z0-9]/g, "");
+        const bComp = bNorm.replace(/[^a-z0-9]/g, "");
+        const lComp = lNorm.replace(/[^a-z0-9]/g, "");
+        const locComp = locNorm.replace(/[^a-z0-9]/g, "");
+        return (
+          nNorm.includes(q) || nComp.includes(qCompact) ||
+          bNorm.includes(q) || bComp.includes(qCompact) ||
+          lNorm.includes(q) || lComp.includes(qCompact) ||
+          locNorm.includes(q) || locComp.includes(qCompact)
+        );
+      });
     }
 
     // Sorting
@@ -430,23 +662,111 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
           </button>
 
           {/* Search Input matching Screenshot 1 */}
-          <div className="relative flex-1 max-w-xl">
-            <Search className="w-4 h-4 text-gray-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
+          <div ref={searchContainerRef} className="relative flex-1 max-w-xl">
+            <Search className="w-4 h-4 text-gray-400 absolute left-3.5 top-1/2 -translate-y-1/2 z-10" />
             <input
               type="text"
               value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
+              onChange={(e) => {
+                setSearchQuery(e.target.value);
+                setShowSuggestions(true);
+              }}
+              onFocus={() => setShowSuggestions(true)}
+              onKeyDown={handleSubSearchKeyDown}
               placeholder="Enter Locality, Property or Developer"
               className="w-full pl-10 pr-8 py-2 rounded-xl border border-gray-200 bg-white text-xs text-gray-800 placeholder-gray-400 focus:outline-hidden focus:border-[#EA580C] transition-colors"
             />
             {searchQuery && (
               <button
                 type="button"
-                onClick={() => setSearchQuery("")}
-                className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 text-sm cursor-pointer"
+                onClick={() => {
+                  setSearchQuery("");
+                  setShowSuggestions(false);
+                }}
+                className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 text-sm cursor-pointer z-10"
               >
                 &times;
               </button>
+            )}
+
+            {/* Suggestions Dropdown */}
+            {showSuggestions && searchQuery.trim().length > 0 && (
+              <div
+                role="listbox"
+                aria-label="Search suggestions"
+                className="absolute top-full left-0 right-0 mt-2 bg-white rounded-2xl shadow-2xl border border-gray-200 p-2 z-50 ring-1 ring-black/5 max-h-[380px] overflow-y-auto no-scrollbar space-y-1"
+              >
+                <div className="flex items-center justify-between px-3 py-1.5 border-b border-gray-100 mb-1 text-[11px] font-bold text-gray-400 uppercase tracking-wider">
+                  <span>
+                    {isPanIndia ? "Pan-India Suggestions" : `Suggestions in ${matchedCity.name}`}
+                  </span>
+                  <span className="text-[10px] lowercase font-normal text-gray-400">
+                    {suggestions.length} {suggestions.length === 1 ? "match" : "matches"}
+                  </span>
+                </div>
+
+                {suggestions.length > 0 ? (
+                  suggestions.map((item, idx) => {
+                    const isHighlighted = highlightedSuggestionIndex === idx;
+                    return (
+                      <button
+                        key={item.id || `${item.type}-${idx}`}
+                        type="button"
+                        role="option"
+                        aria-selected={isHighlighted}
+                        onMouseEnter={() => setHighlightedSuggestionIndex(idx)}
+                        onClick={() => handleSelectSuggestion(item)}
+                        className={`w-full text-left px-3 py-2.5 rounded-xl flex items-center justify-between gap-3 text-xs transition-colors cursor-pointer border ${
+                          isHighlighted
+                            ? "bg-[#FAF8F4] text-gray-900 border-[#EA580C]/40 shadow-xs"
+                            : "border-transparent hover:bg-[#FAF8F4] text-gray-800"
+                        }`}
+                      >
+                        <div className="flex items-center gap-3 min-w-0 flex-1">
+                          <div className="p-1.5 rounded-lg bg-gray-50 border border-gray-100 shrink-0">
+                            {getSuggestionIcon(item.type)}
+                          </div>
+                          <div className="min-w-0 flex-1">
+                            <div className="flex items-center gap-2">
+                              <span className="font-bold text-gray-900 truncate text-[13px]">
+                                {item.title}
+                              </span>
+                              <span
+                                className={`text-[9.5px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded-md border shrink-0 ${getBadgeStyle(
+                                  item.badge
+                                )}`}
+                              >
+                                {item.badge}
+                              </span>
+                            </div>
+                            <div className="text-gray-500 text-[11px] truncate mt-0.5 font-normal">
+                              {item.subtitle}
+                            </div>
+                          </div>
+                        </div>
+
+                        {item.price && (
+                          <div className="shrink-0 text-right ml-2">
+                            <span className="font-bold text-[#AE7419] text-xs">
+                              ₹{item.price}
+                            </span>
+                          </div>
+                        )}
+                      </button>
+                    );
+                  })
+                ) : (
+                  <div className="px-4 py-6 text-center">
+                    <div className="text-xs font-semibold text-gray-700">
+                      No matching properties found
+                      {!isPanIndia ? ` in ${matchedCity.name}` : ""}
+                    </div>
+                    <div className="text-[11px] text-gray-400 mt-1">
+                      Try searching for another locality, developer, project name, or BHK configuration.
+                    </div>
+                  </div>
+                )}
+              </div>
             )}
           </div>
 

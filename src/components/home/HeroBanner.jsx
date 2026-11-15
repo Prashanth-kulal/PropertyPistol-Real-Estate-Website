@@ -12,9 +12,13 @@ import {
   Train,
   Car,
   MapPin,
-  Check
+  Check,
+  Building,
+  Building2,
+  Home
 } from "lucide-react";
-import { CITIES, PROJECTS } from "@/data";
+import { CITIES } from "@/data";
+import { getSearchSuggestions, interpretSearchQuery } from "@/data/searchIndex";
 
 export default function HeroBanner({
   selectedCity,
@@ -30,6 +34,10 @@ export default function HeroBanner({
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [activeTab, setActiveTab] = useState("ai");
 
+  // Autocomplete Suggestions State
+  const [highlightedSuggestionIndex, setHighlightedSuggestionIndex] = useState(-1);
+  const searchContainerRef = useRef(null);
+
   // City Dropdown state
   const [isCityDropdownOpen, setIsCityDropdownOpen] = useState(false);
   const [citySearchQuery, setCitySearchQuery] = useState("");
@@ -37,11 +45,14 @@ export default function HeroBanner({
   const cityDropdownRef = useRef(null);
   const cityInputRef = useRef(null);
 
-  // Close dropdown on click or touch outside
+  // Close dropdowns on click or touch outside
   useEffect(() => {
     function handleClickOutside(event) {
       if (cityDropdownRef.current && !cityDropdownRef.current.contains(event.target)) {
         setIsCityDropdownOpen(false);
+      }
+      if (searchContainerRef.current && !searchContainerRef.current.contains(event.target)) {
+        setShowSuggestions(false);
       }
     }
     document.addEventListener("mousedown", handleClickOutside);
@@ -51,6 +62,11 @@ export default function HeroBanner({
       document.removeEventListener("touchstart", handleClickOutside);
     };
   }, []);
+
+  // Reset highlighted suggestion index when query or city changes
+  useEffect(() => {
+    setHighlightedSuggestionIndex(-1);
+  }, [searchInput, selectedCity]);
 
   const currentCityObj =
     CITIES.find((c) => c.id.toLowerCase() === (selectedCity || "").toLowerCase()) || {
@@ -75,6 +91,8 @@ export default function HeroBanner({
     setIsCityDropdownOpen(false);
     setCitySearchQuery("");
     setHighlightedIndex(-1);
+    setShowSuggestions(false);
+    setHighlightedSuggestionIndex(-1);
     if (onSelectCity) {
       onSelectCity(cityId);
     } else {
@@ -110,38 +128,131 @@ export default function HeroBanner({
     }
   };
 
+  // Smart real-time search suggestions across cities/localities/developers/configs/projects
+  const suggestions = useMemo(() => {
+    return getSearchSuggestions(searchInput, selectedCity, 8);
+  }, [searchInput, selectedCity]);
+
+  const handleSelectSuggestion = (item) => {
+    setShowSuggestions(false);
+    setHighlightedSuggestionIndex(-1);
+    if (!item) return;
+
+    setSearchInput(item.title);
+
+    if (item.destination) {
+      router.push(item.destination);
+    } else if (item.type === "city") {
+      router.push(`/${item.city}`);
+    } else if (item.type === "project") {
+      router.push(`/projects/${item.slug || item.id}`);
+    } else if (item.type === "locality") {
+      router.push(`/${item.city}`);
+    } else if (item.type === "developer") {
+      router.push(item.destination || `/developers/${item.slug}`);
+    } else if (item.type === "bhk") {
+      router.push(item.city ? `/${item.city}` : "/projects");
+    }
+  };
+
+  const handleSearchKeyDown = (e) => {
+    if (!showSuggestions || suggestions.length === 0) {
+      if (e.key === "Enter") {
+        handleSearchSubmit(e);
+      }
+      return;
+    }
+
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      setHighlightedSuggestionIndex((prev) => (prev + 1) % suggestions.length);
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      setHighlightedSuggestionIndex((prev) => (prev - 1 + suggestions.length) % suggestions.length);
+    } else if (e.key === "Enter") {
+      e.preventDefault();
+      if (highlightedSuggestionIndex >= 0 && highlightedSuggestionIndex < suggestions.length) {
+        handleSelectSuggestion(suggestions[highlightedSuggestionIndex]);
+      } else {
+        handleSearchSubmit(e);
+      }
+    } else if (e.key === "Escape") {
+      e.preventDefault();
+      setShowSuggestions(false);
+    }
+  };
+
   const handleSearchSubmit = (e) => {
     e?.preventDefault();
+    setShowSuggestions(false);
+
+    if (highlightedSuggestionIndex >= 0 && highlightedSuggestionIndex < suggestions.length) {
+      handleSelectSuggestion(suggestions[highlightedSuggestionIndex]);
+      return;
+    }
+
+    if (!searchInput || !searchInput.trim()) {
+      const cityKey = (selectedCity || "").toLowerCase().trim();
+      if (cityKey && cityKey !== "all" && !isCityPage) {
+        router.push(`/${cityKey}`);
+        return;
+      }
+      if (onSearch) onSearch("");
+      const el = document.getElementById("top-projects");
+      if (el) el.scrollIntoView({ behavior: "smooth" });
+      return;
+    }
+
+    const interpreted = interpretSearchQuery(searchInput, selectedCity);
+    if (interpreted && interpreted.destination) {
+      router.push(interpreted.destination);
+      return;
+    }
+
     if (onSearch) {
       onSearch(searchInput);
     }
+
+    const cityKey = (selectedCity || "").toLowerCase().trim();
+    if (cityKey && cityKey !== "all" && !isCityPage) {
+      router.push(`/${cityKey}`);
+      return;
+    }
+
     const el = document.getElementById("top-projects");
     if (el) el.scrollIntoView({ behavior: "smooth" });
   };
 
-  // Filter suggestion list across all catalog projects
-  const matchingProjects = useMemo(() => {
-    if (!searchInput || !searchInput.trim()) return [];
-    const q = searchInput.toLowerCase().trim();
-    const cityKey = (selectedCity || "mumbai").toLowerCase();
+  const getSuggestionIcon = (type) => {
+    switch (type) {
+      case "city":
+      case "locality":
+        return <MapPin className="w-4 h-4 text-[#D29324] shrink-0" />;
+      case "developer":
+        return <Building2 className="w-4 h-4 text-[#167C80] shrink-0" />;
+      case "bhk":
+        return <Home className="w-4 h-4 text-[#D29324] shrink-0" />;
+      case "project":
+      default:
+        return <Building className="w-4 h-4 text-gray-500 shrink-0" />;
+    }
+  };
 
-    const matches = PROJECTS.filter((p) => {
-      const nameMatch = p.name && p.name.toLowerCase().includes(q);
-      const locMatch = p.location && p.location.toLowerCase().includes(q);
-      const localityMatch = p.locality && p.locality.toLowerCase().includes(q);
-      const builderMatch = p.builder && p.builder.toLowerCase().includes(q);
-      const regionMatch = p.region && p.region.toLowerCase().includes(q);
-      return nameMatch || locMatch || localityMatch || builderMatch || regionMatch;
-    });
-
-    matches.sort((a, b) => {
-      const aCity = a.city?.toLowerCase() === cityKey ? -1 : 1;
-      const bCity = b.city?.toLowerCase() === cityKey ? -1 : 1;
-      return aCity - bCity;
-    });
-
-    return matches.slice(0, 6);
-  }, [searchInput, selectedCity]);
+  const getBadgeStyle = (badge) => {
+    switch (badge) {
+      case "CITY":
+        return "bg-amber-100 text-[#AE7419] border-amber-200";
+      case "LOCALITY":
+        return "bg-[#FBF1DF] text-[#AE7419] border-[#D29324]/30";
+      case "DEVELOPER":
+        return "bg-teal-50 text-[#167C80] border-[#167C80]/30";
+      case "CONFIG":
+        return "bg-purple-50 text-purple-700 border-purple-200";
+      case "PROJECT":
+      default:
+        return "bg-gray-100 text-gray-700 border-gray-200";
+    }
+  };
 
   return (
     <section className="relative w-full overflow-hidden sm:overflow-visible bg-[#1C1B18] bg-[url('/images/hero-luxury-residence.jpg')] bg-cover bg-center bg-no-repeat pt-8 pb-10 sm:pt-14 sm:pb-16 min-h-[440px] sm:min-h-[490px] lg:min-h-[520px] flex flex-col justify-center transition-all duration-300">
@@ -315,7 +426,11 @@ export default function HeroBanner({
                 <div className="flex items-center gap-2 min-w-0">
                   <MapPin className="w-3.5 h-3.5 text-[#D29324] shrink-0" />
                   <span className="font-bold truncate max-w-[140px] sm:max-w-none">
-                    {isCityPage ? currentCityObj.name : "Select City"}
+                    {isCityPage
+                      ? currentCityObj.name
+                      : selectedCity && selectedCity !== "all"
+                      ? currentCityObj.name
+                      : "Select City"}
                   </span>
                 </div>
                 <ChevronDown
@@ -383,6 +498,36 @@ export default function HeroBanner({
                     <span className="text-[10px] font-bold text-gray-400 uppercase tracking-wider block mb-1 px-1">
                       {citySearchQuery ? "Search Results" : "All Operating Cities"}
                     </span>
+                    {!citySearchQuery && (
+                      <button
+                        type="button"
+                        role="option"
+                        aria-selected={!selectedCity || selectedCity === "all"}
+                        onClick={() => handleCitySelect("all")}
+                        className={`w-full text-left px-3 py-2 rounded-xl flex items-center justify-between text-xs transition-colors cursor-pointer mb-1 border-b border-gray-100 ${
+                          !selectedCity || selectedCity === "all"
+                            ? "bg-[#FBF1DF] text-[#AE7419] font-bold"
+                            : "text-gray-700 hover:bg-[#FAF8F4]"
+                        }`}
+                      >
+                        <div className="flex items-center gap-2 min-w-0">
+                          <MapPin
+                            className={`w-3.5 h-3.5 shrink-0 ${
+                              !selectedCity || selectedCity === "all"
+                                ? "text-[#D29324]"
+                                : "text-gray-400"
+                            }`}
+                          />
+                          <div className="truncate">
+                            <span className="font-semibold text-gray-900">All Cities (Pan-India)</span>
+                            <span className="text-[10px] text-gray-400 ml-1.5">(National Search)</span>
+                          </div>
+                        </div>
+                        {(!selectedCity || selectedCity === "all") && (
+                          <Check className="w-3.5 h-3.5 text-[#D29324]" />
+                        )}
+                      </button>
+                    )}
                     {filteredDropdownCities.length > 0 ? (
                       filteredDropdownCities.map((city, idx) => {
                         const isSelected = selectedCity?.toLowerCase() === city.id.toLowerCase();
@@ -460,7 +605,10 @@ export default function HeroBanner({
             <div className="hidden sm:block h-7 w-px bg-gray-200 mx-1" />
 
             {/* Locality, Property, Developer Input */}
-            <div className="relative flex-1 flex items-center bg-gray-50/80 sm:bg-transparent border border-gray-200/80 sm:border-transparent rounded-xl px-2.5 sm:px-0 py-1 sm:py-0">
+            <div
+              ref={searchContainerRef}
+              className="relative flex-1 flex items-center bg-gray-50/80 sm:bg-transparent border border-gray-200/80 sm:border-transparent rounded-xl px-2.5 sm:px-0 py-1 sm:py-0"
+            >
               <Search className="w-4 h-4 text-gray-400 ml-1 sm:ml-2 mr-2 shrink-0" />
               <input
                 type="text"
@@ -471,6 +619,7 @@ export default function HeroBanner({
                   setShowSuggestions(true);
                 }}
                 onFocus={() => setShowSuggestions(true)}
+                onKeyDown={handleSearchKeyDown}
                 className="w-full bg-transparent text-xs sm:text-sm text-gray-800 placeholder-gray-400 focus:outline-hidden py-1.5 font-medium"
               />
 
@@ -497,36 +646,85 @@ export default function HeroBanner({
                 <SlidersHorizontal className="w-4 h-4" />
               </button>
 
-              {/* Suggestions Dropdown */}
+              {/* Autocomplete Suggestions Dropdown */}
               {showSuggestions && searchInput.trim().length > 0 && (
-                <div className="absolute top-full left-0 right-0 mt-3 bg-white rounded-xl shadow-2xl border border-gray-100 p-2 z-40 space-y-1">
-                  <div className="text-[10px] font-bold text-gray-400 px-3 py-1 uppercase tracking-wider">
-                    Matching Projects in {currentCityObj.name}
+                <div
+                  role="listbox"
+                  aria-label="Search suggestions"
+                  className="absolute top-full left-0 right-0 mt-3 bg-white rounded-2xl shadow-2xl border border-[#E8E3DA] p-2 z-50 animate-in fade-in slide-in-from-top-2 duration-150 ring-1 ring-black/5 max-h-[380px] overflow-y-auto no-scrollbar space-y-1"
+                >
+                  <div className="flex items-center justify-between px-3 py-1.5 border-b border-gray-100 mb-1 text-[11px] font-bold text-gray-400 uppercase tracking-wider">
+                    <span>
+                      {selectedCity && selectedCity !== "all"
+                        ? `Suggestions in ${currentCityObj?.name || selectedCity}`
+                        : "Top Pan-India Suggestions"}
+                    </span>
+                    <span className="text-[10px] lowercase font-normal text-gray-400">
+                      {suggestions.length} {suggestions.length === 1 ? "match" : "matches"}
+                    </span>
                   </div>
-                  {matchingProjects.length > 0 ? (
-                    matchingProjects.map((proj) => (
-                      <button
-                        key={proj.id}
-                        type="button"
-                        onClick={() => {
-                          setSearchInput(proj.name);
-                          setShowSuggestions(false);
-                          router.push(`/projects/${proj.slug || proj.id}`);
-                        }}
-                        className="w-full text-left px-3 py-2 rounded-lg hover:bg-[#FAF8F4] flex items-center justify-between text-xs transition-colors"
-                      >
-                        <div>
-                          <div className="font-bold text-gray-900">{proj.name}</div>
-                          <div className="text-gray-500 text-[11px]">
-                            {proj.location} • {proj.builder}
+
+                  {suggestions.length > 0 ? (
+                    suggestions.map((item, idx) => {
+                      const isHighlighted = highlightedSuggestionIndex === idx;
+                      return (
+                        <button
+                          key={item.id || `${item.type}-${idx}`}
+                          type="button"
+                          role="option"
+                          aria-selected={isHighlighted}
+                          onMouseEnter={() => setHighlightedSuggestionIndex(idx)}
+                          onClick={() => handleSelectSuggestion(item)}
+                          className={`w-full text-left px-3 py-2.5 rounded-xl flex items-center justify-between gap-3 text-xs transition-colors cursor-pointer border ${
+                            isHighlighted
+                              ? "bg-[#FAF8F4] text-gray-900 border-[#D29324]/40 shadow-xs"
+                              : "border-transparent hover:bg-[#FAF8F4] text-gray-800"
+                          }`}
+                        >
+                          <div className="flex items-center gap-3 min-w-0 flex-1">
+                            <div className="p-1.5 rounded-lg bg-gray-50 border border-gray-100 shrink-0">
+                              {getSuggestionIcon(item.type)}
+                            </div>
+                            <div className="min-w-0 flex-1">
+                              <div className="flex items-center gap-2">
+                                <span className="font-bold text-gray-900 truncate text-[13px]">
+                                  {item.title}
+                                </span>
+                                <span
+                                  className={`text-[9.5px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded-md border shrink-0 ${getBadgeStyle(
+                                    item.badge
+                                  )}`}
+                                >
+                                  {item.badge}
+                                </span>
+                              </div>
+                              <div className="text-gray-500 text-[11px] truncate mt-0.5 font-normal">
+                                {item.subtitle}
+                              </div>
+                            </div>
                           </div>
-                        </div>
-                        <span className="font-bold text-[#AE7419]">₹{proj.price}</span>
-                      </button>
-                    ))
+
+                          {item.price && (
+                            <div className="shrink-0 text-right ml-2">
+                              <span className="font-bold text-[#AE7419] text-xs">
+                                ₹{item.price}
+                              </span>
+                            </div>
+                          )}
+                        </button>
+                      );
+                    })
                   ) : (
-                    <div className="px-3 py-2 text-xs text-gray-400">
-                      Press &apos;Find Property&apos; to search all listings.
+                    <div className="px-4 py-6 text-center">
+                      <div className="text-xs font-semibold text-gray-700">
+                        No matching properties found
+                        {selectedCity && selectedCity !== "all"
+                          ? ` in ${currentCityObj?.name || selectedCity}`
+                          : ""}
+                      </div>
+                      <div className="text-[11px] text-gray-400 mt-1">
+                        Try searching for another locality, developer, project name, or BHK configuration.
+                      </div>
                     </div>
                   )}
                 </div>

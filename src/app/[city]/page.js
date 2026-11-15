@@ -1,8 +1,9 @@
 "use client";
 
 import React, { useState, useMemo, Suspense, useRef } from "react";
-import { useParams, useRouter } from "next/navigation";
+import { useParams, useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
+import CategoryListingPage from "@/components/category/CategoryListingPage";
 import {
   MapPin,
   ChevronLeft,
@@ -82,6 +83,25 @@ function CityPageContent() {
   const priceTrendsData = useMemo(() => {
     return getPriceTrendsForCity(matchedCity ? matchedCity.id : cityId);
   }, [matchedCity, cityId]);
+
+  // If query filter parameters are present (e.g. ?bhk=2, ?locality=Baner, ?developer=Godrej),
+  // immediately render the city listing page with the corresponding filters active
+  const searchParams = useSearchParams();
+  const bhkParam = searchParams?.get("bhk");
+  const localityParam = searchParams?.get("locality");
+  const developerParam = searchParams?.get("developer");
+  const qParam = searchParams?.get("search") || searchParams?.get("q");
+
+  const hasFilterParams = Boolean(bhkParam || localityParam || developerParam || qParam);
+
+  if (hasFilterParams) {
+    return (
+      <CategoryListingPage
+        cityId={matchedCity ? matchedCity.id : cityId}
+        categorySlug="projects"
+      />
+    );
+  }
 
   // Modals state
   const [isCityModalOpen, setIsCityModalOpen] = useState(false);

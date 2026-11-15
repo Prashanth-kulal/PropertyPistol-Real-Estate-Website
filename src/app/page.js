@@ -24,7 +24,7 @@ import AuraAiModal from "@/components/common/AuraAiModal";
 
 export default function HomePage() {
   const router = useRouter();
-  const [selectedCity, setSelectedCity] = useState("mumbai");
+  const [selectedCity, setSelectedCity] = useState("");
   const [searchQuery, setSearchQuery] = useState("");
 
   // Modals state
@@ -86,7 +86,7 @@ export default function HomePage() {
     <div className="min-h-screen flex flex-col bg-white text-[#252525] selection:bg-[#D29324] selection:text-white">
       {/* 1. Header with Sticky Search Bar & Nav */}
       <Header
-        selectedCity={selectedCity}
+        selectedCity={selectedCity || "mumbai"}
         onOpenCityModal={() => setIsCityModalOpen(true)}
         onOpenAiModal={() => setIsAiModalOpen(true)}
         onSearchQuery={(q) => setSearchQuery(q)}
@@ -97,7 +97,9 @@ export default function HomePage() {
         selectedCity={selectedCity}
         onSelectCity={(cityId) => {
           setSelectedCity(cityId);
-          router.push(`/${cityId}`);
+          if (cityId && cityId !== "all") {
+            router.push(`/${cityId}`);
+          }
         }}
         onOpenCityModal={() => setIsCityModalOpen(true)}
         onOpenAiModal={() => setIsAiModalOpen(true)}
@@ -112,7 +114,7 @@ export default function HomePage() {
       {/* 4. Top Projects Section */}
       <div className="reveal-on-scroll">
         <TopProjects
-          selectedCity={selectedCity}
+          selectedCity={selectedCity || "mumbai"}
           onSelectCity={(cityId) => setSelectedCity(cityId)}
           onInquireProject={handleInquire}
           searchFilter={searchQuery}
