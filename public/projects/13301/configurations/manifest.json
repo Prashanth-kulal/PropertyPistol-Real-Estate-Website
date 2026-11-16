@@ -1,7 +1,7 @@
 {
   "projectId": 13301,
   "slug": "saheel-itrend-city-life-hinjawadi-pid-13301",
-  "name": "Saheel Itrend City Life ",
+  "name": "Saheel Itrend City Life",
   "city": "pune",
   "officialSourceUrl": "https://www.propertypistol.com/projects/saheel-itrend-city-life-hinjawadi-pid-13301",
   "verificationStatus": "VERIFIED",
@@ -15,7 +15,8 @@
       "id": 1,
       "title": "Master Plan 1",
       "path": "/projects/13301/configurations/master-plans/master-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13301/original/Capturewrwrwf.PNG?1691568668"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13301/original/Capturewrwrwf.PNG?1691568668",
+      "downloaded": true
     }
   ],
   "sitePlans": [],
@@ -37,7 +38,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -58,7 +61,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

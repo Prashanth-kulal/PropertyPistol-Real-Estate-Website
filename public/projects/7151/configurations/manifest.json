@@ -1,7 +1,7 @@
 {
   "projectId": 7151,
   "slug": "duville-riverdale-grove-kharadi-pid-7151",
-  "name": "Duville Riverdale Grove ",
+  "name": "Duville Riverdale Grove",
   "city": "pune",
   "officialSourceUrl": "https://www.propertypistol.com/projects/duville-riverdale-grove-kharadi-pid-7151",
   "verificationStatus": "VERIFIED",
@@ -15,7 +15,8 @@
       "id": 1,
       "title": "Master Plan 1",
       "path": "/projects/7151/configurations/master-plans/master-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/7151/original/mp.png?1670846909"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/7151/original/mp.png?1670846909",
+      "downloaded": true
     }
   ],
   "sitePlans": [],
@@ -37,7 +38,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 112567,
@@ -53,7 +56,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 112566,
@@ -69,7 +74,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 112569,
@@ -85,7 +92,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

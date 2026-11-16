@@ -15,7 +15,8 @@
       "id": 1,
       "title": "Master Plan 1",
       "path": "/projects/19151/configurations/master-plans/master-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19151/original/pixelcut-export_%2863%29.jpg?1739801042"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19151/original/pixelcut-export_%2863%29.jpg?1739801042",
+      "downloaded": true
     }
   ],
   "sitePlans": [],
@@ -37,7 +38,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/100353/original/1000249633-Picsart-AiImageEnhancer.jpg.png?1751268053",
           "has2D": false,
-          "has3D": true
+          "has3D": true,
+          "downloaded": false,
+          "downloaded3D": true
         }
       ]
     },
@@ -58,7 +61,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/100354/original/1000249634-Picsart-AiImageEnhancer.jpg.png?1751268053",
           "has2D": false,
-          "has3D": true
+          "has3D": true,
+          "downloaded": false,
+          "downloaded3D": true
         }
       ]
     }

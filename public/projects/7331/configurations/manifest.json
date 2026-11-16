@@ -1,7 +1,7 @@
 {
   "projectId": 7331,
   "slug": "spacemint-easterlia-lohegaon-pid-7331",
-  "name": "Spacemint Easterlia ",
+  "name": "Spacemint Easterlia",
   "city": "pune",
   "officialSourceUrl": "https://www.propertypistol.com/projects/spacemint-easterlia-lohegaon-pid-7331",
   "verificationStatus": "VERIFIED",
@@ -15,7 +15,8 @@
       "id": 1,
       "title": "Master Plan 1",
       "path": "/projects/7331/configurations/master-plans/master-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/7331/original/m.png?1671017246"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/7331/original/m.png?1671017246",
+      "downloaded": true
     }
   ],
   "sitePlans": [],
@@ -37,7 +38,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

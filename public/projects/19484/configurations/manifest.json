@@ -15,7 +15,8 @@
       "id": 1,
       "title": "Master Plan 1",
       "path": "/projects/19484/configurations/master-plans/master-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19484/original/mp-tanish.png?1762840241"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19484/original/mp-tanish.png?1762840241",
+      "downloaded": true
     }
   ],
   "sitePlans": [],
@@ -37,7 +38,9 @@
           "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/104139/original/2bhk_2d1.PNG?1742988837",
           "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/104139/original/2bhk_3d1.PNG?1742988837",
           "has2D": true,
-          "has3D": true
+          "has3D": true,
+          "downloaded": true,
+          "downloaded3D": true
         },
         {
           "id": 104140,
@@ -53,7 +56,9 @@
           "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/104140/original/2bhk_2d2.PNG?1742988837",
           "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/104140/original/2bhk_3d2.PNG?1742988838",
           "has2D": true,
-          "has3D": true
+          "has3D": true,
+          "downloaded": true,
+          "downloaded3D": true
         },
         {
           "id": 112146,
@@ -69,7 +74,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 112145,
@@ -85,7 +92,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 112147,
@@ -101,7 +110,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

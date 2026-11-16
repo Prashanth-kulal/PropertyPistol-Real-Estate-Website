@@ -16,7 +16,8 @@
       "id": 1,
       "title": "Layout / Site Plan 1",
       "path": "/projects/15588/configurations/site-plans/site-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5438/original/Chandra-Floor-Plans-01.png?1705316204"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5438/original/Chandra-Floor-Plans-01.png?1705316204",
+      "downloaded": true
     }
   ],
   "unitPlans": [
@@ -37,7 +38,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -58,7 +61,9 @@
           "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/49795/original/3.PNG?1705316203",
           "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/49795/original/3d3d.PNG?1705316203",
           "has2D": true,
-          "has3D": true
+          "has3D": true,
+          "downloaded": true,
+          "downloaded3D": true
         }
       ]
     }

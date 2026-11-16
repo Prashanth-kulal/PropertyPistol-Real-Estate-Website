@@ -16,19 +16,22 @@
       "id": 1,
       "title": "Layout / Site Plan 1",
       "path": "/projects/7063/configurations/site-plans/site-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8756/original/tfp-purva.png?1754652798"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8756/original/tfp-purva.png?1754652798",
+      "downloaded": true
     },
     {
       "id": 2,
       "title": "Layout / Site Plan 2",
       "path": "/projects/7063/configurations/site-plans/site-plan-02.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8757/original/sfp-purva.png?1754652798"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8757/original/sfp-purva.png?1754652798",
+      "downloaded": true
     },
     {
       "id": 3,
       "title": "Layout / Site Plan 3",
       "path": "/projects/7063/configurations/site-plans/site-plan-03.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8758/original/fp-purva.png?1754652798"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8758/original/fp-purva.png?1754652798",
+      "downloaded": true
     }
   ],
   "unitPlans": [
@@ -49,7 +52,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/21169/original/2.JPG?1669187757",
           "has2D": false,
-          "has3D": true
+          "has3D": true,
+          "downloaded": false,
+          "downloaded3D": true
         }
       ]
     }

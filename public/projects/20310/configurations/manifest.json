@@ -16,7 +16,8 @@
       "id": 1,
       "title": "Layout / Site Plan 1",
       "path": "/projects/20310/configurations/site-plans/site-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8624/original/fp-rand.png?1753465382"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8624/original/fp-rand.png?1753465382",
+      "downloaded": true
     }
   ],
   "unitPlans": [
@@ -37,7 +38,9 @@
           "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/120544/original/3bhk-rand.png?1753465379",
           "threeDOriginalUrl": null,
           "has2D": true,
-          "has3D": false
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     },
@@ -58,7 +61,9 @@
           "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/120547/original/4bhk-rand.png?1753465379",
           "threeDOriginalUrl": null,
           "has2D": true,
-          "has3D": false
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     }

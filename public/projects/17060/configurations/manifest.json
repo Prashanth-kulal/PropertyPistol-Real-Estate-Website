@@ -16,13 +16,15 @@
       "id": 1,
       "title": "Layout / Site Plan 1",
       "path": "/projects/17060/configurations/site-plans/site-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6476/original/floorplan1.JPG?1718715369"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6476/original/floorplan1.JPG?1718715369",
+      "downloaded": true
     },
     {
       "id": 2,
       "title": "Layout / Site Plan 2",
       "path": "/projects/17060/configurations/site-plans/site-plan-02.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6477/original/floorplan2.JPG?1718715369"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6477/original/floorplan2.JPG?1718715369",
+      "downloaded": true
     }
   ],
   "unitPlans": [
@@ -43,7 +45,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 134063,
@@ -59,7 +63,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 134064,
@@ -75,7 +81,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -96,7 +104,9 @@
           "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/69006/original/3bhk_2d.JPG?1718715367",
           "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/69006/original/3bhk_3d.JPG?1718715368",
           "has2D": true,
-          "has3D": true
+          "has3D": true,
+          "downloaded": true,
+          "downloaded3D": true
         },
         {
           "id": 134067,
@@ -112,7 +122,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

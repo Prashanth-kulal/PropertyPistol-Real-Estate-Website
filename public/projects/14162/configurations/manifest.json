@@ -16,13 +16,15 @@
       "id": 1,
       "title": "Layout / Site Plan 1",
       "path": "/projects/14162/configurations/site-plans/site-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4734/original/bramhaskycity_Floorplan.JPG?1697781423"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4734/original/bramhaskycity_Floorplan.JPG?1697781423",
+      "downloaded": true
     },
     {
       "id": 2,
       "title": "Layout / Site Plan 2",
       "path": "/projects/14162/configurations/site-plans/site-plan-02.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4735/original/bramhaskycity_Floorplan2.JPG?1697781423"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4735/original/bramhaskycity_Floorplan2.JPG?1697781423",
+      "downloaded": true
     }
   ],
   "unitPlans": [
@@ -43,7 +45,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 43867,
@@ -59,7 +63,9 @@
           "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/43867/original/bramhaskycity_unitplan2bhk2.JPG?1697781423",
           "threeDOriginalUrl": null,
           "has2D": true,
-          "has3D": false
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     }

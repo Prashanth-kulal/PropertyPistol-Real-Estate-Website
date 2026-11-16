@@ -1,7 +1,7 @@
 {
   "projectId": 7915,
   "slug": "devrai-dudulgaon-pid-7915",
-  "name": "Devrai ",
+  "name": "Devrai",
   "city": "pune",
   "officialSourceUrl": "https://www.propertypistol.com/projects/devrai-dudulgaon-pid-7915",
   "verificationStatus": "VERIFIED",
@@ -29,7 +29,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/25274/original/1BHK.JPG?1646296775",
           "has2D": false,
-          "has3D": true
+          "has3D": true,
+          "downloaded": false,
+          "downloaded3D": true
         },
         {
           "id": 123729,
@@ -45,7 +47,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -66,7 +70,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/25275/original/2.JPG?1646296775",
           "has2D": false,
-          "has3D": true
+          "has3D": true,
+          "downloaded": false,
+          "downloaded3D": true
         },
         {
           "id": 123730,
@@ -82,7 +88,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

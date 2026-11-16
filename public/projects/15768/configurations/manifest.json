@@ -16,13 +16,15 @@
       "id": 1,
       "title": "Layout / Site Plan 1",
       "path": "/projects/15768/configurations/site-plans/site-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5620/original/floorplan.JPG?1708597891"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5620/original/floorplan.JPG?1708597891",
+      "downloaded": true
     },
     {
       "id": 2,
       "title": "Layout / Site Plan 2",
       "path": "/projects/15768/configurations/site-plans/site-plan-02.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5621/original/floorplan2.JPG?1708597891"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5621/original/floorplan2.JPG?1708597891",
+      "downloaded": true
     }
   ],
   "unitPlans": [
@@ -43,7 +45,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/52481/original/3bhk_3d1.JPG?1708597891",
           "has2D": false,
-          "has3D": true
+          "has3D": true,
+          "downloaded": false,
+          "downloaded3D": true
         }
       ]
     }

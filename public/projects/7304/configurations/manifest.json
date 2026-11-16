@@ -1,7 +1,7 @@
 {
   "projectId": 7304,
   "slug": "dynamic-imperia-plus-pisoli-pid-7304",
-  "name": "Dynamic Imperia Plus ",
+  "name": "Dynamic Imperia Plus",
   "city": "pune",
   "officialSourceUrl": "https://www.propertypistol.com/projects/dynamic-imperia-plus-pisoli-pid-7304",
   "verificationStatus": "VERIFIED",
@@ -16,7 +16,8 @@
       "id": 1,
       "title": "Layout / Site Plan 1",
       "path": "/projects/7304/configurations/site-plans/site-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3043/original/fp.JPG?1669786544"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3043/original/fp.JPG?1669786544",
+      "downloaded": true
     }
   ],
   "unitPlans": [
@@ -37,7 +38,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

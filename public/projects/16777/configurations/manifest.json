@@ -1,7 +1,7 @@
 {
   "projectId": 16777,
   "slug": "gagan-myra-kondhwa-pid-16777",
-  "name": "Gagan Myra ",
+  "name": "Gagan Myra",
   "city": "pune",
   "officialSourceUrl": "https://www.propertypistol.com/projects/gagan-myra-kondhwa-pid-16777",
   "verificationStatus": "VERIFIED",
@@ -15,7 +15,8 @@
       "id": 1,
       "title": "Master Plan 1",
       "path": "/projects/16777/configurations/master-plans/master-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16777/original/cf652fa55a41e3a.jpeg?1717582744"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16777/original/cf652fa55a41e3a.jpeg?1717582744",
+      "downloaded": true
     }
   ],
   "sitePlans": [],
@@ -37,7 +38,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

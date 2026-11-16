@@ -1,7 +1,7 @@
 {
   "projectId": 12779,
   "slug": "divine-garden-lohegaon-pid-12779",
-  "name": "Divine Garden ",
+  "name": "Divine Garden",
   "city": "pune",
   "officialSourceUrl": "https://www.propertypistol.com/projects/divine-garden-lohegaon-pid-12779",
   "verificationStatus": "VERIFIED",
@@ -15,7 +15,8 @@
       "id": 1,
       "title": "Master Plan 1",
       "path": "/projects/12779/configurations/master-plans/master-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/12779/original/mp_%281%29.jpg?1687589107"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/12779/original/mp_%281%29.jpg?1687589107",
+      "downloaded": true
     }
   ],
   "sitePlans": [],
@@ -37,7 +38,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -58,7 +61,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

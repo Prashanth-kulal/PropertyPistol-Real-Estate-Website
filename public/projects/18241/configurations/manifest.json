@@ -1,7 +1,7 @@
 {
   "projectId": 18241,
   "slug": "maniratna-complex-koregaon-park-pid-18241",
-  "name": "Maniratna Complex ",
+  "name": "Maniratna Complex",
   "city": "pune",
   "officialSourceUrl": "https://www.propertypistol.com/projects/maniratna-complex-koregaon-park-pid-18241",
   "verificationStatus": "VERIFIED",
@@ -16,7 +16,8 @@
       "id": 1,
       "title": "Layout / Site Plan 1",
       "path": "/projects/18241/configurations/site-plans/site-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7000/original/cf62fb382247635.jpeg?1729672001"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7000/original/cf62fb382247635.jpeg?1729672001",
+      "downloaded": true
     }
   ],
   "unitPlans": [
@@ -37,7 +38,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

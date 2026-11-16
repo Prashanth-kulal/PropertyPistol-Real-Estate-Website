@@ -16,25 +16,29 @@
       "id": 1,
       "title": "Layout / Site Plan 1",
       "path": "/projects/13059/configurations/site-plans/site-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4220/original/Captureggfd.PNG?1690357299"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4220/original/Captureggfd.PNG?1690357299",
+      "downloaded": true
     },
     {
       "id": 2,
       "title": "Layout / Site Plan 2",
       "path": "/projects/13059/configurations/site-plans/site-plan-02.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4221/original/Captureggff.PNG?1690357300"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4221/original/Captureggff.PNG?1690357300",
+      "downloaded": true
     },
     {
       "id": 3,
       "title": "Layout / Site Plan 3",
       "path": "/projects/13059/configurations/site-plans/site-plan-03.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9818/original/download_%2833%29.png?1793352501"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9818/original/download_%2833%29.png?1793352501",
+      "downloaded": true
     },
     {
       "id": 4,
       "title": "Layout / Site Plan 4",
       "path": "/projects/13059/configurations/site-plans/site-plan-04.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9819/original/download_%2834%29.png?1793352501"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9819/original/download_%2834%29.png?1793352501",
+      "downloaded": true
     }
   ],
   "unitPlans": [
@@ -55,7 +59,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/40510/original/Capture2vg.PNG?1690357298",
           "has2D": false,
-          "has3D": true
+          "has3D": true,
+          "downloaded": false,
+          "downloaded3D": true
         }
       ]
     },
@@ -76,7 +82,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/40511/original/Capture3ff.PNG?1690357298",
           "has2D": false,
-          "has3D": true
+          "has3D": true,
+          "downloaded": false,
+          "downloaded3D": true
         }
       ]
     }

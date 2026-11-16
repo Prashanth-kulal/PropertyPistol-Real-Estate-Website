@@ -1,7 +1,7 @@
 {
   "projectId": 15654,
   "slug": "wellwisher-abode-kondhwa-pid-15654",
-  "name": "Wellwisher Abode ",
+  "name": "Wellwisher Abode",
   "city": "pune",
   "officialSourceUrl": "https://www.propertypistol.com/projects/wellwisher-abode-kondhwa-pid-15654",
   "verificationStatus": "VERIFIED",
@@ -16,7 +16,8 @@
       "id": 1,
       "title": "Master Plan 1",
       "path": "/projects/15654/configurations/master-plans/master-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/15654/original/cf63806c8a23a1a.jpeg?1705582837"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/15654/original/cf63806c8a23a1a.jpeg?1705582837",
+      "downloaded": true
     }
   ],
   "sitePlans": [
@@ -24,7 +25,8 @@
       "id": 1,
       "title": "Layout / Site Plan 1",
       "path": "/projects/15654/configurations/site-plans/site-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5478/original/cf5f43b17d5b8e6.png?1705582837"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5478/original/cf5f43b17d5b8e6.png?1705582837",
+      "downloaded": true
     }
   ],
   "unitPlans": [
@@ -45,7 +47,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

@@ -1,7 +1,7 @@
 {
   "projectId": 10915,
   "slug": "songs-from-the-woods-ghorpadi-pid-10915",
-  "name": "Songs From The Woods ",
+  "name": "Songs From The Woods",
   "city": "pune",
   "officialSourceUrl": "https://www.propertypistol.com/projects/songs-from-the-woods-ghorpadi-pid-10915",
   "verificationStatus": "VERIFIED",
@@ -16,7 +16,8 @@
       "id": 1,
       "title": "Master Plan 1",
       "path": "/projects/10915/configurations/master-plans/master-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/10915/original/mp.jpg?1672913745"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/10915/original/mp.jpg?1672913745",
+      "downloaded": true
     }
   ],
   "sitePlans": [
@@ -24,7 +25,8 @@
       "id": 1,
       "title": "Layout / Site Plan 1",
       "path": "/projects/10915/configurations/site-plans/site-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3514/original/fp.png?1672913746"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3514/original/fp.png?1672913746",
+      "downloaded": true
     }
   ],
   "unitPlans": [
@@ -45,7 +47,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 35754,
@@ -61,7 +65,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -82,7 +88,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

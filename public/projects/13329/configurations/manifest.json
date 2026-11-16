@@ -1,7 +1,7 @@
 {
   "projectId": 13329,
   "slug": "kingston-atlantis-nibm-road-pid-13329",
-  "name": "Kingston Atlantis ",
+  "name": "Kingston Atlantis",
   "city": "pune",
   "officialSourceUrl": "https://www.propertypistol.com/projects/kingston-atlantis-nibm-road-pid-13329",
   "verificationStatus": "VERIFIED",
@@ -16,13 +16,15 @@
       "id": 1,
       "title": "Layout / Site Plan 1",
       "path": "/projects/13329/configurations/site-plans/site-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7615/original/fp.jpg?1742973392"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7615/original/fp.jpg?1742973392",
+      "downloaded": true
     },
     {
       "id": 2,
       "title": "Layout / Site Plan 2",
       "path": "/projects/13329/configurations/site-plans/site-plan-02.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7616/original/fp-v.jpg?1742973392"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7616/original/fp-v.jpg?1742973392",
+      "downloaded": true
     }
   ],
   "unitPlans": [
@@ -43,7 +45,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 138674,
@@ -59,7 +63,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 41260,
@@ -75,7 +81,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -96,7 +104,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 104040,
@@ -112,7 +122,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

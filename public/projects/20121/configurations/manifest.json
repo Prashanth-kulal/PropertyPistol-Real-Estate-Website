@@ -1,7 +1,7 @@
 {
   "projectId": 20121,
   "slug": "18-jewels-erandwane-pid-20121",
-  "name": "18 Jewels ",
+  "name": "18 Jewels",
   "city": "pune",
   "officialSourceUrl": "https://www.propertypistol.com/projects/18-jewels-erandwane-pid-20121",
   "verificationStatus": "VERIFIED",
@@ -16,7 +16,8 @@
       "id": 1,
       "title": "Layout / Site Plan 1",
       "path": "/projects/20121/configurations/site-plans/site-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9026/original/download_%2888%29.png?1764662110"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9026/original/download_%2888%29.png?1764662110",
+      "downloaded": true
     }
   ],
   "unitPlans": [
@@ -37,7 +38,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 118742,
@@ -53,7 +56,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -74,7 +79,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

@@ -1,7 +1,7 @@
 {
   "projectId": 16646,
   "slug": "balaji-siddhi-ambegaon-pid-16646",
-  "name": "Balaji Siddhi ",
+  "name": "Balaji Siddhi",
   "city": "pune",
   "officialSourceUrl": "https://www.propertypistol.com/projects/balaji-siddhi-ambegaon-pid-16646",
   "verificationStatus": "VERIFIED",
@@ -16,7 +16,8 @@
       "id": 1,
       "title": "Layout / Site Plan 1",
       "path": "/projects/16646/configurations/site-plans/site-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6314/original/cf5e687d10b7d26.png?1716792698"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6314/original/cf5e687d10b7d26.png?1716792698",
+      "downloaded": true
     }
   ],
   "unitPlans": [
@@ -37,7 +38,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 64118,
@@ -53,7 +56,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

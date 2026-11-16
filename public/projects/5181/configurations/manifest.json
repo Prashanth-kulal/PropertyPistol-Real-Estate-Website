@@ -1,7 +1,7 @@
 {
   "projectId": 5181,
   "slug": "vascon-citron-phase-2-wagholi-pid-5181",
-  "name": "Vascon Citron Phase 2 ",
+  "name": "Vascon Citron Phase 2",
   "city": "pune",
   "officialSourceUrl": "https://www.propertypistol.com/projects/vascon-citron-phase-2-wagholi-pid-5181",
   "verificationStatus": "VERIFIED",
@@ -29,7 +29,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/17043/original/1.JPG?1669448946",
           "has2D": false,
-          "has3D": true
+          "has3D": true,
+          "downloaded": false,
+          "downloaded3D": true
         },
         {
           "id": 134782,
@@ -45,7 +47,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 134783,
@@ -61,7 +65,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

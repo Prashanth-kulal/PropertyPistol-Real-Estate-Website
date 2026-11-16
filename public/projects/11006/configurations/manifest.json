@@ -16,7 +16,8 @@
       "id": 1,
       "title": "Master Plan 1",
       "path": "/projects/11006/configurations/master-plans/master-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/11006/original/mp.jpg?1673865006"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/11006/original/mp.jpg?1673865006",
+      "downloaded": true
     }
   ],
   "sitePlans": [
@@ -24,7 +25,8 @@
       "id": 1,
       "title": "Layout / Site Plan 1",
       "path": "/projects/11006/configurations/site-plans/site-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3566/original/buy-flat-in-lohegaon-pune-5.jpg?1673865008"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3566/original/buy-flat-in-lohegaon-pune-5.jpg?1673865008",
+      "downloaded": true
     }
   ],
   "unitPlans": [
@@ -45,7 +47,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/35951/original/2.jpg?1673865006",
           "has2D": false,
-          "has3D": true
+          "has3D": true,
+          "downloaded": false,
+          "downloaded3D": true
         }
       ]
     }

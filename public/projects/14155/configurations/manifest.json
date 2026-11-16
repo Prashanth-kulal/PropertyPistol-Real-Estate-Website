@@ -16,31 +16,36 @@
       "id": 1,
       "title": "Layout / Site Plan 1",
       "path": "/projects/14155/configurations/site-plans/site-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4709/original/floorplan1.JPG?1697553142"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4709/original/floorplan1.JPG?1697553142",
+      "downloaded": true
     },
     {
       "id": 2,
       "title": "Layout / Site Plan 2",
       "path": "/projects/14155/configurations/site-plans/site-plan-02.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4710/original/floorplan2.JPG?1697553142"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4710/original/floorplan2.JPG?1697553142",
+      "downloaded": true
     },
     {
       "id": 3,
       "title": "Layout / Site Plan 3",
       "path": "/projects/14155/configurations/site-plans/site-plan-03.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4711/original/floorplan3.JPG?1697553142"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4711/original/floorplan3.JPG?1697553142",
+      "downloaded": true
     },
     {
       "id": 4,
       "title": "Layout / Site Plan 4",
       "path": "/projects/14155/configurations/site-plans/site-plan-04.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4712/original/floorplan4.JPG?1697553142"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4712/original/floorplan4.JPG?1697553142",
+      "downloaded": true
     },
     {
       "id": 5,
       "title": "Layout / Site Plan 5",
       "path": "/projects/14155/configurations/site-plans/site-plan-05.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4713/original/floorplan5.JPG?1697553142"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4713/original/floorplan5.JPG?1697553142",
+      "downloaded": true
     }
   ],
   "unitPlans": [
@@ -61,7 +66,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 93218,
@@ -77,7 +84,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/93218/original/2.PNG?1731931149",
           "has2D": false,
-          "has3D": true
+          "has3D": true,
+          "downloaded": false,
+          "downloaded3D": true
         },
         {
           "id": 87604,
@@ -93,7 +102,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 93220,
@@ -109,7 +120,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

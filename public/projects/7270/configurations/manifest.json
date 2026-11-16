@@ -16,25 +16,29 @@
       "id": 1,
       "title": "Layout / Site Plan 1",
       "path": "/projects/7270/configurations/site-plans/site-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7988/original/fp-ust.png?1746860111"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7988/original/fp-ust.png?1746860111",
+      "downloaded": true
     },
     {
       "id": 2,
       "title": "Layout / Site Plan 2",
       "path": "/projects/7270/configurations/site-plans/site-plan-02.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7989/original/fp-ut.png?1746860111"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7989/original/fp-ut.png?1746860111",
+      "downloaded": true
     },
     {
       "id": 3,
       "title": "Layout / Site Plan 3",
       "path": "/projects/7270/configurations/site-plans/site-plan-03.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7990/original/fp-ut2.png?1746860111"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7990/original/fp-ut2.png?1746860111",
+      "downloaded": true
     },
     {
       "id": 4,
       "title": "Layout / Site Plan 4",
       "path": "/projects/7270/configurations/site-plans/site-plan-04.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7991/original/fp-ut3.png?1746860111"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7991/original/fp-ut3.png?1746860111",
+      "downloaded": true
     }
   ],
   "unitPlans": [
@@ -55,7 +59,9 @@
           "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/21916/original/2bhk-bale.png?1746860111",
           "threeDOriginalUrl": null,
           "has2D": true,
-          "has3D": false
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     }

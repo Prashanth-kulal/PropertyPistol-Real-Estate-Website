@@ -1,7 +1,7 @@
 {
   "projectId": 20299,
   "slug": "shree-venkatesh-skylife-nande-pid-20299",
-  "name": "Shree Venkatesh Skylife ",
+  "name": "Shree Venkatesh Skylife",
   "city": "pune",
   "officialSourceUrl": "https://www.propertypistol.com/projects/shree-venkatesh-skylife-nande-pid-20299",
   "verificationStatus": "VERIFIED",
@@ -16,19 +16,22 @@
       "id": 1,
       "title": "Layout / Site Plan 1",
       "path": "/projects/20299/configurations/site-plans/site-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8619/original/tfp-.png?1753453905"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8619/original/tfp-.png?1753453905",
+      "downloaded": true
     },
     {
       "id": 2,
       "title": "Layout / Site Plan 2",
       "path": "/projects/20299/configurations/site-plans/site-plan-02.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8620/original/tfp2.png?1753453905"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8620/original/tfp2.png?1753453905",
+      "downloaded": true
     },
     {
       "id": 3,
       "title": "Layout / Site Plan 3",
       "path": "/projects/20299/configurations/site-plans/site-plan-03.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8621/original/15.png?1753453905"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8621/original/15.png?1753453905",
+      "downloaded": true
     }
   ],
   "unitPlans": [
@@ -49,7 +52,9 @@
           "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/120506/original/3bhk-3d.png?1753453902",
           "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/120506/original/3bhk.png?1753453902",
           "has2D": true,
-          "has3D": true
+          "has3D": true,
+          "downloaded": true,
+          "downloaded3D": true
         },
         {
           "id": 120505,
@@ -65,7 +70,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -86,7 +93,9 @@
           "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/120507/original/4bhk-2d.png?1753453902",
           "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/120507/original/bhk.png?1753453902",
           "has2D": true,
-          "has3D": true
+          "has3D": true,
+          "downloaded": true,
+          "downloaded3D": true
         }
       ]
     }

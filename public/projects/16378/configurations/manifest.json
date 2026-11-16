@@ -1,7 +1,7 @@
 {
   "projectId": 16378,
   "slug": "45-shashwat-heights-punawale-pid-16378",
-  "name": "45 Shashwat Heights ",
+  "name": "45 Shashwat Heights",
   "city": "pune",
   "officialSourceUrl": "https://www.propertypistol.com/projects/45-shashwat-heights-punawale-pid-16378",
   "verificationStatus": "VERIFIED",
@@ -16,19 +16,22 @@
       "id": 1,
       "title": "Layout / Site Plan 1",
       "path": "/projects/16378/configurations/site-plans/site-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9040/original/download_-_2025-12-04T163208.672.png?1764846200"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9040/original/download_-_2025-12-04T163208.672.png?1764846200",
+      "downloaded": true
     },
     {
       "id": 2,
       "title": "Layout / Site Plan 2",
       "path": "/projects/16378/configurations/site-plans/site-plan-02.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9041/original/download_-_2025-12-04T163215.166.png?1764846200"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9041/original/download_-_2025-12-04T163215.166.png?1764846200",
+      "downloaded": true
     },
     {
       "id": 3,
       "title": "Layout / Site Plan 3",
       "path": "/projects/16378/configurations/site-plans/site-plan-03.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9042/original/download_-_2025-12-04T163220.719.png?1764846200"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9042/original/download_-_2025-12-04T163220.719.png?1764846200",
+      "downloaded": true
     }
   ],
   "unitPlans": [
@@ -49,7 +52,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -70,7 +75,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 71946,
@@ -86,7 +93,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 61785,
@@ -102,7 +111,9 @@
           "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/61785/original/2bhks.PNG?1715443861",
           "threeDOriginalUrl": null,
           "has2D": true,
-          "has3D": false
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         },
         {
           "id": 124920,
@@ -118,7 +129,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -139,7 +152,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

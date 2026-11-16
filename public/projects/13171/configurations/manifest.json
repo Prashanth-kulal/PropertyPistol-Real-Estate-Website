@@ -1,7 +1,7 @@
 {
   "projectId": 13171,
   "slug": "shree-saai-fortune-moshi-pid-13171",
-  "name": "Shree Saai Fortune ",
+  "name": "Shree Saai Fortune",
   "city": "pune",
   "officialSourceUrl": "https://www.propertypistol.com/projects/shree-saai-fortune-moshi-pid-13171",
   "verificationStatus": "VERIFIED",
@@ -15,7 +15,8 @@
       "id": 1,
       "title": "Master Plan 1",
       "path": "/projects/13171/configurations/master-plans/master-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13171/original/Capturewfr.PNG?1690975747"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13171/original/Capturewfr.PNG?1690975747",
+      "downloaded": true
     }
   ],
   "sitePlans": [],
@@ -37,7 +38,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

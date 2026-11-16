@@ -1,7 +1,7 @@
 {
   "projectId": 13308,
   "slug": "legacy-imperial-kiwale-pid-13308",
-  "name": "Legacy Imperial ",
+  "name": "Legacy Imperial",
   "city": "pune",
   "officialSourceUrl": "https://www.propertypistol.com/projects/legacy-imperial-kiwale-pid-13308",
   "verificationStatus": "VERIFIED",
@@ -16,13 +16,15 @@
       "id": 1,
       "title": "Layout / Site Plan 1",
       "path": "/projects/13308/configurations/site-plans/site-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4334/original/Captureerwwr.PNG?1691655516"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4334/original/Captureerwwr.PNG?1691655516",
+      "downloaded": true
     },
     {
       "id": 2,
       "title": "Layout / Site Plan 2",
       "path": "/projects/13308/configurations/site-plans/site-plan-02.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4335/original/Capture3wr.PNG?1691655517"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4335/original/Capture3wr.PNG?1691655517",
+      "downloaded": true
     }
   ],
   "unitPlans": [
@@ -43,7 +45,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 104201,
@@ -59,7 +63,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
