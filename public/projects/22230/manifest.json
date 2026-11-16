@@ -1,0 +1,50 @@
+{
+  "projectId": 22230,
+  "projectName": "Equiterra 2",
+  "slug": "equiterra-2-dubai-investment-park-2-pid-22230",
+  "city": "dubai",
+  "cityName": "Dubai",
+  "country": "United Arab Emirates",
+  "currency": "AED",
+  "locality": "Dubai Investment Park 2",
+  "region": "Dubai",
+  "builder": "Emaar Properties",
+  "totalImages": 2,
+  "hasCover": true,
+  "watermarkSettings": {
+    "opacity": 0.65,
+    "position": "bottom-right",
+    "scaleRatio": 0.1,
+    "paddingRatio": 0.03,
+    "quality": 90
+  },
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/22230/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/161115/original/Capture.PNG?1787825477",
+      "source": "propertypistol_s3",
+      "width": 1920,
+      "height": 1080,
+      "fileSizeBytes": 328318,
+      "watermarked": true,
+      "watermarkOpacity": 0.65,
+      "status": "VERIFIED_PROJECT_IMAGE"
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/22230/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/161116/original/1.PNG?1787825478",
+      "source": "propertypistol_s3",
+      "width": 1920,
+      "height": 1440,
+      "fileSizeBytes": 428701,
+      "watermarked": true,
+      "watermarkOpacity": 0.65,
+      "status": "VERIFIED_PROJECT_IMAGE"
+    }
+  ],
+  "updatedAt": "2026-11-13T12:52:25.243Z"
+}

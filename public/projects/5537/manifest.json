@@ -1,0 +1,50 @@
+{
+  "projectId": 5537,
+  "projectName": "Reportage The Gate Residence",
+  "slug": "reportage-the-gate-residence-masdar-city-pid-5537",
+  "city": "dubai",
+  "cityName": "Dubai",
+  "country": "United Arab Emirates",
+  "currency": "AED",
+  "locality": "Masdar City",
+  "region": "Abu Dhabi",
+  "builder": "Reportage Properties",
+  "totalImages": 2,
+  "hasCover": true,
+  "watermarkSettings": {
+    "opacity": 0.65,
+    "position": "bottom-right",
+    "scaleRatio": 0.1,
+    "paddingRatio": 0.03,
+    "quality": 90
+  },
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/5537/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/28393/original/g.jpg?1637055890",
+      "source": "propertypistol_s3",
+      "width": 1920,
+      "height": 1267,
+      "fileSizeBytes": 291130,
+      "watermarked": true,
+      "watermarkOpacity": 0.65,
+      "status": "VERIFIED_PROJECT_IMAGE"
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/5537/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/135969/original/Capture.PNG?1724141501",
+      "source": "propertypistol_s3",
+      "width": 670,
+      "height": 289,
+      "fileSizeBytes": 57481,
+      "watermarked": true,
+      "watermarkOpacity": 0.65,
+      "status": "VERIFIED_PROJECT_IMAGE"
+    }
+  ],
+  "updatedAt": "2026-11-13T13:04:34.823Z"
+}

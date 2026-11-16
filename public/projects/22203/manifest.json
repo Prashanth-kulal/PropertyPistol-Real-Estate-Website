@@ -1,0 +1,50 @@
+{
+  "projectId": 22203,
+  "projectName": "Greenz by Danube",
+  "slug": "greenz-by-danube-al-ain-road-pid-22203",
+  "city": "dubai",
+  "cityName": "Dubai",
+  "country": "United Arab Emirates",
+  "currency": "AED",
+  "locality": "Al Ain Road",
+  "region": "Dubai",
+  "builder": "Danube Group",
+  "totalImages": 2,
+  "hasCover": true,
+  "watermarkSettings": {
+    "opacity": 0.65,
+    "position": "bottom-right",
+    "scaleRatio": 0.1,
+    "paddingRatio": 0.03,
+    "quality": 90
+  },
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/22203/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/160979/original/1.jpg?1787228805",
+      "source": "propertypistol_s3",
+      "width": 1920,
+      "height": 1080,
+      "fileSizeBytes": 386007,
+      "watermarked": true,
+      "watermarkOpacity": 0.65,
+      "status": "VERIFIED_PROJECT_IMAGE"
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/22203/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/160980/original/2.jpg?1787228806",
+      "source": "propertypistol_s3",
+      "width": 1920,
+      "height": 1080,
+      "fileSizeBytes": 356050,
+      "watermarked": true,
+      "watermarkOpacity": 0.65,
+      "status": "VERIFIED_PROJECT_IMAGE"
+    }
+  ],
+  "updatedAt": "2026-11-13T12:44:07.188Z"
+}
