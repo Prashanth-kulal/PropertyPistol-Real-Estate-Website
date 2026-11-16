@@ -15,7 +15,8 @@
       "id": 1,
       "title": "Master Plan 1",
       "path": "/projects/17918/configurations/master-plans/master-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/17918/original/IMG_20240912_151226.jpg?1726134187"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/17918/original/IMG_20240912_151226.jpg?1726134187",
+      "downloaded": true
     }
   ],
   "sitePlans": [],
@@ -37,7 +38,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -58,7 +61,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 85248,
@@ -74,7 +79,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/85248/original/3_BHK_UNIT%28TYPE-2%29.RGB_color.0000.jpg?1726134341",
           "has2D": false,
-          "has3D": true
+          "has3D": true,
+          "downloaded": false,
+          "downloaded3D": true
         }
       ]
     },
@@ -95,7 +102,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

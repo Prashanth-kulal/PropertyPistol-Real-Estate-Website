@@ -15,7 +15,8 @@
       "id": 1,
       "title": "Master Plan 1",
       "path": "/projects/6158/configurations/master-plans/master-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/6158/original/ska-divya-towers-site-plan-th.jpg?1727760280"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/6158/original/ska-divya-towers-site-plan-th.jpg?1727760280",
+      "downloaded": true
     }
   ],
   "sitePlans": [],
@@ -37,7 +38,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 98404,
@@ -53,7 +56,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 27709,
@@ -69,7 +74,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

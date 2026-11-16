@@ -15,7 +15,8 @@
       "id": 1,
       "title": "Master Plan 1",
       "path": "/projects/7496/configurations/master-plans/master-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/7496/original/site-plan.jpg?1724413928"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/7496/original/site-plan.jpg?1724413928",
+      "downloaded": true
     }
   ],
   "sitePlans": [],
@@ -37,7 +38,9 @@
           "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/63814/original/727.jpg?1724413928",
           "threeDOriginalUrl": null,
           "has2D": true,
-          "has3D": false
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         },
         {
           "id": 63815,
@@ -53,7 +56,9 @@
           "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/63815/original/839.jpg?1724413928",
           "threeDOriginalUrl": null,
           "has2D": true,
-          "has3D": false
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         },
         {
           "id": 22415,
@@ -69,7 +74,9 @@
           "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/22415/original/1043.jpg?1724413929",
           "threeDOriginalUrl": null,
           "has2D": true,
-          "has3D": false
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     },
@@ -90,7 +97,9 @@
           "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/81159/original/1627.jpg?1724413929",
           "threeDOriginalUrl": null,
           "has2D": true,
-          "has3D": false
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     },
@@ -111,7 +120,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

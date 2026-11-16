@@ -15,7 +15,8 @@
       "id": 1,
       "title": "Master Plan 1",
       "path": "/projects/18250/configurations/master-plans/master-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18250/original/master-plan-img-1.jpg?1729679954"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18250/original/master-plan-img-1.jpg?1729679954",
+      "downloaded": true
     }
   ],
   "sitePlans": [],
@@ -37,7 +38,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/89858/original/3.png?1729679954",
           "has2D": false,
-          "has3D": true
+          "has3D": true,
+          "downloaded": false,
+          "downloaded3D": true
         }
       ]
     },
@@ -58,7 +61,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

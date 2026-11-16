@@ -15,7 +15,8 @@
       "id": 1,
       "title": "Master Plan 1",
       "path": "/projects/5682/configurations/master-plans/master-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/5682/original/mp.PNG?1724433002"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/5682/original/mp.PNG?1724433002",
+      "downloaded": true
     }
   ],
   "sitePlans": [],
@@ -37,7 +38,9 @@
           "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/18144/original/2.PNG?1724433002",
           "threeDOriginalUrl": null,
           "has2D": true,
-          "has3D": false
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     },
@@ -58,7 +61,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 108625,
@@ -74,7 +79,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 108626,
@@ -90,7 +97,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 18145,
@@ -106,7 +115,9 @@
           "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/18145/original/3.PNG?1724433002",
           "threeDOriginalUrl": null,
           "has2D": true,
-          "has3D": false
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         },
         {
           "id": 50958,
@@ -122,7 +133,9 @@
           "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/50958/original/33.PNG?1724433002",
           "threeDOriginalUrl": null,
           "has2D": true,
-          "has3D": false
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         },
         {
           "id": 119584,
@@ -138,7 +151,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

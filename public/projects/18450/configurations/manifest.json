@@ -16,7 +16,8 @@
       "id": 1,
       "title": "Layout / Site Plan 1",
       "path": "/projects/18450/configurations/site-plans/site-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7064/original/fp_na.png?1730894165"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7064/original/fp_na.png?1730894165",
+      "downloaded": true
     }
   ],
   "unitPlans": [
@@ -37,7 +38,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 91711,
@@ -53,7 +56,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

@@ -16,7 +16,8 @@
       "id": 1,
       "title": "Master Plan 1",
       "path": "/projects/13796/configurations/master-plans/master-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13796/original/master-plan.png?1695638717"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13796/original/master-plan.png?1695638717",
+      "downloaded": true
     }
   ],
   "sitePlans": [
@@ -24,7 +25,8 @@
       "id": 1,
       "title": "Layout / Site Plan 1",
       "path": "/projects/13796/configurations/site-plans/site-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4466/original/floorplan-zoom-1.jpg?1695646987"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4466/original/floorplan-zoom-1.jpg?1695646987",
+      "downloaded": true
     }
   ],
   "unitPlans": [
@@ -45,7 +47,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 119474,
@@ -61,7 +65,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 119475,
@@ -77,7 +83,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 98155,
@@ -93,7 +101,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -114,7 +124,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 125030,
@@ -130,7 +142,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

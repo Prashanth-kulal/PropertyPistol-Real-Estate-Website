@@ -15,7 +15,8 @@
       "id": 1,
       "title": "Master Plan 1",
       "path": "/projects/19672/configurations/master-plans/master-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19672/original/Master-Plan-13-Civitech-Santoni-Greater-Noida-5421677_1300_1600_310_462_copy_1920x1440.jpg?1744887462"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19672/original/Master-Plan-13-Civitech-Santoni-Greater-Noida-5421677_1300_1600_310_462_copy_1920x1440.jpg?1744887462",
+      "downloaded": true
     }
   ],
   "sitePlans": [],
@@ -37,7 +38,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 107860,
@@ -53,7 +56,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
