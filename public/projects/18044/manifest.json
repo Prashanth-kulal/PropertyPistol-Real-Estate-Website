@@ -1,0 +1,50 @@
+{
+  "projectId": 18044,
+  "projectName": "Selina Bay",
+  "slug": "selina-bay-yas-island-pid-18044",
+  "city": "dubai",
+  "cityName": "Dubai",
+  "country": "United Arab Emirates",
+  "currency": "AED",
+  "locality": "Yas Island",
+  "region": "Abu Dhabi",
+  "builder": "Reportage Properties",
+  "totalImages": 2,
+  "hasCover": true,
+  "watermarkSettings": {
+    "opacity": 0.65,
+    "position": "bottom-right",
+    "scaleRatio": 0.1,
+    "paddingRatio": 0.03,
+    "quality": 90
+  },
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/18044/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/137993/original/1.png?1732094008",
+      "source": "propertypistol_s3",
+      "width": 1920,
+      "height": 1440,
+      "fileSizeBytes": 606447,
+      "watermarked": true,
+      "watermarkOpacity": 0.65,
+      "status": "VERIFIED_PROJECT_IMAGE"
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/18044/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/137994/original/2.png?1732094009",
+      "source": "propertypistol_s3",
+      "width": 1920,
+      "height": 1440,
+      "fileSizeBytes": 448496,
+      "watermarked": true,
+      "watermarkOpacity": 0.65,
+      "status": "VERIFIED_PROJECT_IMAGE"
+    }
+  ],
+  "updatedAt": "2026-11-13T12:57:04.339Z"
+}
