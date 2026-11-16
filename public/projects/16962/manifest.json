@@ -1,0 +1,50 @@
+{
+  "projectId": 16962,
+  "projectName": "Mirage Villas",
+  "slug": "mirage-villas-the-oasis-pid-16962",
+  "city": "dubai",
+  "cityName": "Dubai",
+  "country": "United Arab Emirates",
+  "currency": "AED",
+  "locality": "The Oasis",
+  "region": "Dubai",
+  "builder": "Emaar Properties",
+  "totalImages": 2,
+  "hasCover": true,
+  "watermarkSettings": {
+    "opacity": 0.65,
+    "position": "bottom-right",
+    "scaleRatio": 0.1,
+    "paddingRatio": 0.03,
+    "quality": 90
+  },
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/16962/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/133379/original/2.jpg?1741860185",
+      "source": "propertypistol_s3",
+      "width": 1920,
+      "height": 1080,
+      "fileSizeBytes": 426112,
+      "watermarked": true,
+      "watermarkOpacity": 0.65,
+      "status": "VERIFIED_PROJECT_IMAGE"
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/16962/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/133380/original/1.jpg?1741860186",
+      "source": "propertypistol_s3",
+      "width": 1920,
+      "height": 1080,
+      "fileSizeBytes": 529358,
+      "watermarked": true,
+      "watermarkOpacity": 0.65,
+      "status": "VERIFIED_PROJECT_IMAGE"
+    }
+  ],
+  "updatedAt": "2026-11-13T12:57:19.465Z"
+}
