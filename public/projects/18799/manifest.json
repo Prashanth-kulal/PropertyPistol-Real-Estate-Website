@@ -1,0 +1,50 @@
+{
+  "projectId": 18799,
+  "projectName": "Rivage Residences",
+  "slug": "rivage-residences-al-reem-island-pid-18799",
+  "city": "dubai",
+  "cityName": "Dubai",
+  "country": "United Arab Emirates",
+  "currency": "AED",
+  "locality": "Al Reem Island",
+  "region": "Abu Dhabi",
+  "builder": "Deyaar Properties",
+  "totalImages": 2,
+  "hasCover": true,
+  "watermarkSettings": {
+    "opacity": 0.65,
+    "position": "bottom-right",
+    "scaleRatio": 0.1,
+    "paddingRatio": 0.03,
+    "quality": 90
+  },
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/18799/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/141740/original/Hero-Dusk-1.jpg?1732799686",
+      "source": "propertypistol_s3",
+      "width": 1920,
+      "height": 1440,
+      "fileSizeBytes": 616725,
+      "watermarked": true,
+      "watermarkOpacity": 0.65,
+      "status": "VERIFIED_PROJECT_IMAGE"
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/18799/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/141741/original/Coronation-Shot-1.jpg?1732799687",
+      "source": "propertypistol_s3",
+      "width": 1920,
+      "height": 1440,
+      "fileSizeBytes": 515122,
+      "watermarked": true,
+      "watermarkOpacity": 0.65,
+      "status": "VERIFIED_PROJECT_IMAGE"
+    }
+  ],
+  "updatedAt": "2026-11-13T13:05:42.856Z"
+}
