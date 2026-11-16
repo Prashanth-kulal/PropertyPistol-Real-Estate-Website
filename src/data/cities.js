@@ -5,7 +5,7 @@ export const CITIES = [
   { id: "delhi", name: "Delhi NCR", state: "Delhi", projectsCount: 16, popular: true, image: "/projects/4709/cover.jpg" },
   { id: "bangalore", name: "Bangalore", state: "Karnataka", projectsCount: 799, popular: true, image: "/projects/19794/cover.jpg" },
   { id: "hyderabad", name: "Hyderabad", state: "Telangana", projectsCount: 720, popular: true, image: "/projects/20581/cover.jpg" },
-  { id: "chennai", name: "Chennai", state: "Tamil Nadu", projectsCount: 760, popular: true, image: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=80" },
+  { id: "chennai", name: "Chennai", state: "Tamil Nadu", projectsCount: 159, popular: true, image: "/projects/17864/cover.jpg" },
   { id: "gurugram", name: "Gurugram", state: "Haryana", projectsCount: 650, popular: true, image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80" },
   { id: "noida", name: "Noida", state: "Uttar Pradesh", projectsCount: 100, popular: true, image: "/projects/15680/cover.jpg" },
   { id: "kolkata", name: "Kolkata", state: "West Bengal", projectsCount: 540, popular: true, image: "https://images.unsplash.com/photo-1558431382-27e303142255?auto=format&fit=crop&w=800&q=80" },

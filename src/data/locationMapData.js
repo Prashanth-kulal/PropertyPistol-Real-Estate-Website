@@ -14,6 +14,7 @@ import { BANGALORE_PROJECT_COORDINATES } from "./bangaloreProjectsRegistry.js";
 import { NOIDA_PROJECT_COORDINATES } from "./noidaProjectsRegistry.js";
 import { PUNE_PROJECT_COORDINATES } from "./puneProjectsRegistry.js";
 import { HYDERABAD_PROJECT_COORDINATES } from "./hyderabadProjectsRegistry.js";
+import { CHENNAI_PROJECT_COORDINATES } from "./chennaiProjectsRegistry.js";
 
 // ─────────────────────────────────────────────
 // 1. Verified Coordinates Registry by Project Slug/ID
@@ -30,6 +31,7 @@ export const PROJECT_COORDINATES = {
   ...NOIDA_PROJECT_COORDINATES,
   ...PUNE_PROJECT_COORDINATES,
   ...HYDERABAD_PROJECT_COORDINATES,
+  ...CHENNAI_PROJECT_COORDINATES,
   // Reference Project: Sanpada, Navi Mumbai
   "godrej-eternal-palms": {
     lat: 19.0624,

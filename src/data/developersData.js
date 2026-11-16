@@ -13,6 +13,7 @@ import { CALICUT_REGISTRY_PROJECTS } from "./calicutProjectsRegistry.js";
 import { BANGALORE_REGISTRY_PROJECTS } from "./bangaloreProjectsRegistry.js";
 import { NOIDA_REGISTRY_PROJECTS } from "./noidaProjectsRegistry.js";
 import { PUNE_REGISTRY_PROJECTS } from "./puneProjectsRegistry.js";
+import { CHENNAI_REGISTRY_PROJECTS } from "./chennaiProjectsRegistry.js";
 
 export const DEVELOPERS_DATA = [
   {
@@ -2083,6 +2084,60 @@ export function getDeveloperBySlug(slug) {
           ongoingCount: ongoing,
           upcomingCount: upcoming,
           projects: puneDevMatches
+        }
+      ]
+    };
+  }
+
+  // 2b. Synthesize developer profile dynamically from CHENNAI_REGISTRY_PROJECTS
+  const chennaiDevMatches = CHENNAI_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === normalized) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return bNorm === normSlug || bNorm.includes(normSlug) || normSlug.includes(bNorm);
+  });
+
+  if (chennaiDevMatches.length > 0) {
+    const builderName = chennaiDevMatches[0].builder;
+    const logo = chennaiDevMatches[0].builderLogo || "/images/logo/logo-emblem.png";
+    const ongoing = chennaiDevMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch"
+    ).length;
+    const upcoming = chennaiDevMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch"
+    ).length;
+
+    return {
+      id: normalized,
+      slug: chennaiDevMatches[0].developerSlug || normalized,
+      name: builderName,
+      logo: logo,
+      tagline: `Premier Residential Communities Across Chennai`,
+      experience: "20+ Years",
+      projectCount: `${chennaiDevMatches.length}+ Projects`,
+      established: "2005",
+      aboutUs: chennaiDevMatches[0].builderDescription || `${builderName} is a leading real estate developer delivering quality homes across Chennai.`,
+      description: chennaiDevMatches[0].builderDescription || `${builderName} develops high-grade residential and commercial communities across Chennai with TNRERA compliance and modern architectural standards.`,
+      stats: [
+        { label: "Active Projects", value: `${chennaiDevMatches.length}+` },
+        { label: "Location", value: "Chennai, Tamil Nadu" },
+        { label: "TNRERA Compliant", value: "100%" },
+        { label: "Brokerage", value: "0%" }
+      ],
+      featuredProjects: chennaiDevMatches.slice(0, 3).map((p) => ({
+        title: p.name,
+        location: p.location,
+        price: p.price === "On Request" ? "On Request" : `₹${p.price}*`,
+        image: p.images?.[0] || "/images/placeholder-property.jpg",
+        slug: p.slug
+      })),
+      cities: [
+        {
+          name: "Chennai",
+          citySlug: "chennai",
+          ongoingCount: ongoing,
+          upcomingCount: upcoming,
+          projects: chennaiDevMatches
         }
       ]
     };

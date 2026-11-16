@@ -15,6 +15,7 @@ import { BANGALORE_REGISTRY_PROJECTS } from "./bangaloreProjectsRegistry.js";
 import { NOIDA_REGISTRY_PROJECTS } from "./noidaProjectsRegistry.js";
 import { PUNE_REGISTRY_PROJECTS } from "./puneProjectsRegistry.js";
 import { HYDERABAD_REGISTRY_PROJECTS } from "./hyderabadProjectsRegistry.js";
+import { CHENNAI_REGISTRY_PROJECTS } from "./chennaiProjectsRegistry.js";
 
 export const CITY_DETAILS = {
   mumbai: {
@@ -211,8 +212,8 @@ export const CITY_DETAILS = {
     name: "Chennai",
     state: "Tamil Nadu",
     tagline: "Gateway of South India & Automotive / IT Capital",
-    heroImage: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1600&q=80",
-    projectsCount: 760,
+    heroImage: "/projects/17864/cover.jpg",
+    projectsCount: 159,
     avgPriceSqFt: "₹7,800",
     appreciationRate: "+9.8% YoY",
     rentalYield: "3.9% p.a.",
@@ -220,11 +221,16 @@ export const CITY_DETAILS = {
     stampDuty: "7% + 4% Registration",
     description: "Chennai features stable end-user driven growth, coastal lifestyle along ECR, and high-density tech development across Old Mahabalipuram Road (OMR).",
     localities: [
-      { name: "OMR", avgPrice: "₹6,800 / sq.ft", projects: 110, tag: "IT Expressway" },
-      { name: "ECR", avgPrice: "₹12,400 / sq.ft", projects: 45, tag: "Coastal Villas" },
-      { name: "Anna Nagar", avgPrice: "₹16,500 / sq.ft", projects: 38, tag: "Prime Residential" },
-      { name: "Velachery", avgPrice: "₹8,900 / sq.ft", projects: 54, tag: "Metro Connected" },
-      { name: "Porur", avgPrice: "₹7,200 / sq.ft", projects: 62, tag: "Industrial Hub" }
+      { name: "Sholinganallur", avgPrice: "₹7,400 / sq.ft", projects: 9, tag: "IT & Tech Hub" },
+      { name: "Medavakkam", avgPrice: "₹6,900 / sq.ft", projects: 8, tag: "Central Transit" },
+      { name: "Madhavaram", avgPrice: "₹5,800 / sq.ft", projects: 8, tag: "North Growth Belt" },
+      { name: "Tambaram", avgPrice: "₹6,200 / sq.ft", projects: 7, tag: "Southern Metro Hub" },
+      { name: "Kelambakkam", avgPrice: "₹5,200 / sq.ft", projects: 6, tag: "OMR Extension" },
+      { name: "Pallavaram", avgPrice: "₹7,100 / sq.ft", projects: 6, tag: "Airport Proximity" },
+      { name: "Ottiyambakkam", avgPrice: "₹5,600 / sq.ft", projects: 4, tag: "Emerging Residential" },
+      { name: "Perumbakkam", avgPrice: "₹6,400 / sq.ft", projects: 4, tag: "Lakeview Enclave" },
+      { name: "OMR", avgPrice: "₹6,800 / sq.ft", projects: 4, tag: "IT Expressway" },
+      { name: "Mylapore", avgPrice: "₹18,500 / sq.ft", projects: 3, tag: "Legacy Prime" }
     ],
     faqs: [
       {
@@ -658,6 +664,7 @@ export const CITY_PROPERTIES = {
   trivandrum: TRIVANDRUM_REGISTRY_PROJECTS,
   calicut: CALICUT_REGISTRY_PROJECTS,
   noida: NOIDA_REGISTRY_PROJECTS,
+  chennai: CHENNAI_REGISTRY_PROJECTS,
 
   gurugram: [
     {
