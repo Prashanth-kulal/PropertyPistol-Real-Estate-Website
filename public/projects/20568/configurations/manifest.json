@@ -1,7 +1,7 @@
 {
   "projectId": 20568,
   "slug": "asset-vismayam-sasthamangalam-pid-20568",
-  "name": "Asset Vismayam ",
+  "name": "Asset Vismayam",
   "city": "trivandrum",
   "officialSourceUrl": "https://www.propertypistol.com/projects/asset-vismayam-sasthamangalam-pid-20568",
   "verificationStatus": "VERIFIED",
@@ -16,55 +16,64 @@
       "id": 1,
       "title": "Layout / Site Plan 1",
       "path": "/projects/20568/configurations/site-plans/site-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8790/original/gp-vis.png?1755508647"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8790/original/gp-vis.png?1755508647",
+      "downloaded": true
     },
     {
       "id": 2,
       "title": "Layout / Site Plan 2",
       "path": "/projects/20568/configurations/site-plans/site-plan-02.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8791/original/fp-vis.png?1755508648"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8791/original/fp-vis.png?1755508648",
+      "downloaded": true
     },
     {
       "id": 3,
       "title": "Layout / Site Plan 3",
       "path": "/projects/20568/configurations/site-plans/site-plan-03.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8792/original/2fp-vis.png?1755508648"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8792/original/2fp-vis.png?1755508648",
+      "downloaded": true
     },
     {
       "id": 4,
       "title": "Layout / Site Plan 4",
       "path": "/projects/20568/configurations/site-plans/site-plan-04.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8793/original/4fp-vis.png?1755508648"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8793/original/4fp-vis.png?1755508648",
+      "downloaded": true
     },
     {
       "id": 5,
       "title": "Layout / Site Plan 5",
       "path": "/projects/20568/configurations/site-plans/site-plan-05.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8794/original/5fp-vis.png?1755508648"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8794/original/5fp-vis.png?1755508648",
+      "downloaded": true
     },
     {
       "id": 6,
       "title": "Layout / Site Plan 6",
       "path": "/projects/20568/configurations/site-plans/site-plan-06.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8795/original/6fp-vis.png?1755508648"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8795/original/6fp-vis.png?1755508648",
+      "downloaded": true
     },
     {
       "id": 7,
       "title": "Layout / Site Plan 7",
       "path": "/projects/20568/configurations/site-plans/site-plan-07.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8796/original/7fp-vis.png?1755508648"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8796/original/7fp-vis.png?1755508648",
+      "downloaded": true
     },
     {
       "id": 8,
       "title": "Layout / Site Plan 8",
       "path": "/projects/20568/configurations/site-plans/site-plan-08.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8797/original/8fp-vis.png?1755508648"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8797/original/8fp-vis.png?1755508648",
+      "downloaded": true
     },
     {
       "id": 9,
       "title": "Layout / Site Plan 9",
       "path": "/projects/20568/configurations/site-plans/site-plan-09.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8798/original/9fp-vis.png?1755508648"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8798/original/9fp-vis.png?1755508648",
+      "downloaded": true
     }
   ],
   "unitPlans": [
@@ -85,7 +94,9 @@
           "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/123491/original/3bhk-vis.png?1755508800",
           "threeDOriginalUrl": null,
           "has2D": true,
-          "has3D": false
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     },
@@ -106,7 +117,9 @@
           "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/123492/original/4bhk-vis.png?1755508801",
           "threeDOriginalUrl": null,
           "has2D": true,
-          "has3D": false
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         },
         {
           "id": 123494,
@@ -122,7 +135,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
