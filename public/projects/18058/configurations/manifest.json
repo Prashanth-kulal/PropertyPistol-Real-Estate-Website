@@ -1,7 +1,7 @@
 {
   "projectId": 18058,
   "slug": "brigade-atmosphere-devanahalli-pid-18058",
-  "name": "Brigade Atmosphere ",
+  "name": "Brigade Atmosphere",
   "city": "bangalore",
   "officialSourceUrl": "https://www.propertypistol.com/projects/brigade-atmosphere-devanahalli-pid-18058",
   "verificationStatus": "VERIFIED",
@@ -16,7 +16,8 @@
       "id": 1,
       "title": "Master Plan 1",
       "path": "/projects/18058/configurations/master-plans/master-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18058/original/570349b3593d2.jpeg?1728017625"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18058/original/570349b3593d2.jpeg?1728017625",
+      "downloaded": true
     }
   ],
   "sitePlans": [
@@ -24,7 +25,8 @@
       "id": 1,
       "title": "Layout / Site Plan 1",
       "path": "/projects/18058/configurations/site-plans/site-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9652/original/download_%2816%29.png?1787726839"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9652/original/download_%2816%29.png?1787726839",
+      "downloaded": true
     }
   ],
   "unitPlans": [
@@ -45,7 +47,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 87742,
@@ -61,7 +65,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -82,7 +88,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 127781,
@@ -98,7 +106,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

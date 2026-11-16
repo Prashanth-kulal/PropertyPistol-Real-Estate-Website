@@ -16,7 +16,8 @@
       "id": 1,
       "title": "Master Plan 1",
       "path": "/projects/14301/configurations/master-plans/master-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/14301/original/MASTER-PLAN-FINAL-scaled.jpg?1698688361"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/14301/original/MASTER-PLAN-FINAL-scaled.jpg?1698688361",
+      "downloaded": true
     }
   ],
   "sitePlans": [
@@ -24,13 +25,15 @@
       "id": 1,
       "title": "Layout / Site Plan 1",
       "path": "/projects/14301/configurations/site-plans/site-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4826/original/West_FACING_SECOND_FLOOR.jpg?1698688362"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4826/original/West_FACING_SECOND_FLOOR.jpg?1698688362",
+      "downloaded": true
     },
     {
       "id": 2,
       "title": "Layout / Site Plan 2",
       "path": "/projects/14301/configurations/site-plans/site-plan-02.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4842/original/EAST_FACING_FIRST_FLOOR.jpg?1698688362"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4842/original/EAST_FACING_FIRST_FLOOR.jpg?1698688362",
+      "downloaded": true
     }
   ],
   "unitPlans": [
@@ -51,7 +54,9 @@
           "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/44367/original/4bhkvilla_2d.JPG?1698660581",
           "threeDOriginalUrl": null,
           "has2D": true,
-          "has3D": false
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     }

@@ -1,7 +1,7 @@
 {
   "projectId": 14386,
   "slug": "avani-abode-mandur-pid-14386",
-  "name": "Avani Abode ",
+  "name": "Avani Abode",
   "city": "bangalore",
   "officialSourceUrl": "https://www.propertypistol.com/projects/avani-abode-mandur-pid-14386",
   "verificationStatus": "VERIFIED",
@@ -15,7 +15,8 @@
       "id": 1,
       "title": "Master Plan 1",
       "path": "/projects/14386/configurations/master-plans/master-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/14386/original/IMG_20231103_152653.jpg?1699005482"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/14386/original/IMG_20231103_152653.jpg?1699005482",
+      "downloaded": true
     }
   ],
   "sitePlans": [],
@@ -37,7 +38,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

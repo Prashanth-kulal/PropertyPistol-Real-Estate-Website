@@ -16,7 +16,8 @@
       "id": 1,
       "title": "Master Plan 1",
       "path": "/projects/19809/configurations/master-plans/master-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19809/original/master-plan-vbhc.jpg?1746258879"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19809/original/master-plan-vbhc.jpg?1746258879",
+      "downloaded": true
     }
   ],
   "sitePlans": [
@@ -24,25 +25,29 @@
       "id": 1,
       "title": "Layout / Site Plan 1",
       "path": "/projects/19809/configurations/site-plans/site-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7867/original/floorplan-1-vbhc.jpg?1746258882"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7867/original/floorplan-1-vbhc.jpg?1746258882",
+      "downloaded": true
     },
     {
       "id": 2,
       "title": "Layout / Site Plan 2",
       "path": "/projects/19809/configurations/site-plans/site-plan-02.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7868/original/floorplan-2-vbhc.jpg?1746258882"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7868/original/floorplan-2-vbhc.jpg?1746258882",
+      "downloaded": true
     },
     {
       "id": 3,
       "title": "Layout / Site Plan 3",
       "path": "/projects/19809/configurations/site-plans/site-plan-03.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7869/original/grand-floorplan.jpg?1746258882"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7869/original/grand-floorplan.jpg?1746258882",
+      "downloaded": true
     },
     {
       "id": 4,
       "title": "Layout / Site Plan 4",
       "path": "/projects/19809/configurations/site-plans/site-plan-04.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7870/original/clubhouse-plan.jpg?1746258882"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7870/original/clubhouse-plan.jpg?1746258882",
+      "downloaded": true
     }
   ],
   "unitPlans": [
@@ -63,7 +68,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

@@ -16,19 +16,22 @@
       "id": 1,
       "title": "Layout / Site Plan 1",
       "path": "/projects/16630/configurations/site-plans/site-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6310/original/floorplan.JPG?1716720436"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6310/original/floorplan.JPG?1716720436",
+      "downloaded": true
     },
     {
       "id": 2,
       "title": "Layout / Site Plan 2",
       "path": "/projects/16630/configurations/site-plans/site-plan-02.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6311/original/floorplan1.JPG?1716720437"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6311/original/floorplan1.JPG?1716720437",
+      "downloaded": true
     },
     {
       "id": 3,
       "title": "Layout / Site Plan 3",
       "path": "/projects/16630/configurations/site-plans/site-plan-03.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6312/original/floorplan2.JPG?1716720437"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6312/original/floorplan2.JPG?1716720437",
+      "downloaded": true
     }
   ],
   "unitPlans": [
@@ -49,7 +52,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -70,7 +75,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

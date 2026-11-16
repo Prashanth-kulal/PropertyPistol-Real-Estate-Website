@@ -1,7 +1,7 @@
 {
   "projectId": 15673,
   "slug": "amity-villas-mokila-pid-15673",
-  "name": "Amity Villas ",
+  "name": "Amity Villas",
   "city": "hyderabad",
   "officialSourceUrl": "https://www.propertypistol.com/projects/amity-villas-mokila-pid-15673",
   "verificationStatus": "VERIFIED",
@@ -15,7 +15,8 @@
       "id": 1,
       "title": "Master Plan 1",
       "path": "/projects/15673/configurations/master-plans/master-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/15673/original/cf64e746c7342b2.jpeg?1705672284"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/15673/original/cf64e746c7342b2.jpeg?1705672284",
+      "downloaded": true
     }
   ],
   "sitePlans": [],
@@ -37,7 +38,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 50286,
@@ -53,7 +56,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

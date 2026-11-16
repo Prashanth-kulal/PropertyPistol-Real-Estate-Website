@@ -1,7 +1,7 @@
 {
   "projectId": 5655,
   "slug": "ksrs-2getherments-miyapur-pid-5655",
-  "name": "KSRs 2Getherments ",
+  "name": "KSRs 2Getherments",
   "city": "hyderabad",
   "officialSourceUrl": "https://www.propertypistol.com/projects/ksrs-2getherments-miyapur-pid-5655",
   "verificationStatus": "VERIFIED",
@@ -29,7 +29,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 18085,
@@ -45,7 +47,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 18089,
@@ -61,7 +65,9 @@
           "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/18089/original/fs.jpeg?1751975964",
           "threeDOriginalUrl": null,
           "has2D": true,
-          "has3D": false
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         },
         {
           "id": 81271,
@@ -77,7 +83,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

@@ -16,7 +16,8 @@
       "id": 1,
       "title": "Master Plan 1",
       "path": "/projects/8380/configurations/master-plans/master-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/8380/original/download_%285%29.png?1766815600"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/8380/original/download_%285%29.png?1766815600",
+      "downloaded": true
     }
   ],
   "sitePlans": [
@@ -24,37 +25,43 @@
       "id": 1,
       "title": "Layout / Site Plan 1",
       "path": "/projects/8380/configurations/site-plans/site-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9118/original/download_%287%29.png?1766815602"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9118/original/download_%287%29.png?1766815602",
+      "downloaded": true
     },
     {
       "id": 2,
       "title": "Layout / Site Plan 2",
       "path": "/projects/8380/configurations/site-plans/site-plan-02.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9119/original/download_%288%29.png?1766815602"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9119/original/download_%288%29.png?1766815602",
+      "downloaded": true
     },
     {
       "id": 3,
       "title": "Layout / Site Plan 3",
       "path": "/projects/8380/configurations/site-plans/site-plan-03.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9120/original/download_%289%29.png?1766815602"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9120/original/download_%289%29.png?1766815602",
+      "downloaded": true
     },
     {
       "id": 4,
       "title": "Layout / Site Plan 4",
       "path": "/projects/8380/configurations/site-plans/site-plan-04.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9121/original/download_%2810%29.png?1766815602"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9121/original/download_%2810%29.png?1766815602",
+      "downloaded": true
     },
     {
       "id": 5,
       "title": "Layout / Site Plan 5",
       "path": "/projects/8380/configurations/site-plans/site-plan-05.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9122/original/download_%2811%29.png?1766815603"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9122/original/download_%2811%29.png?1766815603",
+      "downloaded": true
     },
     {
       "id": 6,
       "title": "Layout / Site Plan 6",
       "path": "/projects/8380/configurations/site-plans/site-plan-06.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9123/original/download_%286%29.png?1766815603"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9123/original/download_%286%29.png?1766815603",
+      "downloaded": true
     }
   ],
   "unitPlans": [
@@ -75,7 +82,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -96,7 +105,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

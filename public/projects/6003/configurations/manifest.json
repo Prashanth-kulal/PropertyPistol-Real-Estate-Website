@@ -1,7 +1,7 @@
 {
   "projectId": 6003,
   "slug": "mahendra-aarya-electronic-city-pid-6003",
-  "name": "Mahendra Aarya ",
+  "name": "Mahendra Aarya",
   "city": "bangalore",
   "officialSourceUrl": "https://www.propertypistol.com/projects/mahendra-aarya-electronic-city-pid-6003",
   "verificationStatus": "VERIFIED",
@@ -15,7 +15,8 @@
       "id": 1,
       "title": "Master Plan 1",
       "path": "/projects/6003/configurations/master-plans/master-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/6003/original/download_%283%29.png?1712746823"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/6003/original/download_%283%29.png?1712746823",
+      "downloaded": true
     }
   ],
   "sitePlans": [],
@@ -37,7 +38,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -58,7 +61,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

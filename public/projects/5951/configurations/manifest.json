@@ -1,7 +1,7 @@
 {
   "projectId": 5951,
   "slug": "gvk-sky-city-somajiguda-pid-5951",
-  "name": "GVK Sky City ",
+  "name": "GVK Sky City",
   "city": "hyderabad",
   "officialSourceUrl": "https://www.propertypistol.com/projects/gvk-sky-city-somajiguda-pid-5951",
   "verificationStatus": "VERIFIED",
@@ -16,7 +16,8 @@
       "id": 1,
       "title": "Master Plan 1",
       "path": "/projects/5951/configurations/master-plans/master-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/5951/original/masterplan-GVK.jpg?1700637754"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/5951/original/masterplan-GVK.jpg?1700637754",
+      "downloaded": true
     }
   ],
   "sitePlans": [
@@ -24,7 +25,8 @@
       "id": 1,
       "title": "Layout / Site Plan 1",
       "path": "/projects/5951/configurations/site-plans/site-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5080/original/Floor-Plan-Block-ABC-GVK.jpg?1700637755"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5080/original/Floor-Plan-Block-ABC-GVK.jpg?1700637755",
+      "downloaded": true
     }
   ],
   "unitPlans": [
@@ -45,7 +47,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

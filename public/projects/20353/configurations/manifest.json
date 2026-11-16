@@ -1,7 +1,7 @@
 {
   "projectId": 20353,
   "slug": "marams-mihira-pocharam-pid-20353",
-  "name": "Marams Mihira ",
+  "name": "Marams Mihira",
   "city": "hyderabad",
   "officialSourceUrl": "https://www.propertypistol.com/projects/marams-mihira-pocharam-pid-20353",
   "verificationStatus": "VERIFIED",
@@ -16,7 +16,8 @@
       "id": 1,
       "title": "Master Plan 1",
       "path": "/projects/20353/configurations/master-plans/master-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/20353/original/IMG_20250729_111901.png?1753768192"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/20353/original/IMG_20250729_111901.png?1753768192",
+      "downloaded": true
     }
   ],
   "sitePlans": [
@@ -24,7 +25,8 @@
       "id": 1,
       "title": "Layout / Site Plan 1",
       "path": "/projects/20353/configurations/site-plans/site-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8647/original/d1e32375-afb8-4188-b0e4-5400c63e1a81.png?1753768550"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8647/original/d1e32375-afb8-4188-b0e4-5400c63e1a81.png?1753768550",
+      "downloaded": true
     }
   ],
   "unitPlans": [
@@ -45,7 +47,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -66,7 +70,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

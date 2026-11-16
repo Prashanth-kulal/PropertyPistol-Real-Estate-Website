@@ -1,7 +1,7 @@
 {
   "projectId": 11530,
   "slug": "heven-of-joy-kumbalgodu-pid-11530",
-  "name": "Heven of Joy ",
+  "name": "Heven of Joy",
   "city": "bangalore",
   "officialSourceUrl": "https://www.propertypistol.com/projects/heven-of-joy-kumbalgodu-pid-11530",
   "verificationStatus": "VERIFIED",
@@ -29,7 +29,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/37165/original/1bhk.jpg?1739531565",
           "has2D": false,
-          "has3D": true
+          "has3D": true,
+          "downloaded": false,
+          "downloaded3D": true
         }
       ]
     },
@@ -50,7 +52,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

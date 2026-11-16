@@ -1,7 +1,7 @@
 {
   "projectId": 5320,
   "slug": "syamantaka-emrald-height-bachupally-pid-5320",
-  "name": "Syamantaka Emrald Height ",
+  "name": "Syamantaka Emrald Height",
   "city": "hyderabad",
   "officialSourceUrl": "https://www.propertypistol.com/projects/syamantaka-emrald-height-bachupally-pid-5320",
   "verificationStatus": "VERIFIED",
@@ -16,7 +16,8 @@
       "id": 1,
       "title": "Master Plan 1",
       "path": "/projects/5320/configurations/master-plans/master-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/5320/original/87b858c73c6895c2afb479f48a60e2c1.png?1755845037"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/5320/original/87b858c73c6895c2afb479f48a60e2c1.png?1755845037",
+      "downloaded": true
     }
   ],
   "sitePlans": [
@@ -24,7 +25,8 @@
       "id": 1,
       "title": "Layout / Site Plan 1",
       "path": "/projects/5320/configurations/site-plans/site-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8810/original/7d97d72e496c5d87aeccba1fb9aa8a5f.png?1755845038"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8810/original/7d97d72e496c5d87aeccba1fb9aa8a5f.png?1755845038",
+      "downloaded": true
     }
   ],
   "unitPlans": [
@@ -45,7 +47,9 @@
           "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/17374/original/4ef5874f-ad18-4af3-899b-a48d664cb0dd.png?1763711558",
           "threeDOriginalUrl": null,
           "has2D": true,
-          "has3D": false
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     },
@@ -66,7 +70,9 @@
           "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/98487/original/2a6f1055-aab6-42be-8dab-737dc5faf8df.png?1763711558",
           "threeDOriginalUrl": null,
           "has2D": true,
-          "has3D": false
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     }

@@ -1,7 +1,7 @@
 {
   "projectId": 16206,
   "slug": "lansum-elena-kokapet-pid-16206",
-  "name": "Lansum Elena ",
+  "name": "Lansum Elena",
   "city": "hyderabad",
   "officialSourceUrl": "https://www.propertypistol.com/projects/lansum-elena-kokapet-pid-16206",
   "verificationStatus": "VERIFIED",
@@ -16,7 +16,8 @@
       "id": 1,
       "title": "Layout / Site Plan 1",
       "path": "/projects/16206/configurations/site-plans/site-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6160/original/floor_plan_elena.png?1714409830"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6160/original/floor_plan_elena.png?1714409830",
+      "downloaded": true
     }
   ],
   "unitPlans": [
@@ -37,7 +38,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 75821,
@@ -53,7 +56,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

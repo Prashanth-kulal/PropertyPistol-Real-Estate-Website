@@ -1,7 +1,7 @@
 {
   "projectId": 6645,
   "slug": "sunyuga-blossom-kompally-pid-6645",
-  "name": "Sunyuga Blossom ",
+  "name": "Sunyuga Blossom",
   "city": "hyderabad",
   "officialSourceUrl": "https://www.propertypistol.com/projects/sunyuga-blossom-kompally-pid-6645",
   "verificationStatus": "VERIFIED",
@@ -16,7 +16,8 @@
       "id": 1,
       "title": "Layout / Site Plan 1",
       "path": "/projects/6645/configurations/site-plans/site-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8114/original/fp-sun.png?1747921735"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8114/original/fp-sun.png?1747921735",
+      "downloaded": true
     }
   ],
   "unitPlans": [
@@ -37,7 +38,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

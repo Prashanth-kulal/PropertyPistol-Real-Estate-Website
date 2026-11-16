@@ -16,7 +16,8 @@
       "id": 1,
       "title": "Master Plan 1",
       "path": "/projects/16615/configurations/master-plans/master-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16615/original/masterplan.JPG?1716627869"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16615/original/masterplan.JPG?1716627869",
+      "downloaded": true
     }
   ],
   "sitePlans": [
@@ -24,31 +25,36 @@
       "id": 1,
       "title": "Layout / Site Plan 1",
       "path": "/projects/16615/configurations/site-plans/site-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6301/original/floorplan1.JPG?1716627869"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6301/original/floorplan1.JPG?1716627869",
+      "downloaded": true
     },
     {
       "id": 2,
       "title": "Layout / Site Plan 2",
       "path": "/projects/16615/configurations/site-plans/site-plan-02.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6302/original/floorplan2.JPG?1716627869"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6302/original/floorplan2.JPG?1716627869",
+      "downloaded": true
     },
     {
       "id": 3,
       "title": "Layout / Site Plan 3",
       "path": "/projects/16615/configurations/site-plans/site-plan-03.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6303/original/floorplan3.JPG?1716627869"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6303/original/floorplan3.JPG?1716627869",
+      "downloaded": true
     },
     {
       "id": 4,
       "title": "Layout / Site Plan 4",
       "path": "/projects/16615/configurations/site-plans/site-plan-04.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6304/original/floorplan4.JPG?1716627869"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6304/original/floorplan4.JPG?1716627869",
+      "downloaded": true
     },
     {
       "id": 5,
       "title": "Layout / Site Plan 5",
       "path": "/projects/16615/configurations/site-plans/site-plan-05.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6305/original/floorplan5.JPG?1716627869"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6305/original/floorplan5.JPG?1716627869",
+      "downloaded": true
     }
   ],
   "unitPlans": [
@@ -69,7 +75,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/63864/original/2bhk_3d.JPG?1716627869",
           "has2D": false,
-          "has3D": true
+          "has3D": true,
+          "downloaded": false,
+          "downloaded3D": true
         }
       ]
     },
@@ -90,7 +98,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

@@ -1,7 +1,7 @@
 {
   "projectId": 13194,
   "slug": "rubrick-tulip-tukkuguda-pid-13194",
-  "name": "Rubrick Tulip ",
+  "name": "Rubrick Tulip",
   "city": "hyderabad",
   "officialSourceUrl": "https://www.propertypistol.com/projects/rubrick-tulip-tukkuguda-pid-13194",
   "verificationStatus": "VERIFIED",
@@ -15,7 +15,8 @@
       "id": 1,
       "title": "Master Plan 1",
       "path": "/projects/13194/configurations/master-plans/master-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13194/original/mainplan.jpg?1691061643"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13194/original/mainplan.jpg?1691061643",
+      "downloaded": true
     }
   ],
   "sitePlans": [],
@@ -37,7 +38,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -58,7 +61,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

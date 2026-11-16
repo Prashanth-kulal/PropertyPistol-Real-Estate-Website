@@ -1,7 +1,7 @@
 {
   "projectId": 17971,
   "slug": "vainavi-celestium-j-p-nagar-pid-17971",
-  "name": "Vainavi Celestium ",
+  "name": "Vainavi Celestium",
   "city": "bangalore",
   "officialSourceUrl": "https://www.propertypistol.com/projects/vainavi-celestium-j-p-nagar-pid-17971",
   "verificationStatus": "VERIFIED",
@@ -16,7 +16,8 @@
       "id": 1,
       "title": "Master Plan 1",
       "path": "/projects/17971/configurations/master-plans/master-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/17971/original/download_%2830%29.png?1790580165"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/17971/original/download_%2830%29.png?1790580165",
+      "downloaded": true
     }
   ],
   "sitePlans": [
@@ -24,7 +25,8 @@
       "id": 1,
       "title": "Layout / Site Plan 1",
       "path": "/projects/17971/configurations/site-plans/site-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9722/original/download_%2831%29.png?1790580165"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9722/original/download_%2831%29.png?1790580165",
+      "downloaded": true
     }
   ],
   "unitPlans": [
@@ -45,7 +47,9 @@
           "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/86878/original/download_%2833%29.png?1790580165",
           "threeDOriginalUrl": null,
           "has2D": true,
-          "has3D": false
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     }

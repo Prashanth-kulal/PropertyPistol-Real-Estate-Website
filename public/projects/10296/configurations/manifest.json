@@ -1,7 +1,7 @@
 {
   "projectId": 10296,
   "slug": "vasavi-atlantis-manikonda-pid-10296",
-  "name": "Vasavi Atlantis ",
+  "name": "Vasavi Atlantis",
   "city": "hyderabad",
   "officialSourceUrl": "https://www.propertypistol.com/projects/vasavi-atlantis-manikonda-pid-10296",
   "verificationStatus": "VERIFIED",
@@ -15,7 +15,8 @@
       "id": 1,
       "title": "Master Plan 1",
       "path": "/projects/10296/configurations/master-plans/master-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/10296/original/download_-_2025-12-24T120930.567.png?1766558589"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/10296/original/download_-_2025-12-24T120930.567.png?1766558589",
+      "downloaded": true
     }
   ],
   "sitePlans": [],
@@ -37,7 +38,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -58,7 +61,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

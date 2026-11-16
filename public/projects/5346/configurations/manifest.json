@@ -1,7 +1,7 @@
 {
   "projectId": 5346,
   "slug": "abhirama-super-homes-lb-nagar-pid-5346",
-  "name": "Abhirama Super Homes ",
+  "name": "Abhirama Super Homes",
   "city": "hyderabad",
   "officialSourceUrl": "https://www.propertypistol.com/projects/abhirama-super-homes-lb-nagar-pid-5346",
   "verificationStatus": "VERIFIED",
@@ -16,13 +16,15 @@
       "id": 1,
       "title": "Layout / Site Plan 1",
       "path": "/projects/5346/configurations/site-plans/site-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8099/original/fp-su.png?1747906412"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8099/original/fp-su.png?1747906412",
+      "downloaded": true
     },
     {
       "id": 2,
       "title": "Layout / Site Plan 2",
       "path": "/projects/5346/configurations/site-plans/site-plan-02.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8100/original/fp-su2.png?1747906412"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8100/original/fp-su2.png?1747906412",
+      "downloaded": true
     }
   ],
   "unitPlans": [
@@ -43,7 +45,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -64,7 +68,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 17441,
@@ -80,7 +86,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 63349,
@@ -96,7 +104,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
           "id": 17439,
@@ -112,7 +122,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

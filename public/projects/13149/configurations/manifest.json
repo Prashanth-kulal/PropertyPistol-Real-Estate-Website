@@ -1,7 +1,7 @@
 {
   "projectId": 13149,
   "slug": "lumbini-elysee-financial-district-pid-13149",
-  "name": "Lumbini Elysee ",
+  "name": "Lumbini Elysee",
   "city": "hyderabad",
   "officialSourceUrl": "https://www.propertypistol.com/projects/lumbini-elysee-financial-district-pid-13149",
   "verificationStatus": "VERIFIED",
@@ -15,7 +15,8 @@
       "id": 1,
       "title": "Master Plan 1",
       "path": "/projects/13149/configurations/master-plans/master-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13149/original/cf649172b5d459a.jpeg?1690955919"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13149/original/cf649172b5d459a.jpeg?1690955919",
+      "downloaded": true
     }
   ],
   "sitePlans": [],
@@ -37,7 +38,9 @@
           "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/111979/original/3bhk-lum.png?1746855261",
           "threeDOriginalUrl": null,
           "has2D": true,
-          "has3D": false
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     },
@@ -58,7 +61,9 @@
           "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/111983/original/4bhk-lum.png?1746855261",
           "threeDOriginalUrl": null,
           "has2D": true,
-          "has3D": false
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     }

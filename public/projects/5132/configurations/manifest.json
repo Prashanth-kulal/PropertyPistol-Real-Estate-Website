@@ -1,7 +1,7 @@
 {
   "projectId": 5132,
   "slug": "total-environment-in-that-quiet-earth-hennur-road-pid-5132",
-  "name": "Total Environment In That Quiet Earth ",
+  "name": "Total Environment In That Quiet Earth",
   "city": "bangalore",
   "officialSourceUrl": "https://www.propertypistol.com/projects/total-environment-in-that-quiet-earth-hennur-road-pid-5132",
   "verificationStatus": "VERIFIED",
@@ -16,7 +16,8 @@
       "id": 1,
       "title": "Master Plan 1",
       "path": "/projects/5132/configurations/master-plans/master-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/5132/original/mp.png?1638777546"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/5132/original/mp.png?1638777546",
+      "downloaded": true
     }
   ],
   "sitePlans": [
@@ -24,7 +25,8 @@
       "id": 1,
       "title": "Layout / Site Plan 1",
       "path": "/projects/5132/configurations/site-plans/site-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2541/original/fp.png?1638777547"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2541/original/fp.png?1638777547",
+      "downloaded": true
     }
   ],
   "unitPlans": [
@@ -45,7 +47,9 @@
           "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/16939/original/3.png?1638777546",
           "threeDOriginalUrl": null,
           "has2D": true,
-          "has3D": false
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         },
         {
           "id": 134109,
@@ -61,7 +65,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

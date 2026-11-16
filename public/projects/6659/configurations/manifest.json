@@ -1,7 +1,7 @@
 {
   "projectId": 6659,
   "slug": "modi-nilgiri-heights-patancheru-pid-6659",
-  "name": "Modi Nilgiri Heights ",
+  "name": "Modi Nilgiri Heights",
   "city": "hyderabad",
   "officialSourceUrl": "https://www.propertypistol.com/projects/modi-nilgiri-heights-patancheru-pid-6659",
   "verificationStatus": "VERIFIED",
@@ -15,7 +15,8 @@
       "id": 1,
       "title": "Master Plan 1",
       "path": "/projects/6659/configurations/master-plans/master-plan-01.webp",
-      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/6659/original/mp-nil.png?1747920689"
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/6659/original/mp-nil.png?1747920689",
+      "downloaded": true
     }
   ],
   "sitePlans": [],
@@ -37,7 +38,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
