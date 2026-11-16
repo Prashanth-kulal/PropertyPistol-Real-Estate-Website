@@ -88,6 +88,47 @@ export default function RailNetworkMap({
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
+  // Center on a station when selected
+  const handleSelectStation = (station) => {
+    setSelectedStation(station);
+    setShowSearchDropdown(false);
+    setSearchQuery(station.name);
+
+    if (station.position) {
+      const targetScale = Math.max(scale, 1.4);
+      setScale(targetScale);
+      const targetX = 660 - station.position.x * targetScale;
+      const targetY = 500 - station.position.y * targetScale;
+      setPan({ x: targetX, y: targetY });
+    }
+  };
+
+  // Center and connect when a project is selected
+  const handleSelectProject = (project) => {
+    setSelectedProject(project);
+
+    // Get coordinates from PROJECT_COORDINATES or project lat/lng directly
+    const coords =
+      PROJECT_COORDINATES[project.id] ||
+      PROJECT_COORDINATES[project.slug] ||
+      (project.name && PROJECT_COORDINATES[project.name.toLowerCase().replace(/[^a-z0-9]/g, "-")]) ||
+      (project.lat && project.lng ? { lat: project.lat, lng: project.lng } : null);
+
+    if (coords && coords.lat && coords.lng) {
+      const nearest = getNearestStationForCoordinates(coords.lat, coords.lng, currentCityKey);
+      if (nearest?.station) {
+        setSelectedStation(nearest.station);
+        if (nearest.station.position) {
+          const targetScale = Math.max(scale, 1.4);
+          setScale(targetScale);
+          const targetX = 660 - nearest.station.position.x * targetScale;
+          const targetY = 500 - nearest.station.position.y * targetScale;
+          setPan({ x: targetX, y: targetY });
+        }
+      }
+    }
+  };
+
   // Read URL query params on load (e.g. ?station=dadar or ?project=proj-1)
   useEffect(() => {
     const stationQuery = searchParams?.get("station") || initialStationId;
@@ -133,47 +174,6 @@ export default function RailNetworkMap({
       )
       .slice(0, 8);
   }, [searchQuery, network]);
-
-  // Center on a station when selected
-  const handleSelectStation = (station) => {
-    setSelectedStation(station);
-    setShowSearchDropdown(false);
-    setSearchQuery(station.name);
-
-    if (station.position) {
-      const targetScale = Math.max(scale, 1.4);
-      setScale(targetScale);
-      const targetX = 660 - station.position.x * targetScale;
-      const targetY = 500 - station.position.y * targetScale;
-      setPan({ x: targetX, y: targetY });
-    }
-  };
-
-  // Center and connect when a project is selected
-  const handleSelectProject = (project) => {
-    setSelectedProject(project);
-
-    // Get coordinates from PROJECT_COORDINATES or project lat/lng directly
-    const coords =
-      PROJECT_COORDINATES[project.id] ||
-      PROJECT_COORDINATES[project.slug] ||
-      (project.name && PROJECT_COORDINATES[project.name.toLowerCase().replace(/[^a-z0-9]/g, "-")]) ||
-      (project.lat && project.lng ? { lat: project.lat, lng: project.lng } : null);
-
-    if (coords && coords.lat && coords.lng) {
-      const nearest = getNearestStationForCoordinates(coords.lat, coords.lng, currentCityKey);
-      if (nearest?.station) {
-        setSelectedStation(nearest.station);
-        if (nearest.station.position) {
-          const targetScale = Math.max(scale, 1.4);
-          setScale(targetScale);
-          const targetX = 660 - nearest.station.position.x * targetScale;
-          const targetY = 500 - nearest.station.position.y * targetScale;
-          setPan({ x: targetX, y: targetY });
-        }
-      }
-    }
-  };
 
   // Calculated distance info for the currently selected station & project
   const distanceInfo = useMemo(() => {

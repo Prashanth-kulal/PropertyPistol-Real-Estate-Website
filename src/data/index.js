@@ -11,10 +11,17 @@ import { TRIVANDRUM_REGISTRY_PROJECTS } from "./trivandrumProjectsRegistry.js";
 import { CALICUT_REGISTRY_PROJECTS } from "./calicutProjectsRegistry.js";
 import { BANGALORE_REGISTRY_PROJECTS } from "./bangaloreProjectsRegistry.js";
 import { NOIDA_REGISTRY_PROJECTS } from "./noidaProjectsRegistry.js";
+import { GURUGRAM_REGISTRY_PROJECTS } from "./gurugramProjectsRegistry.js";
+import { AHMEDABAD_REGISTRY_PROJECTS } from "./ahmedabadProjectsRegistry.js";
+import { LUCKNOW_REGISTRY_PROJECTS } from "./lucknowProjectsRegistry.js";
+import { KOLKATA_REGISTRY_PROJECTS } from "./kolkataProjectsRegistry.js";
+import { CHENNAI_REGISTRY_PROJECTS } from "./chennaiProjectsRegistry.js";
+import { DUBAI_REGISTRY_PROJECTS } from "./dubaiProjectsRegistry.js";
+import { KOCHI_REGISTRY_PROJECTS } from "./kochiProjectsRegistry.js";
 import { PUNE_REGISTRY_PROJECTS } from "./puneProjectsRegistry.js";
 import { HYDERABAD_REGISTRY_PROJECTS } from "./hyderabadProjectsRegistry.js";
 
-export { MUMBAI_REGISTRY_PROJECTS, DELHI_REGISTRY_PROJECTS, GOA_REGISTRY_PROJECTS, COIMBATORE_REGISTRY_PROJECTS, NAGPUR_REGISTRY_PROJECTS, THRISSUR_REGISTRY_PROJECTS, TRIVANDRUM_REGISTRY_PROJECTS, CALICUT_REGISTRY_PROJECTS, BANGALORE_REGISTRY_PROJECTS, NOIDA_REGISTRY_PROJECTS, PUNE_REGISTRY_PROJECTS, HYDERABAD_REGISTRY_PROJECTS };
+export { MUMBAI_REGISTRY_PROJECTS, DELHI_REGISTRY_PROJECTS, GOA_REGISTRY_PROJECTS, COIMBATORE_REGISTRY_PROJECTS, NAGPUR_REGISTRY_PROJECTS, THRISSUR_REGISTRY_PROJECTS, TRIVANDRUM_REGISTRY_PROJECTS, CALICUT_REGISTRY_PROJECTS, BANGALORE_REGISTRY_PROJECTS, NOIDA_REGISTRY_PROJECTS, PUNE_REGISTRY_PROJECTS, HYDERABAD_REGISTRY_PROJECTS, GURUGRAM_REGISTRY_PROJECTS, AHMEDABAD_REGISTRY_PROJECTS, LUCKNOW_REGISTRY_PROJECTS, KOLKATA_REGISTRY_PROJECTS, CHENNAI_REGISTRY_PROJECTS, DUBAI_REGISTRY_PROJECTS, KOCHI_REGISTRY_PROJECTS };
 
 export const CITIES = [
   { id: "mumbai", name: "Mumbai", state: "Maharashtra", projectsCount: 2771, popular: true, image: "/projects/20550/cover.jpg" },
@@ -22,14 +29,14 @@ export const CITIES = [
   { id: "delhi", name: "Delhi NCR", state: "Delhi", projectsCount: 16, popular: true, image: "/projects/4709/cover.jpg" },
   { id: "bangalore", name: "Bangalore", state: "Karnataka", projectsCount: 799, popular: true, image: "/projects/19794/cover.jpg" },
   { id: "hyderabad", name: "Hyderabad", state: "Telangana", projectsCount: 720, popular: true, image: "/projects/20581/cover.jpg" },
-  { id: "chennai", name: "Chennai", state: "Tamil Nadu", projectsCount: 760, popular: true, image: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=80" },
-  { id: "gurugram", name: "Gurugram", state: "Haryana", projectsCount: 650, popular: true, image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80" },
+  { id: "chennai", name: "Chennai", state: "Tamil Nadu", projectsCount: 156, popular: true, image: "/projects/17864/cover.jpg" },
+  { id: "gurugram", name: "Gurugram", state: "Haryana", projectsCount: 180, popular: true, image: "/projects/17721/cover.jpg" },
   { id: "noida", name: "Noida", state: "Uttar Pradesh", projectsCount: 100, popular: true, image: "/projects/15680/cover.jpg" },
-  { id: "kolkata", name: "Kolkata", state: "West Bengal", projectsCount: 540, popular: true, image: "https://images.unsplash.com/photo-1558431382-27e303142255?auto=format&fit=crop&w=800&q=80" },
-  { id: "ahmedabad", name: "Ahmedabad", state: "Gujarat", projectsCount: 490, popular: true, image: "https://images.unsplash.com/photo-1609137144822-26d24fc6170c?auto=format&fit=crop&w=800&q=80" },
-  { id: "dubai", name: "Dubai", state: "UAE", projectsCount: 320, popular: true, image: "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=80" },
-  { id: "lucknow", name: "Lucknow", state: "Uttar Pradesh", projectsCount: 290, popular: false, image: "https://images.unsplash.com/photo-1629853692882-990a424ca6b8?auto=format&fit=crop&w=800&q=80" },
-  { id: "kochi", name: "Kochi", state: "Kerala", projectsCount: 210, popular: false, image: "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&w=800&q=80" },
+  { id: "kolkata", name: "Kolkata", state: "West Bengal", projectsCount: 444, popular: true, image: "/projects/19014/cover.jpg" },
+  { id: "ahmedabad", name: "Ahmedabad", state: "Gujarat", projectsCount: 255, popular: true, image: "/projects/22210/cover.jpg" },
+  { id: "dubai", name: "Dubai", state: "UAE", projectsCount: 514, popular: true, image: "/projects/18232/cover.jpg" },
+  { id: "lucknow", name: "Lucknow", state: "Uttar Pradesh", projectsCount: 91, popular: true, image: "/projects/17998/cover.jpg" },
+  { id: "kochi", name: "Kochi", state: "Kerala", projectsCount: 28, popular: true, image: "/projects/11928/cover.jpg" },
   { id: "goa", name: "Goa", state: "Goa", projectsCount: 48, popular: false, image: "/projects/17853/cover.jpg" },
   { id: "coimbatore", name: "Coimbatore", state: "Tamil Nadu", projectsCount: 79, popular: false, image: "/projects/17588/cover.jpg" },
   { id: "nagpur", name: "Nagpur", state: "Maharashtra", projectsCount: 128, popular: false, image: "/projects/17226/cover.jpg" },
@@ -75,6 +82,28 @@ export const NON_MUMBAI_PROJECTS = [
     features: ["Metro Attached", "Huge Mall Onsite", "World-class Sports"]
   },
   {
+    id: "proj-8",
+    name: "Godrej Woodsville",
+    builder: "Godrej Properties",
+    builderLogo: "https://images.unsplash.com/photo-1541888946425-d0fbb186f5f7?auto=format&fit=crop&w=120&h=120&q=80",
+    city: "pune",
+    location: "Hinjewadi Phase 1, Pune",
+    price: "82.5 Lacs",
+    priceNumeric: 8250000,
+    avgPrice: "₹9.2 K / sq.ft",
+    flatTypes: "1 BHK, 2 BHK, 3 BHK",
+    carpetArea: "512 - 980 sq.ft",
+    status: "Under Construction",
+    rera: "P52100046729",
+    tag: "Popular",
+    rating: 4.7,
+    images: [
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=900&q=80"
+    ],
+    features: ["IT Park Adjacent", "Sky Walk", "Organic Garden"]
+  },
+  {
     id: "proj-9",
     name: "DLF The Arbour",
     builder: "DLF Limited",
@@ -109,11 +138,56 @@ export const PROJECTS = [
   ...CALICUT_REGISTRY_PROJECTS,
   ...BANGALORE_REGISTRY_PROJECTS,
   ...NOIDA_REGISTRY_PROJECTS,
+  ...GURUGRAM_REGISTRY_PROJECTS,
+  ...AHMEDABAD_REGISTRY_PROJECTS,
+  ...LUCKNOW_REGISTRY_PROJECTS,
+  ...KOLKATA_REGISTRY_PROJECTS,
+  ...CHENNAI_REGISTRY_PROJECTS,
+  ...DUBAI_REGISTRY_PROJECTS,
   ...PUNE_REGISTRY_PROJECTS,
   ...HYDERABAD_REGISTRY_PROJECTS,
   ...NON_MUMBAI_PROJECTS
 ];
 export const EXCLUSIVE_PROJECTS = [
+  {
+    id: "danube-bayz-102",
+    slug: "danube-bayz-102-business-bay-pid-18232",
+    name: "Danube Bayz 102",
+    builder: "Danube Group",
+    city: "Dubai",
+    location: "Business Bay, Dubai",
+    priceRange: "AED 2.45 M onwards",
+    configuration: "1, 2, 3 & 4 Bedroom Luxury Residences",
+    image: "/projects/18232/cover.jpg",
+    badge: "Exclusive Launch",
+    description: "Iconic high-rise tower in Business Bay featuring luxury designer residences, panoramic Dubai Canal and skyline views, and 100+ world-class amenities."
+  },
+  {
+    id: "brigade-icon",
+    slug: "brigade-icon-mount-road-pid-17864",
+    name: "Brigade Icon",
+    builder: "Brigade Group",
+    city: "Chennai",
+    location: "Mount Road, Chennai",
+    priceRange: "₹7.62 Cr onwards",
+    configuration: "3 & 5 BHK Ultra Luxury Residences",
+    image: "/projects/17864/cover.jpg",
+    badge: "Exclusive Launch",
+    description: "Ultra-luxury gated community in the heart of Mount Road opposite Spencer Plaza, offering world-class urban sophistication and serene family-friendly living."
+  },
+  {
+    id: "srijan-palladina",
+    slug: "srijan-palladina-tangra-pid-19014",
+    name: "Srijan Palladina",
+    builder: "Srijan Realty",
+    city: "Kolkata",
+    location: "Tangra, Kolkata",
+    priceRange: "₹5.95 Cr onwards",
+    configuration: "4 BHK Ultra Luxury Residences",
+    image: "/projects/19014/cover.jpg",
+    badge: "Exclusive Launch",
+    description: "Ultra-luxury residences on JBS Haldane Avenue adjacent to ITC Royal Bengal, featuring 14+ acres of landscaped luxury and world-class amenities."
+  },
   {
     id: "godrej-south-estate-prima",
     slug: "godrej-south-estate-prima-4709",

@@ -2118,13 +2118,13 @@ function ProjectDetailContent() {
                       Starting Price
                     </span>
                     <div className="text-2xl sm:text-3xl font-black text-[#252525]">
-                      INR {project.price}
+                      {project.currency === "AED" || project.city === "dubai" ? "AED " : "INR "}{project.price}
                     </div>
                   </div>
                   <div className="text-right">
                     <span className="text-[10px] text-[#6B7280] block">Average Rate</span>
                     <span className="text-xs font-bold text-[#D29324]">
-                      INR {project.avgPrice || "33.48 K"}/sq.ft
+                      {project.currency === "AED" || project.city === "dubai" ? "AED " : "INR "}{project.avgPrice || (project.currency === "AED" ? "1,850" : "33.48 K")}/sq.ft
                     </span>
                   </div>
                 </div>
@@ -2299,10 +2299,10 @@ function ProjectDetailContent() {
                 </div>
                 <div className="text-right">
                   <div className="text-2xl font-black text-[#AE7419]">
-                    ₹{project.price}
+                    {project.currency === "AED" || project.city === "dubai" ? "AED " : "₹"}{project.price}
                   </div>
                   <span className="text-[10px] text-[#6B7280]">
-                    ₹{project.avgPrice || "33.48 K/sq.ft"}
+                    {project.currency === "AED" || project.city === "dubai" ? "AED " : "₹"}{project.avgPrice || (project.currency === "AED" ? "1,850/sq.ft" : "33.48 K/sq.ft")}
                   </span>
                 </div>
               </div>

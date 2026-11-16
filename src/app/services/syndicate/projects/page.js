@@ -1382,7 +1382,7 @@ export default function SyndicateProjectsPage() {
             <div className="p-4 rounded-xl bg-[#FAF8F2] border border-[#E6E3DC]">
               <span className="text-[11px] text-[#697386] block font-medium text-center md:text-left">Channel Partner Trust</span>
               <p className="text-[11px] text-[#252525] font-semibold mt-1">
-                India's Most Trusted Platform for Real Estate Brokers
+                India&apos;s Most Trusted Platform for Real Estate Brokers
               </p>
             </div>
           </div>

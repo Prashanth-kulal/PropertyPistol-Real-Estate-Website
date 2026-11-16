@@ -85,7 +85,7 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
   }, [matchedCity.id]);
 
   // Wishlist context
-  const { savedCount } = useWishlist ? useWishlist() : { savedCount: 0 };
+  const { savedCount } = useWishlist();
 
   // Modals state
   const [isCityModalOpen, setIsCityModalOpen] = useState(false);

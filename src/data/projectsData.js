@@ -14,6 +14,13 @@ import { getTrivandrumProjectBySlug, TRIVANDRUM_ALL_SLUGS } from "./trivandrumPr
 import { getCalicutProjectBySlug, CALICUT_ALL_SLUGS } from "./calicutProjectsRegistry.js";
 import { getBangaloreProjectBySlug, BANGALORE_ALL_SLUGS } from "./bangaloreProjectsRegistry.js";
 import { getNoidaProjectBySlug, NOIDA_ALL_SLUGS } from "./noidaProjectsRegistry.js";
+import { getGurugramProjectBySlug, GURUGRAM_ALL_SLUGS } from "./gurugramProjectsRegistry.js";
+import { getAhmedabadProjectBySlug, AHMEDABAD_ALL_SLUGS } from "./ahmedabadProjectsRegistry.js";
+import { getLucknowProjectBySlug, LUCKNOW_ALL_SLUGS } from "./lucknowProjectsRegistry.js";
+import { getKolkataProjectBySlug, KOLKATA_ALL_SLUGS } from "./kolkataProjectsRegistry.js";
+import { getChennaiProjectBySlug, CHENNAI_ALL_SLUGS } from "./chennaiProjectsRegistry.js";
+import { getDubaiProjectBySlug, DUBAI_ALL_SLUGS } from "./dubaiProjectsRegistry.js";
+import { getKochiProjectBySlug, KOCHI_ALL_SLUGS } from "./kochiProjectsRegistry.js";
 import { getPuneProjectBySlug, PUNE_ALL_SLUGS } from "./puneProjectsRegistry.js";
 import { getHyderabadProjectBySlug, HYDERABAD_ALL_SLUGS } from "./hyderabadProjectsRegistry.js";
 
@@ -874,6 +881,48 @@ export function getProjectBySlug(rawSlug) {
     return noidaProject;
   }
 
+  // 2g. Direct match in Gurugram Projects Registry (180 verified projects)
+  const gurugramProject = getGurugramProjectBySlug(cleanSlug);
+  if (gurugramProject) {
+    return gurugramProject;
+  }
+
+  // 2h. Direct match in Ahmedabad Projects Registry (255 verified projects)
+  const ahmedabadProject = getAhmedabadProjectBySlug(cleanSlug);
+  if (ahmedabadProject) {
+    return ahmedabadProject;
+  }
+
+  // 2i. Direct match in Lucknow Projects Registry (91 verified projects)
+  const lucknowProject = getLucknowProjectBySlug(cleanSlug);
+  if (lucknowProject) {
+    return lucknowProject;
+  }
+
+  // 2j. Direct match in Kolkata Projects Registry (444 verified projects)
+  const kolkataProject = getKolkataProjectBySlug(cleanSlug);
+  if (kolkataProject) {
+    return kolkataProject;
+  }
+
+  // 2k. Direct match in Chennai Projects Registry (156 verified projects)
+  const chennaiProject = getChennaiProjectBySlug(cleanSlug);
+  if (chennaiProject) {
+    return chennaiProject;
+  }
+
+  // 2l. Direct match in Dubai Projects Registry (514 verified projects)
+  const dubaiProject = getDubaiProjectBySlug(cleanSlug);
+  if (dubaiProject) {
+    return dubaiProject;
+  }
+
+  // 2m. Direct match in Kochi Projects Registry (28 verified projects)
+  const kochiProject = getKochiProjectBySlug(cleanSlug);
+  if (kochiProject) {
+    return kochiProject;
+  }
+
   // 2k. Direct match in Pune Projects Registry (1,027 verified projects)
   const puneProject = getPuneProjectBySlug(cleanSlug);
   if (puneProject) {
@@ -1106,6 +1155,13 @@ export function getAllProjectSlugs() {
   CALICUT_ALL_SLUGS.forEach((s) => slugs.add(s));
   BANGALORE_ALL_SLUGS.forEach((s) => slugs.add(s));
   NOIDA_ALL_SLUGS.forEach((s) => slugs.add(s));
+  GURUGRAM_ALL_SLUGS.forEach((s) => slugs.add(s));
+  AHMEDABAD_ALL_SLUGS.forEach((s) => slugs.add(s));
+  LUCKNOW_ALL_SLUGS.forEach((s) => slugs.add(s));
+  KOLKATA_ALL_SLUGS.forEach((s) => slugs.add(s));
+  CHENNAI_ALL_SLUGS.forEach((s) => slugs.add(s));
+  DUBAI_ALL_SLUGS.forEach((s) => slugs.add(s));
+  KOCHI_ALL_SLUGS.forEach((s) => slugs.add(s));
   PUNE_ALL_SLUGS.forEach((s) => slugs.add(s));
   HYDERABAD_ALL_SLUGS.forEach((s) => slugs.add(s));
   CANONICAL_PROJECTS.forEach((p) => slugs.add(p.slug));

@@ -12,6 +12,13 @@ import { TRIVANDRUM_REGISTRY_PROJECTS } from "./trivandrumProjectsRegistry.js";
 import { CALICUT_REGISTRY_PROJECTS } from "./calicutProjectsRegistry.js";
 import { BANGALORE_REGISTRY_PROJECTS } from "./bangaloreProjectsRegistry.js";
 import { NOIDA_REGISTRY_PROJECTS } from "./noidaProjectsRegistry.js";
+import { GURUGRAM_REGISTRY_PROJECTS } from "./gurugramProjectsRegistry.js";
+import { AHMEDABAD_REGISTRY_PROJECTS } from "./ahmedabadProjectsRegistry.js";
+import { LUCKNOW_REGISTRY_PROJECTS } from "./lucknowProjectsRegistry.js";
+import { KOLKATA_REGISTRY_PROJECTS } from "./kolkataProjectsRegistry.js";
+import { CHENNAI_REGISTRY_PROJECTS } from "./chennaiProjectsRegistry.js";
+import { DUBAI_REGISTRY_PROJECTS } from "./dubaiProjectsRegistry.js";
+import { KOCHI_REGISTRY_PROJECTS } from "./kochiProjectsRegistry.js";
 import { PUNE_REGISTRY_PROJECTS } from "./puneProjectsRegistry.js";
 
 export const DEVELOPERS_DATA = [
@@ -564,6 +571,58 @@ export const DEVELOPERS_DATA = [
             features: ["Mahalaxmi Racecourse Views", "Private Sky Lounge", "Automated Parking"]
           }
         ]
+      },
+      {
+        name: "Kochi",
+        citySlug: "kochi",
+        ongoingCount: 2,
+        upcomingCount: 0,
+        projects: [
+          {
+            id: 11921,
+            slug: "prestige-eden-garden-kalamassery-11921",
+            title: "Prestige Eden Garden",
+            builder: "Prestige Group",
+            city: "kochi",
+            location: "Kalamassery, Kochi",
+            status: "Under Construction",
+            price: "₹ 1.66 Cr",
+            priceNumeric: 16600000,
+            avgPrice: "On Request",
+            flatTypes: "3 & 4 BHK Apartment",
+            carpetArea: "On Request",
+            rera: "K-RERA/PRJ/ERN/002/2022",
+            rating: 4.8,
+            tag: "Grade-A Community",
+            images: [
+              "/projects/11921/cover.jpg",
+              "/projects/11921/gallery-1.jpg"
+            ],
+            features: ["Clubhouse", "Swimming Pool", "Gym", "Landscaped Garden", "Children's Play Area"]
+          },
+          {
+            id: 19795,
+            slug: "prestige-panorama-kundanoor-19795",
+            title: "Prestige Panorama",
+            builder: "Prestige Group",
+            city: "kochi",
+            location: "Kundanoor, Kochi",
+            status: "Under Construction",
+            price: "₹ 1.35 Cr",
+            priceNumeric: 13500000,
+            avgPrice: "On Request",
+            flatTypes: "2 & 3 BHK Apartment",
+            carpetArea: "On Request",
+            rera: "K-RERA/PRJ/227/2020",
+            rating: 4.8,
+            tag: "Waterfront Proximity",
+            images: [
+              "/projects/19795/cover.jpg",
+              "/projects/19795/gallery-1.jpg"
+            ],
+            features: ["Swimming Pool", "Gym", "Badminton Court", "Party Hall", "CCTV Surveillance"]
+          }
+        ]
       }
     ]
   },
@@ -764,6 +823,56 @@ export const DEVELOPERS_DATA = [
               "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80"
             ],
             features: ["German Hardware Fixtures", "Bespoke Clubhouse", "Temperature Regulated Pool"]
+          }
+        ]
+      },
+      {
+        name: "Kochi",
+        citySlug: "kochi",
+        ongoingCount: 1,
+        upcomingCount: 0,
+        projects: [
+          {
+            id: "sobha-atlantis-vytilla-11928",
+            slug: "sobha-atlantis-vytilla-11928",
+            title: "Sobha Atlantis",
+            builder: "Sobha Limited",
+            city: "kochi",
+            location: "Vytilla, Kochi",
+            status: "Under Construction",
+            price: "1.34 Cr onwards",
+            priceNumeric: 13400000,
+            avgPrice: "₹8.20 K / sq.ft",
+            flatTypes: "3 & 4 BHK",
+            carpetArea: "1,634 - 2,200 sq.ft",
+            rera: "K-RERA/PRJ/2020/001",
+            rating: 4.8,
+            tag: "Luxury Living",
+            images: [
+              "/projects/11928/cover.jpg"
+            ],
+            features: ["Waterfront Living", "Clubhouse", "Swimming Pool", "Gymnasium"]
+          },
+          {
+            id: "sobha-marina-one-marine-drive-11926",
+            slug: "sobha-marina-one-marine-drive-11926",
+            title: "Sobha Marina One",
+            builder: "Sobha Limited",
+            city: "kochi",
+            location: "Marine Drive, Kochi",
+            status: "Ready to Move",
+            price: "2.10 Cr onwards",
+            priceNumeric: 21000000,
+            avgPrice: "₹10.50 K / sq.ft",
+            flatTypes: "3 & 4 BHK",
+            carpetArea: "2,000 - 3,500 sq.ft",
+            rera: "K-RERA/PRJ/2020/002",
+            rating: 4.9,
+            tag: "Super Luxury",
+            images: [
+              "/projects/11926/cover.jpg"
+            ],
+            features: ["Marine Drive View", "5-Acre Urban Park", "Infinity Pool", "Private Marina"]
           }
         ]
       }
@@ -1156,6 +1265,48 @@ export function enrichDeveloperWithProjects(dev) {
     );
   });
 
+  const kolkataMatches = KOLKATA_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === dev.slug) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return (
+      bNorm === normSlug ||
+      bNorm.includes(normSlug) ||
+      normSlug.includes(bNorm) ||
+      bNorm === normDevName ||
+      bNorm.includes(normDevName) ||
+      normDevName.includes(bNorm)
+    );
+  });
+
+  const chennaiMatches = CHENNAI_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === dev.slug) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return (
+      bNorm === normSlug ||
+      bNorm.includes(normSlug) ||
+      normSlug.includes(bNorm) ||
+      bNorm === normDevName ||
+      bNorm.includes(normDevName) ||
+      normDevName.includes(bNorm)
+    );
+  });
+
+  const kochiMatches = KOCHI_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === dev.slug) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return (
+      bNorm === normSlug ||
+      bNorm.includes(normSlug) ||
+      normSlug.includes(bNorm) ||
+      bNorm === normDevName ||
+      bNorm.includes(normDevName) ||
+      normDevName.includes(bNorm)
+    );
+  });
+
   const thrissurMatches = THRISSUR_REGISTRY_PROJECTS.filter((p) => {
     if (p.developerSlug === dev.slug) return true;
     if (!p.builder) return false;
@@ -1370,6 +1521,87 @@ export function enrichDeveloperWithProjects(dev) {
     }
   }
 
+  if (kolkataMatches.length > 0) {
+    const kolOngoing = kolkataMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch" || p.status === "Launch"
+    ).length;
+    const kolUpcoming = kolkataMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch" || p.status === "Launch"
+    ).length;
+    const existingKolIndex = updatedCities.findIndex((c) => c.citySlug === "kolkata");
+    if (existingKolIndex >= 0) {
+      updatedCities[existingKolIndex] = {
+        ...updatedCities[existingKolIndex],
+        name: "Kolkata",
+        ongoingCount: kolOngoing || updatedCities[existingKolIndex].ongoingCount || 1,
+        upcomingCount: kolUpcoming || updatedCities[existingKolIndex].upcomingCount || 1,
+        projects: kolkataMatches
+      };
+    } else {
+      updatedCities.push({
+        name: "Kolkata",
+        citySlug: "kolkata",
+        ongoingCount: kolOngoing,
+        upcomingCount: kolUpcoming,
+        projects: kolkataMatches
+      });
+    }
+  }
+
+  if (chennaiMatches.length > 0) {
+    const chnOngoing = chennaiMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch" || p.status === "Launch"
+    ).length;
+    const chnUpcoming = chennaiMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch" || p.status === "Launch"
+    ).length;
+    const existingChnIndex = updatedCities.findIndex((c) => c.citySlug === "chennai");
+    if (existingChnIndex >= 0) {
+      updatedCities[existingChnIndex] = {
+        ...updatedCities[existingChnIndex],
+        name: "Chennai",
+        ongoingCount: chnOngoing || updatedCities[existingChnIndex].ongoingCount || 1,
+        upcomingCount: chnUpcoming || updatedCities[existingChnIndex].upcomingCount || 1,
+        projects: chennaiMatches
+      };
+    } else {
+      updatedCities.push({
+        name: "Chennai",
+        citySlug: "chennai",
+        ongoingCount: chnOngoing,
+        upcomingCount: chnUpcoming,
+        projects: chennaiMatches
+      });
+    }
+  }
+
+  if (kochiMatches.length > 0) {
+    const kchOngoing = kochiMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch" || p.status === "Launch"
+    ).length;
+    const kchUpcoming = kochiMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch" || p.status === "Launch"
+    ).length;
+    const existingKchIndex = updatedCities.findIndex((c) => c.citySlug === "kochi");
+    if (existingKchIndex >= 0) {
+      updatedCities[existingKchIndex] = {
+        ...updatedCities[existingKchIndex],
+        name: "Kochi",
+        ongoingCount: kchOngoing || updatedCities[existingKchIndex].ongoingCount || 1,
+        upcomingCount: kchUpcoming || updatedCities[existingKchIndex].upcomingCount || 1,
+        projects: kochiMatches
+      };
+    } else {
+      updatedCities.push({
+        name: "Kochi",
+        citySlug: "kochi",
+        ongoingCount: kchOngoing,
+        upcomingCount: kchUpcoming,
+        projects: kochiMatches
+      });
+    }
+  }
+
   if (thrissurMatches.length > 0) {
     const tsrOngoing = thrissurMatches.filter(
       (p) => p.status === "Under Construction" || p.status === "New Launch"
@@ -1516,7 +1748,7 @@ export function enrichDeveloperWithProjects(dev) {
       }))
     : dev.featuredProjects;
 
-  const totalCount = finalProjects.length + delhiMatches.length + goaMatches.length + coimbatoreMatches.length + nagpurMatches.length + thrissurMatches.length + trivandrumMatches.length + calicutMatches.length + bangaloreMatches.length + puneMatches.length;
+  const totalCount = finalProjects.length + delhiMatches.length + goaMatches.length + coimbatoreMatches.length + nagpurMatches.length + kolkataMatches.length + chennaiMatches.length + kochiMatches.length + thrissurMatches.length + trivandrumMatches.length + calicutMatches.length + bangaloreMatches.length + puneMatches.length;
   return {
     ...dev,
     projectCount: `${totalCount}+ Projects`,
@@ -1705,7 +1937,19 @@ export function getDeveloperBySlug(slug) {
           ongoingCount: ongoing,
           upcomingCount: upcoming,
           projects: coimbatoreDevMatches
-        }
+        },
+        ...(CHENNAI_REGISTRY_PROJECTS.filter((p) => {
+          if (p.developerSlug === normalized) return true;
+          if (!p.builder) return false;
+          const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+          return bNorm === normSlug || bNorm.includes(normSlug) || normSlug.includes(bNorm);
+        }).length > 0 ? [{
+          name: "Chennai",
+          citySlug: "chennai",
+          ongoingCount: CHENNAI_REGISTRY_PROJECTS.filter((p) => (p.developerSlug === normalized || p.builder?.toLowerCase().replace(/[^a-z0-9]/g, "") === normSlug) && (p.status === "Under Construction" || p.status === "New Launch" || p.status === "Launch")).length,
+          upcomingCount: CHENNAI_REGISTRY_PROJECTS.filter((p) => (p.developerSlug === normalized || p.builder?.toLowerCase().replace(/[^a-z0-9]/g, "") === normSlug) && (p.status === "Upcoming" || p.status === "New Launch" || p.status === "Launch")).length,
+          projects: CHENNAI_REGISTRY_PROJECTS.filter((p) => p.developerSlug === normalized || p.builder?.toLowerCase().replace(/[^a-z0-9]/g, "") === normSlug)
+        }] : [])
       ]
     };
   }
@@ -2088,7 +2332,331 @@ export function getDeveloperBySlug(slug) {
     };
   }
 
-  // 3. Synthesize developer profile dynamically from MUMBAI_REGISTRY_PROJECTS
+  // 2f. Synthesize developer profile dynamically from GURUGRAM_REGISTRY_PROJECTS
+  const gurugramDevMatches = GURUGRAM_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === normalized) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return bNorm === normSlug || bNorm.includes(normSlug) || normSlug.includes(bNorm);
+  });
+
+  if (gurugramDevMatches.length > 0) {
+    const builderName = gurugramDevMatches[0].builder;
+    const logo = gurugramDevMatches[0].builderLogo || "/images/logo/logo-emblem.png";
+    const ongoing = gurugramDevMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch"
+    ).length;
+    const upcoming = gurugramDevMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch"
+    ).length;
+
+    return {
+      id: normalized,
+      slug: gurugramDevMatches[0].developerSlug || normalized,
+      name: builderName,
+      logo: logo,
+      tagline: `Premier Residential Developments Across Gurugram & NCR`,
+      experience: "20+ Years",
+      projectCount: `${gurugramDevMatches.length}+ Projects`,
+      established: "2005",
+      aboutUs: gurugramDevMatches[0].builderDescription || `${builderName} is a leading real estate developer with verified residential developments across Gurugram and Delhi NCR.`,
+      description: gurugramDevMatches[0].builderDescription || `${builderName} delivers high-grade residential and commercial communities across Gurugram with HRERA compliance and modern architectural standards.`,
+      stats: [
+        { label: "Active Projects", value: `${gurugramDevMatches.length}+` },
+        { label: "Location", value: "Gurugram NCR" },
+        { label: "RERA Compliant", value: "100%" },
+        { label: "Brokerage", value: "0%" }
+      ],
+      featuredProjects: gurugramDevMatches.slice(0, 3).map((p) => ({
+        title: p.name,
+        location: p.location,
+        price: p.price === "On Request" ? "On Request" : `₹${p.price}*`,
+        image: p.images?.[0] || "/images/placeholder-property.jpg",
+        slug: p.slug
+      })),
+      cities: [
+        {
+          name: "Gurugram",
+          citySlug: "gurugram",
+          ongoingCount: ongoing,
+          upcomingCount: upcoming,
+          projects: gurugramDevMatches
+        }
+      ]
+    };
+  }
+
+  // 2g. Synthesize developer profile dynamically from AHMEDABAD_REGISTRY_PROJECTS
+  const ahmedabadDevMatches = AHMEDABAD_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === normalized) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return bNorm === normSlug || bNorm.includes(normSlug) || normSlug.includes(bNorm);
+  });
+
+  if (ahmedabadDevMatches.length > 0) {
+    const builderName = ahmedabadDevMatches[0].builder;
+    const logo = ahmedabadDevMatches[0].builderLogo || "/images/logo/logo-emblem.png";
+    const ongoing = ahmedabadDevMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch"
+    ).length;
+    const upcoming = ahmedabadDevMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch"
+    ).length;
+
+    return {
+      id: normalized,
+      slug: ahmedabadDevMatches[0].developerSlug || normalized,
+      name: builderName,
+      logo: logo,
+      tagline: `Premier Residential Developments Across Ahmedabad & Gujarat`,
+      experience: "20+ Years",
+      projectCount: `${ahmedabadDevMatches.length}+ Projects`,
+      established: "2004",
+      aboutUs: ahmedabadDevMatches[0].builderDescription || `${builderName} is a leading real estate developer with verified residential developments across Ahmedabad and Gujarat.`,
+      description: ahmedabadDevMatches[0].builderDescription || `${builderName} delivers high-grade residential and commercial communities across Ahmedabad with GujRERA compliance and modern architectural standards.`,
+      stats: [
+        { label: "Active Projects", value: `${ahmedabadDevMatches.length}+` },
+        { label: "Location", value: "Ahmedabad, Gujarat" },
+        { label: "RERA Compliant", value: "100%" },
+        { label: "Brokerage", value: "0%" }
+      ],
+      featuredProjects: ahmedabadDevMatches.slice(0, 3).map((p) => ({
+        title: p.name,
+        location: p.location,
+        price: p.price === "On Request" ? "On Request" : `₹${p.price}*`,
+        image: p.images?.[0] || "/images/placeholder-property.jpg",
+        slug: p.slug
+      })),
+      cities: [
+        {
+          name: "Ahmedabad",
+          citySlug: "ahmedabad",
+          ongoingCount: ongoing,
+          upcomingCount: upcoming,
+          projects: ahmedabadDevMatches
+        }
+      ]
+    };
+  }
+
+  // 2h. Synthesize developer profile dynamically from LUCKNOW_REGISTRY_PROJECTS
+  const lucknowDevMatches = LUCKNOW_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === normalized) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return bNorm === normSlug || bNorm.includes(normSlug) || normSlug.includes(bNorm);
+  });
+
+  if (lucknowDevMatches.length > 0) {
+    const builderName = lucknowDevMatches[0].builder;
+    const logo = lucknowDevMatches[0].builderLogo || "/images/logo/logo-emblem.png";
+    const ongoing = lucknowDevMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch"
+    ).length;
+    const upcoming = lucknowDevMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch"
+    ).length;
+
+    return {
+      id: normalized,
+      slug: lucknowDevMatches[0].developerSlug || normalized,
+      name: builderName,
+      logo: logo,
+      tagline: `Premier Residential Developments Across Lucknow & Uttar Pradesh`,
+      experience: "25+ Years",
+      projectCount: `${lucknowDevMatches.length}+ Projects`,
+      established: "1998",
+      aboutUs: lucknowDevMatches[0].builderDescription || `${builderName} is a leading real estate developer with verified residential developments across Lucknow and Uttar Pradesh.`,
+      description: lucknowDevMatches[0].builderDescription || `${builderName} delivers high-grade residential and commercial communities across Lucknow with UP RERA compliance and modern architectural standards.`,
+      stats: [
+        { label: "Active Projects", value: `${lucknowDevMatches.length}+` },
+        { label: "Location", value: "Lucknow, Uttar Pradesh" },
+        { label: "RERA Compliant", value: "100%" },
+        { label: "Brokerage", value: "0%" }
+      ],
+      featuredProjects: lucknowDevMatches.slice(0, 3).map((p) => ({
+        title: p.name,
+        location: p.location,
+        price: p.price === "On Request" ? "On Request" : `₹${p.price}*`,
+        image: p.images?.[0] || "/images/placeholder-property.jpg",
+        slug: p.slug
+      })),
+      cities: [
+        {
+          name: "Lucknow",
+          citySlug: "lucknow",
+          ongoingCount: ongoing,
+          upcomingCount: upcoming,
+          projects: lucknowDevMatches
+        }
+      ]
+    };
+  }
+
+  // 2i. Synthesize developer profile dynamically from KOLKATA_REGISTRY_PROJECTS
+  const kolkataDevMatches = KOLKATA_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === normalized) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return bNorm === normSlug || bNorm.includes(normSlug) || normSlug.includes(bNorm);
+  });
+
+  if (kolkataDevMatches.length > 0) {
+    const builderName = kolkataDevMatches[0].builder;
+    const logo = kolkataDevMatches[0].builderLogo || "/images/logo/logo-emblem.png";
+    const ongoing = kolkataDevMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch" || p.status === "Launch"
+    ).length;
+    const upcoming = kolkataDevMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch" || p.status === "Launch"
+    ).length;
+
+    return {
+      id: normalized,
+      slug: kolkataDevMatches[0].developerSlug || normalized,
+      name: builderName,
+      logo: logo,
+      tagline: `Premier Residential Developments Across Kolkata & West Bengal`,
+      experience: "25+ Years",
+      projectCount: `${kolkataDevMatches.length}+ Projects`,
+      established: "1995",
+      aboutUs: kolkataDevMatches[0].builderDescription || `${builderName} is a leading real estate developer with verified residential developments across Kolkata and West Bengal.`,
+      description: kolkataDevMatches[0].builderDescription || `${builderName} delivers high-grade residential and commercial communities across Kolkata with WBRERA compliance and modern architectural standards.`,
+      stats: [
+        { label: "Active Projects", value: `${kolkataDevMatches.length}+` },
+        { label: "Location", value: "Kolkata, West Bengal" },
+        { label: "RERA Compliant", value: "100%" },
+        { label: "Brokerage", value: "0%" }
+      ],
+      featuredProjects: kolkataDevMatches.slice(0, 3).map((p) => ({
+        title: p.name,
+        location: p.location,
+        price: p.price === "On Request" ? "On Request" : `₹${p.price}*`,
+        image: p.images?.[0] || "/images/placeholder-property.jpg",
+        slug: p.slug
+      })),
+      cities: [
+        {
+          name: "Kolkata",
+          citySlug: "kolkata",
+          ongoingCount: ongoing,
+          upcomingCount: upcoming,
+          projects: kolkataDevMatches
+        }
+      ]
+    };
+  }
+
+  // 2j. Synthesize developer profile dynamically from CHENNAI_REGISTRY_PROJECTS
+  const chennaiDevMatches = CHENNAI_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === normalized) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return bNorm === normSlug || bNorm.includes(normSlug) || normSlug.includes(bNorm);
+  });
+
+  if (chennaiDevMatches.length > 0) {
+    const builderName = chennaiDevMatches[0].builder;
+    const logo = chennaiDevMatches[0].builderLogo || "/images/logo/logo-emblem.png";
+    const ongoing = chennaiDevMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch" || p.status === "Launch"
+    ).length;
+    const upcoming = chennaiDevMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch" || p.status === "Launch"
+    ).length;
+
+    return {
+      id: normalized,
+      slug: chennaiDevMatches[0].developerSlug || normalized,
+      name: builderName,
+      logo: logo,
+      tagline: `Premier Residential Developments Across Chennai & Tamil Nadu`,
+      experience: "25+ Years",
+      projectCount: `${chennaiDevMatches.length}+ Projects`,
+      established: "1995",
+      aboutUs: chennaiDevMatches[0].builderDescription || `${builderName} is a leading real estate developer with verified residential developments across Chennai and Tamil Nadu.`,
+      description: chennaiDevMatches[0].builderDescription || `${builderName} delivers high-grade residential and commercial communities across Chennai with TN RERA compliance and modern architectural standards.`,
+      stats: [
+        { label: "Active Projects", value: `${chennaiDevMatches.length}+` },
+        { label: "Location", value: "Chennai, Tamil Nadu" },
+        { label: "RERA Compliant", value: "100%" },
+        { label: "Brokerage", value: "0%" }
+      ],
+      featuredProjects: chennaiDevMatches.slice(0, 3).map((p) => ({
+        title: p.name,
+        location: p.location,
+        price: p.price === "On Request" ? "On Request" : `₹${p.price}*`,
+        image: p.images?.[0] || "/images/placeholder-property.jpg",
+        slug: p.slug
+      })),
+      cities: [
+        {
+          name: "Chennai",
+          citySlug: "chennai",
+          ongoingCount: ongoing,
+          upcomingCount: upcoming,
+          projects: chennaiDevMatches
+        }
+      ]
+    };
+  }
+
+  // 2k. Synthesize developer profile dynamically from KOCHI_REGISTRY_PROJECTS
+  const kochiDevMatches = KOCHI_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === normalized) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return bNorm === normSlug || bNorm.includes(normSlug) || normSlug.includes(bNorm);
+  });
+
+  if (kochiDevMatches.length > 0) {
+    const builderName = kochiDevMatches[0].builder;
+    const logo = kochiDevMatches[0].builderLogo || "/images/logo/logo-emblem.png";
+    const ongoing = kochiDevMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch" || p.status === "Launch"
+    ).length;
+    const upcoming = kochiDevMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch" || p.status === "Launch"
+    ).length;
+
+    return {
+      id: normalized,
+      slug: kochiDevMatches[0].developerSlug || normalized,
+      name: builderName,
+      logo: logo,
+      tagline: `Premier Residential Developments Across Kochi & Kerala`,
+      experience: "20+ Years",
+      projectCount: `${kochiDevMatches.length}+ Projects`,
+      established: "2000",
+      aboutUs: kochiDevMatches[0].builderDescription || `${builderName} is a leading real estate developer with verified residential developments across Kochi and Kerala.`,
+      description: kochiDevMatches[0].builderDescription || `${builderName} delivers high-grade residential and commercial communities across Kochi with K-RERA compliance and modern architectural standards.`,
+      stats: [
+        { label: "Active Projects", value: `${kochiDevMatches.length}+` },
+        { label: "Location", value: "Kochi, Kerala" },
+        { label: "K-RERA Compliant", value: "100%" },
+        { label: "Brokerage", value: "0%" }
+      ],
+      featuredProjects: kochiDevMatches.slice(0, 3).map((p) => ({
+        title: p.name,
+        location: p.location,
+        price: p.price === "On Request" ? "On Request" : `₹${p.price}*`,
+        image: p.images?.[0] || "/images/placeholder-property.jpg",
+        slug: p.slug
+      })),
+      cities: [
+        {
+          name: "Kochi",
+          citySlug: "kochi",
+          ongoingCount: ongoing,
+          upcomingCount: upcoming,
+          projects: kochiDevMatches
+        }
+      ]
+    };
+  }
+
+  // 3. Synthesize developer profile dynamically from MUMBAI_REGISTRY_PROJECTS or DUBAI_REGISTRY_PROJECTS
   const matches = MUMBAI_REGISTRY_PROJECTS.filter((p) => {
     if (p.developerSlug === normalized) return true;
     if (!p.builder) return false;
@@ -2139,6 +2707,62 @@ export function getDeveloperBySlug(slug) {
           ongoingCount: ongoing,
           upcomingCount: upcoming,
           projects: matches
+        }
+      ]
+    };
+  }
+
+  // Check in DUBAI_REGISTRY_PROJECTS
+  const dubaiMatches = DUBAI_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === normalized) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return bNorm === normSlug || bNorm.includes(normSlug) || normSlug.includes(bNorm);
+  });
+
+  if (dubaiMatches.length > 0) {
+    const builderName = dubaiMatches[0].builder;
+    const logo =
+      dubaiMatches[0].builderLogo ||
+      "/images/placeholder-property.jpg";
+    const ongoing = dubaiMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch"
+    ).length;
+    const upcoming = dubaiMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch"
+    ).length;
+
+    return {
+      id: normalized,
+      slug: dubaiMatches[0].developerSlug || normalized,
+      name: builderName,
+      logo: logo,
+      tagline: `Iconic Real Estate Developments Across Dubai & UAE`,
+      experience: "15+ Years",
+      projectCount: `${dubaiMatches.length}+ Projects`,
+      established: "2005",
+      aboutUs: `${builderName} is a prestigious developer with verified landmark developments across Dubai, Abu Dhabi, and the UAE.`,
+      description: `${builderName} has delivered iconic architectural residences in Dubai, featuring high rental yields, premier finishes, and world-class luxury amenities.`,
+      stats: [
+        { label: "Active Projects", value: `${dubaiMatches.length}+` },
+        { label: "Location", value: "Dubai & UAE" },
+        { label: "DLD Verified", value: "100%" },
+        { label: "Zero Tax", value: "Yes" }
+      ],
+      featuredProjects: dubaiMatches.slice(0, 3).map((p) => ({
+        title: p.name,
+        location: p.location,
+        price: `AED ${p.price}*`,
+        image: p.images?.[0] || "/images/placeholder-property.jpg",
+        slug: p.slug
+      })),
+      cities: [
+        {
+          name: "Dubai",
+          citySlug: "dubai",
+          ongoingCount: ongoing,
+          upcomingCount: upcoming,
+          projects: dubaiMatches
         }
       ]
     };

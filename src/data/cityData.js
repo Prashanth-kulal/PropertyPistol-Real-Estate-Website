@@ -11,6 +11,13 @@ import { TRIVANDRUM_REGISTRY_PROJECTS } from "./trivandrumProjectsRegistry.js";
 import { CALICUT_REGISTRY_PROJECTS } from "./calicutProjectsRegistry.js";
 import { BANGALORE_REGISTRY_PROJECTS } from "./bangaloreProjectsRegistry.js";
 import { NOIDA_REGISTRY_PROJECTS } from "./noidaProjectsRegistry.js";
+import { GURUGRAM_REGISTRY_PROJECTS } from "./gurugramProjectsRegistry.js";
+import { AHMEDABAD_REGISTRY_PROJECTS } from "./ahmedabadProjectsRegistry.js";
+import { LUCKNOW_REGISTRY_PROJECTS } from "./lucknowProjectsRegistry.js";
+import { KOLKATA_REGISTRY_PROJECTS } from "./kolkataProjectsRegistry.js";
+import { CHENNAI_REGISTRY_PROJECTS } from "./chennaiProjectsRegistry.js";
+import { DUBAI_REGISTRY_PROJECTS } from "./dubaiProjectsRegistry.js";
+import { KOCHI_REGISTRY_PROJECTS } from "./kochiProjectsRegistry.js";
 import { PUNE_REGISTRY_PROJECTS } from "./puneProjectsRegistry.js";
 import { HYDERABAD_REGISTRY_PROJECTS } from "./hyderabadProjectsRegistry.js";
 
@@ -209,8 +216,8 @@ export const CITY_DETAILS = {
     name: "Chennai",
     state: "Tamil Nadu",
     tagline: "Gateway of South India & Automotive / IT Capital",
-    heroImage: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1600&q=80",
-    projectsCount: 760,
+    heroImage: "/projects/17864/cover.jpg",
+    projectsCount: 156,
     avgPriceSqFt: "₹7,800",
     appreciationRate: "+9.8% YoY",
     rentalYield: "3.9% p.a.",
@@ -218,11 +225,16 @@ export const CITY_DETAILS = {
     stampDuty: "7% + 4% Registration",
     description: "Chennai features stable end-user driven growth, coastal lifestyle along ECR, and high-density tech development across Old Mahabalipuram Road (OMR).",
     localities: [
-      { name: "OMR", avgPrice: "₹6,800 / sq.ft", projects: 110, tag: "IT Expressway" },
-      { name: "ECR", avgPrice: "₹12,400 / sq.ft", projects: 45, tag: "Coastal Villas" },
-      { name: "Anna Nagar", avgPrice: "₹16,500 / sq.ft", projects: 38, tag: "Prime Residential" },
-      { name: "Velachery", avgPrice: "₹8,900 / sq.ft", projects: 54, tag: "Metro Connected" },
-      { name: "Porur", avgPrice: "₹7,200 / sq.ft", projects: 62, tag: "Industrial Hub" }
+      { name: "Sholinganallur", avgPrice: "₹7,400 / sq.ft", projects: 9, tag: "IT & Tech Hub" },
+      { name: "Medavakkam", avgPrice: "₹6,900 / sq.ft", projects: 8, tag: "Central Transit" },
+      { name: "Madhavaram", avgPrice: "₹5,800 / sq.ft", projects: 8, tag: "North Growth Belt" },
+      { name: "Tambaram", avgPrice: "₹6,200 / sq.ft", projects: 7, tag: "Southern Metro Hub" },
+      { name: "Kelambakkam", avgPrice: "₹5,200 / sq.ft", projects: 6, tag: "OMR Extension" },
+      { name: "Pallavaram", avgPrice: "₹7,100 / sq.ft", projects: 6, tag: "Airport Proximity" },
+      { name: "Ottiyambakkam", avgPrice: "₹5,600 / sq.ft", projects: 4, tag: "Emerging Residential" },
+      { name: "Perumbakkam", avgPrice: "₹6,400 / sq.ft", projects: 4, tag: "Lakeview Enclave" },
+      { name: "OMR", avgPrice: "₹6,800 / sq.ft", projects: 4, tag: "IT Expressway" },
+      { name: "Mylapore", avgPrice: "₹18,500 / sq.ft", projects: 3, tag: "Legacy Prime" }
     ],
     faqs: [
       {
@@ -237,25 +249,34 @@ export const CITY_DETAILS = {
     name: "Gurugram",
     state: "Haryana",
     tagline: "Millennium City of Luxury Living & Global Multinational Headquarters",
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=80",
-    projectsCount: 650,
+    heroImage: "/projects/17721/cover.jpg",
+    projectsCount: 180,
     avgPriceSqFt: "₹15,400",
     appreciationRate: "+16.2% YoY",
     rentalYield: "4.5% p.a.",
     reraAuthority: "HARERA",
     stampDuty: "7% (Male) / 5% (Female)",
-    description: "Gurugram is the luxury capital of North India, home to Fortune 500 offices, world-class golf courses, and iconic skyline towers on Golf Course Road.",
+    description: "Gurugram is the luxury capital of North India, home to Fortune 500 offices, world-class golf courses, and iconic skyline towers across Dwarka Expressway, Golf Course Extension Road, and New Gurugram.",
     localities: [
-      { name: "Golf Course Road", avgPrice: "₹32,000 / sq.ft", projects: 40, tag: "Billionaire Row" },
-      { name: "Golf Course Ext", avgPrice: "₹17,200 / sq.ft", projects: 75, tag: "Ultra Luxury" },
-      { name: "Dwarka Expressway", avgPrice: "₹12,800 / sq.ft", projects: 120, tag: "Super Expressway" },
-      { name: "Cyber City", avgPrice: "₹24,000 / sq.ft", projects: 30, tag: "Fortune 500 Hub" },
-      { name: "Sohna Road", avgPrice: "₹8,400 / sq.ft", projects: 60, tag: "Elevated Corridor" }
+      { name: "Sector 37D", avgPrice: "₹11,500 / sq.ft", projects: 9, tag: "Dwarka Expressway" },
+      { name: "Sohna", avgPrice: "₹8,400 / sq.ft", projects: 8, tag: "Elevated Corridor" },
+      { name: "Sector 106", avgPrice: "₹14,200 / sq.ft", projects: 7, tag: "Expressway Luxury" },
+      { name: "Sector 95", avgPrice: "₹8,800 / sq.ft", projects: 7, tag: "New Gurugram" },
+      { name: "Sector 80", avgPrice: "₹15,600 / sq.ft", projects: 6, tag: "NH-48 Foothills" },
+      { name: "Sector 104", avgPrice: "₹13,500 / sq.ft", projects: 6, tag: "Dwarka Expressway" },
+      { name: "Sector 79", avgPrice: "₹12,400 / sq.ft", projects: 5, tag: "Golf Views" },
+      { name: "Sector 103", avgPrice: "₹13,200 / sq.ft", projects: 5, tag: "Expressway Hub" },
+      { name: "Sector 63A", avgPrice: "₹18,500 / sq.ft", projects: 5, tag: "Golf Course Ext" },
+      { name: "Golf Course Road", avgPrice: "₹32,000 / sq.ft", projects: 4, tag: "Billionaire Row" }
     ],
     faqs: [
       {
         q: "Why is Dwarka Expressway in Gurugram witnessing a property boom?",
         a: "With the full 16-lane expressway open and direct seamless connection to IGI Airport's Terminal 3 in 15 minutes, Dwarka Expressway is experiencing historic capital appreciation."
+      },
+      {
+        q: "Are all AuraLiving listed properties in Gurugram HARERA registered?",
+        a: "Yes, every single development listed on AuraLiving is 100% verified with its valid HARERA registration number and official RERA documentation."
       }
     ]
   },
@@ -296,8 +317,8 @@ export const CITY_DETAILS = {
     name: "Kolkata",
     state: "West Bengal",
     tagline: "City of Joy with Vibrant Architectural Heritage and Modern IT Metros",
-    heroImage: "https://images.unsplash.com/photo-1558431382-27e303142255?auto=format&fit=crop&w=1600&q=80",
-    projectsCount: 540,
+    heroImage: "/projects/19014/cover.jpg",
+    projectsCount: 444,
     avgPriceSqFt: "₹6,400",
     appreciationRate: "+8.9% YoY",
     rentalYield: "3.6% p.a.",
@@ -305,10 +326,14 @@ export const CITY_DETAILS = {
     stampDuty: "6%",
     description: "Kolkata offers attractive property affordability, new metro expansions under the Hooghly river, and expanding IT hubs in New Town and Rajarhat.",
     localities: [
-      { name: "New Town", avgPrice: "₹7,200 / sq.ft", projects: 85, tag: "Smart City Hub" },
-      { name: "Rajarhat", avgPrice: "₹5,800 / sq.ft", projects: 70, tag: "Airport Link" },
-      { name: "EM Bypass", avgPrice: "₹11,400 / sq.ft", projects: 52, tag: "Arterial Expressway" },
-      { name: "Ballygunge", avgPrice: "₹18,500 / sq.ft", projects: 22, tag: "Legacy Luxury" }
+      { name: "New Town", avgPrice: "₹7,200 / sq.ft", projects: 46, tag: "Smart City Hub" },
+      { name: "Rajarhat", avgPrice: "₹5,800 / sq.ft", projects: 44, tag: "Airport Link" },
+      { name: "Madhyamgram", avgPrice: "₹4,600 / sq.ft", projects: 25, tag: "North Transit Zone" },
+      { name: "EM Bypass", avgPrice: "₹11,400 / sq.ft", projects: 23, tag: "Arterial Expressway" },
+      { name: "Narendrapur", avgPrice: "₹4,900 / sq.ft", projects: 21, tag: "Southern Growth Belt" },
+      { name: "New Garia", avgPrice: "₹6,100 / sq.ft", projects: 20, tag: "Metro Junction" },
+      { name: "Joka", avgPrice: "₹4,800 / sq.ft", projects: 14, tag: "IIM & Metro Corridor" },
+      { name: "Tollygunge", avgPrice: "₹8,500 / sq.ft", projects: 12, tag: "Heritage & Cinema Hub" }
     ],
     faqs: [
       {
@@ -323,8 +348,8 @@ export const CITY_DETAILS = {
     name: "Ahmedabad",
     state: "Gujarat",
     tagline: "India's First UNESCO Heritage City & Industrial Economic Marvel",
-    heroImage: "https://images.unsplash.com/photo-1609137144822-26d24fc6170c?auto=format&fit=crop&w=1600&q=80",
-    projectsCount: 490,
+    heroImage: "/projects/22210/cover.jpg",
+    projectsCount: 255,
     avgPriceSqFt: "₹6,100",
     appreciationRate: "+10.5% YoY",
     rentalYield: "3.8% p.a.",
@@ -332,10 +357,12 @@ export const CITY_DETAILS = {
     stampDuty: "4.9% + 1% Reg",
     description: "Ahmedabad features rapid economic expansion powered by GIFT City, the Sabarmati Riverfront, and booming industrial corridors.",
     localities: [
-      { name: "SG Highway", avgPrice: "₹7,800 / sq.ft", projects: 80, tag: "Commercial Corridor" },
-      { name: "Bopal / South Bopal", avgPrice: "₹5,400 / sq.ft", projects: 65, tag: "Fast Transit" },
-      { name: "GIFT City", avgPrice: "₹9,200 / sq.ft", projects: 45, tag: "Global Financial Center" },
-      { name: "Prahlad Nagar", avgPrice: "₹8,900 / sq.ft", projects: 38, tag: "Premium Cosmopolitan" }
+      { name: "Shela", avgPrice: "₹5,600 / sq.ft", projects: 23, tag: "Rapidly Emerging Corridor" },
+      { name: "Bopal / South Bopal", avgPrice: "₹5,400 / sq.ft", projects: 30, tag: "Prime Residential Hub" },
+      { name: "Zundal / Vaishnodevi Circle", avgPrice: "₹5,200 / sq.ft", projects: 26, tag: "SG Highway North" },
+      { name: "Gota / Chandkheda", avgPrice: "₹4,800 / sq.ft", projects: 16, tag: "Affordable High-Rise Hub" },
+      { name: "Thaltej / Ambli / Bodakdev", avgPrice: "₹9,500 / sq.ft", projects: 21, tag: "Ultra-Luxury West Ahmedabad" },
+      { name: "Naranpura / Vastrapur", avgPrice: "₹8,200 / sq.ft", projects: 12, tag: "Central Cosmopolitan" }
     ],
     faqs: [
       {
@@ -350,24 +377,35 @@ export const CITY_DETAILS = {
     name: "Dubai",
     state: "UAE",
     tagline: "The World's Luxury Real Estate & Zero-Tax Capital",
-    heroImage: "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1600&q=80",
-    projectsCount: 320,
-    avgPriceSqFt: "AED 1,650",
+    heroImage: "/projects/18232/cover.jpg",
+    projectsCount: 514,
+    avgPriceSqFt: "AED 1,850",
     appreciationRate: "+18.4% YoY",
     rentalYield: "7.2% p.a.",
     reraAuthority: "Dubai RERA (DLD)",
     stampDuty: "4% DLD Fee",
     description: "Dubai offers zero income tax, high rental yields (6-8%), 10-year Golden Visa eligibility, and unrivaled cosmopolitan security.",
     localities: [
-      { name: "Downtown Dubai", avgPrice: "AED 2,800 / sq.ft", projects: 45, tag: "Burj Khalifa" },
-      { name: "Dubai Marina", avgPrice: "AED 1,950 / sq.ft", projects: 52, tag: "Waterfront Living" },
-      { name: "Business Bay", avgPrice: "AED 1,800 / sq.ft", projects: 60, tag: "Canal Views" },
-      { name: "Palm Jumeirah", avgPrice: "AED 3,900 / sq.ft", projects: 30, tag: "Ultra Luxury Island" }
+      { name: "Jumeirah Village Circle", avgPrice: "AED 1,150 / sq.ft", projects: 29, tag: "High Rental Yield" },
+      { name: "Dubai Islands", avgPrice: "AED 2,200 / sq.ft", projects: 26, tag: "Beachfront Luxury" },
+      { name: "Business Bay", avgPrice: "AED 2,100 / sq.ft", projects: 22, tag: "Canal & Downtown Views" },
+      { name: "Dubailand", avgPrice: "AED 1,350 / sq.ft", projects: 21, tag: "Integrated Community" },
+      { name: "Al Reem Island", avgPrice: "AED 1,250 / sq.ft", projects: 16, tag: "Waterfront Living" },
+      { name: "Dubai Creek Harbour", avgPrice: "AED 2,300 / sq.ft", projects: 13, tag: "Iconic Skyline" },
+      { name: "Town Square", avgPrice: "AED 1,050 / sq.ft", projects: 13, tag: "Family Friendly" },
+      { name: "Dubai South", avgPrice: "AED 1,100 / sq.ft", projects: 12, tag: "Al Maktoum Airport Corridor" },
+      { name: "Dubai Maritime City", avgPrice: "AED 2,400 / sq.ft", projects: 12, tag: "Seafront Living" },
+      { name: "Mohammed Bin Rashid Al Maktoum City", avgPrice: "AED 2,250 / sq.ft", projects: 12, tag: "Crystal Lagoons" },
+      { name: "Palm Jumeirah", avgPrice: "AED 4,200 / sq.ft", projects: 8, tag: "Ultra Luxury World Icon" }
     ],
     faqs: [
       {
         q: "How does the UAE Golden Visa work with property purchase?",
-        a: "Purchasing property worth AED 2 Million (approx. ₹4.5 Crore) qualifies investors and their families for a renewable 10-year UAE Golden Visa."
+        a: "Purchasing property worth AED 2 Million qualifies investors and their families for a renewable 10-year UAE Golden Visa."
+      },
+      {
+        q: "What are the transaction costs for buying property in Dubai?",
+        a: "The standard Dubai Land Department (DLD) transfer fee is 4% of property purchase price plus standard administrative registration fees."
       }
     ]
   },
@@ -404,8 +442,8 @@ export const CITY_DETAILS = {
     name: "Lucknow",
     state: "Uttar Pradesh",
     tagline: "The City of Nawabs & Rapidly Growing North Indian Urban Hub",
-    heroImage: "https://images.unsplash.com/photo-1629853692882-990a424ca6b8?auto=format&fit=crop&w=1600&q=80",
-    projectsCount: 290,
+    heroImage: "/projects/17998/cover.jpg",
+    projectsCount: 91,
     avgPriceSqFt: "₹5,400",
     appreciationRate: "+12.4% YoY",
     rentalYield: "4.1% p.a.",
@@ -413,11 +451,12 @@ export const CITY_DETAILS = {
     stampDuty: "7%",
     description: "Lucknow is rapidly transforming into North India's premier residential destination with modern infrastructure like the Lucknow Metro, Kisan Path, and high-speed expressway corridors.",
     localities: [
-      { name: "Gomti Nagar Extension", avgPrice: "₹6,800 / sq.ft", projects: 54, tag: "IT & Waterfront" },
-      { name: "Amar Shaheed Path", avgPrice: "₹6,200 / sq.ft", projects: 62, tag: "Fast Transit Corridor" },
-      { name: "Hazratganj", avgPrice: "₹14,000 / sq.ft", projects: 18, tag: "Prime Heritage" },
-      { name: "Sushant Golf City", avgPrice: "₹5,900 / sq.ft", projects: 48, tag: "Golf & Gated Living" },
-      { name: "Indira Nagar", avgPrice: "₹7,200 / sq.ft", projects: 32, tag: "Established Core" }
+      { name: "Gomti Nagar Extension", avgPrice: "₹6,800 / sq.ft", projects: 28, tag: "IT & Commercial Hub" },
+      { name: "Sushant Golf City", avgPrice: "₹5,900 / sq.ft", projects: 10, tag: "Golf & Gated Living" },
+      { name: "Sultanpur Road", avgPrice: "₹5,200 / sq.ft", projects: 9, tag: "Fast Transit Corridor" },
+      { name: "Vrindavan Yojna", avgPrice: "₹5,400 / sq.ft", projects: 6, tag: "Emerging Residential" },
+      { name: "Amar Shaheed Path / IIM Road", avgPrice: "₹6,400 / sq.ft", projects: 8, tag: "Expressway Connector" },
+      { name: "Jankipuram Extension", avgPrice: "₹4,800 / sq.ft", projects: 4, tag: "North Suburb Core" }
     ],
     faqs: [
       {
@@ -436,8 +475,8 @@ export const CITY_DETAILS = {
     name: "Kochi",
     state: "Kerala",
     tagline: "Queen of the Arabian Sea & Kerala's Premier Commercial & IT Epicenter",
-    heroImage: "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&w=1600&q=80",
-    projectsCount: 210,
+    heroImage: "/projects/11928/cover.jpg",
+    projectsCount: 28,
     avgPriceSqFt: "₹6,800",
     appreciationRate: "+10.8% YoY",
     rentalYield: "4.3% p.a.",
@@ -647,7 +686,6 @@ export const CITY_PROPERTIES = {
   mumbai: MUMBAI_REGISTRY_PROJECTS,
   pune: PUNE_REGISTRY_PROJECTS,
   bangalore: BANGALORE_REGISTRY_PROJECTS,
-
   delhi: DELHI_REGISTRY_PROJECTS,
   goa: GOA_REGISTRY_PROJECTS,
   coimbatore: COIMBATORE_REGISTRY_PROJECTS,
@@ -656,56 +694,13 @@ export const CITY_PROPERTIES = {
   trivandrum: TRIVANDRUM_REGISTRY_PROJECTS,
   calicut: CALICUT_REGISTRY_PROJECTS,
   noida: NOIDA_REGISTRY_PROJECTS,
-
-  gurugram: [
-    {
-      id: "ggn-1",
-      name: "DLF The Arbour",
-      builder: "DLF Limited",
-      builderLogo: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=120&h=120&q=80",
-      city: "gurugram",
-      location: "Sector 63, Golf Course Ext Road",
-      price: "7.5 Cr",
-      priceNumeric: 75000000,
-      avgPrice: "₹18.9 K / sq.ft",
-      flatTypes: "4 BHK Luxury Suites",
-      carpetArea: "3,950 sq.ft",
-      status: "Under Construction",
-      rera: "RC/REP/HARERA/GGM/686/418/2023/30",
-      tag: "Ultra Luxury",
-      rating: 5.0,
-      type: "Apartment",
-      images: [
-        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=80",
-        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80"
-      ],
-      features: ["Private Lift Lobby", "Double Height Balcony", "Central Park"]
-    },
-    {
-      id: "ggn-2",
-      name: "Smartworld The Edition",
-      builder: "Smartworld Developers",
-      builderLogo: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=120&h=120&q=80",
-      city: "gurugram",
-      location: "Sector 66, Golf Course Ext Road",
-      price: "3.2 Cr",
-      priceNumeric: 32000000,
-      avgPrice: "₹16.4 K / sq.ft",
-      flatTypes: "3 BHK, 4 BHK",
-      carpetArea: "1,950 - 2,800 sq.ft",
-      status: "New Launch",
-      rera: "RC/REP/HARERA/GGM/758/490/2023/102",
-      tag: "New Launch",
-      rating: 4.8,
-      type: "Apartment",
-      images: [
-        "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=900&q=80",
-        "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=900&q=80"
-      ],
-      features: ["Private Lounge", "Dual Balconies", "Heated Pool"]
-    }
-  ],
-
+  gurugram: GURUGRAM_REGISTRY_PROJECTS,
+  ahmedabad: AHMEDABAD_REGISTRY_PROJECTS,
+  lucknow: LUCKNOW_REGISTRY_PROJECTS,
+  kolkata: KOLKATA_REGISTRY_PROJECTS,
+  chennai: CHENNAI_REGISTRY_PROJECTS,
+  dubai: DUBAI_REGISTRY_PROJECTS,
+  kochi: KOCHI_REGISTRY_PROJECTS,
   hyderabad: HYDERABAD_REGISTRY_PROJECTS
 };
 

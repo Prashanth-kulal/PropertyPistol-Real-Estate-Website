@@ -4,8 +4,6 @@ const nextConfig = {
   experimental: {
     agentUpgrade: "security",
   },
-  cacheComponents: true,
-  partialPrefetching: true,
   images: {
     remotePatterns: [
       {

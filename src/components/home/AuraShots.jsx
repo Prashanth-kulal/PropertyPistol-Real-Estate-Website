@@ -45,8 +45,8 @@ export default function AuraShots({ onOpenEmi, onOpenConverter, onOpenConsultati
       router.push("/investment-calculator");
     } else if (action === "rent-receipts") {
       router.push("/rent-receipt-generator");
-     } else if (action === "property-advisory") {
-  window.location.href = "/property-advisory";
+    } else if (action === "property-advisory") {
+      router.push("/property-advisory");
     } else if (action === "converter") {
   router.push("/unit-converter");
     } else if (action === "stamp-duty") {

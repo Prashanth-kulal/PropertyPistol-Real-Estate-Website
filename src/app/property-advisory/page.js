@@ -152,7 +152,7 @@ export default function PropertyAdvisoryPage() {
                 Tell us your requirements
               </h2>
               <p className="text-sm text-[#6B7280] mt-1">
-                Choose your preferences and we'll create a recommendation.
+                Choose your preferences and we&apos;ll create a recommendation.
               </p>
             </div>
 

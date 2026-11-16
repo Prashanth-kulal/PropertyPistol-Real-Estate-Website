@@ -543,7 +543,7 @@ export default function RadiatePage() {
 
             <p>
               A structured set of solutions inspired by the business areas
-              highlighted by PropertyPistol's builder-service offering.
+              highlighted by PropertyPistol&apos;s builder-service offering.
             </p>
           </div>
 

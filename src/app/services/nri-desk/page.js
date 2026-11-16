@@ -558,7 +558,7 @@ export default function NRIDeskPage() {
             <strong>03</strong>
             <h3>Ongoing Support</h3>
             <p>
-              Stay connected with your property's activities even after the
+              Stay connected with your property&apos;s activities even after the
               initial transaction.
             </p>
           </div>
