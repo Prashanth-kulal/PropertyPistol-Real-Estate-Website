@@ -1,0 +1,50 @@
+{
+  "projectId": 14095,
+  "projectName": "Sobha Reserve",
+  "slug": "sobha-reserve-dubailand-pid-14095",
+  "city": "dubai",
+  "cityName": "Dubai",
+  "country": "United Arab Emirates",
+  "currency": "AED",
+  "locality": "Dubailand",
+  "region": "Dubai",
+  "builder": "Sobha Realty",
+  "totalImages": 2,
+  "hasCover": true,
+  "watermarkSettings": {
+    "opacity": 0.65,
+    "position": "bottom-right",
+    "scaleRatio": 0.1,
+    "paddingRatio": 0.03,
+    "quality": 90
+  },
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/14095/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/85998/original/g2_%281%29.jpg?1732182585",
+      "source": "propertypistol_s3",
+      "width": 1920,
+      "height": 1440,
+      "fileSizeBytes": 644614,
+      "watermarked": true,
+      "watermarkOpacity": 0.65,
+      "status": "VERIFIED_PROJECT_IMAGE"
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/14095/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/85999/original/gg.PNG?1732182586",
+      "source": "propertypistol_s3",
+      "width": 1920,
+      "height": 1440,
+      "fileSizeBytes": 538375,
+      "watermarked": true,
+      "watermarkOpacity": 0.65,
+      "status": "VERIFIED_PROJECT_IMAGE"
+    }
+  ],
+  "updatedAt": "2026-11-13T12:45:43.911Z"
+}
