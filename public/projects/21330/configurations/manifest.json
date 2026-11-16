@@ -1,0 +1,101 @@
+{
+  "projectId": 21330,
+  "slug": "jayesh-infinity-pushpak-nagar-pid-21330",
+  "name": "Jayesh Infinity",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/jayesh-infinity-pushpak-nagar-pid-21330",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21330/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9200/original/download_%2848%29.png?1771573305",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/21330/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9201/original/download_%2842%29.png?1771573305",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 132794,
+          "bhk": "1 BHK",
+          "carpetArea": 353,
+          "carpetAreaDisplay": "353 sq.ft",
+          "builtUpArea": null,
+          "price": "54.55 Lacs",
+          "actualPrice": 5455000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 140473,
+          "bhk": "2 BHK",
+          "carpetArea": 527,
+          "carpetAreaDisplay": "527 sq.ft",
+          "builtUpArea": null,
+          "price": "81.44 Lacs",
+          "actualPrice": 8144000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 132795,
+          "bhk": "2 BHK",
+          "carpetArea": 567,
+          "carpetAreaDisplay": "567 sq.ft",
+          "builtUpArea": null,
+          "price": "87.63 Lacs",
+          "actualPrice": 8763000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "353 sq.ft",
+      "price": "54.55 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "527 - 567 sq.ft",
+      "price": "81.44 Lacs - 87.63 Lacs"
+    }
+  ]
+}

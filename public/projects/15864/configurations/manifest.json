@@ -1,0 +1,94 @@
+{
+  "projectId": 15864,
+  "slug": "mana-verdant-jakkur-pid-15864",
+  "name": "Mana Verdant",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/mana-verdant-jakkur-pid-15864",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/15864/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/15864/original/masterplan.JPG?1709143994"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 53152,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1237,
+          "price": "1.15 Cr",
+          "actualPrice": 11500000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 53153,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1593,
+          "price": "1.48 Cr",
+          "actualPrice": 14800000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 74060,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1851,
+          "price": "1.72 Cr",
+          "actualPrice": 17200000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "On Request",
+      "price": "1.15 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "1.48 Cr - 1.72 Cr"
+    }
+  ]
+}

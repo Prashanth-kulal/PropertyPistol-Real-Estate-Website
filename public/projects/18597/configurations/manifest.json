@@ -1,0 +1,58 @@
+{
+  "projectId": 18597,
+  "slug": "sdpl-aashray-godhani-godhani-pid-18597",
+  "name": "SDPL Aashray Godhani",
+  "city": "nagpur",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sdpl-aashray-godhani-godhani-pid-18597",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18597/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7157/original/floorplan1.PNG?1731493239"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/18597/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7158/original/floorplan2.PNG?1731493239"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 92694,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 525,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/18597/configurations/unit-plans/2-bhk/variant-92694/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/92694/original/1bhk_3d.PNG?1731493239",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "On Request",
+      "price": "On Request"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "projectId": 8109,
+  "slug": "codename-skywards-ambernath-east-pid-8109",
+  "name": "Codename Skywards",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/codename-skywards-ambernath-east-pid-8109",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/8109/original/mp.jpg?1651647894",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 55635,
+          "bhk": "2 BHK",
+          "carpetArea": 706,
+          "carpetAreaDisplay": "706 sq.ft",
+          "builtUpArea": null,
+          "price": "86.78 Lacs",
+          "actualPrice": 8678000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 27350,
+          "bhk": "2 BHK",
+          "carpetArea": 739,
+          "carpetAreaDisplay": "739 sq.ft",
+          "builtUpArea": null,
+          "price": "90.98 Lacs",
+          "actualPrice": 9098000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 55636,
+          "bhk": "3 BHK",
+          "carpetArea": 978,
+          "carpetAreaDisplay": "978 sq.ft",
+          "builtUpArea": null,
+          "price": "1.23 Cr",
+          "actualPrice": 12300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 27351,
+          "bhk": "3 BHK",
+          "carpetArea": 1230,
+          "carpetAreaDisplay": "1230 sq.ft",
+          "builtUpArea": null,
+          "price": "1.48 Cr",
+          "actualPrice": 14800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "706 - 739 sq.ft",
+      "price": "86.78 Lacs - 90.98 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "978 - 1,230 sq.ft",
+      "price": "1.23 Cr - 1.48 Cr"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "projectId": 21611,
+  "slug": "shiv-vista-homes",
+  "name": "Shiv Vista Homes",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shiv-vista-homes-vasind-pid-21611",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit"
+  ],
+  "masterPlans": [],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 133361,
+          "bhk": "1 BHK",
+          "carpetArea": 407,
+          "carpetAreaDisplay": "407 sq.ft",
+          "builtUpArea": null,
+          "price": "35.7 Lacs",
+          "actualPrice": 3570000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/21611/configurations/unit-plans/1-bhk/407-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/133361/original/1.JPG?1772175750",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 140071,
+          "bhk": "1 BHK",
+          "carpetArea": 457,
+          "carpetAreaDisplay": "457 sq.ft",
+          "builtUpArea": null,
+          "price": "40.09 Lacs",
+          "actualPrice": 4009000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 133362,
+          "bhk": "2 BHK",
+          "carpetArea": 800,
+          "carpetAreaDisplay": "800 sq.ft",
+          "builtUpArea": null,
+          "price": "70.17 Lacs",
+          "actualPrice": 7017000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/21611/configurations/unit-plans/2-bhk/800-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/133362/original/2.JPG?1772175750",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "407 - 457 sq.ft",
+      "price": "35.7 Lacs - 40.09 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "800 sq.ft",
+      "price": "70.17 Lacs"
+    }
+  ]
+}

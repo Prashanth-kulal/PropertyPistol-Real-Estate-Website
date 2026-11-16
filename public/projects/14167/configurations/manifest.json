@@ -1,0 +1,110 @@
+{
+  "projectId": 14167,
+  "slug": "dlh-legacy-juhu-pid-14167",
+  "name": "DLH Legacy",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/dlh-legacy-juhu-pid-14167",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8039/original/fp-lega.PNG?1747808534",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 43882,
+          "bhk": "2 BHK",
+          "carpetArea": 910,
+          "carpetAreaDisplay": "910 sq.ft",
+          "builtUpArea": null,
+          "price": "5.74 Cr",
+          "actualPrice": 57400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 43883,
+          "bhk": "2 BHK",
+          "carpetArea": 1160,
+          "carpetAreaDisplay": "1160 sq.ft",
+          "builtUpArea": null,
+          "price": "7.31 Cr",
+          "actualPrice": 73100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 47280,
+          "bhk": "3 BHK",
+          "carpetArea": 1220,
+          "carpetAreaDisplay": "1220 sq.ft",
+          "builtUpArea": null,
+          "price": "7.69 Cr",
+          "actualPrice": 76900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 47281,
+          "bhk": "3 BHK",
+          "carpetArea": 1280,
+          "carpetAreaDisplay": "1280 sq.ft",
+          "builtUpArea": null,
+          "price": "8.07 Cr",
+          "actualPrice": 80700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "910 - 1,160 sq.ft",
+      "price": "5.74 Cr - 7.31 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,220 - 1,280 sq.ft",
+      "price": "7.69 Cr - 8.07 Cr"
+    }
+  ]
+}

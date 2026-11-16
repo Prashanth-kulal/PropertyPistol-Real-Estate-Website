@@ -1,0 +1,94 @@
+{
+  "projectId": 3779,
+  "slug": "suraksha-smart-city",
+  "name": "Suraksha Smart City",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/suraksha-smart-city-vasai-east-pid-3779",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/3779/original/layout.jpg?1611040856",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 67220,
+          "bhk": "1 BHK",
+          "carpetArea": 283,
+          "carpetAreaDisplay": "283 sq.ft",
+          "builtUpArea": null,
+          "price": "31.54 Lacs",
+          "actualPrice": 3154000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 53761,
+          "bhk": "1 BHK",
+          "carpetArea": 284,
+          "carpetAreaDisplay": "284 sq.ft",
+          "builtUpArea": null,
+          "price": "31.67 Lacs",
+          "actualPrice": 3167000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "1.5 BHK",
+      "variants": [
+        {
+          "id": 139966,
+          "bhk": "1.5 BHK",
+          "carpetArea": 375,
+          "carpetAreaDisplay": "375 sq.ft",
+          "builtUpArea": null,
+          "price": "41.74 Lacs",
+          "actualPrice": 4174000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "283 - 284 sq.ft",
+      "price": "31.54 Lacs - 31.67 Lacs"
+    },
+    {
+      "flat_type_name": "1.5 BHK",
+      "carpet_area": "375 sq.ft",
+      "price": "41.74 Lacs"
+    }
+  ]
+}

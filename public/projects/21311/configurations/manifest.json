@@ -1,0 +1,78 @@
+{
+  "projectId": 21311,
+  "slug": "om-harmony-ulwe-pid-21311",
+  "name": "Om Harmony",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/om-harmony-ulwe-pid-21311",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21311/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9410/original/fp.png?1780565392",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 132756,
+          "bhk": "1 BHK",
+          "carpetArea": 320,
+          "carpetAreaDisplay": "320 sq.ft",
+          "builtUpArea": null,
+          "price": "50.79 Lacs",
+          "actualPrice": 5079000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/21311/configurations/unit-plans/1-bhk/320-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/132756/original/1.png?1780565390",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 132757,
+          "bhk": "2 BHK",
+          "carpetArea": 614,
+          "carpetAreaDisplay": "614 sq.ft",
+          "builtUpArea": null,
+          "price": "97.46 Lacs",
+          "actualPrice": 9746000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/21311/configurations/unit-plans/2-bhk/614-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/132757/original/2.png?1780565390",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "320 sq.ft",
+      "price": "50.79 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "614 sq.ft",
+      "price": "97.46 Lacs"
+    }
+  ]
+}

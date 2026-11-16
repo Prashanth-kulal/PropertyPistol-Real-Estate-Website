@@ -1,0 +1,78 @@
+{
+  "projectId": 15548,
+  "slug": "grc-saffron-skies-kanakpura-road-pid-15548",
+  "name": "GRC Saffron Skies",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/grc-saffron-skies-kanakpura-road-pid-15548",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/15548/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/15548/original/mp.png?1705048223"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 49638,
+          "bhk": "3 BHK",
+          "carpetArea": 1855,
+          "carpetAreaDisplay": "1855 sq.ft",
+          "builtUpArea": null,
+          "price": "2.36 Cr",
+          "actualPrice": 23600000,
+          "propertyType": "Independent House/Villa",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 91339,
+          "bhk": "4 BHK",
+          "carpetArea": 2280,
+          "carpetAreaDisplay": "2280 sq.ft",
+          "builtUpArea": null,
+          "price": "3.43 Cr",
+          "actualPrice": 34300000,
+          "propertyType": "Row House",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,855 sq.ft",
+      "price": "2.36 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,280 sq.ft",
+      "price": "3.43 Cr"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "projectId": 10499,
+  "slug": "marine-heights-bhiwandi-pid-10499",
+  "name": "Marine Heights",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/marine-heights-bhiwandi-pid-10499",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/10499/original/mp.PNG?1746270798",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3104/original/fp.jpg?1738659048",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 110847,
+          "bhk": "2 BHK",
+          "carpetArea": 667,
+          "carpetAreaDisplay": "667 sq.ft",
+          "builtUpArea": null,
+          "price": "62.31 Lacs",
+          "actualPrice": 6231000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 110850,
+          "bhk": "2 BHK",
+          "carpetArea": 835,
+          "carpetAreaDisplay": "835 sq.ft",
+          "builtUpArea": null,
+          "price": "78.0 Lacs",
+          "actualPrice": 7800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 116576,
+          "bhk": "3 BHK",
+          "carpetArea": 1585,
+          "carpetAreaDisplay": "1585 sq.ft",
+          "builtUpArea": null,
+          "price": "1.48 Cr",
+          "actualPrice": 14800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 136644,
+          "bhk": "3 BHK",
+          "carpetArea": 1715,
+          "carpetAreaDisplay": "1715 sq.ft",
+          "builtUpArea": null,
+          "price": "1.6 Cr",
+          "actualPrice": 16000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "5 BHK",
+      "variants": [
+        {
+          "id": 139495,
+          "bhk": "5 BHK",
+          "carpetArea": 2504,
+          "carpetAreaDisplay": "2504 sq.ft",
+          "builtUpArea": null,
+          "price": "2.34 Cr",
+          "actualPrice": 23400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "667 - 835 sq.ft",
+      "price": "62.31 Lacs - 78.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,585 - 1,715 sq.ft",
+      "price": "1.48 Cr - 1.6 Cr"
+    },
+    {
+      "flat_type_name": "5 BHK",
+      "carpet_area": "2,504 sq.ft",
+      "price": "2.34 Cr"
+    }
+  ]
+}

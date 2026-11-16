@@ -1,0 +1,126 @@
+{
+  "projectId": 2151,
+  "slug": "shubham-trident",
+  "name": "Shubham Trident",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shubham-trident-chembur-pid-2151",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/2151/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2977/original/fp.JPG?1669443132",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 14092,
+          "bhk": "2 BHK",
+          "carpetArea": 550,
+          "carpetAreaDisplay": "550 sq.ft",
+          "builtUpArea": null,
+          "price": "1.89 Cr",
+          "actualPrice": 18900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 66413,
+          "bhk": "2 BHK",
+          "carpetArea": 600,
+          "carpetAreaDisplay": "600 sq.ft",
+          "builtUpArea": null,
+          "price": "2.06 Cr",
+          "actualPrice": 20600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 102155,
+          "bhk": "2 BHK",
+          "carpetArea": 640,
+          "carpetAreaDisplay": "640 sq.ft",
+          "builtUpArea": null,
+          "price": "2.2 Cr",
+          "actualPrice": 22000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 66415,
+          "bhk": "4 BHK",
+          "carpetArea": 1250,
+          "carpetAreaDisplay": "1250 sq.ft",
+          "builtUpArea": null,
+          "price": "4.3 Cr",
+          "actualPrice": 43000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 102156,
+          "bhk": "4 BHK",
+          "carpetArea": 1290,
+          "carpetAreaDisplay": "1290 sq.ft",
+          "builtUpArea": null,
+          "price": "4.44 Cr",
+          "actualPrice": 44400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "550 - 640 sq.ft",
+      "price": "1.89 Cr - 2.2 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,250 - 1,290 sq.ft",
+      "price": "4.3 Cr - 4.44 Cr"
+    }
+  ]
+}

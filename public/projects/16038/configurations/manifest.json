@@ -1,0 +1,78 @@
+{
+  "projectId": 16038,
+  "slug": "puri-diplomatic-residences-16038",
+  "name": "Puri Diplomatic Residences",
+  "city": "delhi",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/puri-diplomatic-residences-dwarka-expressway-pid-16038",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16038/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16038/original/mp.png?1712303272"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 57981,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2282,
+          "price": "4.5 Cr",
+          "actualPrice": 44955400,
+          "propertyType": "Flat",
+          "plan2D": "/projects/16038/configurations/unit-plans/3-bhk/variant-57981/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/57981/original/3.PNG?1712303272",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 57986,
+          "bhk": "4 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 3475,
+          "price": "6.85 Cr",
+          "actualPrice": 68457500,
+          "propertyType": "Flat",
+          "plan2D": "/projects/16038/configurations/unit-plans/4-bhk/variant-57986/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/57986/original/4.PNG?1712303272",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "4.5 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "On Request",
+      "price": "6.85 Cr"
+    }
+  ]
+}

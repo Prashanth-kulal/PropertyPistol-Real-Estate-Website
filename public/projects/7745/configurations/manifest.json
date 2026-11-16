@@ -1,0 +1,94 @@
+{
+  "projectId": 7745,
+  "slug": "highland-sky-towers",
+  "name": "Highland Sky Towers",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/highland-sky-towers-thane-west-pid-7745",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2615/original/fp_%2810%29.jpg?1754665581",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 104470,
+          "bhk": "2 BHK",
+          "carpetArea": 760,
+          "carpetAreaDisplay": "760 sq.ft",
+          "builtUpArea": null,
+          "price": "2.36 Cr",
+          "actualPrice": 23600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 55815,
+          "bhk": "2 BHK",
+          "carpetArea": 831,
+          "carpetAreaDisplay": "831 sq.ft",
+          "builtUpArea": null,
+          "price": "2.57 Cr",
+          "actualPrice": 25700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 135710,
+          "bhk": "3 BHK",
+          "carpetArea": 1123,
+          "carpetAreaDisplay": "1123 sq.ft",
+          "builtUpArea": null,
+          "price": "3.43 Cr",
+          "actualPrice": 34300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "760 - 831 sq.ft",
+      "price": "2.36 Cr - 2.57 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,123 sq.ft",
+      "price": "3.43 Cr"
+    }
+  ]
+}

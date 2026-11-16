@@ -1,0 +1,92 @@
+{
+  "projectId": 21318,
+  "slug": "sairaj-mohan-plaza",
+  "name": "Sairaj Mohan Plaza",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sairaj-mohan-plaza-ulwe-pid-21318",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21318/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9186/original/fp.png?1771567978",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/21318/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9187/original/fp2.png?1771567978",
+      "downloaded": true
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/21318/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9188/original/fp3.png?1771567978",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 132770,
+          "bhk": "1 BHK",
+          "carpetArea": 430,
+          "carpetAreaDisplay": "430 sq.ft",
+          "builtUpArea": null,
+          "price": "48.14 Lacs",
+          "actualPrice": 4814280,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 132771,
+          "bhk": "2 BHK",
+          "carpetArea": 850,
+          "carpetAreaDisplay": "850 sq.ft",
+          "builtUpArea": null,
+          "price": "95.17 Lacs",
+          "actualPrice": 9516600,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "430 sq.ft",
+      "price": "48.14 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "850 sq.ft",
+      "price": "95.17 Lacs"
+    }
+  ]
+}

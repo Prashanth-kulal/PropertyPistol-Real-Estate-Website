@@ -1,0 +1,118 @@
+{
+  "projectId": 19290,
+  "slug": "the-premia-manjri-pid-19290",
+  "name": "The Premia",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/the-premia-manjri-pid-19290",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19290/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19290/original/masterplan.PNG?1740989620"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19290/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7456/original/floor1.PNG?1740989626"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19290/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7457/original/floor2.PNG?1740989626"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 124725,
+          "bhk": "2 BHK",
+          "carpetArea": 773,
+          "carpetAreaDisplay": "773 sq.ft",
+          "builtUpArea": null,
+          "price": "69.73 Lacs",
+          "actualPrice": 6973000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2.5 BHK",
+      "variants": [
+        {
+          "id": 131887,
+          "bhk": "2.5 BHK",
+          "carpetArea": 852,
+          "carpetAreaDisplay": "852 sq.ft",
+          "builtUpArea": null,
+          "price": "78.3 Lacs",
+          "actualPrice": 7830000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 101560,
+          "bhk": "3 BHK",
+          "carpetArea": 967,
+          "carpetAreaDisplay": "967 sq.ft",
+          "builtUpArea": null,
+          "price": "88.12 Lacs",
+          "actualPrice": 8812000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19290/configurations/unit-plans/3-bhk/967-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/101560/original/3bhk_2d.PNG?1740989620",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "773 sq.ft",
+      "price": "69.73 Lacs"
+    },
+    {
+      "flat_type_name": "2.5 BHK",
+      "carpet_area": "852 sq.ft",
+      "price": "78.3 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "967 sq.ft",
+      "price": "88.12 Lacs"
+    }
+  ]
+}

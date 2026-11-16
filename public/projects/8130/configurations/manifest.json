@@ -1,0 +1,78 @@
+{
+  "projectId": 8130,
+  "slug": "ira-insignia-dombivali-east-pid-8130",
+  "name": "Ira Insignia",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ira-insignia-dombivali-east-pid-8130",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9821/original/master-plan.png?1793360568",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 27404,
+          "bhk": "1 BHK",
+          "carpetArea": 514,
+          "carpetAreaDisplay": "514 sq.ft",
+          "builtUpArea": null,
+          "price": "44.99 Lacs",
+          "actualPrice": 4499000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/27404/original/1bhk.png?1793360568",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 122598,
+          "bhk": "2 BHK",
+          "carpetArea": 696,
+          "carpetAreaDisplay": "696 sq.ft",
+          "builtUpArea": null,
+          "price": "66.99 Lacs",
+          "actualPrice": 6699000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/122598/original/2bhk.png?1793360568",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "514 sq.ft",
+      "price": "44.99 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "696 sq.ft",
+      "price": "66.99 Lacs"
+    }
+  ]
+}

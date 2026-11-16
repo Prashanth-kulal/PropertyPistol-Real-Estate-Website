@@ -1,0 +1,135 @@
+{
+  "projectId": 3190,
+  "slug": "sanghvi-ecocity-mira-road-east-pid-3190",
+  "name": "Sanghvi Ecocity",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sanghvi-ecocity-mira-road-east-pid-3190",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/3190/original/Eco-Layout.jpg?1594273830",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/1901/original/fp.jpg?1594273831",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 115243,
+          "bhk": "1 BHK",
+          "carpetArea": 360,
+          "carpetAreaDisplay": "360 sq.ft",
+          "builtUpArea": null,
+          "price": "64.75 Lacs",
+          "actualPrice": 6475000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 119737,
+          "bhk": "1 BHK",
+          "carpetArea": 475,
+          "carpetAreaDisplay": "475 sq.ft",
+          "builtUpArea": null,
+          "price": "85.49 Lacs",
+          "actualPrice": 8549000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 131965,
+          "bhk": "1 BHK",
+          "carpetArea": 491,
+          "carpetAreaDisplay": "491 sq.ft",
+          "builtUpArea": null,
+          "price": "88.33 Lacs",
+          "actualPrice": 8833000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 138025,
+          "bhk": "2 BHK",
+          "carpetArea": 597,
+          "carpetAreaDisplay": "597 sq.ft",
+          "builtUpArea": null,
+          "price": "1.07 Cr",
+          "actualPrice": 10700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139832,
+          "bhk": "2 BHK",
+          "carpetArea": 749,
+          "carpetAreaDisplay": "749 sq.ft",
+          "builtUpArea": null,
+          "price": "1.35 Cr",
+          "actualPrice": 13500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "360 - 491 sq.ft",
+      "price": "64.75 Lacs - 88.33 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "597 - 749 sq.ft",
+      "price": "1.07 Cr - 1.35 Cr"
+    }
+  ]
+}

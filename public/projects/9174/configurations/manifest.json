@@ -1,0 +1,109 @@
+{
+  "projectId": 9174,
+  "slug": "spenta-altavista-phase-4-chembur-pid-9174",
+  "name": "Spenta Altavista Phase 4",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/spenta-altavista-phase-4-chembur-pid-9174",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/9174/original/masterplan.jpg?1668768196",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2841/original/fwing.jpg?1668768197",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 31831,
+          "bhk": "2 BHK",
+          "carpetArea": 590,
+          "carpetAreaDisplay": "590 sq.ft",
+          "builtUpArea": null,
+          "price": "1.48 Cr",
+          "actualPrice": 14800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 69498,
+          "bhk": "2 BHK",
+          "carpetArea": 642,
+          "carpetAreaDisplay": "642 sq.ft",
+          "builtUpArea": null,
+          "price": "1.6 Cr",
+          "actualPrice": 16000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 51018,
+          "bhk": "2 BHK",
+          "carpetArea": 673,
+          "carpetAreaDisplay": "673 sq.ft",
+          "builtUpArea": null,
+          "price": "1.62 Cr",
+          "actualPrice": 16200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 55927,
+          "bhk": "2 BHK",
+          "carpetArea": 699,
+          "carpetAreaDisplay": "699 sq.ft",
+          "builtUpArea": null,
+          "price": "1.75 Cr",
+          "actualPrice": 17500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "590 - 699 sq.ft",
+      "price": "1.48 Cr - 1.75 Cr"
+    }
+  ]
+}

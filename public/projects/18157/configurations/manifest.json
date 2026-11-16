@@ -1,0 +1,110 @@
+{
+  "projectId": 18157,
+  "slug": "romell-asrava-andheri-west-pid-18157",
+  "name": "Romell Asrava",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/romell-asrava-andheri-west-pid-18157",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18157/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9014/original/download_%2872%29.png?1764063419",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 128008,
+          "bhk": "2 BHK",
+          "carpetArea": 700,
+          "carpetAreaDisplay": "700 sq.ft",
+          "builtUpArea": null,
+          "price": "2.73 Cr",
+          "actualPrice": 27300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 128009,
+          "bhk": "2 BHK",
+          "carpetArea": 729,
+          "carpetAreaDisplay": "729 sq.ft",
+          "builtUpArea": null,
+          "price": "2.84 Cr",
+          "actualPrice": 28400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 88545,
+          "bhk": "3 BHK",
+          "carpetArea": 948,
+          "carpetAreaDisplay": "948 sq.ft",
+          "builtUpArea": null,
+          "price": "3.66 Cr",
+          "actualPrice": 36600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 136123,
+          "bhk": "3 BHK",
+          "carpetArea": 963,
+          "carpetAreaDisplay": "963 sq.ft",
+          "builtUpArea": null,
+          "price": "3.71 Cr",
+          "actualPrice": 37100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "700 - 729 sq.ft",
+      "price": "2.73 Cr - 2.84 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "948 - 963 sq.ft",
+      "price": "3.66 Cr - 3.71 Cr"
+    }
+  ]
+}

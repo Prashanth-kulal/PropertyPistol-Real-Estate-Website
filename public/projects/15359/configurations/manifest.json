@@ -1,0 +1,126 @@
+{
+  "projectId": 15359,
+  "slug": "shubh-tristar-mundhwa-pid-15359",
+  "name": "Shubh Tristar",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shubh-tristar-mundhwa-pid-15359",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/15359/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5355/original/fp.png?1704449986"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 48715,
+          "bhk": "3 BHK",
+          "carpetArea": 1268,
+          "carpetAreaDisplay": "1268 sq.ft",
+          "builtUpArea": null,
+          "price": "1.86 Cr",
+          "actualPrice": 18600000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/15359/configurations/unit-plans/3-bhk/1268-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/48715/original/3b.png?1704449984",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 48716,
+          "bhk": "4 BHK",
+          "carpetArea": 1637,
+          "carpetAreaDisplay": "1637 sq.ft",
+          "builtUpArea": null,
+          "price": "2.4 Cr",
+          "actualPrice": 24000000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/15359/configurations/unit-plans/4-bhk/1637-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/48716/original/4b.png?1704449984",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 107459,
+          "bhk": "4 BHK",
+          "carpetArea": 1693,
+          "carpetAreaDisplay": "1693 sq.ft",
+          "builtUpArea": null,
+          "price": "2.48 Cr",
+          "actualPrice": 24800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 107460,
+          "bhk": "4 BHK",
+          "carpetArea": 1707,
+          "carpetAreaDisplay": "1707 sq.ft",
+          "builtUpArea": null,
+          "price": "2.5 Cr",
+          "actualPrice": 25000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 48717,
+          "bhk": "4 BHK",
+          "carpetArea": 2124,
+          "carpetAreaDisplay": "2124 sq.ft",
+          "builtUpArea": null,
+          "price": "3.11 Cr",
+          "actualPrice": 31100000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/15359/configurations/unit-plans/4-bhk/2124-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/48717/original/4b.png?1704449984",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,268 sq.ft",
+      "price": "1.86 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,637 - 2,124 sq.ft",
+      "price": "2.4 Cr - 3.11 Cr"
+    }
+  ]
+}

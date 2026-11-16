@@ -1,0 +1,104 @@
+{
+  "projectId": 18228,
+  "slug": "shiv-bhaveshwar-caasa-karanjade-pid-18228",
+  "name": "Shiv Bhaveshwar Caasa ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shiv-bhaveshwar-caasa-karanjade-pid-18228",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18228/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8182/original/fp.PNG?1748069913",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 RK",
+      "variants": [
+        {
+          "id": 89118,
+          "bhk": "1 RK",
+          "carpetArea": 195,
+          "carpetAreaDisplay": "195 sq.ft",
+          "builtUpArea": null,
+          "price": "26.0 Lacs",
+          "actualPrice": 2600000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18228/configurations/unit-plans/1-rk/195-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/89118/original/1rk.PNG?1748069912",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 89119,
+          "bhk": "1 BHK",
+          "carpetArea": 256,
+          "carpetAreaDisplay": "256 sq.ft",
+          "builtUpArea": null,
+          "price": "34.0 Lacs",
+          "actualPrice": 3400000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18228/configurations/unit-plans/1-bhk/256-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/89119/original/1b.PNG?1748069913",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 89120,
+          "bhk": "2 BHK",
+          "carpetArea": 385,
+          "carpetAreaDisplay": "385 sq.ft",
+          "builtUpArea": null,
+          "price": "52.0 Lacs",
+          "actualPrice": 5200000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18228/configurations/unit-plans/2-bhk/385-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/89120/original/2.PNG?1748069913",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 RK",
+      "carpet_area": "195 sq.ft",
+      "price": "26.0 Lacs"
+    },
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "256 sq.ft",
+      "price": "34.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "385 sq.ft",
+      "price": "52.0 Lacs"
+    }
+  ]
+}

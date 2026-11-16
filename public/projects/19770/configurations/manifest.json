@@ -1,0 +1,78 @@
+{
+  "projectId": 19770,
+  "slug": "drk-bellagio-kithaganur-jhc-pid-19770",
+  "name": "DRK Bellagio",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/drk-bellagio-kithaganur-jhc-pid-19770",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19770/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19770/original/masterplan.PNG?1745918122"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19770/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7811/original/floor1.PNG?1745918124"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19770/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7812/original/floor2.PNG?1745918124"
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/19770/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7813/original/floor3.PNG?1745918124"
+    },
+    {
+      "id": 4,
+      "title": "Layout / Site Plan 4",
+      "path": "/projects/19770/configurations/site-plans/site-plan-04.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7814/original/floor4.PNG?1745918124"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 110224,
+          "bhk": "4 BHK",
+          "carpetArea": 2145,
+          "carpetAreaDisplay": "2145 sq.ft",
+          "builtUpArea": null,
+          "price": "3.23 Cr",
+          "actualPrice": 32340165,
+          "propertyType": "Independent House/Villa",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,145 sq.ft",
+      "price": "3.23 Cr"
+    }
+  ]
+}

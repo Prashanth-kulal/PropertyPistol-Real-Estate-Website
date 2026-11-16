@@ -1,0 +1,120 @@
+{
+  "projectId": 16113,
+  "slug": "dudhe-sai-neevant-karanjade-pid-16113",
+  "name": "Dudhe Sai Neevant",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/dudhe-sai-neevant-karanjade-pid-16113",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16113/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16113/original/mp.PNG?1752653307",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16113/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6129/original/fp.PNG?1713954728",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/16113/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6130/original/fpp.PNG?1713954728",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 RK",
+      "variants": [
+        {
+          "id": 119225,
+          "bhk": "1 RK",
+          "carpetArea": 330,
+          "carpetAreaDisplay": "330 sq.ft",
+          "builtUpArea": null,
+          "price": "41.0 Lacs",
+          "actualPrice": 4100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 119226,
+          "bhk": "1 BHK",
+          "carpetArea": 471,
+          "carpetAreaDisplay": "471 sq.ft",
+          "builtUpArea": null,
+          "price": "58.0 Lacs",
+          "actualPrice": 5800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 124425,
+          "bhk": "2 BHK",
+          "carpetArea": 637,
+          "carpetAreaDisplay": "637 sq.ft",
+          "builtUpArea": null,
+          "price": "79.0 Lacs",
+          "actualPrice": 7900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 RK",
+      "carpet_area": "330 sq.ft",
+      "price": "41.0 Lacs"
+    },
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "471 sq.ft",
+      "price": "58.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "637 sq.ft",
+      "price": "79.0 Lacs"
+    }
+  ]
+}

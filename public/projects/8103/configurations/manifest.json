@@ -1,0 +1,94 @@
+{
+  "projectId": 8103,
+  "slug": "unicorn-nisarg-belrose-wakad-pid-8103",
+  "name": "Unicorn Nisarg Belrose",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/unicorn-nisarg-belrose-wakad-pid-8103",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/8103/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3334/original/fpp.jpg?1754889925"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 55869,
+          "bhk": "1 BHK",
+          "carpetArea": 573,
+          "carpetAreaDisplay": "573 sq.ft",
+          "builtUpArea": null,
+          "price": "65.81 Lacs",
+          "actualPrice": 6581000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 55868,
+          "bhk": "2 BHK",
+          "carpetArea": 790,
+          "carpetAreaDisplay": "790 sq.ft",
+          "builtUpArea": null,
+          "price": "90.74 Lacs",
+          "actualPrice": 9074000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 117206,
+          "bhk": "2 BHK",
+          "carpetArea": 874,
+          "carpetAreaDisplay": "874 sq.ft",
+          "builtUpArea": null,
+          "price": "1.03 Cr",
+          "actualPrice": 10300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "573 sq.ft",
+      "price": "65.81 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "790 - 874 sq.ft",
+      "price": "90.74 Lacs - 1.03 Cr"
+    }
+  ]
+}

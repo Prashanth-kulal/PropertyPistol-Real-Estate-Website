@@ -1,0 +1,78 @@
+{
+  "projectId": 16205,
+  "slug": "vasavi-bhuvi-kompally-pid-16205",
+  "name": "Vasavi Bhuvi ",
+  "city": "hyderabad",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/vasavi-bhuvi-kompally-pid-16205",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16205/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6159/original/Floorplan_bhuvi.PNG?1714408954"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 109793,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1330,
+          "price": "70.49 Lacs",
+          "actualPrice": 7049000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 60117,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2000,
+          "price": "1.06 Cr",
+          "actualPrice": 10600000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": "/projects/16205/configurations/unit-plans/3-bhk/variant-60117/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/60117/original/3bhk_bhuvi.PNG?1714408954",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "On Request",
+      "price": "70.49 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "1.06 Cr"
+    }
+  ]
+}

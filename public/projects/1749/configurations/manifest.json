@@ -1,0 +1,103 @@
+{
+  "projectId": 1749,
+  "slug": "vihang-metro-hive-kasarvadavali-pid-1749",
+  "name": "Vihang Metro Hive",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/vihang-metro-hive-kasarvadavali-pid-1749",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/1749/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/1749/original/masterplan.jpg?1559718548",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/1749/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/906/original/FloorPlan1.jpg?1559718549",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 2906,
+          "bhk": "1 BHK",
+          "carpetArea": 345,
+          "carpetAreaDisplay": "345 sq.ft",
+          "builtUpArea": null,
+          "price": "47.5 Lacs",
+          "actualPrice": 4750000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/1749/configurations/unit-plans/1-bhk/345-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/2906/original/1_bhk.jpg?1559718548",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 136218,
+          "bhk": "1 BHK",
+          "carpetArea": 356,
+          "carpetAreaDisplay": "356 sq.ft",
+          "builtUpArea": null,
+          "price": "49.07 Lacs",
+          "actualPrice": 4907000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 136219,
+          "bhk": "2 BHK",
+          "carpetArea": 478,
+          "carpetAreaDisplay": "478 sq.ft",
+          "builtUpArea": null,
+          "price": "65.9 Lacs",
+          "actualPrice": 6590000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "345 - 356 sq.ft",
+      "price": "47.5 Lacs - 49.07 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "478 sq.ft",
+      "price": "65.9 Lacs"
+    }
+  ]
+}

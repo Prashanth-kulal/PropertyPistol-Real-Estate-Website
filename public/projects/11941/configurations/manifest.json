@@ -1,0 +1,113 @@
+{
+  "projectId": 11941,
+  "slug": "codename-mumbra-future-city-mumbra-east-pid-11941",
+  "name": "Codename Mumbra Future City",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/codename-mumbra-future-city-mumbra-east-pid-11941",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/11941/original/Capturenmj.PNG?1682406148",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3797/original/Capturelm.PNG?1682406151",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 38018,
+          "bhk": "1 BHK",
+          "carpetArea": 478,
+          "carpetAreaDisplay": "478 sq.ft",
+          "builtUpArea": null,
+          "price": "55.0 Lacs",
+          "actualPrice": 5500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 38017,
+          "bhk": "2 BHK",
+          "carpetArea": 658,
+          "carpetAreaDisplay": "658 sq.ft",
+          "builtUpArea": null,
+          "price": "75.65 Lacs",
+          "actualPrice": 7565000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 38019,
+          "bhk": "3 BHK",
+          "carpetArea": 802,
+          "carpetAreaDisplay": "802 sq.ft",
+          "builtUpArea": null,
+          "price": "92.0 Lacs",
+          "actualPrice": 9200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "478 sq.ft",
+      "price": "55.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "658 sq.ft",
+      "price": "75.65 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "802 sq.ft",
+      "price": "92.0 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "projectId": 19400,
+  "slug": "platinum-oakwoods-nerul-pid-19400",
+  "name": "Platinum Oakwoods ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/platinum-oakwoods-nerul-pid-19400",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19400/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19400/original/mp.png?1791537128",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19400/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9737/original/download_%281%29.png?1791537129",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 102794,
+          "bhk": "2 BHK",
+          "carpetArea": 826,
+          "carpetAreaDisplay": "826 sq.ft",
+          "builtUpArea": null,
+          "price": "2.19 Cr",
+          "actualPrice": 21889000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19400/configurations/unit-plans/2-bhk/826-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/102794/original/2.png?1791537128",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 102797,
+          "bhk": "4 BHK",
+          "carpetArea": 2080,
+          "carpetAreaDisplay": "2080 sq.ft",
+          "builtUpArea": null,
+          "price": "5.51 Cr",
+          "actualPrice": 55120000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "826 sq.ft",
+      "price": "2.19 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,080 sq.ft",
+      "price": "5.51 Cr"
+    }
+  ]
+}

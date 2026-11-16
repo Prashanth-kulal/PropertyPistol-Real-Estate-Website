@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { X, Search, MapPin, Check } from "lucide-react";
-import { CITIES } from "@/data";
+import { CITIES } from "@/data/cities";
 
 export default function CitySelectorModal({ isOpen, onClose, selectedCity, onSelectCity }) {
   const [searchTerm, setSearchTerm] = useState("");

@@ -1,0 +1,142 @@
+{
+  "projectId": 19088,
+  "slug": "yashwant-heights-jaitala-pid-19088",
+  "name": "Yashwant Heights",
+  "city": "nagpur",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/yashwant-heights-jaitala-pid-19088",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19088/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7356/original/floorplan_%281%29.png?1753948056"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 99755,
+          "bhk": "1 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 646,
+          "price": "23.24 Lacs",
+          "actualPrice": 2324000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 99754,
+          "bhk": "1 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 649,
+          "price": "23.36 Lacs",
+          "actualPrice": 2336000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19088/configurations/unit-plans/1-bhk/variant-99754/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/99754/original/1bhk_3d.PNG?1738750524",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 99756,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1210,
+          "price": "43.53 Lacs",
+          "actualPrice": 4353000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19088/configurations/unit-plans/2-bhk/variant-99756/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/99756/original/2bhk_3d.PNG?1738750524",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 99757,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1220,
+          "price": "43.88 Lacs",
+          "actualPrice": 4388000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 116754,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1244,
+          "price": "44.75 Lacs",
+          "actualPrice": 4475000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 116755,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1259,
+          "price": "45.29 Lacs",
+          "actualPrice": 4529000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "On Request",
+      "price": "23.24 Lacs - 23.36 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "On Request",
+      "price": "43.53 Lacs - 45.29 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "projectId": 19766,
+  "slug": "mahindra-newhaven-singasandra-pid-19766",
+  "name": "Mahindra NewHaven",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/mahindra-newhaven-singasandra-pid-19766",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19766/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19766/original/masterplan.PNG?1745909245"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 110164,
+          "bhk": "3 BHK",
+          "carpetArea": 1249,
+          "carpetAreaDisplay": "1249 sq.ft",
+          "builtUpArea": null,
+          "price": "2.25 Cr",
+          "actualPrice": 22454522,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19766/configurations/unit-plans/3-bhk/1249-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/110164/original/3bhk_2d.PNG?1745909245",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "5 BHK",
+      "variants": [
+        {
+          "id": 126297,
+          "bhk": "5 BHK",
+          "carpetArea": 2600,
+          "carpetAreaDisplay": "2600 sq.ft",
+          "builtUpArea": null,
+          "price": "4.67 Cr",
+          "actualPrice": 46742800,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,249 sq.ft",
+      "price": "2.25 Cr"
+    },
+    {
+      "flat_type_name": "5 BHK",
+      "carpet_area": "2,600 sq.ft",
+      "price": "4.67 Cr"
+    }
+  ]
+}

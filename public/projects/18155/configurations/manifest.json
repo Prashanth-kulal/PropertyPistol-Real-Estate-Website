@@ -1,0 +1,78 @@
+{
+  "projectId": 18155,
+  "slug": "kukreja-embassy-2-byramji-town-pid-18155",
+  "name": "Kukreja Embassy 2",
+  "city": "nagpur",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/kukreja-embassy-2-byramji-town-pid-18155",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18155/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6980/original/floorplan1.png?1728558602"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 88540,
+          "bhk": "4 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2988,
+          "price": "2.0 Cr",
+          "actualPrice": 20000000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4.5 BHK",
+      "variants": [
+        {
+          "id": 88541,
+          "bhk": "4.5 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 3185,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "On Request",
+      "price": "2.0 Cr"
+    },
+    {
+      "flat_type_name": "4.5 BHK",
+      "carpet_area": "On Request",
+      "price": "On Request"
+    }
+  ]
+}

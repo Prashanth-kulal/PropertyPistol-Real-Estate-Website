@@ -1,0 +1,128 @@
+{
+  "projectId": 12064,
+  "slug": "kalyan-horizon-aakkulam-pid-12064",
+  "name": "Kalyan Horizon",
+  "city": "trivandrum",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/kalyan-horizon-aakkulam-pid-12064",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/12064/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3869/original/Capturedddf.PNG?1682681092"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/12064/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3870/original/Captureddf.PNG?1682681092"
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/12064/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3871/original/Capturefgb.PNG?1682681092"
+    },
+    {
+      "id": 4,
+      "title": "Layout / Site Plan 4",
+      "path": "/projects/12064/configurations/site-plans/site-plan-04.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3872/original/eer.PNG?1682681092"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 38246,
+          "bhk": "2 BHK",
+          "carpetArea": 797,
+          "carpetAreaDisplay": "797 sq.ft",
+          "builtUpArea": 1181,
+          "price": "71.5 Lacs",
+          "actualPrice": 7150000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/12064/configurations/unit-plans/2-bhk/797-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/38246/original/Capture2d.PNG?1682681092",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 66560,
+          "bhk": "2 BHK",
+          "carpetArea": 840,
+          "carpetAreaDisplay": "840 sq.ft",
+          "builtUpArea": 1253,
+          "price": "75.18 Lacs",
+          "actualPrice": 7518000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 38247,
+          "bhk": "3 BHK",
+          "carpetArea": 1096,
+          "carpetAreaDisplay": "1096 sq.ft",
+          "builtUpArea": 1572,
+          "price": "94.32 Lacs",
+          "actualPrice": 9432000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/12064/configurations/unit-plans/3-bhk/1096-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/38247/original/Capture34.PNG?1682681092",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 66561,
+          "bhk": "3 BHK",
+          "carpetArea": 1352,
+          "carpetAreaDisplay": "1352 sq.ft",
+          "builtUpArea": 2007,
+          "price": "1.2 Cr",
+          "actualPrice": 12000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "797 - 840 sq.ft",
+      "price": "71.5 Lacs - 75.18 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,096 - 1,352 sq.ft",
+      "price": "94.32 Lacs - 1.2 Cr"
+    }
+  ]
+}

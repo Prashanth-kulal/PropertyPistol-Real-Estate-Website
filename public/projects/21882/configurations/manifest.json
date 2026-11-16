@@ -1,0 +1,78 @@
+{
+  "projectId": 21882,
+  "slug": "renaatus-varam-kalapatti-pid-21882",
+  "name": "Renaatus Varam",
+  "city": "coimbatore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/renaatus-varam-kalapatti-pid-21882",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21882/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9723/original/download_%2839%29.png?1790761189"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 135944,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1139,
+          "price": "76.88 Lacs",
+          "actualPrice": 7688250,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/21882/configurations/unit-plans/2-bhk/variant-135944/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/135944/original/2b.JPG?1780567647",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 135945,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1407,
+          "price": "94.97 Lacs",
+          "actualPrice": 9497250,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/21882/configurations/unit-plans/3-bhk/variant-135945/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/135945/original/3.JPG?1780567647",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "On Request",
+      "price": "76.88 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "94.97 Lacs"
+    }
+  ]
+}

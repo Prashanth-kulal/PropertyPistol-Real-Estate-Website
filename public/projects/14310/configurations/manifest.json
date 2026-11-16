@@ -1,0 +1,76 @@
+{
+  "projectId": 14310,
+  "slug": "sunyuga-villa-palazzo-kompally-pid-14310",
+  "name": "Sunyuga Villa Palazzo",
+  "city": "hyderabad",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sunyuga-villa-palazzo-kompally-pid-14310",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/14310/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/14310/original/Layout.jpg?1698687315"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/14310/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4836/original/floorplan1.jpg?1698687316"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 51626,
+          "bhk": "4 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 3500,
+          "price": "3.15 Cr",
+          "actualPrice": 31500000,
+          "propertyType": "Independent House/Villa",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 51625,
+          "bhk": "4 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 4300,
+          "price": "3.87 Cr",
+          "actualPrice": 38700000,
+          "propertyType": "Independent House/Villa",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "On Request",
+      "price": "3.15 Cr - 3.87 Cr"
+    }
+  ]
+}

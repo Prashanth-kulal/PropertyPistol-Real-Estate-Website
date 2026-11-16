@@ -1,0 +1,68 @@
+{
+  "projectId": 10605,
+  "slug": "sara-antalya-cbd-belapur-pid-10605",
+  "name": "Sara Antalya",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sara-antalya-cbd-belapur-pid-10605",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6036/original/fp.PNG?1710744694",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 91256,
+          "bhk": "3 BHK",
+          "carpetArea": 926,
+          "carpetAreaDisplay": "926 sq.ft",
+          "builtUpArea": null,
+          "price": "2.24 Cr",
+          "actualPrice": 22378642,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 55098,
+          "bhk": "3 BHK",
+          "carpetArea": 1285,
+          "carpetAreaDisplay": "1285 sq.ft",
+          "builtUpArea": null,
+          "price": "3.11 Cr",
+          "actualPrice": 31054595,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/55098/original/3b.PNG?1710744694",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "926 - 1,285 sq.ft",
+      "price": "2.24 Cr - 3.11 Cr"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "projectId": 19945,
+  "slug": "bharat-enclave-panvel-pid-19945",
+  "name": "Bharat Enclave",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/bharat-enclave-panvel-pid-19945",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19945/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8283/original/fp.PNG?1748860084",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 115169,
+          "bhk": "2 BHK",
+          "carpetArea": 727,
+          "carpetAreaDisplay": "727 sq.ft",
+          "builtUpArea": null,
+          "price": "1.06 Cr",
+          "actualPrice": 10625105,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19945/configurations/unit-plans/2-bhk/727-sqft/plan-2d.webp",
+          "plan3D": "/projects/19945/configurations/unit-plans/2-bhk/727-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/115169/original/2.PNG?1748860078",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/115169/original/2b.PNG?1748860078",
+          "has2D": true,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 115170,
+          "bhk": "3 BHK",
+          "carpetArea": 1017,
+          "carpetAreaDisplay": "1017 sq.ft",
+          "builtUpArea": null,
+          "price": "1.49 Cr",
+          "actualPrice": 14863455,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19945/configurations/unit-plans/3-bhk/1017-sqft/plan-2d.webp",
+          "plan3D": "/projects/19945/configurations/unit-plans/3-bhk/1017-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/115170/original/3b.PNG?1748860078",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/115170/original/3.PNG?1748860078",
+          "has2D": true,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "727 sq.ft",
+      "price": "1.06 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,017 sq.ft",
+      "price": "1.49 Cr"
+    }
+  ]
+}

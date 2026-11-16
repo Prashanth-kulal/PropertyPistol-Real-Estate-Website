@@ -1,0 +1,76 @@
+{
+  "projectId": 13654,
+  "slug": "candeur-skyline-puppalaguda-pid-13654",
+  "name": "Candeur Skyline",
+  "city": "hyderabad",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/candeur-skyline-puppalaguda-pid-13654",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/13654/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13654/original/images_%281%29_%287%29.jpeg?1694416896"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/13654/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4390/original/images_%281%29_%288%29.jpeg?1694416898"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 42189,
+          "bhk": "4 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 6000,
+          "price": "7.8 Cr",
+          "actualPrice": 78000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 83984,
+          "bhk": "4 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 12000,
+          "price": "15.6 Cr",
+          "actualPrice": 156000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "On Request",
+      "price": "7.8 Cr - 15.6 Cr"
+    }
+  ]
+}

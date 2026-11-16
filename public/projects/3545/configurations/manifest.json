@@ -1,0 +1,193 @@
+{
+  "projectId": 3545,
+  "slug": "mahavir-spring-tulip",
+  "name": "Mahavir Spring Tulip",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/mahavir-spring-tulip-pokhran-road-no.-2-pid-3545",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/3545/original/master_plan.JPG?1587818156",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/1822/original/Mahavir-Spring-Floor-Plan.jpg?1587728258",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 57524,
+          "bhk": "1 BHK",
+          "carpetArea": 455,
+          "carpetAreaDisplay": "455 sq.ft",
+          "builtUpArea": null,
+          "price": "1.16 Cr",
+          "actualPrice": 11600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 131917,
+          "bhk": "1 BHK",
+          "carpetArea": 469,
+          "carpetAreaDisplay": "469 sq.ft",
+          "builtUpArea": null,
+          "price": "1.2 Cr",
+          "actualPrice": 12000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 131918,
+          "bhk": "1 BHK",
+          "carpetArea": 560,
+          "carpetAreaDisplay": "560 sq.ft",
+          "builtUpArea": null,
+          "price": "1.43 Cr",
+          "actualPrice": 14300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 131919,
+          "bhk": "2 BHK",
+          "carpetArea": 596,
+          "carpetAreaDisplay": "596 sq.ft",
+          "builtUpArea": null,
+          "price": "1.48 Cr",
+          "actualPrice": 14800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 131921,
+          "bhk": "2 BHK",
+          "carpetArea": 608,
+          "carpetAreaDisplay": "608 sq.ft",
+          "builtUpArea": null,
+          "price": "1.51 Cr",
+          "actualPrice": 15100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 131924,
+          "bhk": "3 BHK",
+          "carpetArea": 822,
+          "carpetAreaDisplay": "822 sq.ft",
+          "builtUpArea": null,
+          "price": "1.89 Cr",
+          "actualPrice": 18900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 131922,
+          "bhk": "3 BHK",
+          "carpetArea": 841,
+          "carpetAreaDisplay": "841 sq.ft",
+          "builtUpArea": null,
+          "price": "1.93 Cr",
+          "actualPrice": 19300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/131922/original/3b.PNG?1769515518",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 131923,
+          "bhk": "3 BHK",
+          "carpetArea": 946,
+          "carpetAreaDisplay": "946 sq.ft",
+          "builtUpArea": null,
+          "price": "2.29 Cr",
+          "actualPrice": 22900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "455 - 560 sq.ft",
+      "price": "1.16 Cr - 1.43 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "596 - 608 sq.ft",
+      "price": "1.48 Cr - 1.51 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "822 - 946 sq.ft",
+      "price": "1.89 Cr - 2.29 Cr"
+    }
+  ]
+}

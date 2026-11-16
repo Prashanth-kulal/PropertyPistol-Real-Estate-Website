@@ -1,0 +1,75 @@
+{
+  "projectId": 9504,
+  "slug": "thdc-ambrosia-14",
+  "name": "THDC Ambrosia 14",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/thdc-ambrosia-14-palghar-pid-9504",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7886/original/amb.png?1746513018",
+      "downloaded": false
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7887/original/am2.png?1746513018",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 32511,
+          "bhk": "1 BHK",
+          "carpetArea": 251,
+          "carpetAreaDisplay": "251 sq.ft",
+          "builtUpArea": null,
+          "price": "21.0 Lacs",
+          "actualPrice": 2100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/32511/original/bhk.png?1746513018",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 32512,
+          "bhk": "1 BHK",
+          "carpetArea": 277,
+          "carpetAreaDisplay": "277 sq.ft",
+          "builtUpArea": null,
+          "price": "23.0 Lacs",
+          "actualPrice": 2300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/32512/original/bhk.png?1746513017",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "251 - 277 sq.ft",
+      "price": "21.0 Lacs - 23.0 Lacs"
+    }
+  ]
+}

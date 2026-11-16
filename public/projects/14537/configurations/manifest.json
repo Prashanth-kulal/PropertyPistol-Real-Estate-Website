@@ -1,0 +1,117 @@
+{
+  "projectId": 14537,
+  "slug": "morya-sai-heaven-kalyan-east-pid-14537",
+  "name": "Morya Sai Heaven",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/morya-sai-heaven-kalyan-east-pid-14537",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5114/original/floorplan1.JPG?1700809151",
+      "downloaded": false
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5115/original/floorplan2.JPG?1700809151",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 45436,
+          "bhk": "1 BHK",
+          "carpetArea": 420,
+          "carpetAreaDisplay": "420 sq.ft",
+          "builtUpArea": null,
+          "price": "29.4 Lacs",
+          "actualPrice": 2940000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/45436/original/1bb.PNG?1765873999",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 109998,
+          "bhk": "1 BHK",
+          "carpetArea": 500,
+          "carpetAreaDisplay": "500 sq.ft",
+          "builtUpArea": null,
+          "price": "35.0 Lacs",
+          "actualPrice": 3500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 45437,
+          "bhk": "2 BHK",
+          "carpetArea": 700,
+          "carpetAreaDisplay": "700 sq.ft",
+          "builtUpArea": null,
+          "price": "52.0 Lacs",
+          "actualPrice": 5200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/45437/original/2.PNG?1765873999",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 96823,
+          "bhk": "2 BHK",
+          "carpetArea": 715,
+          "carpetAreaDisplay": "715 sq.ft",
+          "builtUpArea": null,
+          "price": "53.11 Lacs",
+          "actualPrice": 5311000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "420 - 500 sq.ft",
+      "price": "29.4 Lacs - 35.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "700 - 715 sq.ft",
+      "price": "52.0 Lacs - 53.11 Lacs"
+    }
+  ]
+}

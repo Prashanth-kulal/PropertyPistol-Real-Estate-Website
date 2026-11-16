@@ -1,0 +1,110 @@
+{
+  "projectId": 15766,
+  "slug": "silveroak-shriyans-punawale-pid-15766",
+  "name": "Silveroak Shriyans",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/silveroak-shriyans-punawale-pid-15766",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/15766/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5619/original/floorplan.JPG?1708595472"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 139477,
+          "bhk": "2 BHK",
+          "carpetArea": 733,
+          "carpetAreaDisplay": "733 sq.ft",
+          "builtUpArea": null,
+          "price": "77.0 Lacs",
+          "actualPrice": 7700000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 115151,
+          "bhk": "2 BHK",
+          "carpetArea": 760,
+          "carpetAreaDisplay": "760 sq.ft",
+          "builtUpArea": null,
+          "price": "79.0 Lacs",
+          "actualPrice": 7900000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 52476,
+          "bhk": "3 BHK",
+          "carpetArea": 965,
+          "carpetAreaDisplay": "965 sq.ft",
+          "builtUpArea": null,
+          "price": "1.0 Cr",
+          "actualPrice": 10000000,
+          "propertyType": "Flat",
+          "plan2D": "/projects/15766/configurations/unit-plans/3-bhk/965-sqft/plan-2d.webp",
+          "plan3D": "/projects/15766/configurations/unit-plans/3-bhk/965-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/52476/original/3bhk_2d2.JPG?1708595471",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/52476/original/3bhk_3d2.JPG?1708595471",
+          "has2D": true,
+          "has3D": true
+        },
+        {
+          "id": 52475,
+          "bhk": "3 BHK",
+          "carpetArea": 1011,
+          "carpetAreaDisplay": "1011 sq.ft",
+          "builtUpArea": null,
+          "price": "1.06 Cr",
+          "actualPrice": 10600000,
+          "propertyType": "Flat",
+          "plan2D": "/projects/15766/configurations/unit-plans/3-bhk/1011-sqft/plan-2d.webp",
+          "plan3D": "/projects/15766/configurations/unit-plans/3-bhk/1011-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/52475/original/3bhk_2d1.JPG?1708595471",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/52475/original/3bhk_3d1.JPG?1708595471",
+          "has2D": true,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "733 - 760 sq.ft",
+      "price": "77.0 Lacs - 79.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "965 - 1,011 sq.ft",
+      "price": "1.0 Cr - 1.06 Cr"
+    }
+  ]
+}

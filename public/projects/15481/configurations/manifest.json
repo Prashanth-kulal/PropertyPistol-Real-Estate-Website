@@ -1,0 +1,92 @@
+{
+  "projectId": 15481,
+  "slug": "gd-18-magnitude-punawale-pid-15481",
+  "name": "GD 18 Magnitude",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/gd-18-magnitude-punawale-pid-15481",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/15481/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/15481/original/mp.png?1704882579"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/15481/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5413/original/download.png?1704882581"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/15481/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5414/original/fp.png?1704882581"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 90853,
+          "bhk": "2 BHK",
+          "carpetArea": 767,
+          "carpetAreaDisplay": "767 sq.ft",
+          "builtUpArea": null,
+          "price": "84.0 Lacs",
+          "actualPrice": 8400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 120433,
+          "bhk": "3 BHK",
+          "carpetArea": 1135,
+          "carpetAreaDisplay": "1135 sq.ft",
+          "builtUpArea": null,
+          "price": "1.27 Cr",
+          "actualPrice": 12700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "767 sq.ft",
+      "price": "84.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,135 sq.ft",
+      "price": "1.27 Cr"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "projectId": 20005,
+  "slug": "godrej-madison-avenue-kokapet-pid-20005",
+  "name": "Godrej Madison Avenue",
+  "city": "hyderabad",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/godrej-madison-avenue-kokapet-pid-20005",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/20005/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/20005/original/mp_%281%29.png?1749792899"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 116314,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2300,
+          "price": "2.6 Cr",
+          "actualPrice": 25990000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20005/configurations/unit-plans/3-bhk/variant-116314/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/116314/original/3.PNG?1749792899",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 116316,
+          "bhk": "4 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 3350,
+          "price": "3.79 Cr",
+          "actualPrice": 37855000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20005/configurations/unit-plans/4-bhk/variant-116316/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/116316/original/4b.png?1749792899",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "2.6 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "On Request",
+      "price": "3.79 Cr"
+    }
+  ]
+}

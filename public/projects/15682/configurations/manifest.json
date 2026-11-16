@@ -1,0 +1,84 @@
+{
+  "projectId": 15682,
+  "slug": "merlin-ventana-baner-pid-15682",
+  "name": "Merlin Ventana",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/merlin-ventana-baner-pid-15682",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/15682/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5496/original/floorplan.JPG?1705897105"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/15682/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5497/original/floorplan2.JPG?1705897105"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 136906,
+          "bhk": "3 BHK",
+          "carpetArea": 1072,
+          "carpetAreaDisplay": "1072 sq.ft",
+          "builtUpArea": null,
+          "price": "1.85 Cr",
+          "actualPrice": 18500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 75334,
+          "bhk": "4 BHK",
+          "carpetArea": 1476,
+          "carpetAreaDisplay": "1476 sq.ft",
+          "builtUpArea": null,
+          "price": "2.49 Cr",
+          "actualPrice": 24900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,072 sq.ft",
+      "price": "1.85 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,476 sq.ft",
+      "price": "2.49 Cr"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "projectId": 19960,
+  "slug": "suyug-the-1-sompura-pid-19960",
+  "name": "Suyug The 1",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/suyug-the-1-sompura-pid-19960",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19960/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19960/original/master.PNG?1749281239"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19960/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8354/original/floor1new.png?1749708057"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19960/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8355/original/floor2new.png?1749708057"
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/19960/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8356/original/floor3new.png?1749708057"
+    },
+    {
+      "id": 4,
+      "title": "Layout / Site Plan 4",
+      "path": "/projects/19960/configurations/site-plans/site-plan-04.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8357/original/floor4new.png?1749708057"
+    },
+    {
+      "id": 5,
+      "title": "Layout / Site Plan 5",
+      "path": "/projects/19960/configurations/site-plans/site-plan-05.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8358/original/floor5new.png?1749708057"
+    },
+    {
+      "id": 6,
+      "title": "Layout / Site Plan 6",
+      "path": "/projects/19960/configurations/site-plans/site-plan-06.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8359/original/floor6new.png?1749708057"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 126286,
+          "bhk": "1 BHK",
+          "carpetArea": 187,
+          "carpetAreaDisplay": "187 sq.ft",
+          "builtUpArea": null,
+          "price": "25.89 Lacs",
+          "actualPrice": 2589202,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 126287,
+          "bhk": "4 BHK",
+          "carpetArea": 2322,
+          "carpetAreaDisplay": "2322 sq.ft",
+          "builtUpArea": null,
+          "price": "3.22 Cr",
+          "actualPrice": 32150412,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "187 sq.ft",
+      "price": "25.89 Lacs"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,322 sq.ft",
+      "price": "3.22 Cr"
+    }
+  ]
+}

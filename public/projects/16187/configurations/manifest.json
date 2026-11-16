@@ -1,0 +1,84 @@
+{
+  "projectId": 16187,
+  "slug": "aparna-newlands-osman-nagar-pid-16187",
+  "name": "Aparna Newlands",
+  "city": "hyderabad",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/aparna-newlands-osman-nagar-pid-16187",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16187/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6152/original/Floor_plan.PNG?1714390844"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 102646,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1578,
+          "price": "1.37 Cr",
+          "actualPrice": 13727022,
+          "propertyType": "Flat",
+          "plan2D": "/projects/16187/configurations/unit-plans/3-bhk/variant-102646/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/102646/original/3.png?1752225837",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 118748,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1690,
+          "price": "1.47 Cr",
+          "actualPrice": 14701310,
+          "propertyType": "Flat",
+          "plan2D": "/projects/16187/configurations/unit-plans/3-bhk/variant-118748/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/118748/original/3b.png?1752225837",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 134897,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1991,
+          "price": "1.72 Cr",
+          "actualPrice": 17232719,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "1.37 Cr - 1.72 Cr"
+    }
+  ]
+}

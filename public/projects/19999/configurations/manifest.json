@@ -1,0 +1,143 @@
+{
+  "projectId": 19999,
+  "slug": "davakhar-sereno-kalyan-east-pid-19999",
+  "name": "Davakhar Sereno",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/davakhar-sereno-kalyan-east-pid-19999",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19999/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8367/original/fp-dav.png?1749721380",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19999/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8368/original/da.png?1749721380",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 120554,
+          "bhk": "1 BHK",
+          "carpetArea": 340,
+          "carpetAreaDisplay": "340 sq.ft",
+          "builtUpArea": null,
+          "price": "25.5 Lacs",
+          "actualPrice": 2550000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 137559,
+          "bhk": "1 BHK",
+          "carpetArea": 504,
+          "carpetAreaDisplay": "504 sq.ft",
+          "builtUpArea": null,
+          "price": "45.5 Lacs",
+          "actualPrice": 4550000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 140266,
+          "bhk": "2 BHK",
+          "carpetArea": 580,
+          "carpetAreaDisplay": "580 sq.ft",
+          "builtUpArea": null,
+          "price": "47.0 Lacs",
+          "actualPrice": 4700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140267,
+          "bhk": "2 BHK",
+          "carpetArea": 669,
+          "carpetAreaDisplay": "669 sq.ft",
+          "builtUpArea": null,
+          "price": "63.0 Lacs",
+          "actualPrice": 6300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 140268,
+          "bhk": "3 BHK",
+          "carpetArea": 714,
+          "carpetAreaDisplay": "714 sq.ft",
+          "builtUpArea": null,
+          "price": "64.5 Lacs",
+          "actualPrice": 6450000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "340 - 504 sq.ft",
+      "price": "25.5 Lacs - 45.5 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "580 - 669 sq.ft",
+      "price": "47.0 Lacs - 63.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "714 sq.ft",
+      "price": "64.5 Lacs"
+    }
+  ]
+}

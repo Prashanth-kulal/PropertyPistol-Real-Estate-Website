@@ -1,0 +1,94 @@
+{
+  "projectId": 10440,
+  "slug": "nexus-gulmohar-charholi-pid-10440",
+  "name": "Nexus Gulmohar",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/nexus-gulmohar-charholi-pid-10440",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/10440/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/10440/original/mp.jpg?1669974302"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 34729,
+          "bhk": "2 BHK",
+          "carpetArea": 566,
+          "carpetAreaDisplay": "566 sq.ft",
+          "builtUpArea": null,
+          "price": "52.0 Lacs",
+          "actualPrice": 5200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 97202,
+          "bhk": "2 BHK",
+          "carpetArea": 670,
+          "carpetAreaDisplay": "670 sq.ft",
+          "builtUpArea": null,
+          "price": "48.56 Lacs",
+          "actualPrice": 4856000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 103359,
+          "bhk": "3 BHK",
+          "carpetArea": 646,
+          "carpetAreaDisplay": "646 sq.ft",
+          "builtUpArea": null,
+          "price": "70.0 Lacs",
+          "actualPrice": 7000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "566 - 670 sq.ft",
+      "price": "48.56 Lacs - 52.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "646 sq.ft",
+      "price": "70.0 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "projectId": 20260,
+  "slug": "sky-heights-mira-road-east-pid-20260",
+  "name": "Sky Heights",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sky-heights-mira-road-east-pid-20260",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20260/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8589/original/fp-sk.PNG?1753272661",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 120119,
+          "bhk": "1 BHK",
+          "carpetArea": 450,
+          "carpetAreaDisplay": "450 sq.ft",
+          "builtUpArea": null,
+          "price": "89.0 Lacs",
+          "actualPrice": 8900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/20260/configurations/unit-plans/1-bhk/450-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/120119/original/1bhk-3d-sk.PNG?1753272579",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 120120,
+          "bhk": "2 BHK",
+          "carpetArea": 650,
+          "carpetAreaDisplay": "650 sq.ft",
+          "builtUpArea": null,
+          "price": "1.28 Cr",
+          "actualPrice": 12800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/20260/configurations/unit-plans/2-bhk/650-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/120120/original/2bhk-2d-sk.PNG?1753272580",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 120121,
+          "bhk": "2 BHK",
+          "carpetArea": 700,
+          "carpetAreaDisplay": "700 sq.ft",
+          "builtUpArea": null,
+          "price": "1.38 Cr",
+          "actualPrice": 13800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "450 sq.ft",
+      "price": "89.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "650 - 700 sq.ft",
+      "price": "1.28 Cr - 1.38 Cr"
+    }
+  ]
+}

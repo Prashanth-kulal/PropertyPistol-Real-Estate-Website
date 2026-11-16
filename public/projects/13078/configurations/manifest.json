@@ -1,0 +1,78 @@
+{
+  "projectId": 13078,
+  "slug": "gini-vivante-kiwale-pid-13078",
+  "name": "Gini Vivante",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/gini-vivante-kiwale-pid-13078",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/13078/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13078/original/ginivivante10.jpg?1690455349"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 40552,
+          "bhk": "2 BHK",
+          "carpetArea": 725,
+          "carpetAreaDisplay": "725 sq.ft",
+          "builtUpArea": null,
+          "price": "71.0 Lacs",
+          "actualPrice": 7100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 126506,
+          "bhk": "3 BHK",
+          "carpetArea": 1007,
+          "carpetAreaDisplay": "1007 sq.ft",
+          "builtUpArea": null,
+          "price": "86.0 Lacs",
+          "actualPrice": 8600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "725 sq.ft",
+      "price": "71.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,007 sq.ft",
+      "price": "86.0 Lacs"
+    }
+  ]
+}

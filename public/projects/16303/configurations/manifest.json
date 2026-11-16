@@ -1,0 +1,68 @@
+{
+  "projectId": 16303,
+  "slug": "spaaces-engrace-vista-sarjapur-road-pid-16303",
+  "name": "Spaaces Engrace Vista",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/spaaces-engrace-vista-sarjapur-road-pid-16303",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16303/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16303/original/masterplan.JPG?1714734744"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 82947,
+          "bhk": "3 BHK",
+          "carpetArea": 1319,
+          "carpetAreaDisplay": "1319 sq.ft",
+          "builtUpArea": null,
+          "price": "1.21 Cr",
+          "actualPrice": 12122929,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 82948,
+          "bhk": "3 BHK",
+          "carpetArea": 1384,
+          "carpetAreaDisplay": "1384 sq.ft",
+          "builtUpArea": null,
+          "price": "1.27 Cr",
+          "actualPrice": 12720344,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,319 - 1,384 sq.ft",
+      "price": "1.21 Cr - 1.27 Cr"
+    }
+  ]
+}

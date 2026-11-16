@@ -1,0 +1,120 @@
+{
+  "projectId": 14233,
+  "slug": "kini-pinnacle-naigaon-east-pid-14233",
+  "name": "Kini Pinnacle",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/kini-pinnacle-naigaon-east-pid-14233",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6902/original/INCHES-03.png?1725109798",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 44157,
+          "bhk": "1 BHK",
+          "carpetArea": 434,
+          "carpetAreaDisplay": "434 sq.ft",
+          "builtUpArea": null,
+          "price": "39.72 Lacs",
+          "actualPrice": 3972000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 44158,
+          "bhk": "2 BHK",
+          "carpetArea": 621,
+          "carpetAreaDisplay": "621 sq.ft",
+          "builtUpArea": null,
+          "price": "56.84 Lacs",
+          "actualPrice": 5684000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 135173,
+          "bhk": "2 BHK",
+          "carpetArea": 629,
+          "carpetAreaDisplay": "629 sq.ft",
+          "builtUpArea": null,
+          "price": "57.57 Lacs",
+          "actualPrice": 5757000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 135174,
+          "bhk": "3 BHK",
+          "carpetArea": 849,
+          "carpetAreaDisplay": "849 sq.ft",
+          "builtUpArea": null,
+          "price": "77.71 Lacs",
+          "actualPrice": 7771000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "434 sq.ft",
+      "price": "39.72 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "621 - 629 sq.ft",
+      "price": "56.84 Lacs - 57.57 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "849 sq.ft",
+      "price": "77.71 Lacs"
+    }
+  ]
+}

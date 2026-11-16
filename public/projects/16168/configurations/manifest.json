@@ -1,0 +1,94 @@
+{
+  "projectId": 16168,
+  "slug": "aanya-crystal-antara-manpada-pid-16168",
+  "name": "Aanya Crystal Antara",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/aanya-crystal-antara-manpada-pid-16168",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16168/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6143/original/fp.png?1714373027",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 59937,
+          "bhk": "2 BHK",
+          "carpetArea": 787,
+          "carpetAreaDisplay": "787 sq.ft",
+          "builtUpArea": null,
+          "price": "1.92 Cr",
+          "actualPrice": 19200000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/16168/configurations/unit-plans/2-bhk/787-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/59937/original/2.PNG?1714373026",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 59938,
+          "bhk": "3 BHK",
+          "carpetArea": 1025,
+          "carpetAreaDisplay": "1025 sq.ft",
+          "builtUpArea": null,
+          "price": "2.51 Cr",
+          "actualPrice": 25100000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/16168/configurations/unit-plans/3-bhk/1025-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/59938/original/3.PNG?1714373026",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 115507,
+          "bhk": "3 BHK",
+          "carpetArea": 1061,
+          "carpetAreaDisplay": "1061 sq.ft",
+          "builtUpArea": null,
+          "price": "2.77 Cr",
+          "actualPrice": 27700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "787 sq.ft",
+      "price": "1.92 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,025 - 1,061 sq.ft",
+      "price": "2.51 Cr - 2.77 Cr"
+    }
+  ]
+}

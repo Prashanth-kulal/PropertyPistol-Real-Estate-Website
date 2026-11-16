@@ -1,0 +1,78 @@
+{
+  "projectId": 4336,
+  "slug": "vedant-imperial-badlapur-west-pid-4336",
+  "name": "Vedant Imperial",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/vedant-imperial-badlapur-west-pid-4336",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/4336/original/55deb9afd27f2.jpeg?1732776003",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 128027,
+          "bhk": "1 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": null,
+          "price": "28.99 Lacs",
+          "actualPrice": 2899000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 57782,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "On Request",
+      "price": "28.99 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "On Request",
+      "price": "On Request"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "projectId": 8009,
+  "slug": "unimax-pride-taloja-pid-8009",
+  "name": "Unimax Pride",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/unimax-pride-taloja-pid-8009",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/8009/original/Master-Plan.jpg?1735380584",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7304/original/1-Bldg-1st-to-5th-Plan.jpg?1735380586",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 55541,
+          "bhk": "1 BHK",
+          "carpetArea": 228,
+          "carpetAreaDisplay": "228 sq.ft",
+          "builtUpArea": null,
+          "price": "15.43 Lacs",
+          "actualPrice": 1543332,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/55541/original/1bhk.png?1762765874",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 129280,
+          "bhk": "2 BHK",
+          "carpetArea": 697,
+          "carpetAreaDisplay": "697 sq.ft",
+          "builtUpArea": null,
+          "price": "47.18 Lacs",
+          "actualPrice": 4717993,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/129280/original/2bhk.png?1762765874",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "228 sq.ft",
+      "price": "15.43 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "697 sq.ft",
+      "price": "47.18 Lacs"
+    }
+  ]
+}

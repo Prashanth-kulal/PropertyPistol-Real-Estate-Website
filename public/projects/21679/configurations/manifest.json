@@ -1,0 +1,92 @@
+{
+  "projectId": 21679,
+  "slug": "boston-by-pride-world-city-charholi-pid-21679",
+  "name": "Boston By Pride World City",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/boston-by-pride-world-city-charholi-pid-21679",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/21679/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/21679/original/master.png?1777116530"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21679/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9256/original/fppp.png?1777116532"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/21679/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9257/original/fp2.png?1777116532"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 134445,
+          "bhk": "1 BHK",
+          "carpetArea": 513,
+          "carpetAreaDisplay": "513 sq.ft",
+          "builtUpArea": null,
+          "price": "46.68 Lacs",
+          "actualPrice": 4668300,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 134446,
+          "bhk": "2 BHK",
+          "carpetArea": 726,
+          "carpetAreaDisplay": "726 sq.ft",
+          "builtUpArea": null,
+          "price": "66.07 Lacs",
+          "actualPrice": 6606600,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "513 sq.ft",
+      "price": "46.68 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "726 sq.ft",
+      "price": "66.07 Lacs"
+    }
+  ]
+}

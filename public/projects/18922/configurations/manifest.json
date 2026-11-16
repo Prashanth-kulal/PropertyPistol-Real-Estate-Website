@@ -1,0 +1,68 @@
+{
+  "projectId": 18922,
+  "slug": "shubh-swapn-arcade-manish-nagar-pid-18922",
+  "name": "Shubh Swapn Arcade",
+  "city": "nagpur",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shubh-swapn-arcade-manish-nagar-pid-18922",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18922/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7297/original/floorplan.PNG?1734006496"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 96575,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1822,
+          "price": "87.49 Lacs",
+          "actualPrice": 8749000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/18922/configurations/unit-plans/3-bhk/variant-96575/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/96575/original/3bhk_3d.PNG?1734006495",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 125775,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1900,
+          "price": "87.5 Lacs",
+          "actualPrice": 8750000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "87.49 Lacs - 87.5 Lacs"
+    }
+  ]
+}

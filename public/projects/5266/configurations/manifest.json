@@ -1,0 +1,86 @@
+{
+  "projectId": 5266,
+  "slug": "chandrarang-serenity-wakad-pid-5266",
+  "name": "Chandrarang Serenity",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/chandrarang-serenity-wakad-pid-5266",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/5266/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/5266/original/mp.png?1669188038"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/5266/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2904/original/fp.JPG?1669188039"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 79878,
+          "bhk": "2 BHK",
+          "carpetArea": 818,
+          "carpetAreaDisplay": "818 sq.ft",
+          "builtUpArea": null,
+          "price": "1.21 Cr",
+          "actualPrice": 12100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 112554,
+          "bhk": "3 BHK",
+          "carpetArea": 1295,
+          "carpetAreaDisplay": "1295 sq.ft",
+          "builtUpArea": null,
+          "price": "1.92 Cr",
+          "actualPrice": 19200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "818 sq.ft",
+      "price": "1.21 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,295 sq.ft",
+      "price": "1.92 Cr"
+    }
+  ]
+}

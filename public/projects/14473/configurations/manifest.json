@@ -1,0 +1,115 @@
+{
+  "projectId": 14473,
+  "slug": "infinity-icon-panvel-pid-14473",
+  "name": "Infinity Icon",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/infinity-icon-panvel-pid-14473",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/14473/original/masterplan.JPG?1700202042",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4991/original/floorplan1.JPG?1700202042",
+      "downloaded": false
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4992/original/floorplan2.JPG?1700202042",
+      "downloaded": false
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4993/original/floorplan3.JPG?1700202042",
+      "downloaded": false
+    },
+    {
+      "id": 4,
+      "title": "Layout / Site Plan 4",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4994/original/floorplan4.JPG?1700202042",
+      "downloaded": false
+    },
+    {
+      "id": 5,
+      "title": "Layout / Site Plan 5",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4995/original/floorplan5.JPG?1700202042",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 45036,
+          "bhk": "1 BHK",
+          "carpetArea": 390,
+          "carpetAreaDisplay": "390 sq.ft",
+          "builtUpArea": null,
+          "price": "30.0 Lacs",
+          "actualPrice": 3000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 45034,
+          "bhk": "2 BHK",
+          "carpetArea": 683,
+          "carpetAreaDisplay": "683 sq.ft",
+          "builtUpArea": null,
+          "price": "52.54 Lacs",
+          "actualPrice": 5253636,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "390 sq.ft",
+      "price": "30.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "683 sq.ft",
+      "price": "52.54 Lacs"
+    }
+  ]
+}

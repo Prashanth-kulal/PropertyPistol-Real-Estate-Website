@@ -1,0 +1,162 @@
+{
+  "projectId": 15734,
+  "slug": "joyville-celestia-at-sp-kingstown-hadapsar-pid-15734",
+  "name": "Joyville Celestia at SP Kingstown",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/joyville-celestia-at-sp-kingstown-hadapsar-pid-15734",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/15734/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/15734/original/masterplan.JPG?1707128753"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/15734/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5563/original/floorplan1.JPG?1707128754"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/15734/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5564/original/floorplan2.JPG?1707128754"
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/15734/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5565/original/floorplan3.JPG?1707128754"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 108203,
+          "bhk": "2 BHK",
+          "carpetArea": 591,
+          "carpetAreaDisplay": "591 sq.ft",
+          "builtUpArea": null,
+          "price": "79.84 Lacs",
+          "actualPrice": 7984000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 51531,
+          "bhk": "2 BHK",
+          "carpetArea": 595,
+          "carpetAreaDisplay": "595 sq.ft",
+          "builtUpArea": null,
+          "price": "79.0 Lacs",
+          "actualPrice": 7900000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 70449,
+          "bhk": "2 BHK",
+          "carpetArea": 707,
+          "carpetAreaDisplay": "707 sq.ft",
+          "builtUpArea": null,
+          "price": "95.42 Lacs",
+          "actualPrice": 9542000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 108202,
+          "bhk": "3 BHK",
+          "carpetArea": 935,
+          "carpetAreaDisplay": "935 sq.ft",
+          "builtUpArea": null,
+          "price": "1.16 Cr",
+          "actualPrice": 11600000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139497,
+          "bhk": "3 BHK",
+          "carpetArea": 1063,
+          "carpetAreaDisplay": "1063 sq.ft",
+          "builtUpArea": null,
+          "price": "1.44 Cr",
+          "actualPrice": 14400000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139498,
+          "bhk": "3 BHK",
+          "carpetArea": 1270,
+          "carpetAreaDisplay": "1270 sq.ft",
+          "builtUpArea": null,
+          "price": "1.71 Cr",
+          "actualPrice": 17100000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "591 - 707 sq.ft",
+      "price": "79.0 Lacs - 95.42 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "935 - 1,270 sq.ft",
+      "price": "1.16 Cr - 1.71 Cr"
+    }
+  ]
+}

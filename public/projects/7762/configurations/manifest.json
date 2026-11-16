@@ -1,0 +1,94 @@
+{
+  "projectId": 7762,
+  "slug": "godrej-bayview-vashi-pid-7762",
+  "name": "Godrej Bayview",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/godrej-bayview-vashi-pid-7762",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/7762/original/mp.jpg?1643364625",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 92378,
+          "bhk": "2 BHK",
+          "carpetArea": 750,
+          "carpetAreaDisplay": "750 sq.ft",
+          "builtUpArea": null,
+          "price": "3.08 Cr",
+          "actualPrice": 30750000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 92379,
+          "bhk": "3 BHK",
+          "carpetArea": 990,
+          "carpetAreaDisplay": "990 sq.ft",
+          "builtUpArea": null,
+          "price": "4.06 Cr",
+          "actualPrice": 40590000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 137264,
+          "bhk": "3 BHK",
+          "carpetArea": 1100,
+          "carpetAreaDisplay": "1100 sq.ft",
+          "builtUpArea": null,
+          "price": "4.51 Cr",
+          "actualPrice": 45100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "750 sq.ft",
+      "price": "3.08 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "990 - 1,100 sq.ft",
+      "price": "4.06 Cr - 4.51 Cr"
+    }
+  ]
+}

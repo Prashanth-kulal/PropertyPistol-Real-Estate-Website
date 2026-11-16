@@ -1,0 +1,87 @@
+{
+  "projectId": 19862,
+  "slug": "kalyan-vatika-bhiwandi-pid-19862",
+  "name": "Kalyan Vatika",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/kalyan-vatika-bhiwandi-pid-19862",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19862/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19862/original/mp-kalyan.png?1747841615",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19862/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8073/original/fp-kalyan.png?1747841617",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 113846,
+          "bhk": "1 BHK",
+          "carpetArea": 417,
+          "carpetAreaDisplay": "417 sq.ft",
+          "builtUpArea": null,
+          "price": "36.0 Lacs",
+          "actualPrice": 3600000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19862/configurations/unit-plans/1-bhk/417-sqft/plan-2d.webp",
+          "plan3D": "/projects/19862/configurations/unit-plans/1-bhk/417-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/113846/original/1bhk-kalyan.png?1747841616",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/113846/original/1bhk-3d-kalyan.png?1747841616",
+          "has2D": true,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 129753,
+          "bhk": "2 BHK",
+          "carpetArea": 536,
+          "carpetAreaDisplay": "536 sq.ft",
+          "builtUpArea": null,
+          "price": "50.0 Lacs",
+          "actualPrice": 5000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "417 sq.ft",
+      "price": "36.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "536 sq.ft",
+      "price": "50.0 Lacs"
+    }
+  ]
+}

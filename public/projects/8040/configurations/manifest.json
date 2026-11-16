@@ -1,0 +1,152 @@
+{
+  "projectId": 8040,
+  "slug": "hs-alag-ghatkopar-east-pid-8040",
+  "name": "HS Alag",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/hs-alag-ghatkopar-east-pid-8040",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5164/original/floor-map.png?1733145397",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 28641,
+          "bhk": "1 BHK",
+          "carpetArea": 466,
+          "carpetAreaDisplay": "466 sq.ft",
+          "builtUpArea": null,
+          "price": "1.2 Cr",
+          "actualPrice": 12000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 26770,
+          "bhk": "2 BHK",
+          "carpetArea": 562,
+          "carpetAreaDisplay": "562 sq.ft",
+          "builtUpArea": null,
+          "price": "1.45 Cr",
+          "actualPrice": 14500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 95018,
+          "bhk": "2 BHK",
+          "carpetArea": 613,
+          "carpetAreaDisplay": "613 sq.ft",
+          "builtUpArea": null,
+          "price": "1.58 Cr",
+          "actualPrice": 15800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 95019,
+          "bhk": "2 BHK",
+          "carpetArea": 619,
+          "carpetAreaDisplay": "619 sq.ft",
+          "builtUpArea": null,
+          "price": "1.6 Cr",
+          "actualPrice": 16000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 95020,
+          "bhk": "2 BHK",
+          "carpetArea": 668,
+          "carpetAreaDisplay": "668 sq.ft",
+          "builtUpArea": null,
+          "price": "1.72 Cr",
+          "actualPrice": 17200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 95021,
+          "bhk": "3 BHK",
+          "carpetArea": 795,
+          "carpetAreaDisplay": "795 sq.ft",
+          "builtUpArea": null,
+          "price": "2.05 Cr",
+          "actualPrice": 20500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "466 sq.ft",
+      "price": "1.2 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "562 - 668 sq.ft",
+      "price": "1.45 Cr - 1.72 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "795 sq.ft",
+      "price": "2.05 Cr"
+    }
+  ]
+}

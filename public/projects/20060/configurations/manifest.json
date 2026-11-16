@@ -1,0 +1,103 @@
+{
+  "projectId": 20060,
+  "slug": "mahindra-marina-64",
+  "name": "Mahindra Marina 64",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/mahindra-marina-64-malad-west-pid-20060",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/20060/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/20060/original/mp.PNG?1750919982",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20060/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8403/original/fp.PNG?1750919983",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 117198,
+          "bhk": "2 BHK",
+          "carpetArea": 761,
+          "carpetAreaDisplay": "761 sq.ft",
+          "builtUpArea": null,
+          "price": "2.85 Cr",
+          "actualPrice": 28500000,
+          "propertyType": "Flat",
+          "plan2D": "/projects/20060/configurations/unit-plans/2-bhk/761-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/117198/original/2b.jpg?1750919982",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 117199,
+          "bhk": "3 BHK",
+          "carpetArea": 961,
+          "carpetAreaDisplay": "961 sq.ft",
+          "builtUpArea": null,
+          "price": "3.69 Cr",
+          "actualPrice": 36900000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139684,
+          "bhk": "3 BHK",
+          "carpetArea": 1050,
+          "carpetAreaDisplay": "1050 sq.ft",
+          "builtUpArea": null,
+          "price": "3.99 Cr",
+          "actualPrice": 39900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "761 sq.ft",
+      "price": "2.85 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "961 - 1,050 sq.ft",
+      "price": "3.69 Cr - 3.99 Cr"
+    }
+  ]
+}

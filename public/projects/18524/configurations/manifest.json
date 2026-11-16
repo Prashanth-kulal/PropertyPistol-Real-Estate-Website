@@ -1,0 +1,90 @@
+{
+  "projectId": 18524,
+  "slug": "rai-orchid-shambhu-nagar-pid-18524",
+  "name": "Rai Orchid",
+  "city": "nagpur",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/rai-orchid-shambhu-nagar-pid-18524",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18524/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7099/original/floorplan.png?1751455043"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/18524/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7098/original/floorplan1.png?1751455043"
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/18524/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7100/original/floorplan2.PNG?1731068327"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 92124,
+          "bhk": "2 BHK",
+          "carpetArea": 590,
+          "carpetAreaDisplay": "590 sq.ft",
+          "builtUpArea": null,
+          "price": "45.0 Lacs",
+          "actualPrice": 4500000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18524/configurations/unit-plans/2-bhk/590-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/92124/original/2bhk_2d.PNG?1731068326",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 92125,
+          "bhk": "3 BHK",
+          "carpetArea": 725,
+          "carpetAreaDisplay": "725 sq.ft",
+          "builtUpArea": null,
+          "price": "55.0 Lacs",
+          "actualPrice": 5500000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18524/configurations/unit-plans/3-bhk/725-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/92125/original/3bhk_2d.PNG?1731068326",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "590 sq.ft",
+      "price": "45.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "725 sq.ft",
+      "price": "55.0 Lacs"
+    }
+  ]
+}

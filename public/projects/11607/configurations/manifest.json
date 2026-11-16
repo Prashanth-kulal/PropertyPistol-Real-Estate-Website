@@ -1,0 +1,117 @@
+{
+  "projectId": 11607,
+  "slug": "cd-gurudev-virar-west-pid-11607",
+  "name": "CD Gurudev",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/cd-gurudev-virar-west-pid-11607",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6749/original/fp_cd.PNG?1722845751",
+      "downloaded": false
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6750/original/fp_cd2.PNG?1722845751",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 118877,
+          "bhk": "1 BHK",
+          "carpetArea": 486,
+          "carpetAreaDisplay": "486 sq.ft",
+          "builtUpArea": null,
+          "price": "44.6 Lacs",
+          "actualPrice": 4460000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 118880,
+          "bhk": "1 BHK",
+          "carpetArea": 517,
+          "carpetAreaDisplay": "517 sq.ft",
+          "builtUpArea": null,
+          "price": "47.44 Lacs",
+          "actualPrice": 4744000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 118879,
+          "bhk": "2 BHK",
+          "carpetArea": 612,
+          "carpetAreaDisplay": "612 sq.ft",
+          "builtUpArea": null,
+          "price": "56.23 Lacs",
+          "actualPrice": 5623000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139474,
+          "bhk": "2 BHK",
+          "carpetArea": 717,
+          "carpetAreaDisplay": "717 sq.ft",
+          "builtUpArea": null,
+          "price": "65.81 Lacs",
+          "actualPrice": 6581000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "486 - 517 sq.ft",
+      "price": "44.6 Lacs - 47.44 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "612 - 717 sq.ft",
+      "price": "56.23 Lacs - 65.81 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "projectId": 12765,
+  "slug": "saheel-itrend-futura-baner-pid-12765",
+  "name": "Saheel Itrend Futura",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/saheel-itrend-futura-baner-pid-12765",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/12765/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/12765/original/mp.png?1696962167"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 111830,
+          "bhk": "2 BHK",
+          "carpetArea": 669,
+          "carpetAreaDisplay": "669 sq.ft",
+          "builtUpArea": null,
+          "price": "72.19 Lacs",
+          "actualPrice": 7218510,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 134392,
+          "bhk": "2 BHK",
+          "carpetArea": 721,
+          "carpetAreaDisplay": "721 sq.ft",
+          "builtUpArea": null,
+          "price": "77.8 Lacs",
+          "actualPrice": 7779590,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 104706,
+          "bhk": "3 BHK",
+          "carpetArea": 1120,
+          "carpetAreaDisplay": "1120 sq.ft",
+          "builtUpArea": null,
+          "price": "1.21 Cr",
+          "actualPrice": 12084800,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/12765/configurations/unit-plans/3-bhk/1120-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/104706/original/3bhk.png?1746774001",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "669 - 721 sq.ft",
+      "price": "72.19 Lacs - 77.8 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,120 sq.ft",
+      "price": "1.21 Cr"
+    }
+  ]
+}

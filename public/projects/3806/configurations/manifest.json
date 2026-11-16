@@ -1,0 +1,158 @@
+{
+  "projectId": 3806,
+  "slug": "greenstone-heritage",
+  "name": "Greenstone Heritage",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/greenstone-heritage-fort-pid-3806",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/1991/original/download.png?1610440723",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 8866,
+          "bhk": "1 BHK",
+          "carpetArea": 383,
+          "carpetAreaDisplay": "383 sq.ft",
+          "builtUpArea": null,
+          "price": "1.78 Cr",
+          "actualPrice": 17800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/8866/original/1bed.PNG?1610440722",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/8866/original/1bhk.PNG?1610440722",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139580,
+          "bhk": "1 BHK",
+          "carpetArea": 386,
+          "carpetAreaDisplay": "386 sq.ft",
+          "builtUpArea": null,
+          "price": "1.79 Cr",
+          "actualPrice": 17900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139581,
+          "bhk": "1 BHK",
+          "carpetArea": 388,
+          "carpetAreaDisplay": "388 sq.ft",
+          "builtUpArea": null,
+          "price": "1.8 Cr",
+          "actualPrice": 18000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 8867,
+          "bhk": "2 BHK",
+          "carpetArea": 671,
+          "carpetAreaDisplay": "671 sq.ft",
+          "builtUpArea": null,
+          "price": "3.1 Cr",
+          "actualPrice": 31000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/8867/original/2bhhk.PNG?1610440722",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/8867/original/2bhk.PNG?1610440722",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139582,
+          "bhk": "2 BHK",
+          "carpetArea": 675,
+          "carpetAreaDisplay": "675 sq.ft",
+          "builtUpArea": null,
+          "price": "3.12 Cr",
+          "actualPrice": 31200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139583,
+          "bhk": "2 BHK",
+          "carpetArea": 712,
+          "carpetAreaDisplay": "712 sq.ft",
+          "builtUpArea": null,
+          "price": "3.29 Cr",
+          "actualPrice": 32900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139584,
+          "bhk": "2 BHK",
+          "carpetArea": 743,
+          "carpetAreaDisplay": "743 sq.ft",
+          "builtUpArea": null,
+          "price": "3.44 Cr",
+          "actualPrice": 34400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "383 - 388 sq.ft",
+      "price": "1.78 Cr - 1.8 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "671 - 743 sq.ft",
+      "price": "3.1 Cr - 3.44 Cr"
+    }
+  ]
+}

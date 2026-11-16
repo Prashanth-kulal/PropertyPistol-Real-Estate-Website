@@ -1,0 +1,122 @@
+{
+  "projectId": 20068,
+  "slug": "asset-pragathi-peroorkada-pid-20068",
+  "name": "Asset Pragathi",
+  "city": "trivandrum",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/asset-pragathi-peroorkada-pid-20068",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20068/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8406/original/tfp.png?1751011716"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/20068/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8407/original/2fp.png?1751011716"
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/20068/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8408/original/fp-.png?1751011716"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 117242,
+          "bhk": "2 BHK",
+          "carpetArea": 1241,
+          "carpetAreaDisplay": "1241 sq.ft",
+          "builtUpArea": null,
+          "price": "78.18 Lacs",
+          "actualPrice": 7818000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20068/configurations/unit-plans/2-bhk/1241-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/117242/original/2bhk.png?1751011715",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 138907,
+          "bhk": "2 BHK",
+          "carpetArea": 1258,
+          "carpetAreaDisplay": "1258 sq.ft",
+          "builtUpArea": null,
+          "price": "79.25 Lacs",
+          "actualPrice": 7925000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 138908,
+          "bhk": "3 BHK",
+          "carpetArea": 1590,
+          "carpetAreaDisplay": "1590 sq.ft",
+          "builtUpArea": null,
+          "price": "1.0 Cr",
+          "actualPrice": 10000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 117243,
+          "bhk": "3 BHK",
+          "carpetArea": 1619,
+          "carpetAreaDisplay": "1619 sq.ft",
+          "builtUpArea": null,
+          "price": "1.02 Cr",
+          "actualPrice": 10200000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20068/configurations/unit-plans/3-bhk/1619-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/117243/original/3bhk.png?1751011715",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "1,241 - 1,258 sq.ft",
+      "price": "78.18 Lacs - 79.25 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,590 - 1,619 sq.ft",
+      "price": "1.0 Cr - 1.02 Cr"
+    }
+  ]
+}

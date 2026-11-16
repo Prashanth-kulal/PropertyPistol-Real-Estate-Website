@@ -1,0 +1,94 @@
+{
+  "projectId": 18180,
+  "slug": "lodha-corinthia",
+  "name": "Lodha Corinthia",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/lodha-corinthia-bhandup-west-pid-18180",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18180/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18180/original/mp_lodh.png?1765265761",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18180/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8197/original/fp-lo.png?1765265762",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/18180/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9074/original/fp-lo.png?1765265762",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 127520,
+          "bhk": "2 BHK",
+          "carpetArea": 750,
+          "carpetAreaDisplay": "750 sq.ft",
+          "builtUpArea": null,
+          "price": "2.5 Cr",
+          "actualPrice": 25000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 135288,
+          "bhk": "3 BHK",
+          "carpetArea": 1100,
+          "carpetAreaDisplay": "1100 sq.ft",
+          "builtUpArea": null,
+          "price": "3.0 Cr",
+          "actualPrice": 30000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "750 sq.ft",
+      "price": "2.5 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,100 sq.ft",
+      "price": "3.0 Cr"
+    }
+  ]
+}

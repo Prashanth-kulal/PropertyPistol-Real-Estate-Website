@@ -1,0 +1,85 @@
+{
+  "projectId": 21442,
+  "slug": "acres-abode-malad-west-pid-21442",
+  "name": "Acres Abode",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/acres-abode-malad-west-pid-21442",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21442/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9215/original/2nd.png?1771841022",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/21442/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9216/original/df.png?1771841022",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 133021,
+          "bhk": "1 BHK",
+          "carpetArea": 487,
+          "carpetAreaDisplay": "487 sq.ft",
+          "builtUpArea": null,
+          "price": "1.17 Cr",
+          "actualPrice": 11700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 133022,
+          "bhk": "2 BHK",
+          "carpetArea": 692,
+          "carpetAreaDisplay": "692 sq.ft",
+          "builtUpArea": null,
+          "price": "1.67 Cr",
+          "actualPrice": 16700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "487 sq.ft",
+      "price": "1.17 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "692 sq.ft",
+      "price": "1.67 Cr"
+    }
+  ]
+}

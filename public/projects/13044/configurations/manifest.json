@@ -1,0 +1,94 @@
+{
+  "projectId": 13044,
+  "slug": "sai-world-empire-kharghar-pid-13044",
+  "name": "Sai World Empire",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sai-world-empire-kharghar-pid-13044",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13044/original/Capturefree.PNG?1690287009",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4204/original/Capturefres.PNG?1690287011",
+      "downloaded": false
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4205/original/Captureedf.PNG?1690287011",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 114431,
+          "bhk": "2 BHK",
+          "carpetArea": 831,
+          "carpetAreaDisplay": "831 sq.ft",
+          "builtUpArea": null,
+          "price": "1.7 Cr",
+          "actualPrice": 16992288,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 131378,
+          "bhk": "4 BHK",
+          "carpetArea": 2090,
+          "carpetAreaDisplay": "2090 sq.ft",
+          "builtUpArea": null,
+          "price": "4.27 Cr",
+          "actualPrice": 42736320,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "831 sq.ft",
+      "price": "1.7 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,090 sq.ft",
+      "price": "4.27 Cr"
+    }
+  ]
+}

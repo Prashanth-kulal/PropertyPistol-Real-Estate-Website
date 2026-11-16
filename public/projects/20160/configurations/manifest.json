@@ -1,0 +1,94 @@
+{
+  "projectId": 20160,
+  "slug": "confident-mayfair-sarjapur-road-pid-20160",
+  "name": "Confident Mayfair",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/confident-mayfair-sarjapur-road-pid-20160",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20160/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8506/original/floor.PNG?1752650472"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 119217,
+          "bhk": "2 BHK",
+          "carpetArea": 766,
+          "carpetAreaDisplay": "766 sq.ft",
+          "builtUpArea": null,
+          "price": "1.49 Cr",
+          "actualPrice": 14900000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20160/configurations/unit-plans/2-bhk/766-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/119217/original/2bhk_2d.PNG?1752650466",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 119218,
+          "bhk": "3 BHK",
+          "carpetArea": 867,
+          "carpetAreaDisplay": "867 sq.ft",
+          "builtUpArea": null,
+          "price": "1.73 Cr",
+          "actualPrice": 17300000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20160/configurations/unit-plans/3-bhk/867-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/119218/original/3bhk_2d.PNG?1752650466",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 119219,
+          "bhk": "3 BHK",
+          "carpetArea": 965,
+          "carpetAreaDisplay": "965 sq.ft",
+          "builtUpArea": null,
+          "price": "1.96 Cr",
+          "actualPrice": 19600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "766 sq.ft",
+      "price": "1.49 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "867 - 965 sq.ft",
+      "price": "1.73 Cr - 1.96 Cr"
+    }
+  ]
+}

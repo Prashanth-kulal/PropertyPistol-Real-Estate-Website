@@ -1,0 +1,87 @@
+{
+  "projectId": 18093,
+  "slug": "maximus-city-panvel-pid-18093",
+  "name": "Maximus City",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/maximus-city-panvel-pid-18093",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18093/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18093/original/mp_maxi.png?1728374813",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18093/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6965/original/fp_max.png?1728374815",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 88167,
+          "bhk": "1 BHK",
+          "carpetArea": 493,
+          "carpetAreaDisplay": "493 sq.ft",
+          "builtUpArea": null,
+          "price": "44.04 Lacs",
+          "actualPrice": 4404270,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 103091,
+          "bhk": "2 BHK",
+          "carpetArea": 1116,
+          "carpetAreaDisplay": "1116 sq.ft",
+          "builtUpArea": null,
+          "price": "1.0 Cr",
+          "actualPrice": 10010520,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "493 sq.ft",
+      "price": "44.04 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "1,116 sq.ft",
+      "price": "1.0 Cr"
+    }
+  ]
+}

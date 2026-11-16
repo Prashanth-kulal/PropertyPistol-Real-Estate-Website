@@ -1,0 +1,98 @@
+{
+  "projectId": 20298,
+  "slug": "saheel-landmarc-hinjawadi-pid-20298",
+  "name": "Saheel Landmarc",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/saheel-landmarc-hinjawadi-pid-20298",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/20298/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/20298/original/mp-landd.png?1753447744"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20298/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8616/original/mp-land.png?1753447916"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/20298/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8617/original/fp-land.png?1753447916"
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/20298/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8618/original/tfp-land.png?1753447916"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 120500,
+          "bhk": "2 BHK",
+          "carpetArea": 654,
+          "carpetAreaDisplay": "654 sq.ft",
+          "builtUpArea": null,
+          "price": "63.18 Lacs",
+          "actualPrice": 6317640,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 120502,
+          "bhk": "3 BHK",
+          "carpetArea": 1082,
+          "carpetAreaDisplay": "1082 sq.ft",
+          "builtUpArea": null,
+          "price": "1.05 Cr",
+          "actualPrice": 10452120,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "654 sq.ft",
+      "price": "63.18 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,082 sq.ft",
+      "price": "1.05 Cr"
+    }
+  ]
+}

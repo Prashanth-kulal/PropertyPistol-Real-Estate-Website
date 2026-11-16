@@ -1,0 +1,110 @@
+{
+  "projectId": 9573,
+  "slug": "shraddha-peninsula",
+  "name": "Shraddha Peninsula",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shraddha-peninsula-balkum-pid-9573",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6037/original/fp_%286%29.png?1754570563",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 32647,
+          "bhk": "1 BHK",
+          "carpetArea": 358,
+          "carpetAreaDisplay": "358 sq.ft",
+          "builtUpArea": null,
+          "price": "58.0 Lacs",
+          "actualPrice": 5800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/32647/original/1.PNG?1722658503",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 55147,
+          "bhk": "1 BHK",
+          "carpetArea": 380,
+          "carpetAreaDisplay": "380 sq.ft",
+          "builtUpArea": null,
+          "price": "62.0 Lacs",
+          "actualPrice": 6200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/55147/original/1.PNG?1722658503",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 76635,
+          "bhk": "2 BHK",
+          "carpetArea": 477,
+          "carpetAreaDisplay": "477 sq.ft",
+          "builtUpArea": null,
+          "price": "77.99 Lacs",
+          "actualPrice": 7799000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/76635/original/2.PNG?1722658503",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 76636,
+          "bhk": "2 BHK",
+          "carpetArea": 499,
+          "carpetAreaDisplay": "499 sq.ft",
+          "builtUpArea": null,
+          "price": "82.0 Lacs",
+          "actualPrice": 8200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/76636/original/2.PNG?1722658503",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "358 - 380 sq.ft",
+      "price": "58.0 Lacs - 62.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "477 - 499 sq.ft",
+      "price": "77.99 Lacs - 82.0 Lacs"
+    }
+  ]
+}

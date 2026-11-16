@@ -1,0 +1,78 @@
+{
+  "projectId": 17804,
+  "slug": "godrej-sky-terraces",
+  "name": "Godrej Sky Terraces ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/godrej-sky-terraces-chembur-pid-17804",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/17804/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/17804/original/mp.PNG?1727095112",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 82408,
+          "bhk": "3 BHK",
+          "carpetArea": 1335,
+          "carpetAreaDisplay": "1335 sq.ft",
+          "builtUpArea": null,
+          "price": "8.5 Cr",
+          "actualPrice": 85000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 82405,
+          "bhk": "4 BHK",
+          "carpetArea": 1928,
+          "carpetAreaDisplay": "1928 sq.ft",
+          "builtUpArea": null,
+          "price": "9.25 Cr",
+          "actualPrice": 92500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,335 sq.ft",
+      "price": "8.5 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,928 sq.ft",
+      "price": "9.25 Cr"
+    }
+  ]
+}

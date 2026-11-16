@@ -1,0 +1,52 @@
+{
+  "projectId": 7359,
+  "slug": "guardian-cityscapes-jaydeo-nagar-pid-7359",
+  "name": "Guardian Cityscapes",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/guardian-cityscapes-jaydeo-nagar-pid-7359",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/7359/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/7359/original/mp-gua.png?1746868109"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 78361,
+          "bhk": "2 BHK",
+          "carpetArea": 721,
+          "carpetAreaDisplay": "721 sq.ft",
+          "builtUpArea": null,
+          "price": "1.35 Cr",
+          "actualPrice": 13500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/7359/configurations/unit-plans/2-bhk/721-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/78361/original/2bhk-gua.png?1746868109",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "721 sq.ft",
+      "price": "1.35 Cr"
+    }
+  ]
+}

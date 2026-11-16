@@ -1,0 +1,78 @@
+{
+  "projectId": 18314,
+  "slug": "raj-shree-shashwat-mira-road-east-pid-18314",
+  "name": "Raj Shree Shashwat",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/raj-shree-shashwat-mira-road-east-pid-18314",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18314/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7015/original/fp_shree.png?1729854097",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 90337,
+          "bhk": "1 BHK",
+          "carpetArea": 470,
+          "carpetAreaDisplay": "470 sq.ft",
+          "builtUpArea": null,
+          "price": "1.01 Cr",
+          "actualPrice": 10100000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18314/configurations/unit-plans/1-bhk/470-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/90337/original/1bhk_shree.PNG?1729854095",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 90338,
+          "bhk": "2 BHK",
+          "carpetArea": 620,
+          "carpetAreaDisplay": "620 sq.ft",
+          "builtUpArea": null,
+          "price": "1.33 Cr",
+          "actualPrice": 13300000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18314/configurations/unit-plans/2-bhk/620-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/90338/original/2bhk_shree.PNG?1729854095",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "470 sq.ft",
+      "price": "1.01 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "620 sq.ft",
+      "price": "1.33 Cr"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "projectId": 18295,
+  "slug": "the-olympia-panvel-pid-18295",
+  "name": "The Olympia",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/the-olympia-panvel-pid-18295",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18295/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7009/original/fp_oly.png?1729779692",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 96213,
+          "bhk": "2 BHK",
+          "carpetArea": 759,
+          "carpetAreaDisplay": "759 sq.ft",
+          "builtUpArea": null,
+          "price": "1.15 Cr",
+          "actualPrice": 11500368,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 122186,
+          "bhk": "3 BHK",
+          "carpetArea": 1115,
+          "carpetAreaDisplay": "1115 sq.ft",
+          "builtUpArea": null,
+          "price": "1.69 Cr",
+          "actualPrice": 16894480,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "759 sq.ft",
+      "price": "1.15 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,115 sq.ft",
+      "price": "1.69 Cr"
+    }
+  ]
+}

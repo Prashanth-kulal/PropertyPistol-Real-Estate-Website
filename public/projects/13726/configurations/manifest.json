@@ -1,0 +1,94 @@
+{
+  "projectId": 13726,
+  "slug": "swastik-tulip",
+  "name": "Swastik Tulip",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/swastik-tulip-vikhroli-east-pid-13726",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4408/original/floor-plan.jpg?1694775687",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 42417,
+          "bhk": "1 BHK",
+          "carpetArea": 394,
+          "carpetAreaDisplay": "394 sq.ft",
+          "builtUpArea": null,
+          "price": "98.5 Lacs",
+          "actualPrice": 9850000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 59479,
+          "bhk": "1 BHK",
+          "carpetArea": 408,
+          "carpetAreaDisplay": "408 sq.ft",
+          "builtUpArea": null,
+          "price": "1.02 Cr",
+          "actualPrice": 10200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 59480,
+          "bhk": "2 BHK",
+          "carpetArea": 564,
+          "carpetAreaDisplay": "564 sq.ft",
+          "builtUpArea": null,
+          "price": "1.41 Cr",
+          "actualPrice": 14100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "394 - 408 sq.ft",
+      "price": "98.5 Lacs - 1.02 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "564 sq.ft",
+      "price": "1.41 Cr"
+    }
+  ]
+}

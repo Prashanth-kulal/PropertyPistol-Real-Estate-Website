@@ -1,0 +1,124 @@
+{
+  "projectId": 5164,
+  "slug": "padale-grandeza-nande-pid-5164",
+  "name": "Padale Grandeza",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/padale-grandeza-nande-pid-5164",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/5164/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/5164/original/download_%2868%29.png?1763549991"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/5164/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8948/original/download_%2875%29.png?1763549995"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/5164/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8949/original/download_%2875%29.png?1763549995"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 117812,
+          "bhk": "1 BHK",
+          "carpetArea": 491,
+          "carpetAreaDisplay": "491 sq.ft",
+          "builtUpArea": null,
+          "price": "38.54 Lacs",
+          "actualPrice": 3854000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 117813,
+          "bhk": "1 BHK",
+          "carpetArea": 505,
+          "carpetAreaDisplay": "505 sq.ft",
+          "builtUpArea": null,
+          "price": "39.64 Lacs",
+          "actualPrice": 3964000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 79895,
+          "bhk": "2 BHK",
+          "carpetArea": 656,
+          "carpetAreaDisplay": "656 sq.ft",
+          "builtUpArea": null,
+          "price": "51.49 Lacs",
+          "actualPrice": 5149000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 117805,
+          "bhk": "2 BHK",
+          "carpetArea": 692,
+          "carpetAreaDisplay": "692 sq.ft",
+          "builtUpArea": null,
+          "price": "54.32 Lacs",
+          "actualPrice": 5432000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "491 - 505 sq.ft",
+      "price": "38.54 Lacs - 39.64 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "656 - 692 sq.ft",
+      "price": "51.49 Lacs - 54.32 Lacs"
+    }
+  ]
+}

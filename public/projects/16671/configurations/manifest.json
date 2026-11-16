@@ -1,0 +1,110 @@
+{
+  "projectId": 16671,
+  "slug": "pacific-one-pyramid-airoli-pid-16671",
+  "name": "Pacific One Pyramid",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/pacific-one-pyramid-airoli-pid-16671",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16671/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6325/original/Onefp.PNG?1716840682",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 64507,
+          "bhk": "2 BHK",
+          "carpetArea": 684,
+          "carpetAreaDisplay": "684 sq.ft",
+          "builtUpArea": null,
+          "price": "2.2 Cr",
+          "actualPrice": 22000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 64508,
+          "bhk": "2 BHK",
+          "carpetArea": 758,
+          "carpetAreaDisplay": "758 sq.ft",
+          "builtUpArea": null,
+          "price": "2.34 Cr",
+          "actualPrice": 23400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 64509,
+          "bhk": "3 BHK",
+          "carpetArea": 1033,
+          "carpetAreaDisplay": "1033 sq.ft",
+          "builtUpArea": null,
+          "price": "3.46 Cr",
+          "actualPrice": 34600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 107441,
+          "bhk": "3 BHK",
+          "carpetArea": 1260,
+          "carpetAreaDisplay": "1260 sq.ft",
+          "builtUpArea": null,
+          "price": "4.21 Cr",
+          "actualPrice": 42100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "684 - 758 sq.ft",
+      "price": "2.2 Cr - 2.34 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,033 - 1,260 sq.ft",
+      "price": "3.46 Cr - 4.21 Cr"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "projectId": 5709,
+  "slug": "express-astra-sector-1-greater-noida-pid-5709",
+  "name": "Express Astra",
+  "city": "noida",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/express-astra-sector-1-greater-noida-pid-5709",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/5709/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/5709/original/layout.jpg?1724399777"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 125183,
+          "bhk": "2 BHK",
+          "carpetArea": 1150,
+          "carpetAreaDisplay": "1150 sq.ft",
+          "builtUpArea": null,
+          "price": "1.36 Cr",
+          "actualPrice": 13600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 86906,
+          "bhk": "3 BHK",
+          "carpetArea": 1570,
+          "carpetAreaDisplay": "1570 sq.ft",
+          "builtUpArea": null,
+          "price": "1.85 Cr",
+          "actualPrice": 18500000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/5709/configurations/unit-plans/3-bhk/1570-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/86906/original/4.png?1727266035",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 86904,
+          "bhk": "3 BHK",
+          "carpetArea": 2005,
+          "carpetAreaDisplay": "2005 sq.ft",
+          "builtUpArea": null,
+          "price": "2.37 Cr",
+          "actualPrice": 23700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 108153,
+          "bhk": "4 BHK",
+          "carpetArea": 2325,
+          "carpetAreaDisplay": "2325 sq.ft",
+          "builtUpArea": null,
+          "price": "2.74 Cr",
+          "actualPrice": 27400000,
+          "propertyType": "Duplex",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 108154,
+          "bhk": "4 BHK",
+          "carpetArea": 2635,
+          "carpetAreaDisplay": "2635 sq.ft",
+          "builtUpArea": null,
+          "price": "3.11 Cr",
+          "actualPrice": 31100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 92278,
+          "bhk": "4 BHK",
+          "carpetArea": 2650,
+          "carpetAreaDisplay": "2650 sq.ft",
+          "builtUpArea": null,
+          "price": "3.13 Cr",
+          "actualPrice": 31300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "1,150 sq.ft",
+      "price": "1.36 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,570 - 2,005 sq.ft",
+      "price": "1.85 Cr - 2.37 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,325 - 2,650 sq.ft",
+      "price": "2.74 Cr - 3.13 Cr"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "projectId": 17508,
+  "slug": "nanda-harmony-shikrapur-pid-17508",
+  "name": "Nanda Harmony",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/nanda-harmony-shikrapur-pid-17508",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/17508/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6720/original/fp.jpg?1721724701"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 74747,
+          "bhk": "1 BHK",
+          "carpetArea": 425,
+          "carpetAreaDisplay": "425 sq.ft",
+          "builtUpArea": null,
+          "price": "20.03 Lacs",
+          "actualPrice": 2003000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 74749,
+          "bhk": "1 BHK",
+          "carpetArea": 430,
+          "carpetAreaDisplay": "430 sq.ft",
+          "builtUpArea": null,
+          "price": "20.26 Lacs",
+          "actualPrice": 2026000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/17508/configurations/unit-plans/1-bhk/430-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/74749/original/1.jpg?1721724699",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 74746,
+          "bhk": "1 BHK",
+          "carpetArea": 439,
+          "carpetAreaDisplay": "439 sq.ft",
+          "builtUpArea": null,
+          "price": "20.69 Lacs",
+          "actualPrice": 2069000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 74748,
+          "bhk": "1 BHK",
+          "carpetArea": 489,
+          "carpetAreaDisplay": "489 sq.ft",
+          "builtUpArea": null,
+          "price": "23.04 Lacs",
+          "actualPrice": 2304000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/17508/configurations/unit-plans/1-bhk/489-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/74748/original/1.jpg?1721724699",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 74750,
+          "bhk": "2 BHK",
+          "carpetArea": 614,
+          "carpetAreaDisplay": "614 sq.ft",
+          "builtUpArea": null,
+          "price": "28.93 Lacs",
+          "actualPrice": 2893000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/17508/configurations/unit-plans/2-bhk/614-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/74750/original/2.jpg?1721724699",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 74751,
+          "bhk": "3 BHK",
+          "carpetArea": 986,
+          "carpetAreaDisplay": "986 sq.ft",
+          "builtUpArea": null,
+          "price": "46.46 Lacs",
+          "actualPrice": 4646000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/17508/configurations/unit-plans/3-bhk/986-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/74751/original/2.jpg?1721724699",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "425 - 489 sq.ft",
+      "price": "20.03 Lacs - 23.04 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "614 sq.ft",
+      "price": "28.93 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "986 sq.ft",
+      "price": "46.46 Lacs"
+    }
+  ]
+}

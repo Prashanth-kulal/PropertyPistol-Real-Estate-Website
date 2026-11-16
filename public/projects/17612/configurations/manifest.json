@@ -1,0 +1,120 @@
+{
+  "projectId": 17612,
+  "slug": "bhoomi-lakespace-thane-west-pid-17612",
+  "name": "Bhoomi Lakespace",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/bhoomi-lakespace-thane-west-pid-17612",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/17612/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6751/original/images_%287%29.jpeg?1722846622",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 76971,
+          "bhk": "2 BHK",
+          "carpetArea": 608,
+          "carpetAreaDisplay": "608 sq.ft",
+          "builtUpArea": null,
+          "price": "1.29 Cr",
+          "actualPrice": 12900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 76972,
+          "bhk": "3 BHK",
+          "carpetArea": 799,
+          "carpetAreaDisplay": "799 sq.ft",
+          "builtUpArea": null,
+          "price": "1.69 Cr",
+          "actualPrice": 16900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 136607,
+          "bhk": "3 BHK",
+          "carpetArea": 859,
+          "carpetAreaDisplay": "859 sq.ft",
+          "builtUpArea": null,
+          "price": "1.9 Cr",
+          "actualPrice": 19000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 136608,
+          "bhk": "4 BHK",
+          "carpetArea": 1341,
+          "carpetAreaDisplay": "1341 sq.ft",
+          "builtUpArea": null,
+          "price": "3.08 Cr",
+          "actualPrice": 30800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "608 sq.ft",
+      "price": "1.29 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "799 - 859 sq.ft",
+      "price": "1.69 Cr - 1.9 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,341 sq.ft",
+      "price": "3.08 Cr"
+    }
+  ]
+}

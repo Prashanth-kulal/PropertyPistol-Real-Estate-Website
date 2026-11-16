@@ -1,0 +1,110 @@
+{
+  "projectId": 13978,
+  "slug": "riddhi-siddhi-apartments-pushpak-nagar-pid-13978",
+  "name": "Riddhi Siddhi Apartments",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/riddhi-siddhi-apartments-pushpak-nagar-pid-13978",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7302/original/fp.PNG?1735377985",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 92484,
+          "bhk": "1 BHK",
+          "carpetArea": 225,
+          "carpetAreaDisplay": "225 sq.ft",
+          "builtUpArea": null,
+          "price": "35.0 Lacs",
+          "actualPrice": 3500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/92484/original/1b.jpg?1754386272",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 138992,
+          "bhk": "1 BHK",
+          "carpetArea": 352,
+          "carpetAreaDisplay": "352 sq.ft",
+          "builtUpArea": null,
+          "price": "38.0 Lacs",
+          "actualPrice": 3800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 92486,
+          "bhk": "2 BHK",
+          "carpetArea": 499,
+          "carpetAreaDisplay": "499 sq.ft",
+          "builtUpArea": null,
+          "price": "50.0 Lacs",
+          "actualPrice": 5000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/92486/original/2.jpg?1754386272",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 138993,
+          "bhk": "2 BHK",
+          "carpetArea": 525,
+          "carpetAreaDisplay": "525 sq.ft",
+          "builtUpArea": null,
+          "price": "55.0 Lacs",
+          "actualPrice": 5500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "225 - 352 sq.ft",
+      "price": "35.0 Lacs - 38.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "499 - 525 sq.ft",
+      "price": "50.0 Lacs - 55.0 Lacs"
+    }
+  ]
+}

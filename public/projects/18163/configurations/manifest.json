@@ -1,0 +1,78 @@
+{
+  "projectId": 18163,
+  "slug": "sm-emerald-taloja-pid-18163",
+  "name": "SM Emerald",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sm-emerald-taloja-pid-18163",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18163/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8412/original/fp.png?1751353053",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 123609,
+          "bhk": "1 BHK",
+          "carpetArea": 336,
+          "carpetAreaDisplay": "336 sq.ft",
+          "builtUpArea": null,
+          "price": "36.13 Lacs",
+          "actualPrice": 3613000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 133537,
+          "bhk": "2 BHK",
+          "carpetArea": 515,
+          "carpetAreaDisplay": "515 sq.ft",
+          "builtUpArea": null,
+          "price": "55.24 Lacs",
+          "actualPrice": 5524000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "336 sq.ft",
+      "price": "36.13 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "515 sq.ft",
+      "price": "55.24 Lacs"
+    }
+  ]
+}

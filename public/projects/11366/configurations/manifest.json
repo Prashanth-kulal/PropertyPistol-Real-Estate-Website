@@ -1,0 +1,78 @@
+{
+  "projectId": 11366,
+  "slug": "hornbill-heights-at-riverview-city-loni-kalbhor-pid-11366",
+  "name": "Hornbill Heights at Riverview City",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/hornbill-heights-at-riverview-city-loni-kalbhor-pid-11366",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/11366/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/11366/original/mp.jpg?1676545066"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 36805,
+          "bhk": "2 BHK",
+          "carpetArea": 898,
+          "carpetAreaDisplay": "898 sq.ft",
+          "builtUpArea": null,
+          "price": "71.71 Lacs",
+          "actualPrice": 7170530,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": "/projects/11366/configurations/unit-plans/2-bhk/898-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/36805/original/2.jpg?1676545066",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 36807,
+          "bhk": "3 BHK",
+          "carpetArea": 1100,
+          "carpetAreaDisplay": "1100 sq.ft",
+          "builtUpArea": null,
+          "price": "87.84 Lacs",
+          "actualPrice": 8783500,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": "/projects/11366/configurations/unit-plans/3-bhk/1100-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/36807/original/3.jpg?1676545066",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "898 sq.ft",
+      "price": "71.71 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,100 sq.ft",
+      "price": "87.84 Lacs"
+    }
+  ]
+}

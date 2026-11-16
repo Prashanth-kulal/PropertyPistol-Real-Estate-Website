@@ -1,0 +1,176 @@
+{
+  "projectId": 14483,
+  "slug": "metro-aykon-vashi-pid-14483",
+  "name": "Metro Aykon",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/metro-aykon-vashi-pid-14483",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/14483/original/masterplan.JPG?1700228156",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5020/original/firstfloorplan.JPG?1700228157",
+      "downloaded": false
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5021/original/secondfloorlplan.JPG?1700228157",
+      "downloaded": false
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5022/original/thirdfloorplan.JPG?1700228157",
+      "downloaded": false
+    },
+    {
+      "id": 4,
+      "title": "Layout / Site Plan 4",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5023/original/forthfloorplan.JPG?1700228157",
+      "downloaded": false
+    },
+    {
+      "id": 5,
+      "title": "Layout / Site Plan 5",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5024/original/Typicalfloorplan.JPG?1700228157",
+      "downloaded": false
+    },
+    {
+      "id": 6,
+      "title": "Layout / Site Plan 6",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5025/original/Terracefloor.JPG?1700228157",
+      "downloaded": false
+    },
+    {
+      "id": 7,
+      "title": "Layout / Site Plan 7",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5026/original/residencialfloor1.JPG?1700228157",
+      "downloaded": false
+    },
+    {
+      "id": 8,
+      "title": "Layout / Site Plan 8",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5027/original/residencialfloor2.JPG?1700228157",
+      "downloaded": false
+    },
+    {
+      "id": 9,
+      "title": "Layout / Site Plan 9",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5028/original/residencialfloor3.JPG?1700228157",
+      "downloaded": false
+    },
+    {
+      "id": 10,
+      "title": "Layout / Site Plan 10",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5029/original/residencialfloor4.JPG?1700228157",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 119962,
+          "bhk": "3 BHK",
+          "carpetArea": 1458,
+          "carpetAreaDisplay": "1458 sq.ft",
+          "builtUpArea": null,
+          "price": "4.28 Cr",
+          "actualPrice": 42800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 119964,
+          "bhk": "4 BHK",
+          "carpetArea": 2650,
+          "carpetAreaDisplay": "2650 sq.ft",
+          "builtUpArea": null,
+          "price": "8.0 Cr",
+          "actualPrice": 80000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "5 BHK",
+      "variants": [
+        {
+          "id": 139041,
+          "bhk": "5 BHK",
+          "carpetArea": 5417,
+          "carpetAreaDisplay": "5417 sq.ft",
+          "builtUpArea": null,
+          "price": "14.0 Cr",
+          "actualPrice": 140000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,458 sq.ft",
+      "price": "4.28 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,650 sq.ft",
+      "price": "8.0 Cr"
+    },
+    {
+      "flat_type_name": "5 BHK",
+      "carpet_area": "5,417 sq.ft",
+      "price": "14.0 Cr"
+    }
+  ]
+}

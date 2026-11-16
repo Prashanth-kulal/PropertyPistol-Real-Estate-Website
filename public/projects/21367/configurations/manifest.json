@@ -1,0 +1,120 @@
+{
+  "projectId": 21367,
+  "slug": "sobha-inizio",
+  "name": "Sobha Inizio",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sobha-inizio-parel-east-pid-21367",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/21367/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/21367/original/mp-in.png?1771654787",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 132867,
+          "bhk": "1 BHK",
+          "carpetArea": 498,
+          "carpetAreaDisplay": "498 sq.ft",
+          "builtUpArea": null,
+          "price": "2.74 Cr",
+          "actualPrice": 27400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 132868,
+          "bhk": "2 BHK",
+          "carpetArea": 847,
+          "carpetAreaDisplay": "847 sq.ft",
+          "builtUpArea": null,
+          "price": "4.66 Cr",
+          "actualPrice": 46600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 139233,
+          "bhk": "3 BHK",
+          "carpetArea": 1021,
+          "carpetAreaDisplay": "1021 sq.ft",
+          "builtUpArea": null,
+          "price": "5.62 Cr",
+          "actualPrice": 56200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139234,
+          "bhk": "3 BHK",
+          "carpetArea": 1225,
+          "carpetAreaDisplay": "1225 sq.ft",
+          "builtUpArea": null,
+          "price": "6.74 Cr",
+          "actualPrice": 67400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "498 sq.ft",
+      "price": "2.74 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "847 sq.ft",
+      "price": "4.66 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,021 - 1,225 sq.ft",
+      "price": "5.62 Cr - 6.74 Cr"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "projectId": 19833,
+  "slug": "mayfair-river-residences-mundhwa-pid-19833",
+  "name": "Mayfair River Residences",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/mayfair-river-residences-mundhwa-pid-19833",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19833/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19833/original/masterplan.PNG?1747635071"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 123691,
+          "bhk": "3 BHK",
+          "carpetArea": 1391,
+          "carpetAreaDisplay": "1391 sq.ft",
+          "builtUpArea": null,
+          "price": "2.05 Cr",
+          "actualPrice": 20500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 113355,
+          "bhk": "3 BHK",
+          "carpetArea": 1504,
+          "carpetAreaDisplay": "1504 sq.ft",
+          "builtUpArea": null,
+          "price": "2.2 Cr",
+          "actualPrice": 22000000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19833/configurations/unit-plans/3-bhk/1504-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/113355/original/3bhk_2d2.PNG?1747635071",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 113356,
+          "bhk": "4 BHK",
+          "carpetArea": 1628,
+          "carpetAreaDisplay": "1628 sq.ft",
+          "builtUpArea": null,
+          "price": "2.4 Cr",
+          "actualPrice": 24000000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19833/configurations/unit-plans/4-bhk/1628-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/113356/original/4bhk_2d1.PNG?1747635071",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 113357,
+          "bhk": "4 BHK",
+          "carpetArea": 1747,
+          "carpetAreaDisplay": "1747 sq.ft",
+          "builtUpArea": null,
+          "price": "2.55 Cr",
+          "actualPrice": 25500000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19833/configurations/unit-plans/4-bhk/1747-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/113357/original/4bhk_2d2.PNG?1747635071",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,391 - 1,504 sq.ft",
+      "price": "2.05 Cr - 2.2 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,628 - 1,747 sq.ft",
+      "price": "2.4 Cr - 2.55 Cr"
+    }
+  ]
+}

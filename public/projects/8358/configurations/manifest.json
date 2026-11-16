@@ -1,0 +1,86 @@
+{
+  "projectId": 8358,
+  "slug": "basil-mondale-keshav-nagar-pid-8358",
+  "name": "Basil Mondale",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/basil-mondale-keshav-nagar-pid-8358",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/8358/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/8358/original/layout.jpg?1655368120"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/8358/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2701/original/fp.jpg?1655368121"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 28733,
+          "bhk": "2 BHK",
+          "carpetArea": 751,
+          "carpetAreaDisplay": "751 sq.ft",
+          "builtUpArea": null,
+          "price": "84.0 Lacs",
+          "actualPrice": 8400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 69461,
+          "bhk": "3 BHK",
+          "carpetArea": 995,
+          "carpetAreaDisplay": "995 sq.ft",
+          "builtUpArea": null,
+          "price": "90.0 Lacs",
+          "actualPrice": 9000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "751 sq.ft",
+      "price": "84.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "995 sq.ft",
+      "price": "90.0 Lacs"
+    }
+  ]
+}

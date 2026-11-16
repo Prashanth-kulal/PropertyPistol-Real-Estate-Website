@@ -1,0 +1,142 @@
+{
+  "projectId": 4764,
+  "slug": "pethkar-siyona-punawale-pid-4764",
+  "name": "Pethkar Siyona",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/pethkar-siyona-punawale-pid-4764",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/4764/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2987/original/fp.JPG?1669450101"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 16010,
+          "bhk": "2 BHK",
+          "carpetArea": 720,
+          "carpetAreaDisplay": "720 sq.ft",
+          "builtUpArea": null,
+          "price": "77.42 Lacs",
+          "actualPrice": 7742000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/4764/configurations/unit-plans/2-bhk/720-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/16010/original/2.JPG?1669450101",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 65692,
+          "bhk": "2 BHK",
+          "carpetArea": 840,
+          "carpetAreaDisplay": "840 sq.ft",
+          "builtUpArea": null,
+          "price": "90.33 Lacs",
+          "actualPrice": 9033000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139706,
+          "bhk": "2 BHK",
+          "carpetArea": 880,
+          "carpetAreaDisplay": "880 sq.ft",
+          "builtUpArea": null,
+          "price": "94.63 Lacs",
+          "actualPrice": 9463000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 16011,
+          "bhk": "3 BHK",
+          "carpetArea": 1065,
+          "carpetAreaDisplay": "1065 sq.ft",
+          "builtUpArea": null,
+          "price": "1.15 Cr",
+          "actualPrice": 11500000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/4764/configurations/unit-plans/3-bhk/1065-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/16011/original/3.JPG?1669450101",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 139707,
+          "bhk": "3 BHK",
+          "carpetArea": 1092,
+          "carpetAreaDisplay": "1092 sq.ft",
+          "builtUpArea": null,
+          "price": "1.17 Cr",
+          "actualPrice": 11700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139708,
+          "bhk": "3 BHK",
+          "carpetArea": 1120,
+          "carpetAreaDisplay": "1120 sq.ft",
+          "builtUpArea": null,
+          "price": "1.2 Cr",
+          "actualPrice": 12000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "720 - 880 sq.ft",
+      "price": "77.42 Lacs - 94.63 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,065 - 1,120 sq.ft",
+      "price": "1.15 Cr - 1.2 Cr"
+    }
+  ]
+}

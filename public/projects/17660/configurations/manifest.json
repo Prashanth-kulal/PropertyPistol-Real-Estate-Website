@@ -1,0 +1,68 @@
+{
+  "projectId": 17660,
+  "slug": "elegant-residency-andheri-east-pid-17660",
+  "name": "Elegant Residency ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/elegant-residency-andheri-east-pid-17660",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/17660/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6936/original/02.jpg?1727114924",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 78636,
+          "bhk": "2 BHK",
+          "carpetArea": 672,
+          "carpetAreaDisplay": "672 sq.ft",
+          "builtUpArea": null,
+          "price": "2.06 Cr",
+          "actualPrice": 20600000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/17660/configurations/unit-plans/2-bhk/672-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/78636/original/2.PNG?1727114924",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 78635,
+          "bhk": "2 BHK",
+          "carpetArea": 676,
+          "carpetAreaDisplay": "676 sq.ft",
+          "builtUpArea": null,
+          "price": "2.07 Cr",
+          "actualPrice": 20700000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/17660/configurations/unit-plans/2-bhk/676-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/78635/original/22.PNG?1727114924",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "672 - 676 sq.ft",
+      "price": "2.06 Cr - 2.07 Cr"
+    }
+  ]
+}

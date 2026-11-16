@@ -1,0 +1,78 @@
+{
+  "projectId": 21621,
+  "slug": "vasudev-heights-virar-east-pid-21621",
+  "name": "Vasudev Heights",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/vasudev-heights-virar-east-pid-21621",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21621/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9240/original/ty.PNG?1772185728",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 133380,
+          "bhk": "1 BHK",
+          "carpetArea": 419,
+          "carpetAreaDisplay": "419 sq.ft",
+          "builtUpArea": null,
+          "price": "42.97 Lacs",
+          "actualPrice": 4297000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 133381,
+          "bhk": "2 BHK",
+          "carpetArea": 520,
+          "carpetAreaDisplay": "520 sq.ft",
+          "builtUpArea": null,
+          "price": "53.33 Lacs",
+          "actualPrice": 5333000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "419 sq.ft",
+      "price": "42.97 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "520 sq.ft",
+      "price": "53.33 Lacs"
+    }
+  ]
+}

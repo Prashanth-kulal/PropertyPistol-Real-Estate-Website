@@ -1,0 +1,78 @@
+{
+  "projectId": 16131,
+  "slug": "goyal-orchid-life-gunjur-pid-16131",
+  "name": "Goyal Orchid Life",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/goyal-orchid-life-gunjur-pid-16131",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16131/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16131/original/cf65816410a5d43.jpeg?1715328820"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 59610,
+          "bhk": "2 BHK",
+          "carpetArea": 598,
+          "carpetAreaDisplay": "598 sq.ft",
+          "builtUpArea": null,
+          "price": "1.03 Cr",
+          "actualPrice": 10290384,
+          "propertyType": "Flat",
+          "plan2D": "/projects/16131/configurations/unit-plans/2-bhk/598-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/59610/original/2.PNG?1714033152",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 61431,
+          "bhk": "3 BHK",
+          "carpetArea": 1170,
+          "carpetAreaDisplay": "1170 sq.ft",
+          "builtUpArea": null,
+          "price": "2.01 Cr",
+          "actualPrice": 20133360,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "598 sq.ft",
+      "price": "1.03 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,170 sq.ft",
+      "price": "2.01 Cr"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "projectId": 17072,
+  "slug": "ska-destiny-one-sector-zeta-pid-17072",
+  "name": "SKA Destiny One",
+  "city": "noida",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ska-destiny-one-sector-zeta-pid-17072",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/17072/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/17072/original/mp.PNG?1718781615"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 69079,
+          "bhk": "3 BHK",
+          "carpetArea": 1160,
+          "carpetAreaDisplay": "1160 sq.ft",
+          "builtUpArea": null,
+          "price": "1.72 Cr",
+          "actualPrice": 17200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 99298,
+          "bhk": "3 BHK",
+          "carpetArea": 1285,
+          "carpetAreaDisplay": "1285 sq.ft",
+          "builtUpArea": null,
+          "price": "1.89 Cr",
+          "actualPrice": 18900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 125153,
+          "bhk": "3 BHK",
+          "carpetArea": 1569,
+          "carpetAreaDisplay": "1569 sq.ft",
+          "builtUpArea": null,
+          "price": "2.27 Cr",
+          "actualPrice": 22700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 69080,
+          "bhk": "4 BHK",
+          "carpetArea": 2266,
+          "carpetAreaDisplay": "2266 sq.ft",
+          "builtUpArea": null,
+          "price": "3.38 Cr",
+          "actualPrice": 33800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,160 - 1,569 sq.ft",
+      "price": "1.72 Cr - 2.27 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,266 sq.ft",
+      "price": "3.38 Cr"
+    }
+  ]
+}

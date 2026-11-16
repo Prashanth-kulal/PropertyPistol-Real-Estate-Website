@@ -1,0 +1,110 @@
+{
+  "projectId": 20975,
+  "slug": "s-b-paradise-bhandup-west-pid-20975",
+  "name": "S B Paradise",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/s-b-paradise-bhandup-west-pid-20975",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20975/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9772/original/download_%2811%29.png?1792389916",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 127321,
+          "bhk": "1 BHK",
+          "carpetArea": 386,
+          "carpetAreaDisplay": "386 sq.ft",
+          "builtUpArea": null,
+          "price": "92.0 Lacs",
+          "actualPrice": 9200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 138863,
+          "bhk": "2 BHK",
+          "carpetArea": 590,
+          "carpetAreaDisplay": "590 sq.ft",
+          "builtUpArea": null,
+          "price": "1.4 Cr",
+          "actualPrice": 14000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 138864,
+          "bhk": "2 BHK",
+          "carpetArea": 627,
+          "carpetAreaDisplay": "627 sq.ft",
+          "builtUpArea": null,
+          "price": "1.5 Cr",
+          "actualPrice": 15000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 127322,
+          "bhk": "2 BHK",
+          "carpetArea": 637,
+          "carpetAreaDisplay": "637 sq.ft",
+          "builtUpArea": null,
+          "price": "1.52 Cr",
+          "actualPrice": 15200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "386 sq.ft",
+      "price": "92.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "590 - 637 sq.ft",
+      "price": "1.4 Cr - 1.52 Cr"
+    }
+  ]
+}

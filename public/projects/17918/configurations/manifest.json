@@ -1,0 +1,120 @@
+{
+  "projectId": 17918,
+  "slug": "manglam-river-valley-kadamba-plateau-pid-17918",
+  "name": "Manglam River Valley",
+  "city": "goa",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/manglam-river-valley-kadamba-plateau-pid-17918",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/17918/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/17918/original/IMG_20240912_151226.jpg?1726134187"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 85247,
+          "bhk": "2 BHK",
+          "carpetArea": 1286,
+          "carpetAreaDisplay": "1286 sq.ft",
+          "builtUpArea": null,
+          "price": "2.55 Cr",
+          "actualPrice": 25500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 85246,
+          "bhk": "3 BHK",
+          "carpetArea": 1738,
+          "carpetAreaDisplay": "1738 sq.ft",
+          "builtUpArea": null,
+          "price": "3.45 Cr",
+          "actualPrice": 34500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 85248,
+          "bhk": "3 BHK",
+          "carpetArea": 1898,
+          "carpetAreaDisplay": "1898 sq.ft",
+          "builtUpArea": null,
+          "price": "3.77 Cr",
+          "actualPrice": 37700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/17918/configurations/unit-plans/3-bhk/1898-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/85248/original/3_BHK_UNIT%28TYPE-2%29.RGB_color.0000.jpg?1726134341",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 85249,
+          "bhk": "4 BHK",
+          "carpetArea": 2645,
+          "carpetAreaDisplay": "2645 sq.ft",
+          "builtUpArea": null,
+          "price": "5.26 Cr",
+          "actualPrice": 52600000,
+          "propertyType": "Pent House",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "1,286 sq.ft",
+      "price": "2.55 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,738 - 1,898 sq.ft",
+      "price": "3.45 Cr - 3.77 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,645 sq.ft",
+      "price": "5.26 Cr"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "projectId": 21740,
+  "slug": "gravity-smera-gardens-attibele-pid-21740",
+  "name": "Gravity Smera Gardens",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/gravity-smera-gardens-attibele-pid-21740",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/21740/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/21740/original/mp_%281%29.png?1777977767"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 134750,
+          "bhk": "4 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2450,
+          "price": "2.37 Cr",
+          "actualPrice": 23698850,
+          "propertyType": "Independent House/Villa",
+          "plan2D": "/projects/21740/configurations/unit-plans/4-bhk/variant-134750/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/134750/original/fp_%284%29.png?1777977767",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 134751,
+          "bhk": "4 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 3800,
+          "price": "3.68 Cr",
+          "actualPrice": 36757400,
+          "propertyType": "Independent House/Villa",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "On Request",
+      "price": "2.37 Cr - 3.68 Cr"
+    }
+  ]
+}

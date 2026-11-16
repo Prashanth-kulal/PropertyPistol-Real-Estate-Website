@@ -1,0 +1,94 @@
+{
+  "projectId": 13719,
+  "slug": "deep-sky-vasai-east-pid-13719",
+  "name": "Deep Sky",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/deep-sky-vasai-east-pid-13719",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13719/original/Capturefdfefs.PNG?1694762890",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 125049,
+          "bhk": "1 BHK",
+          "carpetArea": 426,
+          "carpetAreaDisplay": "426 sq.ft",
+          "builtUpArea": null,
+          "price": "41.99 Lacs",
+          "actualPrice": 4199000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 107190,
+          "bhk": "1 BHK",
+          "carpetArea": 483,
+          "carpetAreaDisplay": "483 sq.ft",
+          "builtUpArea": null,
+          "price": "47.6 Lacs",
+          "actualPrice": 4760000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 88145,
+          "bhk": "2 BHK",
+          "carpetArea": 617,
+          "carpetAreaDisplay": "617 sq.ft",
+          "builtUpArea": null,
+          "price": "60.81 Lacs",
+          "actualPrice": 6081000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "426 - 483 sq.ft",
+      "price": "41.99 Lacs - 47.6 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "617 sq.ft",
+      "price": "60.81 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "projectId": 16807,
+  "slug": "mega-pearl-titwala-pid-16807",
+  "name": "Mega Pearl",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/mega-pearl-titwala-pid-16807",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16807/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6394/original/mega_fp.PNG?1717663957",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 66848,
+          "bhk": "1 BHK",
+          "carpetArea": 308,
+          "carpetAreaDisplay": "308 sq.ft",
+          "builtUpArea": null,
+          "price": "23.08 Lacs",
+          "actualPrice": 2308000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/16807/configurations/unit-plans/1-bhk/308-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/66848/original/1bhk-mega.PNG?1717663956",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 90211,
+          "bhk": "1 BHK",
+          "carpetArea": 345,
+          "carpetAreaDisplay": "345 sq.ft",
+          "builtUpArea": null,
+          "price": "25.86 Lacs",
+          "actualPrice": 2586000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 66849,
+          "bhk": "2 BHK",
+          "carpetArea": 511,
+          "carpetAreaDisplay": "511 sq.ft",
+          "builtUpArea": null,
+          "price": "38.28 Lacs",
+          "actualPrice": 3828000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/16807/configurations/unit-plans/2-bhk/511-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/66849/original/2bhk-mega.PNG?1717663956",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 102330,
+          "bhk": "2 BHK",
+          "carpetArea": 527,
+          "carpetAreaDisplay": "527 sq.ft",
+          "builtUpArea": null,
+          "price": "39.46 Lacs",
+          "actualPrice": 3946000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139375,
+          "bhk": "2 BHK",
+          "carpetArea": 620,
+          "carpetAreaDisplay": "620 sq.ft",
+          "builtUpArea": null,
+          "price": "46.44 Lacs",
+          "actualPrice": 4644000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139376,
+          "bhk": "2 BHK",
+          "carpetArea": 676,
+          "carpetAreaDisplay": "676 sq.ft",
+          "builtUpArea": null,
+          "price": "50.63 Lacs",
+          "actualPrice": 5063000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139377,
+          "bhk": "2 BHK",
+          "carpetArea": 779,
+          "carpetAreaDisplay": "779 sq.ft",
+          "builtUpArea": null,
+          "price": "58.35 Lacs",
+          "actualPrice": 5835000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "308 - 345 sq.ft",
+      "price": "23.08 Lacs - 25.86 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "511 - 779 sq.ft",
+      "price": "38.28 Lacs - 58.35 Lacs"
+    }
+  ]
+}

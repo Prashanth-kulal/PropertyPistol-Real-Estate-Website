@@ -1,0 +1,119 @@
+{
+  "projectId": 9897,
+  "slug": "seasons-one-kalyan-west-pid-9897",
+  "name": "Seasons One",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/seasons-one-kalyan-west-pid-9897",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/9897/original/mpp.jpg?1738662739",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3299/original/pixelcut-export_-_2025-02-04T151739.912.jpg?1738662740",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 33404,
+          "bhk": "2 BHK",
+          "carpetArea": 704,
+          "carpetAreaDisplay": "704 sq.ft",
+          "builtUpArea": null,
+          "price": "1.1 Cr",
+          "actualPrice": 11000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/33404/original/2bhk.jpg?1738662739",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/33404/original/22.jpg?1738662739",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 50532,
+          "bhk": "2 BHK",
+          "carpetArea": 853,
+          "carpetAreaDisplay": "853 sq.ft",
+          "builtUpArea": null,
+          "price": "1.34 Cr",
+          "actualPrice": 13400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 139509,
+          "bhk": "3 BHK",
+          "carpetArea": 1115,
+          "carpetAreaDisplay": "1115 sq.ft",
+          "builtUpArea": null,
+          "price": "1.75 Cr",
+          "actualPrice": 17500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139510,
+          "bhk": "3 BHK",
+          "carpetArea": 1115,
+          "carpetAreaDisplay": "1115 sq.ft",
+          "builtUpArea": null,
+          "price": "1.75 Cr",
+          "actualPrice": 17500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "704 - 853 sq.ft",
+      "price": "1.1 Cr - 1.34 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,115 sq.ft",
+      "price": "1.75 Cr"
+    }
+  ]
+}

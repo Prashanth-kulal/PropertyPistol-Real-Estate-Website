@@ -1,0 +1,78 @@
+{
+  "projectId": 8192,
+  "slug": "paranjape-gloria-grand-bavdhan-pid-8192",
+  "name": "Paranjape Gloria Grand",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/paranjape-gloria-grand-bavdhan-pid-8192",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/8192/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/8192/original/mp-1400w.jpg?1653470220"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 103184,
+          "bhk": "2 BHK",
+          "carpetArea": 710,
+          "carpetAreaDisplay": "710 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 131180,
+          "bhk": "3 BHK",
+          "carpetArea": 871,
+          "carpetAreaDisplay": "871 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "710 sq.ft",
+      "price": "On Request"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "871 sq.ft",
+      "price": "On Request"
+    }
+  ]
+}

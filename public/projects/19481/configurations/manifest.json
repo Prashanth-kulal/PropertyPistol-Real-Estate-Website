@@ -1,0 +1,66 @@
+{
+  "projectId": 19481,
+  "slug": "siddh-amara-bavdhan-pid-19481",
+  "name": "Siddh Amara",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/siddh-amara-bavdhan-pid-19481",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19481/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19481/original/masterplan.PNG?1742983173"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19481/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7619/original/floor1.PNG?1742983176"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19481/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7620/original/floor2.PNG?1742983176"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 104096,
+          "bhk": "2 BHK",
+          "carpetArea": 530,
+          "carpetAreaDisplay": "530 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19481/configurations/unit-plans/2-bhk/530-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/104096/original/1bhk_3d.PNG?1742983173",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "530 sq.ft",
+      "price": "On Request"
+    }
+  ]
+}

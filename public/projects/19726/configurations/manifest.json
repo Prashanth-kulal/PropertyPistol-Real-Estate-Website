@@ -1,0 +1,152 @@
+{
+  "projectId": 19726,
+  "slug": "promesa-west-end",
+  "name": "Promesa West End ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/promesa-west-end-dadar-west-pid-19726",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19726/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19726/original/mp-prem.png?1745407813",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19726/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7777/original/fp-prem.png?1745407818",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19726/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7778/original/fpp-prem.png?1745407818",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 128512,
+          "bhk": "1 BHK",
+          "carpetArea": 450,
+          "carpetAreaDisplay": "450 sq.ft",
+          "builtUpArea": null,
+          "price": "1.95 Cr",
+          "actualPrice": 19500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 128514,
+          "bhk": "2 BHK",
+          "carpetArea": 504,
+          "carpetAreaDisplay": "504 sq.ft",
+          "builtUpArea": null,
+          "price": "2.18 Cr",
+          "actualPrice": 21800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 128515,
+          "bhk": "2 BHK",
+          "carpetArea": 684,
+          "carpetAreaDisplay": "684 sq.ft",
+          "builtUpArea": null,
+          "price": "2.96 Cr",
+          "actualPrice": 29600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 128516,
+          "bhk": "3 BHK",
+          "carpetArea": 954,
+          "carpetAreaDisplay": "954 sq.ft",
+          "builtUpArea": null,
+          "price": "4.13 Cr",
+          "actualPrice": 41300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 128517,
+          "bhk": "3 BHK",
+          "carpetArea": 1179,
+          "carpetAreaDisplay": "1179 sq.ft",
+          "builtUpArea": null,
+          "price": "5.11 Cr",
+          "actualPrice": 51100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "450 sq.ft",
+      "price": "1.95 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "504 - 684 sq.ft",
+      "price": "2.18 Cr - 2.96 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "954 - 1,179 sq.ft",
+      "price": "4.13 Cr - 5.11 Cr"
+    }
+  ]
+}

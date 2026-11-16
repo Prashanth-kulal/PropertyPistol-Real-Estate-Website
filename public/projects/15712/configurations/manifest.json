@@ -1,0 +1,85 @@
+{
+  "projectId": 15712,
+  "slug": "gami-tiara-taloja-pid-15712",
+  "name": "Gami Tiara",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/gami-tiara-taloja-pid-15712",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/15712/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5541/original/floorplan1.JPG?1706187936",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/15712/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5542/original/floorplan2.JPG?1706187936",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 75814,
+          "bhk": "1 BHK",
+          "carpetArea": 462,
+          "carpetAreaDisplay": "462 sq.ft",
+          "builtUpArea": null,
+          "price": "38.08 Lacs",
+          "actualPrice": 3807804,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 75812,
+          "bhk": "2 BHK",
+          "carpetArea": 650,
+          "carpetAreaDisplay": "650 sq.ft",
+          "builtUpArea": null,
+          "price": "54.4 Lacs",
+          "actualPrice": 5439720,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "462 sq.ft",
+      "price": "38.08 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "650 sq.ft",
+      "price": "54.4 Lacs"
+    }
+  ]
+}

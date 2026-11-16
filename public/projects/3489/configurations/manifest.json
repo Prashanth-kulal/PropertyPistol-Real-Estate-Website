@@ -1,0 +1,136 @@
+{
+  "projectId": 3489,
+  "slug": "kalpataru-vienta",
+  "name": "Kalpataru Vienta",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/kalpataru-vienta-kandivali-east-pid-3489",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/1757/original/fp.jpeg?1580452039",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 126831,
+          "bhk": "2 BHK",
+          "carpetArea": 740,
+          "carpetAreaDisplay": "740 sq.ft",
+          "builtUpArea": null,
+          "price": "4.05 Cr",
+          "actualPrice": 40500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 126830,
+          "bhk": "2 BHK",
+          "carpetArea": 907,
+          "carpetAreaDisplay": "907 sq.ft",
+          "builtUpArea": null,
+          "price": "3.0 Cr",
+          "actualPrice": 30000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 126833,
+          "bhk": "3 BHK",
+          "carpetArea": 1006,
+          "carpetAreaDisplay": "1006 sq.ft",
+          "builtUpArea": null,
+          "price": "3.75 Cr",
+          "actualPrice": 37500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 132562,
+          "bhk": "3 BHK",
+          "carpetArea": 1146,
+          "carpetAreaDisplay": "1146 sq.ft",
+          "builtUpArea": null,
+          "price": "5.5 Cr",
+          "actualPrice": 55000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 137110,
+          "bhk": "4 BHK",
+          "carpetArea": 1606,
+          "carpetAreaDisplay": "1606 sq.ft",
+          "builtUpArea": null,
+          "price": "8.25 Cr",
+          "actualPrice": 82500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "740 - 907 sq.ft",
+      "price": "3.0 Cr - 4.05 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,006 - 1,146 sq.ft",
+      "price": "3.75 Cr - 5.5 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,606 sq.ft",
+      "price": "8.25 Cr"
+    }
+  ]
+}

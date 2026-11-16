@@ -1,0 +1,75 @@
+{
+  "projectId": 19065,
+  "slug": "swamini-heights-vadghar-pid-19065",
+  "name": "Swamini Heights ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/swamini-heights-vadghar-pid-19065",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19065/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7554/original/fp.png?1742190012",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19065/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7555/original/mp.png?1742190013",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 116249,
+          "bhk": "1 BHK",
+          "carpetArea": 280,
+          "carpetAreaDisplay": "280 sq.ft",
+          "builtUpArea": null,
+          "price": "23.61 Lacs",
+          "actualPrice": 2360680,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 116250,
+          "bhk": "1 BHK",
+          "carpetArea": 510,
+          "carpetAreaDisplay": "510 sq.ft",
+          "builtUpArea": null,
+          "price": "43.0 Lacs",
+          "actualPrice": 4299810,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "280 - 510 sq.ft",
+      "price": "23.61 Lacs - 43.0 Lacs"
+    }
+  ]
+}

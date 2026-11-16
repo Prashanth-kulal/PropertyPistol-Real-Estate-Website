@@ -1,0 +1,78 @@
+{
+  "projectId": 10896,
+  "slug": "platinum-heights-bhandup-west-pid-10896",
+  "name": "Platinum Heights",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/platinum-heights-bhandup-west-pid-10896",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/10896/original/IMG_20230103_182853.png?1672750756",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 89568,
+          "bhk": "1 BHK",
+          "carpetArea": 372,
+          "carpetAreaDisplay": "372 sq.ft",
+          "builtUpArea": null,
+          "price": "74.57 Lacs",
+          "actualPrice": 7457000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 89569,
+          "bhk": "2 BHK",
+          "carpetArea": 500,
+          "carpetAreaDisplay": "500 sq.ft",
+          "builtUpArea": null,
+          "price": "1.0 Cr",
+          "actualPrice": 10000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "372 sq.ft",
+      "price": "74.57 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "500 sq.ft",
+      "price": "1.0 Cr"
+    }
+  ]
+}

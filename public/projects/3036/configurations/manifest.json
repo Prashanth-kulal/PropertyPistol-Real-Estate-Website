@@ -1,0 +1,145 @@
+{
+  "projectId": 3036,
+  "slug": "falco-marigold-titwala-pid-3036",
+  "name": "Falco Marigold",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/falco-marigold-titwala-pid-3036",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/3036/original/layout-plan.jpg?1575107031",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/1488/original/fp.jpg?1575107031",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 5555,
+          "bhk": "1 BHK",
+          "carpetArea": 319,
+          "carpetAreaDisplay": "319 sq.ft",
+          "builtUpArea": null,
+          "price": "17.22 Lacs",
+          "actualPrice": 1722000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 7780,
+          "bhk": "1 BHK",
+          "carpetArea": 334,
+          "carpetAreaDisplay": "334 sq.ft",
+          "builtUpArea": null,
+          "price": "18.03 Lacs",
+          "actualPrice": 1803000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 140331,
+          "bhk": "2 BHK",
+          "carpetArea": 377,
+          "carpetAreaDisplay": "377 sq.ft",
+          "builtUpArea": null,
+          "price": "20.35 Lacs",
+          "actualPrice": 2035000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140332,
+          "bhk": "2 BHK",
+          "carpetArea": 426,
+          "carpetAreaDisplay": "426 sq.ft",
+          "builtUpArea": null,
+          "price": "23.0 Lacs",
+          "actualPrice": 2300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 140333,
+          "bhk": "3 BHK",
+          "carpetArea": 528,
+          "carpetAreaDisplay": "528 sq.ft",
+          "builtUpArea": null,
+          "price": "28.5 Lacs",
+          "actualPrice": 2850000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "319 - 334 sq.ft",
+      "price": "17.22 Lacs - 18.03 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "377 - 426 sq.ft",
+      "price": "20.35 Lacs - 23.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "528 sq.ft",
+      "price": "28.5 Lacs"
+    }
+  ]
+}

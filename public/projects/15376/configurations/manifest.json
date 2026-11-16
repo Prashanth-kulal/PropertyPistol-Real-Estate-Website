@@ -1,0 +1,110 @@
+{
+  "projectId": 15376,
+  "slug": "envogue-1-mundhwa-pid-15376",
+  "name": "Envogue 1 ",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/envogue-1-mundhwa-pid-15376",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/15376/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/15376/original/mp.png?1709275271"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 135178,
+          "bhk": "3 BHK",
+          "carpetArea": 1386,
+          "carpetAreaDisplay": "1386 sq.ft",
+          "builtUpArea": null,
+          "price": "2.51 Cr",
+          "actualPrice": 25100000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 131951,
+          "bhk": "3 BHK",
+          "carpetArea": 1413,
+          "carpetAreaDisplay": "1413 sq.ft",
+          "builtUpArea": null,
+          "price": "2.5 Cr",
+          "actualPrice": 25000000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 119021,
+          "bhk": "3 BHK",
+          "carpetArea": 1446,
+          "carpetAreaDisplay": "1446 sq.ft",
+          "builtUpArea": null,
+          "price": "2.62 Cr",
+          "actualPrice": 26200000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 131952,
+          "bhk": "4 BHK",
+          "carpetArea": 1935,
+          "carpetAreaDisplay": "1935 sq.ft",
+          "builtUpArea": null,
+          "price": "3.5 Cr",
+          "actualPrice": 35000000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,386 - 1,446 sq.ft",
+      "price": "2.5 Cr - 2.62 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,935 sq.ft",
+      "price": "3.5 Cr"
+    }
+  ]
+}

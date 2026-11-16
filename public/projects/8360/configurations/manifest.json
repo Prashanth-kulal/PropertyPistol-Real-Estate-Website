@@ -1,0 +1,78 @@
+{
+  "projectId": 8360,
+  "slug": "united-athashri-dhanori-pid-8360",
+  "name": "United Athashri",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/united-athashri-dhanori-pid-8360",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/8360/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3325/original/fp.png?1671604623"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 28796,
+          "bhk": "2 BHK",
+          "carpetArea": 695,
+          "carpetAreaDisplay": "695 sq.ft",
+          "builtUpArea": null,
+          "price": "61.0 Lacs",
+          "actualPrice": 6100000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2.5 BHK",
+      "variants": [
+        {
+          "id": 99676,
+          "bhk": "2.5 BHK",
+          "carpetArea": 855,
+          "carpetAreaDisplay": "855 sq.ft",
+          "builtUpArea": null,
+          "price": "72.5 Lacs",
+          "actualPrice": 7250000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "695 sq.ft",
+      "price": "61.0 Lacs"
+    },
+    {
+      "flat_type_name": "2.5 BHK",
+      "carpet_area": "855 sq.ft",
+      "price": "72.5 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "projectId": 20771,
+  "slug": "rohan-upavan-hennur-road-pid-20771",
+  "name": "Rohan Upavan",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/rohan-upavan-hennur-road-pid-20771",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/20771/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/20771/original/download_%2863%29.png?1763967445"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 126195,
+          "bhk": "1 BHK",
+          "carpetArea": 413,
+          "carpetAreaDisplay": "413 sq.ft",
+          "builtUpArea": null,
+          "price": "38.35 Lacs",
+          "actualPrice": 3835118,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 126196,
+          "bhk": "3 BHK",
+          "carpetArea": 1085,
+          "carpetAreaDisplay": "1085 sq.ft",
+          "builtUpArea": null,
+          "price": "1.01 Cr",
+          "actualPrice": 10075310,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "413 sq.ft",
+      "price": "38.35 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,085 sq.ft",
+      "price": "1.01 Cr"
+    }
+  ]
+}

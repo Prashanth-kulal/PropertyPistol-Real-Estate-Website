@@ -1,0 +1,117 @@
+{
+  "projectId": 22237,
+  "slug": "gami-mirava",
+  "name": "Gami Mirava",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/gami-mirava-panvel-pid-22237",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/22237/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9662/original/mp.PNG?1787831433",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/22237/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9663/original/fr.PNG?1787831433",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 138014,
+          "bhk": "1 BHK",
+          "carpetArea": 379,
+          "carpetAreaDisplay": "379 sq.ft",
+          "builtUpArea": null,
+          "price": "74.0 Lacs",
+          "actualPrice": 7400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 138015,
+          "bhk": "1 BHK",
+          "carpetArea": 386,
+          "carpetAreaDisplay": "386 sq.ft",
+          "builtUpArea": null,
+          "price": "76.0 Lacs",
+          "actualPrice": 7600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 139047,
+          "bhk": "2 BHK",
+          "carpetArea": 541,
+          "carpetAreaDisplay": "541 sq.ft",
+          "builtUpArea": null,
+          "price": "1.0 Cr",
+          "actualPrice": 10000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139048,
+          "bhk": "2 BHK",
+          "carpetArea": 723,
+          "carpetAreaDisplay": "723 sq.ft",
+          "builtUpArea": null,
+          "price": "1.4 Cr",
+          "actualPrice": 14000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "379 - 386 sq.ft",
+      "price": "74.0 Lacs - 76.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "541 - 723 sq.ft",
+      "price": "1.0 Cr - 1.4 Cr"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "projectId": 12733,
+  "slug": "5-by-skyi-baner-pid-12733",
+  "name": "5 By Skyi",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/5-by-skyi-baner-pid-12733",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/12733/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8518/original/tfp-5.png?1752734359"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/12733/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8519/original/tf2.png?1752734359"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 39417,
+          "bhk": "4 BHK",
+          "carpetArea": 1490,
+          "carpetAreaDisplay": "1490 sq.ft",
+          "builtUpArea": null,
+          "price": "2.46 Cr",
+          "actualPrice": 24600000,
+          "propertyType": "Flat",
+          "plan2D": "/projects/12733/configurations/unit-plans/4-bhk/1490-sqft/plan-2d.webp",
+          "plan3D": "/projects/12733/configurations/unit-plans/4-bhk/1490-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/39417/original/4bhk-2d.png?1752734359",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/39417/original/4bhk-5.png?1752734359",
+          "has2D": true,
+          "has3D": true
+        },
+        {
+          "id": 108151,
+          "bhk": "4 BHK",
+          "carpetArea": 1711,
+          "carpetAreaDisplay": "1711 sq.ft",
+          "builtUpArea": null,
+          "price": "2.83 Cr",
+          "actualPrice": 28300000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 108152,
+          "bhk": "4 BHK",
+          "carpetArea": 1802,
+          "carpetAreaDisplay": "1802 sq.ft",
+          "builtUpArea": null,
+          "price": "2.98 Cr",
+          "actualPrice": 29800000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,490 - 1,802 sq.ft",
+      "price": "2.46 Cr - 2.98 Cr"
+    }
+  ]
+}

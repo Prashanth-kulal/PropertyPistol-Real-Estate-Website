@@ -1,0 +1,68 @@
+{
+  "projectId": 18487,
+  "slug": "villa-spring-dronagiri-pid-18487",
+  "name": "Villa Spring ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/villa-spring-dronagiri-pid-18487",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18487/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18487/original/mp.jpg?1753868671",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18487/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7078/original/fp-sp.png?1730988948",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/18487/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7079/original/fp-sp2.png?1730988948",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 91959,
+          "bhk": "1 BHK",
+          "carpetArea": 410,
+          "carpetAreaDisplay": "410 sq.ft",
+          "builtUpArea": null,
+          "price": "45.0 Lacs",
+          "actualPrice": 4500000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18487/configurations/unit-plans/1-bhk/410-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/91959/original/1.jpg?1753868671",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "410 sq.ft",
+      "price": "45.0 Lacs"
+    }
+  ]
+}

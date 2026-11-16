@@ -1,0 +1,176 @@
+{
+  "projectId": 7327,
+  "slug": "vtp-euphoria-kharadi-pid-7327",
+  "name": "VTP Euphoria",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/vtp-euphoria-kharadi-pid-7327",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/7327/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/7327/original/m.png?1671017537"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/7327/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3219/original/fp.png?1671017537"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 78324,
+          "bhk": "1 BHK",
+          "carpetArea": 464,
+          "carpetAreaDisplay": "464 sq.ft",
+          "builtUpArea": null,
+          "price": "65.94 Lacs",
+          "actualPrice": 6594000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 120350,
+          "bhk": "2 BHK",
+          "carpetArea": 509,
+          "carpetAreaDisplay": "509 sq.ft",
+          "builtUpArea": null,
+          "price": "72.34 Lacs",
+          "actualPrice": 7234000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 120348,
+          "bhk": "2 BHK",
+          "carpetArea": 515,
+          "carpetAreaDisplay": "515 sq.ft",
+          "builtUpArea": null,
+          "price": "73.5 Lacs",
+          "actualPrice": 7350000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 120349,
+          "bhk": "2 BHK",
+          "carpetArea": 597,
+          "carpetAreaDisplay": "597 sq.ft",
+          "builtUpArea": null,
+          "price": "85.29 Lacs",
+          "actualPrice": 8529000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 120351,
+          "bhk": "2 BHK",
+          "carpetArea": 667,
+          "carpetAreaDisplay": "667 sq.ft",
+          "builtUpArea": null,
+          "price": "94.67 Lacs",
+          "actualPrice": 9467000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 125688,
+          "bhk": "3 BHK",
+          "carpetArea": 719,
+          "carpetAreaDisplay": "719 sq.ft",
+          "builtUpArea": null,
+          "price": "1.37 Cr",
+          "actualPrice": 13700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 125689,
+          "bhk": "3 BHK",
+          "carpetArea": 894,
+          "carpetAreaDisplay": "894 sq.ft",
+          "builtUpArea": null,
+          "price": "1.7 Cr",
+          "actualPrice": 17000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "464 sq.ft",
+      "price": "65.94 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "509 - 667 sq.ft",
+      "price": "72.34 Lacs - 94.67 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "719 - 894 sq.ft",
+      "price": "1.37 Cr - 1.7 Cr"
+    }
+  ]
+}

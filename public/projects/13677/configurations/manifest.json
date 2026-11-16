@@ -1,0 +1,110 @@
+{
+  "projectId": 13677,
+  "slug": "godrej-tropical-isle-greater-noida-pid-13677",
+  "name": "Godrej Tropical Isle",
+  "city": "noida",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/godrej-tropical-isle-greater-noida-pid-13677",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/13677/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13677/original/download.png?1704802307"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 108454,
+          "bhk": "3 BHK",
+          "carpetArea": 1207,
+          "carpetAreaDisplay": "1207 sq.ft",
+          "builtUpArea": null,
+          "price": "2.66 Cr",
+          "actualPrice": 26600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 108455,
+          "bhk": "3 BHK",
+          "carpetArea": 1755,
+          "carpetAreaDisplay": "1755 sq.ft",
+          "builtUpArea": null,
+          "price": "3.86 Cr",
+          "actualPrice": 38600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 87265,
+          "bhk": "4 BHK",
+          "carpetArea": 2257,
+          "carpetAreaDisplay": "2257 sq.ft",
+          "builtUpArea": null,
+          "price": "5.51 Cr",
+          "actualPrice": 55100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 87266,
+          "bhk": "4 BHK",
+          "carpetArea": 3250,
+          "carpetAreaDisplay": "3250 sq.ft",
+          "builtUpArea": null,
+          "price": "7.93 Cr",
+          "actualPrice": 79300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,207 - 1,755 sq.ft",
+      "price": "2.66 Cr - 3.86 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,257 - 3,250 sq.ft",
+      "price": "5.51 Cr - 7.93 Cr"
+    }
+  ]
+}

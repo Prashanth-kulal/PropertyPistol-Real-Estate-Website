@@ -1,0 +1,68 @@
+{
+  "projectId": 19226,
+  "slug": "tvs-emerald-cascadia-sudhama-nagar-pid-19226",
+  "name": "TVS Emerald Cascadia",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/tvs-emerald-cascadia-sudhama-nagar-pid-19226",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19226/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19226/original/layout.PNG?1740227212"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 100949,
+          "bhk": "4 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2670,
+          "price": "7.6 Cr",
+          "actualPrice": 76000000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19226/configurations/unit-plans/4-bhk/variant-100949/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/100949/original/4bhk_2d.PNG?1740227213",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 100950,
+          "bhk": "4 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 4030,
+          "price": "12.23 Cr",
+          "actualPrice": 122300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "On Request",
+      "price": "7.6 Cr - 12.23 Cr"
+    }
+  ]
+}

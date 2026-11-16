@@ -1,0 +1,92 @@
+{
+  "projectId": 5185,
+  "slug": "shubhankar-durvaa-dhanori-pid-5185",
+  "name": "Shubhankar Durvaa",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shubhankar-durvaa-dhanori-pid-5185",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/5185/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/5185/original/mp.JPG?1669188721"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/5185/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8753/original/download_%2813%29.png?1792580575"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/5185/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9783/original/download_%2814%29.png?1792580576"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 104547,
+          "bhk": "2 BHK",
+          "carpetArea": 788,
+          "carpetAreaDisplay": "788 sq.ft",
+          "builtUpArea": null,
+          "price": "70.29 Lacs",
+          "actualPrice": 7029000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 79905,
+          "bhk": "3 BHK",
+          "carpetArea": 945,
+          "carpetAreaDisplay": "945 sq.ft",
+          "builtUpArea": null,
+          "price": "86.0 Lacs",
+          "actualPrice": 8600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "788 sq.ft",
+      "price": "70.29 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "945 sq.ft",
+      "price": "86.0 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "projectId": 19986,
+  "slug": "gami-avant-vashi-pid-19986",
+  "name": "Gami Avant ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/gami-avant-vashi-pid-19986",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19986/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8349/original/gp-av.png?1749575973",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19986/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8350/original/gp-av2.png?1749575973",
+      "downloaded": true
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/19986/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8351/original/fp-av.png?1749575973",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 116161,
+          "bhk": "1 BHK",
+          "carpetArea": 472,
+          "carpetAreaDisplay": "472 sq.ft",
+          "builtUpArea": null,
+          "price": "1.23 Cr",
+          "actualPrice": 12340440,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 116162,
+          "bhk": "3 BHK",
+          "carpetArea": 849,
+          "carpetAreaDisplay": "849 sq.ft",
+          "builtUpArea": null,
+          "price": "2.22 Cr",
+          "actualPrice": 22197105,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "472 sq.ft",
+      "price": "1.23 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "849 sq.ft",
+      "price": "2.22 Cr"
+    }
+  ]
+}

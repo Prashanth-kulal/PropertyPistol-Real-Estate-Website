@@ -1,0 +1,136 @@
+{
+  "projectId": 14144,
+  "slug": "veena-solace-santacruz-west-pid-14144",
+  "name": "Veena Solace",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/veena-solace-santacruz-west-pid-14144",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4685/original/Veenasolace-floorplans.png?1697306624",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 43632,
+          "bhk": "2 BHK",
+          "carpetArea": 831,
+          "carpetAreaDisplay": "831 sq.ft",
+          "builtUpArea": null,
+          "price": "3.95 Cr",
+          "actualPrice": 39500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 62884,
+          "bhk": "2 BHK",
+          "carpetArea": 840,
+          "carpetAreaDisplay": "840 sq.ft",
+          "builtUpArea": null,
+          "price": "3.99 Cr",
+          "actualPrice": 39900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 43633,
+          "bhk": "3 BHK",
+          "carpetArea": 912,
+          "carpetAreaDisplay": "912 sq.ft",
+          "builtUpArea": null,
+          "price": "4.47 Cr",
+          "actualPrice": 44700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 46980,
+          "bhk": "3 BHK",
+          "carpetArea": 945,
+          "carpetAreaDisplay": "945 sq.ft",
+          "builtUpArea": null,
+          "price": "4.63 Cr",
+          "actualPrice": 46300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 123924,
+          "bhk": "4 BHK",
+          "carpetArea": 936,
+          "carpetAreaDisplay": "936 sq.ft",
+          "builtUpArea": null,
+          "price": "4.59 Cr",
+          "actualPrice": 45900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "831 - 840 sq.ft",
+      "price": "3.95 Cr - 3.99 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "912 - 945 sq.ft",
+      "price": "4.47 Cr - 4.63 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "936 sq.ft",
+      "price": "4.59 Cr"
+    }
+  ]
+}

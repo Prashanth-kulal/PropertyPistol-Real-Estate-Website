@@ -1,0 +1,94 @@
+{
+  "projectId": 16112,
+  "slug": "platinum-mansionz-nerul-pid-16112",
+  "name": "Platinum Mansionz",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/platinum-mansionz-nerul-pid-16112",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16112/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6128/original/fp.PNG?1713954412",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 59531,
+          "bhk": "2 BHK",
+          "carpetArea": 721,
+          "carpetAreaDisplay": "721 sq.ft",
+          "builtUpArea": null,
+          "price": "1.99 Cr",
+          "actualPrice": 19900000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/16112/configurations/unit-plans/2-bhk/721-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/59531/original/pixelcut-export_-_2024-12-26T115244.930.png?1735194323",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 111168,
+          "bhk": "3 BHK",
+          "carpetArea": 941,
+          "carpetAreaDisplay": "941 sq.ft",
+          "builtUpArea": null,
+          "price": "2.6 Cr",
+          "actualPrice": 26000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 111169,
+          "bhk": "3 BHK",
+          "carpetArea": 1088,
+          "carpetAreaDisplay": "1088 sq.ft",
+          "builtUpArea": null,
+          "price": "3.0 Cr",
+          "actualPrice": 30000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "721 sq.ft",
+      "price": "1.99 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "941 - 1,088 sq.ft",
+      "price": "2.6 Cr - 3.0 Cr"
+    }
+  ]
+}

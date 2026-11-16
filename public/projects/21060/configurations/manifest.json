@@ -1,0 +1,52 @@
+{
+  "projectId": 21060,
+  "slug": "one-residency-ulwe-pid-21060",
+  "name": "One Residency",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/one-residency-ulwe-pid-21060",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21060/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8941/original/download.png?1763464226",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 127506,
+          "bhk": "1 BHK",
+          "carpetArea": 407,
+          "carpetAreaDisplay": "407 sq.ft",
+          "builtUpArea": null,
+          "price": "37.04 Lacs",
+          "actualPrice": 3704000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "407 sq.ft",
+      "price": "37.04 Lacs"
+    }
+  ]
+}

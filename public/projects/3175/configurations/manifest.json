@@ -1,0 +1,77 @@
+{
+  "projectId": 3175,
+  "slug": "nisarg-shrushti-phase-2-palghar-pid-3175",
+  "name": "Nisarg Shrushti Phase 2",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/nisarg-shrushti-phase-2-palghar-pid-3175",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/3175/original/layout.jpg?1576752298",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/1584/original/floor_plan1.jpg?1576752300",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 84059,
+          "bhk": "2 BHK",
+          "carpetArea": 363,
+          "carpetAreaDisplay": "363 sq.ft",
+          "builtUpArea": null,
+          "price": "27.0 Lacs",
+          "actualPrice": 2700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 84060,
+          "bhk": "2 BHK",
+          "carpetArea": 622,
+          "carpetAreaDisplay": "622 sq.ft",
+          "builtUpArea": null,
+          "price": "47.0 Lacs",
+          "actualPrice": 4700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "363 - 622 sq.ft",
+      "price": "27.0 Lacs - 47.0 Lacs"
+    }
+  ]
+}

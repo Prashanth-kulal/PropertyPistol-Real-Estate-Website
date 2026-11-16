@@ -1,0 +1,117 @@
+{
+  "projectId": 17055,
+  "slug": "s-s-meghalok-heights-borivali-west-pid-17055",
+  "name": "S S Meghalok Heights",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/s-s-meghalok-heights-borivali-west-pid-17055",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/17055/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6475/original/fp_meghalok.png?1718713364",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/17055/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8632/original/ss-meghalok-heights-project-floor-plans7-6212.jpg?1753679621",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 68992,
+          "bhk": "2 BHK",
+          "carpetArea": 634,
+          "carpetAreaDisplay": "634 sq.ft",
+          "builtUpArea": null,
+          "price": "2.25 Cr",
+          "actualPrice": 22500000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/17055/configurations/unit-plans/2-bhk/634-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/68992/original/2bhk_meghalok.PNG?1718713361",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 68994,
+          "bhk": "2 BHK",
+          "carpetArea": 668,
+          "carpetAreaDisplay": "668 sq.ft",
+          "builtUpArea": null,
+          "price": "2.37 Cr",
+          "actualPrice": 23700000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/17055/configurations/unit-plans/2-bhk/668-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/68994/original/2bhk_meghalok.PNG?1718713361",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 68996,
+          "bhk": "3 BHK",
+          "carpetArea": 925,
+          "carpetAreaDisplay": "925 sq.ft",
+          "builtUpArea": null,
+          "price": "3.28 Cr",
+          "actualPrice": 32800000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/17055/configurations/unit-plans/3-bhk/925-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/68996/original/meghalok_3bhk.PNG?1718713361",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 68997,
+          "bhk": "3 BHK",
+          "carpetArea": 1016,
+          "carpetAreaDisplay": "1016 sq.ft",
+          "builtUpArea": null,
+          "price": "3.61 Cr",
+          "actualPrice": 36100000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/17055/configurations/unit-plans/3-bhk/1016-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/68997/original/meghalok_3bhk.PNG?1718713361",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "634 - 668 sq.ft",
+      "price": "2.25 Cr - 2.37 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "925 - 1,016 sq.ft",
+      "price": "3.28 Cr - 3.61 Cr"
+    }
+  ]
+}

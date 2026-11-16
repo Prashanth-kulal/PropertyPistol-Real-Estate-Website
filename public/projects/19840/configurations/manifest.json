@@ -1,0 +1,132 @@
+{
+  "projectId": 19840,
+  "slug": "a-v-bhat-anandam-phase-1-talegaon-pid-19840",
+  "name": "A V Bhat Anandam Phase 1",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/a-v-bhat-anandam-phase-1-talegaon-pid-19840",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19840/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8030/original/floor1.PNG?1747650269"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19840/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8031/original/floor2.PNG?1747650269"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 113405,
+          "bhk": "1 BHK",
+          "carpetArea": 374,
+          "carpetAreaDisplay": "374 sq.ft",
+          "builtUpArea": null,
+          "price": "22.66 Lacs",
+          "actualPrice": 2266000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19840/configurations/unit-plans/1-bhk/374-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/113405/original/1bhk_3d.PNG?1747650264",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 138877,
+          "bhk": "1 BHK",
+          "carpetArea": 524,
+          "carpetAreaDisplay": "524 sq.ft",
+          "builtUpArea": null,
+          "price": "31.75 Lacs",
+          "actualPrice": 3175000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 138878,
+          "bhk": "2 BHK",
+          "carpetArea": 629,
+          "carpetAreaDisplay": "629 sq.ft",
+          "builtUpArea": null,
+          "price": "38.11 Lacs",
+          "actualPrice": 3811000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 138879,
+          "bhk": "2 BHK",
+          "carpetArea": 646,
+          "carpetAreaDisplay": "646 sq.ft",
+          "builtUpArea": null,
+          "price": "39.14 Lacs",
+          "actualPrice": 3914000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 138880,
+          "bhk": "2 BHK",
+          "carpetArea": 647,
+          "carpetAreaDisplay": "647 sq.ft",
+          "builtUpArea": null,
+          "price": "39.2 Lacs",
+          "actualPrice": 3920000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "374 - 524 sq.ft",
+      "price": "22.66 Lacs - 31.75 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "629 - 647 sq.ft",
+      "price": "38.11 Lacs - 39.2 Lacs"
+    }
+  ]
+}

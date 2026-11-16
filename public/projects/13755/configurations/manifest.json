@@ -1,0 +1,94 @@
+{
+  "projectId": 13755,
+  "slug": "ddsr-heights-kalamboli-pid-13755",
+  "name": "DDSR Heights",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ddsr-heights-kalamboli-pid-13755",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4435/original/Captureaddssdd.PNG?1695276283",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 42535,
+          "bhk": "1 BHK",
+          "carpetArea": 418,
+          "carpetAreaDisplay": "418 sq.ft",
+          "builtUpArea": null,
+          "price": "56.91 Lacs",
+          "actualPrice": 5691000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/42535/original/Captureuiio.PNG?1695280522",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 130427,
+          "bhk": "1 BHK",
+          "carpetArea": 603,
+          "carpetAreaDisplay": "603 sq.ft",
+          "builtUpArea": null,
+          "price": "82.1 Lacs",
+          "actualPrice": 8210000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 54029,
+          "bhk": "2 BHK",
+          "carpetArea": 973,
+          "carpetAreaDisplay": "973 sq.ft",
+          "builtUpArea": null,
+          "price": "1.1 Cr",
+          "actualPrice": 11000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/54029/original/2b.png?1709807479",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "418 - 603 sq.ft",
+      "price": "56.91 Lacs - 82.1 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "973 sq.ft",
+      "price": "1.1 Cr"
+    }
+  ]
+}

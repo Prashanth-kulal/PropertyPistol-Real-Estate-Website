@@ -1,0 +1,86 @@
+{
+  "projectId": 19421,
+  "slug": "godrej-river-crest-manjri-pid-19421",
+  "name": "Godrej River Crest",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/godrej-river-crest-manjri-pid-19421",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19421/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19421/original/masterplan.PNG?1742474454"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19421/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7576/original/floor1.PNG?1742474458"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 103361,
+          "bhk": "3 BHK",
+          "carpetArea": 1379,
+          "carpetAreaDisplay": "1379 sq.ft",
+          "builtUpArea": null,
+          "price": "1.92 Cr",
+          "actualPrice": 19168100,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19421/configurations/unit-plans/3-bhk/1379-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/103361/original/3bhk_2d.PNG?1742474454",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 103363,
+          "bhk": "4 BHK",
+          "carpetArea": 1728,
+          "carpetAreaDisplay": "1728 sq.ft",
+          "builtUpArea": null,
+          "price": "2.4 Cr",
+          "actualPrice": 24019200,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19421/configurations/unit-plans/4-bhk/1728-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/103363/original/4bhk_2d.PNG?1742474454",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,379 sq.ft",
+      "price": "1.92 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,728 sq.ft",
+      "price": "2.4 Cr"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "projectId": 17658,
+  "slug": "shantprabha-co-operative-housing-society-goregaon-east-pid-17658",
+  "name": "Shantprabha Co Operative Housing Society ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shantprabha-co-operative-housing-society-goregaon-east-pid-17658",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/17658/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6774/original/fp_s.PNG?1723472712",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 78629,
+          "bhk": "1 BHK",
+          "carpetArea": 465,
+          "carpetAreaDisplay": "465 sq.ft",
+          "builtUpArea": null,
+          "price": "1.6 Cr",
+          "actualPrice": 16000000,
+          "propertyType": "Flat",
+          "plan2D": "/projects/17658/configurations/unit-plans/1-bhk/465-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/78629/original/IMG_20250626_174352.jpg?1750940092",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 78630,
+          "bhk": "2 BHK",
+          "carpetArea": 650,
+          "carpetAreaDisplay": "650 sq.ft",
+          "builtUpArea": null,
+          "price": "2.32 Cr",
+          "actualPrice": 23200000,
+          "propertyType": "Flat",
+          "plan2D": "/projects/17658/configurations/unit-plans/2-bhk/650-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/78630/original/IMG_20250626_174407.jpg?1750940092",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 99713,
+          "bhk": "3 BHK",
+          "carpetArea": 820,
+          "carpetAreaDisplay": "820 sq.ft",
+          "builtUpArea": null,
+          "price": "2.93 Cr",
+          "actualPrice": 29300000,
+          "propertyType": "Flat",
+          "plan2D": "/projects/17658/configurations/unit-plans/3-bhk/820-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/99713/original/IMG_20250626_174420.jpg?1750940092",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "465 sq.ft",
+      "price": "1.6 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "650 sq.ft",
+      "price": "2.32 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "820 sq.ft",
+      "price": "2.93 Cr"
+    }
+  ]
+}

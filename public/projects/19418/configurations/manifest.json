@@ -1,0 +1,74 @@
+{
+  "projectId": 19418,
+  "slug": "brahma-heights-wagholi-pid-19418",
+  "name": "Brahma Heights",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/brahma-heights-wagholi-pid-19418",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19418/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7573/original/floor1.PNG?1742464563"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19418/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7574/original/floor2.PNG?1742464563"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 103307,
+          "bhk": "2 BHK",
+          "carpetArea": 693,
+          "carpetAreaDisplay": "693 sq.ft",
+          "builtUpArea": null,
+          "price": "42.12 Lacs",
+          "actualPrice": 4212000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19418/configurations/unit-plans/2-bhk/693-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/103307/original/2bhk_3dnew.png?1742471465",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 103308,
+          "bhk": "2 BHK",
+          "carpetArea": 710,
+          "carpetAreaDisplay": "710 sq.ft",
+          "builtUpArea": null,
+          "price": "43.15 Lacs",
+          "actualPrice": 4315000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "693 - 710 sq.ft",
+      "price": "42.12 Lacs - 43.15 Lacs"
+    }
+  ]
+}

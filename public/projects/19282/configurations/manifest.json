@@ -1,0 +1,78 @@
+{
+  "projectId": 19282,
+  "slug": "sahyadri-ahs-imperial-mumbra-east-pid-19282",
+  "name": "Sahyadri AHS Imperial",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sahyadri-ahs-imperial-mumbra-east-pid-19282",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19282/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8247/original/fp-shy_%281%29.png?1748426321",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 101527,
+          "bhk": "1 BHK",
+          "carpetArea": 506,
+          "carpetAreaDisplay": "506 sq.ft",
+          "builtUpArea": null,
+          "price": "57.0 Lacs",
+          "actualPrice": 5700000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19282/configurations/unit-plans/1-bhk/506-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/101527/original/1bhk-sah_%281%29.png?1748426321",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 101532,
+          "bhk": "2 BHK",
+          "carpetArea": 759,
+          "carpetAreaDisplay": "759 sq.ft",
+          "builtUpArea": null,
+          "price": "85.5 Lacs",
+          "actualPrice": 8550000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19282/configurations/unit-plans/2-bhk/759-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/101532/original/2bhk-sha_%281%29.png?1748426321",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "506 sq.ft",
+      "price": "57.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "759 sq.ft",
+      "price": "85.5 Lacs"
+    }
+  ]
+}

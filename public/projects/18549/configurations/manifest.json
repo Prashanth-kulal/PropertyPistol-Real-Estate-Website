@@ -1,0 +1,110 @@
+{
+  "projectId": 18549,
+  "slug": "skg-nava-geeta",
+  "name": "SKG Nava Geeta",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/skg-nava-geeta-chembur-pid-18549",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18549/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7116/original/fp-skg.PNG?1731151543",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 92252,
+          "bhk": "2 BHK",
+          "carpetArea": 819,
+          "carpetAreaDisplay": "819 sq.ft",
+          "builtUpArea": null,
+          "price": "2.21 Cr",
+          "actualPrice": 22100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 92253,
+          "bhk": "3 BHK",
+          "carpetArea": 1005,
+          "carpetAreaDisplay": "1005 sq.ft",
+          "builtUpArea": null,
+          "price": "3.04 Cr",
+          "actualPrice": 30400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 92254,
+          "bhk": "3 BHK",
+          "carpetArea": 1142,
+          "carpetAreaDisplay": "1142 sq.ft",
+          "builtUpArea": null,
+          "price": "3.46 Cr",
+          "actualPrice": 34600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 103526,
+          "bhk": "3 BHK",
+          "carpetArea": 1162,
+          "carpetAreaDisplay": "1162 sq.ft",
+          "builtUpArea": null,
+          "price": "3.52 Cr",
+          "actualPrice": 35200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "819 sq.ft",
+      "price": "2.21 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,005 - 1,162 sq.ft",
+      "price": "3.04 Cr - 3.52 Cr"
+    }
+  ]
+}

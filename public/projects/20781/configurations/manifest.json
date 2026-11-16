@@ -1,0 +1,78 @@
+{
+  "projectId": 20781,
+  "slug": "mln-enclave-thirumenahalli-pid-20781",
+  "name": "Mln Enclave",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/mln-enclave-thirumenahalli-pid-20781",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20781/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9152/original/Screenshot_316.png?1766829277"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 126212,
+          "bhk": "2 BHK",
+          "carpetArea": 780,
+          "carpetAreaDisplay": "780 sq.ft",
+          "builtUpArea": null,
+          "price": "90.0 Lacs",
+          "actualPrice": 8999640,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 126213,
+          "bhk": "3 BHK",
+          "carpetArea": 1105,
+          "carpetAreaDisplay": "1105 sq.ft",
+          "builtUpArea": null,
+          "price": "1.27 Cr",
+          "actualPrice": 12749490,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "780 sq.ft",
+      "price": "90.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,105 sq.ft",
+      "price": "1.27 Cr"
+    }
+  ]
+}

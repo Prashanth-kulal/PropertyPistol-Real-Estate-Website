@@ -1,0 +1,93 @@
+{
+  "projectId": 2423,
+  "slug": "sonam-indradhanush",
+  "name": "Sonam Indradhanush",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sonam-indradhanush-mira-road-east-pid-2423",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/2423/original/Indradhanush-Master.jpg?1591601333",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/1877/original/fp.jpg?1591601334",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 4361,
+          "bhk": "2 BHK",
+          "carpetArea": 612,
+          "carpetAreaDisplay": "612 sq.ft",
+          "builtUpArea": null,
+          "price": "1.01 Cr",
+          "actualPrice": 10100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/4361/original/2bed.jpg?1591601333",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/4361/original/2bed_3d.jpg?1591601334",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 129555,
+          "bhk": "2 BHK",
+          "carpetArea": 616,
+          "carpetAreaDisplay": "616 sq.ft",
+          "builtUpArea": null,
+          "price": "1.02 Cr",
+          "actualPrice": 10200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 137130,
+          "bhk": "2 BHK",
+          "carpetArea": 755,
+          "carpetAreaDisplay": "755 sq.ft",
+          "builtUpArea": null,
+          "price": "1.25 Cr",
+          "actualPrice": 12500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "612 - 755 sq.ft",
+      "price": "1.01 Cr - 1.25 Cr"
+    }
+  ]
+}

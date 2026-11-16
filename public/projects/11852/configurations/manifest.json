@@ -1,0 +1,87 @@
+{
+  "projectId": 11852,
+  "slug": "lodha-crown-dombivali-east-pid-11852",
+  "name": "Lodha Crown",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/lodha-crown-dombivali-east-pid-11852",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/11852/original/mp-lodha.png?1752906383",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8548/original/fp-lodha.png?1752906383",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 37847,
+          "bhk": "1 BHK",
+          "carpetArea": 322,
+          "carpetAreaDisplay": "322 sq.ft",
+          "builtUpArea": null,
+          "price": "39.0 Lacs",
+          "actualPrice": 3900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/37847/original/Capture1s.PNG?1681973714",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 90980,
+          "bhk": "2 BHK",
+          "carpetArea": 487,
+          "carpetAreaDisplay": "487 sq.ft",
+          "builtUpArea": null,
+          "price": "59.0 Lacs",
+          "actualPrice": 5900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/90980/original/2bhk.png?1752906383",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "322 sq.ft",
+      "price": "39.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "487 sq.ft",
+      "price": "59.0 Lacs"
+    }
+  ]
+}

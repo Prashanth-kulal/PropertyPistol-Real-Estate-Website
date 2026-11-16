@@ -1,0 +1,152 @@
+{
+  "projectId": 17068,
+  "slug": "elite-x-sector-10-greater-noida-pid-17068",
+  "name": "Elite X",
+  "city": "noida",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/elite-x-sector-10-greater-noida-pid-17068",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/17068/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/17068/original/mp.PNG?1718736405"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 69062,
+          "bhk": "3 BHK",
+          "carpetArea": 1800,
+          "carpetAreaDisplay": "1800 sq.ft",
+          "builtUpArea": null,
+          "price": "2.02 Cr",
+          "actualPrice": 20200000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/17068/configurations/unit-plans/3-bhk/1800-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/69062/original/4b.PNG?1718736405",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 90249,
+          "bhk": "3 BHK",
+          "carpetArea": 1860,
+          "carpetAreaDisplay": "1860 sq.ft",
+          "builtUpArea": null,
+          "price": "2.08 Cr",
+          "actualPrice": 20800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3.5 BHK",
+      "variants": [
+        {
+          "id": 132206,
+          "bhk": "3.5 BHK",
+          "carpetArea": 2075,
+          "carpetAreaDisplay": "2075 sq.ft",
+          "builtUpArea": null,
+          "price": "2.32 Cr",
+          "actualPrice": 23200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 132207,
+          "bhk": "3.5 BHK",
+          "carpetArea": 2110,
+          "carpetAreaDisplay": "2110 sq.ft",
+          "builtUpArea": null,
+          "price": "2.36 Cr",
+          "actualPrice": 23600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 69061,
+          "bhk": "4 BHK",
+          "carpetArea": 2632,
+          "carpetAreaDisplay": "2632 sq.ft",
+          "builtUpArea": null,
+          "price": "2.95 Cr",
+          "actualPrice": 29500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 69060,
+          "bhk": "4 BHK",
+          "carpetArea": 2638,
+          "carpetAreaDisplay": "2638 sq.ft",
+          "builtUpArea": null,
+          "price": "2.95 Cr",
+          "actualPrice": 29500000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/17068/configurations/unit-plans/4-bhk/2638-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/69060/original/3.PNG?1718736405",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,800 - 1,860 sq.ft",
+      "price": "2.02 Cr - 2.08 Cr"
+    },
+    {
+      "flat_type_name": "3.5 BHK",
+      "carpet_area": "2,075 - 2,110 sq.ft",
+      "price": "2.32 Cr - 2.36 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,632 - 2,638 sq.ft",
+      "price": "2.95 Cr"
+    }
+  ]
+}

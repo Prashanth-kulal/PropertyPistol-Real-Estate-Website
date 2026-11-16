@@ -1,0 +1,78 @@
+{
+  "projectId": 20998,
+  "slug": "nivasa-green-city-dombivali-east-pid-20998",
+  "name": "Nivasa Green City",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/nivasa-green-city-dombivali-east-pid-20998",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/20998/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/20998/original/fp.JPG?1794478433",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 127376,
+          "bhk": "1 BHK",
+          "carpetArea": 453,
+          "carpetAreaDisplay": "453 sq.ft",
+          "builtUpArea": null,
+          "price": "59.0 Lacs",
+          "actualPrice": 5900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 127377,
+          "bhk": "2 BHK",
+          "carpetArea": 662,
+          "carpetAreaDisplay": "662 sq.ft",
+          "builtUpArea": null,
+          "price": "86.0 Lacs",
+          "actualPrice": 8600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "453 sq.ft",
+      "price": "59.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "662 sq.ft",
+      "price": "86.0 Lacs"
+    }
+  ]
+}

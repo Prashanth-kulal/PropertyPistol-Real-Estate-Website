@@ -1,0 +1,78 @@
+{
+  "projectId": 20712,
+  "slug": "definer-dolce-vita-avalahalli-pid-20712",
+  "name": "Definer Dolce Vita",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/definer-dolce-vita-avalahalli-pid-20712",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/20712/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/20712/original/Definer-Dolce-Vita-Master-Plan1.jpg?1766818094"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 126096,
+          "bhk": "3 BHK",
+          "carpetArea": 1312,
+          "carpetAreaDisplay": "1312 sq.ft",
+          "builtUpArea": null,
+          "price": "2.02 Cr",
+          "actualPrice": 20182496,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "5 BHK",
+      "variants": [
+        {
+          "id": 126295,
+          "bhk": "5 BHK",
+          "carpetArea": 3171,
+          "carpetAreaDisplay": "3171 sq.ft",
+          "builtUpArea": null,
+          "price": "4.88 Cr",
+          "actualPrice": 48779493,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,312 sq.ft",
+      "price": "2.02 Cr"
+    },
+    {
+      "flat_type_name": "5 BHK",
+      "carpet_area": "3,171 sq.ft",
+      "price": "4.88 Cr"
+    }
+  ]
+}

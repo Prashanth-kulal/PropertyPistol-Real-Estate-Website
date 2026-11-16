@@ -1,0 +1,78 @@
+{
+  "projectId": 10212,
+  "slug": "manasi-residency-kondhwa-pid-10212",
+  "name": "Manasi Residency",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/manasi-residency-kondhwa-pid-10212",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/10212/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2799/original/fp.png?1668496591"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 34077,
+          "bhk": "1 BHK",
+          "carpetArea": 505,
+          "carpetAreaDisplay": "505 sq.ft",
+          "builtUpArea": null,
+          "price": "38.0 Lacs",
+          "actualPrice": 3800000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": "/projects/10212/configurations/unit-plans/1-bhk/505-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/34077/original/1b.JPG?1668496590",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 116424,
+          "bhk": "2 BHK",
+          "carpetArea": 640,
+          "carpetAreaDisplay": "640 sq.ft",
+          "builtUpArea": null,
+          "price": "53.0 Lacs",
+          "actualPrice": 5300000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "505 sq.ft",
+      "price": "38.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "640 sq.ft",
+      "price": "53.0 Lacs"
+    }
+  ]
+}

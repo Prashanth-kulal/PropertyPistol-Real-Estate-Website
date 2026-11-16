@@ -1,0 +1,78 @@
+{
+  "projectId": 12845,
+  "slug": "rohan-nidita-hinjawadi-pid-12845",
+  "name": "Rohan Nidita",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/rohan-nidita-hinjawadi-pid-12845",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/12845/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/12845/original/R_Nidita_Master_Plan_01.jpg?1689242748"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 115354,
+          "bhk": "2 BHK",
+          "carpetArea": 907,
+          "carpetAreaDisplay": "907 sq.ft",
+          "builtUpArea": null,
+          "price": "1.12 Cr",
+          "actualPrice": 11200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 115358,
+          "bhk": "3 BHK",
+          "carpetArea": 1316,
+          "carpetAreaDisplay": "1316 sq.ft",
+          "builtUpArea": null,
+          "price": "1.61 Cr",
+          "actualPrice": 16100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "907 sq.ft",
+      "price": "1.12 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,316 sq.ft",
+      "price": "1.61 Cr"
+    }
+  ]
+}

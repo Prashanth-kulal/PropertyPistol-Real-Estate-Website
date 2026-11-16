@@ -1,0 +1,102 @@
+{
+  "projectId": 11048,
+  "slug": "provident-sunworth-city-mysore-road-pid-11048",
+  "name": "Provident Sunworth City",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/provident-sunworth-city-mysore-road-pid-11048",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/11048/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/11048/original/download_-_2025-12-09T181936.298.png?1765284669"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/11048/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9099/original/download_-_2025-12-09T181942.638.png?1765284669"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 36038,
+          "bhk": "2 BHK",
+          "carpetArea": 883,
+          "carpetAreaDisplay": "883 sq.ft",
+          "builtUpArea": null,
+          "price": "84.19 Lacs",
+          "actualPrice": 8419000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 81482,
+          "bhk": "3 BHK",
+          "carpetArea": 1081,
+          "carpetAreaDisplay": "1081 sq.ft",
+          "builtUpArea": null,
+          "price": "95.18 Lacs",
+          "actualPrice": 9518000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 130543,
+          "bhk": "3 BHK",
+          "carpetArea": 1779,
+          "carpetAreaDisplay": "1779 sq.ft",
+          "builtUpArea": null,
+          "price": "1.7 Cr",
+          "actualPrice": 17000000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "883 sq.ft",
+      "price": "84.19 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,081 - 1,779 sq.ft",
+      "price": "95.18 Lacs - 1.7 Cr"
+    }
+  ]
+}

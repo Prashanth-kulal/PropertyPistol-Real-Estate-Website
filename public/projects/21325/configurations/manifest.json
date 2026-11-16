@@ -1,0 +1,94 @@
+{
+  "projectId": 21325,
+  "slug": "saksham-heights-dhansar-taloja-pid-21325",
+  "name": "Saksham Heights",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/saksham-heights-dhansar-taloja-pid-21325",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21325/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9199/original/fp.png?1771572498",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 132784,
+          "bhk": "1 BHK",
+          "carpetArea": 369,
+          "carpetAreaDisplay": "369 sq.ft",
+          "builtUpArea": null,
+          "price": "38.74 Lacs",
+          "actualPrice": 3874000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/21325/configurations/unit-plans/1-bhk/369-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/132784/original/1bhk.png?1771572496",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 140476,
+          "bhk": "1 BHK",
+          "carpetArea": 391,
+          "carpetAreaDisplay": "391 sq.ft",
+          "builtUpArea": null,
+          "price": "41.14 Lacs",
+          "actualPrice": 4114000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 132785,
+          "bhk": "2 BHK",
+          "carpetArea": 638,
+          "carpetAreaDisplay": "638 sq.ft",
+          "builtUpArea": null,
+          "price": "67.09 Lacs",
+          "actualPrice": 6709000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/21325/configurations/unit-plans/2-bhk/638-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/132785/original/2bhk.png?1771572496",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "369 - 391 sq.ft",
+      "price": "38.74 Lacs - 41.14 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "638 sq.ft",
+      "price": "67.09 Lacs"
+    }
+  ]
+}

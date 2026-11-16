@@ -1,0 +1,78 @@
+{
+  "projectId": 3369,
+  "slug": "bhumiraj-hills",
+  "name": "Bhumiraj Hills",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/bhumiraj-hills-cbd-belapur-pid-3369",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/1689/original/pixelcut-export_-_2025-01-21T142832.076.jpg?1737449948",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 81044,
+          "bhk": "1 BHK",
+          "carpetArea": 508,
+          "carpetAreaDisplay": "508 sq.ft",
+          "builtUpArea": null,
+          "price": "1.2 Cr",
+          "actualPrice": 12000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 101677,
+          "bhk": "2 BHK",
+          "carpetArea": 689,
+          "carpetAreaDisplay": "689 sq.ft",
+          "builtUpArea": null,
+          "price": "1.85 Cr",
+          "actualPrice": 18500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "508 sq.ft",
+      "price": "1.2 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "689 sq.ft",
+      "price": "1.85 Cr"
+    }
+  ]
+}

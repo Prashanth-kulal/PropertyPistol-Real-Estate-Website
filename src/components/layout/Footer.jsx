@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowUp } from "lucide-react";
-import { FOOTER_LINKS } from "@/data";
+import { FOOTER_LINKS } from "@/data/siteConstants";
 
 export default function Footer() {
   const [showScrollTop, setShowScrollTop] = useState(false);

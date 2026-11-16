@@ -1,0 +1,77 @@
+{
+  "projectId": 18946,
+  "slug": "hubtown-celeste",
+  "name": "Hubtown Celeste",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/hubtown-celeste-worli-pid-18946",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18946/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18946/original/1000250513-Picsart-AiImageEnhancer.jpg.png?1751349018",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18946/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8411/original/1000250514-Picsart-AiImageEnhancer.jpg.png?1751349018",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 96915,
+          "bhk": "2 BHK",
+          "carpetArea": 330,
+          "carpetAreaDisplay": "330 sq.ft",
+          "builtUpArea": null,
+          "price": "2.15 Cr",
+          "actualPrice": 21500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139557,
+          "bhk": "2 BHK",
+          "carpetArea": 886,
+          "carpetAreaDisplay": "886 sq.ft",
+          "builtUpArea": null,
+          "price": "5.76 Cr",
+          "actualPrice": 57600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "330 - 886 sq.ft",
+      "price": "2.15 Cr - 5.76 Cr"
+    }
+  ]
+}

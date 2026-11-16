@@ -1,0 +1,191 @@
+{
+  "projectId": 451,
+  "slug": "25-south",
+  "name": "25 South",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/25-south-prabhadevi-pid-451",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/451/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/451/original/masterplan.png?1753261107",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/451/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/171/original/floor_1.jpg?1753261107",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/451/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/172/original/floor_2.jpg?1753261107",
+      "downloaded": true
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/451/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/173/original/floor_3.jpg?1753261108",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 128518,
+          "bhk": "3 BHK",
+          "carpetArea": 1464,
+          "carpetAreaDisplay": "1464 sq.ft",
+          "builtUpArea": null,
+          "price": "16.11 Cr",
+          "actualPrice": 161100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 128519,
+          "bhk": "3 BHK",
+          "carpetArea": 1565,
+          "carpetAreaDisplay": "1565 sq.ft",
+          "builtUpArea": null,
+          "price": "17.22 Cr",
+          "actualPrice": 172200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 128520,
+          "bhk": "3 BHK",
+          "carpetArea": 1721,
+          "carpetAreaDisplay": "1721 sq.ft",
+          "builtUpArea": null,
+          "price": "18.93 Cr",
+          "actualPrice": 189300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 128521,
+          "bhk": "4 BHK",
+          "carpetArea": 2558,
+          "carpetAreaDisplay": "2558 sq.ft",
+          "builtUpArea": null,
+          "price": "28.14 Cr",
+          "actualPrice": 281400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 128523,
+          "bhk": "4 BHK",
+          "carpetArea": 3124,
+          "carpetAreaDisplay": "3124 sq.ft",
+          "builtUpArea": null,
+          "price": "34.37 Cr",
+          "actualPrice": 343700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "6 BHK",
+      "variants": [
+        {
+          "id": 131904,
+          "bhk": "6 BHK",
+          "carpetArea": 7250,
+          "carpetAreaDisplay": "7250 sq.ft",
+          "builtUpArea": null,
+          "price": "79.75 Cr",
+          "actualPrice": 797500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 131905,
+          "bhk": "6 BHK",
+          "carpetArea": 7359,
+          "carpetAreaDisplay": "7359 sq.ft",
+          "builtUpArea": null,
+          "price": "80.95 Cr",
+          "actualPrice": 809500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,464 - 1,721 sq.ft",
+      "price": "16.11 Cr - 18.93 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,558 - 3,124 sq.ft",
+      "price": "28.14 Cr - 34.37 Cr"
+    },
+    {
+      "flat_type_name": "6 BHK",
+      "carpet_area": "7,250 - 7,359 sq.ft",
+      "price": "79.75 Cr - 80.95 Cr"
+    }
+  ]
+}

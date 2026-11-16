@@ -1,0 +1,78 @@
+{
+  "projectId": 12779,
+  "slug": "divine-garden-lohegaon-pid-12779",
+  "name": "Divine Garden ",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/divine-garden-lohegaon-pid-12779",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/12779/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/12779/original/mp_%281%29.jpg?1687589107"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 129747,
+          "bhk": "1 BHK",
+          "carpetArea": 560,
+          "carpetAreaDisplay": "560 sq.ft",
+          "builtUpArea": null,
+          "price": "48.89 Lacs",
+          "actualPrice": 4888800,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 134322,
+          "bhk": "3 BHK",
+          "carpetArea": 1005,
+          "carpetAreaDisplay": "1005 sq.ft",
+          "builtUpArea": null,
+          "price": "87.74 Lacs",
+          "actualPrice": 8773650,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "560 sq.ft",
+      "price": "48.89 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,005 sq.ft",
+      "price": "87.74 Lacs"
+    }
+  ]
+}

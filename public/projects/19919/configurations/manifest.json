@@ -1,0 +1,84 @@
+{
+  "projectId": 19919,
+  "slug": "sahyadri-plumeria-moshi-pid-19919",
+  "name": "Sahyadri Plumeria",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sahyadri-plumeria-moshi-pid-19919",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19919/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8260/original/floor1.PNG?1748509983"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19919/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8261/original/floor2.PNG?1748509983"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 114734,
+          "bhk": "2 BHK",
+          "carpetArea": 779,
+          "carpetAreaDisplay": "779 sq.ft",
+          "builtUpArea": null,
+          "price": "59.0 Lacs",
+          "actualPrice": 5900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19919/configurations/unit-plans/2-bhk/779-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/114734/original/2bhk_3d.PNG?1748509978",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 114735,
+          "bhk": "3 BHK",
+          "carpetArea": 993,
+          "carpetAreaDisplay": "993 sq.ft",
+          "builtUpArea": null,
+          "price": "75.19 Lacs",
+          "actualPrice": 7519000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19919/configurations/unit-plans/3-bhk/993-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/114735/original/3bhk_3d.PNG?1748509978",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "779 sq.ft",
+      "price": "59.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "993 sq.ft",
+      "price": "75.19 Lacs"
+    }
+  ]
+}

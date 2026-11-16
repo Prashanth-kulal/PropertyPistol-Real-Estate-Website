@@ -1,0 +1,134 @@
+{
+  "projectId": 9875,
+  "slug": "legacy-woods-kiwale-pid-9875",
+  "name": "Legacy Woods",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/legacy-woods-kiwale-pid-9875",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/9875/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/9875/original/mp.png?1671532186"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/9875/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3311/original/fp.png?1671532186"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 91325,
+          "bhk": "2 BHK",
+          "carpetArea": 662,
+          "carpetAreaDisplay": "662 sq.ft",
+          "builtUpArea": null,
+          "price": "54.53 Lacs",
+          "actualPrice": 5453000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 138319,
+          "bhk": "3 BHK",
+          "carpetArea": 743,
+          "carpetAreaDisplay": "743 sq.ft",
+          "builtUpArea": null,
+          "price": "61.2 Lacs",
+          "actualPrice": 6120000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 138320,
+          "bhk": "3 BHK",
+          "carpetArea": 808,
+          "carpetAreaDisplay": "808 sq.ft",
+          "builtUpArea": null,
+          "price": "66.55 Lacs",
+          "actualPrice": 6655000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 138321,
+          "bhk": "3 BHK",
+          "carpetArea": 852,
+          "carpetAreaDisplay": "852 sq.ft",
+          "builtUpArea": null,
+          "price": "70.19 Lacs",
+          "actualPrice": 7019000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 138322,
+          "bhk": "3 BHK",
+          "carpetArea": 924,
+          "carpetAreaDisplay": "924 sq.ft",
+          "builtUpArea": null,
+          "price": "76.1 Lacs",
+          "actualPrice": 7610000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "662 sq.ft",
+      "price": "54.53 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "743 - 924 sq.ft",
+      "price": "61.2 Lacs - 76.1 Lacs"
+    }
+  ]
+}

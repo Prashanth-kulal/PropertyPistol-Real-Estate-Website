@@ -1,0 +1,87 @@
+{
+  "projectId": 16396,
+  "slug": "ruparel-stardom-malad-west-pid-16396",
+  "name": "Ruparel Stardom",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ruparel-stardom-malad-west-pid-16396",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16396/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16396/original/mp.PNG?1715593156",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16396/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6215/original/fp.PNG?1715593157",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 122266,
+          "bhk": "2 BHK",
+          "carpetArea": 683,
+          "carpetAreaDisplay": "683 sq.ft",
+          "builtUpArea": null,
+          "price": "2.59 Cr",
+          "actualPrice": 25900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 122267,
+          "bhk": "3 BHK",
+          "carpetArea": 1011,
+          "carpetAreaDisplay": "1011 sq.ft",
+          "builtUpArea": null,
+          "price": "4.14 Cr",
+          "actualPrice": 41400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "683 sq.ft",
+      "price": "2.59 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,011 sq.ft",
+      "price": "4.14 Cr"
+    }
+  ]
+}

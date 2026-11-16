@@ -1,0 +1,109 @@
+{
+  "projectId": 3753,
+  "slug": "mali-pinnacle-kalyan-east-pid-3753",
+  "name": "Mali Pinnacle",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/mali-pinnacle-kalyan-east-pid-3753",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/3753/original/mp-mali.png?1747809424",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3207/original/fp.jpg?1671010957",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 8717,
+          "bhk": "1 BHK",
+          "carpetArea": 389,
+          "carpetAreaDisplay": "389 sq.ft",
+          "builtUpArea": null,
+          "price": "28.25 Lacs",
+          "actualPrice": 2825000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 28273,
+          "bhk": "1 BHK",
+          "carpetArea": 403,
+          "carpetAreaDisplay": "403 sq.ft",
+          "builtUpArea": null,
+          "price": "29.25 Lacs",
+          "actualPrice": 2925000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 105714,
+          "bhk": "1 BHK",
+          "carpetArea": 405,
+          "carpetAreaDisplay": "405 sq.ft",
+          "builtUpArea": null,
+          "price": "29.5 Lacs",
+          "actualPrice": 2950000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 93596,
+          "bhk": "1 BHK",
+          "carpetArea": 423,
+          "carpetAreaDisplay": "423 sq.ft",
+          "builtUpArea": null,
+          "price": "30.75 Lacs",
+          "actualPrice": 3075000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "389 - 423 sq.ft",
+      "price": "28.25 Lacs - 30.75 Lacs"
+    }
+  ]
+}

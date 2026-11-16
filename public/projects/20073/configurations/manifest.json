@@ -1,0 +1,70 @@
+{
+  "projectId": 20073,
+  "slug": "nvt-oikos-white-field-pid-20073",
+  "name": "NVT Oikos",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/nvt-oikos-white-field-pid-20073",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20073/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8422/original/floor1.PNG?1751540915"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/20073/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8423/original/floor2.PNG?1751540915"
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/20073/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8424/original/floor3.PNG?1751540915"
+    },
+    {
+      "id": 4,
+      "title": "Layout / Site Plan 4",
+      "path": "/projects/20073/configurations/site-plans/site-plan-04.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8425/original/floor4.PNG?1751540915"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 117782,
+          "bhk": "3 BHK",
+          "carpetArea": 2844,
+          "carpetAreaDisplay": "2844 sq.ft",
+          "builtUpArea": 4064,
+          "price": "6.8 Cr",
+          "actualPrice": 68000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "2,844 sq.ft",
+      "price": "6.8 Cr"
+    }
+  ]
+}

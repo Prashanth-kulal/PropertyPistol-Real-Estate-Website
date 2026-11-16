@@ -1,0 +1,152 @@
+{
+  "projectId": 2155,
+  "slug": "shreepati-jewels",
+  "name": "Shreepati Jewels",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shreepati-jewels-charni-road-east-pid-2155",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/2155/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/1092/original/floor_plan-min.jpg?1565177370",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 123175,
+          "bhk": "2 BHK",
+          "carpetArea": 882,
+          "carpetAreaDisplay": "882 sq.ft",
+          "builtUpArea": null,
+          "price": "3.09 Cr",
+          "actualPrice": 30900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 123181,
+          "bhk": "3 BHK",
+          "carpetArea": 1339,
+          "carpetAreaDisplay": "1339 sq.ft",
+          "builtUpArea": null,
+          "price": "4.69 Cr",
+          "actualPrice": 46900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 123183,
+          "bhk": "3 BHK",
+          "carpetArea": 1355,
+          "carpetAreaDisplay": "1355 sq.ft",
+          "builtUpArea": null,
+          "price": "4.74 Cr",
+          "actualPrice": 47400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 123184,
+          "bhk": "3 BHK",
+          "carpetArea": 1467,
+          "carpetAreaDisplay": "1467 sq.ft",
+          "builtUpArea": null,
+          "price": "5.13 Cr",
+          "actualPrice": 51300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 123186,
+          "bhk": "4 BHK",
+          "carpetArea": 1682,
+          "carpetAreaDisplay": "1682 sq.ft",
+          "builtUpArea": null,
+          "price": "5.89 Cr",
+          "actualPrice": 58900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 123185,
+          "bhk": "4 BHK",
+          "carpetArea": 1723,
+          "carpetAreaDisplay": "1723 sq.ft",
+          "builtUpArea": null,
+          "price": "6.03 Cr",
+          "actualPrice": 60300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "882 sq.ft",
+      "price": "3.09 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,339 - 1,467 sq.ft",
+      "price": "4.69 Cr - 5.13 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,682 - 1,723 sq.ft",
+      "price": "5.89 Cr - 6.03 Cr"
+    }
+  ]
+}

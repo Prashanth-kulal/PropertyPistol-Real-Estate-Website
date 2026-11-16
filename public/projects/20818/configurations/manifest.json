@@ -1,0 +1,78 @@
+{
+  "projectId": 20818,
+  "slug": "ddsr-heritage-panvel-pid-20818",
+  "name": "DDSR Heritage",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ddsr-heritage-panvel-pid-20818",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/20818/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/20818/original/fp.PNG?1767335095",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 126947,
+          "bhk": "1 BHK",
+          "carpetArea": 462,
+          "carpetAreaDisplay": "462 sq.ft",
+          "builtUpArea": null,
+          "price": "62.46 Lacs",
+          "actualPrice": 6246240,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 126948,
+          "bhk": "2 BHK",
+          "carpetArea": 696,
+          "carpetAreaDisplay": "696 sq.ft",
+          "builtUpArea": null,
+          "price": "94.1 Lacs",
+          "actualPrice": 9409920,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "462 sq.ft",
+      "price": "62.46 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "696 sq.ft",
+      "price": "94.1 Lacs"
+    }
+  ]
+}

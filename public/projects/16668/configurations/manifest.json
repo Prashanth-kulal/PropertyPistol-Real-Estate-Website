@@ -1,0 +1,87 @@
+{
+  "projectId": 16668,
+  "slug": "future-crystal-corner-kharghar-pid-16668",
+  "name": "Future Crystal Corner",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/future-crystal-corner-kharghar-pid-16668",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16668/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16668/original/mp.png?1752650643",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16668/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8507/original/fp.png?1752650644",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 96229,
+          "bhk": "2 BHK",
+          "carpetArea": 786,
+          "carpetAreaDisplay": "786 sq.ft",
+          "builtUpArea": null,
+          "price": "1.8 Cr",
+          "actualPrice": 17999400,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/16668/configurations/unit-plans/2-bhk/786-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/96229/original/2.png?1752650643",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 133546,
+          "bhk": "3 BHK",
+          "carpetArea": 1143,
+          "carpetAreaDisplay": "1143 sq.ft",
+          "builtUpArea": null,
+          "price": "2.62 Cr",
+          "actualPrice": 26174700,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "786 sq.ft",
+      "price": "1.8 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,143 sq.ft",
+      "price": "2.62 Cr"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "projectId": 2687,
+  "slug": "vijay-abode",
+  "name": "Vijay Abode",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/vijay-abode-panvel-pid-2687",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/2687/original/LAYOUT-PLAN.jpg?1571742343",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2272/original/building-1-first-floor-plan.jpg?1625221775",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 95622,
+          "bhk": "1 BHK",
+          "carpetArea": 305,
+          "carpetAreaDisplay": "305 sq.ft",
+          "builtUpArea": null,
+          "price": "45.0 Lacs",
+          "actualPrice": 4500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 24550,
+          "bhk": "2 BHK",
+          "carpetArea": 570,
+          "carpetAreaDisplay": "570 sq.ft",
+          "builtUpArea": null,
+          "price": "65.0 Lacs",
+          "actualPrice": 6500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/24550/original/2bhk-min.png?1733463575",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "305 sq.ft",
+      "price": "45.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "570 sq.ft",
+      "price": "65.0 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "projectId": 19774,
+  "slug": "vrindavan-estate-besa-pid-19774",
+  "name": "Vrindavan Estate",
+  "city": "nagpur",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/vrindavan-estate-besa-pid-19774",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19774/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7816/original/floor1.PNG?1745921484"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 131118,
+          "bhk": "2 BHK",
+          "carpetArea": 1164,
+          "carpetAreaDisplay": "1164 sq.ft",
+          "builtUpArea": null,
+          "price": "54.71 Lacs",
+          "actualPrice": 5471000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 131119,
+          "bhk": "2 BHK",
+          "carpetArea": 1400,
+          "carpetAreaDisplay": "1400 sq.ft",
+          "builtUpArea": null,
+          "price": "65.8 Lacs",
+          "actualPrice": 6580000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 131120,
+          "bhk": "3 BHK",
+          "carpetArea": 1622,
+          "carpetAreaDisplay": "1622 sq.ft",
+          "builtUpArea": null,
+          "price": "76.23 Lacs",
+          "actualPrice": 7623000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "1,164 - 1,400 sq.ft",
+      "price": "54.71 Lacs - 65.8 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,622 sq.ft",
+      "price": "76.23 Lacs"
+    }
+  ]
+}

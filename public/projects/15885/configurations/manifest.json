@@ -1,0 +1,85 @@
+{
+  "projectId": 15885,
+  "slug": "pushpak-palladium-kharghar-pid-15885",
+  "name": "Pushpak Palladium",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/pushpak-palladium-kharghar-pid-15885",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit"
+  ],
+  "masterPlans": [],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 59091,
+          "bhk": "1 BHK",
+          "carpetArea": 353,
+          "carpetAreaDisplay": "353 sq.ft",
+          "builtUpArea": null,
+          "price": "82.24 Lacs",
+          "actualPrice": 8224000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 53300,
+          "bhk": "1 BHK",
+          "carpetArea": 392,
+          "carpetAreaDisplay": "392 sq.ft",
+          "builtUpArea": null,
+          "price": "85.11 Lacs",
+          "actualPrice": 8511000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": "/projects/15885/configurations/unit-plans/1-bhk/392-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/53300/original/1bhk_3d.JPG?1709362715",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 53301,
+          "bhk": "2 BHK",
+          "carpetArea": 552,
+          "carpetAreaDisplay": "552 sq.ft",
+          "builtUpArea": null,
+          "price": "1.27 Cr",
+          "actualPrice": 12700000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": "/projects/15885/configurations/unit-plans/2-bhk/552-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/53301/original/2bhk_3d.JPG?1709362716",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "353 - 392 sq.ft",
+      "price": "82.24 Lacs - 85.11 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "552 sq.ft",
+      "price": "1.27 Cr"
+    }
+  ]
+}

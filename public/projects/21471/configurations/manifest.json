@@ -1,0 +1,94 @@
+{
+  "projectId": 21471,
+  "slug": "palace-powai",
+  "name": "Palace Powai",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/palace-powai-vikhroli-west-pid-21471",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21471/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9247/original/fp.JPG?1776414171",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 133078,
+          "bhk": "2 BHK",
+          "carpetArea": 687,
+          "carpetAreaDisplay": "687 sq.ft",
+          "builtUpArea": null,
+          "price": "2.13 Cr",
+          "actualPrice": 21300000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/21471/configurations/unit-plans/2-bhk/687-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/133078/original/2b.JPG?1776414170",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 133079,
+          "bhk": "3 BHK",
+          "carpetArea": 823,
+          "carpetAreaDisplay": "823 sq.ft",
+          "builtUpArea": null,
+          "price": "2.55 Cr",
+          "actualPrice": 25500000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/21471/configurations/unit-plans/3-bhk/823-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/133079/original/3b.JPG?1776414170",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 140035,
+          "bhk": "3 BHK",
+          "carpetArea": 918,
+          "carpetAreaDisplay": "918 sq.ft",
+          "builtUpArea": null,
+          "price": "2.85 Cr",
+          "actualPrice": 28500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "687 sq.ft",
+      "price": "2.13 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "823 - 918 sq.ft",
+      "price": "2.55 Cr - 2.85 Cr"
+    }
+  ]
+}

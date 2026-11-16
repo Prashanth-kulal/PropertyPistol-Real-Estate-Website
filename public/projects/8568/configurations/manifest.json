@@ -1,0 +1,120 @@
+{
+  "projectId": 8568,
+  "slug": "sanghvi-infenia",
+  "name": "Sanghvi Infenia",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sanghvi-infenia-santacruz-east-pid-8568",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4475/original/typical-floor-plan.jpg?1695895412",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 116679,
+          "bhk": "1 BHK",
+          "carpetArea": 487,
+          "carpetAreaDisplay": "487 sq.ft",
+          "builtUpArea": null,
+          "price": "1.92 Cr",
+          "actualPrice": 19200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 30358,
+          "bhk": "2 BHK",
+          "carpetArea": 578,
+          "carpetAreaDisplay": "578 sq.ft",
+          "builtUpArea": null,
+          "price": "2.28 Cr",
+          "actualPrice": 22800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/30358/original/3.PNG?1695895411",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 30357,
+          "bhk": "2 BHK",
+          "carpetArea": 602,
+          "carpetAreaDisplay": "602 sq.ft",
+          "builtUpArea": null,
+          "price": "2.37 Cr",
+          "actualPrice": 23700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/30357/original/2.PNG?1695895411",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 60381,
+          "bhk": "3 BHK",
+          "carpetArea": 778,
+          "carpetAreaDisplay": "778 sq.ft",
+          "builtUpArea": null,
+          "price": "3.07 Cr",
+          "actualPrice": 30700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "487 sq.ft",
+      "price": "1.92 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "578 - 602 sq.ft",
+      "price": "2.28 Cr - 2.37 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "778 sq.ft",
+      "price": "3.07 Cr"
+    }
+  ]
+}

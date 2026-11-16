@@ -1,0 +1,78 @@
+{
+  "projectId": 19958,
+  "slug": "sejal-city-goregaon-east-pid-19958",
+  "name": "Sejal City",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sejal-city-goregaon-east-pid-19958",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19958/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19958/original/floorplan-min-1.jpg?1750920618",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 115596,
+          "bhk": "3 BHK",
+          "carpetArea": 1450,
+          "carpetAreaDisplay": "1450 sq.ft",
+          "builtUpArea": null,
+          "price": "5.5 Cr",
+          "actualPrice": 55000000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19958/configurations/unit-plans/3-bhk/1450-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/115596/original/3bhk-sej.png?1750920618",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 115597,
+          "bhk": "4 BHK",
+          "carpetArea": 1923,
+          "carpetAreaDisplay": "1923 sq.ft",
+          "builtUpArea": null,
+          "price": "7.2 Cr",
+          "actualPrice": 72000000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19958/configurations/unit-plans/4-bhk/1923-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/115597/original/4bhk-sej.png?1750920618",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,450 sq.ft",
+      "price": "5.5 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,923 sq.ft",
+      "price": "7.2 Cr"
+    }
+  ]
+}

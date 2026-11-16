@@ -1,36 +1,22 @@
 /**
  * Smart Property Search & Autocomplete Engine
- * Builds a fast, normalized, in-memory index from verified repository project,
- * locality, developer, city, and BHK configuration records.
+ * Ultra-fast, lightweight in-memory search across verified projects, localities, developers, and BHK configurations.
+ * Decoupled from monolithic 34+ MB registry files via compact static JSON index hydration.
  */
 
-import { PROJECTS, CITIES } from "./index.js";
-import { DEVELOPERS_DATA } from "./developersData.js";
+import { CITIES } from "./cities.js";
 
 let cachedIndex = null;
-
-/**
- * Extracts distinct numeric BHK configurations from flatTypes string
- * e.g., "1 BHK, 2 BHK, 2.5 BHK" -> ["1", "2", "2.5"]
- */
-function parseBhks(flatTypes) {
-  if (!flatTypes) return [];
-  const matches = [...String(flatTypes).matchAll(/(\d+(?:\.5)?)\s*[-]?\s*bhk/gi)].map((m) => m[1]);
-  return [...new Set(matches)];
-}
+let loadPromise = null;
 
 function toCompact(str) {
   return (str || "").toLowerCase().replace(/[^a-z0-9]/g, "");
 }
 
 /**
- * Builds and memoizes the searchable index once per runtime.
- * Executes in ~50ms across 5,700+ project records.
+ * Basic static index with CITIES for immediate synchronous availability
  */
-export function getSearchIndex() {
-  if (cachedIndex) return cachedIndex;
-
-  // 1. Cities Index
+function getFallbackIndex() {
   const cities = CITIES.map((c) => ({
     type: "city",
     id: c.id.toLowerCase().trim(),
@@ -42,116 +28,95 @@ export function getSearchIndex() {
     destination: `/${c.id.toLowerCase().trim()}`,
   }));
 
-  // 2. Localities Index
-  const localityMap = new Map();
-  for (const p of PROJECTS) {
-    if (!p.locality || p.locality.trim() === "" || p.locality === "Unknown") continue;
-    const cityKey = (p.city || "mumbai").toLowerCase().trim();
-    const locName = p.locality.trim();
-    const key = `${cityKey}::${locName.toLowerCase()}`;
-    if (!localityMap.has(key)) {
-      localityMap.set(key, {
-        type: "locality",
-        name: locName,
-        city: cityKey,
-        cityName: p.cityName || cityKey.charAt(0).toUpperCase() + cityKey.slice(1),
-        count: 0,
-        normName: locName.toLowerCase(),
-        compactName: toCompact(locName),
-        destination: `/${cityKey}?locality=${encodeURIComponent(locName)}`,
+  return {
+    cities,
+    localities: [],
+    developers: [],
+    projects: [],
+  };
+}
+
+/**
+ * Pre-warms the compact search index in the background
+ */
+export function warmUpSearchIndex() {
+  if (cachedIndex) return Promise.resolve(cachedIndex);
+  if (loadPromise) return loadPromise;
+
+  if (typeof window !== "undefined") {
+    loadPromise = fetch("/data/search-index.json")
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        if (data && data.projects) {
+          // Pre-populate compact and normalized strings for instant query matching
+          const cities = (data.cities || []).map((c) => ({
+            ...c,
+            normName: (c.name || "").toLowerCase().trim(),
+            compactName: toCompact(c.name),
+          }));
+
+          const localities = (data.localities || []).map((loc) => ({
+            ...loc,
+            normName: (loc.name || "").toLowerCase().trim(),
+            compactName: toCompact(loc.name),
+          }));
+
+          const developers = (data.developers || []).map((d) => ({
+            ...d,
+            normName: (d.name || "").toLowerCase().trim(),
+            compactName: toCompact(d.name),
+          }));
+
+          const projects = (data.projects || []).map((p) => ({
+            ...p,
+            normName: (p.name || "").toLowerCase().trim(),
+            compactName: toCompact(p.name),
+            normBuilder: (p.builder || "").toLowerCase().trim(),
+            compactBuilder: toCompact(p.builder),
+            normLocality: (p.locality || "").toLowerCase().trim(),
+            compactLocality: toCompact(p.locality),
+            destination: p.destination || `/projects/${p.slug || p.id}`,
+          }));
+
+          cachedIndex = { cities, localities, developers, projects };
+        } else {
+          cachedIndex = getFallbackIndex();
+        }
+        return cachedIndex;
+      })
+      .catch(() => {
+        cachedIndex = getFallbackIndex();
+        return cachedIndex;
       });
-    }
-    localityMap.get(key).count++;
-  }
-  const localities = Array.from(localityMap.values());
 
-  // 3. Developers Index
-  const developerMap = new Map();
-  for (const d of DEVELOPERS_DATA) {
-    const norm = d.name.toLowerCase().trim();
-    developerMap.set(norm, {
-      type: "developer",
-      name: d.name,
-      slug: d.slug,
-      projectCount: parseInt(d.projectCount, 10) || 0,
-      cities: new Set(),
-      normName: norm,
-      compactName: toCompact(d.name),
-      destination: `/developers/${d.slug}`,
-    });
+    return loadPromise;
   }
-  for (const p of PROJECTS) {
-    if (!p.builder || p.builder.trim() === "") continue;
-    const norm = p.builder.trim().toLowerCase();
-    if (!developerMap.has(norm)) {
-      const cityKey = (p.city || "mumbai").toLowerCase().trim();
-      developerMap.set(norm, {
-        type: "developer",
-        name: p.builder.trim(),
-        slug: null,
-        projectCount: 0,
-        cities: new Set(),
-        normName: norm,
-        compactName: toCompact(p.builder),
-        destination: `/${cityKey}?developer=${encodeURIComponent(p.builder.trim())}`,
-      });
-    }
-    const entry = developerMap.get(norm);
-    entry.projectCount++;
-    if (p.city) entry.cities.add(p.city.toLowerCase().trim());
-  }
-  const developers = Array.from(developerMap.values()).map((d) => ({
-    ...d,
-    cities: Array.from(d.cities),
-  }));
 
-  // 4. Projects Index
-  const projects = PROJECTS.map((p) => ({
-    type: "project",
-    id: p.id,
-    slug: p.slug || p.id,
-    name: p.name,
-    builder: p.builder || "",
-    locality: p.locality || "",
-    location: p.location || "",
-    city: (p.city || "mumbai").toLowerCase().trim(),
-    cityName: p.cityName || (p.city ? p.city.charAt(0).toUpperCase() + p.city.slice(1) : "Mumbai"),
-    flatTypes: p.flatTypes || "",
-    price: p.price || "",
-    bhks: parseBhks(p.flatTypes),
-    normName: (p.name || "").toLowerCase().trim(),
-    compactName: toCompact(p.name),
-    normBuilder: (p.builder || "").toLowerCase().trim(),
-    compactBuilder: toCompact(p.builder),
-    normLocality: (p.locality || "").toLowerCase().trim(),
-    compactLocality: toCompact(p.locality),
-    normLocation: (p.location || "").toLowerCase().trim(),
-    compactLocation: toCompact(p.location),
-    destination: `/projects/${p.slug || p.id}`,
-  }));
+  // Node / Server environment fallback
+  cachedIndex = getFallbackIndex();
+  return Promise.resolve(cachedIndex);
+}
 
-  cachedIndex = { cities, localities, developers, projects };
-  return cachedIndex;
+/**
+ * Returns the search index synchronously, triggering background load if not ready
+ */
+export function getSearchIndex() {
+  if (cachedIndex) return cachedIndex;
+  warmUpSearchIndex();
+  return getFallbackIndex();
 }
 
 /**
  * Searches the index and returns ranked, deduplicated suggestions.
- *
- * @param {string} rawQuery - The user input text.
- * @param {string} selectedCity - Currently selected city (if any).
- * @param {number} limit - Maximum number of suggestions to return (default: 8).
- * @returns {Array<object>} Ranked suggestions list.
  */
 export function getSearchSuggestions(rawQuery, selectedCity = "", limit = 8) {
   if (!rawQuery || !rawQuery.trim()) return [];
 
   const index = getSearchIndex();
   const rawClean = rawQuery.trim().toLowerCase();
-  // Normalize punctuation and extra spaces: "2-BHK" -> "2 bhk", "2bhk" -> "2bhk"
   const q = rawClean.replace(/[-_]+/g, " ").replace(/\s+/g, " ");
   const qCompact = toCompact(rawClean);
 
-  // Normalize city filter
   const cityTrim = (selectedCity || "").toLowerCase().trim();
   const activeCity = cityTrim === "all" || cityTrim === "select city" || !cityTrim ? null : cityTrim;
 
@@ -165,9 +130,9 @@ export function getSearchSuggestions(rawQuery, selectedCity = "", limit = 8) {
   // CASE 1: BHK Configuration Query
   // ==========================================
   if (targetBhk) {
-    const matchingProjects = index.projects.filter((p) => {
+    const matchingProjects = (index.projects || []).filter((p) => {
       if (activeCity && p.city !== activeCity) return false;
-      return p.bhks.includes(targetBhk);
+      return p.bhks && p.bhks.includes(targetBhk);
     });
 
     const cityLabel = activeCity
@@ -192,7 +157,7 @@ export function getSearchSuggestions(rawQuery, selectedCity = "", limit = 8) {
         badge: "PROJECT",
         id: `proj-${p.id}`,
         title: p.name,
-        subtitle: `${p.locality || p.location}${p.cityName ? ", " + p.cityName : ""} • ${p.flatTypes} • ₹${p.price}`,
+        subtitle: `${p.locality || ""}${p.cityName ? ", " + p.cityName : ""} • ${p.flatTypes || ""} • ₹${p.price || ""}`,
         destination: p.destination,
         city: p.city,
         price: p.price,
@@ -208,7 +173,7 @@ export function getSearchSuggestions(rawQuery, selectedCity = "", limit = 8) {
   // ==========================================
 
   // 1. City matches (only when searching cross-city / no city selected)
-  if (!activeCity) {
+  if (!activeCity && index.cities) {
     for (const c of index.cities) {
       if (c.compactName === qCompact || c.normName === q) {
         results.push({
@@ -237,94 +202,97 @@ export function getSearchSuggestions(rawQuery, selectedCity = "", limit = 8) {
   }
 
   // 2. Locality matches
-  for (const loc of index.localities) {
-    if (activeCity && loc.city !== activeCity) continue;
-    let score = 0;
-    if (loc.compactName === qCompact || loc.normName === q) {
-      score = 900;
-    } else if (loc.compactName.startsWith(qCompact) || loc.normName.startsWith(q)) {
-      score = 750;
-    } else if (loc.compactName.includes(qCompact) || loc.normName.includes(q)) {
-      score = 550;
-    }
+  if (index.localities) {
+    for (const loc of index.localities) {
+      if (activeCity && loc.city !== activeCity) continue;
+      let score = 0;
+      if (loc.compactName === qCompact || loc.normName === q) {
+        score = 900;
+      } else if (loc.compactName.startsWith(qCompact) || loc.normName.startsWith(q)) {
+        score = 750;
+      } else if (loc.compactName.includes(qCompact) || loc.normName.includes(q)) {
+        score = 550;
+      }
 
-    if (score > 0) {
-      results.push({
-        type: "locality",
-        badge: "LOCALITY",
-        id: `loc-${loc.city}-${loc.name}`,
-        title: loc.name,
-        subtitle: `Locality in ${loc.cityName} • ${loc.count} Projects`,
-        destination: loc.destination,
-        city: loc.city,
-        score,
-      });
+      if (score > 0) {
+        results.push({
+          type: "locality",
+          badge: "LOCALITY",
+          id: `loc-${loc.city}-${loc.name}`,
+          title: loc.name,
+          subtitle: `Locality in ${loc.cityName || loc.city} • ${loc.count || ""} Projects`,
+          destination: loc.destination,
+          city: loc.city,
+          score,
+        });
+      }
     }
   }
 
   // 3. Developer matches
-  for (const dev of index.developers) {
-    if (activeCity && !dev.cities.includes(activeCity)) continue;
-    const cityLabel = activeCity
-      ? ` in ${activeCity.charAt(0).toUpperCase() + activeCity.slice(1)}`
-      : "";
-    let score = 0;
-    if (dev.compactName === qCompact || dev.normName === q) {
-      score = 880;
-    } else if (dev.compactName.startsWith(qCompact) || dev.normName.startsWith(q)) {
-      score = 720;
-    } else if (dev.compactName.includes(qCompact) || dev.normName.includes(q)) {
-      score = 480;
-    }
+  if (index.developers) {
+    for (const dev of index.developers) {
+      if (activeCity && dev.cities && !dev.cities.includes(activeCity)) continue;
+      const cityLabel = activeCity
+        ? ` in ${activeCity.charAt(0).toUpperCase() + activeCity.slice(1)}`
+        : "";
+      let score = 0;
+      if (dev.compactName === qCompact || dev.normName === q) {
+        score = 880;
+      } else if (dev.compactName.startsWith(qCompact) || dev.normName.startsWith(q)) {
+        score = 720;
+      } else if (dev.compactName.includes(qCompact) || dev.normName.includes(q)) {
+        score = 480;
+      }
 
-    if (score > 0) {
-      results.push({
-        type: "developer",
-        badge: "DEVELOPER",
-        id: `dev-${dev.name}`,
-        title: dev.name,
-        subtitle: `Developer • ${dev.projectCount}+ Projects${cityLabel}`,
-        destination: dev.destination,
-        city: activeCity,
-        score,
-      });
+      if (score > 0) {
+        results.push({
+          type: "developer",
+          badge: "DEVELOPER",
+          id: `dev-${dev.name}`,
+          title: dev.name,
+          subtitle: `Developer • ${dev.count || ""}+ Projects${cityLabel}`,
+          destination: dev.destination,
+          city: activeCity,
+          score,
+        });
+      }
     }
   }
 
   // 4. Project matches
-  for (const p of index.projects) {
-    if (activeCity && p.city !== activeCity) continue;
+  if (index.projects) {
+    for (const p of index.projects) {
+      if (activeCity && p.city !== activeCity) continue;
 
-    let score = 0;
-    if (p.compactName === qCompact || p.normName === q) {
-      score = 920;
-    } else if (p.compactName.startsWith(qCompact) || p.normName.startsWith(q)) {
-      score = 780;
-    } else if (p.compactName.includes(qCompact) || p.normName.includes(q)) {
-      score = 620;
-    } else if (
-      p.compactLocality.includes(qCompact) ||
-      p.normLocality.includes(q) ||
-      p.compactLocation.includes(qCompact) ||
-      p.normLocation.includes(q)
-    ) {
-      score = 420;
-    } else if (p.compactBuilder.includes(qCompact) || p.normBuilder.includes(q)) {
-      score = 360;
-    }
+      let score = 0;
+      if (p.compactName === qCompact || p.normName === q) {
+        score = 920;
+      } else if (p.compactName.startsWith(qCompact) || p.normName.startsWith(q)) {
+        score = 780;
+      } else if (p.compactName.includes(qCompact) || p.normName.includes(q)) {
+        score = 620;
+      } else if (
+        p.compactLocality && (p.compactLocality.includes(qCompact) || p.normLocality.includes(q))
+      ) {
+        score = 420;
+      } else if (p.compactBuilder && (p.compactBuilder.includes(qCompact) || p.normBuilder.includes(q))) {
+        score = 360;
+      }
 
-    if (score > 0) {
-      results.push({
-        type: "project",
-        badge: "PROJECT",
-        id: `proj-${p.id}`,
-        title: p.name,
-        subtitle: `${p.locality || p.location}${p.cityName ? ", " + p.cityName : ""} • by ${p.builder} • ₹${p.price}`,
-        destination: p.destination,
-        city: p.city,
-        price: p.price,
-        score,
-      });
+      if (score > 0) {
+        results.push({
+          type: "project",
+          badge: "PROJECT",
+          id: `proj-${p.id}`,
+          title: p.name,
+          subtitle: `${p.locality || ""}${p.cityName ? ", " + p.cityName : ""} • by ${p.builder} • ₹${p.price}`,
+          destination: p.destination,
+          city: p.city,
+          price: p.price,
+          score,
+        });
+      }
     }
   }
 
@@ -352,10 +320,6 @@ export function getSearchSuggestions(rawQuery, selectedCity = "", limit = 8) {
 /**
  * Interprets a freeform search query string to resolve intent, destination URL,
  * and filter criteria for form submissions.
- *
- * @param {string} rawQuery - The user input text.
- * @param {string} selectedCity - Currently selected city (if any).
- * @returns {object} Interpreted result with type, filter parameters, and destination URL.
  */
 export function interpretSearchQuery(rawQuery, selectedCity = "") {
   if (!rawQuery || !rawQuery.trim()) {
@@ -389,7 +353,7 @@ export function interpretSearchQuery(rawQuery, selectedCity = "") {
   const index = getSearchIndex();
 
   // 2. Check exact or high-confidence Project match
-  const matchedProject = index.projects.find((p) => {
+  const matchedProject = (index.projects || []).find((p) => {
     if (activeCity && p.city !== activeCity) return false;
     return p.compactName === qCompact || p.normName === q;
   });
@@ -402,7 +366,7 @@ export function interpretSearchQuery(rawQuery, selectedCity = "") {
   }
 
   // 3. Check exact Locality match
-  const matchedLocality = index.localities.find((loc) => {
+  const matchedLocality = (index.localities || []).find((loc) => {
     if (activeCity && loc.city !== activeCity) return false;
     return loc.compactName === qCompact || loc.normName === q;
   });
@@ -417,8 +381,8 @@ export function interpretSearchQuery(rawQuery, selectedCity = "") {
   }
 
   // 4. Check Developer match
-  const matchedDev = index.developers.find((d) => {
-    if (activeCity && !d.cities.includes(activeCity)) return false;
+  const matchedDev = (index.developers || []).find((d) => {
+    if (activeCity && d.cities && !d.cities.includes(activeCity)) return false;
     return d.compactName === qCompact || d.normName === q;
   });
   if (matchedDev) {
@@ -436,7 +400,7 @@ export function interpretSearchQuery(rawQuery, selectedCity = "") {
   }
 
   // 5. Check City match (if searching cross-city)
-  if (!activeCity) {
+  if (!activeCity && index.cities) {
     const matchedCity = index.cities.find(
       (c) => c.compactName === qCompact || c.normName === q
     );
@@ -450,7 +414,7 @@ export function interpretSearchQuery(rawQuery, selectedCity = "") {
   }
 
   // 6. Check partial project match
-  const partialProject = index.projects.find((p) => {
+  const partialProject = (index.projects || []).find((p) => {
     if (activeCity && p.city !== activeCity) return false;
     return p.compactName.startsWith(qCompact) || p.normName.startsWith(q);
   });

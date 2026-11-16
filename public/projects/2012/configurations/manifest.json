@@ -1,0 +1,52 @@
+{
+  "projectId": 2012,
+  "slug": "irasa-greens-vasind-pid-2012",
+  "name": "Irasa Greens",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/irasa-greens-vasind-pid-2012",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/2012/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3055/original/fp.JPG?1669873360",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 3472,
+          "bhk": "1 BHK",
+          "carpetArea": 340,
+          "carpetAreaDisplay": "340 sq.ft",
+          "builtUpArea": null,
+          "price": "19.27 Lacs",
+          "actualPrice": 1927000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/2012/configurations/unit-plans/1-bhk/340-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/3472/original/1b.JPG?1669873360",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "340 sq.ft",
+      "price": "19.27 Lacs"
+    }
+  ]
+}

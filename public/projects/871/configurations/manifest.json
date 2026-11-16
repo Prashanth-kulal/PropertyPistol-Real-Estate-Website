@@ -1,0 +1,129 @@
+{
+  "projectId": 871,
+  "slug": "arihant-aspire-palaspa-pid-871",
+  "name": "Arihant Aspire",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/arihant-aspire-palaspa-pid-871",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/871/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/871/original/master_plan.jpeg?1550837800",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/871/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/463/original/floor_plan.jpeg?1550837803",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 137290,
+          "bhk": "1 BHK",
+          "carpetArea": 400,
+          "carpetAreaDisplay": "400 sq.ft",
+          "builtUpArea": null,
+          "price": "50.0 Lacs",
+          "actualPrice": 5000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 124354,
+          "bhk": "1 BHK",
+          "carpetArea": 403,
+          "carpetAreaDisplay": "403 sq.ft",
+          "builtUpArea": null,
+          "price": "50.38 Lacs",
+          "actualPrice": 5037500,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 124355,
+          "bhk": "2 BHK",
+          "carpetArea": 583,
+          "carpetAreaDisplay": "583 sq.ft",
+          "builtUpArea": null,
+          "price": "72.88 Lacs",
+          "actualPrice": 7287500,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 137291,
+          "bhk": "3 BHK",
+          "carpetArea": 900,
+          "carpetAreaDisplay": "900 sq.ft",
+          "builtUpArea": null,
+          "price": "1.13 Cr",
+          "actualPrice": 11250000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "400 - 403 sq.ft",
+      "price": "50.0 Lacs - 50.38 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "583 sq.ft",
+      "price": "72.88 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "900 sq.ft",
+      "price": "1.13 Cr"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "projectId": 3374,
+  "slug": "landmark-heritage",
+  "name": "Landmark Heritage",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/landmark-heritage-panvel-pid-3374",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/3374/original/3D_Site-Layout.jpg?1582799919",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/1911/original/fp.jpg?1597318469",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 14895,
+          "bhk": "1 BHK",
+          "carpetArea": 345,
+          "carpetAreaDisplay": "345 sq.ft",
+          "builtUpArea": null,
+          "price": "20.26 Lacs",
+          "actualPrice": 2026000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/14895/original/1b.PNG?1747642677",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 113381,
+          "bhk": "1 BHK",
+          "carpetArea": 383,
+          "carpetAreaDisplay": "383 sq.ft",
+          "builtUpArea": null,
+          "price": "22.49 Lacs",
+          "actualPrice": 2249000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 124479,
+          "bhk": "2 BHK",
+          "carpetArea": 681,
+          "carpetAreaDisplay": "681 sq.ft",
+          "builtUpArea": null,
+          "price": "40.0 Lacs",
+          "actualPrice": 4000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "345 - 383 sq.ft",
+      "price": "20.26 Lacs - 22.49 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "681 sq.ft",
+      "price": "40.0 Lacs"
+    }
+  ]
+}

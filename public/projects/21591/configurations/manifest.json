@@ -1,0 +1,110 @@
+{
+  "projectId": 21591,
+  "slug": "precious-infinity",
+  "name": "Precious Infinity",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/precious-infinity-ambernath-east-pid-21591",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21591/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9237/original/download_%2810%29.png?1772102415",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 133317,
+          "bhk": "1 BHK",
+          "carpetArea": 407,
+          "carpetAreaDisplay": "407 sq.ft",
+          "builtUpArea": null,
+          "price": "28.64 Lacs",
+          "actualPrice": 2864000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 133318,
+          "bhk": "1 BHK",
+          "carpetArea": 417,
+          "carpetAreaDisplay": "417 sq.ft",
+          "builtUpArea": null,
+          "price": "29.36 Lacs",
+          "actualPrice": 2936000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 140082,
+          "bhk": "2 BHK",
+          "carpetArea": 602,
+          "carpetAreaDisplay": "602 sq.ft",
+          "builtUpArea": null,
+          "price": "38.64 Lacs",
+          "actualPrice": 3864000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140083,
+          "bhk": "2 BHK",
+          "carpetArea": 634,
+          "carpetAreaDisplay": "634 sq.ft",
+          "builtUpArea": null,
+          "price": "48.0 Lacs",
+          "actualPrice": 4800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "407 - 417 sq.ft",
+      "price": "28.64 Lacs - 29.36 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "602 - 634 sq.ft",
+      "price": "38.64 Lacs - 48.0 Lacs"
+    }
+  ]
+}

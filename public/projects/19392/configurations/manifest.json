@@ -1,0 +1,138 @@
+{
+  "projectId": 19392,
+  "slug": "the-ridges-41-hinjawadi-pid-19392",
+  "name": "The Ridges 41",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/the-ridges-41-hinjawadi-pid-19392",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19392/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19392/original/masterplan.PNG?1742029609"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19392/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7538/original/floor1.PNG?1742029611"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 102739,
+          "bhk": "2 BHK",
+          "carpetArea": 792,
+          "carpetAreaDisplay": "792 sq.ft",
+          "builtUpArea": null,
+          "price": "99.6 Lacs",
+          "actualPrice": 9960000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19392/configurations/unit-plans/2-bhk/792-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/102739/original/2bhk_2d2.PNG?1742029609",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 102740,
+          "bhk": "3 BHK",
+          "carpetArea": 1270,
+          "carpetAreaDisplay": "1270 sq.ft",
+          "builtUpArea": null,
+          "price": "1.62 Cr",
+          "actualPrice": 16200000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19392/configurations/unit-plans/3-bhk/1270-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/102740/original/3bhk_2d.PNG?1742029609",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 102742,
+          "bhk": "4 BHK",
+          "carpetArea": 1650,
+          "carpetAreaDisplay": "1650 sq.ft",
+          "builtUpArea": null,
+          "price": "2.5 Cr",
+          "actualPrice": 25000000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19392/configurations/unit-plans/4-bhk/1650-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/102742/original/4bhk_2d2.PNG?1742029610",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "5 BHK",
+      "variants": [
+        {
+          "id": 139106,
+          "bhk": "5 BHK",
+          "carpetArea": 2776,
+          "carpetAreaDisplay": "2776 sq.ft",
+          "builtUpArea": null,
+          "price": "4.0 Cr",
+          "actualPrice": 40000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "792 sq.ft",
+      "price": "99.6 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,270 sq.ft",
+      "price": "1.62 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,650 sq.ft",
+      "price": "2.5 Cr"
+    },
+    {
+      "flat_type_name": "5 BHK",
+      "carpet_area": "2,776 sq.ft",
+      "price": "4.0 Cr"
+    }
+  ]
+}

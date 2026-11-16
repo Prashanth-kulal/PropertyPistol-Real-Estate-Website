@@ -1,0 +1,94 @@
+{
+  "projectId": 20121,
+  "slug": "18-jewels-erandwane-pid-20121",
+  "name": "18 Jewels ",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/18-jewels-erandwane-pid-20121",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20121/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9026/original/download_%2888%29.png?1764662110"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 118745,
+          "bhk": "2 BHK",
+          "carpetArea": 841,
+          "carpetAreaDisplay": "841 sq.ft",
+          "builtUpArea": null,
+          "price": "1.77 Cr",
+          "actualPrice": 17700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 118742,
+          "bhk": "2 BHK",
+          "carpetArea": 888,
+          "carpetAreaDisplay": "888 sq.ft",
+          "builtUpArea": null,
+          "price": "1.87 Cr",
+          "actualPrice": 18700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 118746,
+          "bhk": "3 BHK",
+          "carpetArea": 1260,
+          "carpetAreaDisplay": "1260 sq.ft",
+          "builtUpArea": null,
+          "price": "2.65 Cr",
+          "actualPrice": 26500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "841 - 888 sq.ft",
+      "price": "1.77 Cr - 1.87 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,260 sq.ft",
+      "price": "2.65 Cr"
+    }
+  ]
+}

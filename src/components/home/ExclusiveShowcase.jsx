@@ -3,7 +3,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { Sparkles, Crown, ArrowRight, ChevronLeft, ChevronRight, MapPin, Building } from "lucide-react";
-import { EXCLUSIVE_PROJECTS, getProjectSlug } from "@/data";
+import { EXCLUSIVE_PROJECTS } from "@/data/exclusiveProjects";
+import { getProjectSlug } from "@/lib/projectUtils";
 import WishlistButton from "@/components/common/WishlistButton";
 
 const AUTO_ROTATE_INTERVAL_MS = 4000;

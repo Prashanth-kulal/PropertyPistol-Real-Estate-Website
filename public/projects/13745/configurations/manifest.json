@@ -1,0 +1,77 @@
+{
+  "projectId": 13745,
+  "slug": "trinity-oasis-naigaon-east-pid-13745",
+  "name": "Trinity Oasis",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/trinity-oasis-naigaon-east-pid-13745",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13745/original/1080x700-new-file-01.jpg?1695191026",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4437/original/1833-x-744-floor-plans-02.jpg?1695280025",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 42502,
+          "bhk": "1 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 266,
+          "price": "32.96 Lacs",
+          "actualPrice": 3296000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/42502/original/1bhk_3d1new.png?1747762425",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 68002,
+          "bhk": "1 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 322,
+          "price": "36.06 Lacs",
+          "actualPrice": 3606000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/68002/original/1bhk_3d2new.png?1747762426",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "On Request",
+      "price": "32.96 Lacs - 36.06 Lacs"
+    }
+  ]
+}

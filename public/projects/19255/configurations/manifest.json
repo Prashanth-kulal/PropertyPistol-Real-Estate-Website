@@ -1,0 +1,74 @@
+{
+  "projectId": 19255,
+  "slug": "pvr-om-residency-somalwada-pid-19255",
+  "name": "PVR Om Residency",
+  "city": "nagpur",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/pvr-om-residency-somalwada-pid-19255",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19255/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7440/original/floor1.PNG?1740487375"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19255/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7441/original/floor2.PNG?1740487375"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 101198,
+          "bhk": "3 BHK",
+          "carpetArea": 1018,
+          "carpetAreaDisplay": "1018 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 124599,
+          "bhk": "3 BHK",
+          "carpetArea": 1038,
+          "carpetAreaDisplay": "1038 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,018 - 1,038 sq.ft",
+      "price": "On Request"
+    }
+  ]
+}

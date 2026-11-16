@@ -1,0 +1,68 @@
+{
+  "projectId": 18381,
+  "slug": "brc-sree-hemadurga-nava-shadnagar-pid-18381",
+  "name": "BRC Sree Hemadurga Nava",
+  "city": "hyderabad",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/brc-sree-hemadurga-nava-shadnagar-pid-18381",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18381/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7036/original/typical-floor-plan.jpg?1730201242"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 90854,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1155,
+          "price": "51.98 Lacs",
+          "actualPrice": 5198000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18381/configurations/unit-plans/2-bhk/variant-90854/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/90854/original/2.PNG?1730201241",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 90855,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1165,
+          "price": "52.42 Lacs",
+          "actualPrice": 5242000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18381/configurations/unit-plans/2-bhk/variant-90855/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/90855/original/2.PNG?1730201241",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "On Request",
+      "price": "51.98 Lacs - 52.42 Lacs"
+    }
+  ]
+}

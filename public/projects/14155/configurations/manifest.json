@@ -1,0 +1,124 @@
+{
+  "projectId": 14155,
+  "slug": "samarth-nagar-wadgaon-sheri-pid-14155",
+  "name": "Samarth Nagar",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/samarth-nagar-wadgaon-sheri-pid-14155",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/14155/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4709/original/floorplan1.JPG?1697553142"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/14155/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4710/original/floorplan2.JPG?1697553142"
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/14155/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4711/original/floorplan3.JPG?1697553142"
+    },
+    {
+      "id": 4,
+      "title": "Layout / Site Plan 4",
+      "path": "/projects/14155/configurations/site-plans/site-plan-04.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4712/original/floorplan4.JPG?1697553142"
+    },
+    {
+      "id": 5,
+      "title": "Layout / Site Plan 5",
+      "path": "/projects/14155/configurations/site-plans/site-plan-05.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4713/original/floorplan5.JPG?1697553142"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 131535,
+          "bhk": "2 BHK",
+          "carpetArea": 622,
+          "carpetAreaDisplay": "622 sq.ft",
+          "builtUpArea": null,
+          "price": "1.19 Cr",
+          "actualPrice": 11900000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 93218,
+          "bhk": "2 BHK",
+          "carpetArea": 725,
+          "carpetAreaDisplay": "725 sq.ft",
+          "builtUpArea": null,
+          "price": "1.38 Cr",
+          "actualPrice": 13800000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": "/projects/14155/configurations/unit-plans/2-bhk/725-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/93218/original/2.PNG?1731931149",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 87604,
+          "bhk": "2 BHK",
+          "carpetArea": 732,
+          "carpetAreaDisplay": "732 sq.ft",
+          "builtUpArea": null,
+          "price": "1.35 Cr",
+          "actualPrice": 13500000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 93220,
+          "bhk": "2 BHK",
+          "carpetArea": 817,
+          "carpetAreaDisplay": "817 sq.ft",
+          "builtUpArea": null,
+          "price": "1.55 Cr",
+          "actualPrice": 15500000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "622 - 817 sq.ft",
+      "price": "1.19 Cr - 1.55 Cr"
+    }
+  ]
+}

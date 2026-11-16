@@ -1,0 +1,78 @@
+{
+  "projectId": 19601,
+  "slug": "purva-panorama-ghodbunder-road-pid-19601",
+  "name": "Purva Panorama",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/purva-panorama-ghodbunder-road-pid-19601",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19601/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19601/original/mp-purva.png?1744369014",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 131817,
+          "bhk": "2 BHK",
+          "carpetArea": 664,
+          "carpetAreaDisplay": "664 sq.ft",
+          "builtUpArea": null,
+          "price": "1.66 Cr",
+          "actualPrice": 16600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 106905,
+          "bhk": "3 BHK",
+          "carpetArea": 1060,
+          "carpetAreaDisplay": "1060 sq.ft",
+          "builtUpArea": null,
+          "price": "2.65 Cr",
+          "actualPrice": 26500000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19601/configurations/unit-plans/3-bhk/1060-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/106905/original/3bhk-pan.PNG?1744801482",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "664 sq.ft",
+      "price": "1.66 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,060 sq.ft",
+      "price": "2.65 Cr"
+    }
+  ]
+}

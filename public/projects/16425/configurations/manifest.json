@@ -1,0 +1,94 @@
+{
+  "projectId": 16425,
+  "slug": "sagar-sangeet-chs-adityaraj-paradise-vikhroli-east-pid-16425",
+  "name": "Sagar Sangeet Chs Adityaraj Paradise",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sagar-sangeet-chs-adityaraj-paradise-vikhroli-east-pid-16425",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16425/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6234/original/fp.png?1715673539",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 61957,
+          "bhk": "2 BHK",
+          "carpetArea": 599,
+          "carpetAreaDisplay": "599 sq.ft",
+          "builtUpArea": null,
+          "price": "1.58 Cr",
+          "actualPrice": 15800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/16425/configurations/unit-plans/2-bhk/599-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/61957/original/2.PNG?1715673538",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 134863,
+          "bhk": "2 BHK",
+          "carpetArea": 626,
+          "carpetAreaDisplay": "626 sq.ft",
+          "builtUpArea": null,
+          "price": "1.65 Cr",
+          "actualPrice": 16500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 114329,
+          "bhk": "3 BHK",
+          "carpetArea": 901,
+          "carpetAreaDisplay": "901 sq.ft",
+          "builtUpArea": null,
+          "price": "2.37 Cr",
+          "actualPrice": 23700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "599 - 626 sq.ft",
+      "price": "1.58 Cr - 1.65 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "901 sq.ft",
+      "price": "2.37 Cr"
+    }
+  ]
+}

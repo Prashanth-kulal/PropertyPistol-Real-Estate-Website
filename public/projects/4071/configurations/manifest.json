@@ -1,0 +1,87 @@
+{
+  "projectId": 4071,
+  "slug": "arihant-city-bhiwandi-pid-4071",
+  "name": "Arihant City",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/arihant-city-bhiwandi-pid-4071",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/4071/original/mp.PNG?1616752533",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2142/original/fp.PNG?1616487771",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 99062,
+          "bhk": "1 BHK",
+          "carpetArea": 466,
+          "carpetAreaDisplay": "466 sq.ft",
+          "builtUpArea": null,
+          "price": "36.99 Lacs",
+          "actualPrice": 3699000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 139753,
+          "bhk": "2 BHK",
+          "carpetArea": 677,
+          "carpetAreaDisplay": "677 sq.ft",
+          "builtUpArea": null,
+          "price": "58.57 Lacs",
+          "actualPrice": 5857000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "466 sq.ft",
+      "price": "36.99 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "677 sq.ft",
+      "price": "58.57 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "projectId": 11647,
+  "slug": "yuvan-stellar",
+  "name": "Yuvan Stellar",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/yuvan-stellar-panch-pakhdi-pid-11647",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3679/original/pixelcut-export_-_2025-01-23T131803.744.png?1737618517",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 37402,
+          "bhk": "2 BHK",
+          "carpetArea": 748,
+          "carpetAreaDisplay": "748 sq.ft",
+          "builtUpArea": null,
+          "price": "1.54 Cr",
+          "actualPrice": 15400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/37402/original/2.PNG?1725438066",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 83863,
+          "bhk": "3 BHK",
+          "carpetArea": 900,
+          "carpetAreaDisplay": "900 sq.ft",
+          "builtUpArea": null,
+          "price": "2.07 Cr",
+          "actualPrice": 20700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/83863/original/3b.PNG?1725438066",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 131822,
+          "bhk": "3 BHK",
+          "carpetArea": 1166,
+          "carpetAreaDisplay": "1166 sq.ft",
+          "builtUpArea": null,
+          "price": "2.65 Cr",
+          "actualPrice": 26500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "748 sq.ft",
+      "price": "1.54 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "900 - 1,166 sq.ft",
+      "price": "2.07 Cr - 2.65 Cr"
+    }
+  ]
+}

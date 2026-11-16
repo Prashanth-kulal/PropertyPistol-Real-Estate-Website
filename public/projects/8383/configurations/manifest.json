@@ -1,0 +1,94 @@
+{
+  "projectId": 8383,
+  "slug": "rachana-enclave",
+  "name": "Rachana Enclave",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/rachana-enclave-kharghar-pid-8383",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/8383/original/mp.png?1694592934",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4394/original/download.png?1694592935",
+      "downloaded": false
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4395/original/fp.PNG?1694592935",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 36960,
+          "bhk": "1 BHK",
+          "carpetArea": 530,
+          "carpetAreaDisplay": "530 sq.ft",
+          "builtUpArea": null,
+          "price": "47.77 Lacs",
+          "actualPrice": 4777000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/36960/original/1bh.PNG?1694592934",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 60802,
+          "bhk": "2 BHK",
+          "carpetArea": 930,
+          "carpetAreaDisplay": "930 sq.ft",
+          "builtUpArea": null,
+          "price": "84.55 Lacs",
+          "actualPrice": 8455000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "530 sq.ft",
+      "price": "47.77 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "930 sq.ft",
+      "price": "84.55 Lacs"
+    }
+  ]
+}

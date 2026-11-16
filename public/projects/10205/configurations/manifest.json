@@ -1,0 +1,70 @@
+{
+  "projectId": 10205,
+  "slug": "ng-madhuban-pirangut-pid-10205",
+  "name": "NG Madhuban",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ng-madhuban-pirangut-pid-10205",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit"
+  ],
+  "masterPlans": [],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 34058,
+          "bhk": "1 BHK",
+          "carpetArea": 410,
+          "carpetAreaDisplay": "410 sq.ft",
+          "builtUpArea": null,
+          "price": "20.49 Lacs",
+          "actualPrice": 2049000,
+          "propertyType": "Flat",
+          "plan2D": "/projects/10205/configurations/unit-plans/1-bhk/410-sqft/plan-2d.webp",
+          "plan3D": "/projects/10205/configurations/unit-plans/1-bhk/410-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/34058/original/1.jpeg?1668494568",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/34058/original/1BHK-CUT3D.jpg?1668494568",
+          "has2D": true,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 34059,
+          "bhk": "2 BHK",
+          "carpetArea": 556,
+          "carpetAreaDisplay": "556 sq.ft",
+          "builtUpArea": null,
+          "price": "27.49 Lacs",
+          "actualPrice": 2749000,
+          "propertyType": "Flat",
+          "plan2D": "/projects/10205/configurations/unit-plans/2-bhk/556-sqft/plan-2d.webp",
+          "plan3D": "/projects/10205/configurations/unit-plans/2-bhk/556-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/34059/original/2.jpeg?1668494568",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/34059/original/2BHK-CUT3D.jpg?1668494568",
+          "has2D": true,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "410 sq.ft",
+      "price": "20.49 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "556 sq.ft",
+      "price": "27.49 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "projectId": 21352,
+  "slug": "national-mount-view-panvel-pid-21352",
+  "name": "National Mount View",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/national-mount-view-panvel-pid-21352",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/21352/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/21352/original/mp.png?1771587055",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21352/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9203/original/fp.png?1771587057",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 132836,
+          "bhk": "2 BHK",
+          "carpetArea": 732,
+          "carpetAreaDisplay": "732 sq.ft",
+          "builtUpArea": null,
+          "price": "1.19 Cr",
+          "actualPrice": 11900000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/21352/configurations/unit-plans/2-bhk/732-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/132836/original/2b.png?1771587055",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 132837,
+          "bhk": "3 BHK",
+          "carpetArea": 1017,
+          "carpetAreaDisplay": "1017 sq.ft",
+          "builtUpArea": null,
+          "price": "1.65 Cr",
+          "actualPrice": 16500000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/21352/configurations/unit-plans/3-bhk/1017-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/132837/original/3.png?1771587056",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "732 sq.ft",
+      "price": "1.19 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,017 sq.ft",
+      "price": "1.65 Cr"
+    }
+  ]
+}

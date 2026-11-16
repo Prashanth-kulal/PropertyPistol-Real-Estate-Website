@@ -1,0 +1,143 @@
+{
+  "projectId": 9213,
+  "slug": "nirvaana-emerald-chembur-pid-9213",
+  "name": "Nirvaana Emerald",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/nirvaana-emerald-chembur-pid-9213",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2838/original/f.png?1668766779",
+      "downloaded": false
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2839/original/fp.png?1668766779",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 59407,
+          "bhk": "1 BHK",
+          "carpetArea": 410,
+          "carpetAreaDisplay": "410 sq.ft",
+          "builtUpArea": null,
+          "price": "1.13 Cr",
+          "actualPrice": 11300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 138840,
+          "bhk": "1 BHK",
+          "carpetArea": 454,
+          "carpetAreaDisplay": "454 sq.ft",
+          "builtUpArea": null,
+          "price": "1.25 Cr",
+          "actualPrice": 12500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 31907,
+          "bhk": "2 BHK",
+          "carpetArea": 570,
+          "carpetAreaDisplay": "570 sq.ft",
+          "builtUpArea": null,
+          "price": "1.49 Cr",
+          "actualPrice": 14900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/31907/original/2.JPG?1668766779",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/31907/original/2b.JPG?1668766779",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 138838,
+          "bhk": "2 BHK",
+          "carpetArea": 619,
+          "carpetAreaDisplay": "619 sq.ft",
+          "builtUpArea": null,
+          "price": "1.53 Cr",
+          "actualPrice": 15300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 138839,
+          "bhk": "3 BHK",
+          "carpetArea": 819,
+          "carpetAreaDisplay": "819 sq.ft",
+          "builtUpArea": null,
+          "price": "2.13 Cr",
+          "actualPrice": 21300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "410 - 454 sq.ft",
+      "price": "1.13 Cr - 1.25 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "570 - 619 sq.ft",
+      "price": "1.49 Cr - 1.53 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "819 sq.ft",
+      "price": "2.13 Cr"
+    }
+  ]
+}

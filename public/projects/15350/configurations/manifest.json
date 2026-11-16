@@ -1,0 +1,135 @@
+{
+  "projectId": 15350,
+  "slug": "lodha-crown-kolshet-kolshet-road-pid-15350",
+  "name": "Lodha Crown Kolshet",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/lodha-crown-kolshet-kolshet-road-pid-15350",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/15350/original/masterplan.JPG?1704692874",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5374/original/pixelcut-export_-_2025-01-23T130417.877.jpg?1737617687",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 74296,
+          "bhk": "1 BHK",
+          "carpetArea": 322,
+          "carpetAreaDisplay": "322 sq.ft",
+          "builtUpArea": null,
+          "price": "62.0 Lacs",
+          "actualPrice": 6200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140174,
+          "bhk": "1 BHK",
+          "carpetArea": 418,
+          "carpetAreaDisplay": "418 sq.ft",
+          "builtUpArea": null,
+          "price": "81.75 Lacs",
+          "actualPrice": 8175000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140175,
+          "bhk": "1 BHK",
+          "carpetArea": 450,
+          "carpetAreaDisplay": "450 sq.ft",
+          "builtUpArea": null,
+          "price": "88.01 Lacs",
+          "actualPrice": 8801000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 137508,
+          "bhk": "1 BHK",
+          "carpetArea": 453,
+          "carpetAreaDisplay": "453 sq.ft",
+          "builtUpArea": null,
+          "price": "84.32 Lacs",
+          "actualPrice": 8432000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 98932,
+          "bhk": "2 BHK",
+          "carpetArea": 530,
+          "carpetAreaDisplay": "530 sq.ft",
+          "builtUpArea": null,
+          "price": "1.02 Cr",
+          "actualPrice": 10200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/98932/original/2.jpg?1737617684",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "322 - 453 sq.ft",
+      "price": "62.0 Lacs - 88.01 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "530 sq.ft",
+      "price": "1.02 Cr"
+    }
+  ]
+}

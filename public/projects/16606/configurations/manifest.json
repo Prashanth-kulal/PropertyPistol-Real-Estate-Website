@@ -1,0 +1,92 @@
+{
+  "projectId": 16606,
+  "slug": "comfort-heritage-nala-sopara-west-pid-16606",
+  "name": "Comfort Heritage",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/comfort-heritage-nala-sopara-west-pid-16606",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16606/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6296/original/GPCom.PNG?1716551800",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/16606/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6297/original/FPC1.PNG?1716551800",
+      "downloaded": true
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/16606/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6298/original/FPCOm.PNG?1716551800",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 131382,
+          "bhk": "1 BHK",
+          "carpetArea": 510,
+          "carpetAreaDisplay": "510 sq.ft",
+          "builtUpArea": null,
+          "price": "45.65 Lacs",
+          "actualPrice": 4564500,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 63762,
+          "bhk": "2 BHK",
+          "carpetArea": 720,
+          "carpetAreaDisplay": "720 sq.ft",
+          "builtUpArea": null,
+          "price": "64.44 Lacs",
+          "actualPrice": 6444000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/16606/configurations/unit-plans/2-bhk/720-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/63762/original/2bhkCo.PNG?1716551797",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "510 sq.ft",
+      "price": "45.65 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "720 sq.ft",
+      "price": "64.44 Lacs"
+    }
+  ]
+}

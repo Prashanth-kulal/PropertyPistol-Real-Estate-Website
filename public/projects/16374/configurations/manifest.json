@@ -1,0 +1,68 @@
+{
+  "projectId": 16374,
+  "slug": "shree-balaji-heights-chikhali-chikhali-pid-16374",
+  "name": "Shree Balaji Heights Chikhali",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shree-balaji-heights-chikhali-chikhali-pid-16374",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16374/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6210/original/Floor_Plan_Balaji.PNG?1715441197"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 61774,
+          "bhk": "2 BHK",
+          "carpetArea": 656,
+          "carpetAreaDisplay": "656 sq.ft",
+          "builtUpArea": null,
+          "price": "39.5 Lacs",
+          "actualPrice": 3950000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": "/projects/16374/configurations/unit-plans/2-bhk/656-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/61774/original/balaji2bhk3d1.PNG?1715441196",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 82680,
+          "bhk": "2 BHK",
+          "carpetArea": 720,
+          "carpetAreaDisplay": "720 sq.ft",
+          "builtUpArea": null,
+          "price": "41.25 Lacs",
+          "actualPrice": 4125000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "656 - 720 sq.ft",
+      "price": "39.5 Lacs - 41.25 Lacs"
+    }
+  ]
+}

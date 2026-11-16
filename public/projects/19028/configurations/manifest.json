@@ -1,0 +1,101 @@
+{
+  "projectId": 19028,
+  "slug": "dream-meadows-kharghar-pid-19028",
+  "name": "Dream Meadows",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/dream-meadows-kharghar-pid-19028",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19028/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19028/original/download_%2828%29_%281%29.png?1763371971",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19028/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8919/original/download_%2822%29.png?1763371972",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19028/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8920/original/download_%2824%29.png?1763371972",
+      "downloaded": true
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/19028/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8921/original/download_%2826%29.png?1763371972",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 99277,
+          "bhk": "1 BHK",
+          "carpetArea": 457,
+          "carpetAreaDisplay": "457 sq.ft",
+          "builtUpArea": null,
+          "price": "60.55 Lacs",
+          "actualPrice": 6055250,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 99279,
+          "bhk": "2 BHK",
+          "carpetArea": 704,
+          "carpetAreaDisplay": "704 sq.ft",
+          "builtUpArea": null,
+          "price": "93.28 Lacs",
+          "actualPrice": 9328000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "457 sq.ft",
+      "price": "60.55 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "704 sq.ft",
+      "price": "93.28 Lacs"
+    }
+  ]
+}

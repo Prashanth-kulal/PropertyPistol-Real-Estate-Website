@@ -1,0 +1,92 @@
+{
+  "projectId": 8045,
+  "slug": "mahindra-happinest-tathawade-tathawade-pid-8045",
+  "name": "Mahindra Happinest Tathawade",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/mahindra-happinest-tathawade-tathawade-pid-8045",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/8045/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/8045/original/download_%287%29.png?1791359720"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/8045/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9732/original/download_%288%29.png?1791359720"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/8045/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9733/original/download_%289%29.png?1791359720"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 131307,
+          "bhk": "1 BHK",
+          "carpetArea": 619,
+          "carpetAreaDisplay": "619 sq.ft",
+          "builtUpArea": null,
+          "price": "81.0 Lacs",
+          "actualPrice": 8100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 131308,
+          "bhk": "2 BHK",
+          "carpetArea": 702,
+          "carpetAreaDisplay": "702 sq.ft",
+          "builtUpArea": null,
+          "price": "1.47 Cr",
+          "actualPrice": 14700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "619 sq.ft",
+      "price": "81.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "702 sq.ft",
+      "price": "1.47 Cr"
+    }
+  ]
+}

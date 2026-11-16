@@ -1,0 +1,52 @@
+{
+  "projectId": 15762,
+  "slug": "21-baner-hills-baner-pid-15762",
+  "name": "21 Baner Hills",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/21-baner-hills-baner-pid-15762",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/15762/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5618/original/floorplan1.JPG?1708593454"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 52460,
+          "bhk": "2 BHK",
+          "carpetArea": 682,
+          "carpetAreaDisplay": "682 sq.ft",
+          "builtUpArea": null,
+          "price": "90.0 Lacs",
+          "actualPrice": 9000000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": "/projects/15762/configurations/unit-plans/2-bhk/682-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/52460/original/2bhk_3d1.JPG?1708593454",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "682 sq.ft",
+      "price": "90.0 Lacs"
+    }
+  ]
+}

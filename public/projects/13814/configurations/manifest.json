@@ -1,0 +1,94 @@
+{
+  "projectId": 13814,
+  "slug": "civitech-strings-greater-noida-pid-13814",
+  "name": "Civitech Strings",
+  "city": "noida",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/civitech-strings-greater-noida-pid-13814",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/13814/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13814/original/Capturehhuji.PNG?1695727476"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 114686,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1090,
+          "price": "1.31 Cr",
+          "actualPrice": 13100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 47078,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1250,
+          "price": "1.5 Cr",
+          "actualPrice": 15000000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/13814/configurations/unit-plans/3-bhk/variant-47078/plan-2d.webp",
+          "plan3D": "/projects/13814/configurations/unit-plans/3-bhk/variant-47078/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/47078/original/STRINGS-3BHK-1275sqft-2D-min_2d.jpg?1702752443",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/47078/original/STRINGS-3BHK-1275sqft-3D-min.jpg?1702752443",
+          "has2D": true,
+          "has3D": true
+        },
+        {
+          "id": 47079,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1275,
+          "price": "1.53 Cr",
+          "actualPrice": 15300000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/13814/configurations/unit-plans/3-bhk/variant-47079/plan-2d.webp",
+          "plan3D": "/projects/13814/configurations/unit-plans/3-bhk/variant-47079/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/47079/original/STRINGS-3BHK-1250sqft-2D-min_2d.jpg?1702752443",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/47079/original/3b.jpg?1702752443",
+          "has2D": true,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "On Request",
+      "price": "1.31 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "1.5 Cr - 1.53 Cr"
+    }
+  ]
+}

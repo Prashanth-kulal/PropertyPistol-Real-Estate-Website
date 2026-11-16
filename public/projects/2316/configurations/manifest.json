@@ -1,0 +1,103 @@
+{
+  "projectId": 2316,
+  "slug": "puraniks-city-reserva-ghodbunder-road-pid-2316",
+  "name": "Puraniks City Reserva ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/puraniks-city-reserva-ghodbunder-road-pid-2316",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/2316/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/2316/original/layout.PNG?1570191029",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/2316/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2050/original/download_%281%29.png?1612778788",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 36883,
+          "bhk": "1 BHK",
+          "carpetArea": 313,
+          "carpetAreaDisplay": "313 sq.ft",
+          "builtUpArea": null,
+          "price": "50.0 Lacs",
+          "actualPrice": 5000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 4097,
+          "bhk": "1 BHK",
+          "carpetArea": 396,
+          "carpetAreaDisplay": "396 sq.ft",
+          "builtUpArea": null,
+          "price": "60.0 Lacs",
+          "actualPrice": 6000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/4097/original/2bhk.jpg?1570191029",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 62690,
+          "bhk": "2 BHK",
+          "carpetArea": 500,
+          "carpetAreaDisplay": "500 sq.ft",
+          "builtUpArea": null,
+          "price": "80.0 Lacs",
+          "actualPrice": 8000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "313 - 396 sq.ft",
+      "price": "50.0 Lacs - 60.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "500 sq.ft",
+      "price": "80.0 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "projectId": 19569,
+  "slug": "codename-above-all",
+  "name": "Codename Above All",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/codename-above-all-dadar-west-pid-19569",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19569/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7678/original/fp-co.png?1744041706",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19569/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7679/original/fp-code.png?1744041706",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 105949,
+          "bhk": "2 BHK",
+          "carpetArea": 769,
+          "carpetAreaDisplay": "769 sq.ft",
+          "builtUpArea": null,
+          "price": "3.48 Cr",
+          "actualPrice": 34800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 105948,
+          "bhk": "2 BHK",
+          "carpetArea": 818,
+          "carpetAreaDisplay": "818 sq.ft",
+          "builtUpArea": null,
+          "price": "3.7 Cr",
+          "actualPrice": 37000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "769 - 818 sq.ft",
+      "price": "3.48 Cr - 3.7 Cr"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "projectId": 19399,
+  "slug": "saptashree-galicia-kolshet-road-pid-19399",
+  "name": "SaptaShree Galicia ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/saptashree-galicia-kolshet-road-pid-19399",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19399/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7550/original/fp-gal.png?1742045797",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 102790,
+          "bhk": "1 BHK",
+          "carpetArea": 454,
+          "carpetAreaDisplay": "454 sq.ft",
+          "builtUpArea": null,
+          "price": "65.86 Lacs",
+          "actualPrice": 6586000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 128531,
+          "bhk": "2 BHK",
+          "carpetArea": 454,
+          "carpetAreaDisplay": "454 sq.ft",
+          "builtUpArea": null,
+          "price": "80.33 Lacs",
+          "actualPrice": 8033000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 135009,
+          "bhk": "2 BHK",
+          "carpetArea": 624,
+          "carpetAreaDisplay": "624 sq.ft",
+          "builtUpArea": null,
+          "price": "90.48 Lacs",
+          "actualPrice": 9048000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "454 sq.ft",
+      "price": "65.86 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "454 - 624 sq.ft",
+      "price": "80.33 Lacs - 90.48 Lacs"
+    }
+  ]
+}

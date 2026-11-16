@@ -1,0 +1,84 @@
+{
+  "projectId": 21661,
+  "slug": "majestique-twilight-balewadi-pid-21661",
+  "name": "Majestique Twilight",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/majestique-twilight-balewadi-pid-21661",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21661/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9250/original/download_%282%29.png?1776943808"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/21661/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9251/original/download_%283%29.png?1776943808"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 134323,
+          "bhk": "3 BHK",
+          "carpetArea": 1236,
+          "carpetAreaDisplay": "1236 sq.ft",
+          "builtUpArea": null,
+          "price": "2.05 Cr",
+          "actualPrice": 20500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/21661/configurations/unit-plans/3-bhk/1236-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/134323/original/3bhk.png?1776943807",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 134324,
+          "bhk": "4 BHK",
+          "carpetArea": 1608,
+          "carpetAreaDisplay": "1608 sq.ft",
+          "builtUpArea": null,
+          "price": "2.65 Cr",
+          "actualPrice": 26500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/21661/configurations/unit-plans/4-bhk/1608-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/134324/original/4bhk.png?1776943808",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,236 sq.ft",
+      "price": "2.05 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,608 sq.ft",
+      "price": "2.65 Cr"
+    }
+  ]
+}

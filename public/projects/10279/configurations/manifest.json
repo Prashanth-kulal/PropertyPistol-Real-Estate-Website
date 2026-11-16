@@ -1,0 +1,176 @@
+{
+  "projectId": 10279,
+  "slug": "venkatesh-erandwane-central-erandwane-pid-10279",
+  "name": "Venkatesh Erandwane Central",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/venkatesh-erandwane-central-erandwane-pid-10279",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/10279/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/10279/original/mp.jpg?1669035629"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/10279/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2878/original/VEC-Wing-B1-Refuge-floor-plan_%281%29.jpg?1753890435"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 111330,
+          "bhk": "2 BHK",
+          "carpetArea": 800,
+          "carpetAreaDisplay": "800 sq.ft",
+          "builtUpArea": null,
+          "price": "2.36 Cr",
+          "actualPrice": 23600000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 111331,
+          "bhk": "3 BHK",
+          "carpetArea": 1089,
+          "carpetAreaDisplay": "1089 sq.ft",
+          "builtUpArea": null,
+          "price": "3.25 Cr",
+          "actualPrice": 32500000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 86170,
+          "bhk": "3 BHK",
+          "carpetArea": 1373,
+          "carpetAreaDisplay": "1373 sq.ft",
+          "builtUpArea": null,
+          "price": "3.94 Cr",
+          "actualPrice": 39400000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 76984,
+          "bhk": "3 BHK",
+          "carpetArea": 1623,
+          "carpetAreaDisplay": "1623 sq.ft",
+          "builtUpArea": null,
+          "price": "4.36 Cr",
+          "actualPrice": 43600000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 111332,
+          "bhk": "4 BHK",
+          "carpetArea": 1623,
+          "carpetAreaDisplay": "1623 sq.ft",
+          "builtUpArea": null,
+          "price": "4.84 Cr",
+          "actualPrice": 48400000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 138542,
+          "bhk": "4 BHK",
+          "carpetArea": 1937,
+          "carpetAreaDisplay": "1937 sq.ft",
+          "builtUpArea": null,
+          "price": "5.72 Cr",
+          "actualPrice": 57200000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 138543,
+          "bhk": "4 BHK",
+          "carpetArea": 1937,
+          "carpetAreaDisplay": "1937 sq.ft",
+          "builtUpArea": null,
+          "price": "5.72 Cr",
+          "actualPrice": 57200000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "800 sq.ft",
+      "price": "2.36 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,089 - 1,623 sq.ft",
+      "price": "3.25 Cr - 4.36 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,623 - 1,937 sq.ft",
+      "price": "4.84 Cr - 5.72 Cr"
+    }
+  ]
+}

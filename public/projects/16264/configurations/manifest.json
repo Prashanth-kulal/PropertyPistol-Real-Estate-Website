@@ -1,0 +1,168 @@
+{
+  "projectId": 16264,
+  "slug": "adithi-elegance-gunjur-pid-16264",
+  "name": "Adithi Elegance",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/adithi-elegance-gunjur-pid-16264",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16264/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6182/original/floorplan.png?1714651784"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 60407,
+          "bhk": "2 BHK",
+          "carpetArea": 768,
+          "carpetAreaDisplay": "768 sq.ft",
+          "builtUpArea": null,
+          "price": "73.24 Lacs",
+          "actualPrice": 7324000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/16264/configurations/unit-plans/2-bhk/768-sqft/plan-2d.webp",
+          "plan3D": "/projects/16264/configurations/unit-plans/2-bhk/768-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/60407/original/2bhk_2d.JPG?1714651783",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/60407/original/2bhk_3d.JPG?1714651783",
+          "has2D": true,
+          "has3D": true
+        },
+        {
+          "id": 60408,
+          "bhk": "2 BHK",
+          "carpetArea": 910,
+          "carpetAreaDisplay": "910 sq.ft",
+          "builtUpArea": null,
+          "price": "87.75 Lacs",
+          "actualPrice": 8775000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 79430,
+          "bhk": "3 BHK",
+          "carpetArea": 935,
+          "carpetAreaDisplay": "935 sq.ft",
+          "builtUpArea": null,
+          "price": "79.99 Lacs",
+          "actualPrice": 7999000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 79431,
+          "bhk": "3 BHK",
+          "carpetArea": 945,
+          "carpetAreaDisplay": "945 sq.ft",
+          "builtUpArea": null,
+          "price": "91.13 Lacs",
+          "actualPrice": 9113000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 104800,
+          "bhk": "4 BHK",
+          "carpetArea": 980,
+          "carpetAreaDisplay": "980 sq.ft",
+          "builtUpArea": null,
+          "price": "94.5 Lacs",
+          "actualPrice": 9450000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 104801,
+          "bhk": "4 BHK",
+          "carpetArea": 1120,
+          "carpetAreaDisplay": "1120 sq.ft",
+          "builtUpArea": null,
+          "price": "1.08 Cr",
+          "actualPrice": 10800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 104802,
+          "bhk": "4 BHK",
+          "carpetArea": 1127,
+          "carpetAreaDisplay": "1127 sq.ft",
+          "builtUpArea": null,
+          "price": "1.09 Cr",
+          "actualPrice": 10900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "768 - 910 sq.ft",
+      "price": "73.24 Lacs - 87.75 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "935 - 945 sq.ft",
+      "price": "79.99 Lacs - 91.13 Lacs"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "980 - 1,127 sq.ft",
+      "price": "94.5 Lacs - 1.09 Cr"
+    }
+  ]
+}

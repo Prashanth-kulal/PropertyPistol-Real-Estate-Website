@@ -1,0 +1,87 @@
+{
+  "projectId": 463,
+  "slug": "arihant-clan-aalishan-kharghar-pid-463",
+  "name": "Arihant Clan Aalishan",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/arihant-clan-aalishan-kharghar-pid-463",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/463/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/463/original/master_plan.jpg?1584687211",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/463/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/1800/original/fp.PNG?1608204879",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 88569,
+          "bhk": "2 BHK",
+          "carpetArea": 830,
+          "carpetAreaDisplay": "830 sq.ft",
+          "builtUpArea": null,
+          "price": "1.25 Cr",
+          "actualPrice": 12500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 88572,
+          "bhk": "3 BHK",
+          "carpetArea": 1139,
+          "carpetAreaDisplay": "1139 sq.ft",
+          "builtUpArea": null,
+          "price": "1.65 Cr",
+          "actualPrice": 16500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "830 sq.ft",
+      "price": "1.25 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,139 sq.ft",
+      "price": "1.65 Cr"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "projectId": 20126,
+  "slug": "arv-richvue-keshav-nagar-pid-20126",
+  "name": "ARV Richvue",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/arv-richvue-keshav-nagar-pid-20126",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/20126/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/20126/original/mp-arv.png?1752230182"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20126/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8471/original/fp-arv.png?1752230188"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/20126/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8472/original/arv-fp.png?1752230188"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 131879,
+          "bhk": "2 BHK",
+          "carpetArea": 730,
+          "carpetAreaDisplay": "730 sq.ft",
+          "builtUpArea": null,
+          "price": "83.0 Lacs",
+          "actualPrice": 8300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 118782,
+          "bhk": "3 BHK",
+          "carpetArea": 1029,
+          "carpetAreaDisplay": "1029 sq.ft",
+          "builtUpArea": null,
+          "price": "1.18 Cr",
+          "actualPrice": 11800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "730 sq.ft",
+      "price": "83.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,029 sq.ft",
+      "price": "1.18 Cr"
+    }
+  ]
+}

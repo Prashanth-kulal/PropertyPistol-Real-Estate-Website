@@ -1,0 +1,113 @@
+{
+  "projectId": 8775,
+  "slug": "ekta-crest",
+  "name": "Ekta Crest",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ekta-crest-chembur-pid-8775",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/8775/original/mp.PNG?1751969693",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8433/original/fp.PNG?1751969694",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 30994,
+          "bhk": "3 BHK",
+          "carpetArea": 1094,
+          "carpetAreaDisplay": "1094 sq.ft",
+          "builtUpArea": null,
+          "price": "4.16 Cr",
+          "actualPrice": 41600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3.5 BHK",
+      "variants": [
+        {
+          "id": 30995,
+          "bhk": "3.5 BHK",
+          "carpetArea": 1250,
+          "carpetAreaDisplay": "1250 sq.ft",
+          "builtUpArea": null,
+          "price": "4.75 Cr",
+          "actualPrice": 47500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "5 BHK",
+      "variants": [
+        {
+          "id": 57028,
+          "bhk": "5 BHK",
+          "carpetArea": 2500,
+          "carpetAreaDisplay": "2500 sq.ft",
+          "builtUpArea": null,
+          "price": "9.5 Cr",
+          "actualPrice": 95000000,
+          "propertyType": "Pent House",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,094 sq.ft",
+      "price": "4.16 Cr"
+    },
+    {
+      "flat_type_name": "3.5 BHK",
+      "carpet_area": "1,250 sq.ft",
+      "price": "4.75 Cr"
+    },
+    {
+      "flat_type_name": "5 BHK",
+      "carpet_area": "2,500 sq.ft",
+      "price": "9.5 Cr"
+    }
+  ]
+}

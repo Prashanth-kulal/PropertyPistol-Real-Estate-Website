@@ -1,0 +1,129 @@
+{
+  "projectId": 4498,
+  "slug": "happy-home",
+  "name": "Happy Home",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/happy-home-taloja-pid-4498",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/4498/original/mp.png?1625898869",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2287/original/fp.PNG?1625898870",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 RK",
+      "variants": [
+        {
+          "id": 71349,
+          "bhk": "1 RK",
+          "carpetArea": 260,
+          "carpetAreaDisplay": "260 sq.ft",
+          "builtUpArea": null,
+          "price": "19.5 Lacs",
+          "actualPrice": 1950000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 71351,
+          "bhk": "1 BHK",
+          "carpetArea": 393,
+          "carpetAreaDisplay": "393 sq.ft",
+          "builtUpArea": null,
+          "price": "29.58 Lacs",
+          "actualPrice": 2958000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 62542,
+          "bhk": "1 BHK",
+          "carpetArea": 447,
+          "carpetAreaDisplay": "447 sq.ft",
+          "builtUpArea": null,
+          "price": "33.62 Lacs",
+          "actualPrice": 3362000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 71350,
+          "bhk": "2 BHK",
+          "carpetArea": 535,
+          "carpetAreaDisplay": "535 sq.ft",
+          "builtUpArea": null,
+          "price": "40.12 Lacs",
+          "actualPrice": 4012000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 RK",
+      "carpet_area": "260 sq.ft",
+      "price": "19.5 Lacs"
+    },
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "393 - 447 sq.ft",
+      "price": "29.58 Lacs - 33.62 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "535 sq.ft",
+      "price": "40.12 Lacs"
+    }
+  ]
+}

@@ -44,8 +44,10 @@ import UnitConverterModal from "@/components/common/UnitConverterModal";
 import AuraAiModal from "@/components/common/AuraAiModal";
 import CommuteTimeModal from "@/components/common/CommuteTimeModal";
 import WishlistButton from "@/components/common/WishlistButton";
-import { CITIES, DEVELOPERS, getProjectSlug } from "@/data";
+import { getProjectSlug } from "@/lib/projectUtils";
+import { DEVELOPERS } from "@/data/siteConstants";
 import {
+  CITIES,
   getCityDetails,
   getPropertiesForCity,
   getPriceTrendsForCity,

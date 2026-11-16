@@ -1,0 +1,152 @@
+{
+  "projectId": 10083,
+  "slug": "mount-casa",
+  "name": "Mount Casa",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/mount-casa-thane-west-pid-10083",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6046/original/fp.PNG?1710932003",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 50535,
+          "bhk": "1 BHK",
+          "carpetArea": 442,
+          "carpetAreaDisplay": "442 sq.ft",
+          "builtUpArea": null,
+          "price": "98.0 Lacs",
+          "actualPrice": 9800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 33784,
+          "bhk": "1 BHK",
+          "carpetArea": 542,
+          "carpetAreaDisplay": "542 sq.ft",
+          "builtUpArea": null,
+          "price": "1.2 Cr",
+          "actualPrice": 12000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 117270,
+          "bhk": "2 BHK",
+          "carpetArea": 698,
+          "carpetAreaDisplay": "698 sq.ft",
+          "builtUpArea": null,
+          "price": "1.54 Cr",
+          "actualPrice": 15400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 117271,
+          "bhk": "2 BHK",
+          "carpetArea": 774,
+          "carpetAreaDisplay": "774 sq.ft",
+          "builtUpArea": null,
+          "price": "1.7 Cr",
+          "actualPrice": 17000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 123003,
+          "bhk": "3 BHK",
+          "carpetArea": 835,
+          "carpetAreaDisplay": "835 sq.ft",
+          "builtUpArea": null,
+          "price": "1.84 Cr",
+          "actualPrice": 18400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 123004,
+          "bhk": "3 BHK",
+          "carpetArea": 926,
+          "carpetAreaDisplay": "926 sq.ft",
+          "builtUpArea": null,
+          "price": "2.04 Cr",
+          "actualPrice": 20400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "442 - 542 sq.ft",
+      "price": "98.0 Lacs - 1.2 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "698 - 774 sq.ft",
+      "price": "1.54 Cr - 1.7 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "835 - 926 sq.ft",
+      "price": "1.84 Cr - 2.04 Cr"
+    }
+  ]
+}

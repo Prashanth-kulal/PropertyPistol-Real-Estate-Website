@@ -1,0 +1,94 @@
+{
+  "projectId": 16380,
+  "slug": "kumar-codename-lighthouse-hadapsar-pid-16380",
+  "name": "Kumar Codename LightHouse",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/kumar-codename-lighthouse-hadapsar-pid-16380",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16380/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16380/original/download_%2897%29.png?1764752972"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 94689,
+          "bhk": "2 BHK",
+          "carpetArea": 712,
+          "carpetAreaDisplay": "712 sq.ft",
+          "builtUpArea": null,
+          "price": "65.5 Lacs",
+          "actualPrice": 6550000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 135175,
+          "bhk": "2 BHK",
+          "carpetArea": 749,
+          "carpetAreaDisplay": "749 sq.ft",
+          "builtUpArea": null,
+          "price": "68.85 Lacs",
+          "actualPrice": 6885000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 135176,
+          "bhk": "3 BHK",
+          "carpetArea": 815,
+          "carpetAreaDisplay": "815 sq.ft",
+          "builtUpArea": null,
+          "price": "1.41 Cr",
+          "actualPrice": 14100000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "712 - 749 sq.ft",
+      "price": "65.5 Lacs - 68.85 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "815 sq.ft",
+      "price": "1.41 Cr"
+    }
+  ]
+}

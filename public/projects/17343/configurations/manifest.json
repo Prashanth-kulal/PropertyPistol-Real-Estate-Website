@@ -1,0 +1,110 @@
+{
+  "projectId": 17343,
+  "slug": "aakar-park-besa-pid-17343",
+  "name": "Aakar Park",
+  "city": "nagpur",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/aakar-park-besa-pid-17343",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/17343/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6638/original/floorplan1.JPG?1720090780"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/17343/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6639/original/floorplan2.JPG?1720090780"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 71631,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1105,
+          "price": "41.99 Lacs",
+          "actualPrice": 4199000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": "/projects/17343/configurations/unit-plans/2-bhk/variant-71631/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/71631/original/2bhk_3d2.JPG?1720090779",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "2.5 BHK",
+      "variants": [
+        {
+          "id": 136671,
+          "bhk": "2.5 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1414,
+          "price": "53.73 Lacs",
+          "actualPrice": 5373000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 71633,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1515,
+          "price": "57.57 Lacs",
+          "actualPrice": 5757000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": "/projects/17343/configurations/unit-plans/3-bhk/variant-71633/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/71633/original/3bhk_3d2.JPG?1720090779",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "On Request",
+      "price": "41.99 Lacs"
+    },
+    {
+      "flat_type_name": "2.5 BHK",
+      "carpet_area": "On Request",
+      "price": "53.73 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "57.57 Lacs"
+    }
+  ]
+}

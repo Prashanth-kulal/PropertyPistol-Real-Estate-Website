@@ -1,0 +1,92 @@
+{
+  "projectId": 21301,
+  "slug": "qualcon-celestia-kharghar-pid-21301",
+  "name": "Qualcon Celestia",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/qualcon-celestia-kharghar-pid-21301",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21301/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9182/original/download_%2828%29.png?1771497569",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/21301/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9183/original/download_%2829%29.png?1771497569",
+      "downloaded": true
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/21301/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9184/original/download_%2830%29.png?1771497570",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 132737,
+          "bhk": "3 BHK",
+          "carpetArea": 999,
+          "carpetAreaDisplay": "999 sq.ft",
+          "builtUpArea": null,
+          "price": "2.59 Cr",
+          "actualPrice": 25900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 132738,
+          "bhk": "4 BHK",
+          "carpetArea": 1989,
+          "carpetAreaDisplay": "1989 sq.ft",
+          "builtUpArea": null,
+          "price": "5.02 Cr",
+          "actualPrice": 50200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "999 sq.ft",
+      "price": "2.59 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,989 sq.ft",
+      "price": "5.02 Cr"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "projectId": 19841,
+  "slug": "sneha-kohinoor-ambegaon-pid-19841",
+  "name": "Sneha Kohinoor",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sneha-kohinoor-ambegaon-pid-19841",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19841/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8032/original/floor1.PNG?1747652844"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 127684,
+          "bhk": "1 BHK",
+          "carpetArea": 481,
+          "carpetAreaDisplay": "481 sq.ft",
+          "builtUpArea": null,
+          "price": "55.5 Lacs",
+          "actualPrice": 5550000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 113408,
+          "bhk": "1 BHK",
+          "carpetArea": 483,
+          "carpetAreaDisplay": "483 sq.ft",
+          "builtUpArea": null,
+          "price": "55.73 Lacs",
+          "actualPrice": 5573000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19841/configurations/unit-plans/1-bhk/483-sqft/plan-2d.webp",
+          "plan3D": "/projects/19841/configurations/unit-plans/1-bhk/483-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/113408/original/1bhk_2d.PNG?1747652841",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/113408/original/1bhk_3d.PNG?1747652841",
+          "has2D": true,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 113409,
+          "bhk": "2 BHK",
+          "carpetArea": 620,
+          "carpetAreaDisplay": "620 sq.ft",
+          "builtUpArea": null,
+          "price": "71.9 Lacs",
+          "actualPrice": 7190000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19841/configurations/unit-plans/2-bhk/620-sqft/plan-2d.webp",
+          "plan3D": "/projects/19841/configurations/unit-plans/2-bhk/620-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/113409/original/2bhk_2d.PNG?1747652841",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/113409/original/2bhk_3d.PNG?1747652841",
+          "has2D": true,
+          "has3D": true
+        },
+        {
+          "id": 127685,
+          "bhk": "2 BHK",
+          "carpetArea": 678,
+          "carpetAreaDisplay": "678 sq.ft",
+          "builtUpArea": null,
+          "price": "78.73 Lacs",
+          "actualPrice": 7873000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 113410,
+          "bhk": "2 BHK",
+          "carpetArea": 685,
+          "carpetAreaDisplay": "685 sq.ft",
+          "builtUpArea": null,
+          "price": "79.55 Lacs",
+          "actualPrice": 7955000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "481 - 483 sq.ft",
+      "price": "55.5 Lacs - 55.73 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "620 - 685 sq.ft",
+      "price": "71.9 Lacs - 79.55 Lacs"
+    }
+  ]
+}

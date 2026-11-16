@@ -1,0 +1,92 @@
+{
+  "projectId": 7075,
+  "slug": "vtp-aethereus-mahalunge-pid-7075",
+  "name": "VTP Aethereus",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/vtp-aethereus-mahalunge-pid-7075",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/7075/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/7075/original/mp.png?1747813954"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/7075/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8042/original/fp-ae.png?1747813954"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/7075/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8043/original/fp-ae2.png?1747813954"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 133959,
+          "bhk": "2 BHK",
+          "carpetArea": 491,
+          "carpetAreaDisplay": "491 sq.ft",
+          "builtUpArea": null,
+          "price": "58.18 Lacs",
+          "actualPrice": 5818000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 81187,
+          "bhk": "3 BHK",
+          "carpetArea": 682,
+          "carpetAreaDisplay": "682 sq.ft",
+          "builtUpArea": null,
+          "price": "80.8 Lacs",
+          "actualPrice": 8080000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "491 sq.ft",
+      "price": "58.18 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "682 sq.ft",
+      "price": "80.8 Lacs"
+    }
+  ]
+}

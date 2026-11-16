@@ -1,0 +1,110 @@
+{
+  "projectId": 17130,
+  "slug": "ameet-jai-kamal-chembur-pid-17130",
+  "name": "Ameet Jai Kamal",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ameet-jai-kamal-chembur-pid-17130",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/17130/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6942/original/fp_amal.png?1727259408",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 86872,
+          "bhk": "1 BHK",
+          "carpetArea": 390,
+          "carpetAreaDisplay": "390 sq.ft",
+          "builtUpArea": null,
+          "price": "1.27 Cr",
+          "actualPrice": 12700000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/17130/configurations/unit-plans/1-bhk/390-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/86872/original/7be67c91-5653-42e7-837c-3a849fb2e28a.png?1754302245",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 86873,
+          "bhk": "1 BHK",
+          "carpetArea": 434,
+          "carpetAreaDisplay": "434 sq.ft",
+          "builtUpArea": null,
+          "price": "1.42 Cr",
+          "actualPrice": 14200000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/17130/configurations/unit-plans/1-bhk/434-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/86873/original/42a572e7-9d78-404b-a67c-90afc8df158d.png?1754302244",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 86874,
+          "bhk": "2 BHK",
+          "carpetArea": 665,
+          "carpetAreaDisplay": "665 sq.ft",
+          "builtUpArea": null,
+          "price": "2.17 Cr",
+          "actualPrice": 21700000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/17130/configurations/unit-plans/2-bhk/665-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/86874/original/c6f6a0f1-6d8d-4c26-8292-e97c248bbfb3.png?1754302245",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 86875,
+          "bhk": "2 BHK",
+          "carpetArea": 767,
+          "carpetAreaDisplay": "767 sq.ft",
+          "builtUpArea": null,
+          "price": "2.5 Cr",
+          "actualPrice": 25000000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/17130/configurations/unit-plans/2-bhk/767-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/86875/original/346820fd-bf31-489a-b367-de54af092af8.png?1754302245",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "390 - 434 sq.ft",
+      "price": "1.27 Cr - 1.42 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "665 - 767 sq.ft",
+      "price": "2.17 Cr - 2.5 Cr"
+    }
+  ]
+}

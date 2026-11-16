@@ -1,0 +1,78 @@
+{
+  "projectId": 16624,
+  "slug": "gajra-bhoomi-serenity-kharghar-pid-16624",
+  "name": "Gajra Bhoomi Serenity",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/gajra-bhoomi-serenity-kharghar-pid-16624",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16624/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6308/original/fpSerenity.png?1716642966",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 64022,
+          "bhk": "2 BHK",
+          "carpetArea": 805,
+          "carpetAreaDisplay": "805 sq.ft",
+          "builtUpArea": null,
+          "price": "1.38 Cr",
+          "actualPrice": 13782405,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/16624/configurations/unit-plans/2-bhk/805-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/64022/original/2.png?1748937205",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 64023,
+          "bhk": "3 BHK",
+          "carpetArea": 1122,
+          "carpetAreaDisplay": "1122 sq.ft",
+          "builtUpArea": null,
+          "price": "1.92 Cr",
+          "actualPrice": 19209762,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/16624/configurations/unit-plans/3-bhk/1122-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/64023/original/3.png?1748937206",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "805 sq.ft",
+      "price": "1.38 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,122 sq.ft",
+      "price": "1.92 Cr"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "projectId": 20100,
+  "slug": "auris-bliss-malad-west-pid-20100",
+  "name": "Auris Bliss",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/auris-bliss-malad-west-pid-20100",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/20100/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/20100/original/master-au.png?1752152498",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 118598,
+          "bhk": "2 BHK",
+          "carpetArea": 586,
+          "carpetAreaDisplay": "586 sq.ft",
+          "builtUpArea": null,
+          "price": "1.88 Cr",
+          "actualPrice": 18800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2.5 BHK",
+      "variants": [
+        {
+          "id": 137270,
+          "bhk": "2.5 BHK",
+          "carpetArea": 676,
+          "carpetAreaDisplay": "676 sq.ft",
+          "builtUpArea": null,
+          "price": "2.17 Cr",
+          "actualPrice": 21700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "586 sq.ft",
+      "price": "1.88 Cr"
+    },
+    {
+      "flat_type_name": "2.5 BHK",
+      "carpet_area": "676 sq.ft",
+      "price": "2.17 Cr"
+    }
+  ]
+}

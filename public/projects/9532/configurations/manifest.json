@@ -1,0 +1,110 @@
+{
+  "projectId": 9532,
+  "slug": "aim-paradise-jogeshwari-east-pid-9532",
+  "name": "AIM Paradise",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/aim-paradise-jogeshwari-east-pid-9532",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9062/original/download_-_2025-12-08T125634.939.png?1765178917",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 32567,
+          "bhk": "1 BHK",
+          "carpetArea": 402,
+          "carpetAreaDisplay": "402 sq.ft",
+          "builtUpArea": null,
+          "price": "1.06 Cr",
+          "actualPrice": 10600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 32568,
+          "bhk": "1 BHK",
+          "carpetArea": 416,
+          "carpetAreaDisplay": "416 sq.ft",
+          "builtUpArea": null,
+          "price": "1.1 Cr",
+          "actualPrice": 11000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 54748,
+          "bhk": "2 BHK",
+          "carpetArea": 580,
+          "carpetAreaDisplay": "580 sq.ft",
+          "builtUpArea": null,
+          "price": "1.53 Cr",
+          "actualPrice": 15300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 54749,
+          "bhk": "2 BHK",
+          "carpetArea": 805,
+          "carpetAreaDisplay": "805 sq.ft",
+          "builtUpArea": null,
+          "price": "2.12 Cr",
+          "actualPrice": 21200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "402 - 416 sq.ft",
+      "price": "1.06 Cr - 1.1 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "580 - 805 sq.ft",
+      "price": "1.53 Cr - 2.12 Cr"
+    }
+  ]
+}

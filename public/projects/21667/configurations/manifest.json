@@ -1,0 +1,103 @@
+{
+  "projectId": 21667,
+  "slug": "squarefeet-green-square",
+  "name": "Squarefeet Green Square",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/squarefeet-green-square-thane-west-pid-21667",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/21667/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/21667/original/Green-Square-brochure-11-2-2048x1116.jpg?1776967096",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21667/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9254/original/layout-plan_typical-floor-web-site-1-1024x585.jpg?1776967097",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 134341,
+          "bhk": "1 BHK",
+          "carpetArea": 291,
+          "carpetAreaDisplay": "291 sq.ft",
+          "builtUpArea": null,
+          "price": "42.24 Lacs",
+          "actualPrice": 4224000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 134342,
+          "bhk": "1 BHK",
+          "carpetArea": 346,
+          "carpetAreaDisplay": "346 sq.ft",
+          "builtUpArea": null,
+          "price": "50.23 Lacs",
+          "actualPrice": 5023000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 134343,
+          "bhk": "2 BHK",
+          "carpetArea": 558,
+          "carpetAreaDisplay": "558 sq.ft",
+          "builtUpArea": null,
+          "price": "81.0 Lacs",
+          "actualPrice": 8100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "291 - 346 sq.ft",
+      "price": "42.24 Lacs - 50.23 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "558 sq.ft",
+      "price": "81.0 Lacs"
+    }
+  ]
+}

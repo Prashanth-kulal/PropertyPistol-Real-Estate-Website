@@ -1,0 +1,91 @@
+{
+  "projectId": 13394,
+  "slug": "viceroy-prive-kandivali-east-pid-13394",
+  "name": "Viceroy Prive",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/viceroy-prive-kandivali-east-pid-13394",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13394/original/Capturedwds.png?1757336450",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4358/original/Capturedwdwx.png?1751885165",
+      "downloaded": false
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4360/original/Capturewedw.png?1751885165",
+      "downloaded": false
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4359/original/Captureswd.png?1757337093",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 41432,
+          "bhk": "4 BHK",
+          "carpetArea": 2037,
+          "carpetAreaDisplay": "2037 sq.ft",
+          "builtUpArea": null,
+          "price": "9.5 Cr",
+          "actualPrice": 95000000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 41431,
+          "bhk": "4 BHK",
+          "carpetArea": 2816,
+          "carpetAreaDisplay": "2816 sq.ft",
+          "builtUpArea": null,
+          "price": "13.13 Cr",
+          "actualPrice": 131300000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,037 - 2,816 sq.ft",
+      "price": "9.5 Cr - 13.13 Cr"
+    }
+  ]
+}

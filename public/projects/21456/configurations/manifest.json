@@ -1,0 +1,126 @@
+{
+  "projectId": 21456,
+  "slug": "prem-arun",
+  "name": "Prem Arun",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/prem-arun-mulund-east-pid-21456",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21456/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9218/original/fp.png?1771910831",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 133049,
+          "bhk": "2 BHK",
+          "carpetArea": 620,
+          "carpetAreaDisplay": "620 sq.ft",
+          "builtUpArea": null,
+          "price": "1.67 Cr",
+          "actualPrice": 16700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 133050,
+          "bhk": "2 BHK",
+          "carpetArea": 708,
+          "carpetAreaDisplay": "708 sq.ft",
+          "builtUpArea": null,
+          "price": "1.91 Cr",
+          "actualPrice": 19100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140042,
+          "bhk": "2 BHK",
+          "carpetArea": 756,
+          "carpetAreaDisplay": "756 sq.ft",
+          "builtUpArea": null,
+          "price": "2.04 Cr",
+          "actualPrice": 20400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 140043,
+          "bhk": "3 BHK",
+          "carpetArea": 882,
+          "carpetAreaDisplay": "882 sq.ft",
+          "builtUpArea": null,
+          "price": "2.38 Cr",
+          "actualPrice": 23800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140044,
+          "bhk": "3 BHK",
+          "carpetArea": 985,
+          "carpetAreaDisplay": "985 sq.ft",
+          "builtUpArea": null,
+          "price": "2.66 Cr",
+          "actualPrice": 26600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "620 - 756 sq.ft",
+      "price": "1.67 Cr - 2.04 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "882 - 985 sq.ft",
+      "price": "2.38 Cr - 2.66 Cr"
+    }
+  ]
+}

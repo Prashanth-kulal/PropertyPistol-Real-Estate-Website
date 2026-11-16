@@ -1,0 +1,94 @@
+{
+  "projectId": 18285,
+  "slug": "park-titan-hinjawadi-pid-18285",
+  "name": "Park Titan",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/park-titan-hinjawadi-pid-18285",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18285/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18285/original/IMG_20241024_162001.jpg?1729767152"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 127662,
+          "bhk": "2 BHK",
+          "carpetArea": 726,
+          "carpetAreaDisplay": "726 sq.ft",
+          "builtUpArea": null,
+          "price": "75.58 Lacs",
+          "actualPrice": 7557660,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 127663,
+          "bhk": "3 BHK",
+          "carpetArea": 1060,
+          "carpetAreaDisplay": "1060 sq.ft",
+          "builtUpArea": null,
+          "price": "1.15 Cr",
+          "actualPrice": 11522200,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 90132,
+          "bhk": "3 BHK",
+          "carpetArea": 1212,
+          "carpetAreaDisplay": "1212 sq.ft",
+          "builtUpArea": null,
+          "price": "1.26 Cr",
+          "actualPrice": 12616920,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "726 sq.ft",
+      "price": "75.58 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,060 - 1,212 sq.ft",
+      "price": "1.15 Cr - 1.26 Cr"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "projectId": 13940,
+  "slug": "satyam-metro-queens-necklace-taloja-pid-13940",
+  "name": "Satyam Metro Queens Necklace",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/satyam-metro-queens-necklace-taloja-pid-13940",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13940/original/2025-05-02_140434.png?1746175325",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7155/original/fp-q2.PNG?1746716285",
+      "downloaded": false
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7925/original/fp-q.PNG?1746716285",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 43079,
+          "bhk": "1 BHK",
+          "carpetArea": 404,
+          "carpetAreaDisplay": "404 sq.ft",
+          "builtUpArea": null,
+          "price": "64.64 Lacs",
+          "actualPrice": 6464000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/43079/original/1.PNG?1731480875",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 137301,
+          "bhk": "3 BHK",
+          "carpetArea": 923,
+          "carpetAreaDisplay": "923 sq.ft",
+          "builtUpArea": null,
+          "price": "1.48 Cr",
+          "actualPrice": 14768000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "404 sq.ft",
+      "price": "64.64 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "923 sq.ft",
+      "price": "1.48 Cr"
+    }
+  ]
+}

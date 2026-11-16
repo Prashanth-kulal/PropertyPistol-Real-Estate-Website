@@ -1,0 +1,144 @@
+{
+  "projectId": 18000,
+  "slug": "prs-windy-woods-aakkulam-pid-18000",
+  "name": "PRS Windy Woods",
+  "city": "trivandrum",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/prs-windy-woods-aakkulam-pid-18000",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18000/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18000/original/pixelcut-export_-_2025-02-18T144149.659.png?1739870213"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18000/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7384/original/pixelcut-export_-_2025-02-18T144053.466.png?1739870216"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 87186,
+          "bhk": "2 BHK",
+          "carpetArea": 753,
+          "carpetAreaDisplay": "753 sq.ft",
+          "builtUpArea": null,
+          "price": "75.2 Lacs",
+          "actualPrice": 7520000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18000/configurations/unit-plans/2-bhk/753-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/87186/original/2.png?1739870214",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 87187,
+          "bhk": "2 BHK",
+          "carpetArea": 879,
+          "carpetAreaDisplay": "879 sq.ft",
+          "builtUpArea": null,
+          "price": "86.58 Lacs",
+          "actualPrice": 8658000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18000/configurations/unit-plans/2-bhk/879-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/87187/original/2b.png?1739870214",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 87188,
+          "bhk": "3 BHK",
+          "carpetArea": 1063,
+          "carpetAreaDisplay": "1063 sq.ft",
+          "builtUpArea": null,
+          "price": "1.02 Cr",
+          "actualPrice": 10200000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18000/configurations/unit-plans/3-bhk/1063-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/87188/original/3.png?1739870214",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 87189,
+          "bhk": "3 BHK",
+          "carpetArea": 1097,
+          "carpetAreaDisplay": "1097 sq.ft",
+          "builtUpArea": null,
+          "price": "1.06 Cr",
+          "actualPrice": 10600000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18000/configurations/unit-plans/3-bhk/1097-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/87189/original/3b.png?1739870214",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 87190,
+          "bhk": "4 BHK",
+          "carpetArea": 1431,
+          "carpetAreaDisplay": "1431 sq.ft",
+          "builtUpArea": null,
+          "price": "1.44 Cr",
+          "actualPrice": 14400000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18000/configurations/unit-plans/4-bhk/1431-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/87190/original/4_%282%29.jpg?1739870213",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "753 - 879 sq.ft",
+      "price": "75.2 Lacs - 86.58 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,063 - 1,097 sq.ft",
+      "price": "1.02 Cr - 1.06 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,431 sq.ft",
+      "price": "1.44 Cr"
+    }
+  ]
+}

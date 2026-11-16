@@ -1,0 +1,68 @@
+{
+  "projectId": 16313,
+  "slug": "samarth-county-ravet-pid-16313",
+  "name": "Samarth County",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/samarth-county-ravet-pid-16313",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16313/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6194/original/floorpla.PNG?1714753736"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 60600,
+          "bhk": "2 BHK",
+          "carpetArea": 755,
+          "carpetAreaDisplay": "755 sq.ft",
+          "builtUpArea": null,
+          "price": "40.96 Lacs",
+          "actualPrice": 4096000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/16313/configurations/unit-plans/2-bhk/755-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/60600/original/2b.PNG?1714753735",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 132512,
+          "bhk": "2 BHK",
+          "carpetArea": 760,
+          "carpetAreaDisplay": "760 sq.ft",
+          "builtUpArea": null,
+          "price": "43.37 Lacs",
+          "actualPrice": 4337000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "755 - 760 sq.ft",
+      "price": "40.96 Lacs - 43.37 Lacs"
+    }
+  ]
+}

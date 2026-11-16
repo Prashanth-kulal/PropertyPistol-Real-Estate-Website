@@ -1,0 +1,78 @@
+{
+  "projectId": 18231,
+  "slug": "oberoi-garden-city-pokhran-road-no-2-pid-18231",
+  "name": "Oberoi Garden City",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/oberoi-garden-city-pokhran-road-no-2-pid-18231",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18231/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6997/original/fp_%281%29.jpg?1756445801",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 89297,
+          "bhk": "3 BHK",
+          "carpetArea": 1411,
+          "carpetAreaDisplay": "1411 sq.ft",
+          "builtUpArea": null,
+          "price": "3.25 Cr",
+          "actualPrice": 32453000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18231/configurations/unit-plans/3-bhk/1411-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/89297/original/3.jpg?1729242009",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 98906,
+          "bhk": "4 BHK",
+          "carpetArea": 2000,
+          "carpetAreaDisplay": "2000 sq.ft",
+          "builtUpArea": null,
+          "price": "4.6 Cr",
+          "actualPrice": 46000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,411 sq.ft",
+      "price": "3.25 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,000 sq.ft",
+      "price": "4.6 Cr"
+    }
+  ]
+}

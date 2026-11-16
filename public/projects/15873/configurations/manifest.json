@@ -1,0 +1,150 @@
+{
+  "projectId": 15873,
+  "slug": "legacy-saviero-hormavu-pid-15873",
+  "name": "Legacy Saviero",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/legacy-saviero-hormavu-pid-15873",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/15873/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/15873/original/masterplan.JPG?1709271406"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/15873/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5764/original/floorplan1.JPG?1709271406"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 118485,
+          "bhk": "2 BHK",
+          "carpetArea": 1460,
+          "carpetAreaDisplay": "1460 sq.ft",
+          "builtUpArea": null,
+          "price": "1.02 Cr",
+          "actualPrice": 10200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 118486,
+          "bhk": "2 BHK",
+          "carpetArea": 1480,
+          "carpetAreaDisplay": "1480 sq.ft",
+          "builtUpArea": null,
+          "price": "1.04 Cr",
+          "actualPrice": 10400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 118484,
+          "bhk": "3 BHK",
+          "carpetArea": 1860,
+          "carpetAreaDisplay": "1860 sq.ft",
+          "builtUpArea": null,
+          "price": "1.3 Cr",
+          "actualPrice": 13000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 83547,
+          "bhk": "3 BHK",
+          "carpetArea": 1870,
+          "carpetAreaDisplay": "1870 sq.ft",
+          "builtUpArea": null,
+          "price": "1.31 Cr",
+          "actualPrice": 13100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 118483,
+          "bhk": "3 BHK",
+          "carpetArea": 1880,
+          "carpetAreaDisplay": "1880 sq.ft",
+          "builtUpArea": null,
+          "price": "1.32 Cr",
+          "actualPrice": 13200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 107147,
+          "bhk": "3 BHK",
+          "carpetArea": 1890,
+          "carpetAreaDisplay": "1890 sq.ft",
+          "builtUpArea": null,
+          "price": "1.32 Cr",
+          "actualPrice": 13200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "1,460 - 1,480 sq.ft",
+      "price": "1.02 Cr - 1.04 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,860 - 1,890 sq.ft",
+      "price": "1.3 Cr - 1.32 Cr"
+    }
+  ]
+}

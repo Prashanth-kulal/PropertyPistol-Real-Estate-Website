@@ -1,0 +1,78 @@
+{
+  "projectId": 16531,
+  "slug": "lotus-urban-homes-charholi-pid-16531",
+  "name": "Lotus Urban Homes",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/lotus-urban-homes-charholi-pid-16531",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16531/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16531/original/cf6450fba87b5be.jpeg?1715943126"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 77267,
+          "bhk": "2 BHK",
+          "carpetArea": 687,
+          "carpetAreaDisplay": "687 sq.ft",
+          "builtUpArea": null,
+          "price": "57.0 Lacs",
+          "actualPrice": 5700000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 134088,
+          "bhk": "3 BHK",
+          "carpetArea": 925,
+          "carpetAreaDisplay": "925 sq.ft",
+          "builtUpArea": null,
+          "price": "73.0 Lacs",
+          "actualPrice": 7300000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "687 sq.ft",
+      "price": "57.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "925 sq.ft",
+      "price": "73.0 Lacs"
+    }
+  ]
+}

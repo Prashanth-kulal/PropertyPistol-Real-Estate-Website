@@ -1,0 +1,92 @@
+{
+  "projectId": 19685,
+  "slug": "tharwanis-sky-view-kharghar-pid-19685",
+  "name": "Tharwanis Sky View",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/tharwanis-sky-view-kharghar-pid-19685",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19685/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7729/original/gp-sky.png?1744909970",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19685/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7730/original/fp-sky.png?1744909970",
+      "downloaded": true
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/19685/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7731/original/sky-fpp.png?1744909970",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 119213,
+          "bhk": "1 BHK",
+          "carpetArea": 450,
+          "carpetAreaDisplay": "450 sq.ft",
+          "builtUpArea": null,
+          "price": "72.17 Lacs",
+          "actualPrice": 7217100,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 107928,
+          "bhk": "2 BHK",
+          "carpetArea": 779,
+          "carpetAreaDisplay": "779 sq.ft",
+          "builtUpArea": null,
+          "price": "1.25 Cr",
+          "actualPrice": 12493602,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19685/configurations/unit-plans/2-bhk/779-sqft/plan-2d.webp",
+          "plan3D": "/projects/19685/configurations/unit-plans/2-bhk/779-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/107928/original/sky-2bhk.png?1744909967",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/107928/original/2bhk-sky.png?1744909968",
+          "has2D": true,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "450 sq.ft",
+      "price": "72.17 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "779 sq.ft",
+      "price": "1.25 Cr"
+    }
+  ]
+}

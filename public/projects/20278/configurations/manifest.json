@@ -1,0 +1,101 @@
+{
+  "projectId": 20278,
+  "slug": "sd-galaxy-kalyan-west-pid-20278",
+  "name": "SD Galaxy",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sd-galaxy-kalyan-west-pid-20278",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20278/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8599/original/tfp2-sd.png?1753350644",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/20278/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8600/original/fp-sd.png?1753350644",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 120292,
+          "bhk": "1 BHK",
+          "carpetArea": 459,
+          "carpetAreaDisplay": "459 sq.ft",
+          "builtUpArea": null,
+          "price": "74.47 Lacs",
+          "actualPrice": 7447000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 120293,
+          "bhk": "2 BHK",
+          "carpetArea": 534,
+          "carpetAreaDisplay": "534 sq.ft",
+          "builtUpArea": null,
+          "price": "86.74 Lacs",
+          "actualPrice": 8674000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 120294,
+          "bhk": "2 BHK",
+          "carpetArea": 623,
+          "carpetAreaDisplay": "623 sq.ft",
+          "builtUpArea": null,
+          "price": "1.01 Cr",
+          "actualPrice": 10100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "459 sq.ft",
+      "price": "74.47 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "534 - 623 sq.ft",
+      "price": "86.74 Lacs - 1.01 Cr"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "projectId": 19646,
+  "slug": "manav-blossom-vasai-west-pid-19646",
+  "name": "Manav Blossom",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/manav-blossom-vasai-west-pid-19646",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19646/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7713/original/fp-blo.jpg?1744731076",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19646/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7714/original/fpp-blo.jpg?1744731076",
+      "downloaded": true
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/19646/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7715/original/fppp-blo.jpg?1744731076",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 107399,
+          "bhk": "1 BHK",
+          "carpetArea": 385,
+          "carpetAreaDisplay": "385 sq.ft",
+          "builtUpArea": null,
+          "price": "44.37 Lacs",
+          "actualPrice": 4437000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 107400,
+          "bhk": "2 BHK",
+          "carpetArea": 560,
+          "carpetAreaDisplay": "560 sq.ft",
+          "builtUpArea": null,
+          "price": "64.42 Lacs",
+          "actualPrice": 6442000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "385 sq.ft",
+      "price": "44.37 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "560 sq.ft",
+      "price": "64.42 Lacs"
+    }
+  ]
+}

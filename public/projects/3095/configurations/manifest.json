@@ -1,0 +1,103 @@
+{
+  "projectId": 3095,
+  "slug": "ekta-verve-khar-road-west-pid-3095",
+  "name": "Ekta Verve",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ekta-verve-khar-road-west-pid-3095",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/3095/original/layout_%281%29.png?1756099532",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/1534/original/fp_%282%29.png?1756099532",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 72369,
+          "bhk": "3 BHK",
+          "carpetArea": 1170,
+          "carpetAreaDisplay": "1170 sq.ft",
+          "builtUpArea": null,
+          "price": "9.0 Cr",
+          "actualPrice": 90000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "5 BHK",
+      "variants": [
+        {
+          "id": 72372,
+          "bhk": "5 BHK",
+          "carpetArea": 2035,
+          "carpetAreaDisplay": "2035 sq.ft",
+          "builtUpArea": null,
+          "price": "15.26 Cr",
+          "actualPrice": 152600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 72373,
+          "bhk": "5 BHK",
+          "carpetArea": 2383,
+          "carpetAreaDisplay": "2383 sq.ft",
+          "builtUpArea": null,
+          "price": "17.87 Cr",
+          "actualPrice": 178700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,170 sq.ft",
+      "price": "9.0 Cr"
+    },
+    {
+      "flat_type_name": "5 BHK",
+      "carpet_area": "2,035 - 2,383 sq.ft",
+      "price": "15.26 Cr - 17.87 Cr"
+    }
+  ]
+}

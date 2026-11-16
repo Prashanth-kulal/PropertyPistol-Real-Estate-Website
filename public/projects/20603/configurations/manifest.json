@@ -1,0 +1,78 @@
+{
+  "projectId": 20603,
+  "slug": "krishna-ikon-panvel-pid-20603",
+  "name": "Krishna Ikon",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/krishna-ikon-panvel-pid-20603",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20603/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9177/original/download_%2819%29.png?1771413705",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 123932,
+          "bhk": "1 BHK",
+          "carpetArea": 429,
+          "carpetAreaDisplay": "429 sq.ft",
+          "builtUpArea": null,
+          "price": "35.75 Lacs",
+          "actualPrice": 3574857,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 123933,
+          "bhk": "2 BHK",
+          "carpetArea": 726,
+          "carpetAreaDisplay": "726 sq.ft",
+          "builtUpArea": null,
+          "price": "60.5 Lacs",
+          "actualPrice": 6049758,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "429 sq.ft",
+      "price": "35.75 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "726 sq.ft",
+      "price": "60.5 Lacs"
+    }
+  ]
+}

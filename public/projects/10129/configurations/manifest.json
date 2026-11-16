@@ -1,0 +1,78 @@
+{
+  "projectId": 10129,
+  "slug": "keya-around-the-life-white-field-pid-10129",
+  "name": "Keya Around The Life",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/keya-around-the-life-white-field-pid-10129",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/10129/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8855/original/mpha.PNG?1762511798"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 33881,
+          "bhk": "2 BHK",
+          "carpetArea": 775,
+          "carpetAreaDisplay": "775 sq.ft",
+          "builtUpArea": null,
+          "price": "80.72 Lacs",
+          "actualPrice": 8071625,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 33882,
+          "bhk": "4 BHK",
+          "carpetArea": 1457,
+          "carpetAreaDisplay": "1457 sq.ft",
+          "builtUpArea": null,
+          "price": "1.52 Cr",
+          "actualPrice": 15174655,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "775 sq.ft",
+      "price": "80.72 Lacs"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,457 sq.ft",
+      "price": "1.52 Cr"
+    }
+  ]
+}

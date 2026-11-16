@@ -1,0 +1,61 @@
+{
+  "projectId": 17876,
+  "slug": "lodha-cullinan-andheri-west-pid-17876",
+  "name": "Lodha Cullinan",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/lodha-cullinan-andheri-west-pid-17876",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/17876/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/17876/original/plan.jpg?1725965765",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/17876/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8549/original/fp-cu.png?1752906523",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 84847,
+          "bhk": "4 BHK",
+          "carpetArea": 4259,
+          "carpetAreaDisplay": "4259 sq.ft",
+          "builtUpArea": null,
+          "price": "24.3 Cr",
+          "actualPrice": 243000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "4,259 sq.ft",
+      "price": "24.3 Cr"
+    }
+  ]
+}

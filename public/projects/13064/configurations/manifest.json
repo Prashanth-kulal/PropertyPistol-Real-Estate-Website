@@ -1,0 +1,84 @@
+{
+  "projectId": 13064,
+  "slug": "b-g-hare-krishna-kunj-kondhwa-pid-13064",
+  "name": "B G Hare Krishna Kunj",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/b-g-hare-krishna-kunj-kondhwa-pid-13064",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/13064/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4229/original/Capturegtgr.png?1753859896"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 40521,
+          "bhk": "2 BHK",
+          "carpetArea": 655,
+          "carpetAreaDisplay": "655 sq.ft",
+          "builtUpArea": null,
+          "price": "55.0 Lacs",
+          "actualPrice": 5500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/13064/configurations/unit-plans/2-bhk/655-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/40521/original/2fdf.PNG?1690448578",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 103225,
+          "bhk": "2 BHK",
+          "carpetArea": 753,
+          "carpetAreaDisplay": "753 sq.ft",
+          "builtUpArea": null,
+          "price": "64.0 Lacs",
+          "actualPrice": 6400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 103226,
+          "bhk": "2 BHK",
+          "carpetArea": 838,
+          "carpetAreaDisplay": "838 sq.ft",
+          "builtUpArea": null,
+          "price": "7.12 Cr",
+          "actualPrice": 71200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "655 - 838 sq.ft",
+      "price": "55.0 Lacs - 7.12 Cr"
+    }
+  ]
+}

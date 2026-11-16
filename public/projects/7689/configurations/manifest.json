@@ -1,0 +1,119 @@
+{
+  "projectId": 7689,
+  "slug": "vihang-nova-d1",
+  "name": "Vihang Nova D1",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/vihang-nova-d1-thane-west-pid-7689",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/7689/original/mp.png?1742199365",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7558/original/fp.png?1742199365",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 23857,
+          "bhk": "1 BHK",
+          "carpetArea": 339,
+          "carpetAreaDisplay": "339 sq.ft",
+          "builtUpArea": null,
+          "price": "51.0 Lacs",
+          "actualPrice": 5100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/23857/original/1.PNG?1742199365",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 23856,
+          "bhk": "1 BHK",
+          "carpetArea": 461,
+          "carpetAreaDisplay": "461 sq.ft",
+          "builtUpArea": null,
+          "price": "61.0 Lacs",
+          "actualPrice": 6100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/23856/original/1b.PNG?1742199365",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 139547,
+          "bhk": "2 BHK",
+          "carpetArea": 644,
+          "carpetAreaDisplay": "644 sq.ft",
+          "builtUpArea": null,
+          "price": "96.9 Lacs",
+          "actualPrice": 9690000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139548,
+          "bhk": "2 BHK",
+          "carpetArea": 844,
+          "carpetAreaDisplay": "844 sq.ft",
+          "builtUpArea": null,
+          "price": "1.27 Cr",
+          "actualPrice": 12700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "339 - 461 sq.ft",
+      "price": "51.0 Lacs - 61.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "644 - 844 sq.ft",
+      "price": "96.9 Lacs - 1.27 Cr"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "projectId": 18190,
+  "slug": "lodha-altus-borivali-west-pid-18190",
+  "name": "Lodha Altus",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/lodha-altus-borivali-west-pid-18190",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18190/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18190/original/mp-altus.png?1752906144",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18190/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8547/original/fp-al.png?1752906144",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 114365,
+          "bhk": "3 BHK",
+          "carpetArea": 1000,
+          "carpetAreaDisplay": "1000 sq.ft",
+          "builtUpArea": null,
+          "price": "6.15 Cr",
+          "actualPrice": 61500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "5 BHK",
+      "variants": [
+        {
+          "id": 119612,
+          "bhk": "5 BHK",
+          "carpetArea": 1800,
+          "carpetAreaDisplay": "1800 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,000 sq.ft",
+      "price": "6.15 Cr"
+    },
+    {
+      "flat_type_name": "5 BHK",
+      "carpet_area": "1,800 sq.ft",
+      "price": "On Request"
+    }
+  ]
+}

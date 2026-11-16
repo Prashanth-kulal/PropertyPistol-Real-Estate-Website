@@ -1,0 +1,78 @@
+{
+  "projectId": 17959,
+  "slug": "birla-ojasvi-rajarajeshwarinagar-pid-17959",
+  "name": "Birla Ojasvi",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/birla-ojasvi-rajarajeshwarinagar-pid-17959",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/17959/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/17959/original/images_%284%29.jpeg?1727183022"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 115568,
+          "bhk": "1 BHK",
+          "carpetArea": 460,
+          "carpetAreaDisplay": "460 sq.ft",
+          "builtUpArea": null,
+          "price": "63.9 Lacs",
+          "actualPrice": 6390320,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 115505,
+          "bhk": "4 BHK",
+          "carpetArea": 3353,
+          "carpetAreaDisplay": "3353 sq.ft",
+          "builtUpArea": null,
+          "price": "4.66 Cr",
+          "actualPrice": 46579876,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "460 sq.ft",
+      "price": "63.9 Lacs"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "3,353 sq.ft",
+      "price": "4.66 Cr"
+    }
+  ]
+}

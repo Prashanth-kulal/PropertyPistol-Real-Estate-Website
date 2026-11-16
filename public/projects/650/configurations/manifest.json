@@ -1,0 +1,61 @@
+{
+  "projectId": 650,
+  "slug": "hill-springs-bhiwandi-pid-650",
+  "name": "Hill Springs",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/hill-springs-bhiwandi-pid-650",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/650/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/650/original/Master_Plan_1%28Water_Mark%29.jpg?1546673807",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/650/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/350/original/Floor_Plan.JPG?1546673808",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 726,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1050,
+          "price": "51.45 Lacs",
+          "actualPrice": 5145000,
+          "propertyType": "Flat",
+          "plan2D": "/projects/650/configurations/unit-plans/2-bhk/variant-726/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/726/original/Unit_Plan_2BHK_%28Water_Mark%29.jpg?1546673807",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "On Request",
+      "price": "51.45 Lacs"
+    }
+  ]
+}

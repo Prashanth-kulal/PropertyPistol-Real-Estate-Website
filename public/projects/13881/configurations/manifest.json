@@ -1,0 +1,94 @@
+{
+  "projectId": 13881,
+  "slug": "metro-crown-vikhroli-west-pid-13881",
+  "name": "Metro Crown",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/metro-crown-vikhroli-west-pid-13881",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4503/original/FP.png?1696443603",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 42909,
+          "bhk": "1 BHK",
+          "carpetArea": 382,
+          "carpetAreaDisplay": "382 sq.ft",
+          "builtUpArea": null,
+          "price": "89.27 Lacs",
+          "actualPrice": 8927000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/42909/original/1.PNG?1696443601",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 126714,
+          "bhk": "1 BHK",
+          "carpetArea": 404,
+          "carpetAreaDisplay": "404 sq.ft",
+          "builtUpArea": null,
+          "price": "94.58 Lacs",
+          "actualPrice": 9458000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 42910,
+          "bhk": "2 BHK",
+          "carpetArea": 598,
+          "carpetAreaDisplay": "598 sq.ft",
+          "builtUpArea": null,
+          "price": "1.4 Cr",
+          "actualPrice": 14000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/42910/original/2.PNG?1696443602",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "382 - 404 sq.ft",
+      "price": "89.27 Lacs - 94.58 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "598 sq.ft",
+      "price": "1.4 Cr"
+    }
+  ]
+}

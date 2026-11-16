@@ -1,0 +1,136 @@
+{
+  "projectId": 4106,
+  "slug": "balaji-annex-thakurli-west-pid-4106",
+  "name": "Balaji Annex",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/balaji-annex-thakurli-west-pid-4106",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2177/original/fp.jpg?1617105462",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 10347,
+          "bhk": "1 BHK",
+          "carpetArea": 465,
+          "carpetAreaDisplay": "465 sq.ft",
+          "builtUpArea": null,
+          "price": "58.59 Lacs",
+          "actualPrice": 5859000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/10347/original/1bhk.PNG?1617105461",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 10349,
+          "bhk": "2 BHK",
+          "carpetArea": 506,
+          "carpetAreaDisplay": "506 sq.ft",
+          "builtUpArea": null,
+          "price": "63.76 Lacs",
+          "actualPrice": 6376000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/10349/original/2bhk.PNG?1617105461",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 29248,
+          "bhk": "2 BHK",
+          "carpetArea": 615,
+          "carpetAreaDisplay": "615 sq.ft",
+          "builtUpArea": null,
+          "price": "77.49 Lacs",
+          "actualPrice": 7749000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 139788,
+          "bhk": "3 BHK",
+          "carpetArea": 743,
+          "carpetAreaDisplay": "743 sq.ft",
+          "builtUpArea": null,
+          "price": "93.62 Lacs",
+          "actualPrice": 9362000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139789,
+          "bhk": "3 BHK",
+          "carpetArea": 754,
+          "carpetAreaDisplay": "754 sq.ft",
+          "builtUpArea": null,
+          "price": "95.0 Lacs",
+          "actualPrice": 9500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "465 sq.ft",
+      "price": "58.59 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "506 - 615 sq.ft",
+      "price": "63.76 Lacs - 77.49 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "743 - 754 sq.ft",
+      "price": "93.62 Lacs - 95.0 Lacs"
+    }
+  ]
+}

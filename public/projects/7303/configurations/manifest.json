@@ -1,0 +1,78 @@
+{
+  "projectId": 7303,
+  "slug": "shubh-shagun-kharadi-pid-7303",
+  "name": "Shubh Shagun",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shubh-shagun-kharadi-pid-7303",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/7303/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/7303/original/mpp.JPG?1671702117"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 91811,
+          "bhk": "1 BHK",
+          "carpetArea": 456,
+          "carpetAreaDisplay": "456 sq.ft",
+          "builtUpArea": null,
+          "price": "59.07 Lacs",
+          "actualPrice": 5907000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "1.5 BHK",
+      "variants": [
+        {
+          "id": 91812,
+          "bhk": "1.5 BHK",
+          "carpetArea": 608,
+          "carpetAreaDisplay": "608 sq.ft",
+          "builtUpArea": null,
+          "price": "1.09 Cr",
+          "actualPrice": 10900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "456 sq.ft",
+      "price": "59.07 Lacs"
+    },
+    {
+      "flat_type_name": "1.5 BHK",
+      "carpet_area": "608 sq.ft",
+      "price": "1.09 Cr"
+    }
+  ]
+}

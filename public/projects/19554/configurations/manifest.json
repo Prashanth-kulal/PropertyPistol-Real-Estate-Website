@@ -1,0 +1,86 @@
+{
+  "projectId": 19554,
+  "slug": "saheel-itrend-vesta-tathawade-pid-19554",
+  "name": "Saheel Itrend Vesta",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/saheel-itrend-vesta-tathawade-pid-19554",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19554/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19554/original/masterplan.PNG?1743857401"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19554/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7671/original/floor1.PNG?1743857403"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 105619,
+          "bhk": "2 BHK",
+          "carpetArea": 756,
+          "carpetAreaDisplay": "756 sq.ft",
+          "builtUpArea": null,
+          "price": "76.28 Lacs",
+          "actualPrice": 7628040,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 105618,
+          "bhk": "3 BHK",
+          "carpetArea": 1041,
+          "carpetAreaDisplay": "1041 sq.ft",
+          "builtUpArea": null,
+          "price": "1.05 Cr",
+          "actualPrice": 10503690,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19554/configurations/unit-plans/3-bhk/1041-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/105618/original/2bhk_2d.PNG?1743857401",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "756 sq.ft",
+      "price": "76.28 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,041 sq.ft",
+      "price": "1.05 Cr"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "projectId": 400,
+  "slug": "paradise-sai-world-city-panvel-pid-400",
+  "name": "Paradise Sai World City",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/paradise-sai-world-city-panvel-pid-400",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/400/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/400/original/Master_Plan.jpg?1752739243",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/400/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/41/original/Floor_Plan_1.JPG?1542615094",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/400/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/42/original/Floor_Plan_2.JPG?1542615094",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 137292,
+          "bhk": "2 BHK",
+          "carpetArea": 626,
+          "carpetAreaDisplay": "626 sq.ft",
+          "builtUpArea": null,
+          "price": "1.25 Cr",
+          "actualPrice": 12500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 137293,
+          "bhk": "2 BHK",
+          "carpetArea": 892,
+          "carpetAreaDisplay": "892 sq.ft",
+          "builtUpArea": null,
+          "price": "1.61 Cr",
+          "actualPrice": 16100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 138792,
+          "bhk": "3 BHK",
+          "carpetArea": 1334,
+          "carpetAreaDisplay": "1334 sq.ft",
+          "builtUpArea": null,
+          "price": "2.41 Cr",
+          "actualPrice": 24100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3.5 BHK",
+      "variants": [
+        {
+          "id": 138793,
+          "bhk": "3.5 BHK",
+          "carpetArea": 1598,
+          "carpetAreaDisplay": "1598 sq.ft",
+          "builtUpArea": null,
+          "price": "2.85 Cr",
+          "actualPrice": 28500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 138794,
+          "bhk": "4 BHK",
+          "carpetArea": 1858,
+          "carpetAreaDisplay": "1858 sq.ft",
+          "builtUpArea": null,
+          "price": "3.34 Cr",
+          "actualPrice": 33400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "626 - 892 sq.ft",
+      "price": "1.25 Cr - 1.61 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,334 sq.ft",
+      "price": "2.41 Cr"
+    },
+    {
+      "flat_type_name": "3.5 BHK",
+      "carpet_area": "1,598 sq.ft",
+      "price": "2.85 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,858 sq.ft",
+      "price": "3.34 Cr"
+    }
+  ]
+}

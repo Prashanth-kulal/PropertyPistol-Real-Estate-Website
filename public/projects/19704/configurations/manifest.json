@@ -1,0 +1,85 @@
+{
+  "projectId": 19704,
+  "slug": "vipul-devtaa-pratham-goregaon-west-pid-19704",
+  "name": "Vipul Devtaa Pratham",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/vipul-devtaa-pratham-goregaon-west-pid-19704",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit"
+  ],
+  "masterPlans": [],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 108679,
+          "bhk": "2 BHK",
+          "carpetArea": 675,
+          "carpetAreaDisplay": "675 sq.ft",
+          "builtUpArea": null,
+          "price": "1.84 Cr",
+          "actualPrice": 18400000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19704/configurations/unit-plans/2-bhk/675-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/108679/original/2bhk-dev.png?1745249715",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 108680,
+          "bhk": "3 BHK",
+          "carpetArea": 750,
+          "carpetAreaDisplay": "750 sq.ft",
+          "builtUpArea": null,
+          "price": "2.04 Cr",
+          "actualPrice": 20400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 108681,
+          "bhk": "3 BHK",
+          "carpetArea": 800,
+          "carpetAreaDisplay": "800 sq.ft",
+          "builtUpArea": null,
+          "price": "2.18 Cr",
+          "actualPrice": 21800000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19704/configurations/unit-plans/3-bhk/800-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/108681/original/3bhk.png?1745249715",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "675 sq.ft",
+      "price": "1.84 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "750 - 800 sq.ft",
+      "price": "2.04 Cr - 2.18 Cr"
+    }
+  ]
+}

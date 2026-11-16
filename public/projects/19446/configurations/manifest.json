@@ -1,0 +1,82 @@
+{
+  "projectId": 19446,
+  "slug": "blueroof-sylva-sus-pid-19446",
+  "name": "Blueroof Sylva",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/blueroof-sylva-sus-pid-19446",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19446/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19446/original/masterplan.PNG?1742814496"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19446/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7606/original/floor1.PNG?1742814498"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19446/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7607/original/floor2.PNG?1742814498"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 103727,
+          "bhk": "2 BHK",
+          "carpetArea": 857,
+          "carpetAreaDisplay": "857 sq.ft",
+          "builtUpArea": null,
+          "price": "80.0 Lacs",
+          "actualPrice": 8000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 103726,
+          "bhk": "2 BHK",
+          "carpetArea": 870,
+          "carpetAreaDisplay": "870 sq.ft",
+          "builtUpArea": null,
+          "price": "81.0 Lacs",
+          "actualPrice": 8100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19446/configurations/unit-plans/2-bhk/870-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/103726/original/2bhk_3d.PNG?1742814496",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "857 - 870 sq.ft",
+      "price": "80.0 Lacs - 81.0 Lacs"
+    }
+  ]
+}

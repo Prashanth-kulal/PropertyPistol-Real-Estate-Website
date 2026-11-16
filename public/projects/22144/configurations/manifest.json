@@ -1,0 +1,110 @@
+{
+  "projectId": 22144,
+  "slug": "regency-landmark",
+  "name": "Regency Landmark",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/regency-landmark-karjat-pid-22144",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/22144/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9603/original/fp.jpg?1785583245",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 137349,
+          "bhk": "1 BHK",
+          "carpetArea": 329,
+          "carpetAreaDisplay": "329 sq.ft",
+          "builtUpArea": null,
+          "price": "25.89 Lacs",
+          "actualPrice": 2589000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/22144/configurations/unit-plans/1-bhk/329-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/137349/original/1b.JPG?1785583243",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 140060,
+          "bhk": "1 BHK",
+          "carpetArea": 440,
+          "carpetAreaDisplay": "440 sq.ft",
+          "builtUpArea": null,
+          "price": "34.63 Lacs",
+          "actualPrice": 3463000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 137350,
+          "bhk": "2 BHK",
+          "carpetArea": 607,
+          "carpetAreaDisplay": "607 sq.ft",
+          "builtUpArea": null,
+          "price": "47.77 Lacs",
+          "actualPrice": 4777000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/22144/configurations/unit-plans/2-bhk/607-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/137350/original/2b.JPG?1785583243",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 140061,
+          "bhk": "2 BHK",
+          "carpetArea": 635,
+          "carpetAreaDisplay": "635 sq.ft",
+          "builtUpArea": null,
+          "price": "49.98 Lacs",
+          "actualPrice": 4998000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "329 - 440 sq.ft",
+      "price": "25.89 Lacs - 34.63 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "607 - 635 sq.ft",
+      "price": "47.77 Lacs - 49.98 Lacs"
+    }
+  ]
+}

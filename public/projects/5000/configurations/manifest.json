@@ -1,0 +1,84 @@
+{
+  "projectId": 5000,
+  "slug": "arv-royale-hadapsar-pid-5000",
+  "name": "ARV Royale",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/arv-royale-hadapsar-pid-5000",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/5000/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8172/original/gp-arv.png?1748063673"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/5000/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8173/original/fp-arv.png?1748063674"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 131756,
+          "bhk": "2 BHK",
+          "carpetArea": 555,
+          "carpetAreaDisplay": "555 sq.ft",
+          "builtUpArea": null,
+          "price": "31.47 Lacs",
+          "actualPrice": 3147000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 131757,
+          "bhk": "3 BHK",
+          "carpetArea": 754,
+          "carpetAreaDisplay": "754 sq.ft",
+          "builtUpArea": null,
+          "price": "42.77 Lacs",
+          "actualPrice": 4277000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "555 sq.ft",
+      "price": "31.47 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "754 sq.ft",
+      "price": "42.77 Lacs"
+    }
+  ]
+}

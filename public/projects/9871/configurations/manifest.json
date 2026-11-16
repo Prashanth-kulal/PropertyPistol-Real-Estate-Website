@@ -1,0 +1,134 @@
+{
+  "projectId": 9871,
+  "slug": "rgs-forte-wakad-pid-9871",
+  "name": "RGS Forte",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/rgs-forte-wakad-pid-9871",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/9871/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/9871/original/Gallery_Page_02.jpg?1671532638"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/9871/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3313/original/Floor_plans_Page_1.jpg?1671532647"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 33351,
+          "bhk": "2 BHK",
+          "carpetArea": 833,
+          "carpetAreaDisplay": "833 sq.ft",
+          "builtUpArea": null,
+          "price": "87.16 Lacs",
+          "actualPrice": 8716000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 76893,
+          "bhk": "2 BHK",
+          "carpetArea": 851,
+          "carpetAreaDisplay": "851 sq.ft",
+          "builtUpArea": null,
+          "price": "89.04 Lacs",
+          "actualPrice": 8904000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 76894,
+          "bhk": "3 BHK",
+          "carpetArea": 1011,
+          "carpetAreaDisplay": "1011 sq.ft",
+          "builtUpArea": null,
+          "price": "1.06 Cr",
+          "actualPrice": 10600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 132511,
+          "bhk": "3 BHK",
+          "carpetArea": 1024,
+          "carpetAreaDisplay": "1024 sq.ft",
+          "builtUpArea": null,
+          "price": "1.07 Cr",
+          "actualPrice": 10700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 76895,
+          "bhk": "3 BHK",
+          "carpetArea": 1067,
+          "carpetAreaDisplay": "1067 sq.ft",
+          "builtUpArea": null,
+          "price": "1.12 Cr",
+          "actualPrice": 11200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "833 - 851 sq.ft",
+      "price": "87.16 Lacs - 89.04 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,011 - 1,067 sq.ft",
+      "price": "1.06 Cr - 1.12 Cr"
+    }
+  ]
+}

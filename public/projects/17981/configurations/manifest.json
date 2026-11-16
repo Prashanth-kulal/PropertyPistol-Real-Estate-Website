@@ -1,0 +1,94 @@
+{
+  "projectId": 17981,
+  "slug": "blue-ocean-residency-dahisar-west-pid-17981",
+  "name": "Blue Ocean Residency",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/blue-ocean-residency-dahisar-west-pid-17981",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/17981/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/17981/original/mp.jpg?1738232983",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 115271,
+          "bhk": "1 BHK",
+          "carpetArea": 418,
+          "carpetAreaDisplay": "418 sq.ft",
+          "builtUpArea": null,
+          "price": "1.19 Cr",
+          "actualPrice": 11900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 115272,
+          "bhk": "1 BHK",
+          "carpetArea": 427,
+          "carpetAreaDisplay": "427 sq.ft",
+          "builtUpArea": null,
+          "price": "1.23 Cr",
+          "actualPrice": 12300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 86997,
+          "bhk": "2 BHK",
+          "carpetArea": 534,
+          "carpetAreaDisplay": "534 sq.ft",
+          "builtUpArea": null,
+          "price": "1.57 Cr",
+          "actualPrice": 15700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "418 - 427 sq.ft",
+      "price": "1.19 Cr - 1.23 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "534 sq.ft",
+      "price": "1.57 Cr"
+    }
+  ]
+}

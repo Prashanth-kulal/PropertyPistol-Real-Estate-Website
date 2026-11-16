@@ -1,0 +1,87 @@
+{
+  "projectId": 8757,
+  "slug": "shreeji-divine-kharghar-pid-8757",
+  "name": "Shreeji Divine",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shreeji-divine-kharghar-pid-8757",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/8757/original/mp.png?1746694944",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7917/original/fp.png?1746694946",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 111684,
+          "bhk": "2 BHK",
+          "carpetArea": 1026,
+          "carpetAreaDisplay": "1026 sq.ft",
+          "builtUpArea": null,
+          "price": "1.69 Cr",
+          "actualPrice": 16890012,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 129626,
+          "bhk": "4 BHK",
+          "carpetArea": 2310,
+          "carpetAreaDisplay": "2310 sq.ft",
+          "builtUpArea": null,
+          "price": "3.8 Cr",
+          "actualPrice": 38027220,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "1,026 sq.ft",
+      "price": "1.69 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,310 sq.ft",
+      "price": "3.8 Cr"
+    }
+  ]
+}

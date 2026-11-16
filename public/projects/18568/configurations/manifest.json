@@ -1,0 +1,136 @@
+{
+  "projectId": 18568,
+  "slug": "r-rekhaz-mulund-west-pid-18568",
+  "name": "R Rekhaz",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/r-rekhaz-mulund-west-pid-18568",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18568/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7128/original/fp_rek.png?1731405160",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 92578,
+          "bhk": "2 BHK",
+          "carpetArea": 707,
+          "carpetAreaDisplay": "707 sq.ft",
+          "builtUpArea": null,
+          "price": "1.77 Cr",
+          "actualPrice": 17700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 97758,
+          "bhk": "3 BHK",
+          "carpetArea": 909,
+          "carpetAreaDisplay": "909 sq.ft",
+          "builtUpArea": null,
+          "price": "2.01 Cr",
+          "actualPrice": 20100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 97759,
+          "bhk": "3 BHK",
+          "carpetArea": 988,
+          "carpetAreaDisplay": "988 sq.ft",
+          "builtUpArea": null,
+          "price": "2.18 Cr",
+          "actualPrice": 21800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 97760,
+          "bhk": "4 BHK",
+          "carpetArea": 2796,
+          "carpetAreaDisplay": "2796 sq.ft",
+          "builtUpArea": null,
+          "price": "6.18 Cr",
+          "actualPrice": 61800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 97757,
+          "bhk": "4 BHK",
+          "carpetArea": 3311,
+          "carpetAreaDisplay": "3311 sq.ft",
+          "builtUpArea": null,
+          "price": "7.32 Cr",
+          "actualPrice": 73200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "707 sq.ft",
+      "price": "1.77 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "909 - 988 sq.ft",
+      "price": "2.01 Cr - 2.18 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,796 - 3,311 sq.ft",
+      "price": "6.18 Cr - 7.32 Cr"
+    }
+  ]
+}

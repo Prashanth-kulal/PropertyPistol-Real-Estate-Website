@@ -1,0 +1,86 @@
+{
+  "projectId": 16568,
+  "slug": "casagrand-casablanca-mallasandra-pid-16568",
+  "name": "Casagrand Casablanca",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/casagrand-casablanca-mallasandra-pid-16568",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16568/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16568/original/mp.PNG?1716458999"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16568/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6281/original/fp.PNG?1716459001"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 94415,
+          "bhk": "2 BHK",
+          "carpetArea": 822,
+          "carpetAreaDisplay": "822 sq.ft",
+          "builtUpArea": null,
+          "price": "76.18 Lacs",
+          "actualPrice": 7618296,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "5 BHK",
+      "variants": [
+        {
+          "id": 94417,
+          "bhk": "5 BHK",
+          "carpetArea": 2592,
+          "carpetAreaDisplay": "2592 sq.ft",
+          "builtUpArea": null,
+          "price": "2.4 Cr",
+          "actualPrice": 24022656,
+          "propertyType": "Pent House",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "822 sq.ft",
+      "price": "76.18 Lacs"
+    },
+    {
+      "flat_type_name": "5 BHK",
+      "carpet_area": "2,592 sq.ft",
+      "price": "2.4 Cr"
+    }
+  ]
+}

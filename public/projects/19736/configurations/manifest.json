@@ -1,0 +1,92 @@
+{
+  "projectId": 19736,
+  "slug": "samsiddhi-springs-white-field-pid-19736",
+  "name": "Samsiddhi Springs",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/samsiddhi-springs-white-field-pid-19736",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19736/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19736/original/masterplan.PNG?1745481871"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19736/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7792/original/floor1.PNG?1745481873"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19736/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7793/original/floor2.PNG?1745481873"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 109383,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1100,
+          "price": "78.65 Lacs",
+          "actualPrice": 7865000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19736/configurations/unit-plans/2-bhk/variant-109383/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/109383/original/2bhk_3dnew.png?1745481871",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 126264,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1700,
+          "price": "1.22 Cr",
+          "actualPrice": 12155000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19736/configurations/unit-plans/3-bhk/variant-126264/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/126264/original/3bhk_3dnew.png?1757652561",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "On Request",
+      "price": "78.65 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "1.22 Cr"
+    }
+  ]
+}

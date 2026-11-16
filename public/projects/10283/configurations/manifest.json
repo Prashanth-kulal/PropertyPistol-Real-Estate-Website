@@ -1,0 +1,52 @@
+{
+  "projectId": 10283,
+  "slug": "ace-enclave",
+  "name": "Ace Enclave",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ace-enclave-owale-pid-10283",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2889/original/'fp.jpg?1669111923",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 34323,
+          "bhk": "1 BHK",
+          "carpetArea": 363,
+          "carpetAreaDisplay": "363 sq.ft",
+          "builtUpArea": null,
+          "price": "50.0 Lacs",
+          "actualPrice": 5000000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/34323/original/1.JPG?1669111922",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "363 sq.ft",
+      "price": "50.0 Lacs"
+    }
+  ]
+}

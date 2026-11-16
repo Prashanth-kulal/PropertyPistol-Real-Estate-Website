@@ -1,0 +1,168 @@
+{
+  "projectId": 19521,
+  "slug": "nand-apartment",
+  "name": "Nand Apartment",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/nand-apartment-panch-pakhdi-pid-19521",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19521/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7642/original/fp-nan_%281%29.png?1743598783",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 104869,
+          "bhk": "2 BHK",
+          "carpetArea": 568,
+          "carpetAreaDisplay": "568 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19521/configurations/unit-plans/2-bhk/568-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/104869/original/bhk_%281%29.png?1743598779",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 104871,
+          "bhk": "2 BHK",
+          "carpetArea": 658,
+          "carpetAreaDisplay": "658 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 104872,
+          "bhk": "2 BHK",
+          "carpetArea": 660,
+          "carpetAreaDisplay": "660 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 104873,
+          "bhk": "2 BHK",
+          "carpetArea": 708,
+          "carpetAreaDisplay": "708 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 104875,
+          "bhk": "3 BHK",
+          "carpetArea": 904,
+          "carpetAreaDisplay": "904 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19521/configurations/unit-plans/3-bhk/904-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/104875/original/download_%2818%29_%281%29.png?1743598779",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 104876,
+          "bhk": "3 BHK",
+          "carpetArea": 997,
+          "carpetAreaDisplay": "997 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 104877,
+          "bhk": "4 BHK",
+          "carpetArea": 1149,
+          "carpetAreaDisplay": "1149 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "568 - 708 sq.ft",
+      "price": "On Request"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "904 - 997 sq.ft",
+      "price": "On Request"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,149 sq.ft",
+      "price": "On Request"
+    }
+  ]
+}

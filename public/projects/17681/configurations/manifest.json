@@ -1,0 +1,74 @@
+{
+  "projectId": 17681,
+  "slug": "nivi-primrose-tower-buti-bori-pid-17681",
+  "name": "Nivi Primrose Tower",
+  "city": "nagpur",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/nivi-primrose-tower-buti-bori-pid-17681",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/17681/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6775/original/floorplan1.PNG?1723540970"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/17681/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6776/original/floorplan2.PNG?1723540970"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 78800,
+          "bhk": "2 BHK",
+          "carpetArea": 646,
+          "carpetAreaDisplay": "646 sq.ft",
+          "builtUpArea": null,
+          "price": "29.0 Lacs",
+          "actualPrice": 2900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 78801,
+          "bhk": "2 BHK",
+          "carpetArea": 710,
+          "carpetAreaDisplay": "710 sq.ft",
+          "builtUpArea": null,
+          "price": "31.0 Lacs",
+          "actualPrice": 3100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "646 - 710 sq.ft",
+      "price": "29.0 Lacs - 31.0 Lacs"
+    }
+  ]
+}

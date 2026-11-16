@@ -1,0 +1,110 @@
+{
+  "projectId": 4560,
+  "slug": "omkar-planet",
+  "name": "Omkar Planet",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/omkar-planet-nerul-pid-4560",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2311/original/fp.jpg?1628148738",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 98178,
+          "bhk": "2 BHK",
+          "carpetArea": 755,
+          "carpetAreaDisplay": "755 sq.ft",
+          "builtUpArea": null,
+          "price": "3.89 Cr",
+          "actualPrice": 38900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/98178/original/2_%2818%29.png?1747475635",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 98179,
+          "bhk": "2 BHK",
+          "carpetArea": 760,
+          "carpetAreaDisplay": "760 sq.ft",
+          "builtUpArea": null,
+          "price": "3.91 Cr",
+          "actualPrice": 39100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 80245,
+          "bhk": "3 BHK",
+          "carpetArea": 1035,
+          "carpetAreaDisplay": "1035 sq.ft",
+          "builtUpArea": null,
+          "price": "3.6 Cr",
+          "actualPrice": 36000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/80245/original/3.png?1747475635",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 137750,
+          "bhk": "3 BHK",
+          "carpetArea": 1061,
+          "carpetAreaDisplay": "1061 sq.ft",
+          "builtUpArea": null,
+          "price": "5.46 Cr",
+          "actualPrice": 54600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "755 - 760 sq.ft",
+      "price": "3.89 Cr - 3.91 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,035 - 1,061 sq.ft",
+      "price": "3.6 Cr - 5.46 Cr"
+    }
+  ]
+}

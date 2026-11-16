@@ -1,0 +1,110 @@
+{
+  "projectId": 20340,
+  "slug": "geras-planet-of-joy-kharadi-pid-20340",
+  "name": "Geras Planet of Joy",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/geras-planet-of-joy-kharadi-pid-20340",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20340/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8645/original/fp-gera.png?1753707733"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 130945,
+          "bhk": "2 BHK",
+          "carpetArea": 725,
+          "carpetAreaDisplay": "725 sq.ft",
+          "builtUpArea": null,
+          "price": "1.31 Cr",
+          "actualPrice": 13100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 138311,
+          "bhk": "2 BHK",
+          "carpetArea": 918,
+          "carpetAreaDisplay": "918 sq.ft",
+          "builtUpArea": null,
+          "price": "1.48 Cr",
+          "actualPrice": 14800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 138312,
+          "bhk": "3 BHK",
+          "carpetArea": 1158,
+          "carpetAreaDisplay": "1158 sq.ft",
+          "builtUpArea": null,
+          "price": "1.65 Cr",
+          "actualPrice": 16500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 138313,
+          "bhk": "3 BHK",
+          "carpetArea": 1660,
+          "carpetAreaDisplay": "1660 sq.ft",
+          "builtUpArea": null,
+          "price": "2.35 Cr",
+          "actualPrice": 23500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "725 - 918 sq.ft",
+      "price": "1.31 Cr - 1.48 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,158 - 1,660 sq.ft",
+      "price": "1.65 Cr - 2.35 Cr"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "projectId": 14106,
+  "slug": "ruparel-crest-kurla-east-pid-14106",
+  "name": "Ruparel Crest",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ruparel-crest-kurla-east-pid-14106",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/14106/original/mp_%284%29.jpg?1697105954",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 131446,
+          "bhk": "1 BHK",
+          "carpetArea": 391,
+          "carpetAreaDisplay": "391 sq.ft",
+          "builtUpArea": null,
+          "price": "88.0 Lacs",
+          "actualPrice": 8800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 131447,
+          "bhk": "2 BHK",
+          "carpetArea": 580,
+          "carpetAreaDisplay": "580 sq.ft",
+          "builtUpArea": null,
+          "price": "1.68 Cr",
+          "actualPrice": 16800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 43500,
+          "bhk": "3 BHK",
+          "carpetArea": 870,
+          "carpetAreaDisplay": "870 sq.ft",
+          "builtUpArea": null,
+          "price": "2.17 Cr",
+          "actualPrice": 21700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "391 sq.ft",
+      "price": "88.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "580 sq.ft",
+      "price": "1.68 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "870 sq.ft",
+      "price": "2.17 Cr"
+    }
+  ]
+}

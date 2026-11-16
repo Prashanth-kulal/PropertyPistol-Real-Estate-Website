@@ -1,0 +1,132 @@
+{
+  "projectId": 18798,
+  "slug": "techops-grand-sakkardara-pid-18798",
+  "name": "Techops Grand",
+  "city": "nagpur",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/techops-grand-sakkardara-pid-18798",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18798/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7238/original/floorplan1.png?1752562382"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/18798/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7239/original/floorplan2.png?1752562382"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 94078,
+          "bhk": "2 BHK",
+          "carpetArea": 549,
+          "carpetAreaDisplay": "549 sq.ft",
+          "builtUpArea": null,
+          "price": "44.47 Lacs",
+          "actualPrice": 4447000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/18798/configurations/unit-plans/2-bhk/549-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/94078/original/2bhk_3d.PNG?1732799249",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 119053,
+          "bhk": "2 BHK",
+          "carpetArea": 581,
+          "carpetAreaDisplay": "581 sq.ft",
+          "builtUpArea": null,
+          "price": "47.06 Lacs",
+          "actualPrice": 4706000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 119054,
+          "bhk": "2 BHK",
+          "carpetArea": 635,
+          "carpetAreaDisplay": "635 sq.ft",
+          "builtUpArea": null,
+          "price": "51.44 Lacs",
+          "actualPrice": 5144000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 119055,
+          "bhk": "3 BHK",
+          "carpetArea": 818,
+          "carpetAreaDisplay": "818 sq.ft",
+          "builtUpArea": null,
+          "price": "66.26 Lacs",
+          "actualPrice": 6626000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 119056,
+          "bhk": "3 BHK",
+          "carpetArea": 840,
+          "carpetAreaDisplay": "840 sq.ft",
+          "builtUpArea": null,
+          "price": "68.04 Lacs",
+          "actualPrice": 6804000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "549 - 635 sq.ft",
+      "price": "44.47 Lacs - 51.44 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "818 - 840 sq.ft",
+      "price": "66.26 Lacs - 68.04 Lacs"
+    }
+  ]
+}

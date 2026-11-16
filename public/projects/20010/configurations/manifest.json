@@ -1,0 +1,78 @@
+{
+  "projectId": 20010,
+  "slug": "godrej-tiara-yeshwanthpur-pid-20010",
+  "name": "Godrej Tiara",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/godrej-tiara-yeshwanthpur-pid-20010",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/20010/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/20010/original/mp.PNG?1749806808"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 116367,
+          "bhk": "3 BHK",
+          "carpetArea": 1300,
+          "carpetAreaDisplay": "1300 sq.ft",
+          "builtUpArea": null,
+          "price": "3.3 Cr",
+          "actualPrice": 33000500,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20010/configurations/unit-plans/3-bhk/1300-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/116367/original/3.PNG?1749806808",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "5 BHK",
+      "variants": [
+        {
+          "id": 126266,
+          "bhk": "5 BHK",
+          "carpetArea": 1911,
+          "carpetAreaDisplay": "1911 sq.ft",
+          "builtUpArea": null,
+          "price": "4.85 Cr",
+          "actualPrice": 48510735,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,300 sq.ft",
+      "price": "3.3 Cr"
+    },
+    {
+      "flat_type_name": "5 BHK",
+      "carpet_area": "1,911 sq.ft",
+      "price": "4.85 Cr"
+    }
+  ]
+}

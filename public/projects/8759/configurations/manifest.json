@@ -1,0 +1,87 @@
+{
+  "projectId": 8759,
+  "slug": "h-b-codename-the-gateway-taloja-pid-8759",
+  "name": "H B Codename The Gateway",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/h-b-codename-the-gateway-taloja-pid-8759",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/8759/original/mp.JPG?1661852029",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2920/original/fp.JPG?1669270824",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 130967,
+          "bhk": "1 BHK",
+          "carpetArea": 362,
+          "carpetAreaDisplay": "362 sq.ft",
+          "builtUpArea": null,
+          "price": "35.0 Lacs",
+          "actualPrice": 3500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 134967,
+          "bhk": "2 BHK",
+          "carpetArea": 552,
+          "carpetAreaDisplay": "552 sq.ft",
+          "builtUpArea": null,
+          "price": "51.0 Lacs",
+          "actualPrice": 5100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "362 sq.ft",
+      "price": "35.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "552 sq.ft",
+      "price": "51.0 Lacs"
+    }
+  ]
+}

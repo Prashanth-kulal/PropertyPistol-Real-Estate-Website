@@ -1,0 +1,140 @@
+{
+  "projectId": 20137,
+  "slug": "sarvoday-datt-kalyan-west-pid-20137",
+  "name": "Sarvoday Datt",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sarvoday-datt-kalyan-west-pid-20137",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/20137/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/20137/original/mp-sarv.png?1752488977",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20137/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8482/original/gp-sarv.png?1752488979",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/20137/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8483/original/fp-sarv3.png?1752488979",
+      "downloaded": true
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/20137/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8484/original/fp-sar4.png?1752488979",
+      "downloaded": true
+    },
+    {
+      "id": 4,
+      "title": "Layout / Site Plan 4",
+      "path": "/projects/20137/configurations/site-plans/site-plan-04.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8485/original/fp-sar5.png?1752488980",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 118960,
+          "bhk": "1 BHK",
+          "carpetArea": 298,
+          "carpetAreaDisplay": "298 sq.ft",
+          "builtUpArea": null,
+          "price": "49.88 Lacs",
+          "actualPrice": 4988000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/20137/configurations/unit-plans/1-bhk/298-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/118960/original/1bhk-3d-sarv.png?1752488977",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 128142,
+          "bhk": "1 BHK",
+          "carpetArea": 318,
+          "carpetAreaDisplay": "318 sq.ft",
+          "builtUpArea": null,
+          "price": "53.23 Lacs",
+          "actualPrice": 5323000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 128141,
+          "bhk": "2 BHK",
+          "carpetArea": 431,
+          "carpetAreaDisplay": "431 sq.ft",
+          "builtUpArea": null,
+          "price": "73.27 Lacs",
+          "actualPrice": 7327000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 128140,
+          "bhk": "2 BHK",
+          "carpetArea": 484,
+          "carpetAreaDisplay": "484 sq.ft",
+          "builtUpArea": null,
+          "price": "82.28 Lacs",
+          "actualPrice": 8228000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "298 - 318 sq.ft",
+      "price": "49.88 Lacs - 53.23 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "431 - 484 sq.ft",
+      "price": "73.27 Lacs - 82.28 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "projectId": 7132,
+  "slug": "royal-hill-crest-ravet-pid-7132",
+  "name": "Royal Hill Crest",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/royal-hill-crest-ravet-pid-7132",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/7132/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/7132/original/mmmmp.png?1753966593"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/7132/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2567/original/fp_%286%29.png?1753966593"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 138675,
+          "bhk": "1 BHK",
+          "carpetArea": 605,
+          "carpetAreaDisplay": "605 sq.ft",
+          "builtUpArea": null,
+          "price": "69.97 Lacs",
+          "actualPrice": 6997000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 103585,
+          "bhk": "2 BHK",
+          "carpetArea": 769,
+          "carpetAreaDisplay": "769 sq.ft",
+          "builtUpArea": null,
+          "price": "88.94 Lacs",
+          "actualPrice": 8894000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 103587,
+          "bhk": "2 BHK",
+          "carpetArea": 807,
+          "carpetAreaDisplay": "807 sq.ft",
+          "builtUpArea": null,
+          "price": "93.34 Lacs",
+          "actualPrice": 9334000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 35175,
+          "bhk": "2 BHK",
+          "carpetArea": 828,
+          "carpetAreaDisplay": "828 sq.ft",
+          "builtUpArea": null,
+          "price": "95.77 Lacs",
+          "actualPrice": 9577000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 121624,
+          "bhk": "2 BHK",
+          "carpetArea": 846,
+          "carpetAreaDisplay": "846 sq.ft",
+          "builtUpArea": null,
+          "price": "97.85 Lacs",
+          "actualPrice": 9785000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 121625,
+          "bhk": "2 BHK",
+          "carpetArea": 858,
+          "carpetAreaDisplay": "858 sq.ft",
+          "builtUpArea": null,
+          "price": "99.24 Lacs",
+          "actualPrice": 9924000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "605 sq.ft",
+      "price": "69.97 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "769 - 858 sq.ft",
+      "price": "88.94 Lacs - 99.24 Lacs"
+    }
+  ]
+}

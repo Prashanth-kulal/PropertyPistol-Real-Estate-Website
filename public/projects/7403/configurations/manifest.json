@@ -1,0 +1,202 @@
+{
+  "projectId": 7403,
+  "slug": "hill-shire-wagholi-pid-7403",
+  "name": "Hill Shire",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/hill-shire-wagholi-pid-7403",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/7403/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/7403/original/mp.JPG?1671692596"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/7403/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3351/original/fp.JPG?1671692597"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 122824,
+          "bhk": "1 BHK",
+          "carpetArea": 258,
+          "carpetAreaDisplay": "258 sq.ft",
+          "builtUpArea": null,
+          "price": "26.21 Lacs",
+          "actualPrice": 2621000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 122825,
+          "bhk": "1 BHK",
+          "carpetArea": 424,
+          "carpetAreaDisplay": "424 sq.ft",
+          "builtUpArea": null,
+          "price": "43.08 Lacs",
+          "actualPrice": 4308000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 122823,
+          "bhk": "1 BHK",
+          "carpetArea": 438,
+          "carpetAreaDisplay": "438 sq.ft",
+          "builtUpArea": null,
+          "price": "38.67 Lacs",
+          "actualPrice": 3867000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 122828,
+          "bhk": "2 BHK",
+          "carpetArea": 553,
+          "carpetAreaDisplay": "553 sq.ft",
+          "builtUpArea": null,
+          "price": "57.9 Lacs",
+          "actualPrice": 5790000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 122827,
+          "bhk": "2 BHK",
+          "carpetArea": 721,
+          "carpetAreaDisplay": "721 sq.ft",
+          "builtUpArea": null,
+          "price": "63.47 Lacs",
+          "actualPrice": 6347000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "1.5 BHK",
+      "variants": [
+        {
+          "id": 122826,
+          "bhk": "1.5 BHK",
+          "carpetArea": 664,
+          "carpetAreaDisplay": "664 sq.ft",
+          "builtUpArea": null,
+          "price": "58.26 Lacs",
+          "actualPrice": 5826000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 122831,
+          "bhk": "3 BHK",
+          "carpetArea": 768,
+          "carpetAreaDisplay": "768 sq.ft",
+          "builtUpArea": null,
+          "price": "70.44 Lacs",
+          "actualPrice": 7044000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 122829,
+          "bhk": "3 BHK",
+          "carpetArea": 1001,
+          "carpetAreaDisplay": "1001 sq.ft",
+          "builtUpArea": null,
+          "price": "87.84 Lacs",
+          "actualPrice": 8784000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "258 - 438 sq.ft",
+      "price": "26.21 Lacs - 43.08 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "553 - 721 sq.ft",
+      "price": "57.9 Lacs - 63.47 Lacs"
+    },
+    {
+      "flat_type_name": "1.5 BHK",
+      "carpet_area": "664 sq.ft",
+      "price": "58.26 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "768 - 1,001 sq.ft",
+      "price": "70.44 Lacs - 87.84 Lacs"
+    }
+  ]
+}

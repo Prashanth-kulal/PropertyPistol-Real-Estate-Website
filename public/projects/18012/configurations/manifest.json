@@ -1,0 +1,68 @@
+{
+  "projectId": 18012,
+  "slug": "assetz-63-degree-east-sarjapur-road-pid-18012",
+  "name": "Assetz 63 Degree East",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/assetz-63-degree-east-sarjapur-road-pid-18012",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18012/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18012/original/cf5cf1033c1294c.png?1727538349"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 87285,
+          "bhk": "3 BHK",
+          "carpetArea": 1059,
+          "carpetAreaDisplay": "1059 sq.ft",
+          "builtUpArea": null,
+          "price": "1.27 Cr",
+          "actualPrice": 12700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 87284,
+          "bhk": "3 BHK",
+          "carpetArea": 1088,
+          "carpetAreaDisplay": "1088 sq.ft",
+          "builtUpArea": null,
+          "price": "1.34 Cr",
+          "actualPrice": 13400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,059 - 1,088 sq.ft",
+      "price": "1.27 Cr - 1.34 Cr"
+    }
+  ]
+}

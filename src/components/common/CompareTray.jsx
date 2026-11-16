@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { X, ArrowRight, Trash2 } from "lucide-react";
 import { useComparison } from "@/context/ComparisonContext";
-import { getProjectSlug } from "@/data/projectsData";
+import { getProjectSlug } from "@/lib/projectUtils";
 
 export default function CompareTray() {
   const router = useRouter();

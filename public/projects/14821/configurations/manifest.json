@@ -1,0 +1,103 @@
+{
+  "projectId": 14821,
+  "slug": "swastik-avighna-ghatkopar-west-pid-14821",
+  "name": "Swastik Avighna",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/swastik-avighna-ghatkopar-west-pid-14821",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/14821/original/mp.jpg?1702281535",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5152/original/fp.jpg?1756365124",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 128226,
+          "bhk": "2 BHK",
+          "carpetArea": 431,
+          "carpetAreaDisplay": "431 sq.ft",
+          "builtUpArea": null,
+          "price": "1.32 Cr",
+          "actualPrice": 13200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139441,
+          "bhk": "2 BHK",
+          "carpetArea": 653,
+          "carpetAreaDisplay": "653 sq.ft",
+          "builtUpArea": null,
+          "price": "2.07 Cr",
+          "actualPrice": 20700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 139442,
+          "bhk": "3 BHK",
+          "carpetArea": 860,
+          "carpetAreaDisplay": "860 sq.ft",
+          "builtUpArea": null,
+          "price": "2.7 Cr",
+          "actualPrice": 27000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "431 - 653 sq.ft",
+      "price": "1.32 Cr - 2.07 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "860 sq.ft",
+      "price": "2.7 Cr"
+    }
+  ]
+}

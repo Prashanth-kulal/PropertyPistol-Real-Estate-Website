@@ -1,0 +1,118 @@
+{
+  "projectId": 15749,
+  "slug": "duville-riverdale-grand-kharadi-pid-15749",
+  "name": "Duville Riverdale Grand",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/duville-riverdale-grand-kharadi-pid-15749",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/15749/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/15749/original/Masterplan.JPG?1708499713"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/15749/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5596/original/floorplan1.JPG?1708499714"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 129042,
+          "bhk": "3 BHK",
+          "carpetArea": 1085,
+          "carpetAreaDisplay": "1085 sq.ft",
+          "builtUpArea": null,
+          "price": "1.43 Cr",
+          "actualPrice": 14311150,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 129043,
+          "bhk": "3 BHK",
+          "carpetArea": 1144,
+          "carpetAreaDisplay": "1144 sq.ft",
+          "builtUpArea": null,
+          "price": "1.59 Cr",
+          "actualPrice": 15884440,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 129045,
+          "bhk": "3 BHK",
+          "carpetArea": 1577,
+          "carpetAreaDisplay": "1577 sq.ft",
+          "builtUpArea": null,
+          "price": "2.19 Cr",
+          "actualPrice": 21896645,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "5 BHK",
+      "variants": [
+        {
+          "id": 134389,
+          "bhk": "5 BHK",
+          "carpetArea": 2290,
+          "carpetAreaDisplay": "2290 sq.ft",
+          "builtUpArea": null,
+          "price": "3.34 Cr",
+          "actualPrice": 33434000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,085 - 1,577 sq.ft",
+      "price": "1.43 Cr - 2.19 Cr"
+    },
+    {
+      "flat_type_name": "5 BHK",
+      "carpet_area": "2,290 sq.ft",
+      "price": "3.34 Cr"
+    }
+  ]
+}

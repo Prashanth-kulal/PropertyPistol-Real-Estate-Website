@@ -1,0 +1,119 @@
+{
+  "projectId": 18425,
+  "slug": "shikara-pride-panvel-pid-18425",
+  "name": "Shikara Pride",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shikara-pride-panvel-pid-18425",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18425/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18425/original/download.png?1730815407",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18425/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7055/original/fp-.png?1730815409",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 91533,
+          "bhk": "1 BHK",
+          "carpetArea": 432,
+          "carpetAreaDisplay": "432 sq.ft",
+          "builtUpArea": null,
+          "price": "47.0 Lacs",
+          "actualPrice": 4700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 91535,
+          "bhk": "1 BHK",
+          "carpetArea": 462,
+          "carpetAreaDisplay": "462 sq.ft",
+          "builtUpArea": null,
+          "price": "49.2 Lacs",
+          "actualPrice": 4920000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 91534,
+          "bhk": "2 BHK",
+          "carpetArea": 591,
+          "carpetAreaDisplay": "591 sq.ft",
+          "builtUpArea": null,
+          "price": "58.0 Lacs",
+          "actualPrice": 5800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 130965,
+          "bhk": "2 BHK",
+          "carpetArea": 624,
+          "carpetAreaDisplay": "624 sq.ft",
+          "builtUpArea": null,
+          "price": "61.2 Lacs",
+          "actualPrice": 6120000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "432 - 462 sq.ft",
+      "price": "47.0 Lacs - 49.2 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "591 - 624 sq.ft",
+      "price": "58.0 Lacs - 61.2 Lacs"
+    }
+  ]
+}

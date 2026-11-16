@@ -1,0 +1,104 @@
+{
+  "projectId": 15859,
+  "slug": "ssvr-niyaara-varthur-pid-15859",
+  "name": "SSVR Niyaara",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ssvr-niyaara-varthur-pid-15859",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/15859/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/15859/original/masterplan.JPG?1709123626"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/15859/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5742/original/floorplan1.JPG?1709123627"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/15859/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5743/original/floorplan2.JPG?1709123627"
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/15859/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5744/original/floorplan3.JPG?1709123627"
+    },
+    {
+      "id": 4,
+      "title": "Layout / Site Plan 4",
+      "path": "/projects/15859/configurations/site-plans/site-plan-04.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5745/original/floorplan4.JPG?1709123627"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 59058,
+          "bhk": "2 BHK",
+          "carpetArea": 767,
+          "carpetAreaDisplay": "767 sq.ft",
+          "builtUpArea": null,
+          "price": "96.76 Lacs",
+          "actualPrice": 9675705,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 59059,
+          "bhk": "3 BHK",
+          "carpetArea": 1063,
+          "carpetAreaDisplay": "1063 sq.ft",
+          "builtUpArea": null,
+          "price": "1.34 Cr",
+          "actualPrice": 13409745,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "767 sq.ft",
+      "price": "96.76 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,063 sq.ft",
+      "price": "1.34 Cr"
+    }
+  ]
+}

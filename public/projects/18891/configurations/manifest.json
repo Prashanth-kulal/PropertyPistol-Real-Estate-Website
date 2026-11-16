@@ -1,0 +1,87 @@
+{
+  "projectId": 18891,
+  "slug": "innovative-crystal-kharghar-pid-18891",
+  "name": "Innovative Crystal",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/innovative-crystal-kharghar-pid-18891",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18891/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18891/original/mp.png?1748935805",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18891/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8296/original/fp.png?1748935805",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 96003,
+          "bhk": "1 BHK",
+          "carpetArea": 435,
+          "carpetAreaDisplay": "435 sq.ft",
+          "builtUpArea": null,
+          "price": "55.0 Lacs",
+          "actualPrice": 5500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 96006,
+          "bhk": "2 BHK",
+          "carpetArea": 734,
+          "carpetAreaDisplay": "734 sq.ft",
+          "builtUpArea": null,
+          "price": "96.0 Lacs",
+          "actualPrice": 9600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "435 sq.ft",
+      "price": "55.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "734 sq.ft",
+      "price": "96.0 Lacs"
+    }
+  ]
+}

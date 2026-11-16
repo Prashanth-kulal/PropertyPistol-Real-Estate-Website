@@ -1,0 +1,117 @@
+{
+  "projectId": 16545,
+  "slug": "adityaraj-one",
+  "name": "Adityaraj One",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/adityaraj-one-vikhroli-east-pid-16545",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16545/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6271/original/FloorplanAdi.PNG?1715952688",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/16545/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6272/original/floorplanAdi2.PNG?1715952689",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 135542,
+          "bhk": "1 BHK",
+          "carpetArea": 432,
+          "carpetAreaDisplay": "432 sq.ft",
+          "builtUpArea": null,
+          "price": "97.56 Lacs",
+          "actualPrice": 9756000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 62502,
+          "bhk": "1 BHK",
+          "carpetArea": 486,
+          "carpetAreaDisplay": "486 sq.ft",
+          "builtUpArea": null,
+          "price": "1.1 Cr",
+          "actualPrice": 11000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/16545/configurations/unit-plans/1-bhk/486-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/62502/original/1bhkAdi.PNG?1715952687",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 62501,
+          "bhk": "2 BHK",
+          "carpetArea": 610,
+          "carpetAreaDisplay": "610 sq.ft",
+          "builtUpArea": null,
+          "price": "1.38 Cr",
+          "actualPrice": 13800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/16545/configurations/unit-plans/2-bhk/610-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/62501/original/2bhkAdi.PNG?1715952687",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 62503,
+          "bhk": "2 BHK",
+          "carpetArea": 643,
+          "carpetAreaDisplay": "643 sq.ft",
+          "builtUpArea": null,
+          "price": "1.45 Cr",
+          "actualPrice": 14500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/16545/configurations/unit-plans/2-bhk/643-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/62503/original/2bhkAdi.PNG?1715952688",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "432 - 486 sq.ft",
+      "price": "97.56 Lacs - 1.1 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "610 - 643 sq.ft",
+      "price": "1.38 Cr - 1.45 Cr"
+    }
+  ]
+}

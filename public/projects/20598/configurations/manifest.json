@@ -1,0 +1,136 @@
+{
+  "projectId": 20598,
+  "slug": "baya-solstice-andheri-east-pid-20598",
+  "name": "Baya Solstice",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/baya-solstice-andheri-east-pid-20598",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20598/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8929/original/bay.PNG?1763453682",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 123680,
+          "bhk": "2 BHK",
+          "carpetArea": 777,
+          "carpetAreaDisplay": "777 sq.ft",
+          "builtUpArea": null,
+          "price": "2.13 Cr",
+          "actualPrice": 21300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140424,
+          "bhk": "2 BHK",
+          "carpetArea": 914,
+          "carpetAreaDisplay": "914 sq.ft",
+          "builtUpArea": null,
+          "price": "2.5 Cr",
+          "actualPrice": 25000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2.5 BHK",
+      "variants": [
+        {
+          "id": 140425,
+          "bhk": "2.5 BHK",
+          "carpetArea": 973,
+          "carpetAreaDisplay": "973 sq.ft",
+          "builtUpArea": null,
+          "price": "2.63 Cr",
+          "actualPrice": 26300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 123682,
+          "bhk": "3 BHK",
+          "carpetArea": 1359,
+          "carpetAreaDisplay": "1359 sq.ft",
+          "builtUpArea": null,
+          "price": "3.67 Cr",
+          "actualPrice": 36700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140426,
+          "bhk": "3 BHK",
+          "carpetArea": 1466,
+          "carpetAreaDisplay": "1466 sq.ft",
+          "builtUpArea": null,
+          "price": "3.96 Cr",
+          "actualPrice": 39600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "777 - 914 sq.ft",
+      "price": "2.13 Cr - 2.5 Cr"
+    },
+    {
+      "flat_type_name": "2.5 BHK",
+      "carpet_area": "973 sq.ft",
+      "price": "2.63 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,359 - 1,466 sq.ft",
+      "price": "3.67 Cr - 3.96 Cr"
+    }
+  ]
+}

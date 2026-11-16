@@ -1,0 +1,86 @@
+{
+  "projectId": 4948,
+  "slug": "vtp-hilife-wakad-pid-4948",
+  "name": "VTP Hilife",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/vtp-hilife-wakad-pid-4948",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/4948/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/4948/original/mp.png?1787376865"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/4948/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8053/original/floor16.jpg?1747821727"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 113769,
+          "bhk": "2 BHK",
+          "carpetArea": 648,
+          "carpetAreaDisplay": "648 sq.ft",
+          "builtUpArea": null,
+          "price": "64.0 Lacs",
+          "actualPrice": 6400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 131583,
+          "bhk": "3 BHK",
+          "carpetArea": 1031,
+          "carpetAreaDisplay": "1031 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "648 sq.ft",
+      "price": "64.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,031 sq.ft",
+      "price": "On Request"
+    }
+  ]
+}

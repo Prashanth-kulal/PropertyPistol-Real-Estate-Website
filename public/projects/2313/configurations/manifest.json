@@ -1,0 +1,94 @@
+{
+  "projectId": 2313,
+  "slug": "tokyo-bay-phase-2b1-mirai",
+  "name": "Tokyo Bay Phase 2B1 Mirai",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/tokyo-bay-phase-2b1-mirai-ghodbunder-road-pid-2313",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/2313/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/2313/original/layout.PNG?1568178267",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 133112,
+          "bhk": "1 BHK",
+          "carpetArea": 355,
+          "carpetAreaDisplay": "355 sq.ft",
+          "builtUpArea": null,
+          "price": "50.99 Lacs",
+          "actualPrice": 5099000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 133113,
+          "bhk": "2 BHK",
+          "carpetArea": 575,
+          "carpetAreaDisplay": "575 sq.ft",
+          "builtUpArea": null,
+          "price": "85.99 Lacs",
+          "actualPrice": 8599000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140020,
+          "bhk": "2 BHK",
+          "carpetArea": 604,
+          "carpetAreaDisplay": "604 sq.ft",
+          "builtUpArea": null,
+          "price": "92.99 Lacs",
+          "actualPrice": 9299000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "355 sq.ft",
+      "price": "50.99 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "575 - 604 sq.ft",
+      "price": "85.99 Lacs - 92.99 Lacs"
+    }
+  ]
+}

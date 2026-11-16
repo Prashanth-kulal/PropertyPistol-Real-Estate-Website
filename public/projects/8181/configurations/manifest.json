@@ -1,0 +1,110 @@
+{
+  "projectId": 8181,
+  "slug": "godrej-sky-greens-kharadi-pid-8181",
+  "name": "Godrej Sky Greens",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/godrej-sky-greens-kharadi-pid-8181",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/8181/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/8181/original/mp.png?1669448514"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 131191,
+          "bhk": "2 BHK",
+          "carpetArea": 497,
+          "carpetAreaDisplay": "497 sq.ft",
+          "builtUpArea": null,
+          "price": "71.65 Lacs",
+          "actualPrice": 7165000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 131189,
+          "bhk": "2 BHK",
+          "carpetArea": 606,
+          "carpetAreaDisplay": "606 sq.ft",
+          "builtUpArea": null,
+          "price": "88.0 Lacs",
+          "actualPrice": 8800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 131190,
+          "bhk": "2 BHK",
+          "carpetArea": 624,
+          "carpetAreaDisplay": "624 sq.ft",
+          "builtUpArea": null,
+          "price": "89.96 Lacs",
+          "actualPrice": 8996000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 137220,
+          "bhk": "3 BHK",
+          "carpetArea": 850,
+          "carpetAreaDisplay": "850 sq.ft",
+          "builtUpArea": null,
+          "price": "1.17 Cr",
+          "actualPrice": 11700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "497 - 624 sq.ft",
+      "price": "71.65 Lacs - 89.96 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "850 sq.ft",
+      "price": "1.17 Cr"
+    }
+  ]
+}

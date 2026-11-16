@@ -1,0 +1,94 @@
+{
+  "projectId": 16515,
+  "slug": "techno-aakasa",
+  "name": "Techno Aakasa",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/techno-aakasa-worli-pid-16515",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16515/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16515/original/0ec1f603-a5e8-43ff-9db8-a53ca2cb2165_copy_1920x1440.png?1754325215",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 62392,
+          "bhk": "3 BHK",
+          "carpetArea": 1300,
+          "carpetAreaDisplay": "1300 sq.ft",
+          "builtUpArea": null,
+          "price": "6.8 Cr",
+          "actualPrice": 68000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 133752,
+          "bhk": "4 BHK",
+          "carpetArea": 1596,
+          "carpetAreaDisplay": "1596 sq.ft",
+          "builtUpArea": null,
+          "price": "7.68 Cr",
+          "actualPrice": 76800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 137861,
+          "bhk": "4 BHK",
+          "carpetArea": 1600,
+          "carpetAreaDisplay": "1600 sq.ft",
+          "builtUpArea": null,
+          "price": "7.7 Cr",
+          "actualPrice": 77000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,300 sq.ft",
+      "price": "6.8 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,596 - 1,600 sq.ft",
+      "price": "7.68 Cr - 7.7 Cr"
+    }
+  ]
+}

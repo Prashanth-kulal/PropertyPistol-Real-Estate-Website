@@ -1,0 +1,110 @@
+{
+  "projectId": 13373,
+  "slug": "saujanya-rachanaa-andheri-west-pid-13373",
+  "name": "Saujanya Rachanaa ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/saujanya-rachanaa-andheri-west-pid-13373",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4351/original/SAUJANYA-1ST-FLOOR-PLAN-scaled.jpg?1692185332",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 41372,
+          "bhk": "2 BHK",
+          "carpetArea": 651,
+          "carpetAreaDisplay": "651 sq.ft",
+          "builtUpArea": null,
+          "price": "2.5 Cr",
+          "actualPrice": 25000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 41371,
+          "bhk": "2 BHK",
+          "carpetArea": 657,
+          "carpetAreaDisplay": "657 sq.ft",
+          "builtUpArea": null,
+          "price": "2.52 Cr",
+          "actualPrice": 25200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 46987,
+          "bhk": "3 BHK",
+          "carpetArea": 817,
+          "carpetAreaDisplay": "817 sq.ft",
+          "builtUpArea": null,
+          "price": "3.13 Cr",
+          "actualPrice": 31300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 46988,
+          "bhk": "3 BHK",
+          "carpetArea": 1148,
+          "carpetAreaDisplay": "1148 sq.ft",
+          "builtUpArea": null,
+          "price": "4.4 Cr",
+          "actualPrice": 44000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "651 - 657 sq.ft",
+      "price": "2.5 Cr - 2.52 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "817 - 1,148 sq.ft",
+      "price": "3.13 Cr - 4.4 Cr"
+    }
+  ]
+}

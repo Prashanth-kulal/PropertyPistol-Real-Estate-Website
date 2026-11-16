@@ -1,0 +1,126 @@
+{
+  "projectId": 19863,
+  "slug": "bhakti-pride-chembur-pid-19863",
+  "name": "Bhakti Pride ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/bhakti-pride-chembur-pid-19863",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19863/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8074/original/tfp.png?1747843523",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 131637,
+          "bhk": "2 BHK",
+          "carpetArea": 514,
+          "carpetAreaDisplay": "514 sq.ft",
+          "builtUpArea": null,
+          "price": "1.6 Cr",
+          "actualPrice": 16000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 117930,
+          "bhk": "2 BHK",
+          "carpetArea": 635,
+          "carpetAreaDisplay": "635 sq.ft",
+          "builtUpArea": null,
+          "price": "1.77 Cr",
+          "actualPrice": 17700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 136611,
+          "bhk": "2 BHK",
+          "carpetArea": 711,
+          "carpetAreaDisplay": "711 sq.ft",
+          "builtUpArea": null,
+          "price": "2.22 Cr",
+          "actualPrice": 22200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 113851,
+          "bhk": "3 BHK",
+          "carpetArea": 1035,
+          "carpetAreaDisplay": "1035 sq.ft",
+          "builtUpArea": null,
+          "price": "3.23 Cr",
+          "actualPrice": 32300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 113852,
+          "bhk": "3 BHK",
+          "carpetArea": 1080,
+          "carpetAreaDisplay": "1080 sq.ft",
+          "builtUpArea": null,
+          "price": "3.37 Cr",
+          "actualPrice": 33700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19863/configurations/unit-plans/3-bhk/1080-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/113852/original/3bhk-bh_%281%29.png?1747843514",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "514 - 711 sq.ft",
+      "price": "1.6 Cr - 2.22 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,035 - 1,080 sq.ft",
+      "price": "3.23 Cr - 3.37 Cr"
+    }
+  ]
+}

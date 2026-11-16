@@ -1,0 +1,78 @@
+{
+  "projectId": 5883,
+  "slug": "ats-kingston-heath-sector-150-pid-5883",
+  "name": "ATS Kingston Heath",
+  "city": "noida",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ats-kingston-heath-sector-150-pid-5883",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/5883/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/5883/original/mpp.png?1752645219"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3.5 BHK",
+      "variants": [
+        {
+          "id": 18506,
+          "bhk": "3.5 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2350,
+          "price": "3.99 Cr",
+          "actualPrice": 39900000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/5883/configurations/unit-plans/3-5-bhk/variant-18506/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/18506/original/3bhk-2d-ats.png?1752645219",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 18507,
+          "bhk": "4 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 3300,
+          "price": "5.6 Cr",
+          "actualPrice": 56000000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/5883/configurations/unit-plans/4-bhk/variant-18507/plan-2d.webp",
+          "plan3D": "/projects/5883/configurations/unit-plans/4-bhk/variant-18507/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/18507/original/4bhk-ats-2d.png?1752645219",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/18507/original/4bhk-ats-3d.png?1752645219",
+          "has2D": true,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3.5 BHK",
+      "carpet_area": "On Request",
+      "price": "3.99 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "On Request",
+      "price": "5.6 Cr"
+    }
+  ]
+}

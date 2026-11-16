@@ -1,0 +1,68 @@
+{
+  "projectId": 12853,
+  "slug": "elina-liva-nibm-road-pid-12853",
+  "name": "Elina Liva",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/elina-liva-nibm-road-pid-12853",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/12853/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/12853/original/download.jpeg?1689248125"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 39786,
+          "bhk": "2 BHK",
+          "carpetArea": 821,
+          "carpetAreaDisplay": "821 sq.ft",
+          "builtUpArea": null,
+          "price": "95.72 Lacs",
+          "actualPrice": 9572000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 39787,
+          "bhk": "2 BHK",
+          "carpetArea": 880,
+          "carpetAreaDisplay": "880 sq.ft",
+          "builtUpArea": null,
+          "price": "1.01 Cr",
+          "actualPrice": 10100000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "821 - 880 sq.ft",
+      "price": "95.72 Lacs - 1.01 Cr"
+    }
+  ]
+}

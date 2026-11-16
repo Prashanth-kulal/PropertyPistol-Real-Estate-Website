@@ -1,0 +1,61 @@
+{
+  "projectId": 3044,
+  "slug": "enrich-eva-asangaon-pid-3044",
+  "name": "Enrich Eva",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/enrich-eva-asangaon-pid-3044",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/3044/original/mp.png?1750836328",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8399/original/fp.png?1750836329",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 112257,
+          "bhk": "2 BHK",
+          "carpetArea": 468,
+          "carpetAreaDisplay": "468 sq.ft",
+          "builtUpArea": null,
+          "price": "24.53 Lacs",
+          "actualPrice": 2453000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "468 sq.ft",
+      "price": "24.53 Lacs"
+    }
+  ]
+}

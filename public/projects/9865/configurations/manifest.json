@@ -1,0 +1,102 @@
+{
+  "projectId": 9865,
+  "slug": "vikram-midori-towers-pimple-nilakh-pid-9865",
+  "name": "Vikram Midori Towers",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/vikram-midori-towers-pimple-nilakh-pid-9865",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/9865/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/9865/original/mp.png?1671532979"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/9865/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3314/original/fp.png?1671532980"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 33340,
+          "bhk": "2 BHK",
+          "carpetArea": 769,
+          "carpetAreaDisplay": "769 sq.ft",
+          "builtUpArea": null,
+          "price": "96.0 Lacs",
+          "actualPrice": 9600000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 33341,
+          "bhk": "3 BHK",
+          "carpetArea": 1130,
+          "carpetAreaDisplay": "1130 sq.ft",
+          "builtUpArea": null,
+          "price": "1.45 Cr",
+          "actualPrice": 14500000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139633,
+          "bhk": "3 BHK",
+          "carpetArea": 1159,
+          "carpetAreaDisplay": "1159 sq.ft",
+          "builtUpArea": null,
+          "price": "1.49 Cr",
+          "actualPrice": 14900000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "769 sq.ft",
+      "price": "96.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,130 - 1,159 sq.ft",
+      "price": "1.45 Cr - 1.49 Cr"
+    }
+  ]
+}

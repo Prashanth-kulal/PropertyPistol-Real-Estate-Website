@@ -1,0 +1,85 @@
+{
+  "projectId": 20965,
+  "slug": "super-homez-harmony-virar-west-pid-20965",
+  "name": "Super Homez Harmony",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/super-homez-harmony-virar-west-pid-20965",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit"
+  ],
+  "masterPlans": [],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 127294,
+          "bhk": "1 BHK",
+          "carpetArea": 291,
+          "carpetAreaDisplay": "291 sq.ft",
+          "builtUpArea": null,
+          "price": "27.49 Lacs",
+          "actualPrice": 2749000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20965/configurations/unit-plans/1-bhk/291-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/127294/original/1.jpg?1763447633",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 137589,
+          "bhk": "1 BHK",
+          "carpetArea": 311,
+          "carpetAreaDisplay": "311 sq.ft",
+          "builtUpArea": null,
+          "price": "2.95 Lacs",
+          "actualPrice": 294900,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 127295,
+          "bhk": "2 BHK",
+          "carpetArea": 405,
+          "carpetAreaDisplay": "405 sq.ft",
+          "builtUpArea": null,
+          "price": "37.49 Lacs",
+          "actualPrice": 3749000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20965/configurations/unit-plans/2-bhk/405-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/127295/original/2.jpg?1763447633",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "291 - 311 sq.ft",
+      "price": "2.95 Lacs - 27.49 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "405 sq.ft",
+      "price": "37.49 Lacs"
+    }
+  ]
+}

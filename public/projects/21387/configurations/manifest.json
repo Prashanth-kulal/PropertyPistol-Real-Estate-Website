@@ -1,0 +1,110 @@
+{
+  "projectId": 21387,
+  "slug": "sigma-amber-kandivali-west-pid-21387",
+  "name": "Sigma Amber",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sigma-amber-kandivali-west-pid-21387",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21387/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9209/original/fpp.PNG?1771667743",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 132914,
+          "bhk": "1 BHK",
+          "carpetArea": 407,
+          "carpetAreaDisplay": "407 sq.ft",
+          "builtUpArea": null,
+          "price": "90.32 Lacs",
+          "actualPrice": 9032000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 132915,
+          "bhk": "1 BHK",
+          "carpetArea": 410,
+          "carpetAreaDisplay": "410 sq.ft",
+          "builtUpArea": null,
+          "price": "91.01 Lacs",
+          "actualPrice": 9101000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 140258,
+          "bhk": "2 BHK",
+          "carpetArea": 608,
+          "carpetAreaDisplay": "608 sq.ft",
+          "builtUpArea": null,
+          "price": "1.35 Cr",
+          "actualPrice": 13500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140259,
+          "bhk": "2 BHK",
+          "carpetArea": 630,
+          "carpetAreaDisplay": "630 sq.ft",
+          "builtUpArea": null,
+          "price": "1.4 Cr",
+          "actualPrice": 14000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "407 - 410 sq.ft",
+      "price": "90.32 Lacs - 91.01 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "608 - 630 sq.ft",
+      "price": "1.35 Cr - 1.4 Cr"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "projectId": 18250,
+  "slug": "renox-thrive-sector-10-greater-noida-pid-18250",
+  "name": "Renox Thrive",
+  "city": "noida",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/renox-thrive-sector-10-greater-noida-pid-18250",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18250/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18250/original/master-plan-img-1.jpg?1729679954"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 89858,
+          "bhk": "3 BHK",
+          "carpetArea": 1582,
+          "carpetAreaDisplay": "1582 sq.ft",
+          "builtUpArea": null,
+          "price": "1.42 Cr",
+          "actualPrice": 14200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/18250/configurations/unit-plans/3-bhk/1582-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/89858/original/3.png?1729679954",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 89864,
+          "bhk": "4 BHK",
+          "carpetArea": 2566,
+          "carpetAreaDisplay": "2566 sq.ft",
+          "builtUpArea": null,
+          "price": "2.3 Cr",
+          "actualPrice": 23000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,582 sq.ft",
+      "price": "1.42 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,566 sq.ft",
+      "price": "2.3 Cr"
+    }
+  ]
+}

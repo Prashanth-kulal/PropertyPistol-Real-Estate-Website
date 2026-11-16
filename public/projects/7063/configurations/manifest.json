@@ -1,0 +1,64 @@
+{
+  "projectId": 7063,
+  "slug": "purva-aspire-bavdhan-pid-7063",
+  "name": "Purva Aspire",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/purva-aspire-bavdhan-pid-7063",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/7063/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8756/original/tfp-purva.png?1754652798"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/7063/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8757/original/sfp-purva.png?1754652798"
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/7063/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8758/original/fp-purva.png?1754652798"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 21169,
+          "bhk": "2 BHK",
+          "carpetArea": 828,
+          "carpetAreaDisplay": "828 sq.ft",
+          "builtUpArea": null,
+          "price": "1.16 Cr",
+          "actualPrice": 11600000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": "/projects/7063/configurations/unit-plans/2-bhk/828-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/21169/original/2.JPG?1669187757",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "828 sq.ft",
+      "price": "1.16 Cr"
+    }
+  ]
+}

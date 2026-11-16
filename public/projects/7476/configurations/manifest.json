@@ -1,0 +1,135 @@
+{
+  "projectId": 7476,
+  "slug": "buildcon-royal-palm-vasind-pid-7476",
+  "name": "Buildcon Royal Palm ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/buildcon-royal-palm-vasind-pid-7476",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/7476/original/mp.jpg?1739436792",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2915/original/fp.JPG?1669201044",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 22382,
+          "bhk": "1 BHK",
+          "carpetArea": 334,
+          "carpetAreaDisplay": "334 sq.ft",
+          "builtUpArea": null,
+          "price": "16.36 Lacs",
+          "actualPrice": 1636000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/22382/original/1.JPG?1669201043",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 55695,
+          "bhk": "1 BHK",
+          "carpetArea": 378,
+          "carpetAreaDisplay": "378 sq.ft",
+          "builtUpArea": null,
+          "price": "18.52 Lacs",
+          "actualPrice": 1852000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 123075,
+          "bhk": "1 BHK",
+          "carpetArea": 409,
+          "carpetAreaDisplay": "409 sq.ft",
+          "builtUpArea": null,
+          "price": "20.04 Lacs",
+          "actualPrice": 2004000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 123076,
+          "bhk": "1 BHK",
+          "carpetArea": 417,
+          "carpetAreaDisplay": "417 sq.ft",
+          "builtUpArea": null,
+          "price": "20.43 Lacs",
+          "actualPrice": 2043000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 123077,
+          "bhk": "2 BHK",
+          "carpetArea": 522,
+          "carpetAreaDisplay": "522 sq.ft",
+          "builtUpArea": null,
+          "price": "25.55 Lacs",
+          "actualPrice": 2555000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "334 - 417 sq.ft",
+      "price": "16.36 Lacs - 20.43 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "522 sq.ft",
+      "price": "25.55 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "projectId": 19537,
+  "slug": "k-town-kiwale-pid-19537",
+  "name": "K Town",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/k-town-kiwale-pid-19537",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19537/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19537/original/masterplan.PNG?1743681237"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 127659,
+          "bhk": "2 BHK",
+          "carpetArea": 852,
+          "carpetAreaDisplay": "852 sq.ft",
+          "builtUpArea": null,
+          "price": "75.83 Lacs",
+          "actualPrice": 7582800,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 127660,
+          "bhk": "4 BHK",
+          "carpetArea": 1120,
+          "carpetAreaDisplay": "1120 sq.ft",
+          "builtUpArea": null,
+          "price": "99.68 Lacs",
+          "actualPrice": 9968000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "852 sq.ft",
+      "price": "75.83 Lacs"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,120 sq.ft",
+      "price": "99.68 Lacs"
+    }
+  ]
+}

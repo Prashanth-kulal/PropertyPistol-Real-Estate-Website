@@ -1,0 +1,94 @@
+{
+  "projectId": 16674,
+  "slug": "geetmala-green-city-ghodegaon-pid-16674",
+  "name": "Geetmala Green City",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/geetmala-green-city-ghodegaon-pid-16674",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16674/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16674/original/cf631847cd95ef2.jpeg?1716870056"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 64520,
+          "bhk": "1 BHK",
+          "carpetArea": 493,
+          "carpetAreaDisplay": "493 sq.ft",
+          "builtUpArea": null,
+          "price": "22.01 Lacs",
+          "actualPrice": 2201000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 64522,
+          "bhk": "1 BHK",
+          "carpetArea": 600,
+          "carpetAreaDisplay": "600 sq.ft",
+          "builtUpArea": null,
+          "price": "27.0 Lacs",
+          "actualPrice": 2700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 101594,
+          "bhk": "2 BHK",
+          "carpetArea": 642,
+          "carpetAreaDisplay": "642 sq.ft",
+          "builtUpArea": null,
+          "price": "32.0 Lacs",
+          "actualPrice": 3200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "493 - 600 sq.ft",
+      "price": "22.01 Lacs - 27.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "642 sq.ft",
+      "price": "32.0 Lacs"
+    }
+  ]
+}

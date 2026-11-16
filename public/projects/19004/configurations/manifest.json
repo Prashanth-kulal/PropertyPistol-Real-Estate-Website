@@ -1,0 +1,78 @@
+{
+  "projectId": 19004,
+  "slug": "downtown-avenue-vashi-pid-19004",
+  "name": "Downtown Avenue",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/downtown-avenue-vashi-pid-19004",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19004/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8037/original/fp.PNG?1747807353",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 113706,
+          "bhk": "3 BHK",
+          "carpetArea": 1732,
+          "carpetAreaDisplay": "1732 sq.ft",
+          "builtUpArea": null,
+          "price": "5.2 Cr",
+          "actualPrice": 51960000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 98518,
+          "bhk": "4 BHK",
+          "carpetArea": 3032,
+          "carpetAreaDisplay": "3032 sq.ft",
+          "builtUpArea": null,
+          "price": "9.1 Cr",
+          "actualPrice": 90960000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,732 sq.ft",
+      "price": "5.2 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "3,032 sq.ft",
+      "price": "9.1 Cr"
+    }
+  ]
+}

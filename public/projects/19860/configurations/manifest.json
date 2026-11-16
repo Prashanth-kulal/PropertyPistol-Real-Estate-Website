@@ -1,0 +1,85 @@
+{
+  "projectId": 19860,
+  "slug": "the-royal-bay-nerul-pid-19860",
+  "name": "The Royal Bay",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/the-royal-bay-nerul-pid-19860",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19860/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8070/original/fp-r.png?1747837418",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19860/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8071/original/gp-royal.png?1747837418",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 113839,
+          "bhk": "2 BHK",
+          "carpetArea": 882,
+          "carpetAreaDisplay": "882 sq.ft",
+          "builtUpArea": null,
+          "price": "2.2 Cr",
+          "actualPrice": 21975030,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19860/configurations/unit-plans/2-bhk/882-sqft/plan-2d.webp",
+          "plan3D": "/projects/19860/configurations/unit-plans/2-bhk/882-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/113839/original/2bhk-2d.png?1776324998",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/113839/original/2bhk.png?1776324998",
+          "has2D": true,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 113841,
+          "bhk": "3 BHK",
+          "carpetArea": 1280,
+          "carpetAreaDisplay": "1280 sq.ft",
+          "builtUpArea": null,
+          "price": "3.19 Cr",
+          "actualPrice": 31891200,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19860/configurations/unit-plans/3-bhk/1280-sqft/plan-2d.webp",
+          "plan3D": "/projects/19860/configurations/unit-plans/3-bhk/1280-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/113841/original/3bhk-2d.png?1776324998",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/113841/original/3bhk.png?1776324998",
+          "has2D": true,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "882 sq.ft",
+      "price": "2.2 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,280 sq.ft",
+      "price": "3.19 Cr"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "projectId": 8063,
+  "slug": "elated-khushvista-nibm-road-pid-8063",
+  "name": "Elated Khushvista",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/elated-khushvista-nibm-road-pid-8063",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/8063/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/8063/original/mp.png?1671173769"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/8063/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3253/original/fp.png?1671173770"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 99834,
+          "bhk": "1 BHK",
+          "carpetArea": 395,
+          "carpetAreaDisplay": "395 sq.ft",
+          "builtUpArea": null,
+          "price": "37.99 Lacs",
+          "actualPrice": 3799000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 111315,
+          "bhk": "1 BHK",
+          "carpetArea": 410,
+          "carpetAreaDisplay": "410 sq.ft",
+          "builtUpArea": null,
+          "price": "39.43 Lacs",
+          "actualPrice": 3943000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 136074,
+          "bhk": "2 BHK",
+          "carpetArea": 707,
+          "carpetAreaDisplay": "707 sq.ft",
+          "builtUpArea": null,
+          "price": "67.99 Lacs",
+          "actualPrice": 6799000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 136075,
+          "bhk": "2 BHK",
+          "carpetArea": 712,
+          "carpetAreaDisplay": "712 sq.ft",
+          "builtUpArea": null,
+          "price": "68.47 Lacs",
+          "actualPrice": 6847000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 136076,
+          "bhk": "2 BHK",
+          "carpetArea": 714,
+          "carpetAreaDisplay": "714 sq.ft",
+          "builtUpArea": null,
+          "price": "68.67 Lacs",
+          "actualPrice": 6867000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "395 - 410 sq.ft",
+      "price": "37.99 Lacs - 39.43 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "707 - 714 sq.ft",
+      "price": "67.99 Lacs - 68.67 Lacs"
+    }
+  ]
+}

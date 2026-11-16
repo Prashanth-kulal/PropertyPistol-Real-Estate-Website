@@ -1,0 +1,86 @@
+{
+  "projectId": 20275,
+  "slug": "ashraya-meadows-seegehalli-pid-20275",
+  "name": "Ashraya Meadows",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ashraya-meadows-seegehalli-pid-20275",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/20275/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/20275/original/master.PNG?1753348402"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20275/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8595/original/floor.PNG?1753348407"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 120277,
+          "bhk": "2 BHK",
+          "carpetArea": 759,
+          "carpetAreaDisplay": "759 sq.ft",
+          "builtUpArea": null,
+          "price": "74.73 Lacs",
+          "actualPrice": 7473114,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 120280,
+          "bhk": "3 BHK",
+          "carpetArea": 910,
+          "carpetAreaDisplay": "910 sq.ft",
+          "builtUpArea": null,
+          "price": "89.6 Lacs",
+          "actualPrice": 8959860,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "759 sq.ft",
+      "price": "74.73 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "910 sq.ft",
+      "price": "89.6 Lacs"
+    }
+  ]
+}

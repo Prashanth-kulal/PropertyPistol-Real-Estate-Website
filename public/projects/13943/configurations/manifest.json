@@ -1,0 +1,110 @@
+{
+  "projectId": 13943,
+  "slug": "prestige-ocean-tower",
+  "name": "Prestige Ocean Tower",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/prestige-ocean-tower-girgaon-pid-13943",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13943/original/mp.png?1745910670",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 43092,
+          "bhk": "4 BHK",
+          "carpetArea": 2263,
+          "carpetAreaDisplay": "2263 sq.ft",
+          "builtUpArea": null,
+          "price": "26.21 Cr",
+          "actualPrice": 262100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 57019,
+          "bhk": "4 BHK",
+          "carpetArea": 2503,
+          "carpetAreaDisplay": "2503 sq.ft",
+          "builtUpArea": null,
+          "price": "29.0 Cr",
+          "actualPrice": 290000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "5 BHK",
+      "variants": [
+        {
+          "id": 133747,
+          "bhk": "5 BHK",
+          "carpetArea": 3175,
+          "carpetAreaDisplay": "3175 sq.ft",
+          "builtUpArea": null,
+          "price": "36.78 Cr",
+          "actualPrice": 367800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 133748,
+          "bhk": "5 BHK",
+          "carpetArea": 3527,
+          "carpetAreaDisplay": "3527 sq.ft",
+          "builtUpArea": null,
+          "price": "40.85 Cr",
+          "actualPrice": 408500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,263 - 2,503 sq.ft",
+      "price": "26.21 Cr - 29.0 Cr"
+    },
+    {
+      "flat_type_name": "5 BHK",
+      "carpet_area": "3,175 - 3,527 sq.ft",
+      "price": "36.78 Cr - 40.85 Cr"
+    }
+  ]
+}

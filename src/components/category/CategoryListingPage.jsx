@@ -40,10 +40,10 @@ import WishlistButton from "@/components/common/WishlistButton";
 import CompareCheckbox from "@/components/common/CompareCheckbox";
 import CompareTray from "@/components/common/CompareTray";
 import { useWishlist } from "@/context/WishlistContext";
-import { CITIES, PROJECTS, getProjectSlug } from "@/data";
-import { getCityDetails, getPropertiesForCity } from "@/data/cityData";
+import { CITIES, getCityDetails, getPropertiesForCity } from "@/data/cityData";
+import { getProjectSlug } from "@/lib/projectUtils";
 import { resolveCategory } from "@/data/categoryData";
-import { getSearchSuggestions, interpretSearchQuery } from "@/data/searchIndex";
+import { getSearchSuggestions, interpretSearchQuery, warmUpSearchIndex } from "@/data/searchIndex";
 
 // Helper for dynamic numbered pagination with ellipses (matching Screenshot 2)
 function getPageNumbers(current, total) {
@@ -90,7 +90,7 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
         id: "all",
         name: "All Cities",
         state: "Pan-India",
-        projectsCount: PROJECTS.length,
+        projectsCount: 5744,
         description: "Explore verified luxury residential properties across top Indian metropolitan regions."
       };
     }
@@ -99,7 +99,7 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
 
   const rawProperties = useMemo(() => {
     if (isPanIndia) {
-      return PROJECTS;
+      return getPropertiesForCity("all");
     }
     return getPropertiesForCity(matchedCity.id);
   }, [matchedCity.id, isPanIndia]);
@@ -671,7 +671,10 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
                 setSearchQuery(e.target.value);
                 setShowSuggestions(true);
               }}
-              onFocus={() => setShowSuggestions(true)}
+              onFocus={() => {
+                warmUpSearchIndex();
+                setShowSuggestions(true);
+              }}
               onKeyDown={handleSubSearchKeyDown}
               placeholder="Enter Locality, Property or Developer"
               className="w-full pl-10 pr-8 py-2 rounded-xl border border-gray-200 bg-white text-xs text-gray-800 placeholder-gray-400 focus:outline-hidden focus:border-[#EA580C] transition-colors"

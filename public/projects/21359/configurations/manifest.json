@@ -1,0 +1,78 @@
+{
+  "projectId": 21359,
+  "slug": "tara-regency-ulwe-pid-21359",
+  "name": "Tara Regency",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/tara-regency-ulwe-pid-21359",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21359/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9703/original/download.png?1789464842",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 132850,
+          "bhk": "1 BHK",
+          "carpetArea": 455,
+          "carpetAreaDisplay": "455 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 132851,
+          "bhk": "2 BHK",
+          "carpetArea": 717,
+          "carpetAreaDisplay": "717 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "455 sq.ft",
+      "price": "On Request"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "717 sq.ft",
+      "price": "On Request"
+    }
+  ]
+}

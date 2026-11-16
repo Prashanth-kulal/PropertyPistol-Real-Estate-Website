@@ -1,0 +1,85 @@
+{
+  "projectId": 21503,
+  "slug": "dnsb-tower",
+  "name": "DNSB Tower",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/dnsb-tower-badlapur-west-pid-21503",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit"
+  ],
+  "masterPlans": [],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 133145,
+          "bhk": "2 BHK",
+          "carpetArea": 540,
+          "carpetAreaDisplay": "540 sq.ft",
+          "builtUpArea": null,
+          "price": "58.15 Lacs",
+          "actualPrice": 5815000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 133146,
+          "bhk": "2 BHK",
+          "carpetArea": 650,
+          "carpetAreaDisplay": "650 sq.ft",
+          "builtUpArea": null,
+          "price": "70.0 Lacs",
+          "actualPrice": 7000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 140119,
+          "bhk": "3 BHK",
+          "carpetArea": 764,
+          "carpetAreaDisplay": "764 sq.ft",
+          "builtUpArea": null,
+          "price": "82.28 Lacs",
+          "actualPrice": 8228000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "540 - 650 sq.ft",
+      "price": "58.15 Lacs - 70.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "764 sq.ft",
+      "price": "82.28 Lacs"
+    }
+  ]
+}

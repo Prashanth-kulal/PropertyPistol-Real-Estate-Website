@@ -1,0 +1,78 @@
+{
+  "projectId": 17797,
+  "slug": "kalpataru-advay-borivali-west-pid-17797",
+  "name": "Kalpataru Advay",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/kalpataru-advay-borivali-west-pid-17797",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/17797/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/17797/original/mp_%281%29.png?1742459211",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 82352,
+          "bhk": "2 BHK",
+          "carpetArea": 781,
+          "carpetAreaDisplay": "781 sq.ft",
+          "builtUpArea": null,
+          "price": "2.38 Cr",
+          "actualPrice": 23820500,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 82351,
+          "bhk": "4 BHK",
+          "carpetArea": 1835,
+          "carpetAreaDisplay": "1835 sq.ft",
+          "builtUpArea": null,
+          "price": "5.6 Cr",
+          "actualPrice": 55967500,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "781 sq.ft",
+      "price": "2.38 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,835 sq.ft",
+      "price": "5.6 Cr"
+    }
+  ]
+}

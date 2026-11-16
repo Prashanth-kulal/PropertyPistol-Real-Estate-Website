@@ -1,0 +1,94 @@
+{
+  "projectId": 10275,
+  "slug": "majestique-mrugavarsha-dhayari-pid-10275",
+  "name": "Majestique Mrugavarsha",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/majestique-mrugavarsha-dhayari-pid-10275",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/10275/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/10275/original/mp.jpg?1669033808"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 34296,
+          "bhk": "2 BHK",
+          "carpetArea": 764,
+          "carpetAreaDisplay": "764 sq.ft",
+          "builtUpArea": null,
+          "price": "64.16 Lacs",
+          "actualPrice": 6416000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": "/projects/10275/configurations/unit-plans/2-bhk/764-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/34296/original/2.jpg?1669033808",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 129151,
+          "bhk": "2 BHK",
+          "carpetArea": 768,
+          "carpetAreaDisplay": "768 sq.ft",
+          "builtUpArea": null,
+          "price": "64.5 Lacs",
+          "actualPrice": 6450000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 135924,
+          "bhk": "3 BHK",
+          "carpetArea": 990,
+          "carpetAreaDisplay": "990 sq.ft",
+          "builtUpArea": null,
+          "price": "83.0 Lacs",
+          "actualPrice": 8300000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "764 - 768 sq.ft",
+      "price": "64.16 Lacs - 64.5 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "990 sq.ft",
+      "price": "83.0 Lacs"
+    }
+  ]
+}

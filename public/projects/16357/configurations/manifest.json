@@ -1,0 +1,84 @@
+{
+  "projectId": 16357,
+  "slug": "nirman-cosmopolis-tathawade-pid-16357",
+  "name": "Nirman Cosmopolis",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/nirman-cosmopolis-tathawade-pid-16357",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16357/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9030/original/download_-_2025-12-03T155440.566.png?1764757510"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/16357/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9031/original/download_-_2025-12-03T155445.760.png?1764757510"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 61535,
+          "bhk": "2 BHK",
+          "carpetArea": 839,
+          "carpetAreaDisplay": "839 sq.ft",
+          "builtUpArea": null,
+          "price": "1.05 Cr",
+          "actualPrice": 10500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 82682,
+          "bhk": "3 BHK",
+          "carpetArea": 1334,
+          "carpetAreaDisplay": "1334 sq.ft",
+          "builtUpArea": null,
+          "price": "1.68 Cr",
+          "actualPrice": 16800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "839 sq.ft",
+      "price": "1.05 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,334 sq.ft",
+      "price": "1.68 Cr"
+    }
+  ]
+}

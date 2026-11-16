@@ -1,0 +1,84 @@
+{
+  "projectId": 17091,
+  "slug": "integrated-neelkanth-prakash-ghatkopar-east-pid-17091",
+  "name": "Integrated Neelkanth Prakash",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/integrated-neelkanth-prakash-ghatkopar-east-pid-17091",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/17091/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6479/original/download_%284%29.png?1792139288",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 69273,
+          "bhk": "3 BHK",
+          "carpetArea": 914,
+          "carpetAreaDisplay": "914 sq.ft",
+          "builtUpArea": null,
+          "price": "3.11 Cr",
+          "actualPrice": 31100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/17091/configurations/unit-plans/3-bhk/914-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/69273/original/3bhk_int.PNG?1718809146",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 97349,
+          "bhk": "3 BHK",
+          "carpetArea": 950,
+          "carpetAreaDisplay": "950 sq.ft",
+          "builtUpArea": null,
+          "price": "3.23 Cr",
+          "actualPrice": 32300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 69274,
+          "bhk": "3 BHK",
+          "carpetArea": 1065,
+          "carpetAreaDisplay": "1065 sq.ft",
+          "builtUpArea": null,
+          "price": "3.62 Cr",
+          "actualPrice": 36200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/17091/configurations/unit-plans/3-bhk/1065-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/69274/original/3bhk_int.PNG?1718809146",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "914 - 1,065 sq.ft",
+      "price": "3.11 Cr - 3.62 Cr"
+    }
+  ]
+}

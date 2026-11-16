@@ -1,0 +1,87 @@
+{
+  "projectId": 20964,
+  "slug": "shree-vasturachana-nandanvan-panvel-pid-20964",
+  "name": "Shree Vasturachana Nandanvan",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shree-vasturachana-nandanvan-panvel-pid-20964",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/20964/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/20964/original/mp.png?1767409554",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20964/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9162/original/fp.png?1767409556",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 127292,
+          "bhk": "1 BHK",
+          "carpetArea": 284,
+          "carpetAreaDisplay": "284 sq.ft",
+          "builtUpArea": null,
+          "price": "23.31 Lacs",
+          "actualPrice": 2331356,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 127293,
+          "bhk": "2 BHK",
+          "carpetArea": 620,
+          "carpetAreaDisplay": "620 sq.ft",
+          "builtUpArea": null,
+          "price": "50.9 Lacs",
+          "actualPrice": 5089580,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "284 sq.ft",
+      "price": "23.31 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "620 sq.ft",
+      "price": "50.9 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "projectId": 13441,
+  "slug": "sattva-signet-sarjapura-pid-13441",
+  "name": "Sattva Signet",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sattva-signet-sarjapura-pid-13441",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/13441/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13441/original/cf60daeb0adae55.jpeg?1692697472"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 137167,
+          "bhk": "2 BHK",
+          "carpetArea": 755,
+          "carpetAreaDisplay": "755 sq.ft",
+          "builtUpArea": null,
+          "price": "1.53 Cr",
+          "actualPrice": 15300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 137168,
+          "bhk": "3 BHK",
+          "carpetArea": 972,
+          "carpetAreaDisplay": "972 sq.ft",
+          "builtUpArea": null,
+          "price": "1.99 Cr",
+          "actualPrice": 19900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 137169,
+          "bhk": "3 BHK",
+          "carpetArea": 1153,
+          "carpetAreaDisplay": "1153 sq.ft",
+          "builtUpArea": null,
+          "price": "2.41 Cr",
+          "actualPrice": 24100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "755 sq.ft",
+      "price": "1.53 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "972 - 1,153 sq.ft",
+      "price": "1.99 Cr - 2.41 Cr"
+    }
+  ]
+}

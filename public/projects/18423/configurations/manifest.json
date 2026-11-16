@@ -1,0 +1,78 @@
+{
+  "projectId": 18423,
+  "slug": "metro-pride-thakurli-east-pid-18423",
+  "name": "Metro Pride",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/metro-pride-thakurli-east-pid-18423",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18423/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7054/original/fp-me.png?1730812618",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 116561,
+          "bhk": "1 BHK",
+          "carpetArea": 487,
+          "carpetAreaDisplay": "487 sq.ft",
+          "builtUpArea": null,
+          "price": "48.99 Lacs",
+          "actualPrice": 4899000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 116562,
+          "bhk": "2 BHK",
+          "carpetArea": 636,
+          "carpetAreaDisplay": "636 sq.ft",
+          "builtUpArea": null,
+          "price": "65.99 Lacs",
+          "actualPrice": 6599000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "487 sq.ft",
+      "price": "48.99 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "636 sq.ft",
+      "price": "65.99 Lacs"
+    }
+  ]
+}

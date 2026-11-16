@@ -1,0 +1,68 @@
+{
+  "projectId": 19329,
+  "slug": "malpani-celestia-phursungi-pid-19329",
+  "name": "Malpani Celestia",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/malpani-celestia-phursungi-pid-19329",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19329/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19329/original/masterplan.PNG?1741264345"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 124886,
+          "bhk": "2 BHK",
+          "carpetArea": 640,
+          "carpetAreaDisplay": "640 sq.ft",
+          "builtUpArea": null,
+          "price": "41.54 Lacs",
+          "actualPrice": 4153600,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 101922,
+          "bhk": "2 BHK",
+          "carpetArea": 680,
+          "carpetAreaDisplay": "680 sq.ft",
+          "builtUpArea": null,
+          "price": "44.13 Lacs",
+          "actualPrice": 4413200,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "640 - 680 sq.ft",
+      "price": "41.54 Lacs - 44.13 Lacs"
+    }
+  ]
+}

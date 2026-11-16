@@ -1,0 +1,52 @@
+{
+  "projectId": 20130,
+  "slug": "assetz-trees-and-tandem-gattahalli-pid-20130",
+  "name": "Assetz Trees and Tandem",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/assetz-trees-and-tandem-gattahalli-pid-20130",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/20130/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/20130/original/master.PNG?1752476035"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 118897,
+          "bhk": "3 BHK",
+          "carpetArea": 1225,
+          "carpetAreaDisplay": "1225 sq.ft",
+          "builtUpArea": null,
+          "price": "2.15 Cr",
+          "actualPrice": 21465675,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20130/configurations/unit-plans/3-bhk/1225-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/118897/original/3bhk_2d.PNG?1752476035",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,225 sq.ft",
+      "price": "2.15 Cr"
+    }
+  ]
+}

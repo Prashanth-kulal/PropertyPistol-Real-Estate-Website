@@ -1,0 +1,78 @@
+{
+  "projectId": 13313,
+  "slug": "majestique-27-grand-residences-bavdhan-pid-13313",
+  "name": "Majestique 27 Grand Residences",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/majestique-27-grand-residences-bavdhan-pid-13313",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/13313/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13313/original/Captureewewds.PNG?1691668935"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 41215,
+          "bhk": "2 BHK",
+          "carpetArea": 821,
+          "carpetAreaDisplay": "821 sq.ft",
+          "builtUpArea": null,
+          "price": "1.27 Cr",
+          "actualPrice": 12700000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 41216,
+          "bhk": "3 BHK",
+          "carpetArea": 1082,
+          "carpetAreaDisplay": "1082 sq.ft",
+          "builtUpArea": null,
+          "price": "1.67 Cr",
+          "actualPrice": 16700000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "821 sq.ft",
+      "price": "1.27 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,082 sq.ft",
+      "price": "1.67 Cr"
+    }
+  ]
+}

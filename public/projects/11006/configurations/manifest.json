@@ -1,0 +1,60 @@
+{
+  "projectId": 11006,
+  "slug": "goodwill-fabian-dhanori-pid-11006",
+  "name": "Goodwill Fabian",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/goodwill-fabian-dhanori-pid-11006",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/11006/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/11006/original/mp.jpg?1673865006"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/11006/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3566/original/buy-flat-in-lohegaon-pune-5.jpg?1673865008"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 35951,
+          "bhk": "2 BHK",
+          "carpetArea": 662,
+          "carpetAreaDisplay": "662 sq.ft",
+          "builtUpArea": null,
+          "price": "58.0 Lacs",
+          "actualPrice": 5800000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": "/projects/11006/configurations/unit-plans/2-bhk/662-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/35951/original/2.jpg?1673865006",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "662 sq.ft",
+      "price": "58.0 Lacs"
+    }
+  ]
+}

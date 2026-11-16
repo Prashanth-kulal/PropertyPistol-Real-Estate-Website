@@ -1,0 +1,78 @@
+{
+  "projectId": 1983,
+  "slug": "umiya-oasis",
+  "name": "Umiya Oasis",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/umiya-oasis-mira-road-east-pid-1983",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/1983/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/1849/original/floor_plan.png?1589969048",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 3403,
+          "bhk": "1 BHK",
+          "carpetArea": 392,
+          "carpetAreaDisplay": "392 sq.ft",
+          "builtUpArea": null,
+          "price": "62.5 Lacs",
+          "actualPrice": 6250000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": "/projects/1983/configurations/unit-plans/1-bhk/392-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/3403/original/1__bhk.png?1589969047",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 3404,
+          "bhk": "2 BHK",
+          "carpetArea": 530,
+          "carpetAreaDisplay": "530 sq.ft",
+          "builtUpArea": null,
+          "price": "84.55 Lacs",
+          "actualPrice": 8455000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": "/projects/1983/configurations/unit-plans/2-bhk/530-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/3404/original/2_bhk.png?1589969047",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "392 sq.ft",
+      "price": "62.5 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "530 sq.ft",
+      "price": "84.55 Lacs"
+    }
+  ]
+}

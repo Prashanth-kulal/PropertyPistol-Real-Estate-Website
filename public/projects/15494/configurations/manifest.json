@@ -1,0 +1,152 @@
+{
+  "projectId": 15494,
+  "slug": "dosti-eden-brahmand-pid-15494",
+  "name": "Dosti Eden",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/dosti-eden-brahmand-pid-15494",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/15494/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/15494/original/masterplan.JPG?1704911057",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/15494/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5416/original/floorplan.JPG?1704911058",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/15494/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5417/original/floorplan2.JPG?1704911058",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 109544,
+          "bhk": "1 BHK",
+          "carpetArea": 513,
+          "carpetAreaDisplay": "513 sq.ft",
+          "builtUpArea": null,
+          "price": "92.34 Lacs",
+          "actualPrice": 9234000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 109549,
+          "bhk": "2 BHK",
+          "carpetArea": 650,
+          "carpetAreaDisplay": "650 sq.ft",
+          "builtUpArea": null,
+          "price": "1.4 Cr",
+          "actualPrice": 14000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 109550,
+          "bhk": "2 BHK",
+          "carpetArea": 702,
+          "carpetAreaDisplay": "702 sq.ft",
+          "builtUpArea": null,
+          "price": "1.58 Cr",
+          "actualPrice": 15800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 139406,
+          "bhk": "3 BHK",
+          "carpetArea": 963,
+          "carpetAreaDisplay": "963 sq.ft",
+          "builtUpArea": null,
+          "price": "1.9 Cr",
+          "actualPrice": 19000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139407,
+          "bhk": "3 BHK",
+          "carpetArea": 1039,
+          "carpetAreaDisplay": "1039 sq.ft",
+          "builtUpArea": null,
+          "price": "2.45 Cr",
+          "actualPrice": 24500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "513 sq.ft",
+      "price": "92.34 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "650 - 702 sq.ft",
+      "price": "1.4 Cr - 1.58 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "963 - 1,039 sq.ft",
+      "price": "1.9 Cr - 2.45 Cr"
+    }
+  ]
+}

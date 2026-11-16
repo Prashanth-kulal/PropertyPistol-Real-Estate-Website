@@ -1,0 +1,77 @@
+{
+  "projectId": 14221,
+  "slug": "buddha-heights-mira-road-east-pid-14221",
+  "name": "Buddha Heights",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/buddha-heights-mira-road-east-pid-14221",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/14221/original/download.png?1698222365",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4773/original/download_%281%29.png?1698222366",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 58798,
+          "bhk": "1 BHK",
+          "carpetArea": 295,
+          "carpetAreaDisplay": "295 sq.ft",
+          "builtUpArea": null,
+          "price": "57.84 Lacs",
+          "actualPrice": 5784000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/58798/original/1.PNG?1725111746",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 83150,
+          "bhk": "1 BHK",
+          "carpetArea": 311,
+          "carpetAreaDisplay": "311 sq.ft",
+          "builtUpArea": null,
+          "price": "61.0 Lacs",
+          "actualPrice": 6100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "295 - 311 sq.ft",
+      "price": "57.84 Lacs - 61.0 Lacs"
+    }
+  ]
+}

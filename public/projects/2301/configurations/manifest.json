@@ -1,0 +1,161 @@
+{
+  "projectId": 2301,
+  "slug": "raj-heritage",
+  "name": "Raj Heritage",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/raj-heritage-mira-road-east-pid-2301",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/2301/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/2301/original/mp.PNG?1628593660",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/2301/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2315/original/fp.PNG?1628593660",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 89606,
+          "bhk": "1 BHK",
+          "carpetArea": 408,
+          "carpetAreaDisplay": "408 sq.ft",
+          "builtUpArea": null,
+          "price": "95.81 Lacs",
+          "actualPrice": 9581000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139967,
+          "bhk": "1 BHK",
+          "carpetArea": 433,
+          "carpetAreaDisplay": "433 sq.ft",
+          "builtUpArea": null,
+          "price": "1.02 Cr",
+          "actualPrice": 10200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139968,
+          "bhk": "1 BHK",
+          "carpetArea": 462,
+          "carpetAreaDisplay": "462 sq.ft",
+          "builtUpArea": null,
+          "price": "1.08 Cr",
+          "actualPrice": 10800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 139969,
+          "bhk": "2 BHK",
+          "carpetArea": 599,
+          "carpetAreaDisplay": "599 sq.ft",
+          "builtUpArea": null,
+          "price": "1.29 Cr",
+          "actualPrice": 12900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139970,
+          "bhk": "2 BHK",
+          "carpetArea": 745,
+          "carpetAreaDisplay": "745 sq.ft",
+          "builtUpArea": null,
+          "price": "1.75 Cr",
+          "actualPrice": 17500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 139971,
+          "bhk": "3 BHK",
+          "carpetArea": 831,
+          "carpetAreaDisplay": "831 sq.ft",
+          "builtUpArea": null,
+          "price": "1.95 Cr",
+          "actualPrice": 19500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "408 - 462 sq.ft",
+      "price": "95.81 Lacs - 1.08 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "599 - 745 sq.ft",
+      "price": "1.29 Cr - 1.75 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "831 sq.ft",
+      "price": "1.95 Cr"
+    }
+  ]
+}

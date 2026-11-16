@@ -1,0 +1,166 @@
+{
+  "projectId": 19839,
+  "slug": "khiwasara-nakshtra-dhayari-pid-19839",
+  "name": "Khiwasara Nakshtra",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/khiwasara-nakshtra-dhayari-pid-19839",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19839/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19839/original/masterplan.PNG?1747648452"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19839/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8029/original/floorplan.PNG?1747648454"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 113399,
+          "bhk": "2 BHK",
+          "carpetArea": 681,
+          "carpetAreaDisplay": "681 sq.ft",
+          "builtUpArea": null,
+          "price": "55.94 Lacs",
+          "actualPrice": 5594000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19839/configurations/unit-plans/2-bhk/681-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/113399/original/2bhk_2d.PNG?1747648452",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 113400,
+          "bhk": "2 BHK",
+          "carpetArea": 685,
+          "carpetAreaDisplay": "685 sq.ft",
+          "builtUpArea": null,
+          "price": "57.27 Lacs",
+          "actualPrice": 5727000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19839/configurations/unit-plans/2-bhk/685-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/113400/original/2bhk_2d2.PNG?1747648452",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 113401,
+          "bhk": "2 BHK",
+          "carpetArea": 695,
+          "carpetAreaDisplay": "695 sq.ft",
+          "builtUpArea": null,
+          "price": "56.82 Lacs",
+          "actualPrice": 5682000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 113402,
+          "bhk": "2 BHK",
+          "carpetArea": 719,
+          "carpetAreaDisplay": "719 sq.ft",
+          "builtUpArea": null,
+          "price": "58.86 Lacs",
+          "actualPrice": 5886000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 113403,
+          "bhk": "2 BHK",
+          "carpetArea": 724,
+          "carpetAreaDisplay": "724 sq.ft",
+          "builtUpArea": null,
+          "price": "59.21 Lacs",
+          "actualPrice": 5921000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 129713,
+          "bhk": "3 BHK",
+          "carpetArea": 843,
+          "carpetAreaDisplay": "843 sq.ft",
+          "builtUpArea": null,
+          "price": "68.92 Lacs",
+          "actualPrice": 6892000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 129714,
+          "bhk": "3 BHK",
+          "carpetArea": 895,
+          "carpetAreaDisplay": "895 sq.ft",
+          "builtUpArea": null,
+          "price": "73.17 Lacs",
+          "actualPrice": 7317000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "681 - 724 sq.ft",
+      "price": "55.94 Lacs - 59.21 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "843 - 895 sq.ft",
+      "price": "68.92 Lacs - 73.17 Lacs"
+    }
+  ]
+}

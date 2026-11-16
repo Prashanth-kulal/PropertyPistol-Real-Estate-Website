@@ -1,0 +1,94 @@
+{
+  "projectId": 4591,
+  "slug": "shree-shweta-heights-mira-road-east-pid-4591",
+  "name": "Shree Shweta Heights",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shree-shweta-heights-mira-road-east-pid-4591",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2326/original/fp.png?1629871632",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 14732,
+          "bhk": "1 BHK",
+          "carpetArea": 332,
+          "carpetAreaDisplay": "332 sq.ft",
+          "builtUpArea": null,
+          "price": "61.15 Lacs",
+          "actualPrice": 6115000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 14731,
+          "bhk": "1 BHK",
+          "carpetArea": 517,
+          "carpetAreaDisplay": "517 sq.ft",
+          "builtUpArea": null,
+          "price": "95.02 Lacs",
+          "actualPrice": 9502000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 15770,
+          "bhk": "2 BHK",
+          "carpetArea": 817,
+          "carpetAreaDisplay": "817 sq.ft",
+          "builtUpArea": null,
+          "price": "1.5 Cr",
+          "actualPrice": 15000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "332 - 517 sq.ft",
+      "price": "61.15 Lacs - 95.02 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "817 sq.ft",
+      "price": "1.5 Cr"
+    }
+  ]
+}

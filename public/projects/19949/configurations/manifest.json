@@ -1,0 +1,78 @@
+{
+  "projectId": 19949,
+  "slug": "sattva-vasanta-skye-new-airport-road-pid-19949",
+  "name": "Sattva Vasanta Skye",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sattva-vasanta-skye-new-airport-road-pid-19949",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19949/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19949/original/Master.PNG?1748865579"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 115203,
+          "bhk": "1 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 454,
+          "price": "43.08 Lacs",
+          "actualPrice": 4308460,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19949/configurations/unit-plans/1-bhk/variant-115203/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/115203/original/1bhk_2dnew.png?1748865580",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 130927,
+          "bhk": "4 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2254,
+          "price": "2.14 Cr",
+          "actualPrice": 21390460,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "On Request",
+      "price": "43.08 Lacs"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "On Request",
+      "price": "2.14 Cr"
+    }
+  ]
+}

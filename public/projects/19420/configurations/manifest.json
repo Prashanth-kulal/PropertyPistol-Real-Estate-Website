@@ -1,0 +1,78 @@
+{
+  "projectId": 19420,
+  "slug": "munisuvrat-shankeshwar-sparsh-moshi-pid-19420",
+  "name": "Munisuvrat Shankeshwar Sparsh",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/munisuvrat-shankeshwar-sparsh-moshi-pid-19420",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19420/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7575/original/floorplan.PNG?1742471023"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 128643,
+          "bhk": "1 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": null,
+          "price": "35.0 Lacs",
+          "actualPrice": 3500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 103336,
+          "bhk": "2 BHK",
+          "carpetArea": 628,
+          "carpetAreaDisplay": "628 sq.ft",
+          "builtUpArea": null,
+          "price": "47.0 Lacs",
+          "actualPrice": 4700000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19420/configurations/unit-plans/2-bhk/628-sqft/plan-2d.webp",
+          "plan3D": "/projects/19420/configurations/unit-plans/2-bhk/628-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/103336/original/2bhk_2d.PNG?1742471019",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/103336/original/2bhk_3d.PNG?1742471019",
+          "has2D": true,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "On Request",
+      "price": "35.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "628 sq.ft",
+      "price": "47.0 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "projectId": 20313,
+  "slug": "vision-spacio-pimpri-chinchwad-pid-20313",
+  "name": "Vision Spacio",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/vision-spacio-pimpri-chinchwad-pid-20313",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20313/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8630/original/fp-sp.png?1753531219"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/20313/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8631/original/fp-sp2.png?1753531219"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 125893,
+          "bhk": "2 BHK",
+          "carpetArea": 636,
+          "carpetAreaDisplay": "636 sq.ft",
+          "builtUpArea": null,
+          "price": "39.81 Lacs",
+          "actualPrice": 3981000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 120614,
+          "bhk": "3 BHK",
+          "carpetArea": 853,
+          "carpetAreaDisplay": "853 sq.ft",
+          "builtUpArea": null,
+          "price": "53.43 Lacs",
+          "actualPrice": 5343000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "636 sq.ft",
+      "price": "39.81 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "853 sq.ft",
+      "price": "53.43 Lacs"
+    }
+  ]
+}

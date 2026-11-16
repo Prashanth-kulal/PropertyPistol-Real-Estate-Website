@@ -1,0 +1,94 @@
+{
+  "projectId": 9864,
+  "slug": "pride-soho-lohegaon-pid-9864",
+  "name": "Pride SOHO",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/pride-soho-lohegaon-pid-9864",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/9864/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/9864/original/soho_masterplan.png?1667386286"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 33339,
+          "bhk": "2 BHK",
+          "carpetArea": 713,
+          "carpetAreaDisplay": "713 sq.ft",
+          "builtUpArea": null,
+          "price": "69.8 Lacs",
+          "actualPrice": 6980000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 76867,
+          "bhk": "2 BHK",
+          "carpetArea": 716,
+          "carpetAreaDisplay": "716 sq.ft",
+          "builtUpArea": null,
+          "price": "70.09 Lacs",
+          "actualPrice": 7009000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 76866,
+          "bhk": "3 BHK",
+          "carpetArea": 950,
+          "carpetAreaDisplay": "950 sq.ft",
+          "builtUpArea": null,
+          "price": "93.0 Lacs",
+          "actualPrice": 9300000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "713 - 716 sq.ft",
+      "price": "69.8 Lacs - 70.09 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "950 sq.ft",
+      "price": "93.0 Lacs"
+    }
+  ]
+}

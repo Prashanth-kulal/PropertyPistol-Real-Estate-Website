@@ -1,0 +1,68 @@
+{
+  "projectId": 4377,
+  "slug": "jp-north-aviva",
+  "name": "JP North Aviva",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/jp-north-aviva-mira-road-east-pid-4377",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/4377/original/mp.PNG?1709721011",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 11717,
+          "bhk": "1 BHK",
+          "carpetArea": 301,
+          "carpetAreaDisplay": "301 sq.ft",
+          "builtUpArea": null,
+          "price": "46.44 Lacs",
+          "actualPrice": 4644000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 135656,
+          "bhk": "1 BHK",
+          "carpetArea": 391,
+          "carpetAreaDisplay": "391 sq.ft",
+          "builtUpArea": null,
+          "price": "60.32 Lacs",
+          "actualPrice": 6032000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "301 - 391 sq.ft",
+      "price": "46.44 Lacs - 60.32 Lacs"
+    }
+  ]
+}

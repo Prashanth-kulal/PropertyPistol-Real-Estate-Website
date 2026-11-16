@@ -1,0 +1,104 @@
+{
+  "projectId": 21323,
+  "slug": "79-lakeview-kalamboli-pid-21323",
+  "name": "79 Lakeview",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/79-lakeview-kalamboli-pid-21323",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21323/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9198/original/download_%281%29.png?1771569672",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 132780,
+          "bhk": "1 BHK",
+          "carpetArea": 394,
+          "carpetAreaDisplay": "394 sq.ft",
+          "builtUpArea": null,
+          "price": "47.0 Lacs",
+          "actualPrice": 4700000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/21323/configurations/unit-plans/1-bhk/394-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/132780/original/1.PNG?1771569672",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 140482,
+          "bhk": "2 BHK",
+          "carpetArea": 542,
+          "carpetAreaDisplay": "542 sq.ft",
+          "builtUpArea": null,
+          "price": "64.0 Lacs",
+          "actualPrice": 6400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 132781,
+          "bhk": "3 BHK",
+          "carpetArea": 827,
+          "carpetAreaDisplay": "827 sq.ft",
+          "builtUpArea": null,
+          "price": "1.26 Cr",
+          "actualPrice": 12600000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/21323/configurations/unit-plans/3-bhk/827-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/132781/original/3.PNG?1771569672",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "394 sq.ft",
+      "price": "47.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "542 sq.ft",
+      "price": "64.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "827 sq.ft",
+      "price": "1.26 Cr"
+    }
+  ]
+}

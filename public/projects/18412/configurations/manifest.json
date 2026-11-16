@@ -1,0 +1,145 @@
+{
+  "projectId": 18412,
+  "slug": "one-meraki-chembur-pid-18412",
+  "name": "One Meraki",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/one-meraki-chembur-pid-18412",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18412/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18412/original/masternew.png?1747781046",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18412/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7046/original/fp_meraki.png?1730807526",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 91477,
+          "bhk": "2 BHK",
+          "carpetArea": 772,
+          "carpetAreaDisplay": "772 sq.ft",
+          "builtUpArea": null,
+          "price": "3.48 Cr",
+          "actualPrice": 34800000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18412/configurations/unit-plans/2-bhk/772-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/91477/original/2bhk_meraki.png?1730807526",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 91479,
+          "bhk": "3 BHK",
+          "carpetArea": 1235,
+          "carpetAreaDisplay": "1235 sq.ft",
+          "builtUpArea": null,
+          "price": "5.59 Cr",
+          "actualPrice": 55900000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18412/configurations/unit-plans/3-bhk/1235-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/91479/original/3bhk_meraki.png?1730807526",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 129872,
+          "bhk": "3 BHK",
+          "carpetArea": 1806,
+          "carpetAreaDisplay": "1806 sq.ft",
+          "builtUpArea": null,
+          "price": "8.5 Cr",
+          "actualPrice": 85000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 129873,
+          "bhk": "4 BHK",
+          "carpetArea": 2007,
+          "carpetAreaDisplay": "2007 sq.ft",
+          "builtUpArea": null,
+          "price": "9.5 Cr",
+          "actualPrice": 95000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139224,
+          "bhk": "4 BHK",
+          "carpetArea": 2141,
+          "carpetAreaDisplay": "2141 sq.ft",
+          "builtUpArea": null,
+          "price": "9.99 Cr",
+          "actualPrice": 99900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "772 sq.ft",
+      "price": "3.48 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,235 - 1,806 sq.ft",
+      "price": "5.59 Cr - 8.5 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,007 - 2,141 sq.ft",
+      "price": "9.5 Cr - 9.99 Cr"
+    }
+  ]
+}

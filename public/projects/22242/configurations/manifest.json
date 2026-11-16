@@ -1,0 +1,78 @@
+{
+  "projectId": 22242,
+  "slug": "indosam-iconic-sector-75-pid-22242",
+  "name": "Indosam Iconic",
+  "city": "noida",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/indosam-iconic-sector-75-pid-22242",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/22242/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9666/original/download_%2845%29.png?1787998040"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 138029,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2250,
+          "price": "3.38 Cr",
+          "actualPrice": 33750000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/22242/configurations/unit-plans/3-bhk/variant-138029/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/138029/original/3bhk-is.png?1787998036",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 138030,
+          "bhk": "4 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2950,
+          "price": "4.43 Cr",
+          "actualPrice": 44250000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/22242/configurations/unit-plans/4-bhk/variant-138030/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/138030/original/download_%2846%29.png?1787998036",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "3.38 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "On Request",
+      "price": "4.43 Cr"
+    }
+  ]
+}

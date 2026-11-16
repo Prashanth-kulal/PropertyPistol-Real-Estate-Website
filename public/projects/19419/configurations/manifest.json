@@ -1,0 +1,86 @@
+{
+  "projectId": 19419,
+  "slug": "ashiana-amodh-talegaon-pid-19419",
+  "name": "Ashiana Amodh",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ashiana-amodh-talegaon-pid-19419",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit"
+  ],
+  "masterPlans": [],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 103320,
+          "bhk": "2 BHK",
+          "carpetArea": 852,
+          "carpetAreaDisplay": "852 sq.ft",
+          "builtUpArea": null,
+          "price": "1.1 Cr",
+          "actualPrice": 11000000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19419/configurations/unit-plans/2-bhk/852-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/103320/original/2bhk_2d.PNG?1742468278",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 139287,
+          "bhk": "2 BHK",
+          "carpetArea": 927,
+          "carpetAreaDisplay": "927 sq.ft",
+          "builtUpArea": null,
+          "price": "1.23 Cr",
+          "actualPrice": 12300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 103322,
+          "bhk": "3 BHK",
+          "carpetArea": 1122,
+          "carpetAreaDisplay": "1122 sq.ft",
+          "builtUpArea": null,
+          "price": "1.65 Cr",
+          "actualPrice": 16500000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19419/configurations/unit-plans/3-bhk/1122-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/103322/original/3bhk_2d.PNG?1742468279",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "852 - 927 sq.ft",
+      "price": "1.1 Cr - 1.23 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,122 sq.ft",
+      "price": "1.65 Cr"
+    }
+  ]
+}

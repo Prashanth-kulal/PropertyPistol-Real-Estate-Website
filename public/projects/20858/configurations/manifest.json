@@ -1,0 +1,85 @@
+{
+  "projectId": 20858,
+  "slug": "vardhman-oasis",
+  "name": "Vardhman Oasis",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/vardhman-oasis-girgaon-pid-20858",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit"
+  ],
+  "masterPlans": [],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 127023,
+          "bhk": "1 BHK",
+          "carpetArea": 340,
+          "carpetAreaDisplay": "340 sq.ft",
+          "builtUpArea": null,
+          "price": "1.35 Cr",
+          "actualPrice": 13500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139239,
+          "bhk": "1 BHK",
+          "carpetArea": 382,
+          "carpetAreaDisplay": "382 sq.ft",
+          "builtUpArea": null,
+          "price": "1.52 Cr",
+          "actualPrice": 15200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 139240,
+          "bhk": "2 BHK",
+          "carpetArea": 540,
+          "carpetAreaDisplay": "540 sq.ft",
+          "builtUpArea": null,
+          "price": "2.15 Cr",
+          "actualPrice": 21500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "340 - 382 sq.ft",
+      "price": "1.35 Cr - 1.52 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "540 sq.ft",
+      "price": "2.15 Cr"
+    }
+  ]
+}

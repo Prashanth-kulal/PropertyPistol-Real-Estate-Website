@@ -1,0 +1,110 @@
+{
+  "projectId": 4586,
+  "slug": "shripal-shanti-virar-west-pid-4586",
+  "name": "Shripal Shanti",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shripal-shanti-virar-west-pid-4586",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6847/original/fp.PNG?1724752111",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 53222,
+          "bhk": "1 BHK",
+          "carpetArea": 411,
+          "carpetAreaDisplay": "411 sq.ft",
+          "builtUpArea": null,
+          "price": "45.95 Lacs",
+          "actualPrice": 4595000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 53217,
+          "bhk": "1 BHK",
+          "carpetArea": 426,
+          "carpetAreaDisplay": "426 sq.ft",
+          "builtUpArea": null,
+          "price": "47.95 Lacs",
+          "actualPrice": 4795000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 138512,
+          "bhk": "2 BHK",
+          "carpetArea": 511,
+          "carpetAreaDisplay": "511 sq.ft",
+          "builtUpArea": null,
+          "price": "60.23 Lacs",
+          "actualPrice": 6023000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 53220,
+          "bhk": "2 BHK",
+          "carpetArea": 652,
+          "carpetAreaDisplay": "652 sq.ft",
+          "builtUpArea": null,
+          "price": "72.89 Lacs",
+          "actualPrice": 7289000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/53220/original/2bhk.png?1724752111",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "411 - 426 sq.ft",
+      "price": "45.95 Lacs - 47.95 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "511 - 652 sq.ft",
+      "price": "60.23 Lacs - 72.89 Lacs"
+    }
+  ]
+}

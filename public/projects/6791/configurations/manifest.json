@@ -1,0 +1,102 @@
+{
+  "projectId": 6791,
+  "slug": "sowparnika-pragati-sarjapur-road-pid-6791",
+  "name": "Sowparnika Pragati",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sowparnika-pragati-sarjapur-road-pid-6791",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/6791/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/6791/original/Pragathi_Master_Plan.jpg?1755776094"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/6791/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2449/original/Pragathi_Typical_Floor_Plan.jpg?1755776094"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 135623,
+          "bhk": "2 BHK",
+          "carpetArea": 988,
+          "carpetAreaDisplay": "988 sq.ft",
+          "builtUpArea": null,
+          "price": "88.0 Lacs",
+          "actualPrice": 8800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 43599,
+          "bhk": "3 BHK",
+          "carpetArea": 1086,
+          "carpetAreaDisplay": "1086 sq.ft",
+          "builtUpArea": null,
+          "price": "96.72 Lacs",
+          "actualPrice": 9672000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 46865,
+          "bhk": "3 BHK",
+          "carpetArea": 1317,
+          "carpetAreaDisplay": "1317 sq.ft",
+          "builtUpArea": null,
+          "price": "1.17 Cr",
+          "actualPrice": 11700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "988 sq.ft",
+      "price": "88.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,086 - 1,317 sq.ft",
+      "price": "96.72 Lacs - 1.17 Cr"
+    }
+  ]
+}

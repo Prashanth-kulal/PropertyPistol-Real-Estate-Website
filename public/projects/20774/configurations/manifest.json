@@ -1,0 +1,92 @@
+{
+  "projectId": 20774,
+  "slug": "aryan-celeste-1-yelahanka-pid-20774",
+  "name": "Aryan Celeste 1",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/aryan-celeste-1-yelahanka-pid-20774",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/20774/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/20774/original/download_%2813%29.png?1790320341"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20774/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9717/original/download_%2815%29.png?1790320343"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/20774/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9718/original/download_%2814%29.png?1790320343"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 126200,
+          "bhk": "2 BHK",
+          "carpetArea": 839,
+          "carpetAreaDisplay": "839 sq.ft",
+          "builtUpArea": null,
+          "price": "1.16 Cr",
+          "actualPrice": 11616794,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 126201,
+          "bhk": "3 BHK",
+          "carpetArea": 1102,
+          "carpetAreaDisplay": "1102 sq.ft",
+          "builtUpArea": null,
+          "price": "1.53 Cr",
+          "actualPrice": 15258292,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "839 sq.ft",
+      "price": "1.16 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,102 sq.ft",
+      "price": "1.53 Cr"
+    }
+  ]
+}

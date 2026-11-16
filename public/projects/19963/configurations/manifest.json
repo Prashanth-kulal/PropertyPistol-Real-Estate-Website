@@ -1,0 +1,86 @@
+{
+  "projectId": 19963,
+  "slug": "reviva-by-ssi-chandapura-pid-19963",
+  "name": "Reviva By SSI",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/reviva-by-ssi-chandapura-pid-19963",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19963/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19963/original/master.PNG?1749292418"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19963/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8323/original/floor1.png?1749292424"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 115816,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1045,
+          "price": "59.55 Lacs",
+          "actualPrice": 5955455,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19963/configurations/unit-plans/2-bhk/variant-115816/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/115816/original/2bhk_2d.PNG?1749292419",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 115821,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1490,
+          "price": "84.92 Lacs",
+          "actualPrice": 8491510,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19963/configurations/unit-plans/3-bhk/variant-115821/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/115821/original/3bhk_2d.PNG?1749292419",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "On Request",
+      "price": "59.55 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "84.92 Lacs"
+    }
+  ]
+}

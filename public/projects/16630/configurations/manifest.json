@@ -1,0 +1,90 @@
+{
+  "projectId": 16630,
+  "slug": "suraksha-springs-akshayanagar-pid-16630",
+  "name": "Suraksha Springs",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/suraksha-springs-akshayanagar-pid-16630",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16630/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6310/original/floorplan.JPG?1716720436"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/16630/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6311/original/floorplan1.JPG?1716720437"
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/16630/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6312/original/floorplan2.JPG?1716720437"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 105546,
+          "bhk": "2 BHK",
+          "carpetArea": 741,
+          "carpetAreaDisplay": "741 sq.ft",
+          "builtUpArea": null,
+          "price": "79.22 Lacs",
+          "actualPrice": 7922031,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 105557,
+          "bhk": "3 BHK",
+          "carpetArea": 941,
+          "carpetAreaDisplay": "941 sq.ft",
+          "builtUpArea": null,
+          "price": "1.01 Cr",
+          "actualPrice": 10145759,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "741 sq.ft",
+      "price": "79.22 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "941 sq.ft",
+      "price": "1.01 Cr"
+    }
+  ]
+}

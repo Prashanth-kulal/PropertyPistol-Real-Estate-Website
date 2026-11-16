@@ -1,0 +1,104 @@
+{
+  "projectId": 16475,
+  "slug": "sahakar-vista-dahisar-east-pid-16475",
+  "name": "Sahakar Vista",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sahakar-vista-dahisar-east-pid-16475",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16475/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6259/original/FLoorplansha.PNG?1715789690",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 RK",
+      "variants": [
+        {
+          "id": 93452,
+          "bhk": "1 RK",
+          "carpetArea": 265,
+          "carpetAreaDisplay": "265 sq.ft",
+          "builtUpArea": null,
+          "price": "68.95 Lacs",
+          "actualPrice": 6895000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 62236,
+          "bhk": "1 BHK",
+          "carpetArea": 381,
+          "carpetAreaDisplay": "381 sq.ft",
+          "builtUpArea": null,
+          "price": "99.24 Lacs",
+          "actualPrice": 9924000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 62237,
+          "bhk": "2 BHK",
+          "carpetArea": 539,
+          "carpetAreaDisplay": "539 sq.ft",
+          "builtUpArea": null,
+          "price": "1.4 Cr",
+          "actualPrice": 14000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 RK",
+      "carpet_area": "265 sq.ft",
+      "price": "68.95 Lacs"
+    },
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "381 sq.ft",
+      "price": "99.24 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "539 sq.ft",
+      "price": "1.4 Cr"
+    }
+  ]
+}

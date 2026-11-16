@@ -1,0 +1,61 @@
+{
+  "projectId": 2224,
+  "slug": "arkade-earth-bluebell-kanjurmarg-east-pid-2224",
+  "name": "Arkade Earth Bluebell",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/arkade-earth-bluebell-kanjurmarg-east-pid-2224",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/2224/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/2224/original/layout.png?1753289645",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/2224/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/1143/original/floorplan.png?1566017977",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 95936,
+          "bhk": "2 BHK",
+          "carpetArea": 466,
+          "carpetAreaDisplay": "466 sq.ft",
+          "builtUpArea": null,
+          "price": "1.25 Cr",
+          "actualPrice": 12500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "466 sq.ft",
+      "price": "1.25 Cr"
+    }
+  ]
+}

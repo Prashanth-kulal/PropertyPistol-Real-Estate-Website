@@ -1,0 +1,94 @@
+{
+  "projectId": 10243,
+  "slug": "supreme-villagio-somatane-pid-10243",
+  "name": "Supreme Villagio",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/supreme-villagio-somatane-pid-10243",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/10243/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2809/original/1.png?1668756713"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 68926,
+          "bhk": "4 BHK",
+          "carpetArea": 2080,
+          "carpetAreaDisplay": "2080 sq.ft",
+          "builtUpArea": null,
+          "price": "2.63 Cr",
+          "actualPrice": 26320320,
+          "propertyType": "Independent House/Villa",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 134256,
+          "bhk": "4 BHK",
+          "carpetArea": 3172,
+          "carpetAreaDisplay": "3172 sq.ft",
+          "builtUpArea": null,
+          "price": "3.34 Cr",
+          "actualPrice": 33407504,
+          "propertyType": "Independent House/Villa",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "5 BHK",
+      "variants": [
+        {
+          "id": 134257,
+          "bhk": "5 BHK",
+          "carpetArea": 3055,
+          "carpetAreaDisplay": "3055 sq.ft",
+          "builtUpArea": null,
+          "price": "3.87 Cr",
+          "actualPrice": 38657970,
+          "propertyType": "Independent House/Villa",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,080 - 3,172 sq.ft",
+      "price": "2.63 Cr - 3.34 Cr"
+    },
+    {
+      "flat_type_name": "5 BHK",
+      "carpet_area": "3,055 sq.ft",
+      "price": "3.87 Cr"
+    }
+  ]
+}

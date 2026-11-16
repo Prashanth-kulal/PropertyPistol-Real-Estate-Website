@@ -1,0 +1,85 @@
+{
+  "projectId": 21482,
+  "slug": "the-altezza-mulund-east-pid-21482",
+  "name": "The Altezza",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/the-altezza-mulund-east-pid-21482",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit"
+  ],
+  "masterPlans": [],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 133100,
+          "bhk": "2 BHK",
+          "carpetArea": 520,
+          "carpetAreaDisplay": "520 sq.ft",
+          "builtUpArea": null,
+          "price": "1.19 Cr",
+          "actualPrice": 11900000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/21482/configurations/unit-plans/2-bhk/520-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/133100/original/2.jpg?1788939025",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 133101,
+          "bhk": "3 BHK",
+          "carpetArea": 730,
+          "carpetAreaDisplay": "730 sq.ft",
+          "builtUpArea": null,
+          "price": "1.6 Cr",
+          "actualPrice": 16000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139338,
+          "bhk": "3 BHK",
+          "carpetArea": 1170,
+          "carpetAreaDisplay": "1170 sq.ft",
+          "builtUpArea": null,
+          "price": "2.6 Cr",
+          "actualPrice": 26000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "520 sq.ft",
+      "price": "1.19 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "730 - 1,170 sq.ft",
+      "price": "1.6 Cr - 2.6 Cr"
+    }
+  ]
+}

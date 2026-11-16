@@ -1,0 +1,104 @@
+{
+  "projectId": 20978,
+  "slug": "starom-ekya-malad-west-pid-20978",
+  "name": "Starom Ekya",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/starom-ekya-malad-west-pid-20978",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20978/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9827/original/download_%288%29.png?1794462619",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 127327,
+          "bhk": "3 BHK",
+          "carpetArea": 1400,
+          "carpetAreaDisplay": "1400 sq.ft",
+          "builtUpArea": null,
+          "price": "5.04 Cr",
+          "actualPrice": 50400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 127328,
+          "bhk": "4 BHK",
+          "carpetArea": 2084,
+          "carpetAreaDisplay": "2084 sq.ft",
+          "builtUpArea": null,
+          "price": "7.5 Cr",
+          "actualPrice": 75000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "5 BHK",
+      "variants": [
+        {
+          "id": 140133,
+          "bhk": "5 BHK",
+          "carpetArea": 2777,
+          "carpetAreaDisplay": "2777 sq.ft",
+          "builtUpArea": null,
+          "price": "9.99 Cr",
+          "actualPrice": 99900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,400 sq.ft",
+      "price": "5.04 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,084 sq.ft",
+      "price": "7.5 Cr"
+    },
+    {
+      "flat_type_name": "5 BHK",
+      "carpet_area": "2,777 sq.ft",
+      "price": "9.99 Cr"
+    }
+  ]
+}

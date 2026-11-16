@@ -1,0 +1,104 @@
+{
+  "projectId": 13890,
+  "slug": "lodha-vero-sion-west-pid-13890",
+  "name": "Lodha Vero",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/lodha-vero-sion-west-pid-13890",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13890/original/IMG_20231005_150225.jpg?1696498383",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "5 BHK",
+      "variants": [
+        {
+          "id": 138759,
+          "bhk": "5 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Pent House",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 42931,
+          "bhk": "3 BHK",
+          "carpetArea": 1795,
+          "carpetAreaDisplay": "1795 sq.ft",
+          "builtUpArea": null,
+          "price": "9.7 Cr",
+          "actualPrice": 97000000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/42931/original/3bhk.PNG?1792129739",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 116923,
+          "bhk": "4 BHK",
+          "carpetArea": 2833,
+          "carpetAreaDisplay": "2833 sq.ft",
+          "builtUpArea": null,
+          "price": "11.78 Cr",
+          "actualPrice": 117800000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/116923/original/4bhk.PNG?1792129739",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "5 BHK",
+      "carpet_area": "On Request",
+      "price": "On Request"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,795 sq.ft",
+      "price": "9.7 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,833 sq.ft",
+      "price": "11.78 Cr"
+    }
+  ]
+}

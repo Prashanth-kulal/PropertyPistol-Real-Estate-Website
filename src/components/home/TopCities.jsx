@@ -4,7 +4,7 @@ import React, { useRef, useState, useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { MapPin, ChevronLeft, ChevronRight, ArrowRight, Sparkles, X } from "lucide-react";
-import { CITIES } from "@/data";
+import { CITIES } from "@/data/cities";
 
 export default function TopCities({ onSelectCity }) {
   const router = useRouter();

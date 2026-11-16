@@ -1,0 +1,120 @@
+{
+  "projectId": 19136,
+  "slug": "redision-royal-kondhwa-pid-19136",
+  "name": "Redision Royal ",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/redision-royal-kondhwa-pid-19136",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19136/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19136/original/IMG_20250630_130527.png?1751268971"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 100278,
+          "bhk": "2 BHK",
+          "carpetArea": 750,
+          "carpetAreaDisplay": "750 sq.ft",
+          "builtUpArea": null,
+          "price": "68.0 Lacs",
+          "actualPrice": 6800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 129561,
+          "bhk": "2 BHK",
+          "carpetArea": 778,
+          "carpetAreaDisplay": "778 sq.ft",
+          "builtUpArea": null,
+          "price": "73.0 Lacs",
+          "actualPrice": 7300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 129562,
+          "bhk": "3 BHK",
+          "carpetArea": 952,
+          "carpetAreaDisplay": "952 sq.ft",
+          "builtUpArea": null,
+          "price": "91.0 Lacs",
+          "actualPrice": 9100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 139100,
+          "bhk": "4 BHK",
+          "carpetArea": 1341,
+          "carpetAreaDisplay": "1341 sq.ft",
+          "builtUpArea": null,
+          "price": "1.29 Cr",
+          "actualPrice": 12900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "750 - 778 sq.ft",
+      "price": "68.0 Lacs - 73.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "952 sq.ft",
+      "price": "91.0 Lacs"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,341 sq.ft",
+      "price": "1.29 Cr"
+    }
+  ]
+}

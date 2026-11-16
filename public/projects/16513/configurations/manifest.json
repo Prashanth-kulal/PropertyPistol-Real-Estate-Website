@@ -1,0 +1,78 @@
+{
+  "projectId": 16513,
+  "slug": "dps-nakshatra-heights-kandivali-west-pid-16513",
+  "name": "DPS Nakshatra Heights",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/dps-nakshatra-heights-kandivali-west-pid-16513",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16513/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9100/original/fp.PNG?1765783984",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 62385,
+          "bhk": "1 BHK",
+          "carpetArea": 419,
+          "carpetAreaDisplay": "419 sq.ft",
+          "builtUpArea": null,
+          "price": "96.33 Lacs",
+          "actualPrice": 9633000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/16513/configurations/unit-plans/1-bhk/419-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/62385/original/1.PNG?1765783984",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 62386,
+          "bhk": "2 BHK",
+          "carpetArea": 662,
+          "carpetAreaDisplay": "662 sq.ft",
+          "builtUpArea": null,
+          "price": "1.52 Cr",
+          "actualPrice": 15200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/16513/configurations/unit-plans/2-bhk/662-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/62386/original/2.PNG?1765783983",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "419 sq.ft",
+      "price": "96.33 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "662 sq.ft",
+      "price": "1.52 Cr"
+    }
+  ]
+}

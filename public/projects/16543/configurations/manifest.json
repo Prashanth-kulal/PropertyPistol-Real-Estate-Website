@@ -1,0 +1,110 @@
+{
+  "projectId": 16543,
+  "slug": "sayaji-elvira-prabhukripa-chs-vile-parle-east-pid-16543",
+  "name": "Sayaji Elvira Prabhukripa Chs",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sayaji-elvira-prabhukripa-chs-vile-parle-east-pid-16543",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16543/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6269/original/FloorplanS.png?1756096763",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 62491,
+          "bhk": "2 BHK",
+          "carpetArea": 685,
+          "carpetAreaDisplay": "685 sq.ft",
+          "builtUpArea": null,
+          "price": "3.45 Cr",
+          "actualPrice": 34500000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/16543/configurations/unit-plans/2-bhk/685-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/62491/original/2.PNG?1768817475",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 62492,
+          "bhk": "2 BHK",
+          "carpetArea": 714,
+          "carpetAreaDisplay": "714 sq.ft",
+          "builtUpArea": null,
+          "price": "3.59 Cr",
+          "actualPrice": 35900000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/16543/configurations/unit-plans/2-bhk/714-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/62492/original/2.PNG?1768817475",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 94452,
+          "bhk": "2 BHK",
+          "carpetArea": 725,
+          "carpetAreaDisplay": "725 sq.ft",
+          "builtUpArea": null,
+          "price": "3.65 Cr",
+          "actualPrice": 36500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 94451,
+          "bhk": "3 BHK",
+          "carpetArea": 996,
+          "carpetAreaDisplay": "996 sq.ft",
+          "builtUpArea": null,
+          "price": "5.01 Cr",
+          "actualPrice": 50100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "685 - 725 sq.ft",
+      "price": "3.45 Cr - 3.65 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "996 sq.ft",
+      "price": "5.01 Cr"
+    }
+  ]
+}

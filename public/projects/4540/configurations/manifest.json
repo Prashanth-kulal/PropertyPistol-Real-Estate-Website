@@ -1,0 +1,68 @@
+{
+  "projectId": 4540,
+  "slug": "the-residency-andheri-west-pid-4540",
+  "name": "The Residency",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/the-residency-andheri-west-pid-4540",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2301/original/fp.PNG?1627455084",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 14063,
+          "bhk": "1 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 338,
+          "price": "98.42 Lacs",
+          "actualPrice": 9842000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/14063/original/1bhk.jpg?1627455079",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 134349,
+          "bhk": "1 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 340,
+          "price": "99.0 Lacs",
+          "actualPrice": 9900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "On Request",
+      "price": "98.42 Lacs - 99.0 Lacs"
+    }
+  ]
+}

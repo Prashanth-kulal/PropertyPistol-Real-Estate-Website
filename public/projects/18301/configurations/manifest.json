@@ -1,0 +1,78 @@
+{
+  "projectId": 18301,
+  "slug": "ruturaj-classic-nala-sopara-west-pid-18301",
+  "name": "Ruturaj Classic",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ruturaj-classic-nala-sopara-west-pid-18301",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18301/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7011/original/fp_ru.png?1757327049",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 90193,
+          "bhk": "1 BHK",
+          "carpetArea": 396,
+          "carpetAreaDisplay": "396 sq.ft",
+          "builtUpArea": null,
+          "price": "35.5 Lacs",
+          "actualPrice": 3550140,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 90196,
+          "bhk": "3 BHK",
+          "carpetArea": 753,
+          "carpetAreaDisplay": "753 sq.ft",
+          "builtUpArea": null,
+          "price": "67.51 Lacs",
+          "actualPrice": 6750645,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "396 sq.ft",
+      "price": "35.5 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "753 sq.ft",
+      "price": "67.51 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "projectId": 19371,
+  "slug": "giriraj-sapphire-kharghar-pid-19371",
+  "name": "Giriraj Sapphire",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/giriraj-sapphire-kharghar-pid-19371",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19371/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7534/original/fp-gir.png?1741795021",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 109753,
+          "bhk": "1 BHK",
+          "carpetArea": 414,
+          "carpetAreaDisplay": "414 sq.ft",
+          "builtUpArea": null,
+          "price": "58.65 Lacs",
+          "actualPrice": 5865138,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 102604,
+          "bhk": "2 BHK",
+          "carpetArea": 720,
+          "carpetAreaDisplay": "720 sq.ft",
+          "builtUpArea": null,
+          "price": "1.02 Cr",
+          "actualPrice": 10200240,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "414 sq.ft",
+      "price": "58.65 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "720 sq.ft",
+      "price": "1.02 Cr"
+    }
+  ]
+}

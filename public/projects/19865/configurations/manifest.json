@@ -1,0 +1,102 @@
+{
+  "projectId": 19865,
+  "slug": "shaliggram-advay-homes-aundh-pid-19865",
+  "name": "Shaliggram Advay Homes",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shaliggram-advay-homes-aundh-pid-19865",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19865/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19865/original/masterplan.PNG?1747845177"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19865/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8076/original/floor.PNG?1747845182"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 113857,
+          "bhk": "2 BHK",
+          "carpetArea": 991,
+          "carpetAreaDisplay": "991 sq.ft",
+          "builtUpArea": null,
+          "price": "1.53 Cr",
+          "actualPrice": 15300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 133523,
+          "bhk": "3 BHK",
+          "carpetArea": 1241,
+          "carpetAreaDisplay": "1241 sq.ft",
+          "builtUpArea": null,
+          "price": "2.21 Cr",
+          "actualPrice": 22100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 113858,
+          "bhk": "3 BHK",
+          "carpetArea": 1253,
+          "carpetAreaDisplay": "1253 sq.ft",
+          "builtUpArea": null,
+          "price": "2.23 Cr",
+          "actualPrice": 22300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "991 sq.ft",
+      "price": "1.53 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,241 - 1,253 sq.ft",
+      "price": "2.21 Cr - 2.23 Cr"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "projectId": 19036,
+  "slug": "arihant-aleenta-vashi-pid-19036",
+  "name": "Arihant Aleenta",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/arihant-aleenta-vashi-pid-19036",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19036/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19036/original/download_-_2025-12-08T155810.958.png?1765189775",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19036/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9064/original/download_-_2025-12-08T155815.748.png?1765189776",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19036/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9065/original/download_-_2025-12-08T155819.186.png?1765189776",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 99321,
+          "bhk": "3 BHK",
+          "carpetArea": 1430,
+          "carpetAreaDisplay": "1430 sq.ft",
+          "builtUpArea": null,
+          "price": "5.5 Cr",
+          "actualPrice": 55000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "5 BHK",
+      "variants": [
+        {
+          "id": 130467,
+          "bhk": "5 BHK",
+          "carpetArea": 2375,
+          "carpetAreaDisplay": "2375 sq.ft",
+          "builtUpArea": null,
+          "price": "9.13 Cr",
+          "actualPrice": 91300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "6 BHK",
+      "variants": [
+        {
+          "id": 130468,
+          "bhk": "6 BHK",
+          "carpetArea": 2875,
+          "carpetAreaDisplay": "2875 sq.ft",
+          "builtUpArea": null,
+          "price": "11.06 Cr",
+          "actualPrice": 110600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "7 BHK",
+      "variants": [
+        {
+          "id": 130469,
+          "bhk": "7 BHK",
+          "carpetArea": 4046,
+          "carpetAreaDisplay": "4046 sq.ft",
+          "builtUpArea": null,
+          "price": "15.56 Cr",
+          "actualPrice": 155600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 130470,
+          "bhk": "7 BHK",
+          "carpetArea": 4105,
+          "carpetAreaDisplay": "4105 sq.ft",
+          "builtUpArea": null,
+          "price": "15.79 Cr",
+          "actualPrice": 157900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,430 sq.ft",
+      "price": "5.5 Cr"
+    },
+    {
+      "flat_type_name": "5 BHK",
+      "carpet_area": "2,375 sq.ft",
+      "price": "9.13 Cr"
+    },
+    {
+      "flat_type_name": "6 BHK",
+      "carpet_area": "2,875 sq.ft",
+      "price": "11.06 Cr"
+    },
+    {
+      "flat_type_name": "7 BHK",
+      "carpet_area": "4,046 - 4,105 sq.ft",
+      "price": "15.56 Cr - 15.79 Cr"
+    }
+  ]
+}

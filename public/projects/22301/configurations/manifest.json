@@ -1,0 +1,100 @@
+{
+  "projectId": 22301,
+  "slug": "shapoorji-one-hills",
+  "name": "Shapoorji One Hills",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shapoorji-one-hills-kandivali-east-pid-22301",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/22301/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9824/original/fp.JPG?1793859535",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 139939,
+          "bhk": "3 BHK",
+          "carpetArea": 1320,
+          "carpetAreaDisplay": "1320 sq.ft",
+          "builtUpArea": null,
+          "price": "3.99 Cr",
+          "actualPrice": 39900000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/22301/configurations/unit-plans/3-bhk/1320-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/139939/original/1320.JPG?1793859534",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 139940,
+          "bhk": "3 BHK",
+          "carpetArea": 1377,
+          "carpetAreaDisplay": "1377 sq.ft",
+          "builtUpArea": null,
+          "price": "4.16 Cr",
+          "actualPrice": 41600000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/22301/configurations/unit-plans/3-bhk/1377-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/139940/original/1377.JPG?1793859534",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 139941,
+          "bhk": "3 BHK",
+          "carpetArea": 1384,
+          "carpetAreaDisplay": "1384 sq.ft",
+          "builtUpArea": null,
+          "price": "4.18 Cr",
+          "actualPrice": 41800000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/22301/configurations/unit-plans/3-bhk/1384-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/139941/original/1384.JPG?1793859534",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 139942,
+          "bhk": "3 BHK",
+          "carpetArea": 1544,
+          "carpetAreaDisplay": "1544 sq.ft",
+          "builtUpArea": null,
+          "price": "4.67 Cr",
+          "actualPrice": 46700000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/22301/configurations/unit-plans/3-bhk/1544-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/139942/original/1544.JPG?1793859534",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,320 - 1,544 sq.ft",
+      "price": "3.99 Cr - 4.67 Cr"
+    }
+  ]
+}

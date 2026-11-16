@@ -1,0 +1,102 @@
+{
+  "projectId": 18756,
+  "slug": "nand-yashoda-highrise-hudkeshwar-pid-18756",
+  "name": "Nand Yashoda Highrise",
+  "city": "nagpur",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/nand-yashoda-highrise-hudkeshwar-pid-18756",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18756/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18756/original/masterplan.PNG?1732711094"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18756/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7223/original/floorplan.PNG?1732711096"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 93902,
+          "bhk": "1 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 593,
+          "price": "19.99 Lacs",
+          "actualPrice": 1999000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18756/configurations/unit-plans/1-bhk/variant-93902/plan-2d.webp",
+          "plan3D": "/projects/18756/configurations/unit-plans/1-bhk/variant-93902/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/93902/original/1bhk_2d.PNG?1732711094",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/93902/original/1bhk_3d.PNG?1732711094",
+          "has2D": true,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 93903,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 862,
+          "price": "28.51 Lacs",
+          "actualPrice": 2851000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18756/configurations/unit-plans/2-bhk/variant-93903/plan-2d.webp",
+          "plan3D": "/projects/18756/configurations/unit-plans/2-bhk/variant-93903/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/93903/original/2bhk_2d.PNG?1732711095",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/93903/original/2bhk_3d.PNG?1732711095",
+          "has2D": true,
+          "has3D": true
+        },
+        {
+          "id": 129958,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 923,
+          "price": "30.01 Lacs",
+          "actualPrice": 3001000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "On Request",
+      "price": "19.99 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "On Request",
+      "price": "28.51 Lacs - 30.01 Lacs"
+    }
+  ]
+}

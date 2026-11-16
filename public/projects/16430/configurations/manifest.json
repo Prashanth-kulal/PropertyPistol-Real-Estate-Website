@@ -1,0 +1,94 @@
+{
+  "projectId": 16430,
+  "slug": "om-laxmi-sadan-chs-mulund-west-pid-16430",
+  "name": "Om Laxmi Sadan CHS",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/om-laxmi-sadan-chs-mulund-west-pid-16430",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16430/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6239/original/FP.PNG?1715675422",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 61974,
+          "bhk": "2 BHK",
+          "carpetArea": 836,
+          "carpetAreaDisplay": "836 sq.ft",
+          "builtUpArea": null,
+          "price": "2.71 Cr",
+          "actualPrice": 27100000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/16430/configurations/unit-plans/2-bhk/836-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/61974/original/2B.PNG?1715675421",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 134862,
+          "bhk": "3 BHK",
+          "carpetArea": 1053,
+          "carpetAreaDisplay": "1053 sq.ft",
+          "builtUpArea": null,
+          "price": "3.42 Cr",
+          "actualPrice": 34200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 61975,
+          "bhk": "3 BHK",
+          "carpetArea": 1056,
+          "carpetAreaDisplay": "1056 sq.ft",
+          "builtUpArea": null,
+          "price": "3.43 Cr",
+          "actualPrice": 34300000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/16430/configurations/unit-plans/3-bhk/1056-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/61975/original/3B.PNG?1715675421",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "836 sq.ft",
+      "price": "2.71 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,053 - 1,056 sq.ft",
+      "price": "3.42 Cr - 3.43 Cr"
+    }
+  ]
+}

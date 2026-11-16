@@ -1,0 +1,110 @@
+{
+  "projectId": 16170,
+  "slug": "ashwamedh-blue-berry-panch-pakhdi-pid-16170",
+  "name": "Ashwamedh Blue Berry",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ashwamedh-blue-berry-panch-pakhdi-pid-16170",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16170/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16170/original/p.png?1714374494",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16170/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6145/original/fp.png?1714374495",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/16170/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6146/original/fpp.png?1714374495",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 59949,
+          "bhk": "1 BHK",
+          "carpetArea": 300,
+          "carpetAreaDisplay": "300 sq.ft",
+          "builtUpArea": null,
+          "price": "54.02 Lacs",
+          "actualPrice": 5402000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 59950,
+          "bhk": "1 BHK",
+          "carpetArea": 422,
+          "carpetAreaDisplay": "422 sq.ft",
+          "builtUpArea": null,
+          "price": "75.99 Lacs",
+          "actualPrice": 7599000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 75559,
+          "bhk": "2 BHK",
+          "carpetArea": 562,
+          "carpetAreaDisplay": "562 sq.ft",
+          "builtUpArea": null,
+          "price": "1.01 Cr",
+          "actualPrice": 10100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "300 - 422 sq.ft",
+      "price": "54.02 Lacs - 75.99 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "562 sq.ft",
+      "price": "1.01 Cr"
+    }
+  ]
+}

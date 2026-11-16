@@ -1,0 +1,110 @@
+{
+  "projectId": 15753,
+  "slug": "horizon-highgroves-mundhwa-pid-15753",
+  "name": "Horizon Highgroves",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/horizon-highgroves-mundhwa-pid-15753",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/15753/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/15753/original/masterplan.JPG?1708514597"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 52438,
+          "bhk": "3 BHK",
+          "carpetArea": 1053,
+          "carpetAreaDisplay": "1053 sq.ft",
+          "builtUpArea": null,
+          "price": "1.65 Cr",
+          "actualPrice": 16500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 52439,
+          "bhk": "3 BHK",
+          "carpetArea": 1104,
+          "carpetAreaDisplay": "1104 sq.ft",
+          "builtUpArea": null,
+          "price": "1.73 Cr",
+          "actualPrice": 17300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 63932,
+          "bhk": "3 BHK",
+          "carpetArea": 1120,
+          "carpetAreaDisplay": "1120 sq.ft",
+          "builtUpArea": null,
+          "price": "1.75 Cr",
+          "actualPrice": 17500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 63934,
+          "bhk": "4 BHK",
+          "carpetArea": 1702,
+          "carpetAreaDisplay": "1702 sq.ft",
+          "builtUpArea": null,
+          "price": "2.66 Cr",
+          "actualPrice": 26600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,053 - 1,120 sq.ft",
+      "price": "1.65 Cr - 1.75 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,702 sq.ft",
+      "price": "2.66 Cr"
+    }
+  ]
+}

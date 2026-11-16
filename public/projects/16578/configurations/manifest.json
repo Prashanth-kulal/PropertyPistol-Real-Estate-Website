@@ -1,0 +1,94 @@
+{
+  "projectId": 16578,
+  "slug": "rkd-milestone-baner-pid-16578",
+  "name": "RKD Milestone",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/rkd-milestone-baner-pid-16578",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16578/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6288/original/cf64abfd15360fb.jpeg?1716465896"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 106770,
+          "bhk": "1 BHK",
+          "carpetArea": 457,
+          "carpetAreaDisplay": "457 sq.ft",
+          "builtUpArea": null,
+          "price": "73.1 Lacs",
+          "actualPrice": 7310000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 106771,
+          "bhk": "2 BHK",
+          "carpetArea": 542,
+          "carpetAreaDisplay": "542 sq.ft",
+          "builtUpArea": null,
+          "price": "86.54 Lacs",
+          "actualPrice": 8654000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 71943,
+          "bhk": "2 BHK",
+          "carpetArea": 739,
+          "carpetAreaDisplay": "739 sq.ft",
+          "builtUpArea": null,
+          "price": "1.18 Cr",
+          "actualPrice": 11800000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "457 sq.ft",
+      "price": "73.1 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "542 - 739 sq.ft",
+      "price": "86.54 Lacs - 1.18 Cr"
+    }
+  ]
+}

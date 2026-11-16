@@ -1,0 +1,112 @@
+{
+  "projectId": 20192,
+  "slug": "hilite-olympus-poovangal-pid-20192",
+  "name": "HiLITE Olympus",
+  "city": "calicut",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/hilite-olympus-poovangal-pid-20192",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/20192/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/20192/original/master1.png?1752830553"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20192/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8538/original/floor.PNG?1752830558"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 119534,
+          "bhk": "1 BHK",
+          "carpetArea": 592,
+          "carpetAreaDisplay": "592 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 119538,
+          "bhk": "2 BHK",
+          "carpetArea": 872,
+          "carpetAreaDisplay": "872 sq.ft",
+          "builtUpArea": 2056,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 119536,
+          "bhk": "3 BHK",
+          "carpetArea": 1206,
+          "carpetAreaDisplay": "1206 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20192/configurations/unit-plans/3-bhk/1206-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/119536/original/3bhk_2d.PNG?1752830554",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "592 sq.ft",
+      "price": "On Request"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "872 sq.ft",
+      "price": "On Request"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,206 sq.ft",
+      "price": "On Request"
+    }
+  ]
+}

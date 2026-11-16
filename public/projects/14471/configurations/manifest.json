@@ -1,0 +1,87 @@
+{
+  "projectId": 14471,
+  "slug": "palm-amore-seawoods-pid-14471",
+  "name": "Palm Amore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/palm-amore-seawoods-pid-14471",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/14471/original/mp-palm.png?1752480452",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8477/original/fp-palm-Picsart-AiImageEnhancer.png?1752480452",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 45022,
+          "bhk": "2 BHK",
+          "carpetArea": 982,
+          "carpetAreaDisplay": "982 sq.ft",
+          "builtUpArea": null,
+          "price": "2.47 Cr",
+          "actualPrice": 24701228,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/45022/original/2.PNG?1735021752",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 129707,
+          "bhk": "3 BHK",
+          "carpetArea": 1755,
+          "carpetAreaDisplay": "1755 sq.ft",
+          "builtUpArea": null,
+          "price": "4.41 Cr",
+          "actualPrice": 44145270,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "982 sq.ft",
+      "price": "2.47 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,755 sq.ft",
+      "price": "4.41 Cr"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "projectId": 17094,
+  "slug": "vigor-embassy-east-avenue-hoodi-pid-17094",
+  "name": "Vigor Embassy East Avenue",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/vigor-embassy-east-avenue-hoodi-pid-17094",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/17094/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/17094/original/masterplan.JPG?1718817347"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/17094/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6481/original/floorplan2.JPG?1718817348"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/17094/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6482/original/floorplan3.JPG?1718817348"
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/17094/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6483/original/floorplan4.JPG?1718817348"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 69289,
+          "bhk": "2 BHK",
+          "carpetArea": 737,
+          "carpetAreaDisplay": "737 sq.ft",
+          "builtUpArea": null,
+          "price": "1.77 Cr",
+          "actualPrice": 17700000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/17094/configurations/unit-plans/2-bhk/737-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/69289/original/2bhk_2d1.JPG?1718817347",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 104936,
+          "bhk": "2 BHK",
+          "carpetArea": 744,
+          "carpetAreaDisplay": "744 sq.ft",
+          "builtUpArea": null,
+          "price": "1.79 Cr",
+          "actualPrice": 17900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 104938,
+          "bhk": "2 BHK",
+          "carpetArea": 762,
+          "carpetAreaDisplay": "762 sq.ft",
+          "builtUpArea": null,
+          "price": "1.79 Cr",
+          "actualPrice": 17900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 104937,
+          "bhk": "2 BHK",
+          "carpetArea": 786,
+          "carpetAreaDisplay": "786 sq.ft",
+          "builtUpArea": null,
+          "price": "1.83 Cr",
+          "actualPrice": 18300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2.5 BHK",
+      "variants": [
+        {
+          "id": 93394,
+          "bhk": "2.5 BHK",
+          "carpetArea": 922,
+          "carpetAreaDisplay": "922 sq.ft",
+          "builtUpArea": null,
+          "price": "2.19 Cr",
+          "actualPrice": 21900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 104940,
+          "bhk": "2.5 BHK",
+          "carpetArea": 949,
+          "carpetAreaDisplay": "949 sq.ft",
+          "builtUpArea": null,
+          "price": "2.24 Cr",
+          "actualPrice": 22400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 69291,
+          "bhk": "3 BHK",
+          "carpetArea": 1087,
+          "carpetAreaDisplay": "1087 sq.ft",
+          "builtUpArea": null,
+          "price": "2.64 Cr",
+          "actualPrice": 26400000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/17094/configurations/unit-plans/3-bhk/1087-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/69291/original/3bhk_2d1.JPG?1718817347",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "737 - 786 sq.ft",
+      "price": "1.77 Cr - 1.83 Cr"
+    },
+    {
+      "flat_type_name": "2.5 BHK",
+      "carpet_area": "922 - 949 sq.ft",
+      "price": "2.19 Cr - 2.24 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,087 sq.ft",
+      "price": "2.64 Cr"
+    }
+  ]
+}

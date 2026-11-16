@@ -1,0 +1,88 @@
+{
+  "projectId": 8361,
+  "slug": "aishwaryam-insignia-punawale-pid-8361",
+  "name": "Aishwaryam Insignia",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/aishwaryam-insignia-punawale-pid-8361",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/8361/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/8361/original/download_-_2025-12-04T133016.159.png?1764835304"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/8361/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9033/original/download_-_2025-12-04T133020.289.png?1764835304"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/8361/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9034/original/download_-_2025-12-04T133023.496.png?1764835304"
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/8361/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9035/original/download_-_2025-12-04T133026.914.png?1764835305"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 99781,
+          "bhk": "1 BHK",
+          "carpetArea": 472,
+          "carpetAreaDisplay": "472 sq.ft",
+          "builtUpArea": null,
+          "price": "45.05 Lacs",
+          "actualPrice": 4505000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 107530,
+          "bhk": "1 BHK",
+          "carpetArea": 721,
+          "carpetAreaDisplay": "721 sq.ft",
+          "builtUpArea": null,
+          "price": "68.82 Lacs",
+          "actualPrice": 6882000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "472 - 721 sq.ft",
+      "price": "45.05 Lacs - 68.82 Lacs"
+    }
+  ]
+}

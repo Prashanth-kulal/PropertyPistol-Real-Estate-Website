@@ -1,0 +1,84 @@
+{
+  "projectId": 18598,
+  "slug": "sdpl-aashray-hazaripahad-hazaripahad-pid-18598",
+  "name": "SDPL Aashray Hazaripahad",
+  "city": "nagpur",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sdpl-aashray-hazaripahad-hazaripahad-pid-18598",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18598/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7160/original/floorplan.PNG?1731495482"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/18598/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7161/original/floorplan1.PNG?1731495482"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 92695,
+          "bhk": "1 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 545,
+          "price": "23.0 Lacs",
+          "actualPrice": 2300000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18598/configurations/unit-plans/1-bhk/variant-92695/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/92695/original/1bhk_2d.PNG?1731495481",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 92696,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 805,
+          "price": "31.5 Lacs",
+          "actualPrice": 3150000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18598/configurations/unit-plans/2-bhk/variant-92696/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/92696/original/2bhk_2d.PNG?1731495481",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "On Request",
+      "price": "23.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "On Request",
+      "price": "31.5 Lacs"
+    }
+  ]
+}

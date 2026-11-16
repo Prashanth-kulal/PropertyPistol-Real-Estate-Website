@@ -1,0 +1,139 @@
+{
+  "projectId": 11017,
+  "slug": "star-living",
+  "name": "Star Living",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/star-living-thane-west-pid-11017",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/11017/original/eeeb5127afcd8b983deaf47eff94d6a1.png?1754567480",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8738/original/floor_plan.png?1754567480",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 35971,
+          "bhk": "2 BHK",
+          "carpetArea": 737,
+          "carpetAreaDisplay": "737 sq.ft",
+          "builtUpArea": null,
+          "price": "2.36 Cr",
+          "actualPrice": 23600000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 35973,
+          "bhk": "3 BHK",
+          "carpetArea": 1233,
+          "carpetAreaDisplay": "1233 sq.ft",
+          "builtUpArea": null,
+          "price": "3.95 Cr",
+          "actualPrice": 39500000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 50910,
+          "bhk": "4 BHK",
+          "carpetArea": 1554,
+          "carpetAreaDisplay": "1554 sq.ft",
+          "builtUpArea": null,
+          "price": "4.84 Cr",
+          "actualPrice": 48400000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "5 BHK",
+      "variants": [
+        {
+          "id": 122566,
+          "bhk": "5 BHK",
+          "carpetArea": 1995,
+          "carpetAreaDisplay": "1995 sq.ft",
+          "builtUpArea": null,
+          "price": "6.21 Cr",
+          "actualPrice": 62100000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "737 sq.ft",
+      "price": "2.36 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,233 sq.ft",
+      "price": "3.95 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,554 sq.ft",
+      "price": "4.84 Cr"
+    },
+    {
+      "flat_type_name": "5 BHK",
+      "carpet_area": "1,995 sq.ft",
+      "price": "6.21 Cr"
+    }
+  ]
+}

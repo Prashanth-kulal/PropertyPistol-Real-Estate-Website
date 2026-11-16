@@ -1,0 +1,136 @@
+{
+  "projectId": 4533,
+  "slug": "labdhi-seabreeze",
+  "name": "Labdhi Seabreeze",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/labdhi-seabreeze-wadala-pid-4533",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/4533/original/download.png?1668848464",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 83175,
+          "bhk": "1 BHK",
+          "carpetArea": 330,
+          "carpetAreaDisplay": "330 sq.ft",
+          "builtUpArea": null,
+          "price": "92.18 Lacs",
+          "actualPrice": 9218000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 83178,
+          "bhk": "1 BHK",
+          "carpetArea": 358,
+          "carpetAreaDisplay": "358 sq.ft",
+          "builtUpArea": null,
+          "price": "1.0 Cr",
+          "actualPrice": 10000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 83180,
+          "bhk": "1 BHK",
+          "carpetArea": 368,
+          "carpetAreaDisplay": "368 sq.ft",
+          "builtUpArea": null,
+          "price": "1.03 Cr",
+          "actualPrice": 10300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 83185,
+          "bhk": "2 BHK",
+          "carpetArea": 536,
+          "carpetAreaDisplay": "536 sq.ft",
+          "builtUpArea": null,
+          "price": "1.5 Cr",
+          "actualPrice": 15000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 83187,
+          "bhk": "3 BHK",
+          "carpetArea": 846,
+          "carpetAreaDisplay": "846 sq.ft",
+          "builtUpArea": null,
+          "price": "2.36 Cr",
+          "actualPrice": 23600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "330 - 368 sq.ft",
+      "price": "92.18 Lacs - 1.03 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "536 sq.ft",
+      "price": "1.5 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "846 sq.ft",
+      "price": "2.36 Cr"
+    }
+  ]
+}

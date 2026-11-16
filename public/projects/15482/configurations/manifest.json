@@ -1,0 +1,86 @@
+{
+  "projectId": 15482,
+  "slug": "nyati-esteban-2-undri-pid-15482",
+  "name": "Nyati Esteban 2 ",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/nyati-esteban-2-undri-pid-15482",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/15482/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/15482/original/mp.png?1704884478"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/15482/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5415/original/fpp.png?1704884423"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 49349,
+          "bhk": "2 BHK",
+          "carpetArea": 838,
+          "carpetAreaDisplay": "838 sq.ft",
+          "builtUpArea": null,
+          "price": "87.1 Lacs",
+          "actualPrice": 8710000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 49350,
+          "bhk": "3 BHK",
+          "carpetArea": 1213,
+          "carpetAreaDisplay": "1213 sq.ft",
+          "builtUpArea": null,
+          "price": "1.26 Cr",
+          "actualPrice": 12600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "838 sq.ft",
+      "price": "87.1 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,213 sq.ft",
+      "price": "1.26 Cr"
+    }
+  ]
+}

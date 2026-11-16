@@ -1,0 +1,118 @@
+{
+  "projectId": 8347,
+  "slug": "krisala-41cosmo-tathawade-pid-8347",
+  "name": "Krisala 41Cosmo",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/krisala-41cosmo-tathawade-pid-8347",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/8347/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/8347/original/mp.png?1655273520"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/8347/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2700/original/FP_%285%29.png?1753945019"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 54238,
+          "bhk": "2 BHK",
+          "carpetArea": 666,
+          "carpetAreaDisplay": "666 sq.ft",
+          "builtUpArea": null,
+          "price": "69.0 Lacs",
+          "actualPrice": 6900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 111183,
+          "bhk": "2 BHK",
+          "carpetArea": 777,
+          "carpetAreaDisplay": "777 sq.ft",
+          "builtUpArea": null,
+          "price": "80.5 Lacs",
+          "actualPrice": 8050000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2.5 BHK",
+      "variants": [
+        {
+          "id": 111186,
+          "bhk": "2.5 BHK",
+          "carpetArea": 877,
+          "carpetAreaDisplay": "877 sq.ft",
+          "builtUpArea": null,
+          "price": "90.96 Lacs",
+          "actualPrice": 9096000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 99778,
+          "bhk": "2.5 BHK",
+          "carpetArea": 1142,
+          "carpetAreaDisplay": "1142 sq.ft",
+          "builtUpArea": null,
+          "price": "1.18 Cr",
+          "actualPrice": 11800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "666 - 777 sq.ft",
+      "price": "69.0 Lacs - 80.5 Lacs"
+    },
+    {
+      "flat_type_name": "2.5 BHK",
+      "carpet_area": "877 - 1,142 sq.ft",
+      "price": "90.96 Lacs - 1.18 Cr"
+    }
+  ]
+}

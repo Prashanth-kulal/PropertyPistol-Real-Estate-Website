@@ -1,0 +1,86 @@
+{
+  "projectId": 20725,
+  "slug": "silver-oak-pearl-rajanukunte-pid-20725",
+  "name": "Silver Oak Pearl",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/silver-oak-pearl-rajanukunte-pid-20725",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/20725/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/20725/original/download_%2810%29.png?1790319957"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20725/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9716/original/download_%2811%29.png?1790319958"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 126120,
+          "bhk": "2 BHK",
+          "carpetArea": 722,
+          "carpetAreaDisplay": "722 sq.ft",
+          "builtUpArea": null,
+          "price": "55.54 Lacs",
+          "actualPrice": 5553624,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 126119,
+          "bhk": "3 BHK",
+          "carpetArea": 969,
+          "carpetAreaDisplay": "969 sq.ft",
+          "builtUpArea": null,
+          "price": "74.54 Lacs",
+          "actualPrice": 7453548,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "722 sq.ft",
+      "price": "55.54 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "969 sq.ft",
+      "price": "74.54 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "projectId": 484,
+  "slug": "neelam-senroofs-nahur-east-pid-484",
+  "name": "Neelam Senroofs ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/neelam-senroofs-nahur-east-pid-484",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/484/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/484/original/Master_Plan_%2814%29.jpeg?1544248151",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/484/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/201/original/Floor_Plan_5.jpeg?1544248155",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/484/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/202/original/Floor_Plan_6.jpeg?1544248155",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 130200,
+          "bhk": "2 BHK",
+          "carpetArea": 841,
+          "carpetAreaDisplay": "841 sq.ft",
+          "builtUpArea": null,
+          "price": "1.8 Cr",
+          "actualPrice": 18039450,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 130201,
+          "bhk": "3 BHK",
+          "carpetArea": 1222,
+          "carpetAreaDisplay": "1222 sq.ft",
+          "builtUpArea": null,
+          "price": "2.62 Cr",
+          "actualPrice": 26211900,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "841 sq.ft",
+      "price": "1.8 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,222 sq.ft",
+      "price": "2.62 Cr"
+    }
+  ]
+}

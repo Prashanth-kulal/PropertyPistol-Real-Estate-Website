@@ -1,0 +1,52 @@
+{
+  "projectId": 17702,
+  "slug": "gokul-enclave-zingabai-takli-pid-17702",
+  "name": "Gokul Enclave",
+  "city": "nagpur",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/gokul-enclave-zingabai-takli-pid-17702",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/17702/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6789/original/Floorplan.PNG?1723571327"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 78895,
+          "bhk": "3 BHK",
+          "carpetArea": 959,
+          "carpetAreaDisplay": "959 sq.ft",
+          "builtUpArea": 1370,
+          "price": "47.5 Lacs",
+          "actualPrice": 4750000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/17702/configurations/unit-plans/3-bhk/959-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/78895/original/IMG_20250701_172041.jpg?1751370663",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "959 sq.ft",
+      "price": "47.5 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "projectId": 8582,
+  "slug": "lodha-bellagio-powai-pid-8582",
+  "name": "Lodha Bellagio",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/lodha-bellagio-powai-pid-8582",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/8582/original/mp.png?1711097902",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6057/original/fpp.png?1711097903",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 97498,
+          "bhk": "2 BHK",
+          "carpetArea": 783,
+          "carpetAreaDisplay": "783 sq.ft",
+          "builtUpArea": null,
+          "price": "3.25 Cr",
+          "actualPrice": 32500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 30413,
+          "bhk": "3 BHK",
+          "carpetArea": 918,
+          "carpetAreaDisplay": "918 sq.ft",
+          "builtUpArea": null,
+          "price": "3.81 Cr",
+          "actualPrice": 38100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/30413/original/3.PNG?1711097902",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 115601,
+          "bhk": "3 BHK",
+          "carpetArea": 1205,
+          "carpetAreaDisplay": "1205 sq.ft",
+          "builtUpArea": null,
+          "price": "5.34 Cr",
+          "actualPrice": 53400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4.5 BHK",
+      "variants": [
+        {
+          "id": 115602,
+          "bhk": "4.5 BHK",
+          "carpetArea": 1710,
+          "carpetAreaDisplay": "1710 sq.ft",
+          "builtUpArea": null,
+          "price": "7.56 Cr",
+          "actualPrice": 75600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 115603,
+          "bhk": "4.5 BHK",
+          "carpetArea": 1844,
+          "carpetAreaDisplay": "1844 sq.ft",
+          "builtUpArea": null,
+          "price": "8.14 Cr",
+          "actualPrice": 81400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 30415,
+          "bhk": "4 BHK",
+          "carpetArea": 3332,
+          "carpetAreaDisplay": "3332 sq.ft",
+          "builtUpArea": null,
+          "price": "16.99 Cr",
+          "actualPrice": 169900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/30415/original/4.PNG?1711097903",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "783 sq.ft",
+      "price": "3.25 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "918 - 1,205 sq.ft",
+      "price": "3.81 Cr - 5.34 Cr"
+    },
+    {
+      "flat_type_name": "4.5 BHK",
+      "carpet_area": "1,710 - 1,844 sq.ft",
+      "price": "7.56 Cr - 8.14 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "3,332 sq.ft",
+      "price": "16.99 Cr"
+    }
+  ]
+}

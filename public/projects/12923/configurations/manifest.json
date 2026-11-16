@@ -1,0 +1,78 @@
+{
+  "projectId": 12923,
+  "slug": "kumar-codename-sunrise-hadapsar-pid-12923",
+  "name": "Kumar Codename Sunrise",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/kumar-codename-sunrise-hadapsar-pid-12923",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/12923/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/12923/original/mp.jpg?1689778790"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 39942,
+          "bhk": "2 BHK",
+          "carpetArea": 682,
+          "carpetAreaDisplay": "682 sq.ft",
+          "builtUpArea": null,
+          "price": "82.86 Lacs",
+          "actualPrice": 8286300,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 39943,
+          "bhk": "3 BHK",
+          "carpetArea": 1395,
+          "carpetAreaDisplay": "1395 sq.ft",
+          "builtUpArea": null,
+          "price": "1.69 Cr",
+          "actualPrice": 16949250,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "682 sq.ft",
+      "price": "82.86 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,395 sq.ft",
+      "price": "1.69 Cr"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "projectId": 10085,
+  "slug": "laxmi-aangan-diva-east-pid-10085",
+  "name": "Laxmi Aangan",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/laxmi-aangan-diva-east-pid-10085",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/10085/original/mp.png?1668053747",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2778/original/fp.png?1668053748",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 33788,
+          "bhk": "1 BHK",
+          "carpetArea": 353,
+          "carpetAreaDisplay": "353 sq.ft",
+          "builtUpArea": null,
+          "price": "33.53 Lacs",
+          "actualPrice": 3353000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/33788/original/pixelcut-export_-_2024-12-23T170334.317.png?1734953723",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 50533,
+          "bhk": "1 BHK",
+          "carpetArea": 470,
+          "carpetAreaDisplay": "470 sq.ft",
+          "builtUpArea": null,
+          "price": "44.65 Lacs",
+          "actualPrice": 4465000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "353 - 470 sq.ft",
+      "price": "33.53 Lacs - 44.65 Lacs"
+    }
+  ]
+}

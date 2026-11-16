@@ -1,0 +1,152 @@
+{
+  "projectId": 18703,
+  "slug": "mahavir-arham-mourya-chembur-pid-18703",
+  "name": "Mahavir Arham Mourya",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/mahavir-arham-mourya-chembur-pid-18703",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18703/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7204/original/fp_arh.PNG?1732618430",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 128339,
+          "bhk": "1 BHK",
+          "carpetArea": 303,
+          "carpetAreaDisplay": "303 sq.ft",
+          "builtUpArea": null,
+          "price": "1.07 Cr",
+          "actualPrice": 10700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 128340,
+          "bhk": "1 BHK",
+          "carpetArea": 427,
+          "carpetAreaDisplay": "427 sq.ft",
+          "builtUpArea": null,
+          "price": "1.51 Cr",
+          "actualPrice": 15100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 128338,
+          "bhk": "2 BHK",
+          "carpetArea": 612,
+          "carpetAreaDisplay": "612 sq.ft",
+          "builtUpArea": null,
+          "price": "2.17 Cr",
+          "actualPrice": 21700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 93721,
+          "bhk": "2 BHK",
+          "carpetArea": 665,
+          "carpetAreaDisplay": "665 sq.ft",
+          "builtUpArea": null,
+          "price": "2.35 Cr",
+          "actualPrice": 23500000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18703/configurations/unit-plans/2-bhk/665-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/93721/original/2bhk.PNG?1732618430",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 93722,
+          "bhk": "2 BHK",
+          "carpetArea": 758,
+          "carpetAreaDisplay": "758 sq.ft",
+          "builtUpArea": null,
+          "price": "2.68 Cr",
+          "actualPrice": 26800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 93723,
+          "bhk": "3 BHK",
+          "carpetArea": 1101,
+          "carpetAreaDisplay": "1101 sq.ft",
+          "builtUpArea": null,
+          "price": "3.9 Cr",
+          "actualPrice": 39000000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18703/configurations/unit-plans/3-bhk/1101-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/93723/original/3bhk.PNG?1732618430",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "303 - 427 sq.ft",
+      "price": "1.07 Cr - 1.51 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "612 - 758 sq.ft",
+      "price": "2.17 Cr - 2.68 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,101 sq.ft",
+      "price": "3.9 Cr"
+    }
+  ]
+}

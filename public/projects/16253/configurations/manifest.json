@@ -1,0 +1,78 @@
+{
+  "projectId": 16253,
+  "slug": "om-unnati-taloja-pid-16253",
+  "name": "Om Unnati",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/om-unnati-taloja-pid-16253",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16253/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16253/original/mP.png?1714645793",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 60365,
+          "bhk": "1 BHK",
+          "carpetArea": 352,
+          "carpetAreaDisplay": "352 sq.ft",
+          "builtUpArea": null,
+          "price": "31.77 Lacs",
+          "actualPrice": 3177000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 60366,
+          "bhk": "2 BHK",
+          "carpetArea": 584,
+          "carpetAreaDisplay": "584 sq.ft",
+          "builtUpArea": null,
+          "price": "52.66 Lacs",
+          "actualPrice": 5266000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "352 sq.ft",
+      "price": "31.77 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "584 sq.ft",
+      "price": "52.66 Lacs"
+    }
+  ]
+}

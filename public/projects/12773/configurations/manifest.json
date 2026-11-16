@@ -1,0 +1,78 @@
+{
+  "projectId": 12773,
+  "slug": "dnr-parklink-hennur-road-pid-12773",
+  "name": "Dnr Parklink",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/dnr-parklink-hennur-road-pid-12773",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/12773/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/12773/original/mp_%282%29.jpg?1687511959"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 118869,
+          "bhk": "2 BHK",
+          "carpetArea": 882,
+          "carpetAreaDisplay": "882 sq.ft",
+          "builtUpArea": null,
+          "price": "1.3 Cr",
+          "actualPrice": 12958344,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 59120,
+          "bhk": "3 BHK",
+          "carpetArea": 1234,
+          "carpetAreaDisplay": "1234 sq.ft",
+          "builtUpArea": null,
+          "price": "1.81 Cr",
+          "actualPrice": 18129928,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "882 sq.ft",
+      "price": "1.3 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,234 sq.ft",
+      "price": "1.81 Cr"
+    }
+  ]
+}

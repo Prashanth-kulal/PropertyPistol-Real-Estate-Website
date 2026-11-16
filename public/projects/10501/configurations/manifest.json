@@ -1,0 +1,120 @@
+{
+  "projectId": 10501,
+  "slug": "seasons-saffron-kalyan-west-pid-10501",
+  "name": "Seasons Saffron",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/seasons-saffron-kalyan-west-pid-10501",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7348/original/fpp.png?1738658449",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 60618,
+          "bhk": "1 BHK",
+          "carpetArea": 395,
+          "carpetAreaDisplay": "395 sq.ft",
+          "builtUpArea": null,
+          "price": "50.0 Lacs",
+          "actualPrice": 5000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/60618/original/11.png?1738658449",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 34869,
+          "bhk": "1 BHK",
+          "carpetArea": 411,
+          "carpetAreaDisplay": "411 sq.ft",
+          "builtUpArea": null,
+          "price": "52.03 Lacs",
+          "actualPrice": 5203000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 34870,
+          "bhk": "2 BHK",
+          "carpetArea": 549,
+          "carpetAreaDisplay": "549 sq.ft",
+          "builtUpArea": null,
+          "price": "69.49 Lacs",
+          "actualPrice": 6949000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/34870/original/2bhk.png?1738658449",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 139494,
+          "bhk": "3 BHK",
+          "carpetArea": 683,
+          "carpetAreaDisplay": "683 sq.ft",
+          "builtUpArea": null,
+          "price": "86.46 Lacs",
+          "actualPrice": 8646000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "395 - 411 sq.ft",
+      "price": "50.0 Lacs - 52.03 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "549 sq.ft",
+      "price": "69.49 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "683 sq.ft",
+      "price": "86.46 Lacs"
+    }
+  ]
+}

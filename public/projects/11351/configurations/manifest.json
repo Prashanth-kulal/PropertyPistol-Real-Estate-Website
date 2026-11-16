@@ -1,0 +1,92 @@
+{
+  "projectId": 11351,
+  "slug": "kolte-patil-life-republic-aros-hinjawadi-pid-11351",
+  "name": "Kolte Patil Life Republic Aros",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/kolte-patil-life-republic-aros-hinjawadi-pid-11351",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/11351/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/11351/original/mp.PNG?1676461102"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/11351/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5206/original/FP.PNG?1702718573"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/11351/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5207/original/FPP.PNG?1702718573"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 36774,
+          "bhk": "2 BHK",
+          "carpetArea": 836,
+          "carpetAreaDisplay": "836 sq.ft",
+          "builtUpArea": null,
+          "price": "77.66 Lacs",
+          "actualPrice": 7766440,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/11351/configurations/unit-plans/2-bhk/836-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/36774/original/2.PNG?1676461102",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 112851,
+          "bhk": "3 BHK",
+          "carpetArea": 1176,
+          "carpetAreaDisplay": "1176 sq.ft",
+          "builtUpArea": null,
+          "price": "1.09 Cr",
+          "actualPrice": 10925040,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "836 sq.ft",
+      "price": "77.66 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,176 sq.ft",
+      "price": "1.09 Cr"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "projectId": 21293,
+  "slug": "kalash-serenity-pushpak-nagar-pid-21293",
+  "name": "Kalash Serenity",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/kalash-serenity-pushpak-nagar-pid-21293",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21293/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9179/original/fp.PNG?1771492812",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 132721,
+          "bhk": "2 BHK",
+          "carpetArea": 479,
+          "carpetAreaDisplay": "479 sq.ft",
+          "builtUpArea": null,
+          "price": "78.47 Lacs",
+          "actualPrice": 7847000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/21293/configurations/unit-plans/2-bhk/479-sqft/plan-2d.webp",
+          "plan3D": "/projects/21293/configurations/unit-plans/2-bhk/479-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/132721/original/2b.PNG?1771492808",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/132721/original/2bhk.PNG?1771492808",
+          "has2D": true,
+          "has3D": true
+        },
+        {
+          "id": 140494,
+          "bhk": "2 BHK",
+          "carpetArea": 569,
+          "carpetAreaDisplay": "569 sq.ft",
+          "builtUpArea": null,
+          "price": "93.21 Lacs",
+          "actualPrice": 9321000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 132722,
+          "bhk": "3 BHK",
+          "carpetArea": 801,
+          "carpetAreaDisplay": "801 sq.ft",
+          "builtUpArea": null,
+          "price": "1.18 Cr",
+          "actualPrice": 11800000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/21293/configurations/unit-plans/3-bhk/801-sqft/plan-2d.webp",
+          "plan3D": "/projects/21293/configurations/unit-plans/3-bhk/801-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/132722/original/3.PNG?1771492808",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/132722/original/3b.PNG?1771492809",
+          "has2D": true,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "479 - 569 sq.ft",
+      "price": "78.47 Lacs - 93.21 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "801 sq.ft",
+      "price": "1.18 Cr"
+    }
+  ]
+}

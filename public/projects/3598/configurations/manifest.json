@@ -1,0 +1,119 @@
+{
+  "projectId": 3598,
+  "slug": "unimont-imperia-khopoli-pid-3598",
+  "name": "Unimont Imperia",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/unimont-imperia-khopoli-pid-3598",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/3598/original/mp.jpg?1603191529",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/1928/original/fp.jpg?1603191530",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 87556,
+          "bhk": "1 BHK",
+          "carpetArea": 635,
+          "carpetAreaDisplay": "635 sq.ft",
+          "builtUpArea": null,
+          "price": "24.75 Lacs",
+          "actualPrice": 2475000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/87556/original/1b.PNG?1731747883",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 93110,
+          "bhk": "1 BHK",
+          "carpetArea": 735,
+          "carpetAreaDisplay": "735 sq.ft",
+          "builtUpArea": null,
+          "price": "24.75 Lacs",
+          "actualPrice": 2475000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/93110/original/1b.PNG?1731747883",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 93114,
+          "bhk": "2 BHK",
+          "carpetArea": 1110,
+          "carpetAreaDisplay": "1110 sq.ft",
+          "builtUpArea": null,
+          "price": "44.89 Lacs",
+          "actualPrice": 4489000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/93114/original/2bhk_3d.png?1731747884",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 93112,
+          "bhk": "2 BHK",
+          "carpetArea": 1210,
+          "carpetAreaDisplay": "1210 sq.ft",
+          "builtUpArea": null,
+          "price": "48.93 Lacs",
+          "actualPrice": 4893000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/93112/original/2bhk_3d.png?1731747883",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "635 - 735 sq.ft",
+      "price": "24.75 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "1,110 - 1,210 sq.ft",
+      "price": "44.89 Lacs - 48.93 Lacs"
+    }
+  ]
+}

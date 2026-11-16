@@ -1,0 +1,110 @@
+{
+  "projectId": 7116,
+  "slug": "purva-emerald-bay-mundhwa-pid-7116",
+  "name": "Purva Emerald Bay",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/purva-emerald-bay-mundhwa-pid-7116",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/7116/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/7116/original/mmmmmp.jpg?1672307292"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 135701,
+          "bhk": "2 BHK",
+          "carpetArea": 669,
+          "carpetAreaDisplay": "669 sq.ft",
+          "builtUpArea": null,
+          "price": "87.0 Lacs",
+          "actualPrice": 8700000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 93571,
+          "bhk": "2 BHK",
+          "carpetArea": 921,
+          "carpetAreaDisplay": "921 sq.ft",
+          "builtUpArea": null,
+          "price": "1.15 Cr",
+          "actualPrice": 11500000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 137162,
+          "bhk": "3 BHK",
+          "carpetArea": 1062,
+          "carpetAreaDisplay": "1062 sq.ft",
+          "builtUpArea": null,
+          "price": "1.48 Cr",
+          "actualPrice": 14800000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 137161,
+          "bhk": "3 BHK",
+          "carpetArea": 1075,
+          "carpetAreaDisplay": "1075 sq.ft",
+          "builtUpArea": null,
+          "price": "1.5 Cr",
+          "actualPrice": 15000000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "669 - 921 sq.ft",
+      "price": "87.0 Lacs - 1.15 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,062 - 1,075 sq.ft",
+      "price": "1.48 Cr - 1.5 Cr"
+    }
+  ]
+}

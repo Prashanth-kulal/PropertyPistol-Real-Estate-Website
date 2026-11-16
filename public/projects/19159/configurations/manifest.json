@@ -1,0 +1,152 @@
+{
+  "projectId": 19159,
+  "slug": "shreepati-jade-park-andheri-west-pid-19159",
+  "name": "Shreepati Jade Park",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shreepati-jade-park-andheri-west-pid-19159",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19159/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8309/original/fpp.PNG?1749103825",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 130980,
+          "bhk": "2 BHK",
+          "carpetArea": 718,
+          "carpetAreaDisplay": "718 sq.ft",
+          "builtUpArea": null,
+          "price": "3.52 Cr",
+          "actualPrice": 35200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 115606,
+          "bhk": "2 BHK",
+          "carpetArea": 973,
+          "carpetAreaDisplay": "973 sq.ft",
+          "builtUpArea": null,
+          "price": "4.77 Cr",
+          "actualPrice": 47700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 100419,
+          "bhk": "3 BHK",
+          "carpetArea": 1018,
+          "carpetAreaDisplay": "1018 sq.ft",
+          "builtUpArea": null,
+          "price": "4.99 Cr",
+          "actualPrice": 49900000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19159/configurations/unit-plans/3-bhk/1018-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/100419/original/3.PNG?1749103825",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 130981,
+          "bhk": "3 BHK",
+          "carpetArea": 1223,
+          "carpetAreaDisplay": "1223 sq.ft",
+          "builtUpArea": null,
+          "price": "5.99 Cr",
+          "actualPrice": 59900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 100421,
+          "bhk": "4 BHK",
+          "carpetArea": 1501,
+          "carpetAreaDisplay": "1501 sq.ft",
+          "builtUpArea": null,
+          "price": "7.35 Cr",
+          "actualPrice": 73500000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19159/configurations/unit-plans/4-bhk/1501-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/100421/original/4.PNG?1749103824",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 136617,
+          "bhk": "4 BHK",
+          "carpetArea": 1970,
+          "carpetAreaDisplay": "1970 sq.ft",
+          "builtUpArea": null,
+          "price": "9.65 Cr",
+          "actualPrice": 96500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "718 - 973 sq.ft",
+      "price": "3.52 Cr - 4.77 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,018 - 1,223 sq.ft",
+      "price": "4.99 Cr - 5.99 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,501 - 1,970 sq.ft",
+      "price": "7.35 Cr - 9.65 Cr"
+    }
+  ]
+}

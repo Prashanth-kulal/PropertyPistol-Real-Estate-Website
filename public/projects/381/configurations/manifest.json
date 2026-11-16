@@ -1,0 +1,171 @@
+{
+  "projectId": 381,
+  "slug": "wadhwa-wise-city-panvel",
+  "name": "Wadhwa Wise City Panvel",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/wadhwa-wise-city-panvel-panvel-pid-381",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/381/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/381/original/master_plan.JPG?1542030226",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/381/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5/original/Floor_Plan.JPG?1540463631",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 137280,
+          "bhk": "1 BHK",
+          "carpetArea": 366,
+          "carpetAreaDisplay": "366 sq.ft",
+          "builtUpArea": null,
+          "price": "54.81 Lacs",
+          "actualPrice": 5480850,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 137284,
+          "bhk": "1 BHK",
+          "carpetArea": 390,
+          "carpetAreaDisplay": "390 sq.ft",
+          "builtUpArea": null,
+          "price": "62.3 Lacs",
+          "actualPrice": 6230250,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 137281,
+          "bhk": "2 BHK",
+          "carpetArea": 518,
+          "carpetAreaDisplay": "518 sq.ft",
+          "builtUpArea": null,
+          "price": "77.57 Lacs",
+          "actualPrice": 7757050,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 137282,
+          "bhk": "3 BHK",
+          "carpetArea": 772,
+          "carpetAreaDisplay": "772 sq.ft",
+          "builtUpArea": null,
+          "price": "1.17 Cr",
+          "actualPrice": 11734400,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 137283,
+          "bhk": "3 BHK",
+          "carpetArea": 870,
+          "carpetAreaDisplay": "870 sq.ft",
+          "builtUpArea": null,
+          "price": "1.32 Cr",
+          "actualPrice": 13224000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 137285,
+          "bhk": "4 BHK",
+          "carpetArea": 1500,
+          "carpetAreaDisplay": "1500 sq.ft",
+          "builtUpArea": null,
+          "price": "2.4 Cr",
+          "actualPrice": 23962500,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "366 - 390 sq.ft",
+      "price": "54.81 Lacs - 62.3 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "518 sq.ft",
+      "price": "77.57 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "772 - 870 sq.ft",
+      "price": "1.17 Cr - 1.32 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,500 sq.ft",
+      "price": "2.4 Cr"
+    }
+  ]
+}

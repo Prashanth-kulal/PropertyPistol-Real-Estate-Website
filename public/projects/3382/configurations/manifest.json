@@ -1,0 +1,119 @@
+{
+  "projectId": 3382,
+  "slug": "sadguru-symphony-badlapur-west-pid-3382",
+  "name": "Sadguru Symphony",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sadguru-symphony-badlapur-west-pid-3382",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/3382/original/master_plan.jpg?1582795656",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/1780/original/fp.jpg?1582795657",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 RK",
+      "variants": [
+        {
+          "id": 25538,
+          "bhk": "1 RK",
+          "carpetArea": 420,
+          "carpetAreaDisplay": "420 sq.ft",
+          "builtUpArea": null,
+          "price": "21.0 Lacs",
+          "actualPrice": 2100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 27265,
+          "bhk": "1 RK",
+          "carpetArea": 425,
+          "carpetAreaDisplay": "425 sq.ft",
+          "builtUpArea": null,
+          "price": "21.25 Lacs",
+          "actualPrice": 2125000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 53972,
+          "bhk": "1 BHK",
+          "carpetArea": 590,
+          "carpetAreaDisplay": "590 sq.ft",
+          "builtUpArea": null,
+          "price": "30.0 Lacs",
+          "actualPrice": 3000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 53973,
+          "bhk": "1 BHK",
+          "carpetArea": 660,
+          "carpetAreaDisplay": "660 sq.ft",
+          "builtUpArea": null,
+          "price": "35.0 Lacs",
+          "actualPrice": 3500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 RK",
+      "carpet_area": "420 - 425 sq.ft",
+      "price": "21.0 Lacs - 21.25 Lacs"
+    },
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "590 - 660 sq.ft",
+      "price": "30.0 Lacs - 35.0 Lacs"
+    }
+  ]
+}

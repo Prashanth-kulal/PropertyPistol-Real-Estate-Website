@@ -1,0 +1,77 @@
+{
+  "projectId": 21463,
+  "slug": "horizon-antara-mulund-west-pid-21463",
+  "name": "Horizon Antara",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/horizon-antara-mulund-west-pid-21463",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/21463/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/21463/original/mp.jpg?1771914343",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21463/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9221/original/typical1-floor-plan.jpg?1771914344",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 133063,
+          "bhk": "2 BHK",
+          "carpetArea": 718,
+          "carpetAreaDisplay": "718 sq.ft",
+          "builtUpArea": null,
+          "price": "2.02 Cr",
+          "actualPrice": 20200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139362,
+          "bhk": "2 BHK",
+          "carpetArea": 758,
+          "carpetAreaDisplay": "758 sq.ft",
+          "builtUpArea": null,
+          "price": "2.13 Cr",
+          "actualPrice": 21300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "718 - 758 sq.ft",
+      "price": "2.02 Cr - 2.13 Cr"
+    }
+  ]
+}

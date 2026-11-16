@@ -1,0 +1,143 @@
+{
+  "projectId": 423,
+  "slug": "kalpataru-magnus-bandra-west-pid-423",
+  "name": "Kalpataru Magnus",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/kalpataru-magnus-bandra-west-pid-423",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/423/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/423/original/master-plan01.jpg?1542867518",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/423/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/98/original/1st-floor-plan_%281%29.jpg?1542867520",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/423/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/99/original/1st-floor-plan9e11155abe58475ea4c6c1524b54b6ac.jpg?1542867520",
+      "downloaded": true
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/423/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/100/original/wing-a-1st-floor-plan.jpg?1542867520",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 52363,
+          "bhk": "3 BHK",
+          "carpetArea": 1074,
+          "carpetAreaDisplay": "1074 sq.ft",
+          "builtUpArea": null,
+          "price": "6.32 Cr",
+          "actualPrice": 63200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 83306,
+          "bhk": "3 BHK",
+          "carpetArea": 1197,
+          "carpetAreaDisplay": "1197 sq.ft",
+          "builtUpArea": null,
+          "price": "7.04 Cr",
+          "actualPrice": 70400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 83307,
+          "bhk": "4 BHK",
+          "carpetArea": 1657,
+          "carpetAreaDisplay": "1657 sq.ft",
+          "builtUpArea": null,
+          "price": "9.74 Cr",
+          "actualPrice": 97400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "5 BHK",
+      "variants": [
+        {
+          "id": 83309,
+          "bhk": "5 BHK",
+          "carpetArea": 1800,
+          "carpetAreaDisplay": "1800 sq.ft",
+          "builtUpArea": null,
+          "price": "10.58 Cr",
+          "actualPrice": 105800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,074 - 1,197 sq.ft",
+      "price": "6.32 Cr - 7.04 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,657 sq.ft",
+      "price": "9.74 Cr"
+    },
+    {
+      "flat_type_name": "5 BHK",
+      "carpet_area": "1,800 sq.ft",
+      "price": "10.58 Cr"
+    }
+  ]
+}

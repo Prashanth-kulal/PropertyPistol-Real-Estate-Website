@@ -1,0 +1,104 @@
+{
+  "projectId": 13185,
+  "slug": "rainbow-sunrise-tower-nigdi-pid-13185",
+  "name": "Rainbow Sunrise Tower",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/rainbow-sunrise-tower-nigdi-pid-13185",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/13185/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13185/original/Capturerweda.PNG?1691047153"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 110282,
+          "bhk": "2 BHK",
+          "carpetArea": 800,
+          "carpetAreaDisplay": "800 sq.ft",
+          "builtUpArea": null,
+          "price": "89.46 Lacs",
+          "actualPrice": 8946000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 40857,
+          "bhk": "3 BHK",
+          "carpetArea": 1062,
+          "carpetAreaDisplay": "1062 sq.ft",
+          "builtUpArea": null,
+          "price": "1.19 Cr",
+          "actualPrice": 11900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 120611,
+          "bhk": "4 BHK",
+          "carpetArea": 1600,
+          "carpetAreaDisplay": "1600 sq.ft",
+          "builtUpArea": null,
+          "price": "1.79 Cr",
+          "actualPrice": 17900000,
+          "propertyType": "Pent House",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "800 sq.ft",
+      "price": "89.46 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,062 sq.ft",
+      "price": "1.19 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,600 sq.ft",
+      "price": "1.79 Cr"
+    }
+  ]
+}

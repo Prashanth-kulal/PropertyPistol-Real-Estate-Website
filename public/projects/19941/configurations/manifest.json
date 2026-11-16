@@ -1,0 +1,72 @@
+{
+  "projectId": 19941,
+  "slug": "total-down-by-the-water-jigani-pid-19941",
+  "name": "Total Down by the Water",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/total-down-by-the-water-jigani-pid-19941",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19941/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19941/original/master1.png?1749102867"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19941/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8279/original/floor1.PNG?1748855881"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19941/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8280/original/floor2.PNG?1748855881"
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/19941/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8281/original/floor3.PNG?1748855881"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 115152,
+          "bhk": "3 BHK",
+          "carpetArea": 1619,
+          "carpetAreaDisplay": "1619 sq.ft",
+          "builtUpArea": null,
+          "price": "4.32 Cr",
+          "actualPrice": 43172254,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,619 sq.ft",
+      "price": "4.32 Cr"
+    }
+  ]
+}

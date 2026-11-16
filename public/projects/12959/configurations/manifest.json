@@ -1,0 +1,119 @@
+{
+  "projectId": 12959,
+  "slug": "ellora-emerald-kharghar-pid-12959",
+  "name": "Ellora Emerald",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ellora-emerald-kharghar-pid-12959",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/12959/original/1.jpg?1689917783",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4164/original/fp.PNG?1737730169",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 59464,
+          "bhk": "1 BHK",
+          "carpetArea": 391,
+          "carpetAreaDisplay": "391 sq.ft",
+          "builtUpArea": null,
+          "price": "70.0 Lacs",
+          "actualPrice": 7000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 67450,
+          "bhk": "1 BHK",
+          "carpetArea": 405,
+          "carpetAreaDisplay": "405 sq.ft",
+          "builtUpArea": null,
+          "price": "79.26 Lacs",
+          "actualPrice": 7926000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 67451,
+          "bhk": "2 BHK",
+          "carpetArea": 551,
+          "carpetAreaDisplay": "551 sq.ft",
+          "builtUpArea": null,
+          "price": "99.61 Lacs",
+          "actualPrice": 9961000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 96398,
+          "bhk": "2 BHK",
+          "carpetArea": 605,
+          "carpetAreaDisplay": "605 sq.ft",
+          "builtUpArea": null,
+          "price": "1.08 Cr",
+          "actualPrice": 10800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "391 - 405 sq.ft",
+      "price": "70.0 Lacs - 79.26 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "551 - 605 sq.ft",
+      "price": "99.61 Lacs - 1.08 Cr"
+    }
+  ]
+}

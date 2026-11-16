@@ -1,0 +1,52 @@
+{
+  "projectId": 7179,
+  "slug": "royal-oak-wakad-pid-7179",
+  "name": "Royal Oak",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/royal-oak-wakad-pid-7179",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/7179/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3151/original/fp.png?1670842352"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 100025,
+          "bhk": "2 BHK",
+          "carpetArea": 525,
+          "carpetAreaDisplay": "525 sq.ft",
+          "builtUpArea": null,
+          "price": "80.0 Lacs",
+          "actualPrice": 8000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "525 sq.ft",
+      "price": "80.0 Lacs"
+    }
+  ]
+}

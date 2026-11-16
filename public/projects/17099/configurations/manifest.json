@@ -1,0 +1,92 @@
+{
+  "projectId": 17099,
+  "slug": "satyam-varad-kammasandra-pid-17099",
+  "name": "Satyam Varad",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/satyam-varad-kammasandra-pid-17099",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/17099/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/17099/original/masterplan.JPG?1718828003"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/17099/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6488/original/floorplan1.JPG?1718828003"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/17099/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6489/original/floorplan2.JPG?1718828004"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 69310,
+          "bhk": "2 BHK",
+          "carpetArea": 603,
+          "carpetAreaDisplay": "603 sq.ft",
+          "builtUpArea": null,
+          "price": "51.03 Lacs",
+          "actualPrice": 5102586,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/17099/configurations/unit-plans/2-bhk/603-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/69310/original/2bhk_2d1.JPG?1718828003",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 69312,
+          "bhk": "3 BHK",
+          "carpetArea": 1027,
+          "carpetAreaDisplay": "1027 sq.ft",
+          "builtUpArea": null,
+          "price": "86.9 Lacs",
+          "actualPrice": 8690474,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/17099/configurations/unit-plans/3-bhk/1027-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/69312/original/3bhk_2d.JPG?1718828003",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "603 sq.ft",
+      "price": "51.03 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,027 sq.ft",
+      "price": "86.9 Lacs"
+    }
+  ]
+}

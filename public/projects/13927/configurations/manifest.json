@@ -1,0 +1,117 @@
+{
+  "projectId": 13927,
+  "slug": "arkade-nest-mulund-west-pid-13927",
+  "name": "Arkade Nest ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/arkade-nest-mulund-west-pid-13927",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4525/original/fp1.png?1696667966",
+      "downloaded": false
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4526/original/fp6.png?1696667967",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 126651,
+          "bhk": "2 BHK",
+          "carpetArea": 618,
+          "carpetAreaDisplay": "618 sq.ft",
+          "builtUpArea": null,
+          "price": "1.76 Cr",
+          "actualPrice": 17600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 126653,
+          "bhk": "2 BHK",
+          "carpetArea": 714,
+          "carpetAreaDisplay": "714 sq.ft",
+          "builtUpArea": null,
+          "price": "2.0 Cr",
+          "actualPrice": 20000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 43040,
+          "bhk": "3 BHK",
+          "carpetArea": 853,
+          "carpetAreaDisplay": "853 sq.ft",
+          "builtUpArea": null,
+          "price": "2.54 Cr",
+          "actualPrice": 25400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/43040/original/fp7.png?1696667965",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 126655,
+          "bhk": "3 BHK",
+          "carpetArea": 1007,
+          "carpetAreaDisplay": "1007 sq.ft",
+          "builtUpArea": null,
+          "price": "3.07 Cr",
+          "actualPrice": 30700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "618 - 714 sq.ft",
+      "price": "1.76 Cr - 2.0 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "853 - 1,007 sq.ft",
+      "price": "2.54 Cr - 3.07 Cr"
+    }
+  ]
+}

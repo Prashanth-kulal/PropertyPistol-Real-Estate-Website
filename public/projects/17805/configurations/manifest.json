@@ -1,0 +1,78 @@
+{
+  "projectId": 17805,
+  "slug": "kripa-eternia-vikhroli-east-pid-17805",
+  "name": "Kripa Eternia ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/kripa-eternia-vikhroli-east-pid-17805",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/17805/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6868/original/fp_eter.PNG?1724857823",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 82415,
+          "bhk": "1 BHK",
+          "carpetArea": 359,
+          "carpetAreaDisplay": "359 sq.ft",
+          "builtUpArea": null,
+          "price": "70.99 Lacs",
+          "actualPrice": 7099000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 82417,
+          "bhk": "2 BHK",
+          "carpetArea": 498,
+          "carpetAreaDisplay": "498 sq.ft",
+          "builtUpArea": null,
+          "price": "96.99 Lacs",
+          "actualPrice": 9699000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "359 sq.ft",
+      "price": "70.99 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "498 sq.ft",
+      "price": "96.99 Lacs"
+    }
+  ]
+}

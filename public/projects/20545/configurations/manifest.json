@@ -1,0 +1,68 @@
+{
+  "projectId": 20545,
+  "slug": "progressive-aum-vashi-pid-20545",
+  "name": "Progressive Aum",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/progressive-aum-vashi-pid-20545",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20545/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8774/original/aum_floor_plan_2_min.png?1755004372",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 123255,
+          "bhk": "4 BHK",
+          "carpetArea": 1650,
+          "carpetAreaDisplay": "1650 sq.ft",
+          "builtUpArea": null,
+          "price": "7.5 Cr",
+          "actualPrice": 75000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 123254,
+          "bhk": "4 BHK",
+          "carpetArea": 2125,
+          "carpetAreaDisplay": "2125 sq.ft",
+          "builtUpArea": null,
+          "price": "10.0 Cr",
+          "actualPrice": 100000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,650 - 2,125 sq.ft",
+      "price": "7.5 Cr - 10.0 Cr"
+    }
+  ]
+}

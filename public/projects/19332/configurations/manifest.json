@@ -1,0 +1,128 @@
+{
+  "projectId": 19332,
+  "slug": "pride-miami-charholi-pid-19332",
+  "name": "Pride Miami",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/pride-miami-charholi-pid-19332",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19332/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19332/original/masterplan.PNG?1741275750"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19332/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7487/original/floor1.PNG?1741275753"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 115329,
+          "bhk": "2 BHK",
+          "carpetArea": 750,
+          "carpetAreaDisplay": "750 sq.ft",
+          "builtUpArea": null,
+          "price": "76.58 Lacs",
+          "actualPrice": 7657500,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 101977,
+          "bhk": "2 BHK",
+          "carpetArea": 785,
+          "carpetAreaDisplay": "785 sq.ft",
+          "builtUpArea": null,
+          "price": "78.62 Lacs",
+          "actualPrice": 7861775,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 134303,
+          "bhk": "3 BHK",
+          "carpetArea": 1060,
+          "carpetAreaDisplay": "1060 sq.ft",
+          "builtUpArea": null,
+          "price": "1.06 Cr",
+          "actualPrice": 10615900,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 134304,
+          "bhk": "4 BHK",
+          "carpetArea": 2264,
+          "carpetAreaDisplay": "2264 sq.ft",
+          "builtUpArea": null,
+          "price": "2.31 Cr",
+          "actualPrice": 23115440,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "750 - 785 sq.ft",
+      "price": "76.58 Lacs - 78.62 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,060 sq.ft",
+      "price": "1.06 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,264 sq.ft",
+      "price": "2.31 Cr"
+    }
+  ]
+}

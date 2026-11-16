@@ -1,0 +1,78 @@
+{
+  "projectId": 10271,
+  "slug": "laxmi-emerald-lohegaon-pid-10271",
+  "name": "Laxmi Emerald",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/laxmi-emerald-lohegaon-pid-10271",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/10271/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/10271/original/mp.JPG?1669031954"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 116406,
+          "bhk": "2 BHK",
+          "carpetArea": 574,
+          "carpetAreaDisplay": "574 sq.ft",
+          "builtUpArea": null,
+          "price": "58.98 Lacs",
+          "actualPrice": 5898000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 110408,
+          "bhk": "3 BHK",
+          "carpetArea": 771,
+          "carpetAreaDisplay": "771 sq.ft",
+          "builtUpArea": null,
+          "price": "81.2 Lacs",
+          "actualPrice": 8120000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "574 sq.ft",
+      "price": "58.98 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "771 sq.ft",
+      "price": "81.2 Lacs"
+    }
+  ]
+}

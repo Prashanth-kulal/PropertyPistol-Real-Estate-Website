@@ -1,0 +1,126 @@
+{
+  "projectId": 11658,
+  "slug": "jadeite-nandanvan",
+  "name": "Jadeite Nandanvan",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/jadeite-nandanvan-kandivali-west-pid-11658",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4473/original/floor-plan01.jpg?1695809141",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 37426,
+          "bhk": "1 BHK",
+          "carpetArea": 400,
+          "carpetAreaDisplay": "400 sq.ft",
+          "builtUpArea": null,
+          "price": "90.91 Lacs",
+          "actualPrice": 9091000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/37426/original/1b.PNG?1695809140",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 54592,
+          "bhk": "1 BHK",
+          "carpetArea": 419,
+          "carpetAreaDisplay": "419 sq.ft",
+          "builtUpArea": null,
+          "price": "95.23 Lacs",
+          "actualPrice": 9523000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 37427,
+          "bhk": "1 BHK",
+          "carpetArea": 438,
+          "carpetAreaDisplay": "438 sq.ft",
+          "builtUpArea": null,
+          "price": "99.54 Lacs",
+          "actualPrice": 9954000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/37427/original/1b.PNG?1695809140",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 90721,
+          "bhk": "1 BHK",
+          "carpetArea": 469,
+          "carpetAreaDisplay": "469 sq.ft",
+          "builtUpArea": null,
+          "price": "1.07 Cr",
+          "actualPrice": 10700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 37428,
+          "bhk": "2 BHK",
+          "carpetArea": 645,
+          "carpetAreaDisplay": "645 sq.ft",
+          "builtUpArea": null,
+          "price": "1.47 Cr",
+          "actualPrice": 14700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/37428/original/2.PNG?1695809140",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "400 - 469 sq.ft",
+      "price": "90.91 Lacs - 1.07 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "645 sq.ft",
+      "price": "1.47 Cr"
+    }
+  ]
+}

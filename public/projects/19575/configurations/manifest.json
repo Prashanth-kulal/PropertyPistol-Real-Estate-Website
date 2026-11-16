@@ -1,0 +1,78 @@
+{
+  "projectId": 19575,
+  "slug": "dynasty-the-hyphen-mohammadwadi-pid-19575",
+  "name": "Dynasty The Hyphen",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/dynasty-the-hyphen-mohammadwadi-pid-19575",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19575/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19575/original/masterplan1.png?1744095816"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 106009,
+          "bhk": "3 BHK",
+          "carpetArea": 1458,
+          "carpetAreaDisplay": "1458 sq.ft",
+          "builtUpArea": null,
+          "price": "2.46 Cr",
+          "actualPrice": 24600000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19575/configurations/unit-plans/3-bhk/1458-sqft/plan-2d.webp",
+          "plan3D": "/projects/19575/configurations/unit-plans/3-bhk/1458-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/106009/original/3nhk_2d.PNG?1744095817",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/106009/original/3bhk_3d.PNG?1744095817",
+          "has2D": true,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 106011,
+          "bhk": "4 BHK",
+          "carpetArea": 2094,
+          "carpetAreaDisplay": "2094 sq.ft",
+          "builtUpArea": null,
+          "price": "3.53 Cr",
+          "actualPrice": 35300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,458 sq.ft",
+      "price": "2.46 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,094 sq.ft",
+      "price": "3.53 Cr"
+    }
+  ]
+}

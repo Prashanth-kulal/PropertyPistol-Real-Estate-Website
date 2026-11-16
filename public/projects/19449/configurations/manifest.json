@@ -1,0 +1,112 @@
+{
+  "projectId": 19449,
+  "slug": "vtp-cielo-bavdhan-pid-19449",
+  "name": "VTP Cielo",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/vtp-cielo-bavdhan-pid-19449",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19449/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19449/original/masterplan.PNG?1742821166"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19449/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7608/original/floor1.PNG?1742821171"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 114369,
+          "bhk": "2 BHK",
+          "carpetArea": 761,
+          "carpetAreaDisplay": "761 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 103748,
+          "bhk": "3 BHK",
+          "carpetArea": 975,
+          "carpetAreaDisplay": "975 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19449/configurations/unit-plans/3-bhk/975-sqft/plan-2d.webp",
+          "plan3D": "/projects/19449/configurations/unit-plans/3-bhk/975-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/103748/original/3bhk_2d.PNG?1742821167",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/103748/original/3bhk_3d.PNG?1742821167",
+          "has2D": true,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 103749,
+          "bhk": "4 BHK",
+          "carpetArea": 1750,
+          "carpetAreaDisplay": "1750 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "761 sq.ft",
+      "price": "On Request"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "975 sq.ft",
+      "price": "On Request"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,750 sq.ft",
+      "price": "On Request"
+    }
+  ]
+}

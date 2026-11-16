@@ -1,0 +1,78 @@
+{
+  "projectId": 14205,
+  "slug": "merlin-elementa-2-tathawade-pid-14205",
+  "name": "Merlin Elementa 2",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/merlin-elementa-2-tathawade-pid-14205",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/14205/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/14205/original/Merlin_masterplan.JPG?1698087729"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 114706,
+          "bhk": "2 BHK",
+          "carpetArea": 745,
+          "carpetAreaDisplay": "745 sq.ft",
+          "builtUpArea": null,
+          "price": "87.68 Lacs",
+          "actualPrice": 8768000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 114705,
+          "bhk": "3 BHK",
+          "carpetArea": 1086,
+          "carpetAreaDisplay": "1086 sq.ft",
+          "builtUpArea": null,
+          "price": "1.28 Cr",
+          "actualPrice": 12800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "745 sq.ft",
+      "price": "87.68 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,086 sq.ft",
+      "price": "1.28 Cr"
+    }
+  ]
+}

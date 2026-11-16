@@ -1,0 +1,120 @@
+{
+  "projectId": 18594,
+  "slug": "spanesta-bacharam-pid-18594",
+  "name": "Spanesta",
+  "city": "hyderabad",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/spanesta-bacharam-pid-18594",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18594/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18594/original/1000246772-Picsart-AiImageEnhancer.jpg.png?1750931986"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 92663,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1500,
+          "price": "1.22 Cr",
+          "actualPrice": 12200000,
+          "propertyType": "Independent House/Villa",
+          "plan2D": null,
+          "plan3D": "/projects/18594/configurations/unit-plans/3-bhk/variant-92663/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/92663/original/IMG_20250626_152621.png?1750931856",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 117227,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1604,
+          "price": "1.3 Cr",
+          "actualPrice": 13000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/18594/configurations/unit-plans/3-bhk/variant-117227/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/117227/original/IMG_20250626_152655.png?1750931856",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 122649,
+          "bhk": "4 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2700,
+          "price": "2.19 Cr",
+          "actualPrice": 21900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "5 BHK",
+      "variants": [
+        {
+          "id": 122650,
+          "bhk": "5 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 5500,
+          "price": "4.47 Cr",
+          "actualPrice": 44700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "1.22 Cr - 1.3 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "On Request",
+      "price": "2.19 Cr"
+    },
+    {
+      "flat_type_name": "5 BHK",
+      "carpet_area": "On Request",
+      "price": "4.47 Cr"
+    }
+  ]
+}

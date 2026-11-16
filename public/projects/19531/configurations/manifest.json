@@ -1,0 +1,108 @@
+{
+  "projectId": 19531,
+  "slug": "riddhi-zoa-mundhwa-pid-19531",
+  "name": "Riddhi Zoa",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/riddhi-zoa-mundhwa-pid-19531",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19531/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19531/original/masterplan.PNG?1743676306"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19531/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7652/original/floorplan.PNG?1743676309"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 105025,
+          "bhk": "2 BHK",
+          "carpetArea": 724,
+          "carpetAreaDisplay": "724 sq.ft",
+          "builtUpArea": null,
+          "price": "75.0 Lacs",
+          "actualPrice": 7500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19531/configurations/unit-plans/2-bhk/724-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/105025/original/2bhk_3dnew.png?1743676307",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 138871,
+          "bhk": "2 BHK",
+          "carpetArea": 740,
+          "carpetAreaDisplay": "740 sq.ft",
+          "builtUpArea": null,
+          "price": "76.71 Lacs",
+          "actualPrice": 7671000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 138872,
+          "bhk": "2 BHK",
+          "carpetArea": 763,
+          "carpetAreaDisplay": "763 sq.ft",
+          "builtUpArea": null,
+          "price": "79.05 Lacs",
+          "actualPrice": 7905000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 138873,
+          "bhk": "2 BHK",
+          "carpetArea": 775,
+          "carpetAreaDisplay": "775 sq.ft",
+          "builtUpArea": null,
+          "price": "80.0 Lacs",
+          "actualPrice": 8000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "724 - 775 sq.ft",
+      "price": "75.0 Lacs - 80.0 Lacs"
+    }
+  ]
+}

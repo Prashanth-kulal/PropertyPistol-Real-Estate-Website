@@ -1,0 +1,140 @@
+{
+  "projectId": 19827,
+  "slug": "the-midas-residences-balewadi-pid-19827",
+  "name": "The Midas Residences",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/the-midas-residences-balewadi-pid-19827",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19827/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19827/original/mp-river.png?1747028103"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19827/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8191/original/fp-riv.png?1748245722"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19827/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8192/original/tfp-riv3.png?1748245722"
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/19827/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8193/original/fp-riv2.png?1748245723"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 112097,
+          "bhk": "2 BHK",
+          "carpetArea": 799,
+          "carpetAreaDisplay": "799 sq.ft",
+          "builtUpArea": null,
+          "price": "1.13 Cr",
+          "actualPrice": 11257910,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19827/configurations/unit-plans/2-bhk/799-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/112097/original/2bhk-riv.png?1748245586",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 134332,
+          "bhk": "2 BHK",
+          "carpetArea": 812,
+          "carpetAreaDisplay": "812 sq.ft",
+          "builtUpArea": null,
+          "price": "1.22 Cr",
+          "actualPrice": 12214104,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 134333,
+          "bhk": "3 BHK",
+          "carpetArea": 1016,
+          "carpetAreaDisplay": "1016 sq.ft",
+          "builtUpArea": null,
+          "price": "1.43 Cr",
+          "actualPrice": 14315440,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 134334,
+          "bhk": "4 BHK",
+          "carpetArea": 1724,
+          "carpetAreaDisplay": "1724 sq.ft",
+          "builtUpArea": null,
+          "price": "2.59 Cr",
+          "actualPrice": 25932408,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "799 - 812 sq.ft",
+      "price": "1.13 Cr - 1.22 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,016 sq.ft",
+      "price": "1.43 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,724 sq.ft",
+      "price": "2.59 Cr"
+    }
+  ]
+}

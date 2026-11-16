@@ -1,0 +1,68 @@
+{
+  "projectId": 14239,
+  "slug": "jade-one-kompally-pid-14239",
+  "name": "Jade One",
+  "city": "hyderabad",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/jade-one-kompally-pid-14239",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/14239/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/14239/original/mp.png?1698305058"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 44181,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1373,
+          "price": "68.65 Lacs",
+          "actualPrice": 6865000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/14239/configurations/unit-plans/3-bhk/variant-44181/plan-2d.webp",
+          "plan3D": "/projects/14239/configurations/unit-plans/3-bhk/variant-44181/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/44181/original/3b.PNG?1698305058",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/44181/original/3.PNG?1698305058",
+          "has2D": true,
+          "has3D": true
+        },
+        {
+          "id": 44182,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2061,
+          "price": "1.03 Cr",
+          "actualPrice": 10300000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/14239/configurations/unit-plans/3-bhk/variant-44182/plan-2d.webp",
+          "plan3D": "/projects/14239/configurations/unit-plans/3-bhk/variant-44182/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/44182/original/33.PNG?1698305058",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/44182/original/33b.PNG?1698305058",
+          "has2D": true,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "68.65 Lacs - 1.03 Cr"
+    }
+  ]
+}

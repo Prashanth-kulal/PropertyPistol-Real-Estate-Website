@@ -1,0 +1,78 @@
+{
+  "projectId": 14176,
+  "slug": "basil-maximus-punawale-pid-14176",
+  "name": "Basil Maximus",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/basil-maximus-punawale-pid-14176",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/14176/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/14176/original/Masterplan.JPG?1697866643"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 98818,
+          "bhk": "2 BHK",
+          "carpetArea": 789,
+          "carpetAreaDisplay": "789 sq.ft",
+          "builtUpArea": null,
+          "price": "81.56 Lacs",
+          "actualPrice": 8155893,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 64597,
+          "bhk": "3 BHK",
+          "carpetArea": 1174,
+          "carpetAreaDisplay": "1174 sq.ft",
+          "builtUpArea": null,
+          "price": "1.21 Cr",
+          "actualPrice": 12135638,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "789 sq.ft",
+      "price": "81.56 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,174 sq.ft",
+      "price": "1.21 Cr"
+    }
+  ]
+}

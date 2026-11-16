@@ -1,0 +1,61 @@
+{
+  "projectId": 18168,
+  "slug": "shreenathji-delta-icon-airoli-pid-18168",
+  "name": "Shreenathji Delta Icon",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shreenathji-delta-icon-airoli-pid-18168",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18168/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18168/original/IMG_20241011_114541.png?1728627411",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18168/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8050/original/fp.png?1747820559",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 88619,
+          "bhk": "3 BHK",
+          "carpetArea": 1058,
+          "carpetAreaDisplay": "1058 sq.ft",
+          "builtUpArea": null,
+          "price": "3.43 Cr",
+          "actualPrice": 34300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/18168/configurations/unit-plans/3-bhk/1058-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/88619/original/3.jpg?1747820559",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,058 sq.ft",
+      "price": "3.43 Cr"
+    }
+  ]
+}

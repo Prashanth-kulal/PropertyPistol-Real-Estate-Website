@@ -1,0 +1,78 @@
+{
+  "projectId": 9754,
+  "slug": "inspira-tropical-garden-electronic-city-pid-9754",
+  "name": "Inspira Tropical Garden",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/inspira-tropical-garden-electronic-city-pid-9754",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/9754/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/9754/original/mp-fg.png?1762756849"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 103223,
+          "bhk": "2 BHK",
+          "carpetArea": 726,
+          "carpetAreaDisplay": "726 sq.ft",
+          "builtUpArea": null,
+          "price": "63.0 Lacs",
+          "actualPrice": 6299502,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 54560,
+          "bhk": "3 BHK",
+          "carpetArea": 1188,
+          "carpetAreaDisplay": "1188 sq.ft",
+          "builtUpArea": null,
+          "price": "1.03 Cr",
+          "actualPrice": 10308276,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "726 sq.ft",
+      "price": "63.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,188 sq.ft",
+      "price": "1.03 Cr"
+    }
+  ]
+}

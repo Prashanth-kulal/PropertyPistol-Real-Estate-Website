@@ -1,0 +1,110 @@
+{
+  "projectId": 15996,
+  "slug": "bhuvanas-urban-greens-kompally-pid-15996",
+  "name": "Bhuvanas Urban Greens",
+  "city": "hyderabad",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/bhuvanas-urban-greens-kompally-pid-15996",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/15996/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5964/original/floorplan.JPG?1710332688"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 54671,
+          "bhk": "2 BHK",
+          "carpetArea": 854,
+          "carpetAreaDisplay": "854 sq.ft",
+          "builtUpArea": null,
+          "price": "67.1 Lacs",
+          "actualPrice": 6710000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": "/projects/15996/configurations/unit-plans/2-bhk/854-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/54671/original/2bhk_3d1.JPG?1710332687",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 102670,
+          "bhk": "2 BHK",
+          "carpetArea": 913,
+          "carpetAreaDisplay": "913 sq.ft",
+          "builtUpArea": null,
+          "price": "71.78 Lacs",
+          "actualPrice": 7178000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 109818,
+          "bhk": "2 BHK",
+          "carpetArea": 931,
+          "carpetAreaDisplay": "931 sq.ft",
+          "builtUpArea": null,
+          "price": "73.15 Lacs",
+          "actualPrice": 7315000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 102671,
+          "bhk": "3 BHK",
+          "carpetArea": 1183,
+          "carpetAreaDisplay": "1183 sq.ft",
+          "builtUpArea": null,
+          "price": "92.95 Lacs",
+          "actualPrice": 9295000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "854 - 931 sq.ft",
+      "price": "67.1 Lacs - 73.15 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,183 sq.ft",
+      "price": "92.95 Lacs"
+    }
+  ]
+}

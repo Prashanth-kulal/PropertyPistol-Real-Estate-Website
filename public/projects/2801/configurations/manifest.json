@@ -1,0 +1,104 @@
+{
+  "projectId": 2801,
+  "slug": "lokhandwala-minerva",
+  "name": "Lokhandwala Minerva",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/lokhandwala-minerva-mahalaxmi-east-pid-2801",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/1623/original/fp.PNG?1577964232",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 12804,
+          "bhk": "4 BHK",
+          "carpetArea": 2019,
+          "carpetAreaDisplay": "2019 sq.ft",
+          "builtUpArea": null,
+          "price": "16.2 Cr",
+          "actualPrice": 162000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3.5 BHK",
+      "variants": [
+        {
+          "id": 47396,
+          "bhk": "3.5 BHK",
+          "carpetArea": 2058,
+          "carpetAreaDisplay": "2058 sq.ft",
+          "builtUpArea": null,
+          "price": "14.45 Cr",
+          "actualPrice": 144500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "5 BHK",
+      "variants": [
+        {
+          "id": 136577,
+          "bhk": "5 BHK",
+          "carpetArea": 3020,
+          "carpetAreaDisplay": "3020 sq.ft",
+          "builtUpArea": null,
+          "price": "34.0 Cr",
+          "actualPrice": 340000000,
+          "propertyType": "Duplex",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,019 sq.ft",
+      "price": "16.2 Cr"
+    },
+    {
+      "flat_type_name": "3.5 BHK",
+      "carpet_area": "2,058 sq.ft",
+      "price": "14.45 Cr"
+    },
+    {
+      "flat_type_name": "5 BHK",
+      "carpet_area": "3,020 sq.ft",
+      "price": "34.0 Cr"
+    }
+  ]
+}

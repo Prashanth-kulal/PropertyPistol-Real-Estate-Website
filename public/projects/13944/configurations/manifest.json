@@ -1,0 +1,78 @@
+{
+  "projectId": 13944,
+  "slug": "tharwani-palladian-kharghar-pid-13944",
+  "name": "Tharwani Palladian",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/tharwani-palladian-kharghar-pid-13944",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13944/original/mp-1400w.jpg?1696846146",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 125026,
+          "bhk": "2 BHK",
+          "carpetArea": 611,
+          "carpetAreaDisplay": "611 sq.ft",
+          "builtUpArea": null,
+          "price": "1.04 Cr",
+          "actualPrice": 10413884,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 125027,
+          "bhk": "3 BHK",
+          "carpetArea": 849,
+          "carpetAreaDisplay": "849 sq.ft",
+          "builtUpArea": null,
+          "price": "1.45 Cr",
+          "actualPrice": 14470356,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "611 sq.ft",
+      "price": "1.04 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "849 sq.ft",
+      "price": "1.45 Cr"
+    }
+  ]
+}

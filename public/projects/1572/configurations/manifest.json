@@ -1,0 +1,110 @@
+{
+  "projectId": 1572,
+  "slug": "kalpataru-launch-code-starlight",
+  "name": "Kalpataru Launch Code Starlight",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/kalpataru-launch-code-starlight-kolshet-road-pid-1572",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/1572/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/836/original/floor_plan.jpg?1557394444",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 2554,
+          "bhk": "2 BHK",
+          "carpetArea": 538,
+          "carpetAreaDisplay": "538 sq.ft",
+          "builtUpArea": null,
+          "price": "1.28 Cr",
+          "actualPrice": 12800000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/1572/configurations/unit-plans/2-bhk/538-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/2554/original/22.PNG?1767598753",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 140021,
+          "bhk": "2 BHK",
+          "carpetArea": 788,
+          "carpetAreaDisplay": "788 sq.ft",
+          "builtUpArea": null,
+          "price": "1.87 Cr",
+          "actualPrice": 18700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 140022,
+          "bhk": "3 BHK",
+          "carpetArea": 957,
+          "carpetAreaDisplay": "957 sq.ft",
+          "builtUpArea": null,
+          "price": "2.45 Cr",
+          "actualPrice": 24500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140023,
+          "bhk": "3 BHK",
+          "carpetArea": 1079,
+          "carpetAreaDisplay": "1079 sq.ft",
+          "builtUpArea": null,
+          "price": "2.77 Cr",
+          "actualPrice": 27700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "538 - 788 sq.ft",
+      "price": "1.28 Cr - 1.87 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "957 - 1,079 sq.ft",
+      "price": "2.45 Cr - 2.77 Cr"
+    }
+  ]
+}

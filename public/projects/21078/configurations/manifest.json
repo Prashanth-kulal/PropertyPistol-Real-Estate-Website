@@ -1,0 +1,78 @@
+{
+  "projectId": 21078,
+  "slug": "rkl-shivpuram-charholi-pid-21078",
+  "name": "RKL Shivpuram",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/rkl-shivpuram-charholi-pid-21078",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/21078/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/21078/original/Master-layout-980x468.jpg?1791287300"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 127600,
+          "bhk": "1 BHK",
+          "carpetArea": 507,
+          "carpetAreaDisplay": "507 sq.ft",
+          "builtUpArea": null,
+          "price": "41.85 Lacs",
+          "actualPrice": 4185285,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/21078/configurations/unit-plans/1-bhk/507-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/127600/original/1.PNG?1791287301",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 127601,
+          "bhk": "3 BHK",
+          "carpetArea": 842,
+          "carpetAreaDisplay": "842 sq.ft",
+          "builtUpArea": null,
+          "price": "69.51 Lacs",
+          "actualPrice": 6950710,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/21078/configurations/unit-plans/3-bhk/842-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/127601/original/3.PNG?1791287300",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "507 sq.ft",
+      "price": "41.85 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "842 sq.ft",
+      "price": "69.51 Lacs"
+    }
+  ]
+}

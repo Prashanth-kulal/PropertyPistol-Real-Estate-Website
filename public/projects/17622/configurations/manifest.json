@@ -1,0 +1,87 @@
+{
+  "projectId": 17622,
+  "slug": "panchsheel-midori-panvel-pid-17622",
+  "name": "Panchsheel Midori",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/panchsheel-midori-panvel-pid-17622",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/17622/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/17622/original/mp.png?1790148466",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/17622/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9712/original/download_%281%29.png?1790148466",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 77054,
+          "bhk": "1 BHK",
+          "carpetArea": 413,
+          "carpetAreaDisplay": "413 sq.ft",
+          "builtUpArea": null,
+          "price": "47.97 Lacs",
+          "actualPrice": 4796995,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 124424,
+          "bhk": "2 BHK",
+          "carpetArea": 658,
+          "carpetAreaDisplay": "658 sq.ft",
+          "builtUpArea": null,
+          "price": "76.43 Lacs",
+          "actualPrice": 7642670,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "413 sq.ft",
+      "price": "47.97 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "658 sq.ft",
+      "price": "76.43 Lacs"
+    }
+  ]
+}

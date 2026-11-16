@@ -1,0 +1,78 @@
+{
+  "projectId": 8052,
+  "slug": "kohinoor-viva-city-dhanori-pid-8052",
+  "name": "Kohinoor Viva City",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/kohinoor-viva-city-dhanori-pid-8052",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/8052/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/8052/original/mp.JPG?1671014992"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 93616,
+          "bhk": "2 BHK",
+          "carpetArea": 733,
+          "carpetAreaDisplay": "733 sq.ft",
+          "builtUpArea": null,
+          "price": "73.0 Lacs",
+          "actualPrice": 7300000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 26795,
+          "bhk": "3 BHK",
+          "carpetArea": 1020,
+          "carpetAreaDisplay": "1020 sq.ft",
+          "builtUpArea": null,
+          "price": "92.0 Lacs",
+          "actualPrice": 9200000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "733 sq.ft",
+      "price": "73.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,020 sq.ft",
+      "price": "92.0 Lacs"
+    }
+  ]
+}

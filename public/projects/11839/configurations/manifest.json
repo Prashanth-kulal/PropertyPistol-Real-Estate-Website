@@ -1,0 +1,120 @@
+{
+  "projectId": 11839,
+  "slug": "pride-panorama-andheri-east-pid-11839",
+  "name": "Pride Panorama",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/pride-panorama-andheri-east-pid-11839",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/11839/original/masterlayout.jpg?1681888931",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 37820,
+          "bhk": "1 BHK",
+          "carpetArea": 505,
+          "carpetAreaDisplay": "505 sq.ft",
+          "builtUpArea": null,
+          "price": "1.4 Cr",
+          "actualPrice": 14000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/37820/original/floorplan1.jpg?1681888931",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139783,
+          "bhk": "1 BHK",
+          "carpetArea": 537,
+          "carpetAreaDisplay": "537 sq.ft",
+          "builtUpArea": null,
+          "price": "1.55 Cr",
+          "actualPrice": 15500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 139784,
+          "bhk": "2 BHK",
+          "carpetArea": 652,
+          "carpetAreaDisplay": "652 sq.ft",
+          "builtUpArea": null,
+          "price": "1.75 Cr",
+          "actualPrice": 17500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 139785,
+          "bhk": "3 BHK",
+          "carpetArea": 840,
+          "carpetAreaDisplay": "840 sq.ft",
+          "builtUpArea": null,
+          "price": "2.43 Cr",
+          "actualPrice": 24300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "505 - 537 sq.ft",
+      "price": "1.4 Cr - 1.55 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "652 sq.ft",
+      "price": "1.75 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "840 sq.ft",
+      "price": "2.43 Cr"
+    }
+  ]
+}

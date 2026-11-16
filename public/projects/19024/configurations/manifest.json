@@ -1,0 +1,92 @@
+{
+  "projectId": 19024,
+  "slug": "simchah-acasa-kokapet-pid-19024",
+  "name": "Simchah Acasa",
+  "city": "hyderabad",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/simchah-acasa-kokapet-pid-19024",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19024/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19024/original/siteplan.PNG?1737543607"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19024/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7329/original/floorplan1.PNG?1737543612"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3.5 BHK",
+      "variants": [
+        {
+          "id": 98904,
+          "bhk": "3.5 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 3520,
+          "price": "3.34 Cr",
+          "actualPrice": 33400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 98905,
+          "bhk": "3.5 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 3720,
+          "price": "3.53 Cr",
+          "actualPrice": 35300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 98903,
+          "bhk": "3.5 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 3750,
+          "price": "3.56 Cr",
+          "actualPrice": 35600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3.5 BHK",
+      "carpet_area": "On Request",
+      "price": "3.34 Cr - 3.56 Cr"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "projectId": 2664,
+  "slug": "piramal-revanta",
+  "name": "Piramal Revanta",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/piramal-revanta-mulund-west-pid-2664",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/2664/original/cf5bcda7473370f.jpeg?1690026294",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2033/original/FloorPlan.jpg?1612430959",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 66344,
+          "bhk": "2 BHK",
+          "carpetArea": 638,
+          "carpetAreaDisplay": "638 sq.ft",
+          "builtUpArea": null,
+          "price": "2.39 Cr",
+          "actualPrice": 23900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2.5 BHK",
+      "variants": [
+        {
+          "id": 66346,
+          "bhk": "2.5 BHK",
+          "carpetArea": 969,
+          "carpetAreaDisplay": "969 sq.ft",
+          "builtUpArea": null,
+          "price": "3.63 Cr",
+          "actualPrice": 36300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 140089,
+          "bhk": "3 BHK",
+          "carpetArea": 1138,
+          "carpetAreaDisplay": "1138 sq.ft",
+          "builtUpArea": null,
+          "price": "3.62 Cr",
+          "actualPrice": 36200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140090,
+          "bhk": "3 BHK",
+          "carpetArea": 1279,
+          "carpetAreaDisplay": "1279 sq.ft",
+          "builtUpArea": null,
+          "price": "4.07 Cr",
+          "actualPrice": 40700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140091,
+          "bhk": "3 BHK",
+          "carpetArea": 1381,
+          "carpetAreaDisplay": "1381 sq.ft",
+          "builtUpArea": null,
+          "price": "4.39 Cr",
+          "actualPrice": 43900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3.5 BHK",
+      "variants": [
+        {
+          "id": 140092,
+          "bhk": "3.5 BHK",
+          "carpetArea": 1378,
+          "carpetAreaDisplay": "1378 sq.ft",
+          "builtUpArea": null,
+          "price": "4.39 Cr",
+          "actualPrice": 43900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "638 sq.ft",
+      "price": "2.39 Cr"
+    },
+    {
+      "flat_type_name": "2.5 BHK",
+      "carpet_area": "969 sq.ft",
+      "price": "3.63 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,138 - 1,381 sq.ft",
+      "price": "3.62 Cr - 4.39 Cr"
+    },
+    {
+      "flat_type_name": "3.5 BHK",
+      "carpet_area": "1,378 sq.ft",
+      "price": "4.39 Cr"
+    }
+  ]
+}

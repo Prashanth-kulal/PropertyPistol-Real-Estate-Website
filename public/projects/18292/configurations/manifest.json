@@ -1,0 +1,87 @@
+{
+  "projectId": 18292,
+  "slug": "rai-galaxy-kalyan-east-pid-18292",
+  "name": "Rai Galaxy",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/rai-galaxy-kalyan-east-pid-18292",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18292/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18292/original/mp.png?1752564472",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18292/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8489/original/fp.png?1752564474",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 90160,
+          "bhk": "1 BHK",
+          "carpetArea": 317,
+          "carpetAreaDisplay": "317 sq.ft",
+          "builtUpArea": null,
+          "price": "44.4 Lacs",
+          "actualPrice": 4440000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18292/configurations/unit-plans/1-bhk/317-sqft/plan-2d.webp",
+          "plan3D": "/projects/18292/configurations/unit-plans/1-bhk/317-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/90160/original/1.png?1752564472",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/90160/original/1b.png?1752564472",
+          "has2D": true,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 119071,
+          "bhk": "2 BHK",
+          "carpetArea": 490,
+          "carpetAreaDisplay": "490 sq.ft",
+          "builtUpArea": null,
+          "price": "61.4 Lacs",
+          "actualPrice": 6140000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18292/configurations/unit-plans/2-bhk/490-sqft/plan-2d.webp",
+          "plan3D": "/projects/18292/configurations/unit-plans/2-bhk/490-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/119071/original/2.png?1752564473",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/119071/original/2b.png?1752564473",
+          "has2D": true,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "317 sq.ft",
+      "price": "44.4 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "490 sq.ft",
+      "price": "61.4 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "projectId": 21075,
+  "slug": "avika-royal-paradise-pirangut-pid-21075",
+  "name": "Avika Royal Paradise",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/avika-royal-paradise-pirangut-pid-21075",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21075/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9727/original/fp.PNG?1791287301"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/21075/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9728/original/fp.PNG?1791287388"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 127594,
+          "bhk": "1 BHK",
+          "carpetArea": 452,
+          "carpetAreaDisplay": "452 sq.ft",
+          "builtUpArea": null,
+          "price": "30.28 Lacs",
+          "actualPrice": 3028400,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/21075/configurations/unit-plans/1-bhk/452-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/127594/original/1b.PNG?1791287384",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 127595,
+          "bhk": "2 BHK",
+          "carpetArea": 690,
+          "carpetAreaDisplay": "690 sq.ft",
+          "builtUpArea": null,
+          "price": "46.23 Lacs",
+          "actualPrice": 4623000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/21075/configurations/unit-plans/2-bhk/690-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/127595/original/2b.PNG?1791287385",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "452 sq.ft",
+      "price": "30.28 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "690 sq.ft",
+      "price": "46.23 Lacs"
+    }
+  ]
+}

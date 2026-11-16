@@ -777,29 +777,8 @@ const ID_TO_SLUG_MAP = {
   "ex-3": "aura-grand-downtown-dubai"
 };
 
-// Generates a canonical, URL-safe slug from any project object
-export function getProjectSlug(project) {
-  if (!project) return "godrej-eternal-palms";
-
-  if (project.slug && project.slug.trim()) {
-    return project.slug.trim().toLowerCase();
-  }
-
-  if (project.id && ID_TO_SLUG_MAP[project.id]) {
-    return ID_TO_SLUG_MAP[project.id];
-  }
-
-  const name = project.title || project.name || "";
-  if (!name) return project.id ? String(project.id).toLowerCase() : "godrej-eternal-palms";
-
-  const generatedSlug = name
-    .toLowerCase()
-    .replace(/&/g, "")
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "");
-
-  return generatedSlug || "godrej-eternal-palms";
-}
+export { ID_TO_SLUG_MAP };
+export { getProjectSlug } from "../lib/projectUtils.js";
 
 // Deep lookup to find any project by slug across all datasets
 export function getProjectBySlug(rawSlug) {

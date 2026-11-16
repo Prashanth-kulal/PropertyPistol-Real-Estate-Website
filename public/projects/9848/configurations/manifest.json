@@ -1,0 +1,140 @@
+{
+  "projectId": 9848,
+  "slug": "aaradhya-evoq-vile-parle-west-pid-9848",
+  "name": "Aaradhya Evoq",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/aaradhya-evoq-vile-parle-west-pid-9848",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7895/original/fp0s.png?1746524324",
+      "downloaded": false
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7896/original/gp-ser.png?1746524324",
+      "downloaded": false
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7897/original/fp-ser.png?1746524324",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 91632,
+          "bhk": "3 BHK",
+          "carpetArea": 1274,
+          "carpetAreaDisplay": "1274 sq.ft",
+          "builtUpArea": null,
+          "price": "8.08 Cr",
+          "actualPrice": 80800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/91632/original/3bhk-ser.png?1746524320",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 77457,
+          "bhk": "3 BHK",
+          "carpetArea": 1430,
+          "carpetAreaDisplay": "1430 sq.ft",
+          "builtUpArea": null,
+          "price": "9.06 Cr",
+          "actualPrice": 90600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 91629,
+          "bhk": "4 BHK",
+          "carpetArea": 1713,
+          "carpetAreaDisplay": "1713 sq.ft",
+          "builtUpArea": null,
+          "price": "10.86 Cr",
+          "actualPrice": 108600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/91629/original/4bhk.png?1746524320",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 91626,
+          "bhk": "4 BHK",
+          "carpetArea": 2011,
+          "carpetAreaDisplay": "2011 sq.ft",
+          "builtUpArea": null,
+          "price": "12.74 Cr",
+          "actualPrice": 127400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 91631,
+          "bhk": "4 BHK",
+          "carpetArea": 2334,
+          "carpetAreaDisplay": "2334 sq.ft",
+          "builtUpArea": null,
+          "price": "14.79 Cr",
+          "actualPrice": 147900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,274 - 1,430 sq.ft",
+      "price": "8.08 Cr - 9.06 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,713 - 2,334 sq.ft",
+      "price": "10.86 Cr - 14.79 Cr"
+    }
+  ]
+}

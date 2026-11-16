@@ -1,0 +1,145 @@
+{
+  "projectId": 14480,
+  "slug": "gami-ved-nerul-pid-14480",
+  "name": "Gami Ved",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/gami-ved-nerul-pid-14480",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5010/original/groundfloor.JPG?1700220835",
+      "downloaded": false
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5011/original/firstfloor.JPG?1700220835",
+      "downloaded": false
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5012/original/typicalfloor.JPG?1700220835",
+      "downloaded": false
+    },
+    {
+      "id": 4,
+      "title": "Layout / Site Plan 4",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5013/original/typicalfloor2.JPG?1700220835",
+      "downloaded": false
+    },
+    {
+      "id": 5,
+      "title": "Layout / Site Plan 5",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5014/original/typicalfloor3.JPG?1700220835",
+      "downloaded": false
+    },
+    {
+      "id": 6,
+      "title": "Layout / Site Plan 6",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5015/original/terracefloor.JPG?1700220835",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 75163,
+          "bhk": "1 BHK",
+          "carpetArea": 367,
+          "carpetAreaDisplay": "367 sq.ft",
+          "builtUpArea": null,
+          "price": "1.11 Cr",
+          "actualPrice": 11100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 75164,
+          "bhk": "1 BHK",
+          "carpetArea": 505,
+          "carpetAreaDisplay": "505 sq.ft",
+          "builtUpArea": null,
+          "price": "1.53 Cr",
+          "actualPrice": 15300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 136426,
+          "bhk": "2 BHK",
+          "carpetArea": 610,
+          "carpetAreaDisplay": "610 sq.ft",
+          "builtUpArea": null,
+          "price": "1.85 Cr",
+          "actualPrice": 18500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 136427,
+          "bhk": "2 BHK",
+          "carpetArea": 628,
+          "carpetAreaDisplay": "628 sq.ft",
+          "builtUpArea": null,
+          "price": "1.91 Cr",
+          "actualPrice": 19100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "367 - 505 sq.ft",
+      "price": "1.11 Cr - 1.53 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "610 - 628 sq.ft",
+      "price": "1.85 Cr - 1.91 Cr"
+    }
+  ]
+}

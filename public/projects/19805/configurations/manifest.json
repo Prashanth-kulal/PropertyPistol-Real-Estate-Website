@@ -1,0 +1,104 @@
+{
+  "projectId": 19805,
+  "slug": "vtp-cygnus-2-kharadi-pid-19805",
+  "name": "VTP Cygnus 2",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/vtp-cygnus-2-kharadi-pid-19805",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19805/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19805/original/mp_%281%29.jpg?1746250091"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 110712,
+          "bhk": "1 BHK",
+          "carpetArea": 428,
+          "carpetAreaDisplay": "428 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 110713,
+          "bhk": "2 BHK",
+          "carpetArea": 619,
+          "carpetAreaDisplay": "619 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 110715,
+          "bhk": "3 BHK",
+          "carpetArea": 840,
+          "carpetAreaDisplay": "840 sq.ft",
+          "builtUpArea": null,
+          "price": "81.6 Lacs",
+          "actualPrice": 8160000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "428 sq.ft",
+      "price": "On Request"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "619 sq.ft",
+      "price": "On Request"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "840 sq.ft",
+      "price": "81.6 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "projectId": 4555,
+  "slug": "transcon-passcode-all-stars-andheri-west-pid-4555",
+  "name": "Transcon Passcode All Stars",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/transcon-passcode-all-stars-andheri-west-pid-4555",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/4555/original/mp.PNG?1628056263",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2308/original/fp.jpeg?1628056263",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 128223,
+          "bhk": "1 BHK",
+          "carpetArea": 376,
+          "carpetAreaDisplay": "376 sq.ft",
+          "builtUpArea": null,
+          "price": "1.62 Cr",
+          "actualPrice": 16200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 130131,
+          "bhk": "1 BHK",
+          "carpetArea": 397,
+          "carpetAreaDisplay": "397 sq.ft",
+          "builtUpArea": null,
+          "price": "1.71 Cr",
+          "actualPrice": 17100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 134923,
+          "bhk": "2 BHK",
+          "carpetArea": 501,
+          "carpetAreaDisplay": "501 sq.ft",
+          "builtUpArea": null,
+          "price": "2.15 Cr",
+          "actualPrice": 21500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139709,
+          "bhk": "2 BHK",
+          "carpetArea": 649,
+          "carpetAreaDisplay": "649 sq.ft",
+          "builtUpArea": null,
+          "price": "2.79 Cr",
+          "actualPrice": 27900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 139710,
+          "bhk": "3 BHK",
+          "carpetArea": 858,
+          "carpetAreaDisplay": "858 sq.ft",
+          "builtUpArea": null,
+          "price": "3.69 Cr",
+          "actualPrice": 36900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "376 - 397 sq.ft",
+      "price": "1.62 Cr - 1.71 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "501 - 649 sq.ft",
+      "price": "2.15 Cr - 2.79 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "858 sq.ft",
+      "price": "3.69 Cr"
+    }
+  ]
+}

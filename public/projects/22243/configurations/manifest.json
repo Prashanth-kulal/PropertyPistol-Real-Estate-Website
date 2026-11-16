@@ -1,0 +1,159 @@
+{
+  "projectId": 22243,
+  "slug": "lt-vayam",
+  "name": "L&T Vayam",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/landt-vayam-thane-west-pid-22243",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit"
+  ],
+  "masterPlans": [],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 138031,
+          "bhk": "2 BHK",
+          "carpetArea": 668,
+          "carpetAreaDisplay": "668 sq.ft",
+          "builtUpArea": null,
+          "price": "1.57 Cr",
+          "actualPrice": 15700000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/22243/configurations/unit-plans/2-bhk/668-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/138031/original/668.PNG?1792231344",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 138032,
+          "bhk": "2 BHK",
+          "carpetArea": 775,
+          "carpetAreaDisplay": "775 sq.ft",
+          "builtUpArea": null,
+          "price": "1.82 Cr",
+          "actualPrice": 18200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 138819,
+          "bhk": "2 BHK",
+          "carpetArea": 801,
+          "carpetAreaDisplay": "801 sq.ft",
+          "builtUpArea": null,
+          "price": "1.88 Cr",
+          "actualPrice": 18800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 138820,
+          "bhk": "3 BHK",
+          "carpetArea": 1100,
+          "carpetAreaDisplay": "1100 sq.ft",
+          "builtUpArea": null,
+          "price": "2.57 Cr",
+          "actualPrice": 25700000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/22243/configurations/unit-plans/3-bhk/1100-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/138820/original/3.PNG?1792231344",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 138821,
+          "bhk": "3 BHK",
+          "carpetArea": 1250,
+          "carpetAreaDisplay": "1250 sq.ft",
+          "builtUpArea": null,
+          "price": "2.93 Cr",
+          "actualPrice": 29300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 138822,
+          "bhk": "4 BHK",
+          "carpetArea": 1270,
+          "carpetAreaDisplay": "1270 sq.ft",
+          "builtUpArea": null,
+          "price": "2.98 Cr",
+          "actualPrice": 29800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 138823,
+          "bhk": "4 BHK",
+          "carpetArea": 1448,
+          "carpetAreaDisplay": "1448 sq.ft",
+          "builtUpArea": null,
+          "price": "3.4 Cr",
+          "actualPrice": 34000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "668 - 801 sq.ft",
+      "price": "1.57 Cr - 1.88 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,100 - 1,250 sq.ft",
+      "price": "2.57 Cr - 2.93 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,270 - 1,448 sq.ft",
+      "price": "2.98 Cr - 3.4 Cr"
+    }
+  ]
+}

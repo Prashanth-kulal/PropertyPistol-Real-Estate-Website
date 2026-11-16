@@ -2,7 +2,7 @@
 
 import React, { useMemo } from "react";
 import Link from "next/link";
-import { CITIES } from "@/data";
+import { CITIES } from "@/data/cities";
 
 // 72 Localities for Mumbai exactly matching the reference screenshot in 6 columns
 const MUMBAI_LOCALITIES = [

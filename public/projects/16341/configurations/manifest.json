@@ -1,0 +1,94 @@
+{
+  "projectId": 16341,
+  "slug": "dmk-stella-moshi-pid-16341",
+  "name": "DMK Stella",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/dmk-stella-moshi-pid-16341",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16341/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16341/original/download_%282%29.png?1792821263"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16341/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9792/original/download_%285%29.png?1792821269"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/16341/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9793/original/download_%286%29.png?1792821270"
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/16341/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9794/original/download_%287%29.png?1792821270"
+    },
+    {
+      "id": 4,
+      "title": "Layout / Site Plan 4",
+      "path": "/projects/16341/configurations/site-plans/site-plan-04.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9795/original/download_%288%29.png?1792821270"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 93208,
+          "bhk": "2 BHK",
+          "carpetArea": 706,
+          "carpetAreaDisplay": "706 sq.ft",
+          "builtUpArea": null,
+          "price": "53.3 Lacs",
+          "actualPrice": 5330000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 93207,
+          "bhk": "2 BHK",
+          "carpetArea": 723,
+          "carpetAreaDisplay": "723 sq.ft",
+          "builtUpArea": null,
+          "price": "54.58 Lacs",
+          "actualPrice": 5458000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "706 - 723 sq.ft",
+      "price": "53.3 Lacs - 54.58 Lacs"
+    }
+  ]
+}

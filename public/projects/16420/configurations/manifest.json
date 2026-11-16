@@ -1,0 +1,110 @@
+{
+  "projectId": 16420,
+  "slug": "matrix-vridavan-elite-vikhroli-east-pid-16420",
+  "name": "Matrix Vridavan Elite",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/matrix-vridavan-elite-vikhroli-east-pid-16420",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16420/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6229/original/pixelcut-export_-_2025-01-22T111859.647.png?1737525121",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 61930,
+          "bhk": "1 BHK",
+          "carpetArea": 362,
+          "carpetAreaDisplay": "362 sq.ft",
+          "builtUpArea": null,
+          "price": "81.37 Lacs",
+          "actualPrice": 8137000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/16420/configurations/unit-plans/1-bhk/362-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/61930/original/1b.png?1737525118",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 61931,
+          "bhk": "1 BHK",
+          "carpetArea": 369,
+          "carpetAreaDisplay": "369 sq.ft",
+          "builtUpArea": null,
+          "price": "82.94 Lacs",
+          "actualPrice": 8294000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/16420/configurations/unit-plans/1-bhk/369-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/61931/original/11.png?1737525119",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 89008,
+          "bhk": "1 BHK",
+          "carpetArea": 385,
+          "carpetAreaDisplay": "385 sq.ft",
+          "builtUpArea": null,
+          "price": "86.54 Lacs",
+          "actualPrice": 8654000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 61932,
+          "bhk": "2 BHK",
+          "carpetArea": 599,
+          "carpetAreaDisplay": "599 sq.ft",
+          "builtUpArea": null,
+          "price": "1.35 Cr",
+          "actualPrice": 13500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/16420/configurations/unit-plans/2-bhk/599-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/61932/original/2bb.png?1737525119",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "362 - 385 sq.ft",
+      "price": "81.37 Lacs - 86.54 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "599 sq.ft",
+      "price": "1.35 Cr"
+    }
+  ]
+}

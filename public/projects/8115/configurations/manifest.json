@@ -1,0 +1,188 @@
+{
+  "projectId": 8115,
+  "slug": "jagdale-avesa",
+  "name": "Jagdale Avesa",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/jagdale-avesa-panch-pakhdi-pid-8115",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2818/original/fplan.png?1668669888",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 27364,
+          "bhk": "1 BHK",
+          "carpetArea": 460,
+          "carpetAreaDisplay": "460 sq.ft",
+          "builtUpArea": null,
+          "price": "79.72 Lacs",
+          "actualPrice": 7972000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/27364/original/1bhk.JPG?1668669888",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 133991,
+          "bhk": "1 BHK",
+          "carpetArea": 460,
+          "carpetAreaDisplay": "460 sq.ft",
+          "builtUpArea": null,
+          "price": "81.98 Lacs",
+          "actualPrice": 8198000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 34189,
+          "bhk": "2 BHK",
+          "carpetArea": 613,
+          "carpetAreaDisplay": "613 sq.ft",
+          "builtUpArea": null,
+          "price": "1.09 Cr",
+          "actualPrice": 10900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/34189/original/2.JPG?1668669888",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 133992,
+          "bhk": "2 BHK",
+          "carpetArea": 619,
+          "carpetAreaDisplay": "619 sq.ft",
+          "builtUpArea": null,
+          "price": "1.1 Cr",
+          "actualPrice": 11000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2.5 BHK",
+      "variants": [
+        {
+          "id": 133993,
+          "bhk": "2.5 BHK",
+          "carpetArea": 670,
+          "carpetAreaDisplay": "670 sq.ft",
+          "builtUpArea": null,
+          "price": "1.19 Cr",
+          "actualPrice": 11900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 133994,
+          "bhk": "3 BHK",
+          "carpetArea": 673,
+          "carpetAreaDisplay": "673 sq.ft",
+          "builtUpArea": null,
+          "price": "1.2 Cr",
+          "actualPrice": 12000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3.5 BHK",
+      "variants": [
+        {
+          "id": 133995,
+          "bhk": "3.5 BHK",
+          "carpetArea": 874,
+          "carpetAreaDisplay": "874 sq.ft",
+          "builtUpArea": null,
+          "price": "1.56 Cr",
+          "actualPrice": 15600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "460 sq.ft",
+      "price": "79.72 Lacs - 81.98 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "613 - 619 sq.ft",
+      "price": "1.09 Cr - 1.1 Cr"
+    },
+    {
+      "flat_type_name": "2.5 BHK",
+      "carpet_area": "670 sq.ft",
+      "price": "1.19 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "673 sq.ft",
+      "price": "1.2 Cr"
+    },
+    {
+      "flat_type_name": "3.5 BHK",
+      "carpet_area": "874 sq.ft",
+      "price": "1.56 Cr"
+    }
+  ]
+}

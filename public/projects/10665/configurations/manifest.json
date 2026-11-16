@@ -1,0 +1,78 @@
+{
+  "projectId": 10665,
+  "slug": "god-s-county-charholi-pid-10665",
+  "name": "God's County",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/god-s-county-charholi-pid-10665",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/10665/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3237/original/2BHK_BUDGET_HOMES_ALANDI5.jpg?1671105787"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 137224,
+          "bhk": "1 BHK",
+          "carpetArea": 480,
+          "carpetAreaDisplay": "480 sq.ft",
+          "builtUpArea": null,
+          "price": "33.12 Lacs",
+          "actualPrice": 3312000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 35208,
+          "bhk": "2 BHK",
+          "carpetArea": 648,
+          "carpetAreaDisplay": "648 sq.ft",
+          "builtUpArea": null,
+          "price": "43.9 Lacs",
+          "actualPrice": 4390000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/10665/configurations/unit-plans/2-bhk/648-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/35208/original/2BHK_BUDGET_HOMES_ALANDI12.jpg?1671105786",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "480 sq.ft",
+      "price": "33.12 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "648 sq.ft",
+      "price": "43.9 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "projectId": 19139,
+  "slug": "7-anshul-bavdhan-pid-19139",
+  "name": "7 Anshul",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/7-anshul-bavdhan-pid-19139",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19139/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19139/original/IMG_20250630_125914.png?1751268578"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19139/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9779/original/download_%283%29.png?1792564650"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 133576,
+          "bhk": "2 BHK",
+          "carpetArea": 820,
+          "carpetAreaDisplay": "820 sq.ft",
+          "builtUpArea": null,
+          "price": "96.0 Lacs",
+          "actualPrice": 9600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 133579,
+          "bhk": "3 BHK",
+          "carpetArea": 1106,
+          "carpetAreaDisplay": "1106 sq.ft",
+          "builtUpArea": null,
+          "price": "1.5 Cr",
+          "actualPrice": 15000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "820 sq.ft",
+      "price": "96.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,106 sq.ft",
+      "price": "1.5 Cr"
+    }
+  ]
+}

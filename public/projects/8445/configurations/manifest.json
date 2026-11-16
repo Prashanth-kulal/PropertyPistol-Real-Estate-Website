@@ -1,0 +1,113 @@
+{
+  "projectId": 8445,
+  "slug": "srishti-oasis",
+  "name": "Srishti Oasis",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/srishti-oasis-bhandup-west-pid-8445",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/8445/original/Master-Layout-01-1024x814.png?1711098191",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6058/original/fp.PNG?1711098192",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 51327,
+          "bhk": "1 BHK",
+          "carpetArea": 425,
+          "carpetAreaDisplay": "425 sq.ft",
+          "builtUpArea": null,
+          "price": "96.0 Lacs",
+          "actualPrice": 9600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 140051,
+          "bhk": "2 BHK",
+          "carpetArea": 620,
+          "carpetAreaDisplay": "620 sq.ft",
+          "builtUpArea": null,
+          "price": "1.45 Cr",
+          "actualPrice": 14500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 51325,
+          "bhk": "3 BHK",
+          "carpetArea": 855,
+          "carpetAreaDisplay": "855 sq.ft",
+          "builtUpArea": null,
+          "price": "2.0 Cr",
+          "actualPrice": 20000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "425 sq.ft",
+      "price": "96.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "620 sq.ft",
+      "price": "1.45 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "855 sq.ft",
+      "price": "2.0 Cr"
+    }
+  ]
+}

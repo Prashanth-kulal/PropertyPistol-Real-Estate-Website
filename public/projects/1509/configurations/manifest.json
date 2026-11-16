@@ -1,0 +1,59 @@
+{
+  "projectId": 1509,
+  "slug": "vardhan-heights",
+  "name": "Vardhan Heights",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/vardhan-heights-chembur-pid-1509",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/1509/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/803/original/VardhanHeightsFloorPlan.jpg?1556341562",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/1509/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/804/original/VardhanHeightsGroundFloorPlan.jpg?1556341563",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 135506,
+          "bhk": "1 BHK",
+          "carpetArea": 320,
+          "carpetAreaDisplay": "320 sq.ft",
+          "builtUpArea": null,
+          "price": "79.9 Lacs",
+          "actualPrice": 7990000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/1509/configurations/unit-plans/1-bhk/320-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/135506/original/1bhk_%281%29.png?1779862549",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "320 sq.ft",
+      "price": "79.9 Lacs"
+    }
+  ]
+}

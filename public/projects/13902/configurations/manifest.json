@@ -1,0 +1,110 @@
+{
+  "projectId": 13902,
+  "slug": "madhuban-f-wing-titwala-pid-13902",
+  "name": "Madhuban F Wing ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/madhuban-f-wing-titwala-pid-13902",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13902/original/Captureadssdsd.PNG?1696570156",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 42964,
+          "bhk": "1 BHK",
+          "carpetArea": 351,
+          "carpetAreaDisplay": "351 sq.ft",
+          "builtUpArea": null,
+          "price": "36.0 Lacs",
+          "actualPrice": 3600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/42964/original/Capturefsdfsdf.PNG?1696570156",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 129590,
+          "bhk": "1 BHK",
+          "carpetArea": 372,
+          "carpetAreaDisplay": "372 sq.ft",
+          "builtUpArea": null,
+          "price": "42.51 Lacs",
+          "actualPrice": 4251000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 80604,
+          "bhk": "2 BHK",
+          "carpetArea": 446,
+          "carpetAreaDisplay": "446 sq.ft",
+          "builtUpArea": null,
+          "price": "48.0 Lacs",
+          "actualPrice": 4800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/80604/original/22.png?1763201279",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 80605,
+          "bhk": "2 BHK",
+          "carpetArea": 488,
+          "carpetAreaDisplay": "488 sq.ft",
+          "builtUpArea": null,
+          "price": "52.52 Lacs",
+          "actualPrice": 5252000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "351 - 372 sq.ft",
+      "price": "36.0 Lacs - 42.51 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "446 - 488 sq.ft",
+      "price": "48.0 Lacs - 52.52 Lacs"
+    }
+  ]
+}

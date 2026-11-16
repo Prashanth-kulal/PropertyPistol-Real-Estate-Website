@@ -1,0 +1,103 @@
+{
+  "projectId": 15371,
+  "slug": "the-address-by-gs-by-raymond-realty-pokhran-road-no-2-pid-15371",
+  "name": "The Address By GS by Raymond Realty",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/the-address-by-gs-by-raymond-realty-pokhran-road-no-2-pid-15371",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/15371/original/masterplan.JPG?1704533915",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5357/original/floorplan1.JPG?1704533915",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 48798,
+          "bhk": "3 BHK",
+          "carpetArea": 1050,
+          "carpetAreaDisplay": "1050 sq.ft",
+          "builtUpArea": null,
+          "price": "2.34 Cr",
+          "actualPrice": 23400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/15371/configurations/unit-plans/3-bhk/1050-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/48798/original/3bhk_3d.jpg?1704533915",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 130218,
+          "bhk": "3 BHK",
+          "carpetArea": 1190,
+          "carpetAreaDisplay": "1190 sq.ft",
+          "builtUpArea": null,
+          "price": "2.75 Cr",
+          "actualPrice": 27500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 48800,
+          "bhk": "4 BHK",
+          "carpetArea": 1928,
+          "carpetAreaDisplay": "1928 sq.ft",
+          "builtUpArea": null,
+          "price": "4.54 Cr",
+          "actualPrice": 45400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/15371/configurations/unit-plans/4-bhk/1928-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/48800/original/4bhk_3d.jpg?1704533915",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,050 - 1,190 sq.ft",
+      "price": "2.34 Cr - 2.75 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,928 sq.ft",
+      "price": "4.54 Cr"
+    }
+  ]
+}

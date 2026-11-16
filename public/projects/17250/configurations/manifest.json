@@ -1,0 +1,182 @@
+{
+  "projectId": 17250,
+  "slug": "first-city-harmony-mankapur-pid-17250",
+  "name": "First City Harmony",
+  "city": "nagpur",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/first-city-harmony-mankapur-pid-17250",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/17250/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/17250/original/masterplan.JPG?1719825528"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/17250/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6580/original/floorplan.JPG?1719825528"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 112978,
+          "bhk": "2 BHK",
+          "carpetArea": 849,
+          "carpetAreaDisplay": "849 sq.ft",
+          "builtUpArea": null,
+          "price": "77.0 Lacs",
+          "actualPrice": 7700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 112980,
+          "bhk": "2 BHK",
+          "carpetArea": 1022,
+          "carpetAreaDisplay": "1022 sq.ft",
+          "builtUpArea": null,
+          "price": "91.5 Lacs",
+          "actualPrice": 9150000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 112981,
+          "bhk": "2 BHK",
+          "carpetArea": 1090,
+          "carpetAreaDisplay": "1090 sq.ft",
+          "builtUpArea": null,
+          "price": "94.3 Lacs",
+          "actualPrice": 9430000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 112984,
+          "bhk": "3 BHK",
+          "carpetArea": 1221,
+          "carpetAreaDisplay": "1221 sq.ft",
+          "builtUpArea": null,
+          "price": "1.22 Cr",
+          "actualPrice": 12200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 112985,
+          "bhk": "3 BHK",
+          "carpetArea": 1228,
+          "carpetAreaDisplay": "1228 sq.ft",
+          "builtUpArea": null,
+          "price": "1.25 Cr",
+          "actualPrice": 12500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 112986,
+          "bhk": "3 BHK",
+          "carpetArea": 1359,
+          "carpetAreaDisplay": "1359 sq.ft",
+          "builtUpArea": null,
+          "price": "1.45 Cr",
+          "actualPrice": 14500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 131752,
+          "bhk": "3 BHK",
+          "carpetArea": 1362,
+          "carpetAreaDisplay": "1362 sq.ft",
+          "builtUpArea": null,
+          "price": "1.43 Cr",
+          "actualPrice": 14300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 131753,
+          "bhk": "3 BHK",
+          "carpetArea": 1405,
+          "carpetAreaDisplay": "1405 sq.ft",
+          "builtUpArea": null,
+          "price": "1.5 Cr",
+          "actualPrice": 15000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "849 - 1,090 sq.ft",
+      "price": "77.0 Lacs - 94.3 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,221 - 1,405 sq.ft",
+      "price": "1.22 Cr - 1.5 Cr"
+    }
+  ]
+}

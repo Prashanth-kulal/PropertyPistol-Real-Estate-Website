@@ -1,0 +1,111 @@
+{
+  "projectId": 19643,
+  "slug": "meluha-goregaon-east-pid-19643",
+  "name": "Meluha ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/meluha-goregaon-east-pid-19643",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7711/original/fp-meluha_%282%29.png?1744727882",
+      "downloaded": false
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19643/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7712/original/fp-meluha_%281%29.png?1744727882",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 107384,
+          "bhk": "2 BHK",
+          "carpetArea": 673,
+          "carpetAreaDisplay": "673 sq.ft",
+          "builtUpArea": null,
+          "price": "1.8 Cr",
+          "actualPrice": 18000000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19643/configurations/unit-plans/2-bhk/673-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/107384/original/2bhk-melu.png?1744727881",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2.5 BHK",
+      "variants": [
+        {
+          "id": 140433,
+          "bhk": "2.5 BHK",
+          "carpetArea": 760,
+          "carpetAreaDisplay": "760 sq.ft",
+          "builtUpArea": null,
+          "price": "2.08 Cr",
+          "actualPrice": 20800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 107386,
+          "bhk": "3 BHK",
+          "carpetArea": 801,
+          "carpetAreaDisplay": "801 sq.ft",
+          "builtUpArea": null,
+          "price": "2.18 Cr",
+          "actualPrice": 21800000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19643/configurations/unit-plans/3-bhk/801-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/107386/original/unit.png?1744727881",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "673 sq.ft",
+      "price": "1.8 Cr"
+    },
+    {
+      "flat_type_name": "2.5 BHK",
+      "carpet_area": "760 sq.ft",
+      "price": "2.08 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "801 sq.ft",
+      "price": "2.18 Cr"
+    }
+  ]
+}

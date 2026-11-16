@@ -1,0 +1,78 @@
+{
+  "projectId": 10883,
+  "slug": "shikhar-greens-rasayani-pid-10883",
+  "name": "Shikhar Greens",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shikhar-greens-rasayani-pid-10883",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/10883/original/mp.png?1672664873",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 120427,
+          "bhk": "1 BHK",
+          "carpetArea": 337,
+          "carpetAreaDisplay": "337 sq.ft",
+          "builtUpArea": null,
+          "price": "17.61 Lacs",
+          "actualPrice": 1761499,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 35687,
+          "bhk": "2 BHK",
+          "carpetArea": 779,
+          "carpetAreaDisplay": "779 sq.ft",
+          "builtUpArea": null,
+          "price": "40.72 Lacs",
+          "actualPrice": 4071833,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "337 sq.ft",
+      "price": "17.61 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "779 sq.ft",
+      "price": "40.72 Lacs"
+    }
+  ]
+}

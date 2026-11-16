@@ -1,0 +1,52 @@
+{
+  "projectId": 7985,
+  "slug": "kumar-palmcrest-pisoli-pid-7985",
+  "name": "Kumar Palmcrest",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/kumar-palmcrest-pisoli-pid-7985",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/7985/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2964/original/fp.png?1669373776"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 26357,
+          "bhk": "2 BHK",
+          "carpetArea": 750,
+          "carpetAreaDisplay": "750 sq.ft",
+          "builtUpArea": null,
+          "price": "48.1 Lacs",
+          "actualPrice": 4809750,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/7985/configurations/unit-plans/2-bhk/750-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/26357/original/2.png?1669373775",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "750 sq.ft",
+      "price": "48.1 Lacs"
+    }
+  ]
+}

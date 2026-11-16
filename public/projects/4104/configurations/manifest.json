@@ -1,0 +1,165 @@
+{
+  "projectId": 4104,
+  "slug": "crystal-spires",
+  "name": "Crystal Spires ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/crystal-spires-manpada-pid-4104",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/4104/original/mp.jpg?1672728845",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3509/original/3.jpg?1672728845",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "Studio",
+      "variants": [
+        {
+          "id": 115520,
+          "bhk": "Studio",
+          "carpetArea": 244,
+          "carpetAreaDisplay": "244 sq.ft",
+          "builtUpArea": null,
+          "price": "61.0 Lacs",
+          "actualPrice": 6100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 115523,
+          "bhk": "1 BHK",
+          "carpetArea": 455,
+          "carpetAreaDisplay": "455 sq.ft",
+          "builtUpArea": null,
+          "price": "1.14 Cr",
+          "actualPrice": 11400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 115524,
+          "bhk": "2 BHK",
+          "carpetArea": 776,
+          "carpetAreaDisplay": "776 sq.ft",
+          "builtUpArea": null,
+          "price": "1.94 Cr",
+          "actualPrice": 19400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 115522,
+          "bhk": "3 BHK",
+          "carpetArea": 1349,
+          "carpetAreaDisplay": "1349 sq.ft",
+          "builtUpArea": null,
+          "price": "3.37 Cr",
+          "actualPrice": 33700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 139751,
+          "bhk": "4 BHK",
+          "carpetArea": 1377,
+          "carpetAreaDisplay": "1377 sq.ft",
+          "builtUpArea": null,
+          "price": "3.44 Cr",
+          "actualPrice": 34400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "Studio",
+      "carpet_area": "244 sq.ft",
+      "price": "61.0 Lacs"
+    },
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "455 sq.ft",
+      "price": "1.14 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "776 sq.ft",
+      "price": "1.94 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,349 sq.ft",
+      "price": "3.37 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,377 sq.ft",
+      "price": "3.44 Cr"
+    }
+  ]
+}

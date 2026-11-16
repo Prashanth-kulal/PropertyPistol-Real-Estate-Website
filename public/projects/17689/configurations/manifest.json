@@ -1,0 +1,84 @@
+{
+  "projectId": 17689,
+  "slug": "gokul-heights-friends-colony-pid-17689",
+  "name": "Gokul Heights",
+  "city": "nagpur",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/gokul-heights-friends-colony-pid-17689",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/17689/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6781/original/floorplan1.PNG?1723551363"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/17689/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6782/original/floorplan2.PNG?1723551363"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 78837,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1198,
+          "price": "55.99 Lacs",
+          "actualPrice": 5599000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/17689/configurations/unit-plans/2-bhk/variant-78837/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/78837/original/2bhk_3d.PNG?1723551362",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 78838,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1513,
+          "price": "71.99 Lacs",
+          "actualPrice": 7199000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/17689/configurations/unit-plans/3-bhk/variant-78838/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/78838/original/3bhk_3d.PNG?1723551362",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "On Request",
+      "price": "55.99 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "71.99 Lacs"
+    }
+  ]
+}

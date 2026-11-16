@@ -1,0 +1,94 @@
+{
+  "projectId": 21462,
+  "slug": "signature-residences-mulund-east-pid-21462",
+  "name": "Signature Residences",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/signature-residences-mulund-east-pid-21462",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21462/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9702/original/fp.png?1788945692",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 133061,
+          "bhk": "2 BHK",
+          "carpetArea": 770,
+          "carpetAreaDisplay": "770 sq.ft",
+          "builtUpArea": null,
+          "price": "1.81 Cr",
+          "actualPrice": 18100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 133062,
+          "bhk": "3 BHK",
+          "carpetArea": 942,
+          "carpetAreaDisplay": "942 sq.ft",
+          "builtUpArea": null,
+          "price": "2.5 Cr",
+          "actualPrice": 25000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139363,
+          "bhk": "3 BHK",
+          "carpetArea": 1201,
+          "carpetAreaDisplay": "1201 sq.ft",
+          "builtUpArea": null,
+          "price": "2.82 Cr",
+          "actualPrice": 28200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "770 sq.ft",
+      "price": "1.81 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "942 - 1,201 sq.ft",
+      "price": "2.5 Cr - 2.82 Cr"
+    }
+  ]
+}

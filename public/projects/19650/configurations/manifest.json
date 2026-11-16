@@ -1,0 +1,110 @@
+{
+  "projectId": 19650,
+  "slug": "ishwar-prabhakar-ambernath-east-pid-19650",
+  "name": "Ishwar Prabhakar ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ishwar-prabhakar-ambernath-east-pid-19650",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19650/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7717/original/fp-ishwar.png?1744733929",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 107413,
+          "bhk": "1 BHK",
+          "carpetArea": 355,
+          "carpetAreaDisplay": "355 sq.ft",
+          "builtUpArea": null,
+          "price": "46.0 Lacs",
+          "actualPrice": 4600000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19650/configurations/unit-plans/1-bhk/355-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/107413/original/1bhk-ish.png?1744733928",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 131786,
+          "bhk": "1 BHK",
+          "carpetArea": 393,
+          "carpetAreaDisplay": "393 sq.ft",
+          "builtUpArea": null,
+          "price": "50.92 Lacs",
+          "actualPrice": 5092000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 107414,
+          "bhk": "2 BHK",
+          "carpetArea": 497,
+          "carpetAreaDisplay": "497 sq.ft",
+          "builtUpArea": null,
+          "price": "64.4 Lacs",
+          "actualPrice": 6440000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19650/configurations/unit-plans/2-bhk/497-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/107414/original/bhk.png?1744733928",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 139268,
+          "bhk": "2 BHK",
+          "carpetArea": 513,
+          "carpetAreaDisplay": "513 sq.ft",
+          "builtUpArea": null,
+          "price": "66.47 Lacs",
+          "actualPrice": 6647000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "355 - 393 sq.ft",
+      "price": "46.0 Lacs - 50.92 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "497 - 513 sq.ft",
+      "price": "64.4 Lacs - 66.47 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "projectId": 7365,
+  "slug": "shri-4-taljai-hills-dhankawadi-pid-7365",
+  "name": "Shri 4 Taljai Hills",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shri-4-taljai-hills-dhankawadi-pid-7365",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/7365/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/7365/original/mp.jpg?1671701553"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/7365/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3358/original/floor4new.png?1747819611"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 135504,
+          "bhk": "2 BHK",
+          "carpetArea": 753,
+          "carpetAreaDisplay": "753 sq.ft",
+          "builtUpArea": null,
+          "price": "86.04 Lacs",
+          "actualPrice": 8604000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 140321,
+          "bhk": "3 BHK",
+          "carpetArea": 1042,
+          "carpetAreaDisplay": "1042 sq.ft",
+          "builtUpArea": null,
+          "price": "1.2 Cr",
+          "actualPrice": 12000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 140322,
+          "bhk": "4 BHK",
+          "carpetArea": 1506,
+          "carpetAreaDisplay": "1506 sq.ft",
+          "builtUpArea": null,
+          "price": "1.5 Cr",
+          "actualPrice": 15000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "753 sq.ft",
+      "price": "86.04 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,042 sq.ft",
+      "price": "1.2 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,506 sq.ft",
+      "price": "1.5 Cr"
+    }
+  ]
+}

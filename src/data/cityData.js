@@ -1,6 +1,8 @@
 // City-Specific Mock Data Store for AuraLiving
 // Maps every supported metro to verified property listings, top localities, market trends, and FAQs
 
+export { CITIES } from "./cities.js";
+
 import { MUMBAI_REGISTRY_PROJECTS } from "./mumbaiProjectsRegistry.js";
 import { DELHI_REGISTRY_PROJECTS } from "./delhiProjectsRegistry.js";
 import { GOA_REGISTRY_PROJECTS } from "./goaProjectsRegistry.js";

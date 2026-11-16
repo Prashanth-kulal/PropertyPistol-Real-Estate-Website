@@ -1,0 +1,78 @@
+{
+  "projectId": 21061,
+  "slug": "chamundeshwari-palash-malad-west-pid-21061",
+  "name": "Chamundeshwari Palash",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/chamundeshwari-palash-malad-west-pid-21061",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21061/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8942/original/fp.png?1763546011",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 127507,
+          "bhk": "1 BHK",
+          "carpetArea": 432,
+          "carpetAreaDisplay": "432 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/21061/configurations/unit-plans/1-bhk/432-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/127507/original/1.png?1763546009",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 127508,
+          "bhk": "2 BHK",
+          "carpetArea": 581,
+          "carpetAreaDisplay": "581 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/21061/configurations/unit-plans/2-bhk/581-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/127508/original/2.png?1763546009",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "432 sq.ft",
+      "price": "On Request"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "581 sq.ft",
+      "price": "On Request"
+    }
+  ]
+}

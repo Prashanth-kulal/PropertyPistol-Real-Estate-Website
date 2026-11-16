@@ -1,0 +1,78 @@
+{
+  "projectId": 19891,
+  "slug": "anshul-ela-moshi-pid-19891",
+  "name": "Anshul Ela",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/anshul-ela-moshi-pid-19891",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19891/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8156/original/floornew.png?1747998723"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 114177,
+          "bhk": "1 BHK",
+          "carpetArea": 496,
+          "carpetAreaDisplay": "496 sq.ft",
+          "builtUpArea": null,
+          "price": "35.4 Lacs",
+          "actualPrice": 3540000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 114178,
+          "bhk": "2 BHK",
+          "carpetArea": 652,
+          "carpetAreaDisplay": "652 sq.ft",
+          "builtUpArea": null,
+          "price": "46.53 Lacs",
+          "actualPrice": 4653000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "496 sq.ft",
+      "price": "35.4 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "652 sq.ft",
+      "price": "46.53 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "projectId": 15886,
+  "slug": "rs-qa-riverfront-taloja-pid-15886",
+  "name": "RS QA Riverfront",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/rs-qa-riverfront-taloja-pid-15886",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit"
+  ],
+  "masterPlans": [],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 132699,
+          "bhk": "1 BHK",
+          "carpetArea": 432,
+          "carpetAreaDisplay": "432 sq.ft",
+          "builtUpArea": null,
+          "price": "35.81 Lacs",
+          "actualPrice": 3580848,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 53336,
+          "bhk": "1 BHK",
+          "carpetArea": 451,
+          "carpetAreaDisplay": "451 sq.ft",
+          "builtUpArea": null,
+          "price": "38.76 Lacs",
+          "actualPrice": 3875894,
+          "propertyType": "Flat",
+          "plan2D": "/projects/15886/configurations/unit-plans/1-bhk/451-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/53336/original/1b.PNG?1737187534",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 127626,
+          "bhk": "2 BHK",
+          "carpetArea": 627,
+          "carpetAreaDisplay": "627 sq.ft",
+          "builtUpArea": null,
+          "price": "53.88 Lacs",
+          "actualPrice": 5388438,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 132700,
+          "bhk": "2 BHK",
+          "carpetArea": 649,
+          "carpetAreaDisplay": "649 sq.ft",
+          "builtUpArea": null,
+          "price": "53.8 Lacs",
+          "actualPrice": 5379561,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "432 - 451 sq.ft",
+      "price": "35.81 Lacs - 38.76 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "627 - 649 sq.ft",
+      "price": "53.8 Lacs - 53.88 Lacs"
+    }
+  ]
+}

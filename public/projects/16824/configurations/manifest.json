@@ -1,0 +1,78 @@
+{
+  "projectId": 16824,
+  "slug": "shubh-swarovski-wakad-pid-16824",
+  "name": "Shubh Swarovski",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shubh-swarovski-wakad-pid-16824",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16824/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16824/original/cf661fa87440dad.jpeg?1717674806"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 135906,
+          "bhk": "3 BHK",
+          "carpetArea": 1069,
+          "carpetAreaDisplay": "1069 sq.ft",
+          "builtUpArea": null,
+          "price": "1.85 Cr",
+          "actualPrice": 18500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 135907,
+          "bhk": "4 BHK",
+          "carpetArea": 1311,
+          "carpetAreaDisplay": "1311 sq.ft",
+          "builtUpArea": null,
+          "price": "2.87 Cr",
+          "actualPrice": 28700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,069 sq.ft",
+      "price": "1.85 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,311 sq.ft",
+      "price": "2.87 Cr"
+    }
+  ]
+}

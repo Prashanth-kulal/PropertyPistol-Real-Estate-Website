@@ -1,0 +1,143 @@
+{
+  "projectId": 11130,
+  "slug": "hetal-infra-riddhi-siddhi-mira-road-east-pid-11130",
+  "name": "Hetal Infra Riddhi Siddhi",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/hetal-infra-riddhi-siddhi-mira-road-east-pid-11130",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3595/original/Capture89.PNG?1675081489",
+      "downloaded": false
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3596/original/CaptureFPL.PNG?1675081489",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 118332,
+          "bhk": "1 BHK",
+          "carpetArea": 240,
+          "carpetAreaDisplay": "240 sq.ft",
+          "builtUpArea": null,
+          "price": "33.1 Lacs",
+          "actualPrice": 3310000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 118331,
+          "bhk": "1 BHK",
+          "carpetArea": 363,
+          "carpetAreaDisplay": "363 sq.ft",
+          "builtUpArea": null,
+          "price": "50.07 Lacs",
+          "actualPrice": 5007000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 118333,
+          "bhk": "1 BHK",
+          "carpetArea": 381,
+          "carpetAreaDisplay": "381 sq.ft",
+          "builtUpArea": null,
+          "price": "52.55 Lacs",
+          "actualPrice": 5255000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 95040,
+          "bhk": "2 BHK",
+          "carpetArea": 562,
+          "carpetAreaDisplay": "562 sq.ft",
+          "builtUpArea": null,
+          "price": "77.52 Lacs",
+          "actualPrice": 7752000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 139481,
+          "bhk": "3 BHK",
+          "carpetArea": 849,
+          "carpetAreaDisplay": "849 sq.ft",
+          "builtUpArea": null,
+          "price": "1.17 Cr",
+          "actualPrice": 11700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "240 - 381 sq.ft",
+      "price": "33.1 Lacs - 52.55 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "562 sq.ft",
+      "price": "77.52 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "849 sq.ft",
+      "price": "1.17 Cr"
+    }
+  ]
+}

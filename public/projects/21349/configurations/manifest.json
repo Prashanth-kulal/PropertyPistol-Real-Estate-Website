@@ -1,0 +1,94 @@
+{
+  "projectId": 21349,
+  "slug": "pyramid-opal-bay-koperkhairne-pid-21349",
+  "name": "Pyramid Opal Bay",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/pyramid-opal-bay-koperkhairne-pid-21349",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21349/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9704/original/fp.PNG?1789465743",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 132830,
+          "bhk": "2 BHK",
+          "carpetArea": 724,
+          "carpetAreaDisplay": "724 sq.ft",
+          "builtUpArea": null,
+          "price": "2.03 Cr",
+          "actualPrice": 20300000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/21349/configurations/unit-plans/2-bhk/724-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/132830/original/2b.PNG?1789465742",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 132831,
+          "bhk": "3 BHK",
+          "carpetArea": 968,
+          "carpetAreaDisplay": "968 sq.ft",
+          "builtUpArea": null,
+          "price": "2.71 Cr",
+          "actualPrice": 27100000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/21349/configurations/unit-plans/3-bhk/968-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/132831/original/3.PNG?1789465742",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 140450,
+          "bhk": "3 BHK",
+          "carpetArea": 1298,
+          "carpetAreaDisplay": "1298 sq.ft",
+          "builtUpArea": null,
+          "price": "3.64 Cr",
+          "actualPrice": 36400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "724 sq.ft",
+      "price": "2.03 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "968 - 1,298 sq.ft",
+      "price": "2.71 Cr - 3.64 Cr"
+    }
+  ]
+}

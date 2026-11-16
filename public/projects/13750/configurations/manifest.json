@@ -1,0 +1,78 @@
+{
+  "projectId": 13750,
+  "slug": "the-greens-taloja-pid-13750",
+  "name": "The Greens",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/the-greens-taloja-pid-13750",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13750/original/mp.PNG?1737724884",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 42516,
+          "bhk": "1 BHK",
+          "carpetArea": 386,
+          "carpetAreaDisplay": "386 sq.ft",
+          "builtUpArea": null,
+          "price": "23.55 Lacs",
+          "actualPrice": 2354600,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/42516/original/1.PNG?1737724884",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 74948,
+          "bhk": "2 BHK",
+          "carpetArea": 627,
+          "carpetAreaDisplay": "627 sq.ft",
+          "builtUpArea": null,
+          "price": "38.25 Lacs",
+          "actualPrice": 3824700,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/74948/original/2.PNG?1737724884",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "386 sq.ft",
+      "price": "23.55 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "627 sq.ft",
+      "price": "38.25 Lacs"
+    }
+  ]
+}

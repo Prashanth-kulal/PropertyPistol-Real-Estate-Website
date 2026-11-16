@@ -1,0 +1,78 @@
+{
+  "projectId": 10668,
+  "slug": "ganesh-joynest-chikhali-pid-10668",
+  "name": "Ganesh Joynest",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ganesh-joynest-chikhali-pid-10668",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/10668/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3238/original/Joynest-presenter-B-Floor-plan-03-1-scaled.jpg?1671106301"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 35209,
+          "bhk": "1 BHK",
+          "carpetArea": 498,
+          "carpetAreaDisplay": "498 sq.ft",
+          "builtUpArea": null,
+          "price": "34.99 Lacs",
+          "actualPrice": 3499000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": "/projects/10668/configurations/unit-plans/1-bhk/498-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/35209/original/one-bhk-2.png?1671106300",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 59444,
+          "bhk": "2 BHK",
+          "carpetArea": 664,
+          "carpetAreaDisplay": "664 sq.ft",
+          "builtUpArea": null,
+          "price": "45.0 Lacs",
+          "actualPrice": 4500000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "498 sq.ft",
+      "price": "34.99 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "664 sq.ft",
+      "price": "45.0 Lacs"
+    }
+  ]
+}

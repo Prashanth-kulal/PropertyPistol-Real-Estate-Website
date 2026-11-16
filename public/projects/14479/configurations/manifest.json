@@ -1,0 +1,78 @@
+{
+  "projectId": 14479,
+  "slug": "city-century-two-ghansoli-pid-14479",
+  "name": "City Century Two",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/city-century-two-ghansoli-pid-14479",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5058/original/fifthfloor.jpg?1700565329",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 45049,
+          "bhk": "2 BHK",
+          "carpetArea": 829,
+          "carpetAreaDisplay": "829 sq.ft",
+          "builtUpArea": null,
+          "price": "1.75 Cr",
+          "actualPrice": 17504335,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/45049/original/2bhk_2d.JPG?1700218419",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 67714,
+          "bhk": "3 BHK",
+          "carpetArea": 1154,
+          "carpetAreaDisplay": "1154 sq.ft",
+          "builtUpArea": null,
+          "price": "2.44 Cr",
+          "actualPrice": 24366710,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "829 sq.ft",
+      "price": "1.75 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,154 sq.ft",
+      "price": "2.44 Cr"
+    }
+  ]
+}

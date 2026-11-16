@@ -1,0 +1,68 @@
+{
+  "projectId": 19369,
+  "slug": "dashanzi-ce-la-vie-kharghar-pid-19369",
+  "name": "Dashanzi Ce La Vie ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/dashanzi-ce-la-vie-kharghar-pid-19369",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19369/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7533/original/ce-fp.png?1741793558",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 109750,
+          "bhk": "2 BHK",
+          "carpetArea": 666,
+          "carpetAreaDisplay": "666 sq.ft",
+          "builtUpArea": null,
+          "price": "85.0 Lacs",
+          "actualPrice": 8500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 109751,
+          "bhk": "2 BHK",
+          "carpetArea": 715,
+          "carpetAreaDisplay": "715 sq.ft",
+          "builtUpArea": null,
+          "price": "93.0 Lacs",
+          "actualPrice": 9300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "666 - 715 sq.ft",
+      "price": "85.0 Lacs - 93.0 Lacs"
+    }
+  ]
+}

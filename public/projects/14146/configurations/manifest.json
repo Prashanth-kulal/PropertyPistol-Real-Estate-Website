@@ -1,0 +1,110 @@
+{
+  "projectId": 14146,
+  "slug": "marina-bay-by-sugee",
+  "name": "Marina Bay by Sugee",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/marina-bay-by-sugee-worli-pid-14146",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8003/original/fp.PNG?1747040393",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 43636,
+          "bhk": "3 BHK",
+          "carpetArea": 1165,
+          "carpetAreaDisplay": "1165 sq.ft",
+          "builtUpArea": null,
+          "price": "14.11 Cr",
+          "actualPrice": 141100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 124125,
+          "bhk": "3 BHK",
+          "carpetArea": 1817,
+          "carpetAreaDisplay": "1817 sq.ft",
+          "builtUpArea": null,
+          "price": "22.0 Cr",
+          "actualPrice": 220000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 140204,
+          "bhk": "4 BHK",
+          "carpetArea": 1871,
+          "carpetAreaDisplay": "1871 sq.ft",
+          "builtUpArea": null,
+          "price": "22.66 Cr",
+          "actualPrice": 226600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140205,
+          "bhk": "4 BHK",
+          "carpetArea": 3692,
+          "carpetAreaDisplay": "3692 sq.ft",
+          "builtUpArea": null,
+          "price": "44.7 Cr",
+          "actualPrice": 447000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,165 - 1,817 sq.ft",
+      "price": "14.11 Cr - 22.0 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,871 - 3,692 sq.ft",
+      "price": "22.66 Cr - 44.7 Cr"
+    }
+  ]
+}

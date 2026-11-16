@@ -1,0 +1,110 @@
+{
+  "projectId": 21616,
+  "slug": "the-vaidiki-crown",
+  "name": "The Vaidiki Crown",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/the-vaidiki-crown-kalyan-east-pid-21616",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21616/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9238/original/2nd.png?1772179339",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 133371,
+          "bhk": "1 BHK",
+          "carpetArea": 350,
+          "carpetAreaDisplay": "350 sq.ft",
+          "builtUpArea": null,
+          "price": "41.89 Lacs",
+          "actualPrice": 4189000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 133372,
+          "bhk": "1 BHK",
+          "carpetArea": 400,
+          "carpetAreaDisplay": "400 sq.ft",
+          "builtUpArea": null,
+          "price": "47.87 Lacs",
+          "actualPrice": 4787000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 140069,
+          "bhk": "2 BHK",
+          "carpetArea": 534,
+          "carpetAreaDisplay": "534 sq.ft",
+          "builtUpArea": null,
+          "price": "63.91 Lacs",
+          "actualPrice": 6391000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140070,
+          "bhk": "2 BHK",
+          "carpetArea": 550,
+          "carpetAreaDisplay": "550 sq.ft",
+          "builtUpArea": null,
+          "price": "65.82 Lacs",
+          "actualPrice": 6582000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "350 - 400 sq.ft",
+      "price": "41.89 Lacs - 47.87 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "534 - 550 sq.ft",
+      "price": "63.91 Lacs - 65.82 Lacs"
+    }
+  ]
+}

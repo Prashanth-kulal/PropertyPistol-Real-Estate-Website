@@ -1,0 +1,78 @@
+{
+  "projectId": 8543,
+  "slug": "today-royal-belantara-rasayani-pid-8543",
+  "name": "Today Royal Belantara",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/today-royal-belantara-rasayani-pid-8543",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/8543/original/mp-bel.png?1750053908",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 124453,
+          "bhk": "1 BHK",
+          "carpetArea": 421,
+          "carpetAreaDisplay": "421 sq.ft",
+          "builtUpArea": null,
+          "price": "28.42 Lacs",
+          "actualPrice": 2841750,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 124458,
+          "bhk": "3 BHK",
+          "carpetArea": 806,
+          "carpetAreaDisplay": "806 sq.ft",
+          "builtUpArea": null,
+          "price": "54.41 Lacs",
+          "actualPrice": 5440500,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "421 sq.ft",
+      "price": "28.42 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "806 sq.ft",
+      "price": "54.41 Lacs"
+    }
+  ]
+}

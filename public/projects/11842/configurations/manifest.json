@@ -1,0 +1,110 @@
+{
+  "projectId": 11842,
+  "slug": "goyal-sea-rock-borivali-west-pid-11842",
+  "name": "Goyal Sea Rock",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/goyal-sea-rock-borivali-west-pid-11842",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5384/original/hp.PNG?1704717852",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 37826,
+          "bhk": "1 BHK",
+          "carpetArea": 397,
+          "carpetAreaDisplay": "397 sq.ft",
+          "builtUpArea": null,
+          "price": "1.12 Cr",
+          "actualPrice": 11200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/37826/original/1.PNG?1764406083",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 134918,
+          "bhk": "1 BHK",
+          "carpetArea": 443,
+          "carpetAreaDisplay": "443 sq.ft",
+          "builtUpArea": null,
+          "price": "1.25 Cr",
+          "actualPrice": 12500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 134920,
+          "bhk": "2 BHK",
+          "carpetArea": 534,
+          "carpetAreaDisplay": "534 sq.ft",
+          "builtUpArea": null,
+          "price": "1.51 Cr",
+          "actualPrice": 15100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 134919,
+          "bhk": "2 BHK",
+          "carpetArea": 544,
+          "carpetAreaDisplay": "544 sq.ft",
+          "builtUpArea": null,
+          "price": "1.54 Cr",
+          "actualPrice": 15400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "397 - 443 sq.ft",
+      "price": "1.12 Cr - 1.25 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "534 - 544 sq.ft",
+      "price": "1.51 Cr - 1.54 Cr"
+    }
+  ]
+}

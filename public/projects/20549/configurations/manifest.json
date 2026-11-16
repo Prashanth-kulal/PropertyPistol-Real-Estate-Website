@@ -1,0 +1,75 @@
+{
+  "projectId": 20549,
+  "slug": "vr-swarg-nerul-pid-20549",
+  "name": "VR Swarg",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/vr-swarg-nerul-pid-20549",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20549/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8778/original/fp-swa.png?1755008070",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/20549/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8779/original/gp-swa.png?1755008070",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 123269,
+          "bhk": "2 BHK",
+          "carpetArea": 566,
+          "carpetAreaDisplay": "566 sq.ft",
+          "builtUpArea": null,
+          "price": "1.45 Cr",
+          "actualPrice": 14500000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20549/configurations/unit-plans/2-bhk/566-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/123269/original/2bhk.png?1755008069",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 133865,
+          "bhk": "2 BHK",
+          "carpetArea": 777,
+          "carpetAreaDisplay": "777 sq.ft",
+          "builtUpArea": null,
+          "price": "2.05 Cr",
+          "actualPrice": 20500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "566 - 777 sq.ft",
+      "price": "1.45 Cr - 2.05 Cr"
+    }
+  ]
+}

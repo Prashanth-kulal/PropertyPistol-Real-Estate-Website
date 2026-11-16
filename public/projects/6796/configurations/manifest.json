@@ -1,0 +1,120 @@
+{
+  "projectId": 6796,
+  "slug": "gm-north-enclave-thanisandra-pid-6796",
+  "name": "GM North Enclave",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/gm-north-enclave-thanisandra-pid-6796",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/6796/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/6796/original/mp.jpg?1724928698"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 20551,
+          "bhk": "1 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 500,
+          "price": "27.5 Lacs",
+          "actualPrice": 2750000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/6796/configurations/unit-plans/1-bhk/variant-20551/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/20551/original/1.PNG?1724928698",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 35931,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 800,
+          "price": "44.0 Lacs",
+          "actualPrice": 4400000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/6796/configurations/unit-plans/2-bhk/variant-35931/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/35931/original/2.PNG?1724928698",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 65454,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 825,
+          "price": "45.38 Lacs",
+          "actualPrice": 4538000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/6796/configurations/unit-plans/2-bhk/variant-65454/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/65454/original/2b.PNG?1724928698",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 21758,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 990,
+          "price": "54.45 Lacs",
+          "actualPrice": 5445000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/6796/configurations/unit-plans/3-bhk/variant-21758/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/21758/original/3.PNG?1724928698",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "On Request",
+      "price": "27.5 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "On Request",
+      "price": "44.0 Lacs - 45.38 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "54.45 Lacs"
+    }
+  ]
+}

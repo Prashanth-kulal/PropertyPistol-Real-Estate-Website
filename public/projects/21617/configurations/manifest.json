@@ -1,0 +1,78 @@
+{
+  "projectId": 21617,
+  "slug": "seasons-pearl",
+  "name": "Seasons Pearl",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/seasons-pearl-kalyan-west-pid-21617",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21617/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9239/original/fp.JPG?1772180538",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 133373,
+          "bhk": "3 BHK",
+          "carpetArea": 1162,
+          "carpetAreaDisplay": "1162 sq.ft",
+          "builtUpArea": null,
+          "price": "1.45 Cr",
+          "actualPrice": 14500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 133374,
+          "bhk": "4 BHK",
+          "carpetArea": 2300,
+          "carpetAreaDisplay": "2300 sq.ft",
+          "builtUpArea": null,
+          "price": "2.8 Cr",
+          "actualPrice": 28000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,162 sq.ft",
+      "price": "1.45 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,300 sq.ft",
+      "price": "2.8 Cr"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "projectId": 11327,
+  "slug": "sairama-signature-kharghar-pid-11327",
+  "name": "Sairama Signature",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sairama-signature-kharghar-pid-11327",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/11327/original/mp.PNG?1749024645",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8305/original/fp.PNG?1749024649",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 96317,
+          "bhk": "2 BHK",
+          "carpetArea": 599,
+          "carpetAreaDisplay": "599 sq.ft",
+          "builtUpArea": null,
+          "price": "1.38 Cr",
+          "actualPrice": 13800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 36727,
+          "bhk": "2 BHK",
+          "carpetArea": 618,
+          "carpetAreaDisplay": "618 sq.ft",
+          "builtUpArea": null,
+          "price": "1.42 Cr",
+          "actualPrice": 14200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "599 - 618 sq.ft",
+      "price": "1.38 Cr - 1.42 Cr"
+    }
+  ]
+}

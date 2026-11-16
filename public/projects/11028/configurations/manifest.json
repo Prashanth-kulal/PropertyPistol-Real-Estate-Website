@@ -1,0 +1,142 @@
+{
+  "projectId": 11028,
+  "slug": "salangpur-aavatar-mira-road-east-pid-11028",
+  "name": "Salangpur Aavatar",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/salangpur-aavatar-mira-road-east-pid-11028",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/11028/original/mp-sala.png?1752146077",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8448/original/fp-sala.png?1752146077",
+      "downloaded": false
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8449/original/am-sala.png?1752146077",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 35997,
+          "bhk": "1 BHK",
+          "carpetArea": 442,
+          "carpetAreaDisplay": "442 sq.ft",
+          "builtUpArea": null,
+          "price": "63.97 Lacs",
+          "actualPrice": 6397000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/35997/original/1B.jpg?1738830959",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 125284,
+          "bhk": "1 BHK",
+          "carpetArea": 444,
+          "carpetAreaDisplay": "444 sq.ft",
+          "builtUpArea": null,
+          "price": "64.37 Lacs",
+          "actualPrice": 6437000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 125285,
+          "bhk": "1 BHK",
+          "carpetArea": 445,
+          "carpetAreaDisplay": "445 sq.ft",
+          "builtUpArea": null,
+          "price": "64.4 Lacs",
+          "actualPrice": 6440000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 69628,
+          "bhk": "2 BHK",
+          "carpetArea": 593,
+          "carpetAreaDisplay": "593 sq.ft",
+          "builtUpArea": null,
+          "price": "85.82 Lacs",
+          "actualPrice": 8582000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/69628/original/2B.jpg?1738830959",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139482,
+          "bhk": "2 BHK",
+          "carpetArea": 659,
+          "carpetAreaDisplay": "659 sq.ft",
+          "builtUpArea": null,
+          "price": "95.51 Lacs",
+          "actualPrice": 9551000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "442 - 445 sq.ft",
+      "price": "63.97 Lacs - 64.4 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "593 - 659 sq.ft",
+      "price": "85.82 Lacs - 95.51 Lacs"
+    }
+  ]
+}

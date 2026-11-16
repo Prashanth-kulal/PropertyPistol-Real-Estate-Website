@@ -1,0 +1,86 @@
+{
+  "projectId": 13068,
+  "slug": "austin-lush-residence-pimpri-chinchwad-pid-13068",
+  "name": "Austin Lush Residence",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/austin-lush-residence-pimpri-chinchwad-pid-13068",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/13068/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13068/original/Capturefddssw.PNG?1690451071"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/13068/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4234/original/Capturefrered.PNG?1690451073"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 40529,
+          "bhk": "2 BHK",
+          "carpetArea": 758,
+          "carpetAreaDisplay": "758 sq.ft",
+          "builtUpArea": null,
+          "price": "90.68 Lacs",
+          "actualPrice": 9068000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 110763,
+          "bhk": "3 BHK",
+          "carpetArea": 982,
+          "carpetAreaDisplay": "982 sq.ft",
+          "builtUpArea": null,
+          "price": "1.16 Cr",
+          "actualPrice": 11600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "758 sq.ft",
+      "price": "90.68 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "982 sq.ft",
+      "price": "1.16 Cr"
+    }
+  ]
+}

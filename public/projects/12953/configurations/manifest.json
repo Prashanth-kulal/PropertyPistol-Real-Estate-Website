@@ -1,0 +1,87 @@
+{
+  "projectId": 12953,
+  "slug": "dotom-sapphire-malad-west-pid-12953",
+  "name": "Dotom Sapphire",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/dotom-sapphire-malad-west-pid-12953",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/12953/original/Podium-Plan-1.png?1689856852",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4161/original/medium.jpeg?1689856853",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 130809,
+          "bhk": "1 BHK",
+          "carpetArea": 386,
+          "carpetAreaDisplay": "386 sq.ft",
+          "builtUpArea": null,
+          "price": "84.1 Lacs",
+          "actualPrice": 8409600,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 96587,
+          "bhk": "2 BHK",
+          "carpetArea": 634,
+          "carpetAreaDisplay": "634 sq.ft",
+          "builtUpArea": null,
+          "price": "1.39 Cr",
+          "actualPrice": 13884600,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "386 sq.ft",
+      "price": "84.1 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "634 sq.ft",
+      "price": "1.39 Cr"
+    }
+  ]
+}

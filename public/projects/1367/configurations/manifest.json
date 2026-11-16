@@ -1,0 +1,68 @@
+{
+  "projectId": 1367,
+  "slug": "marathon-nexworld-dombivali-east-pid-1367",
+  "name": "Marathon Nexworld",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/marathon-nexworld-dombivali-east-pid-1367",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/1367/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/1840/original/floor_plan.png?1589448357",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 134903,
+          "bhk": "1 BHK",
+          "carpetArea": 288,
+          "carpetAreaDisplay": "288 sq.ft",
+          "builtUpArea": null,
+          "price": "29.49 Lacs",
+          "actualPrice": 2949000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 134904,
+          "bhk": "1 BHK",
+          "carpetArea": 356,
+          "carpetAreaDisplay": "356 sq.ft",
+          "builtUpArea": null,
+          "price": "34.9 Lacs",
+          "actualPrice": 3490000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "288 - 356 sq.ft",
+      "price": "29.49 Lacs - 34.9 Lacs"
+    }
+  ]
+}

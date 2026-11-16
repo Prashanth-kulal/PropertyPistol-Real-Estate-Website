@@ -1,0 +1,92 @@
+{
+  "projectId": 19177,
+  "slug": "stsk-nature-elation-varthur-pid-19177",
+  "name": "STSK Nature Elation",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/stsk-nature-elation-varthur-pid-19177",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19177/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19177/original/masterplan1.png?1739950432"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19177/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7406/original/floor1new.png?1739950434"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19177/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7407/original/floor2new.png?1739950434"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 100513,
+          "bhk": "2 BHK",
+          "carpetArea": 738,
+          "carpetAreaDisplay": "738 sq.ft",
+          "builtUpArea": null,
+          "price": "96.51 Lacs",
+          "actualPrice": 9650826,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 100514,
+          "bhk": "3 BHK",
+          "carpetArea": 942,
+          "carpetAreaDisplay": "942 sq.ft",
+          "builtUpArea": null,
+          "price": "1.23 Cr",
+          "actualPrice": 12318534,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "738 sq.ft",
+      "price": "96.51 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "942 sq.ft",
+      "price": "1.23 Cr"
+    }
+  ]
+}

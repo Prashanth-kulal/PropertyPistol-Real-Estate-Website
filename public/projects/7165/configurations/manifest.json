@@ -1,0 +1,134 @@
+{
+  "projectId": 7165,
+  "slug": "park-astra-marunji-pid-7165",
+  "name": "Park Astra",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/park-astra-marunji-pid-7165",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/7165/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/7165/original/mp.PNG?1731778628"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/7165/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2575/original/fp.PNG?1731778630"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 137709,
+          "bhk": "2 BHK",
+          "carpetArea": 646,
+          "carpetAreaDisplay": "646 sq.ft",
+          "builtUpArea": null,
+          "price": "83.0 Lacs",
+          "actualPrice": 8300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 131412,
+          "bhk": "2 BHK",
+          "carpetArea": 716,
+          "carpetAreaDisplay": "716 sq.ft",
+          "builtUpArea": null,
+          "price": "91.99 Lacs",
+          "actualPrice": 9199000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 131410,
+          "bhk": "2 BHK",
+          "carpetArea": 770,
+          "carpetAreaDisplay": "770 sq.ft",
+          "builtUpArea": null,
+          "price": "99.02 Lacs",
+          "actualPrice": 9902000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 131414,
+          "bhk": "3 BHK",
+          "carpetArea": 880,
+          "carpetAreaDisplay": "880 sq.ft",
+          "builtUpArea": null,
+          "price": "1.13 Cr",
+          "actualPrice": 11300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 131413,
+          "bhk": "3 BHK",
+          "carpetArea": 1003,
+          "carpetAreaDisplay": "1003 sq.ft",
+          "builtUpArea": null,
+          "price": "1.29 Cr",
+          "actualPrice": 12900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "646 - 770 sq.ft",
+      "price": "83.0 Lacs - 99.02 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "880 - 1,003 sq.ft",
+      "price": "1.13 Cr - 1.29 Cr"
+    }
+  ]
+}

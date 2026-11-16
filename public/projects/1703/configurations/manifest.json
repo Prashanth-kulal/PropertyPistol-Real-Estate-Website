@@ -1,0 +1,94 @@
+{
+  "projectId": 1703,
+  "slug": "siddhivinayak-riddhima",
+  "name": "Siddhivinayak Riddhima",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/siddhivinayak-riddhima-taloja-pid-1703",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/1703/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/1703/original/master_plan.jpg?1562579609",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 2815,
+          "bhk": "1 BHK",
+          "carpetArea": 330,
+          "carpetAreaDisplay": "330 sq.ft",
+          "builtUpArea": null,
+          "price": "34.89 Lacs",
+          "actualPrice": 3489000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/1703/configurations/unit-plans/1-bhk/330-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/2815/original/1_bhk.jpg?1562579610",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 71847,
+          "bhk": "1 BHK",
+          "carpetArea": 338,
+          "carpetAreaDisplay": "338 sq.ft",
+          "builtUpArea": null,
+          "price": "35.77 Lacs",
+          "actualPrice": 3577000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 2816,
+          "bhk": "2 BHK",
+          "carpetArea": 485,
+          "carpetAreaDisplay": "485 sq.ft",
+          "builtUpArea": null,
+          "price": "60.52 Lacs",
+          "actualPrice": 6052000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/1703/configurations/unit-plans/2-bhk/485-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/2816/original/2_bhk_%281%29.jpg?1562837903",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "330 - 338 sq.ft",
+      "price": "34.89 Lacs - 35.77 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "485 sq.ft",
+      "price": "60.52 Lacs"
+    }
+  ]
+}

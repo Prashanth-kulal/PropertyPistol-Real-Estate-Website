@@ -1,0 +1,94 @@
+{
+  "projectId": 13423,
+  "slug": "prestige-bellanza-mulund-west-pid-13423",
+  "name": "Prestige Bellanza",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/prestige-bellanza-mulund-west-pid-13423",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13423/original/mmmmmmp.png?1712225684",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 82421,
+          "bhk": "2 BHK",
+          "carpetArea": 734,
+          "carpetAreaDisplay": "734 sq.ft",
+          "builtUpArea": null,
+          "price": "2.14 Cr",
+          "actualPrice": 21400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 98682,
+          "bhk": "2 BHK",
+          "carpetArea": 763,
+          "carpetAreaDisplay": "763 sq.ft",
+          "builtUpArea": null,
+          "price": "2.22 Cr",
+          "actualPrice": 22200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 131223,
+          "bhk": "3 BHK",
+          "carpetArea": 1030,
+          "carpetAreaDisplay": "1030 sq.ft",
+          "builtUpArea": null,
+          "price": "2.99 Cr",
+          "actualPrice": 29900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "734 - 763 sq.ft",
+      "price": "2.14 Cr - 2.22 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,030 sq.ft",
+      "price": "2.99 Cr"
+    }
+  ]
+}

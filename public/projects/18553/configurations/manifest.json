@@ -1,0 +1,68 @@
+{
+  "projectId": 18553,
+  "slug": "happy-galaxy-chinchbhuwan-pid-18553",
+  "name": "Happy Galaxy",
+  "city": "nagpur",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/happy-galaxy-chinchbhuwan-pid-18553",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18553/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7119/original/floorplan.PNG?1731156941"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 92269,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1550,
+          "price": "59.91 Lacs",
+          "actualPrice": 5991000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 92268,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1650,
+          "price": "66.0 Lacs",
+          "actualPrice": 6600000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18553/configurations/unit-plans/3-bhk/variant-92268/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/92268/original/3bhk_2d.PNG?1731156940",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "59.91 Lacs - 66.0 Lacs"
+    }
+  ]
+}

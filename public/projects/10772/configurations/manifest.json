@@ -1,0 +1,84 @@
+{
+  "projectId": 10772,
+  "slug": "shevi-utopia-gold-moshi-pid-10772",
+  "name": "Shevi Utopia Gold",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shevi-utopia-gold-moshi-pid-10772",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/10772/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/10772/original/master-layout.jpg?1671708713"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 125424,
+          "bhk": "2 BHK",
+          "carpetArea": 665,
+          "carpetAreaDisplay": "665 sq.ft",
+          "builtUpArea": null,
+          "price": "60.1 Lacs",
+          "actualPrice": 6010000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 125423,
+          "bhk": "2 BHK",
+          "carpetArea": 683,
+          "carpetAreaDisplay": "683 sq.ft",
+          "builtUpArea": null,
+          "price": "61.72 Lacs",
+          "actualPrice": 6172000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 35440,
+          "bhk": "2 BHK",
+          "carpetArea": 707,
+          "carpetAreaDisplay": "707 sq.ft",
+          "builtUpArea": null,
+          "price": "63.89 Lacs",
+          "actualPrice": 6389000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/10772/configurations/unit-plans/2-bhk/707-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/35440/original/2.jpg?1671708714",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "665 - 707 sq.ft",
+      "price": "60.1 Lacs - 63.89 Lacs"
+    }
+  ]
+}

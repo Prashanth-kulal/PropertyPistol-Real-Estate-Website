@@ -1,0 +1,86 @@
+{
+  "projectId": 17397,
+  "slug": "marigold-floresta-cunchelim-pid-17397",
+  "name": "Marigold Floresta",
+  "city": "goa",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/marigold-floresta-cunchelim-pid-17397",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/17397/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/17397/original/mp.jpg?1726921334"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/17397/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6929/original/floor3new.png?1747817124"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 117951,
+          "bhk": "1 BHK",
+          "carpetArea": 630,
+          "carpetAreaDisplay": "630 sq.ft",
+          "builtUpArea": null,
+          "price": "94.5 Lacs",
+          "actualPrice": 9450000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 86309,
+          "bhk": "2 BHK",
+          "carpetArea": 944,
+          "carpetAreaDisplay": "944 sq.ft",
+          "builtUpArea": null,
+          "price": "1.41 Cr",
+          "actualPrice": 14100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "630 sq.ft",
+      "price": "94.5 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "944 sq.ft",
+      "price": "1.41 Cr"
+    }
+  ]
+}

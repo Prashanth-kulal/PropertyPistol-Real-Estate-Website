@@ -1,0 +1,78 @@
+{
+  "projectId": 22234,
+  "slug": "avantika-crisanto-aminpur-pid-22234",
+  "name": "Avantika Crisanto",
+  "city": "hyderabad",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/avantika-crisanto-aminpur-pid-22234",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/22234/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/22234/original/download_%2841%29.png?1787828848"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 138008,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 881,
+          "price": "88.1 Lacs",
+          "actualPrice": 8810000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/22234/configurations/unit-plans/2-bhk/variant-138008/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/138008/original/2bhk.png?1787828848",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 138009,
+          "bhk": "4 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2259,
+          "price": "2.26 Cr",
+          "actualPrice": 22590000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/22234/configurations/unit-plans/4-bhk/variant-138009/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/138009/original/4bhk.png?1787828848",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "On Request",
+      "price": "88.1 Lacs"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "On Request",
+      "price": "2.26 Cr"
+    }
+  ]
+}

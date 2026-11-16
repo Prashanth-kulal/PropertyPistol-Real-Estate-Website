@@ -1,0 +1,182 @@
+{
+  "projectId": 19577,
+  "slug": "kundan-praangan-pimpri-chinchwad-pid-19577",
+  "name": "Kundan Praangan",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/kundan-praangan-pimpri-chinchwad-pid-19577",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19577/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19577/original/masternew.png?1744189240"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19577/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7686/original/floor1.PNG?1744104251"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19577/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7687/original/floor2.PNG?1744104251"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 131884,
+          "bhk": "1 BHK",
+          "carpetArea": 471,
+          "carpetAreaDisplay": "471 sq.ft",
+          "builtUpArea": null,
+          "price": "43.33 Lacs",
+          "actualPrice": 4333000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 131885,
+          "bhk": "1 BHK",
+          "carpetArea": 472,
+          "carpetAreaDisplay": "472 sq.ft",
+          "builtUpArea": null,
+          "price": "43.49 Lacs",
+          "actualPrice": 4349000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 106078,
+          "bhk": "2 BHK",
+          "carpetArea": 674,
+          "carpetAreaDisplay": "674 sq.ft",
+          "builtUpArea": null,
+          "price": "69.73 Lacs",
+          "actualPrice": 6973000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 114290,
+          "bhk": "2 BHK",
+          "carpetArea": 679,
+          "carpetAreaDisplay": "679 sq.ft",
+          "builtUpArea": null,
+          "price": "70.21 Lacs",
+          "actualPrice": 7021000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 124742,
+          "bhk": "3 BHK",
+          "carpetArea": 971,
+          "carpetAreaDisplay": "971 sq.ft",
+          "builtUpArea": null,
+          "price": "1.02 Cr",
+          "actualPrice": 10200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 124743,
+          "bhk": "3 BHK",
+          "carpetArea": 971,
+          "carpetAreaDisplay": "971 sq.ft",
+          "builtUpArea": null,
+          "price": "1.02 Cr",
+          "actualPrice": 10200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 124741,
+          "bhk": "3 BHK",
+          "carpetArea": 973,
+          "carpetAreaDisplay": "973 sq.ft",
+          "builtUpArea": null,
+          "price": "1.02 Cr",
+          "actualPrice": 10200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "471 - 472 sq.ft",
+      "price": "43.33 Lacs - 43.49 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "674 - 679 sq.ft",
+      "price": "69.73 Lacs - 70.21 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "971 - 973 sq.ft",
+      "price": "1.02 Cr"
+    }
+  ]
+}

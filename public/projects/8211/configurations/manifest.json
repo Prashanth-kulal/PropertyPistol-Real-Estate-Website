@@ -1,0 +1,52 @@
+{
+  "projectId": 8211,
+  "slug": "raheja-stellar-nibm-road-pid-8211",
+  "name": "Raheja Stellar",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/raheja-stellar-nibm-road-pid-8211",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/8211/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9760/original/download_%2851%29.png?1792055935"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 138716,
+          "bhk": "4 BHK",
+          "carpetArea": 2357,
+          "carpetAreaDisplay": "2357 sq.ft",
+          "builtUpArea": null,
+          "price": "4.19 Cr",
+          "actualPrice": 41900000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/8211/configurations/unit-plans/4-bhk/2357-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/138716/original/download_%2852%29.png?1792056177",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,357 sq.ft",
+      "price": "4.19 Cr"
+    }
+  ]
+}

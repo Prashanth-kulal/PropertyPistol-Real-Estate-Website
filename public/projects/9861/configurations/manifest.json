@@ -1,0 +1,134 @@
+{
+  "projectId": 9861,
+  "slug": "majestique-the-ornate-baner-pid-9861",
+  "name": "Majestique The Ornate",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/majestique-the-ornate-baner-pid-9861",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/9861/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/9861/original/mp.png?1671533415"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/9861/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3315/original/f.png?1671533415"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 113099,
+          "bhk": "3 BHK",
+          "carpetArea": 1181,
+          "carpetAreaDisplay": "1181 sq.ft",
+          "builtUpArea": null,
+          "price": "2.31 Cr",
+          "actualPrice": 23100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 113097,
+          "bhk": "3 BHK",
+          "carpetArea": 1259,
+          "carpetAreaDisplay": "1259 sq.ft",
+          "builtUpArea": null,
+          "price": "2.35 Cr",
+          "actualPrice": 23500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 79733,
+          "bhk": "3 BHK",
+          "carpetArea": 1267,
+          "carpetAreaDisplay": "1267 sq.ft",
+          "builtUpArea": null,
+          "price": "2.36 Cr",
+          "actualPrice": 23600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 79732,
+          "bhk": "4 BHK",
+          "carpetArea": 1536,
+          "carpetAreaDisplay": "1536 sq.ft",
+          "builtUpArea": null,
+          "price": "3.01 Cr",
+          "actualPrice": 30100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 79731,
+          "bhk": "4 BHK",
+          "carpetArea": 1659,
+          "carpetAreaDisplay": "1659 sq.ft",
+          "builtUpArea": null,
+          "price": "3.25 Cr",
+          "actualPrice": 32500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,181 - 1,267 sq.ft",
+      "price": "2.31 Cr - 2.36 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,536 - 1,659 sq.ft",
+      "price": "3.01 Cr - 3.25 Cr"
+    }
+  ]
+}

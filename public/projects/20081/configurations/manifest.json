@@ -1,0 +1,142 @@
+{
+  "projectId": 20081,
+  "slug": "codename-cloud-city-kharghar-pid-20081",
+  "name": "Codename Cloud City ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/codename-cloud-city-kharghar-pid-20081",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/20081/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/20081/original/tody-mp.png?1752067335",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20081/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8442/original/tfp-to.png?1752067337",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/20081/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8443/original/tfp-today.png?1752067337",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 136968,
+          "bhk": "1 BHK",
+          "carpetArea": 383,
+          "carpetAreaDisplay": "383 sq.ft",
+          "builtUpArea": null,
+          "price": "58.0 Lacs",
+          "actualPrice": 5800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 136969,
+          "bhk": "1 BHK",
+          "carpetArea": 404,
+          "carpetAreaDisplay": "404 sq.ft",
+          "builtUpArea": null,
+          "price": "61.31 Lacs",
+          "actualPrice": 6131000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 118421,
+          "bhk": "2 BHK",
+          "carpetArea": 599,
+          "carpetAreaDisplay": "599 sq.ft",
+          "builtUpArea": null,
+          "price": "89.0 Lacs",
+          "actualPrice": 8900000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20081/configurations/unit-plans/2-bhk/599-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/118421/original/2bhk.png?1752067336",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 118422,
+          "bhk": "2 BHK",
+          "carpetArea": 685,
+          "carpetAreaDisplay": "685 sq.ft",
+          "builtUpArea": null,
+          "price": "1.04 Cr",
+          "actualPrice": 10400000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20081/configurations/unit-plans/2-bhk/685-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/118422/original/2bhk-632.png?1752067336",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 138144,
+          "bhk": "2 BHK",
+          "carpetArea": 902,
+          "carpetAreaDisplay": "902 sq.ft",
+          "builtUpArea": null,
+          "price": "1.37 Cr",
+          "actualPrice": 13700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "383 - 404 sq.ft",
+      "price": "58.0 Lacs - 61.31 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "599 - 902 sq.ft",
+      "price": "89.0 Lacs - 1.37 Cr"
+    }
+  ]
+}

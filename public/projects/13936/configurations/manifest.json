@@ -1,0 +1,152 @@
+{
+  "projectId": 13936,
+  "slug": "nemi-bhavan-goregaon-west-pid-13936",
+  "name": "Nemi Bhavan",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/nemi-bhavan-goregaon-west-pid-13936",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13936/original/Capturesasdasas.PNG?1696833975",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4528/original/Capturefqead.PNG?1696833976",
+      "downloaded": false
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4529/original/Capturedaffafs.PNG?1696833976",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 43064,
+          "bhk": "1 BHK",
+          "carpetArea": 434,
+          "carpetAreaDisplay": "434 sq.ft",
+          "builtUpArea": null,
+          "price": "1.1 Cr",
+          "actualPrice": 11000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/43064/original/Capture1fs.PNG?1696833975",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 100939,
+          "bhk": "1 BHK",
+          "carpetArea": 469,
+          "carpetAreaDisplay": "469 sq.ft",
+          "builtUpArea": null,
+          "price": "1.2 Cr",
+          "actualPrice": 12000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 131428,
+          "bhk": "2 BHK",
+          "carpetArea": 600,
+          "carpetAreaDisplay": "600 sq.ft",
+          "builtUpArea": null,
+          "price": "1.53 Cr",
+          "actualPrice": 15300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 131429,
+          "bhk": "2 BHK",
+          "carpetArea": 629,
+          "carpetAreaDisplay": "629 sq.ft",
+          "builtUpArea": null,
+          "price": "1.6 Cr",
+          "actualPrice": 16000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 131430,
+          "bhk": "3 BHK",
+          "carpetArea": 820,
+          "carpetAreaDisplay": "820 sq.ft",
+          "builtUpArea": null,
+          "price": "2.09 Cr",
+          "actualPrice": 20900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "434 - 469 sq.ft",
+      "price": "1.1 Cr - 1.2 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "600 - 629 sq.ft",
+      "price": "1.53 Cr - 1.6 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "820 sq.ft",
+      "price": "2.09 Cr"
+    }
+  ]
+}

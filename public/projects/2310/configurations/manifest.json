@@ -1,0 +1,135 @@
+{
+  "projectId": 2310,
+  "slug": "puraniks-rumah-bali",
+  "name": "Puraniks Rumah Bali",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/puraniks-rumah-bali-ghodbunder-road-pid-2310",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/2310/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/2310/original/layout_site.jpg?1569932798",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/2310/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7197/original/fp.PNG?1731757481",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 14611,
+          "bhk": "1 BHK",
+          "carpetArea": 330,
+          "carpetAreaDisplay": "330 sq.ft",
+          "builtUpArea": null,
+          "price": "49.99 Lacs",
+          "actualPrice": 4999000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 26304,
+          "bhk": "1 BHK",
+          "carpetArea": 333,
+          "carpetAreaDisplay": "333 sq.ft",
+          "builtUpArea": null,
+          "price": "50.6 Lacs",
+          "actualPrice": 5060000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 55838,
+          "bhk": "1 BHK",
+          "carpetArea": 342,
+          "carpetAreaDisplay": "342 sq.ft",
+          "builtUpArea": null,
+          "price": "51.98 Lacs",
+          "actualPrice": 5198000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 55834,
+          "bhk": "1 BHK",
+          "carpetArea": 418,
+          "carpetAreaDisplay": "418 sq.ft",
+          "builtUpArea": null,
+          "price": "64.95 Lacs",
+          "actualPrice": 6495000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 93138,
+          "bhk": "3 BHK",
+          "carpetArea": 691,
+          "carpetAreaDisplay": "691 sq.ft",
+          "builtUpArea": null,
+          "price": "1.06 Cr",
+          "actualPrice": 10600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "330 - 418 sq.ft",
+      "price": "49.99 Lacs - 64.95 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "691 sq.ft",
+      "price": "1.06 Cr"
+    }
+  ]
+}

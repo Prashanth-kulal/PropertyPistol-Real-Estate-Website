@@ -1,0 +1,68 @@
+{
+  "projectId": 13417,
+  "slug": "aventus-westbrook-andheri-east-pid-13417",
+  "name": "Aventus Westbrook",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/aventus-westbrook-andheri-east-pid-13417",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4366/original/WESTBROOK_FLOORPLAN.jpg?1692350576",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 41478,
+          "bhk": "3 BHK",
+          "carpetArea": 950,
+          "carpetAreaDisplay": "950 sq.ft",
+          "builtUpArea": null,
+          "price": "2.99 Cr",
+          "actualPrice": 29900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 71834,
+          "bhk": "3 BHK",
+          "carpetArea": 953,
+          "carpetAreaDisplay": "953 sq.ft",
+          "builtUpArea": null,
+          "price": "3.0 Cr",
+          "actualPrice": 30000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "950 - 953 sq.ft",
+      "price": "2.99 Cr - 3.0 Cr"
+    }
+  ]
+}

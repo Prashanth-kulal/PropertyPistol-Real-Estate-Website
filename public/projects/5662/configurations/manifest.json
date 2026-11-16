@@ -1,0 +1,52 @@
+{
+  "projectId": 5662,
+  "slug": "ats-nobility-sector-4-greater-noida-pid-5662",
+  "name": "ATS Nobility",
+  "city": "noida",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ats-nobility-sector-4-greater-noida-pid-5662",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/5662/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/5662/original/mp.jpg?1724397800"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 18100,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1675,
+          "price": "2.25 Cr",
+          "actualPrice": 22500000,
+          "propertyType": "Flat",
+          "plan2D": "/projects/5662/configurations/unit-plans/3-bhk/variant-18100/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/18100/original/3.PNG?1724397800",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "2.25 Cr"
+    }
+  ]
+}

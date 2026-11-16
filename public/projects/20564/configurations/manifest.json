@@ -1,0 +1,143 @@
+{
+  "projectId": 20564,
+  "slug": "satyam-trident-panvel-pid-20564",
+  "name": "Satyam Trident",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/satyam-trident-panvel-pid-20564",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20564/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8982/original/sat.PNG?1763724553",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/20564/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8983/original/tr.PNG?1763724553",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 123396,
+          "bhk": "1 BHK",
+          "carpetArea": 458,
+          "carpetAreaDisplay": "458 sq.ft",
+          "builtUpArea": null,
+          "price": "38.78 Lacs",
+          "actualPrice": 3877500,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 123395,
+          "bhk": "1 BHK",
+          "carpetArea": 462,
+          "carpetAreaDisplay": "462 sq.ft",
+          "builtUpArea": null,
+          "price": "39.05 Lacs",
+          "actualPrice": 3905000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 123398,
+          "bhk": "2 BHK",
+          "carpetArea": 637,
+          "carpetAreaDisplay": "637 sq.ft",
+          "builtUpArea": null,
+          "price": "53.9 Lacs",
+          "actualPrice": 5390000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 123397,
+          "bhk": "2 BHK",
+          "carpetArea": 715,
+          "carpetAreaDisplay": "715 sq.ft",
+          "builtUpArea": null,
+          "price": "60.5 Lacs",
+          "actualPrice": 6050000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 123399,
+          "bhk": "3 BHK",
+          "carpetArea": 975,
+          "carpetAreaDisplay": "975 sq.ft",
+          "builtUpArea": null,
+          "price": "82.5 Lacs",
+          "actualPrice": 8250000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "458 - 462 sq.ft",
+      "price": "38.78 Lacs - 39.05 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "637 - 715 sq.ft",
+      "price": "53.9 Lacs - 60.5 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "975 sq.ft",
+      "price": "82.5 Lacs"
+    }
+  ]
+}

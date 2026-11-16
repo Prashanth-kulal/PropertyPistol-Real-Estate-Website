@@ -1,0 +1,78 @@
+{
+  "projectId": 18221,
+  "slug": "mirchandani-goldstone-bandra-east-pid-18221",
+  "name": "Mirchandani Goldstone",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/mirchandani-goldstone-bandra-east-pid-18221",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18221/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8811/original/FP-1728731383.png?1756095451",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 89097,
+          "bhk": "3 BHK",
+          "carpetArea": 1430,
+          "carpetAreaDisplay": "1430 sq.ft",
+          "builtUpArea": null,
+          "price": "12.2 Cr",
+          "actualPrice": 122000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 89098,
+          "bhk": "4 BHK",
+          "carpetArea": 1890,
+          "carpetAreaDisplay": "1890 sq.ft",
+          "builtUpArea": null,
+          "price": "14.0 Cr",
+          "actualPrice": 140000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,430 sq.ft",
+      "price": "12.2 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,890 sq.ft",
+      "price": "14.0 Cr"
+    }
+  ]
+}

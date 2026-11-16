@@ -1,0 +1,78 @@
+{
+  "projectId": 16616,
+  "slug": "isha-hilife-white-field-pid-16616",
+  "name": "Isha HILife",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/isha-hilife-white-field-pid-16616",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16616/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16616/original/masterplan.jpg?1751991952"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 94165,
+          "bhk": "2 BHK",
+          "carpetArea": 505,
+          "carpetAreaDisplay": "505 sq.ft",
+          "builtUpArea": null,
+          "price": "60.59 Lacs",
+          "actualPrice": 6058990,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 94164,
+          "bhk": "3 BHK",
+          "carpetArea": 943,
+          "carpetAreaDisplay": "943 sq.ft",
+          "builtUpArea": null,
+          "price": "1.13 Cr",
+          "actualPrice": 11314114,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "505 sq.ft",
+      "price": "60.59 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "943 sq.ft",
+      "price": "1.13 Cr"
+    }
+  ]
+}

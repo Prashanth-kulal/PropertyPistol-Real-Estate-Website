@@ -1,0 +1,118 @@
+{
+  "projectId": 8387,
+  "slug": "yoo-one-nibm-road-pid-8387",
+  "name": "Yoo One",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/yoo-one-nibm-road-pid-8387",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/8387/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/8387/original/MP.jpg?1656323299"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/8387/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2706/original/FP.jpg?1656323300"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 69491,
+          "bhk": "3 BHK",
+          "carpetArea": 1359,
+          "carpetAreaDisplay": "1359 sq.ft",
+          "builtUpArea": null,
+          "price": "2.44 Cr",
+          "actualPrice": 24400000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 69493,
+          "bhk": "4 BHK",
+          "carpetArea": 1772,
+          "carpetAreaDisplay": "1772 sq.ft",
+          "builtUpArea": null,
+          "price": "3.18 Cr",
+          "actualPrice": 31800000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 69492,
+          "bhk": "4 BHK",
+          "carpetArea": 1799,
+          "carpetAreaDisplay": "1799 sq.ft",
+          "builtUpArea": null,
+          "price": "3.23 Cr",
+          "actualPrice": 32300000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 121982,
+          "bhk": "4 BHK",
+          "carpetArea": 2272,
+          "carpetAreaDisplay": "2272 sq.ft",
+          "builtUpArea": null,
+          "price": "4.08 Cr",
+          "actualPrice": 40800000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,359 sq.ft",
+      "price": "2.44 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,772 - 2,272 sq.ft",
+      "price": "3.18 Cr - 4.08 Cr"
+    }
+  ]
+}

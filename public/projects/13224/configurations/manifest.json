@@ -1,0 +1,78 @@
+{
+  "projectId": 13224,
+  "slug": "godrej-serene-mamurdi-pid-13224",
+  "name": "Godrej Serene",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/godrej-serene-mamurdi-pid-13224",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/13224/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13224/original/download_%2830%29.png?1793345023"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 68824,
+          "bhk": "2 BHK",
+          "carpetArea": 747,
+          "carpetAreaDisplay": "747 sq.ft",
+          "builtUpArea": null,
+          "price": "90.18 Lacs",
+          "actualPrice": 9018000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 134091,
+          "bhk": "3 BHK",
+          "carpetArea": 964,
+          "carpetAreaDisplay": "964 sq.ft",
+          "builtUpArea": null,
+          "price": "1.1 Cr",
+          "actualPrice": 11000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "747 sq.ft",
+      "price": "90.18 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "964 sq.ft",
+      "price": "1.1 Cr"
+    }
+  ]
+}

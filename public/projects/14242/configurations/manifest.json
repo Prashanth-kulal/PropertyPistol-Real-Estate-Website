@@ -1,0 +1,99 @@
+{
+  "projectId": 14242,
+  "slug": "cloud-berry-nala-sopara-west-pid-14242",
+  "name": "Cloud Berry",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/cloud-berry-nala-sopara-west-pid-14242",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4780/original/floorplan.JPG?1698305894",
+      "downloaded": false
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4784/original/cloudberry_floorplan1.JPG?1698390132",
+      "downloaded": false
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4785/original/cloudberry_floorplan2.JPG?1698390132",
+      "downloaded": false
+    },
+    {
+      "id": 4,
+      "title": "Layout / Site Plan 4",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4786/original/cloudberry_floorplan3.JPG?1698390132",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 44187,
+          "bhk": "1 BHK",
+          "carpetArea": 315,
+          "carpetAreaDisplay": "315 sq.ft",
+          "builtUpArea": null,
+          "price": "38.5 Lacs",
+          "actualPrice": 3850000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/44187/original/cludberry1bhk_3d.JPG?1698390132",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 88969,
+          "bhk": "2 BHK",
+          "carpetArea": 512,
+          "carpetAreaDisplay": "512 sq.ft",
+          "builtUpArea": null,
+          "price": "62.44 Lacs",
+          "actualPrice": 6244000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "315 sq.ft",
+      "price": "38.5 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "512 sq.ft",
+      "price": "62.44 Lacs"
+    }
+  ]
+}

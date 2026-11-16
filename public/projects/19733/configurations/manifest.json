@@ -1,0 +1,94 @@
+{
+  "projectId": 19733,
+  "slug": "orient-regency-tilak-nagar-pid-19733",
+  "name": "Orient Regency ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/orient-regency-tilak-nagar-pid-19733",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19733/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7787/original/fp-ori.png?1745422675",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 138285,
+          "bhk": "2 BHK",
+          "carpetArea": 611,
+          "carpetAreaDisplay": "611 sq.ft",
+          "builtUpArea": null,
+          "price": "1.65 Cr",
+          "actualPrice": 16500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139403,
+          "bhk": "2 BHK",
+          "carpetArea": 652,
+          "carpetAreaDisplay": "652 sq.ft",
+          "builtUpArea": null,
+          "price": "1.76 Cr",
+          "actualPrice": 17600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 139404,
+          "bhk": "3 BHK",
+          "carpetArea": 832,
+          "carpetAreaDisplay": "832 sq.ft",
+          "builtUpArea": null,
+          "price": "2.25 Cr",
+          "actualPrice": 22500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "611 - 652 sq.ft",
+      "price": "1.65 Cr - 1.76 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "832 sq.ft",
+      "price": "2.25 Cr"
+    }
+  ]
+}

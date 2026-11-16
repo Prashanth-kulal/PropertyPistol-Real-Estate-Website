@@ -1,0 +1,86 @@
+{
+  "projectId": 19223,
+  "slug": "global-edifice-orlean-chandapura-pid-19223",
+  "name": "Global Edifice Orlean",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/global-edifice-orlean-chandapura-pid-19223",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19223/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19223/original/masterplan.PNG?1740218532"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19223/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7427/original/floorplan.PNG?1740218539"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 100918,
+          "bhk": "2 BHK",
+          "carpetArea": 688,
+          "carpetAreaDisplay": "688 sq.ft",
+          "builtUpArea": null,
+          "price": "63.3 Lacs",
+          "actualPrice": 6329600,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19223/configurations/unit-plans/2-bhk/688-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/100918/original/2bhk_2d2.PNG?1740218533",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 100920,
+          "bhk": "3 BHK",
+          "carpetArea": 1024,
+          "carpetAreaDisplay": "1024 sq.ft",
+          "builtUpArea": null,
+          "price": "94.21 Lacs",
+          "actualPrice": 9420800,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19223/configurations/unit-plans/3-bhk/1024-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/100920/original/3bhk_2d2.PNG?1740218533",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "688 sq.ft",
+      "price": "63.3 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,024 sq.ft",
+      "price": "94.21 Lacs"
+    }
+  ]
+}

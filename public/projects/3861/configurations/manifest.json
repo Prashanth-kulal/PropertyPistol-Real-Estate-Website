@@ -1,0 +1,94 @@
+{
+  "projectId": 3861,
+  "slug": "a-h-sapphire-mira-road-east-pid-3861",
+  "name": "A H Sapphire ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/a-h-sapphire-mira-road-east-pid-3861",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2045/original/fp.jpg?1612777443",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 95391,
+          "bhk": "1 BHK",
+          "carpetArea": 358,
+          "carpetAreaDisplay": "358 sq.ft",
+          "builtUpArea": null,
+          "price": "75.04 Lacs",
+          "actualPrice": 7504000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 95392,
+          "bhk": "1 BHK",
+          "carpetArea": 375,
+          "carpetAreaDisplay": "375 sq.ft",
+          "builtUpArea": null,
+          "price": "78.6 Lacs",
+          "actualPrice": 7860000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 9081,
+          "bhk": "2 BHK",
+          "carpetArea": 546,
+          "carpetAreaDisplay": "546 sq.ft",
+          "builtUpArea": null,
+          "price": "1.14 Cr",
+          "actualPrice": 11400000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/9081/original/2bhk.jpg?1612777443",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "358 - 375 sq.ft",
+      "price": "75.04 Lacs - 78.6 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "546 sq.ft",
+      "price": "1.14 Cr"
+    }
+  ]
+}

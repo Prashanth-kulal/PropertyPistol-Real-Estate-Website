@@ -1,0 +1,158 @@
+{
+  "projectId": 22154,
+  "slug": "sai-shell",
+  "name": "Sai Shell",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sai-shell-ulwe-pid-22154",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/22154/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9606/original/fp.jpg?1785757717",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 137380,
+          "bhk": "2 BHK",
+          "carpetArea": 777,
+          "carpetAreaDisplay": "777 sq.ft",
+          "builtUpArea": null,
+          "price": "1.87 Cr",
+          "actualPrice": 18700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/22154/configurations/unit-plans/2-bhk/777-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/137380/original/2b.jpg?1785757716",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 137381,
+          "bhk": "2 BHK",
+          "carpetArea": 862,
+          "carpetAreaDisplay": "862 sq.ft",
+          "builtUpArea": null,
+          "price": "2.07 Cr",
+          "actualPrice": 20700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140380,
+          "bhk": "2 BHK",
+          "carpetArea": 994,
+          "carpetAreaDisplay": "994 sq.ft",
+          "builtUpArea": null,
+          "price": "2.39 Cr",
+          "actualPrice": 23900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140381,
+          "bhk": "2 BHK",
+          "carpetArea": 1072,
+          "carpetAreaDisplay": "1072 sq.ft",
+          "builtUpArea": null,
+          "price": "2.58 Cr",
+          "actualPrice": 25800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 140382,
+          "bhk": "3 BHK",
+          "carpetArea": 1258,
+          "carpetAreaDisplay": "1258 sq.ft",
+          "builtUpArea": null,
+          "price": "2.81 Cr",
+          "actualPrice": 28100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140383,
+          "bhk": "3 BHK",
+          "carpetArea": 1275,
+          "carpetAreaDisplay": "1275 sq.ft",
+          "builtUpArea": null,
+          "price": "3.07 Cr",
+          "actualPrice": 30700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140384,
+          "bhk": "3 BHK",
+          "carpetArea": 1405,
+          "carpetAreaDisplay": "1405 sq.ft",
+          "builtUpArea": null,
+          "price": "3.14 Cr",
+          "actualPrice": 31400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "777 - 1,072 sq.ft",
+      "price": "1.87 Cr - 2.58 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,258 - 1,405 sq.ft",
+      "price": "2.81 Cr - 3.14 Cr"
+    }
+  ]
+}

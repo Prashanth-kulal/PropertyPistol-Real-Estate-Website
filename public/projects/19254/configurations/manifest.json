@@ -1,0 +1,140 @@
+{
+  "projectId": 19254,
+  "slug": "pyramid-amara-manewada-pid-19254",
+  "name": "Pyramid Amara",
+  "city": "nagpur",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/pyramid-amara-manewada-pid-19254",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19254/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19254/original/masterplannew.png?1740485504"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19254/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7438/original/floorplannew.png?1740485507"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19254/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7439/original/floorplan2new.png?1740485507"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 101194,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1274,
+          "price": "59.77 Lacs",
+          "actualPrice": 5977000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19254/configurations/unit-plans/2-bhk/variant-101194/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/101194/original/2bhk_2d1.PNG?1740485505",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 101195,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1298,
+          "price": "60.9 Lacs",
+          "actualPrice": 6090000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19254/configurations/unit-plans/2-bhk/variant-101195/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/101195/original/2bhk_2d2new.png?1740485505",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 101196,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1592,
+          "price": "74.66 Lacs",
+          "actualPrice": 7466000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19254/configurations/unit-plans/3-bhk/variant-101196/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/101196/original/3bhk_2d1.PNG?1740485505",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 114273,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1674,
+          "price": "78.51 Lacs",
+          "actualPrice": 7851000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 101197,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1686,
+          "price": "79.07 Lacs",
+          "actualPrice": 7907000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19254/configurations/unit-plans/3-bhk/variant-101197/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/101197/original/3bhk_2d2new.png?1740485505",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "On Request",
+      "price": "59.77 Lacs - 60.9 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "74.66 Lacs - 79.07 Lacs"
+    }
+  ]
+}

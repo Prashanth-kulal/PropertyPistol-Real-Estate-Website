@@ -1,0 +1,118 @@
+{
+  "projectId": 4887,
+  "slug": "ats-knightsbridge-sector-124-pid-4887",
+  "name": "ATS Knightsbridge",
+  "city": "noida",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ats-knightsbridge-sector-124-pid-4887",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/4887/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/4887/original/mp-at.png?1752651664"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/4887/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8509/original/fp-at.png?1752651665"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 107830,
+          "bhk": "4 BHK",
+          "carpetArea": 6000,
+          "carpetAreaDisplay": "6000 sq.ft",
+          "builtUpArea": null,
+          "price": "10.97 Cr",
+          "actualPrice": 109700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 16411,
+          "bhk": "4 BHK",
+          "carpetArea": 6050,
+          "carpetAreaDisplay": "6050 sq.ft",
+          "builtUpArea": null,
+          "price": "11.06 Cr",
+          "actualPrice": 110600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "6 BHK",
+      "variants": [
+        {
+          "id": 16412,
+          "bhk": "6 BHK",
+          "carpetArea": 10000,
+          "carpetAreaDisplay": "10000 sq.ft",
+          "builtUpArea": null,
+          "price": "18.28 Cr",
+          "actualPrice": 182800000,
+          "propertyType": "Duplex",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 107829,
+          "bhk": "6 BHK",
+          "carpetArea": 10050,
+          "carpetAreaDisplay": "10050 sq.ft",
+          "builtUpArea": null,
+          "price": "19.19 Cr",
+          "actualPrice": 191900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "6,000 - 6,050 sq.ft",
+      "price": "10.97 Cr - 11.06 Cr"
+    },
+    {
+      "flat_type_name": "6 BHK",
+      "carpet_area": "10,000 - 10,050 sq.ft",
+      "price": "18.28 Cr - 19.19 Cr"
+    }
+  ]
+}

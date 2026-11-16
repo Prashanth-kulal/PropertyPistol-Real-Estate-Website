@@ -1,0 +1,185 @@
+{
+  "projectId": 16812,
+  "slug": "parijas-horizon-kalyan-east-pid-16812",
+  "name": "Parijas Horizon",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/parijas-horizon-kalyan-east-pid-16812",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16812/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6396/original/fp-hor.PNG?1717666374",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/16812/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6397/original/fp1-hor.PNG?1717666374",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 133715,
+          "bhk": "1 BHK",
+          "carpetArea": 392,
+          "carpetAreaDisplay": "392 sq.ft",
+          "builtUpArea": null,
+          "price": "34.2 Lacs",
+          "actualPrice": 3420000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 119744,
+          "bhk": "1 BHK",
+          "carpetArea": 410,
+          "carpetAreaDisplay": "410 sq.ft",
+          "builtUpArea": null,
+          "price": "35.8 Lacs",
+          "actualPrice": 3580000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 133716,
+          "bhk": "1 BHK",
+          "carpetArea": 498,
+          "carpetAreaDisplay": "498 sq.ft",
+          "builtUpArea": null,
+          "price": "43.5 Lacs",
+          "actualPrice": 4350000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 119745,
+          "bhk": "2 BHK",
+          "carpetArea": 635,
+          "carpetAreaDisplay": "635 sq.ft",
+          "builtUpArea": null,
+          "price": "66.0 Lacs",
+          "actualPrice": 6600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/16812/configurations/unit-plans/2-bhk/635-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/119745/original/2_%287%29.png?1753086549",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 119746,
+          "bhk": "2 BHK",
+          "carpetArea": 732,
+          "carpetAreaDisplay": "732 sq.ft",
+          "builtUpArea": null,
+          "price": "6.59 Cr",
+          "actualPrice": 65900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 119748,
+          "bhk": "3 BHK",
+          "carpetArea": 1116,
+          "carpetAreaDisplay": "1116 sq.ft",
+          "builtUpArea": null,
+          "price": "97.3 Lacs",
+          "actualPrice": 9730000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/16812/configurations/unit-plans/3-bhk/1116-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/119748/original/3b.png?1753086549",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 138906,
+          "bhk": "4 BHK",
+          "carpetArea": 1471,
+          "carpetAreaDisplay": "1471 sq.ft",
+          "builtUpArea": null,
+          "price": "1.28 Cr",
+          "actualPrice": 12800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "392 - 498 sq.ft",
+      "price": "34.2 Lacs - 43.5 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "635 - 732 sq.ft",
+      "price": "66.0 Lacs - 6.59 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,116 sq.ft",
+      "price": "97.3 Lacs"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,471 sq.ft",
+      "price": "1.28 Cr"
+    }
+  ]
+}

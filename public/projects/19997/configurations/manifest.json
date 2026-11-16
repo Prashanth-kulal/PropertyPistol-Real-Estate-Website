@@ -1,0 +1,92 @@
+{
+  "projectId": 19997,
+  "slug": "amaatra-tropical-bliss",
+  "name": "Amaatra Tropical Bliss",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/amaatra-tropical-bliss-thane-west-pid-19997",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19997/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8363/original/gfp-tro.png?1749719039",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19997/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8364/original/tfp-tro.png?1749719039",
+      "downloaded": true
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/19997/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8365/original/rfp-tro.png?1749719039",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 116246,
+          "bhk": "1 BHK",
+          "carpetArea": 415,
+          "carpetAreaDisplay": "415 sq.ft",
+          "builtUpArea": null,
+          "price": "65.0 Lacs",
+          "actualPrice": 6500000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19997/configurations/unit-plans/1-bhk/415-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/116246/original/1bhk-tro.png?1749719036",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 116247,
+          "bhk": "2 BHK",
+          "carpetArea": 632,
+          "carpetAreaDisplay": "632 sq.ft",
+          "builtUpArea": null,
+          "price": "95.0 Lacs",
+          "actualPrice": 9500000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19997/configurations/unit-plans/2-bhk/632-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/116247/original/2bhk-tro.png?1749719036",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "415 sq.ft",
+      "price": "65.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "632 sq.ft",
+      "price": "95.0 Lacs"
+    }
+  ]
+}

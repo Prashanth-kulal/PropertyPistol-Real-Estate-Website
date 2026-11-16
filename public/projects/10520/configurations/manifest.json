@@ -1,0 +1,126 @@
+{
+  "projectId": 10520,
+  "slug": "sneh-serene-dombivali-west-pid-10520",
+  "name": "Sneh Serene",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sneh-serene-dombivali-west-pid-10520",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/10520/original/mp.png?1670323323",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3113/original/fp.png?1670323324",
+      "downloaded": false
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4170/original/Capturefgtr.PNG?1689932782",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 45119,
+          "bhk": "1 BHK",
+          "carpetArea": 290,
+          "carpetAreaDisplay": "290 sq.ft",
+          "builtUpArea": null,
+          "price": "32.02 Lacs",
+          "actualPrice": 3202000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 137945,
+          "bhk": "1 BHK",
+          "carpetArea": 315,
+          "carpetAreaDisplay": "315 sq.ft",
+          "builtUpArea": null,
+          "price": "34.72 Lacs",
+          "actualPrice": 3472000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 137946,
+          "bhk": "2 BHK",
+          "carpetArea": 416,
+          "carpetAreaDisplay": "416 sq.ft",
+          "builtUpArea": null,
+          "price": "45.82 Lacs",
+          "actualPrice": 4582000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 137947,
+          "bhk": "2 BHK",
+          "carpetArea": 427,
+          "carpetAreaDisplay": "427 sq.ft",
+          "builtUpArea": null,
+          "price": "47.03 Lacs",
+          "actualPrice": 4703000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "290 - 315 sq.ft",
+      "price": "32.02 Lacs - 34.72 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "416 - 427 sq.ft",
+      "price": "45.82 Lacs - 47.03 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "projectId": 18653,
+  "slug": "sonestaa-manish-nagar-pid-18653",
+  "name": "Sonestaa",
+  "city": "nagpur",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sonestaa-manish-nagar-pid-18653",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18653/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7187/original/floorplan1.PNG?1731591532"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/18653/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7188/original/floorplan2.PNG?1731591532"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 92954,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1104,
+          "price": "49.85 Lacs",
+          "actualPrice": 4985000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/18653/configurations/unit-plans/2-bhk/variant-92954/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/92954/original/2bhk_3d.PNG?1731591529",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 139856,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1227,
+          "price": "55.47 Lacs",
+          "actualPrice": 5547000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 92956,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1312,
+          "price": "63.02 Lacs",
+          "actualPrice": 6302000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/18653/configurations/unit-plans/3-bhk/variant-92956/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/92956/original/3bhk_3d.PNG?1731591530",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "On Request",
+      "price": "49.85 Lacs - 55.47 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "63.02 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "projectId": 7068,
+  "slug": "naiknavare-avon-vista-balewadi-pid-7068",
+  "name": "Naiknavare Avon Vista",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/naiknavare-avon-vista-balewadi-pid-7068",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/7068/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/7068/original/master-layout.jpg?1672310711"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/7068/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3466/original/fp.jpg?1672310711"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 137950,
+          "bhk": "2 BHK",
+          "carpetArea": 550,
+          "carpetAreaDisplay": "550 sq.ft",
+          "builtUpArea": null,
+          "price": "57.62 Lacs",
+          "actualPrice": 5762000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 137951,
+          "bhk": "2 BHK",
+          "carpetArea": 563,
+          "carpetAreaDisplay": "563 sq.ft",
+          "builtUpArea": null,
+          "price": "58.98 Lacs",
+          "actualPrice": 5898000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 137952,
+          "bhk": "3 BHK",
+          "carpetArea": 778,
+          "carpetAreaDisplay": "778 sq.ft",
+          "builtUpArea": null,
+          "price": "81.5 Lacs",
+          "actualPrice": 8150000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 137953,
+          "bhk": "3 BHK",
+          "carpetArea": 844,
+          "carpetAreaDisplay": "844 sq.ft",
+          "builtUpArea": null,
+          "price": "88.42 Lacs",
+          "actualPrice": 8842000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139191,
+          "bhk": "3 BHK",
+          "carpetArea": 1029,
+          "carpetAreaDisplay": "1029 sq.ft",
+          "builtUpArea": null,
+          "price": "1.08 Cr",
+          "actualPrice": 10800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "550 - 563 sq.ft",
+      "price": "57.62 Lacs - 58.98 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "778 - 1,029 sq.ft",
+      "price": "81.5 Lacs - 1.08 Cr"
+    }
+  ]
+}

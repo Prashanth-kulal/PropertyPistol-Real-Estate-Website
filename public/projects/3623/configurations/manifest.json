@@ -1,0 +1,177 @@
+{
+  "projectId": 3623,
+  "slug": "tridhaatu-aranya-chembur-pid-3623",
+  "name": "Tridhaatu Aranya",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/tridhaatu-aranya-chembur-pid-3623",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/3623/original/mp.jpg?1603704461",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/1933/original/Fp-typ-2-6.jpg?1603704462",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 101973,
+          "bhk": "3 BHK",
+          "carpetArea": 1595,
+          "carpetAreaDisplay": "1595 sq.ft",
+          "builtUpArea": null,
+          "price": "7.29 Cr",
+          "actualPrice": 72900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 65837,
+          "bhk": "4 BHK",
+          "carpetArea": 1870,
+          "carpetAreaDisplay": "1870 sq.ft",
+          "builtUpArea": null,
+          "price": "8.55 Cr",
+          "actualPrice": 85500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 83509,
+          "bhk": "4 BHK",
+          "carpetArea": 1876,
+          "carpetAreaDisplay": "1876 sq.ft",
+          "builtUpArea": null,
+          "price": "8.58 Cr",
+          "actualPrice": 85800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 115304,
+          "bhk": "4 BHK",
+          "carpetArea": 2224,
+          "carpetAreaDisplay": "2224 sq.ft",
+          "builtUpArea": null,
+          "price": "10.17 Cr",
+          "actualPrice": 101700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 115305,
+          "bhk": "4 BHK",
+          "carpetArea": 2225,
+          "carpetAreaDisplay": "2225 sq.ft",
+          "builtUpArea": null,
+          "price": "10.18 Cr",
+          "actualPrice": 101800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "5 BHK",
+      "variants": [
+        {
+          "id": 115306,
+          "bhk": "5 BHK",
+          "carpetArea": 2547,
+          "carpetAreaDisplay": "2547 sq.ft",
+          "builtUpArea": null,
+          "price": "11.65 Cr",
+          "actualPrice": 116500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 89701,
+          "bhk": "5 BHK",
+          "carpetArea": 2551,
+          "carpetAreaDisplay": "2551 sq.ft",
+          "builtUpArea": null,
+          "price": "11.66 Cr",
+          "actualPrice": 116600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,595 sq.ft",
+      "price": "7.29 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,870 - 2,225 sq.ft",
+      "price": "8.55 Cr - 10.18 Cr"
+    },
+    {
+      "flat_type_name": "5 BHK",
+      "carpet_area": "2,547 - 2,551 sq.ft",
+      "price": "11.65 Cr - 11.66 Cr"
+    }
+  ]
+}

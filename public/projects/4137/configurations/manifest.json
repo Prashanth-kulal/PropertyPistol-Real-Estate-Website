@@ -1,0 +1,94 @@
+{
+  "projectId": 4137,
+  "slug": "morya-sports-city-phase-1-bhiwandi-pid-4137",
+  "name": "Morya Sports City Phase 1",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/morya-sports-city-phase-1-bhiwandi-pid-4137",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2184/original/fp.PNG?1617183966",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 10503,
+          "bhk": "1 BHK",
+          "carpetArea": 415,
+          "carpetAreaDisplay": "415 sq.ft",
+          "builtUpArea": null,
+          "price": "42.66 Lacs",
+          "actualPrice": 4266000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/10503/original/1bhk.PNG?1617183964",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 100056,
+          "bhk": "2 BHK",
+          "carpetArea": 601,
+          "carpetAreaDisplay": "601 sq.ft",
+          "builtUpArea": null,
+          "price": "61.68 Lacs",
+          "actualPrice": 6168000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/100056/original/2bhk.png?1739446353",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 137723,
+          "bhk": "2 BHK",
+          "carpetArea": 617,
+          "carpetAreaDisplay": "617 sq.ft",
+          "builtUpArea": null,
+          "price": "63.32 Lacs",
+          "actualPrice": 6332000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "415 sq.ft",
+      "price": "42.66 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "601 - 617 sq.ft",
+      "price": "61.68 Lacs - 63.32 Lacs"
+    }
+  ]
+}

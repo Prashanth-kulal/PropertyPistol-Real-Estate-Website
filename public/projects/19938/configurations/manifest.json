@@ -1,0 +1,78 @@
+{
+  "projectId": 19938,
+  "slug": "mahaavir-labdhi-uran-pid-19938",
+  "name": "Mahaavir Labdhi",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/mahaavir-labdhi-uran-pid-19938",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19938/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19938/original/mp-mahav.jpg?1754982650",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 115133,
+          "bhk": "2 BHK",
+          "carpetArea": 737,
+          "carpetAreaDisplay": "737 sq.ft",
+          "builtUpArea": null,
+          "price": "72.58 Lacs",
+          "actualPrice": 7257976,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 115135,
+          "bhk": "3 BHK",
+          "carpetArea": 1175,
+          "carpetAreaDisplay": "1175 sq.ft",
+          "builtUpArea": null,
+          "price": "1.16 Cr",
+          "actualPrice": 11571400,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "737 sq.ft",
+      "price": "72.58 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,175 sq.ft",
+      "price": "1.16 Cr"
+    }
+  ]
+}

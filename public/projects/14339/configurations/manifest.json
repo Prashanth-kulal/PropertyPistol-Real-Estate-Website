@@ -1,0 +1,78 @@
+{
+  "projectId": 14339,
+  "slug": "orchid-the-consulate-apartments-14339",
+  "name": "Orchid The Consulate Apartments",
+  "city": "delhi",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/orchid-the-consulate-apartments-dwarka-pid-14339",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/14339/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/14339/original/download.png?1754122655"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 44525,
+          "bhk": "3 BHK",
+          "carpetArea": 1295,
+          "carpetAreaDisplay": "1295 sq.ft",
+          "builtUpArea": null,
+          "price": "2.8 Cr",
+          "actualPrice": 28000000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/14339/configurations/unit-plans/3-bhk/1295-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/44525/original/3.PNG?1698822769",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 44526,
+          "bhk": "4 BHK",
+          "carpetArea": 1430,
+          "carpetAreaDisplay": "1430 sq.ft",
+          "builtUpArea": null,
+          "price": "3.09 Cr",
+          "actualPrice": 30900000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/14339/configurations/unit-plans/4-bhk/1430-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/44526/original/4.PNG?1698822769",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,295 sq.ft",
+      "price": "2.8 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,430 sq.ft",
+      "price": "3.09 Cr"
+    }
+  ]
+}

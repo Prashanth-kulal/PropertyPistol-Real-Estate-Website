@@ -1,0 +1,87 @@
+{
+  "projectId": 21457,
+  "slug": "craft-de-srishti",
+  "name": "Craft De Srishti",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/craft-de-srishti-mulund-west-pid-21457",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/21457/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/21457/original/mp.JPG?1771911319",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21457/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9219/original/fp.JPG?1771911320",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 133051,
+          "bhk": "2 BHK",
+          "carpetArea": 675,
+          "carpetAreaDisplay": "675 sq.ft",
+          "builtUpArea": null,
+          "price": "1.89 Cr",
+          "actualPrice": 18900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 133052,
+          "bhk": "3 BHK",
+          "carpetArea": 930,
+          "carpetAreaDisplay": "930 sq.ft",
+          "builtUpArea": null,
+          "price": "2.86 Cr",
+          "actualPrice": 28600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "675 sq.ft",
+      "price": "1.89 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "930 sq.ft",
+      "price": "2.86 Cr"
+    }
+  ]
+}

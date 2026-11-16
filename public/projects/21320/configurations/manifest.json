@@ -1,0 +1,78 @@
+{
+  "projectId": 21320,
+  "slug": "dhara-residency-ulwe-pid-21320",
+  "name": "Dhara Residency",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/dhara-residency-ulwe-pid-21320",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21320/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9189/original/download_%281%29.png?1771568631",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 132774,
+          "bhk": "1 BHK",
+          "carpetArea": 482,
+          "carpetAreaDisplay": "482 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 132775,
+          "bhk": "2 BHK",
+          "carpetArea": 805,
+          "carpetAreaDisplay": "805 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "482 sq.ft",
+      "price": "On Request"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "805 sq.ft",
+      "price": "On Request"
+    }
+  ]
+}

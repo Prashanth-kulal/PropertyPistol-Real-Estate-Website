@@ -1,0 +1,85 @@
+{
+  "projectId": 19730,
+  "slug": "majesty-olympus-towers",
+  "name": "Majesty Olympus Towers",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/majesty-olympus-towers-vasai-east-pid-19730",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19730/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7783/original/fpp-oly.png?1745420642",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19730/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7784/original/fp-oly.png?1745420642",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 109248,
+          "bhk": "1 BHK",
+          "carpetArea": 401,
+          "carpetAreaDisplay": "401 sq.ft",
+          "builtUpArea": null,
+          "price": "34.09 Lacs",
+          "actualPrice": 3409000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19730/configurations/unit-plans/1-bhk/401-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/109248/original/bhk-oly.png?1745420741",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 109249,
+          "bhk": "2 BHK",
+          "carpetArea": 537,
+          "carpetAreaDisplay": "537 sq.ft",
+          "builtUpArea": null,
+          "price": "53.7 Lacs",
+          "actualPrice": 5370000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19730/configurations/unit-plans/2-bhk/537-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/109249/original/download_%284%29.png?1745420742",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "401 sq.ft",
+      "price": "34.09 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "537 sq.ft",
+      "price": "53.7 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "projectId": 12717,
+  "slug": "provident-ecopolitan-bagaluru-pid-12717",
+  "name": "Provident Ecopolitan",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/provident-ecopolitan-bagaluru-pid-12717",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/12717/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/12717/original/mp-eco.png?1746701349"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/12717/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7921/original/fp-eco.png?1746701350"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/12717/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7922/original/fp-eco2.png?1746701350"
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/12717/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7923/original/fp-eco3.png?1746701350"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 95277,
+          "bhk": "1 BHK",
+          "carpetArea": 616,
+          "carpetAreaDisplay": "616 sq.ft",
+          "builtUpArea": null,
+          "price": "45.0 Lacs",
+          "actualPrice": 4500000,
+          "propertyType": "Flat",
+          "plan2D": "/projects/12717/configurations/unit-plans/1-bhk/616-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/95277/original/1bhk-eco.png?1746701349",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 116897,
+          "bhk": "2 BHK",
+          "carpetArea": 903,
+          "carpetAreaDisplay": "903 sq.ft",
+          "builtUpArea": null,
+          "price": "60.0 Lacs",
+          "actualPrice": 6000000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 116898,
+          "bhk": "2 BHK",
+          "carpetArea": 1022,
+          "carpetAreaDisplay": "1022 sq.ft",
+          "builtUpArea": null,
+          "price": "75.0 Lacs",
+          "actualPrice": 7500000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 74110,
+          "bhk": "3 BHK",
+          "carpetArea": 1258,
+          "carpetAreaDisplay": "1258 sq.ft",
+          "builtUpArea": null,
+          "price": "80.0 Lacs",
+          "actualPrice": 8000000,
+          "propertyType": "Flat",
+          "plan2D": "/projects/12717/configurations/unit-plans/3-bhk/1258-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/74110/original/3bhk--eco.png?1746701349",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 101691,
+          "bhk": "3 BHK",
+          "carpetArea": 1390,
+          "carpetAreaDisplay": "1390 sq.ft",
+          "builtUpArea": null,
+          "price": "1.0 Cr",
+          "actualPrice": 10000000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "616 sq.ft",
+      "price": "45.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "903 - 1,022 sq.ft",
+      "price": "60.0 Lacs - 75.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,258 - 1,390 sq.ft",
+      "price": "80.0 Lacs - 1.0 Cr"
+    }
+  ]
+}

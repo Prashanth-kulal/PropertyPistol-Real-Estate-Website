@@ -1,0 +1,52 @@
+{
+  "projectId": 13061,
+  "slug": "kalpataru-jade-skyline-baner-pid-13061",
+  "name": "Kalpataru Jade Skyline",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/kalpataru-jade-skyline-baner-pid-13061",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/13061/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13061/original/Capturefeds.PNG?1690441994"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 40515,
+          "bhk": "3 BHK",
+          "carpetArea": 1189,
+          "carpetAreaDisplay": "1189 sq.ft",
+          "builtUpArea": null,
+          "price": "2.05 Cr",
+          "actualPrice": 20500000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/13061/configurations/unit-plans/3-bhk/1189-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/40515/original/Capture3fd.PNG?1690441994",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,189 sq.ft",
+      "price": "2.05 Cr"
+    }
+  ]
+}

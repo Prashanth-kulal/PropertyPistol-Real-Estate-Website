@@ -1,0 +1,152 @@
+{
+  "projectId": 16906,
+  "slug": "ashar-merac-thane-west-pid-16906",
+  "name": "Ashar Merac",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ashar-merac-thane-west-pid-16906",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16906/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16906/original/MP_merac.PNG?1718106968",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 129600,
+          "bhk": "2 BHK",
+          "carpetArea": 596,
+          "carpetAreaDisplay": "596 sq.ft",
+          "builtUpArea": null,
+          "price": "1.75 Cr",
+          "actualPrice": 17500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 137591,
+          "bhk": "2 BHK",
+          "carpetArea": 664,
+          "carpetAreaDisplay": "664 sq.ft",
+          "builtUpArea": null,
+          "price": "1.95 Cr",
+          "actualPrice": 19500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 137592,
+          "bhk": "2 BHK",
+          "carpetArea": 700,
+          "carpetAreaDisplay": "700 sq.ft",
+          "builtUpArea": null,
+          "price": "2.06 Cr",
+          "actualPrice": 20600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 140170,
+          "bhk": "3 BHK",
+          "carpetArea": 830,
+          "carpetAreaDisplay": "830 sq.ft",
+          "builtUpArea": null,
+          "price": "2.4 Cr",
+          "actualPrice": 24000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140171,
+          "bhk": "3 BHK",
+          "carpetArea": 947,
+          "carpetAreaDisplay": "947 sq.ft",
+          "builtUpArea": null,
+          "price": "2.74 Cr",
+          "actualPrice": 27400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 140172,
+          "bhk": "4 BHK",
+          "carpetArea": 1342,
+          "carpetAreaDisplay": "1342 sq.ft",
+          "builtUpArea": null,
+          "price": "3.7 Cr",
+          "actualPrice": 37000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "596 - 700 sq.ft",
+      "price": "1.75 Cr - 2.06 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "830 - 947 sq.ft",
+      "price": "2.4 Cr - 2.74 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,342 sq.ft",
+      "price": "3.7 Cr"
+    }
+  ]
+}

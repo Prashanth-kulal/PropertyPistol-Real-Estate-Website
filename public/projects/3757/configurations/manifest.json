@@ -1,0 +1,110 @@
+{
+  "projectId": 3757,
+  "slug": "kailash-homes-kalyan-west-pid-3757",
+  "name": "Kailash Homes",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/kailash-homes-kalyan-west-pid-3757",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8740/original/masterplan.jpg?1754641123",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 55839,
+          "bhk": "1 BHK",
+          "carpetArea": 425,
+          "carpetAreaDisplay": "425 sq.ft",
+          "builtUpArea": null,
+          "price": "67.55 Lacs",
+          "actualPrice": 6755000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 27012,
+          "bhk": "1 BHK",
+          "carpetArea": 446,
+          "carpetAreaDisplay": "446 sq.ft",
+          "builtUpArea": null,
+          "price": "70.62 Lacs",
+          "actualPrice": 7062000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 55841,
+          "bhk": "2 BHK",
+          "carpetArea": 534,
+          "carpetAreaDisplay": "534 sq.ft",
+          "builtUpArea": null,
+          "price": "84.03 Lacs",
+          "actualPrice": 8403000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 55840,
+          "bhk": "2 BHK",
+          "carpetArea": 587,
+          "carpetAreaDisplay": "587 sq.ft",
+          "builtUpArea": null,
+          "price": "92.32 Lacs",
+          "actualPrice": 9232000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "425 - 446 sq.ft",
+      "price": "67.55 Lacs - 70.62 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "534 - 587 sq.ft",
+      "price": "84.03 Lacs - 92.32 Lacs"
+    }
+  ]
+}

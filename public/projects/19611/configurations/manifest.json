@@ -1,0 +1,113 @@
+{
+  "projectId": 19611,
+  "slug": "rassaz-greens-mira-road-east-pid-19611",
+  "name": "Rassaz Greens",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/rassaz-greens-mira-road-east-pid-19611",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19611/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19611/original/mp-rassaz.png?1744388855",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19611/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7707/original/fp-rassaz.png?1744388858",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 106960,
+          "bhk": "1 BHK",
+          "carpetArea": 535,
+          "carpetAreaDisplay": "535 sq.ft",
+          "builtUpArea": null,
+          "price": "1.04 Cr",
+          "actualPrice": 10400000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19611/configurations/unit-plans/1-bhk/535-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/106960/original/1bhk-rass.png?1744388855",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 130405,
+          "bhk": "2 BHK",
+          "carpetArea": 834,
+          "carpetAreaDisplay": "834 sq.ft",
+          "builtUpArea": null,
+          "price": "1.62 Cr",
+          "actualPrice": 16200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 119273,
+          "bhk": "3 BHK",
+          "carpetArea": 1436,
+          "carpetAreaDisplay": "1436 sq.ft",
+          "builtUpArea": null,
+          "price": "3.1 Cr",
+          "actualPrice": 31000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "535 sq.ft",
+      "price": "1.04 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "834 sq.ft",
+      "price": "1.62 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,436 sq.ft",
+      "price": "3.1 Cr"
+    }
+  ]
+}

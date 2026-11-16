@@ -1,0 +1,126 @@
+{
+  "projectId": 13305,
+  "slug": "sai-sentosa-ekam-punawale-pid-13305",
+  "name": "Sai Sentosa Ekam",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sai-sentosa-ekam-punawale-pid-13305",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/13305/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8947/original/download_%2867%29.png?1763549285"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 41194,
+          "bhk": "2 BHK",
+          "carpetArea": 860,
+          "carpetAreaDisplay": "860 sq.ft",
+          "builtUpArea": null,
+          "price": "69.5 Lacs",
+          "actualPrice": 6950000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 51808,
+          "bhk": "2 BHK",
+          "carpetArea": 917,
+          "carpetAreaDisplay": "917 sq.ft",
+          "builtUpArea": null,
+          "price": "73.5 Lacs",
+          "actualPrice": 7350000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 41193,
+          "bhk": "3 BHK",
+          "carpetArea": 1237,
+          "carpetAreaDisplay": "1237 sq.ft",
+          "builtUpArea": null,
+          "price": "97.0 Lacs",
+          "actualPrice": 9700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 117842,
+          "bhk": "3 BHK",
+          "carpetArea": 1275,
+          "carpetAreaDisplay": "1275 sq.ft",
+          "builtUpArea": null,
+          "price": "99.5 Lacs",
+          "actualPrice": 9950000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 117843,
+          "bhk": "3 BHK",
+          "carpetArea": 1277,
+          "carpetAreaDisplay": "1277 sq.ft",
+          "builtUpArea": null,
+          "price": "1.0 Cr",
+          "actualPrice": 10000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "860 - 917 sq.ft",
+      "price": "69.5 Lacs - 73.5 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,237 - 1,277 sq.ft",
+      "price": "97.0 Lacs - 1.0 Cr"
+    }
+  ]
+}

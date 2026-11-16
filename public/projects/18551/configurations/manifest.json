@@ -1,0 +1,110 @@
+{
+  "projectId": 18551,
+  "slug": "adityaraj-anchor",
+  "name": "Adityaraj Anchor",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/adityaraj-anchor-vikhroli-east-pid-18551",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18551/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7118/original/tfp_adi.png?1754282102",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 92261,
+          "bhk": "1 BHK",
+          "carpetArea": 375,
+          "carpetAreaDisplay": "375 sq.ft",
+          "builtUpArea": null,
+          "price": "78.32 Lacs",
+          "actualPrice": 7832000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/18551/configurations/unit-plans/1-bhk/375-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/92261/original/1bhk_adi.PNG?1731153158",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 92262,
+          "bhk": "1 BHK",
+          "carpetArea": 407,
+          "carpetAreaDisplay": "407 sq.ft",
+          "builtUpArea": null,
+          "price": "85.0 Lacs",
+          "actualPrice": 8500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 92263,
+          "bhk": "2 BHK",
+          "carpetArea": 576,
+          "carpetAreaDisplay": "576 sq.ft",
+          "builtUpArea": null,
+          "price": "1.2 Cr",
+          "actualPrice": 12000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/18551/configurations/unit-plans/2-bhk/576-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/92263/original/2bhk_adi.PNG?1731153158",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 126744,
+          "bhk": "2 BHK",
+          "carpetArea": 585,
+          "carpetAreaDisplay": "585 sq.ft",
+          "builtUpArea": null,
+          "price": "1.22 Cr",
+          "actualPrice": 12200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "375 - 407 sq.ft",
+      "price": "78.32 Lacs - 85.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "576 - 585 sq.ft",
+      "price": "1.2 Cr - 1.22 Cr"
+    }
+  ]
+}

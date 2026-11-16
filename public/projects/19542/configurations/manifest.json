@@ -1,0 +1,110 @@
+{
+  "projectId": 19542,
+  "slug": "excel-bellissima-bandra-west-pid-19542",
+  "name": "Excel Bellissima",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/excel-bellissima-bandra-west-pid-19542",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19542/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7659/original/fp-ex.PNG?1743770429",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2.5 BHK",
+      "variants": [
+        {
+          "id": 105346,
+          "bhk": "2.5 BHK",
+          "carpetArea": 922,
+          "carpetAreaDisplay": "922 sq.ft",
+          "builtUpArea": null,
+          "price": "4.75 Cr",
+          "actualPrice": 47500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 105344,
+          "bhk": "2.5 BHK",
+          "carpetArea": 1011,
+          "carpetAreaDisplay": "1011 sq.ft",
+          "builtUpArea": null,
+          "price": "5.21 Cr",
+          "actualPrice": 52100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 139269,
+          "bhk": "3 BHK",
+          "carpetArea": 1070,
+          "carpetAreaDisplay": "1070 sq.ft",
+          "builtUpArea": null,
+          "price": "5.51 Cr",
+          "actualPrice": 55100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139270,
+          "bhk": "3 BHK",
+          "carpetArea": 1634,
+          "carpetAreaDisplay": "1634 sq.ft",
+          "builtUpArea": null,
+          "price": "8.42 Cr",
+          "actualPrice": 84200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2.5 BHK",
+      "carpet_area": "922 - 1,011 sq.ft",
+      "price": "4.75 Cr - 5.21 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,070 - 1,634 sq.ft",
+      "price": "5.51 Cr - 8.42 Cr"
+    }
+  ]
+}

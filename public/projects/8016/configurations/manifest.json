@@ -1,0 +1,104 @@
+{
+  "projectId": 8016,
+  "slug": "millennium-flora",
+  "name": "Millennium Flora",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/millennium-flora-new-panvel-pid-8016",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7122/original/fp.png?1731309374",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 111699,
+          "bhk": "1 BHK",
+          "carpetArea": 447,
+          "carpetAreaDisplay": "447 sq.ft",
+          "builtUpArea": null,
+          "price": "91.53 Lacs",
+          "actualPrice": 9153000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 103674,
+          "bhk": "2 BHK",
+          "carpetArea": 640,
+          "carpetAreaDisplay": "640 sq.ft",
+          "builtUpArea": null,
+          "price": "1.38 Cr",
+          "actualPrice": 13800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 139110,
+          "bhk": "3 BHK",
+          "carpetArea": 825,
+          "carpetAreaDisplay": "825 sq.ft",
+          "builtUpArea": null,
+          "price": "1.73 Cr",
+          "actualPrice": 17300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "447 sq.ft",
+      "price": "91.53 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "640 sq.ft",
+      "price": "1.38 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "825 sq.ft",
+      "price": "1.73 Cr"
+    }
+  ]
+}

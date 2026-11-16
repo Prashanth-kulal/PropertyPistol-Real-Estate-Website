@@ -1,0 +1,66 @@
+{
+  "projectId": 15383,
+  "slug": "vishnu-greens-fursungi-gaon-pid-15383",
+  "name": "Vishnu Greens",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/vishnu-greens-fursungi-gaon-pid-15383",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/15383/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/15383/original/mp.png?1704534169"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/15383/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5361/original/fp.png?1704534170"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/15383/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5362/original/fpp.png?1704534170"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 48801,
+          "bhk": "2 BHK",
+          "carpetArea": 730,
+          "carpetAreaDisplay": "730 sq.ft",
+          "builtUpArea": null,
+          "price": "48.5 Lacs",
+          "actualPrice": 4850000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/15383/configurations/unit-plans/2-bhk/730-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/48801/original/2b.PNG?1704534169",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "730 sq.ft",
+      "price": "48.5 Lacs"
+    }
+  ]
+}

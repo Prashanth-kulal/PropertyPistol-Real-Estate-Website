@@ -1,0 +1,78 @@
+{
+  "projectId": 21886,
+  "slug": "sree-daksha-diora-thudiyalur-pid-21886",
+  "name": "Sree Daksha Diora",
+  "city": "coimbatore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sree-daksha-diora-thudiyalur-pid-21886",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21886/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9417/original/fp.JPG?1780570416"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 135953,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1285,
+          "price": "89.95 Lacs",
+          "actualPrice": 8995000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/21886/configurations/unit-plans/2-bhk/variant-135953/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/135953/original/2.JPG?1780570416",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 135954,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1580,
+          "price": "1.11 Cr",
+          "actualPrice": 11060000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/21886/configurations/unit-plans/3-bhk/variant-135954/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/135954/original/3.JPG?1780570416",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "On Request",
+      "price": "89.95 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "1.11 Cr"
+    }
+  ]
+}

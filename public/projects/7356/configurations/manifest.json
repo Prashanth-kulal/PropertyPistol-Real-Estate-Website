@@ -1,0 +1,78 @@
+{
+  "projectId": 7356,
+  "slug": "pharande-l-axis-moshi-pid-7356",
+  "name": "Pharande L Axis ",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/pharande-l-axis-moshi-pid-7356",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/7356/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/7356/original/mp.JPG?1672214008"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 117040,
+          "bhk": "2 BHK",
+          "carpetArea": 819,
+          "carpetAreaDisplay": "819 sq.ft",
+          "builtUpArea": null,
+          "price": "98.0 Lacs",
+          "actualPrice": 9800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 117044,
+          "bhk": "3 BHK",
+          "carpetArea": 1121,
+          "carpetAreaDisplay": "1121 sq.ft",
+          "builtUpArea": null,
+          "price": "1.35 Cr",
+          "actualPrice": 13500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "819 sq.ft",
+      "price": "98.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,121 sq.ft",
+      "price": "1.35 Cr"
+    }
+  ]
+}

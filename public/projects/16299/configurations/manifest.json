@@ -1,0 +1,158 @@
+{
+  "projectId": 16299,
+  "slug": "sriven-daksha-elite-bommasandra-pid-16299",
+  "name": "Sriven Daksha Elite",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sriven-daksha-elite-bommasandra-pid-16299",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16299/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6190/original/floorplan1.JPG?1714731592"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/16299/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6191/original/floorplan2.JPG?1714731592"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 60528,
+          "bhk": "1 BHK",
+          "carpetArea": 564,
+          "carpetAreaDisplay": "564 sq.ft",
+          "builtUpArea": null,
+          "price": "32.43 Lacs",
+          "actualPrice": 3243000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 60527,
+          "bhk": "1 BHK",
+          "carpetArea": 607,
+          "carpetAreaDisplay": "607 sq.ft",
+          "builtUpArea": null,
+          "price": "34.9 Lacs",
+          "actualPrice": 3490000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/16299/configurations/unit-plans/1-bhk/607-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/60527/original/1bhk_3d.JPG?1714731592",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 60529,
+          "bhk": "2 BHK",
+          "carpetArea": 816,
+          "carpetAreaDisplay": "816 sq.ft",
+          "builtUpArea": null,
+          "price": "46.92 Lacs",
+          "actualPrice": 4692000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/16299/configurations/unit-plans/2-bhk/816-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/60529/original/2bhk_3d.JPG?1714731592",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 60530,
+          "bhk": "2 BHK",
+          "carpetArea": 980,
+          "carpetAreaDisplay": "980 sq.ft",
+          "builtUpArea": null,
+          "price": "56.35 Lacs",
+          "actualPrice": 5635000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 60531,
+          "bhk": "3 BHK",
+          "carpetArea": 1110,
+          "carpetAreaDisplay": "1110 sq.ft",
+          "builtUpArea": null,
+          "price": "63.83 Lacs",
+          "actualPrice": 6383000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/16299/configurations/unit-plans/3-bhk/1110-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/60531/original/3bhk_3d.JPG?1714731592",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 60532,
+          "bhk": "3 BHK",
+          "carpetArea": 1183,
+          "carpetAreaDisplay": "1183 sq.ft",
+          "builtUpArea": null,
+          "price": "68.02 Lacs",
+          "actualPrice": 6802000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "564 - 607 sq.ft",
+      "price": "32.43 Lacs - 34.9 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "816 - 980 sq.ft",
+      "price": "46.92 Lacs - 56.35 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,110 - 1,183 sq.ft",
+      "price": "63.83 Lacs - 68.02 Lacs"
+    }
+  ]
+}

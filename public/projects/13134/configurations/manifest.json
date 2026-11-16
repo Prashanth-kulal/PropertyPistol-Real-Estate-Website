@@ -1,0 +1,110 @@
+{
+  "projectId": 13134,
+  "slug": "om-sai-city-dombivali-east-pid-13134",
+  "name": "Om Sai City",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/om-sai-city-dombivali-east-pid-13134",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13134/original/cf666ab58448a37.jpeg?1722408714",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 40726,
+          "bhk": "1 BHK",
+          "carpetArea": 336,
+          "carpetAreaDisplay": "336 sq.ft",
+          "builtUpArea": null,
+          "price": "30.89 Lacs",
+          "actualPrice": 3089000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 40727,
+          "bhk": "1 BHK",
+          "carpetArea": 392,
+          "carpetAreaDisplay": "392 sq.ft",
+          "builtUpArea": null,
+          "price": "36.07 Lacs",
+          "actualPrice": 3607000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 40728,
+          "bhk": "2 BHK",
+          "carpetArea": 498,
+          "carpetAreaDisplay": "498 sq.ft",
+          "builtUpArea": null,
+          "price": "45.76 Lacs",
+          "actualPrice": 4576000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 40725,
+          "bhk": "2 BHK",
+          "carpetArea": 651,
+          "carpetAreaDisplay": "651 sq.ft",
+          "builtUpArea": null,
+          "price": "59.81 Lacs",
+          "actualPrice": 5981000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "336 - 392 sq.ft",
+      "price": "30.89 Lacs - 36.07 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "498 - 651 sq.ft",
+      "price": "45.76 Lacs - 59.81 Lacs"
+    }
+  ]
+}

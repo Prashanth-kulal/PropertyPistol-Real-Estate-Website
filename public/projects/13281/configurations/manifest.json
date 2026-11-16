@@ -1,0 +1,78 @@
+{
+  "projectId": 13281,
+  "slug": "kasturi-balmoral-tower-balewadi-pid-13281",
+  "name": "Kasturi Balmoral Tower",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/kasturi-balmoral-tower-balewadi-pid-13281",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/13281/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13281/original/Capturefrwrw.PNG?1691487438"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 132617,
+          "bhk": "3 BHK",
+          "carpetArea": 1244,
+          "carpetAreaDisplay": "1244 sq.ft",
+          "builtUpArea": null,
+          "price": "2.13 Cr",
+          "actualPrice": 21300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 41097,
+          "bhk": "4 BHK",
+          "carpetArea": 1580,
+          "carpetAreaDisplay": "1580 sq.ft",
+          "builtUpArea": null,
+          "price": "2.74 Cr",
+          "actualPrice": 27400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,244 sq.ft",
+      "price": "2.13 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,580 sq.ft",
+      "price": "2.74 Cr"
+    }
+  ]
+}

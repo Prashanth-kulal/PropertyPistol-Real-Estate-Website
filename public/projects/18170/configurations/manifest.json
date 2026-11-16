@@ -1,0 +1,103 @@
+{
+  "projectId": 18170,
+  "slug": "shreenathji-delta-riviera-ulwe-pid-18170",
+  "name": "Shreenathji Delta Riviera",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shreenathji-delta-riviera-ulwe-pid-18170",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18170/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18170/original/M_.png?1747820235",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18170/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8049/original/FP.png?1747820235",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 88626,
+          "bhk": "2 BHK",
+          "carpetArea": 656,
+          "carpetAreaDisplay": "656 sq.ft",
+          "builtUpArea": null,
+          "price": "1.92 Cr",
+          "actualPrice": 19200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 88627,
+          "bhk": "3 BHK",
+          "carpetArea": 873,
+          "carpetAreaDisplay": "873 sq.ft",
+          "builtUpArea": null,
+          "price": "2.56 Cr",
+          "actualPrice": 25600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 123695,
+          "bhk": "3 BHK",
+          "carpetArea": 1070,
+          "carpetAreaDisplay": "1070 sq.ft",
+          "builtUpArea": null,
+          "price": "3.14 Cr",
+          "actualPrice": 31400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "656 sq.ft",
+      "price": "1.92 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "873 - 1,070 sq.ft",
+      "price": "2.56 Cr - 3.14 Cr"
+    }
+  ]
+}

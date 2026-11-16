@@ -1,0 +1,60 @@
+{
+  "projectId": 10247,
+  "slug": "swaraaj-heights-punawale-pid-10247",
+  "name": "Swaraaj Heights",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/swaraaj-heights-punawale-pid-10247",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/10247/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/10247/original/mp_%281%29.jpg?1754118217"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/10247/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2811/original/fp.jpg?1668666246"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 134129,
+          "bhk": "2 BHK",
+          "carpetArea": 765,
+          "carpetAreaDisplay": "765 sq.ft",
+          "builtUpArea": null,
+          "price": "80.0 Lacs",
+          "actualPrice": 8000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "765 sq.ft",
+      "price": "80.0 Lacs"
+    }
+  ]
+}

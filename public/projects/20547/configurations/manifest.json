@@ -1,0 +1,68 @@
+{
+  "projectId": 20547,
+  "slug": "halima-planet-neral-pid-20547",
+  "name": "Halima Planet",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/halima-planet-neral-pid-20547",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20547/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8775/original/halima-planet-project-floor-plans1-5009.jpg?1755006166",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 123260,
+          "bhk": "1 BHK",
+          "carpetArea": 390,
+          "carpetAreaDisplay": "390 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 123261,
+          "bhk": "1 BHK",
+          "carpetArea": 416,
+          "carpetAreaDisplay": "416 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20547/configurations/unit-plans/1-bhk/416-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/123261/original/1bhk-hali.jpg?1755006165",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "390 - 416 sq.ft",
+      "price": "On Request"
+    }
+  ]
+}

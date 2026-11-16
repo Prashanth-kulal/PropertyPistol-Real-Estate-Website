@@ -1,0 +1,68 @@
+{
+  "projectId": 5259,
+  "slug": "nahar-f-residences-baner-pid-5259",
+  "name": "Nahar F Residences",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/nahar-f-residences-baner-pid-5259",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/5259/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/5259/original/mp.png?1669376892"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 123707,
+          "bhk": "2 BHK",
+          "carpetArea": 747,
+          "carpetAreaDisplay": "747 sq.ft",
+          "builtUpArea": null,
+          "price": "1.51 Cr",
+          "actualPrice": 15100000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 93433,
+          "bhk": "2 BHK",
+          "carpetArea": 828,
+          "carpetAreaDisplay": "828 sq.ft",
+          "builtUpArea": null,
+          "price": "1.47 Cr",
+          "actualPrice": 14700000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "747 - 828 sq.ft",
+      "price": "1.47 Cr - 1.51 Cr"
+    }
+  ]
+}

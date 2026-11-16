@@ -1,0 +1,174 @@
+{
+  "projectId": 5759,
+  "slug": "prestige-finsbury-park-bagaluru-pid-5759",
+  "name": "Prestige Finsbury Park",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/prestige-finsbury-park-bagaluru-pid-5759",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/5759/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/5759/original/masterplan.jpeg?1638787896"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 102107,
+          "bhk": "1 BHK",
+          "carpetArea": 416,
+          "carpetAreaDisplay": "416 sq.ft",
+          "builtUpArea": null,
+          "price": "64.06 Lacs",
+          "actualPrice": 6406000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 132105,
+          "bhk": "1 BHK",
+          "carpetArea": 417,
+          "carpetAreaDisplay": "417 sq.ft",
+          "builtUpArea": null,
+          "price": "64.21 Lacs",
+          "actualPrice": 6421000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 102108,
+          "bhk": "1 BHK",
+          "carpetArea": 421,
+          "carpetAreaDisplay": "421 sq.ft",
+          "builtUpArea": null,
+          "price": "64.83 Lacs",
+          "actualPrice": 6483000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 108527,
+          "bhk": "1 BHK",
+          "carpetArea": 428,
+          "carpetAreaDisplay": "428 sq.ft",
+          "builtUpArea": null,
+          "price": "65.9 Lacs",
+          "actualPrice": 6590000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 108528,
+          "bhk": "1 BHK",
+          "carpetArea": 431,
+          "carpetAreaDisplay": "431 sq.ft",
+          "builtUpArea": null,
+          "price": "66.37 Lacs",
+          "actualPrice": 6637000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 18289,
+          "bhk": "2 BHK",
+          "carpetArea": 625,
+          "carpetAreaDisplay": "625 sq.ft",
+          "builtUpArea": null,
+          "price": "96.24 Lacs",
+          "actualPrice": 9624000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/5759/configurations/unit-plans/2-bhk/625-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/18289/original/2bhk.PNG?1638787896",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 73157,
+          "bhk": "2 BHK",
+          "carpetArea": 630,
+          "carpetAreaDisplay": "630 sq.ft",
+          "builtUpArea": null,
+          "price": "97.01 Lacs",
+          "actualPrice": 9701000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 73155,
+          "bhk": "2 BHK",
+          "carpetArea": 642,
+          "carpetAreaDisplay": "642 sq.ft",
+          "builtUpArea": null,
+          "price": "98.86 Lacs",
+          "actualPrice": 9886000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "416 - 431 sq.ft",
+      "price": "64.06 Lacs - 66.37 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "625 - 642 sq.ft",
+      "price": "96.24 Lacs - 98.86 Lacs"
+    }
+  ]
+}

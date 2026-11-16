@@ -1,0 +1,117 @@
+{
+  "projectId": 20507,
+  "slug": "neelkanth-complex-panvel-pid-20507",
+  "name": "Neelkanth Complex",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/neelkanth-complex-panvel-pid-20507",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20507/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8715/original/gp-neel.png?1754392094",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/20507/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8716/original/fp-neel.png?1754392094",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 122207,
+          "bhk": "1 BHK",
+          "carpetArea": 298,
+          "carpetAreaDisplay": "298 sq.ft",
+          "builtUpArea": null,
+          "price": "41.43 Lacs",
+          "actualPrice": 4143000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20507/configurations/unit-plans/1-bhk/298-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/122207/original/1bhk-neel.png?1754392092",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 122209,
+          "bhk": "1 BHK",
+          "carpetArea": 358,
+          "carpetAreaDisplay": "358 sq.ft",
+          "builtUpArea": null,
+          "price": "49.77 Lacs",
+          "actualPrice": 4977000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 139057,
+          "bhk": "2 BHK",
+          "carpetArea": 490,
+          "carpetAreaDisplay": "490 sq.ft",
+          "builtUpArea": null,
+          "price": "68.12 Lacs",
+          "actualPrice": 6812000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139058,
+          "bhk": "2 BHK",
+          "carpetArea": 570,
+          "carpetAreaDisplay": "570 sq.ft",
+          "builtUpArea": null,
+          "price": "79.24 Lacs",
+          "actualPrice": 7924000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "298 - 358 sq.ft",
+      "price": "41.43 Lacs - 49.77 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "490 - 570 sq.ft",
+      "price": "68.12 Lacs - 79.24 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "projectId": 7392,
+  "slug": "snehmangal-infinity-cube-punawale-pid-7392",
+  "name": "Snehmangal Infinity Cube",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/snehmangal-infinity-cube-punawale-pid-7392",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/7392/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3353/original/fp.JPG?1671693324"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 22212,
+          "bhk": "2 BHK",
+          "carpetArea": 557,
+          "carpetAreaDisplay": "557 sq.ft",
+          "builtUpArea": null,
+          "price": "52.15 Lacs",
+          "actualPrice": 5215000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/7392/configurations/unit-plans/2-bhk/557-sqft/plan-2d.webp",
+          "plan3D": "/projects/7392/configurations/unit-plans/2-bhk/557-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/22212/original/2.JPG?1671693324",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/22212/original/2b.JPG?1671693324",
+          "has2D": true,
+          "has3D": true
+        },
+        {
+          "id": 95742,
+          "bhk": "2 BHK",
+          "carpetArea": 584,
+          "carpetAreaDisplay": "584 sq.ft",
+          "builtUpArea": null,
+          "price": "54.72 Lacs",
+          "actualPrice": 5472000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 136835,
+          "bhk": "3 BHK",
+          "carpetArea": 1068,
+          "carpetAreaDisplay": "1068 sq.ft",
+          "builtUpArea": null,
+          "price": "99.98 Lacs",
+          "actualPrice": 9998000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "557 - 584 sq.ft",
+      "price": "52.15 Lacs - 54.72 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,068 sq.ft",
+      "price": "99.98 Lacs"
+    }
+  ]
+}

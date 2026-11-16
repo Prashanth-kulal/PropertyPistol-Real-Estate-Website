@@ -1,0 +1,78 @@
+{
+  "projectId": 19383,
+  "slug": "roswalt-raya-chembur-pid-19383",
+  "name": "Roswalt Raya",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/roswalt-raya-chembur-pid-19383",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19383/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7536/original/fp-ray.png?1741876541",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 127166,
+          "bhk": "2 BHK",
+          "carpetArea": 725,
+          "carpetAreaDisplay": "725 sq.ft",
+          "builtUpArea": null,
+          "price": "2.5 Cr",
+          "actualPrice": 25000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 102686,
+          "bhk": "3 BHK",
+          "carpetArea": 950,
+          "carpetAreaDisplay": "950 sq.ft",
+          "builtUpArea": null,
+          "price": "3.3 Cr",
+          "actualPrice": 33000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "725 sq.ft",
+      "price": "2.5 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "950 sq.ft",
+      "price": "3.3 Cr"
+    }
+  ]
+}

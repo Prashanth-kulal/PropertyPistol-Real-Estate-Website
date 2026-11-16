@@ -1,0 +1,119 @@
+{
+  "projectId": 18176,
+  "slug": "imperial-tower-taloja-pid-18176",
+  "name": "Imperial Tower",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/imperial-tower-taloja-pid-18176",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18176/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18176/original/mp.PNG?1751615145",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18176/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8430/original/fpp.PNG?1751615145",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 137311,
+          "bhk": "1 BHK",
+          "carpetArea": 422,
+          "carpetAreaDisplay": "422 sq.ft",
+          "builtUpArea": null,
+          "price": "34.96 Lacs",
+          "actualPrice": 3496270,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 88670,
+          "bhk": "1 BHK",
+          "carpetArea": 436,
+          "carpetAreaDisplay": "436 sq.ft",
+          "builtUpArea": null,
+          "price": "36.33 Lacs",
+          "actualPrice": 3633188,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/18176/configurations/unit-plans/1-bhk/436-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/88670/original/1.PNG?1751615145",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 88671,
+          "bhk": "2 BHK",
+          "carpetArea": 653,
+          "carpetAreaDisplay": "653 sq.ft",
+          "builtUpArea": null,
+          "price": "54.41 Lacs",
+          "actualPrice": 5441449,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/18176/configurations/unit-plans/2-bhk/653-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/88671/original/2.png?1751615145",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 137312,
+          "bhk": "2 BHK",
+          "carpetArea": 660,
+          "carpetAreaDisplay": "660 sq.ft",
+          "builtUpArea": null,
+          "price": "54.68 Lacs",
+          "actualPrice": 5468100,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "422 - 436 sq.ft",
+      "price": "34.96 Lacs - 36.33 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "653 - 660 sq.ft",
+      "price": "54.41 Lacs - 54.68 Lacs"
+    }
+  ]
+}

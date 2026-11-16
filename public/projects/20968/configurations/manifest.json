@@ -1,0 +1,61 @@
+{
+  "projectId": 20968,
+  "slug": "galaxy-garden-vangani-east-pid-20968",
+  "name": "Galaxy Garden",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/galaxy-garden-vangani-east-pid-20968",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/20968/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/20968/original/lay.PNG?1763370331",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20968/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8910/original/f.PNG?1763370333",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 127301,
+          "bhk": "2 BHK",
+          "carpetArea": 510,
+          "carpetAreaDisplay": "510 sq.ft",
+          "builtUpArea": null,
+          "price": "25.5 Lacs",
+          "actualPrice": 2550000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "510 sq.ft",
+      "price": "25.5 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "projectId": 16423,
+  "slug": "mohite-mrugank-chembur-pid-16423",
+  "name": "Mohite Mrugank",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/mohite-mrugank-chembur-pid-16423",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16423/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6232/original/fp.png?1715663911",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 61941,
+          "bhk": "1 BHK",
+          "carpetArea": 420,
+          "carpetAreaDisplay": "420 sq.ft",
+          "builtUpArea": null,
+          "price": "1.18 Cr",
+          "actualPrice": 11800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 61942,
+          "bhk": "1 BHK",
+          "carpetArea": 438,
+          "carpetAreaDisplay": "438 sq.ft",
+          "builtUpArea": null,
+          "price": "1.23 Cr",
+          "actualPrice": 12300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 94472,
+          "bhk": "1 BHK",
+          "carpetArea": 451,
+          "carpetAreaDisplay": "451 sq.ft",
+          "builtUpArea": null,
+          "price": "1.26 Cr",
+          "actualPrice": 12600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 107711,
+          "bhk": "2 BHK",
+          "carpetArea": 715,
+          "carpetAreaDisplay": "715 sq.ft",
+          "builtUpArea": null,
+          "price": "2.0 Cr",
+          "actualPrice": 20000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "420 - 451 sq.ft",
+      "price": "1.18 Cr - 1.26 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "715 sq.ft",
+      "price": "2.0 Cr"
+    }
+  ]
+}

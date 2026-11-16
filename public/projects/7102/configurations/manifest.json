@@ -1,0 +1,150 @@
+{
+  "projectId": 7102,
+  "slug": "primespace-the-address-baner-pid-7102",
+  "name": "Primespace The Address",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/primespace-the-address-baner-pid-7102",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/7102/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/7102/original/mp.png?1671086958"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/7102/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3225/original/fp.png?1671086959"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 88284,
+          "bhk": "3 BHK",
+          "carpetArea": 1193,
+          "carpetAreaDisplay": "1193 sq.ft",
+          "builtUpArea": null,
+          "price": "2.15 Cr",
+          "actualPrice": 21500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 21330,
+          "bhk": "3 BHK",
+          "carpetArea": 1257,
+          "carpetAreaDisplay": "1257 sq.ft",
+          "builtUpArea": null,
+          "price": "2.28 Cr",
+          "actualPrice": 22800000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/7102/configurations/unit-plans/3-bhk/1257-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/21330/original/4.JPG?1671086958",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 133958,
+          "bhk": "3 BHK",
+          "carpetArea": 1329,
+          "carpetAreaDisplay": "1329 sq.ft",
+          "builtUpArea": null,
+          "price": "2.41 Cr",
+          "actualPrice": 24100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 133957,
+          "bhk": "3 BHK",
+          "carpetArea": 1341,
+          "carpetAreaDisplay": "1341 sq.ft",
+          "builtUpArea": null,
+          "price": "2.43 Cr",
+          "actualPrice": 24300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 127845,
+          "bhk": "4 BHK",
+          "carpetArea": 1515,
+          "carpetAreaDisplay": "1515 sq.ft",
+          "builtUpArea": null,
+          "price": "2.59 Cr",
+          "actualPrice": 25900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 127846,
+          "bhk": "4 BHK",
+          "carpetArea": 1524,
+          "carpetAreaDisplay": "1524 sq.ft",
+          "builtUpArea": null,
+          "price": "2.6 Cr",
+          "actualPrice": 26000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,193 - 1,341 sq.ft",
+      "price": "2.15 Cr - 2.43 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,515 - 1,524 sq.ft",
+      "price": "2.59 Cr - 2.6 Cr"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "projectId": 8024,
+  "slug": "dosti-mezzo-22-sion-east-pid-8024",
+  "name": "Dosti Mezzo 22",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/dosti-mezzo-22-sion-east-pid-8024",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/8024/original/master.PNG?1752145052",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8447/original/floor.jpg?1752145053",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 26718,
+          "bhk": "2 BHK",
+          "carpetArea": 532,
+          "carpetAreaDisplay": "532 sq.ft",
+          "builtUpArea": null,
+          "price": "2.9 Cr",
+          "actualPrice": 29000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/26718/original/2bhk_2d.PNG?1752145053",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139625,
+          "bhk": "2 BHK",
+          "carpetArea": 747,
+          "carpetAreaDisplay": "747 sq.ft",
+          "builtUpArea": null,
+          "price": "3.39 Cr",
+          "actualPrice": 33900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 82341,
+          "bhk": "3 BHK",
+          "carpetArea": 938,
+          "carpetAreaDisplay": "938 sq.ft",
+          "builtUpArea": null,
+          "price": "4.52 Cr",
+          "actualPrice": 45200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/82341/original/3bhk_2d.PNG?1752145053",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139626,
+          "bhk": "3 BHK",
+          "carpetArea": 958,
+          "carpetAreaDisplay": "958 sq.ft",
+          "builtUpArea": null,
+          "price": "4.61 Cr",
+          "actualPrice": 46100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139627,
+          "bhk": "3 BHK",
+          "carpetArea": 967,
+          "carpetAreaDisplay": "967 sq.ft",
+          "builtUpArea": null,
+          "price": "4.71 Cr",
+          "actualPrice": 47100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139628,
+          "bhk": "3 BHK",
+          "carpetArea": 1194,
+          "carpetAreaDisplay": "1194 sq.ft",
+          "builtUpArea": null,
+          "price": "6.16 Cr",
+          "actualPrice": 61600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "532 - 747 sq.ft",
+      "price": "2.9 Cr - 3.39 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "938 - 1,194 sq.ft",
+      "price": "4.52 Cr - 6.16 Cr"
+    }
+  ]
+}

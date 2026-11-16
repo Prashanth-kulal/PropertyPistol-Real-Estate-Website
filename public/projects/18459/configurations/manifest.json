@@ -1,0 +1,174 @@
+{
+  "projectId": 18459,
+  "slug": "insignia-arpora-pid-18459",
+  "name": "Insignia",
+  "city": "goa",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/insignia-arpora-pid-18459",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18459/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7068/original/fp_nan.png?1730898154"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/18459/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7069/original/fp-n.png?1730898154"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "Studio",
+      "variants": [
+        {
+          "id": 136003,
+          "bhk": "Studio",
+          "carpetArea": 374,
+          "carpetAreaDisplay": "374 sq.ft",
+          "builtUpArea": null,
+          "price": "57.52 Lacs",
+          "actualPrice": 5752000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 91755,
+          "bhk": "Studio",
+          "carpetArea": 419,
+          "carpetAreaDisplay": "419 sq.ft",
+          "builtUpArea": null,
+          "price": "64.5 Lacs",
+          "actualPrice": 6450000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 91756,
+          "bhk": "1 BHK",
+          "carpetArea": 888,
+          "carpetAreaDisplay": "888 sq.ft",
+          "builtUpArea": null,
+          "price": "1.32 Cr",
+          "actualPrice": 13200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 136004,
+          "bhk": "1 BHK",
+          "carpetArea": 896,
+          "carpetAreaDisplay": "896 sq.ft",
+          "builtUpArea": null,
+          "price": "1.38 Cr",
+          "actualPrice": 13800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 136005,
+          "bhk": "1 BHK",
+          "carpetArea": 899,
+          "carpetAreaDisplay": "899 sq.ft",
+          "builtUpArea": null,
+          "price": "1.38 Cr",
+          "actualPrice": 13800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 136006,
+          "bhk": "2 BHK",
+          "carpetArea": 1385,
+          "carpetAreaDisplay": "1385 sq.ft",
+          "builtUpArea": null,
+          "price": "2.13 Cr",
+          "actualPrice": 21300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 136007,
+          "bhk": "2 BHK",
+          "carpetArea": 1508,
+          "carpetAreaDisplay": "1508 sq.ft",
+          "builtUpArea": null,
+          "price": "2.32 Cr",
+          "actualPrice": 23200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "Studio",
+      "carpet_area": "374 - 419 sq.ft",
+      "price": "57.52 Lacs - 64.5 Lacs"
+    },
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "888 - 899 sq.ft",
+      "price": "1.32 Cr - 1.38 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "1,385 - 1,508 sq.ft",
+      "price": "2.13 Cr - 2.32 Cr"
+    }
+  ]
+}

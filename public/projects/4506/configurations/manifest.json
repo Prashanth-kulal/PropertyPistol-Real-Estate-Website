@@ -1,0 +1,78 @@
+{
+  "projectId": 4506,
+  "slug": "oyster-celestial-living-dahisar-east-pid-4506",
+  "name": "Oyster Celestial Living",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/oyster-celestial-living-dahisar-east-pid-4506",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2291/original/fp.PNG?1626436535",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 13734,
+          "bhk": "1 BHK",
+          "carpetArea": 390,
+          "carpetAreaDisplay": "390 sq.ft",
+          "builtUpArea": null,
+          "price": "81.0 Lacs",
+          "actualPrice": 8100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/13734/original/1bhk.PNG?1626436535",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 13735,
+          "bhk": "2 BHK",
+          "carpetArea": 582,
+          "carpetAreaDisplay": "582 sq.ft",
+          "builtUpArea": null,
+          "price": "1.21 Cr",
+          "actualPrice": 12100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/13735/original/2bhk.PNG?1626436535",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "390 sq.ft",
+      "price": "81.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "582 sq.ft",
+      "price": "1.21 Cr"
+    }
+  ]
+}

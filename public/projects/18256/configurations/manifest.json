@@ -1,0 +1,78 @@
+{
+  "projectId": 18256,
+  "slug": "shubh-spring-valley-alandi-pid-18256",
+  "name": "Shubh Spring Valley",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shubh-spring-valley-alandi-pid-18256",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18256/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18256/original/cf65953dcb7651a.jpeg?1729682668"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 108142,
+          "bhk": "1 BHK",
+          "carpetArea": 367,
+          "carpetAreaDisplay": "367 sq.ft",
+          "builtUpArea": null,
+          "price": "35.0 Lacs",
+          "actualPrice": 3500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 108144,
+          "bhk": "2 BHK",
+          "carpetArea": 524,
+          "carpetAreaDisplay": "524 sq.ft",
+          "builtUpArea": null,
+          "price": "55.0 Lacs",
+          "actualPrice": 5500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "367 sq.ft",
+      "price": "35.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "524 sq.ft",
+      "price": "55.0 Lacs"
+    }
+  ]
+}

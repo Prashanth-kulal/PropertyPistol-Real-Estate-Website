@@ -1,0 +1,68 @@
+{
+  "projectId": 13752,
+  "slug": "progressive-prive-ulwe-pid-13752",
+  "name": "Progressive Prive ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/progressive-prive-ulwe-pid-13752",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4434/original/fp.PNG?1729840175",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 42522,
+          "bhk": "2 BHK",
+          "carpetArea": 411,
+          "carpetAreaDisplay": "411 sq.ft",
+          "builtUpArea": null,
+          "price": "75.1 Lacs",
+          "actualPrice": 7510000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 42521,
+          "bhk": "2 BHK",
+          "carpetArea": 446,
+          "carpetAreaDisplay": "446 sq.ft",
+          "builtUpArea": null,
+          "price": "81.5 Lacs",
+          "actualPrice": 8150000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "411 - 446 sq.ft",
+      "price": "75.1 Lacs - 81.5 Lacs"
+    }
+  ]
+}

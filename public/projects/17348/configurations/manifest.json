@@ -1,0 +1,116 @@
+{
+  "projectId": 17348,
+  "slug": "atharva-garden-homes-nagari-7-pipla-pid-17348",
+  "name": "Atharva Garden Homes Nagari 7",
+  "city": "nagpur",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/atharva-garden-homes-nagari-7-pipla-pid-17348",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/17348/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6642/original/floorplan1.JPG?1720095123"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/17348/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6643/original/floorplan2.JPG?1720095123"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 71641,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1093,
+          "price": "43.72 Lacs",
+          "actualPrice": 4372000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/17348/configurations/unit-plans/2-bhk/variant-71641/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/71641/original/IMG_20250701_121545.jpg?1751352434",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 113107,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1289,
+          "price": "51.56 Lacs",
+          "actualPrice": 5156000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/17348/configurations/unit-plans/3-bhk/variant-113107/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/113107/original/IMG_20250701_121631.jpg?1751352434",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 113104,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1300,
+          "price": "52.0 Lacs",
+          "actualPrice": 5200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/17348/configurations/unit-plans/3-bhk/variant-113104/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/113104/original/IMG_20250701_121618.jpg?1751352434",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 138071,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1320,
+          "price": "52.8 Lacs",
+          "actualPrice": 5280000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "On Request",
+      "price": "43.72 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "51.56 Lacs - 52.8 Lacs"
+    }
+  ]
+}

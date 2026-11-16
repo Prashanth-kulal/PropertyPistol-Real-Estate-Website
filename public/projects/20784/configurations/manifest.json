@@ -1,0 +1,98 @@
+{
+  "projectId": 20784,
+  "slug": "sai-crystal-kammasandra-pid-20784",
+  "name": "Sai Crystal",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sai-crystal-kammasandra-pid-20784",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/20784/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/20784/original/download_%281%29.png?1791541599"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20784/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9739/original/download_%282%29.png?1791541601"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/20784/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9740/original/download_%283%29.png?1791541601"
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/20784/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9741/original/download_%284%29.png?1791541601"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 126218,
+          "bhk": "2 BHK",
+          "carpetArea": 676,
+          "carpetAreaDisplay": "676 sq.ft",
+          "builtUpArea": null,
+          "price": "55.12 Lacs",
+          "actualPrice": 5512104,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 126219,
+          "bhk": "3 BHK",
+          "carpetArea": 1014,
+          "carpetAreaDisplay": "1014 sq.ft",
+          "builtUpArea": null,
+          "price": "82.68 Lacs",
+          "actualPrice": 8268156,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "676 sq.ft",
+      "price": "55.12 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,014 sq.ft",
+      "price": "82.68 Lacs"
+    }
+  ]
+}

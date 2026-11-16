@@ -1,0 +1,126 @@
+{
+  "projectId": 18321,
+  "slug": "neelkanth-darshan-kharghar-pid-18321",
+  "name": "Neelkanth Darshan",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/neelkanth-darshan-kharghar-pid-18321",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18321/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7291/original/fp.png?1790144466",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 90358,
+          "bhk": "2 BHK",
+          "carpetArea": 990,
+          "carpetAreaDisplay": "990 sq.ft",
+          "builtUpArea": null,
+          "price": "1.29 Cr",
+          "actualPrice": 12900000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18321/configurations/unit-plans/2-bhk/990-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/90358/original/2bhk_dar.PNG?1729856744",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 96206,
+          "bhk": "2 BHK",
+          "carpetArea": 1295,
+          "carpetAreaDisplay": "1295 sq.ft",
+          "builtUpArea": null,
+          "price": "1.68 Cr",
+          "actualPrice": 16800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 134395,
+          "bhk": "2 BHK",
+          "carpetArea": 1375,
+          "carpetAreaDisplay": "1375 sq.ft",
+          "builtUpArea": null,
+          "price": "1.79 Cr",
+          "actualPrice": 17900000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18321/configurations/unit-plans/2-bhk/1375-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/134395/original/2b.PNG?1790144464",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 96207,
+          "bhk": "3 BHK",
+          "carpetArea": 1745,
+          "carpetAreaDisplay": "1745 sq.ft",
+          "builtUpArea": null,
+          "price": "1.8 Cr",
+          "actualPrice": 18000000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18321/configurations/unit-plans/3-bhk/1745-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/96207/original/3bhk_dar.png?1733808170",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 134396,
+          "bhk": "3 BHK",
+          "carpetArea": 1865,
+          "carpetAreaDisplay": "1865 sq.ft",
+          "builtUpArea": null,
+          "price": "2.03 Cr",
+          "actualPrice": 20300000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18321/configurations/unit-plans/3-bhk/1865-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/134396/original/3b.PNG?1790144465",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "990 - 1,375 sq.ft",
+      "price": "1.29 Cr - 1.79 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,745 - 1,865 sq.ft",
+      "price": "1.8 Cr - 2.03 Cr"
+    }
+  ]
+}

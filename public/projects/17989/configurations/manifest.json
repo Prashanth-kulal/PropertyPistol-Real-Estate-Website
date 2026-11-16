@@ -1,0 +1,78 @@
+{
+  "projectId": 17989,
+  "slug": "ankuraa-meridian-kannamangala-pid-17989",
+  "name": "Ankuraa Meridian ",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ankuraa-meridian-kannamangala-pid-17989",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/17989/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/17989/original/cf6666be5534631.jpeg?1727362728"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 117426,
+          "bhk": "2 BHK",
+          "carpetArea": 806,
+          "carpetAreaDisplay": "806 sq.ft",
+          "builtUpArea": null,
+          "price": "83.7 Lacs",
+          "actualPrice": 8370310,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 117431,
+          "bhk": "3 BHK",
+          "carpetArea": 1447,
+          "carpetAreaDisplay": "1447 sq.ft",
+          "builtUpArea": null,
+          "price": "1.19 Cr",
+          "actualPrice": 11911595,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "806 sq.ft",
+      "price": "83.7 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,447 sq.ft",
+      "price": "1.19 Cr"
+    }
+  ]
+}

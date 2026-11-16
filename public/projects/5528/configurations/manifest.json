@@ -1,0 +1,86 @@
+{
+  "projectId": 5528,
+  "slug": "incor-lake-city-patancheru-pid-5528",
+  "name": "Incor Lake City",
+  "city": "hyderabad",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/incor-lake-city-patancheru-pid-5528",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/5528/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/5528/original/mp-incor2.png?1747905601"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/5528/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8098/original/fp-inco.png?1747905602"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 81310,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1100,
+          "price": "61.6 Lacs",
+          "actualPrice": 6160000,
+          "propertyType": "Flat",
+          "plan2D": "/projects/5528/configurations/unit-plans/2-bhk/variant-81310/plan-2d.webp",
+          "plan3D": "/projects/5528/configurations/unit-plans/2-bhk/variant-81310/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/81310/original/2bhk-incor.png?1747905602",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/81310/original/2bhk-incor.png?1747905602",
+          "has2D": true,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 88436,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1800,
+          "price": "1.01 Cr",
+          "actualPrice": 10080000,
+          "propertyType": "Flat",
+          "plan2D": "/projects/5528/configurations/unit-plans/3-bhk/variant-88436/plan-2d.webp",
+          "plan3D": "/projects/5528/configurations/unit-plans/3-bhk/variant-88436/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/88436/original/3bhk-incor.png?1747905601",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/88436/original/3bhk-incor.png?1747905601",
+          "has2D": true,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "On Request",
+      "price": "61.6 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "1.01 Cr"
+    }
+  ]
+}

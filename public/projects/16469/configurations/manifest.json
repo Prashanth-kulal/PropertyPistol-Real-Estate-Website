@@ -1,0 +1,119 @@
+{
+  "projectId": 16469,
+  "slug": "avant-heritage-jogeshwari-east-pid-16469",
+  "name": "Avant Heritage",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/avant-heritage-jogeshwari-east-pid-16469",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16469/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16469/original/masterplanavant.png?1715782943",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16469/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6255/original/Floorplanavant.PNG?1715782944",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 127677,
+          "bhk": "1 BHK",
+          "carpetArea": 333,
+          "carpetAreaDisplay": "333 sq.ft",
+          "builtUpArea": null,
+          "price": "82.58 Lacs",
+          "actualPrice": 8258400,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 98200,
+          "bhk": "1 BHK",
+          "carpetArea": 423,
+          "carpetAreaDisplay": "423 sq.ft",
+          "builtUpArea": null,
+          "price": "1.12 Cr",
+          "actualPrice": 11243340,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 123288,
+          "bhk": "3 BHK",
+          "carpetArea": 729,
+          "carpetAreaDisplay": "729 sq.ft",
+          "builtUpArea": null,
+          "price": "1.94 Cr",
+          "actualPrice": 19376820,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 127678,
+          "bhk": "3 BHK",
+          "carpetArea": 1175,
+          "carpetAreaDisplay": "1175 sq.ft",
+          "builtUpArea": null,
+          "price": "2.91 Cr",
+          "actualPrice": 29140000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "333 - 423 sq.ft",
+      "price": "82.58 Lacs - 1.12 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "729 - 1,175 sq.ft",
+      "price": "1.94 Cr - 2.91 Cr"
+    }
+  ]
+}

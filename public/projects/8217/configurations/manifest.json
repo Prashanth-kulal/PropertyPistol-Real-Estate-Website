@@ -1,0 +1,68 @@
+{
+  "projectId": 8217,
+  "slug": "asbl-spectra-financial-district-pid-8217",
+  "name": "Asbl Spectra",
+  "city": "hyderabad",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/asbl-spectra-financial-district-pid-8217",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/8217/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/8217/original/mp.png?1702492540"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 28009,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1980,
+          "price": "2.09 Cr",
+          "actualPrice": 20898900,
+          "propertyType": "Flat",
+          "plan2D": "/projects/8217/configurations/unit-plans/3-bhk/variant-28009/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/28009/original/3.png?1702492541",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 129826,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2220,
+          "price": "2.34 Cr",
+          "actualPrice": 23432100,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "2.09 Cr - 2.34 Cr"
+    }
+  ]
+}

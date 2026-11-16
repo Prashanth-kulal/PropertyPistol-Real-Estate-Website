@@ -1,0 +1,110 @@
+{
+  "projectId": 5215,
+  "slug": "manbhum-home-tree-kompally-pid-5215",
+  "name": "Manbhum Home Tree ",
+  "city": "hyderabad",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/manbhum-home-tree-kompally-pid-5215",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/5215/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8116/original/fp-man.png?1747922816"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 17112,
+          "bhk": "2 BHK",
+          "carpetArea": 747,
+          "carpetAreaDisplay": "747 sq.ft",
+          "builtUpArea": null,
+          "price": "67.81 Lacs",
+          "actualPrice": 6781000,
+          "propertyType": "Flat",
+          "plan2D": "/projects/5215/configurations/unit-plans/2-bhk/747-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/17112/original/2bhk-man.PNG?1747922815",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 17113,
+          "bhk": "2 BHK",
+          "carpetArea": 883,
+          "carpetAreaDisplay": "883 sq.ft",
+          "builtUpArea": null,
+          "price": "80.13 Lacs",
+          "actualPrice": 8013000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 81326,
+          "bhk": "3 BHK",
+          "carpetArea": 948,
+          "carpetAreaDisplay": "948 sq.ft",
+          "builtUpArea": null,
+          "price": "86.04 Lacs",
+          "actualPrice": 8604000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 81327,
+          "bhk": "3 BHK",
+          "carpetArea": 1291,
+          "carpetAreaDisplay": "1291 sq.ft",
+          "builtUpArea": null,
+          "price": "1.17 Cr",
+          "actualPrice": 11700000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "747 - 883 sq.ft",
+      "price": "67.81 Lacs - 80.13 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "948 - 1,291 sq.ft",
+      "price": "86.04 Lacs - 1.17 Cr"
+    }
+  ]
+}

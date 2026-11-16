@@ -1,0 +1,78 @@
+{
+  "projectId": 16805,
+  "slug": "belmont-celestial-tingre-nagar-pid-16805",
+  "name": "Belmont Celestial ",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/belmont-celestial-tingre-nagar-pid-16805",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16805/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16805/original/unnamed_%283%29.jpg?1717658668"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 66840,
+          "bhk": "2 BHK",
+          "carpetArea": 700,
+          "carpetAreaDisplay": "700 sq.ft",
+          "builtUpArea": null,
+          "price": "76.0 Lacs",
+          "actualPrice": 7600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 66841,
+          "bhk": "3 BHK",
+          "carpetArea": 890,
+          "carpetAreaDisplay": "890 sq.ft",
+          "builtUpArea": null,
+          "price": "95.0 Lacs",
+          "actualPrice": 9500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "700 sq.ft",
+      "price": "76.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "890 sq.ft",
+      "price": "95.0 Lacs"
+    }
+  ]
+}

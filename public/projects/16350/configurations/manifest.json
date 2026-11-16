@@ -1,0 +1,114 @@
+{
+  "projectId": 16350,
+  "slug": "arun-anika-essentia-ghorpadi-pid-16350",
+  "name": "Arun Anika Essentia",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/arun-anika-essentia-ghorpadi-pid-16350",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16350/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16350/original/mp-anka.png?1748502300"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16350/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8254/original/fp2-ana_%281%29.png?1748502300"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/16350/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8255/original/fp-ana2_%281%29.png?1748502300"
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/16350/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8256/original/fp-ana_%281%29.png?1748502300"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 61509,
+          "bhk": "2 BHK",
+          "carpetArea": 884,
+          "carpetAreaDisplay": "884 sq.ft",
+          "builtUpArea": null,
+          "price": "97.47 Lacs",
+          "actualPrice": 9747000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/16350/configurations/unit-plans/2-bhk/884-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/61509/original/2bhk-ana_%281%29.png?1748502300",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 101605,
+          "bhk": "2 BHK",
+          "carpetArea": 931,
+          "carpetAreaDisplay": "931 sq.ft",
+          "builtUpArea": null,
+          "price": "1.03 Cr",
+          "actualPrice": 10300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 101606,
+          "bhk": "3 BHK",
+          "carpetArea": 1112,
+          "carpetAreaDisplay": "1112 sq.ft",
+          "builtUpArea": null,
+          "price": "1.23 Cr",
+          "actualPrice": 12300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "884 - 931 sq.ft",
+      "price": "97.47 Lacs - 1.03 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,112 sq.ft",
+      "price": "1.23 Cr"
+    }
+  ]
+}

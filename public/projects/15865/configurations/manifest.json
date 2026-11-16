@@ -1,0 +1,98 @@
+{
+  "projectId": 15865,
+  "slug": "sdmv-elite-kammasandra-pid-15865",
+  "name": "SDMV Elite",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sdmv-elite-kammasandra-pid-15865",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/15865/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/15865/original/masterplan.JPG?1709184559"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/15865/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5749/original/floorplan1.JPG?1709184559"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/15865/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5750/original/floorplan2.JPG?1709184559"
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/15865/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5751/original/floorplan3.JPG?1709184559"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 53154,
+          "bhk": "2 BHK",
+          "carpetArea": 624,
+          "carpetAreaDisplay": "624 sq.ft",
+          "builtUpArea": null,
+          "price": "44.72 Lacs",
+          "actualPrice": 4472208,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/15865/configurations/unit-plans/2-bhk/624-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/53154/original/2bhk_2d1.JPG?1709186228",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 53156,
+          "bhk": "3 BHK",
+          "carpetArea": 855,
+          "carpetAreaDisplay": "855 sq.ft",
+          "builtUpArea": null,
+          "price": "61.28 Lacs",
+          "actualPrice": 6127785,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/15865/configurations/unit-plans/3-bhk/855-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/53156/original/3bhk_2d2.JPG?1709186228",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "624 sq.ft",
+      "price": "44.72 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "855 sq.ft",
+      "price": "61.28 Lacs"
+    }
+  ]
+}

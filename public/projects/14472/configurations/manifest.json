@@ -1,0 +1,99 @@
+{
+  "projectId": 14472,
+  "slug": "chintan-apartment-panvel-pid-14472",
+  "name": "Chintan Apartment",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/chintan-apartment-panvel-pid-14472",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4987/original/groundfloor.JPG?1700142241",
+      "downloaded": false
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4988/original/firstfloor.JPG?1700142241",
+      "downloaded": false
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4989/original/secondfloor.JPG?1700142241",
+      "downloaded": false
+    },
+    {
+      "id": 4,
+      "title": "Layout / Site Plan 4",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4990/original/12floor.JPG?1700142241",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 96279,
+          "bhk": "1 BHK",
+          "carpetArea": 412,
+          "carpetAreaDisplay": "412 sq.ft",
+          "builtUpArea": null,
+          "price": "59.0 Lacs",
+          "actualPrice": 5900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/96279/original/1.PNG?1737716712",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 96280,
+          "bhk": "2 BHK",
+          "carpetArea": 673,
+          "carpetAreaDisplay": "673 sq.ft",
+          "builtUpArea": null,
+          "price": "96.5 Lacs",
+          "actualPrice": 9650000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/96280/original/2.PNG?1737716712",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "412 sq.ft",
+      "price": "59.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "673 sq.ft",
+      "price": "96.5 Lacs"
+    }
+  ]
+}

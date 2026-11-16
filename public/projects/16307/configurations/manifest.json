@@ -1,0 +1,86 @@
+{
+  "projectId": 16307,
+  "slug": "anandtara-iris-residence-mundhwa-pid-16307",
+  "name": "Anandtara Iris Residence",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/anandtara-iris-residence-mundhwa-pid-16307",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit"
+  ],
+  "masterPlans": [],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 60581,
+          "bhk": "2 BHK",
+          "carpetArea": 847,
+          "carpetAreaDisplay": "847 sq.ft",
+          "builtUpArea": null,
+          "price": "93.08 Lacs",
+          "actualPrice": 9308000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 60582,
+          "bhk": "3 BHK",
+          "carpetArea": 1091,
+          "carpetAreaDisplay": "1091 sq.ft",
+          "builtUpArea": null,
+          "price": "1.25 Cr",
+          "actualPrice": 12500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/16307/configurations/unit-plans/3-bhk/1091-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/60582/original/3bhkiris.PNG?1714747320",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 60583,
+          "bhk": "3 BHK",
+          "carpetArea": 1246,
+          "carpetAreaDisplay": "1246 sq.ft",
+          "builtUpArea": null,
+          "price": "1.43 Cr",
+          "actualPrice": 14300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/16307/configurations/unit-plans/3-bhk/1246-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/60583/original/3bhkiris.PNG?1714747321",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "847 sq.ft",
+      "price": "93.08 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,091 - 1,246 sq.ft",
+      "price": "1.25 Cr - 1.43 Cr"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "projectId": 8342,
+  "slug": "shristhi-riverside-taloja-pid-8342",
+  "name": "Shristhi Riverside",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shristhi-riverside-taloja-pid-8342",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/8342/original/masterplan_landscape_1.jpg?1655203947",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2699/original/fp.JPG?1655203954",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 28657,
+          "bhk": "1 BHK",
+          "carpetArea": 419,
+          "carpetAreaDisplay": "419 sq.ft",
+          "builtUpArea": null,
+          "price": "39.87 Lacs",
+          "actualPrice": 3986785,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/28657/original/1b.PNG?1763375387",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 28658,
+          "bhk": "2 BHK",
+          "carpetArea": 585,
+          "carpetAreaDisplay": "585 sq.ft",
+          "builtUpArea": null,
+          "price": "55.66 Lacs",
+          "actualPrice": 5566275,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/28658/original/2b.PNG?1763375387",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "419 sq.ft",
+      "price": "39.87 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "585 sq.ft",
+      "price": "55.66 Lacs"
+    }
+  ]
+}

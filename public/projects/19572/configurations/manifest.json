@@ -1,0 +1,110 @@
+{
+  "projectId": 19572,
+  "slug": "sai-shrushti-leela-shilphata-pid-19572",
+  "name": "Sai Shrushti Leela",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sai-shrushti-leela-shilphata-pid-19572",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19572/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7681/original/fp-sai.png?1744047036",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 105976,
+          "bhk": "1 BHK",
+          "carpetArea": 336,
+          "carpetAreaDisplay": "336 sq.ft",
+          "builtUpArea": null,
+          "price": "29.92 Lacs",
+          "actualPrice": 2992000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19572/configurations/unit-plans/1-bhk/336-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/105976/original/1bhk-sai.png?1744047033",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 105977,
+          "bhk": "1 BHK",
+          "carpetArea": 346,
+          "carpetAreaDisplay": "346 sq.ft",
+          "builtUpArea": null,
+          "price": "30.2 Lacs",
+          "actualPrice": 3020000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 105978,
+          "bhk": "2 BHK",
+          "carpetArea": 497,
+          "carpetAreaDisplay": "497 sq.ft",
+          "builtUpArea": null,
+          "price": "42.24 Lacs",
+          "actualPrice": 4224000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19572/configurations/unit-plans/2-bhk/497-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/105978/original/fp-sai.png?1744047033",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 105979,
+          "bhk": "2 BHK",
+          "carpetArea": 508,
+          "carpetAreaDisplay": "508 sq.ft",
+          "builtUpArea": null,
+          "price": "43.2 Lacs",
+          "actualPrice": 4320000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "336 - 346 sq.ft",
+      "price": "29.92 Lacs - 30.2 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "497 - 508 sq.ft",
+      "price": "42.24 Lacs - 43.2 Lacs"
+    }
+  ]
+}

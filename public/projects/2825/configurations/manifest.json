@@ -1,0 +1,87 @@
+{
+  "projectId": 2825,
+  "slug": "siddha-sky",
+  "name": "Siddha Sky",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/siddha-sky-wadala-pid-2825",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/2825/original/skywalk-master-plan.jpg?1573126610",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/1396/original/floor-plan.jpg?1573126611",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 51085,
+          "bhk": "2 BHK",
+          "carpetArea": 649,
+          "carpetAreaDisplay": "649 sq.ft",
+          "builtUpArea": null,
+          "price": "1.89 Cr",
+          "actualPrice": 18900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 127432,
+          "bhk": "3 BHK",
+          "carpetArea": 907,
+          "carpetAreaDisplay": "907 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "649 sq.ft",
+      "price": "1.89 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "907 sq.ft",
+      "price": "On Request"
+    }
+  ]
+}

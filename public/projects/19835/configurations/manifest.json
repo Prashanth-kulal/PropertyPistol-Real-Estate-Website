@@ -1,0 +1,70 @@
+{
+  "projectId": 19835,
+  "slug": "ar-mirador-wakad-pid-19835",
+  "name": "AR Mirador",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ar-mirador-wakad-pid-19835",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit"
+  ],
+  "masterPlans": [],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 113372,
+          "bhk": "2 BHK",
+          "carpetArea": 730,
+          "carpetAreaDisplay": "730 sq.ft",
+          "builtUpArea": null,
+          "price": "85.0 Lacs",
+          "actualPrice": 8500000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19835/configurations/unit-plans/2-bhk/730-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/113372/original/2bhk_2d3.PNG?1747639644",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 113374,
+          "bhk": "3 BHK",
+          "carpetArea": 1031,
+          "carpetAreaDisplay": "1031 sq.ft",
+          "builtUpArea": null,
+          "price": "1.2 Cr",
+          "actualPrice": 12000000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19835/configurations/unit-plans/3-bhk/1031-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/113374/original/3bhk_2d2.PNG?1747639645",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "730 sq.ft",
+      "price": "85.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,031 sq.ft",
+      "price": "1.2 Cr"
+    }
+  ]
+}

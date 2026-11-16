@@ -1,0 +1,78 @@
+{
+  "projectId": 15090,
+  "slug": "pg-tower-badlapur-west-pid-15090",
+  "name": "PG Tower",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/pg-tower-badlapur-west-pid-15090",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5282/original/floorplan.JPG?1703324840",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 129945,
+          "bhk": "1 BHK",
+          "carpetArea": 420,
+          "carpetAreaDisplay": "420 sq.ft",
+          "builtUpArea": null,
+          "price": "31.59 Lacs",
+          "actualPrice": 3159000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 47621,
+          "bhk": "2 BHK",
+          "carpetArea": 556,
+          "carpetAreaDisplay": "556 sq.ft",
+          "builtUpArea": null,
+          "price": "41.82 Lacs",
+          "actualPrice": 4182000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/47621/original/2bhk_2d.JPG?1703324840",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/47621/original/2.jpg?1764146831",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "420 sq.ft",
+      "price": "31.59 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "556 sq.ft",
+      "price": "41.82 Lacs"
+    }
+  ]
+}

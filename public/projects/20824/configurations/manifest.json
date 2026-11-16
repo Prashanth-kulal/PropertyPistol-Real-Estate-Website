@@ -1,0 +1,101 @@
+{
+  "projectId": 20824,
+  "slug": "dhartidhan-dharti-virar-west-pid-20824",
+  "name": "Dhartidhan Dharti",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/dhartidhan-dharti-virar-west-pid-20824",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20824/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8908/original/v.png?1763369825",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/20824/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8909/original/tfppp.png?1763369825",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 126958,
+          "bhk": "1 BHK",
+          "carpetArea": 345,
+          "carpetAreaDisplay": "345 sq.ft",
+          "builtUpArea": null,
+          "price": "31.74 Lacs",
+          "actualPrice": 3174000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 137645,
+          "bhk": "1 BHK",
+          "carpetArea": 348,
+          "carpetAreaDisplay": "348 sq.ft",
+          "builtUpArea": null,
+          "price": "32.02 Lacs",
+          "actualPrice": 3201600,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 137646,
+          "bhk": "2 BHK",
+          "carpetArea": 760,
+          "carpetAreaDisplay": "760 sq.ft",
+          "builtUpArea": null,
+          "price": "69.92 Lacs",
+          "actualPrice": 6992000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "345 - 348 sq.ft",
+      "price": "31.74 Lacs - 32.02 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "760 sq.ft",
+      "price": "69.92 Lacs"
+    }
+  ]
+}

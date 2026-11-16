@@ -1,0 +1,52 @@
+{
+  "projectId": 18603,
+  "slug": "sdpl-aashray-beltarodi-2-manish-nagar-pid-18603",
+  "name": "SDPL Aashray Beltarodi 2",
+  "city": "nagpur",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sdpl-aashray-beltarodi-2-manish-nagar-pid-18603",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18603/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7162/original/floorplan.PNG?1731498268"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 92722,
+          "bhk": "1 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 525,
+          "price": "22.75 Lacs",
+          "actualPrice": 2275000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18603/configurations/unit-plans/1-bhk/variant-92722/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/92722/original/1bhk_2d.PNG?1731498267",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "On Request",
+      "price": "22.75 Lacs"
+    }
+  ]
+}

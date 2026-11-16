@@ -1,0 +1,74 @@
+{
+  "projectId": 13308,
+  "slug": "legacy-imperial-kiwale-pid-13308",
+  "name": "Legacy Imperial ",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/legacy-imperial-kiwale-pid-13308",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/13308/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4334/original/Captureerwwr.PNG?1691655516"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/13308/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4335/original/Capture3wr.PNG?1691655517"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 41199,
+          "bhk": "2 BHK",
+          "carpetArea": 576,
+          "carpetAreaDisplay": "576 sq.ft",
+          "builtUpArea": null,
+          "price": "55.0 Lacs",
+          "actualPrice": 5500000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 104201,
+          "bhk": "2 BHK",
+          "carpetArea": 639,
+          "carpetAreaDisplay": "639 sq.ft",
+          "builtUpArea": null,
+          "price": "61.02 Lacs",
+          "actualPrice": 6102000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "576 - 639 sq.ft",
+      "price": "55.0 Lacs - 61.02 Lacs"
+    }
+  ]
+}

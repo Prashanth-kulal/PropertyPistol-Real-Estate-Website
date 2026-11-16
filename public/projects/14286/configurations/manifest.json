@@ -1,0 +1,52 @@
+{
+  "projectId": 14286,
+  "slug": "tranquillo-aura-patancheru-pid-14286",
+  "name": "Tranquillo Aura",
+  "city": "hyderabad",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/tranquillo-aura-patancheru-pid-14286",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/14286/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/14286/original/Masterplan.JPG?1698477568"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 44309,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1060,
+          "price": "55.12 Lacs",
+          "actualPrice": 5512000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/14286/configurations/unit-plans/2-bhk/variant-44309/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/44309/original/2bhk_unitplan_2d.JPG?1698477568",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "On Request",
+      "price": "55.12 Lacs"
+    }
+  ]
+}

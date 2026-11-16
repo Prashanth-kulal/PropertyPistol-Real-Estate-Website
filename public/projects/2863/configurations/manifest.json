@@ -1,0 +1,113 @@
+{
+  "projectId": 2863,
+  "slug": "vakratund-paradise-park-badlapur-east-pid-2863",
+  "name": "Vakratund Paradise Park",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/vakratund-paradise-park-badlapur-east-pid-2863",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/2863/original/MASTER_PLAN.jpg?1573556355",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/1407/original/FP.jpg?1573556356",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 5233,
+          "bhk": "1 BHK",
+          "carpetArea": 388,
+          "carpetAreaDisplay": "388 sq.ft",
+          "builtUpArea": null,
+          "price": "25.22 Lacs",
+          "actualPrice": 2522000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/5233/original/1BHK.jpg?1573556355",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 5234,
+          "bhk": "2 BHK",
+          "carpetArea": 591,
+          "carpetAreaDisplay": "591 sq.ft",
+          "builtUpArea": null,
+          "price": "38.41 Lacs",
+          "actualPrice": 3841000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/5234/original/2BHK.jpg?1573556355",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 25461,
+          "bhk": "3 BHK",
+          "carpetArea": 851,
+          "carpetAreaDisplay": "851 sq.ft",
+          "builtUpArea": null,
+          "price": "55.31 Lacs",
+          "actualPrice": 5531000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "388 sq.ft",
+      "price": "25.22 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "591 sq.ft",
+      "price": "38.41 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "851 sq.ft",
+      "price": "55.31 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "projectId": 3452,
+  "slug": "northern-hill",
+  "name": "Northern Hill",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/northern-hill-dahisar-east-pid-3452",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit"
+  ],
+  "masterPlans": [],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 10579,
+          "bhk": "2 BHK",
+          "carpetArea": 623,
+          "carpetAreaDisplay": "623 sq.ft",
+          "builtUpArea": null,
+          "price": "2.05 Cr",
+          "actualPrice": 20500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/10579/original/2bhk624sqft.jpg?1617266333",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 10580,
+          "bhk": "2 BHK",
+          "carpetArea": 702,
+          "carpetAreaDisplay": "702 sq.ft",
+          "builtUpArea": null,
+          "price": "2.5 Cr",
+          "actualPrice": 25000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/10580/original/3bhk1035sqft.jpg?1617266333",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 10568,
+          "bhk": "3 BHK",
+          "carpetArea": 1024,
+          "carpetAreaDisplay": "1024 sq.ft",
+          "builtUpArea": null,
+          "price": "3.65 Cr",
+          "actualPrice": 36500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/10568/original/2bhk702sqft.jpg?1617266333",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 138243,
+          "bhk": "3 BHK",
+          "carpetArea": 1101,
+          "carpetAreaDisplay": "1101 sq.ft",
+          "builtUpArea": null,
+          "price": "3.92 Cr",
+          "actualPrice": 39200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "623 - 702 sq.ft",
+      "price": "2.05 Cr - 2.5 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,024 - 1,101 sq.ft",
+      "price": "3.65 Cr - 3.92 Cr"
+    }
+  ]
+}

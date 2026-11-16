@@ -1,0 +1,166 @@
+{
+  "projectId": 13080,
+  "slug": "joyville-hinjawadi-hinjawadi-pid-13080",
+  "name": "Joyville Hinjawadi",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/joyville-hinjawadi-hinjawadi-pid-13080",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/13080/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13080/original/Captureddee.PNG?1690457084"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/13080/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4245/original/Captureddd.PNG?1690457085"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/13080/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4246/original/Captureddfd.PNG?1690457085"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 132480,
+          "bhk": "1 BHK",
+          "carpetArea": 430,
+          "carpetAreaDisplay": "430 sq.ft",
+          "builtUpArea": null,
+          "price": "65.0 Lacs",
+          "actualPrice": 6500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 132482,
+          "bhk": "2 BHK",
+          "carpetArea": 589,
+          "carpetAreaDisplay": "589 sq.ft",
+          "builtUpArea": null,
+          "price": "75.0 Lacs",
+          "actualPrice": 7500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 110553,
+          "bhk": "2 BHK",
+          "carpetArea": 669,
+          "carpetAreaDisplay": "669 sq.ft",
+          "builtUpArea": null,
+          "price": "88.0 Lacs",
+          "actualPrice": 8800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 132481,
+          "bhk": "2 BHK",
+          "carpetArea": 726,
+          "carpetAreaDisplay": "726 sq.ft",
+          "builtUpArea": null,
+          "price": "89.0 Lacs",
+          "actualPrice": 8900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 110558,
+          "bhk": "3 BHK",
+          "carpetArea": 815,
+          "carpetAreaDisplay": "815 sq.ft",
+          "builtUpArea": null,
+          "price": "1.07 Cr",
+          "actualPrice": 10700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 132483,
+          "bhk": "3 BHK",
+          "carpetArea": 1043,
+          "carpetAreaDisplay": "1043 sq.ft",
+          "builtUpArea": null,
+          "price": "1.36 Cr",
+          "actualPrice": 13600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "430 sq.ft",
+      "price": "65.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "589 - 726 sq.ft",
+      "price": "75.0 Lacs - 89.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "815 - 1,043 sq.ft",
+      "price": "1.07 Cr - 1.36 Cr"
+    }
+  ]
+}

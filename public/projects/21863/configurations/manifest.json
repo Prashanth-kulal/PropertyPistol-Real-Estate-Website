@@ -1,0 +1,78 @@
+{
+  "projectId": 21863,
+  "slug": "karpagam-vaibhav-saravanampatti-pid-21863",
+  "name": "Karpagam Vaibhav",
+  "city": "coimbatore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/karpagam-vaibhav-saravanampatti-pid-21863",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21863/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9405/original/Karpagam-Vaibhav-Floor-plan-24.jpg?1780395755"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 135873,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1000,
+          "price": "65.0 Lacs",
+          "actualPrice": 6500000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/21863/configurations/unit-plans/2-bhk/variant-135873/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/135873/original/download.png?1780395749",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 135874,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1250,
+          "price": "81.25 Lacs",
+          "actualPrice": 8125000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/21863/configurations/unit-plans/3-bhk/variant-135874/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/135874/original/download_%281%29.png?1780395749",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "On Request",
+      "price": "65.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "81.25 Lacs"
+    }
+  ]
+}

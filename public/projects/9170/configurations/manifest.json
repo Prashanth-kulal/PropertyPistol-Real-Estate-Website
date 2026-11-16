@@ -1,0 +1,94 @@
+{
+  "projectId": 9170,
+  "slug": "balan-anu-smera-skylight-chembur-pid-9170",
+  "name": "Balan Anu Smera Skylight",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/balan-anu-smera-skylight-chembur-pid-9170",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2842/original/fp.png?1668769481",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 31821,
+          "bhk": "2 BHK",
+          "carpetArea": 750,
+          "carpetAreaDisplay": "750 sq.ft",
+          "builtUpArea": null,
+          "price": "3.0 Cr",
+          "actualPrice": 30000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 103365,
+          "bhk": "3 BHK",
+          "carpetArea": 1175,
+          "carpetAreaDisplay": "1175 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 103366,
+          "bhk": "3 BHK",
+          "carpetArea": 1305,
+          "carpetAreaDisplay": "1305 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "750 sq.ft",
+      "price": "3.0 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,175 - 1,305 sq.ft",
+      "price": "On Request"
+    }
+  ]
+}

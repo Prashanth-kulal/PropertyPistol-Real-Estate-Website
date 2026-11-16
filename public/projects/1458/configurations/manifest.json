@@ -1,0 +1,78 @@
+{
+  "projectId": 1458,
+  "slug": "sheth-irene-malad-west-pid-1458",
+  "name": "Sheth Irene",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sheth-irene-malad-west-pid-1458",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/1458/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/1815/original/fp-min-min.png?1600414300",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 8150,
+          "bhk": "1 BHK",
+          "carpetArea": 437,
+          "carpetAreaDisplay": "437 sq.ft",
+          "builtUpArea": null,
+          "price": "1.34 Cr",
+          "actualPrice": 13372200,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 8151,
+          "bhk": "2 BHK",
+          "carpetArea": 646,
+          "carpetAreaDisplay": "646 sq.ft",
+          "builtUpArea": null,
+          "price": "1.98 Cr",
+          "actualPrice": 19767600,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "437 sq.ft",
+      "price": "1.34 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "646 sq.ft",
+      "price": "1.98 Cr"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "projectId": 5087,
+  "slug": "samarth-serenity-ravet-pid-5087",
+  "name": "Samarth Serenity",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/samarth-serenity-ravet-pid-5087",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/5087/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3027/original/fp.png?1669702249"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 135472,
+          "bhk": "1 BHK",
+          "carpetArea": 400,
+          "carpetAreaDisplay": "400 sq.ft",
+          "builtUpArea": null,
+          "price": "32.25 Lacs",
+          "actualPrice": 3225000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 93440,
+          "bhk": "2 BHK",
+          "carpetArea": 526,
+          "carpetAreaDisplay": "526 sq.ft",
+          "builtUpArea": null,
+          "price": "40.33 Lacs",
+          "actualPrice": 4033000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 93441,
+          "bhk": "2 BHK",
+          "carpetArea": 552,
+          "carpetAreaDisplay": "552 sq.ft",
+          "builtUpArea": null,
+          "price": "46.93 Lacs",
+          "actualPrice": 4693000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "400 sq.ft",
+      "price": "32.25 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "526 - 552 sq.ft",
+      "price": "40.33 Lacs - 46.93 Lacs"
+    }
+  ]
+}

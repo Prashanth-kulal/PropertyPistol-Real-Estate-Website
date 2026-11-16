@@ -1,0 +1,119 @@
+{
+  "projectId": 19134,
+  "slug": "vora-icon-borivali-west-pid-19134",
+  "name": "Vora Icon",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/vora-icon-borivali-west-pid-19134",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19134/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19134/original/pixelcut-export_%2850%29.jpg?1739781209",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19134/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8410/original/IMG_20250701_105240.png?1751347373",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 100263,
+          "bhk": "2 BHK",
+          "carpetArea": 632,
+          "carpetAreaDisplay": "632 sq.ft",
+          "builtUpArea": null,
+          "price": "1.82 Cr",
+          "actualPrice": 18200000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19134/configurations/unit-plans/2-bhk/632-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/100263/original/2.png?1763101363",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 100264,
+          "bhk": "2 BHK",
+          "carpetArea": 706,
+          "carpetAreaDisplay": "706 sq.ft",
+          "builtUpArea": null,
+          "price": "2.03 Cr",
+          "actualPrice": 20300000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19134/configurations/unit-plans/2-bhk/706-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/100264/original/2.png?1763101363",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 100265,
+          "bhk": "2 BHK",
+          "carpetArea": 828,
+          "carpetAreaDisplay": "828 sq.ft",
+          "builtUpArea": null,
+          "price": "2.38 Cr",
+          "actualPrice": 23800000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19134/configurations/unit-plans/2-bhk/828-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/100265/original/2.png?1763101363",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 117410,
+          "bhk": "3 BHK",
+          "carpetArea": 1044,
+          "carpetAreaDisplay": "1044 sq.ft",
+          "builtUpArea": null,
+          "price": "3.01 Cr",
+          "actualPrice": 30100000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19134/configurations/unit-plans/3-bhk/1044-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/117410/original/3.png?1763101363",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "632 - 828 sq.ft",
+      "price": "1.82 Cr - 2.38 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,044 sq.ft",
+      "price": "3.01 Cr"
+    }
+  ]
+}

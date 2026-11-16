@@ -1,0 +1,104 @@
+{
+  "projectId": 12710,
+  "slug": "vtp-belair-mahalunge-pid-12710",
+  "name": "VTP Belair",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/vtp-belair-mahalunge-pid-12710",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/12710/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/12710/original/cf5cb706acc90ba.png?1687267501"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 39363,
+          "bhk": "2 BHK",
+          "carpetArea": 762,
+          "carpetAreaDisplay": "762 sq.ft",
+          "builtUpArea": null,
+          "price": "86.0 Lacs",
+          "actualPrice": 8600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 79800,
+          "bhk": "3 BHK",
+          "carpetArea": 1062,
+          "carpetAreaDisplay": "1062 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 79795,
+          "bhk": "4 BHK",
+          "carpetArea": 1793,
+          "carpetAreaDisplay": "1793 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "762 sq.ft",
+      "price": "86.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,062 sq.ft",
+      "price": "On Request"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,793 sq.ft",
+      "price": "On Request"
+    }
+  ]
+}

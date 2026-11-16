@@ -1,0 +1,68 @@
+{
+  "projectId": 1025,
+  "slug": "shanti-ratna-the-cennet-dombivali-east-pid-1025",
+  "name": "Shanti Ratna The Cennet",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shanti-ratna-the-cennet-dombivali-east-pid-1025",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/1025/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/1825/original/FP.PNG?1588242049",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 6816,
+          "bhk": "2 BHK",
+          "carpetArea": 679,
+          "carpetAreaDisplay": "679 sq.ft",
+          "builtUpArea": null,
+          "price": "82.0 Lacs",
+          "actualPrice": 8200000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/1025/configurations/unit-plans/2-bhk/679-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/6816/original/2.PNG?1764583727",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 134908,
+          "bhk": "2 BHK",
+          "carpetArea": 756,
+          "carpetAreaDisplay": "756 sq.ft",
+          "builtUpArea": null,
+          "price": "90.72 Lacs",
+          "actualPrice": 9072000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "679 - 756 sq.ft",
+      "price": "82.0 Lacs - 90.72 Lacs"
+    }
+  ]
+}

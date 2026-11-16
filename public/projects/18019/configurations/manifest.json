@@ -1,0 +1,78 @@
+{
+  "projectId": 18019,
+  "slug": "tg-heritage-kanakpura-road-pid-18019",
+  "name": "TG Heritage",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/tg-heritage-kanakpura-road-pid-18019",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18019/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18019/original/cf645a3314de550.jpeg?1751525227"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 87398,
+          "bhk": "1 BHK",
+          "carpetArea": 512,
+          "carpetAreaDisplay": "512 sq.ft",
+          "builtUpArea": null,
+          "price": "50.42 Lacs",
+          "actualPrice": 5042176,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 126270,
+          "bhk": "3 BHK",
+          "carpetArea": 987,
+          "carpetAreaDisplay": "987 sq.ft",
+          "builtUpArea": null,
+          "price": "97.2 Lacs",
+          "actualPrice": 9719976,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "512 sq.ft",
+      "price": "50.42 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "987 sq.ft",
+      "price": "97.2 Lacs"
+    }
+  ]
+}

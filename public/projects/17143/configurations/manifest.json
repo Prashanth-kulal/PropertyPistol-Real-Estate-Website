@@ -1,0 +1,158 @@
+{
+  "projectId": 17143,
+  "slug": "vivan-heights-chembur-pid-17143",
+  "name": "Vivan Heights",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/vivan-heights-chembur-pid-17143",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/17143/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6526/original/FP_vivan.png?1719490646",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 70442,
+          "bhk": "1 BHK",
+          "carpetArea": 380,
+          "carpetAreaDisplay": "380 sq.ft",
+          "builtUpArea": null,
+          "price": "95.0 Lacs",
+          "actualPrice": 9500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/17143/configurations/unit-plans/1-bhk/380-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/70442/original/1bhk_vivan.PNG?1719490644",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 94708,
+          "bhk": "1 BHK",
+          "carpetArea": 381,
+          "carpetAreaDisplay": "381 sq.ft",
+          "builtUpArea": null,
+          "price": "95.25 Lacs",
+          "actualPrice": 9525000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 94709,
+          "bhk": "1 BHK",
+          "carpetArea": 386,
+          "carpetAreaDisplay": "386 sq.ft",
+          "builtUpArea": null,
+          "price": "96.5 Lacs",
+          "actualPrice": 9650000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 94710,
+          "bhk": "1 BHK",
+          "carpetArea": 388,
+          "carpetAreaDisplay": "388 sq.ft",
+          "builtUpArea": null,
+          "price": "97.0 Lacs",
+          "actualPrice": 9700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 70443,
+          "bhk": "2 BHK",
+          "carpetArea": 590,
+          "carpetAreaDisplay": "590 sq.ft",
+          "builtUpArea": null,
+          "price": "1.48 Cr",
+          "actualPrice": 14800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/17143/configurations/unit-plans/2-bhk/590-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/70443/original/2bhk_vivan.PNG?1719490644",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 94711,
+          "bhk": "2 BHK",
+          "carpetArea": 603,
+          "carpetAreaDisplay": "603 sq.ft",
+          "builtUpArea": null,
+          "price": "1.51 Cr",
+          "actualPrice": 15100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 94712,
+          "bhk": "2 BHK",
+          "carpetArea": 619,
+          "carpetAreaDisplay": "619 sq.ft",
+          "builtUpArea": null,
+          "price": "1.55 Cr",
+          "actualPrice": 15500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "380 - 388 sq.ft",
+      "price": "95.0 Lacs - 97.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "590 - 619 sq.ft",
+      "price": "1.48 Cr - 1.55 Cr"
+    }
+  ]
+}

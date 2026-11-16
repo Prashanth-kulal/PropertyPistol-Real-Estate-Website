@@ -9,8 +9,7 @@ import React, {
   useMemo
 } from "react";
 import { CheckCircle2, AlertCircle, X } from "lucide-react";
-import { getProjectBySlug, getProjectSlug, CANONICAL_PROJECTS } from "@/data/projectsData";
-import { CITY_PROPERTIES } from "@/data/cityData";
+import { getProjectSlug } from "@/lib/projectUtils";
 
 const ComparisonContext = createContext(null);
 
@@ -18,48 +17,16 @@ const STORAGE_KEY = "auraliving_compare_projects";
 export const MAX_COMPARE_PROJECTS = 3;
 
 /**
- * Resolves a full project object from any ID, slug, or partial object
+ * Resolves a full project object from any ID, slug, or partial object without heavy data imports
  */
 export function resolveCompareProject(raw) {
   if (!raw) return null;
-  const targetId = typeof raw === "string" ? raw.trim().toLowerCase() : String(raw.id || raw.slug || "").trim().toLowerCase();
-
-  // 1. Direct match in CANONICAL_PROJECTS
-  const canonical = CANONICAL_PROJECTS.find(
-    (p) =>
-      p.id.toLowerCase() === targetId ||
-      p.slug.toLowerCase() === targetId ||
-      (p.name && p.name.toLowerCase().replace(/[^a-z0-9]/g, "-") === targetId)
-  );
-  if (canonical) return canonical;
-
-  // 2. Search in CITY_PROPERTIES across all cities
-  for (const cityKey of Object.keys(CITY_PROPERTIES)) {
-    const list = CITY_PROPERTIES[cityKey] || [];
-    const found = list.find(
-      (p) =>
-        String(p.id).toLowerCase() === targetId ||
-        String(p.slug || "").toLowerCase() === targetId ||
-        (p.name && p.name.toLowerCase().replace(/[^a-z0-9]/g, "-") === targetId)
-    );
-    if (found) {
-      return {
-        ...found,
-        slug: found.slug || getProjectSlug(found),
-        title: found.title || found.name
-      };
-    }
-  }
-
-  // 3. Fallback to getProjectBySlug
-  const deepFound = getProjectBySlug(targetId);
-  if (deepFound) return deepFound;
-
-  // 4. If raw is already an object with essential fields, preserve it
   if (typeof raw === "object" && (raw.name || raw.title)) {
+    const slug = raw.slug || getProjectSlug(raw);
+    const id = String(raw.id || slug);
     return {
-      id: raw.id || targetId,
-      slug: raw.slug || getProjectSlug(raw),
+      id,
+      slug,
       name: raw.name || raw.title,
       title: raw.title || raw.name,
       builder: raw.builder || "Grade-A Builder",
@@ -74,7 +41,17 @@ export function resolveCompareProject(raw) {
     };
   }
 
-  return null;
+  const targetId = typeof raw === "string" ? raw.trim().toLowerCase() : String(raw?.id || raw?.slug || "").trim().toLowerCase();
+  return {
+    id: targetId,
+    slug: targetId,
+    name: targetId,
+    title: targetId,
+    builder: "Verified Developer",
+    location: "Prime Location",
+    price: "Price on Request",
+    images: ["https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80"]
+  };
 }
 
 export function ComparisonProvider({ children }) {

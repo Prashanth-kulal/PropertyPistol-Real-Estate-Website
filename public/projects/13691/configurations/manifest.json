@@ -1,0 +1,77 @@
+{
+  "projectId": 13691,
+  "slug": "aarav-subhash-residency-titwala-pid-13691",
+  "name": "Aarav Subhash Residency ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/aarav-subhash-residency-titwala-pid-13691",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13691/original/mp.png?1741686085",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4396/original/fp.png?1741686086",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 42299,
+          "bhk": "1 BHK",
+          "carpetArea": 322,
+          "carpetAreaDisplay": "322 sq.ft",
+          "builtUpArea": null,
+          "price": "27.12 Lacs",
+          "actualPrice": 2712000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/42299/original/1b.PNG?1741686085",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/42299/original/1bb.PNG?1741686086",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 134873,
+          "bhk": "1 BHK",
+          "carpetArea": 380,
+          "carpetAreaDisplay": "380 sq.ft",
+          "builtUpArea": null,
+          "price": "32.0 Lacs",
+          "actualPrice": 3200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "322 - 380 sq.ft",
+      "price": "27.12 Lacs - 32.0 Lacs"
+    }
+  ]
+}

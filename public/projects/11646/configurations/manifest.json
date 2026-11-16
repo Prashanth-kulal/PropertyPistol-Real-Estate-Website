@@ -1,0 +1,78 @@
+{
+  "projectId": 11646,
+  "slug": "today-anandam-2",
+  "name": "Today Anandam 2",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/today-anandam-2-kharghar-pid-11646",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/11646/original/images_%2819%29.jpeg?1689941788",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 116235,
+          "bhk": "1 BHK",
+          "carpetArea": 456,
+          "carpetAreaDisplay": "456 sq.ft",
+          "builtUpArea": null,
+          "price": "68.25 Lacs",
+          "actualPrice": 6824952,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 116238,
+          "bhk": "2 BHK",
+          "carpetArea": 695,
+          "carpetAreaDisplay": "695 sq.ft",
+          "builtUpArea": null,
+          "price": "1.04 Cr",
+          "actualPrice": 10402065,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "456 sq.ft",
+      "price": "68.25 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "695 sq.ft",
+      "price": "1.04 Cr"
+    }
+  ]
+}

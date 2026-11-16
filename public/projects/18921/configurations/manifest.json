@@ -1,0 +1,120 @@
+{
+  "projectId": 18921,
+  "slug": "maitreya-orange-city-heights-kamptee-road-pid-18921",
+  "name": "Maitreya Orange City Heights",
+  "city": "nagpur",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/maitreya-orange-city-heights-kamptee-road-pid-18921",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18921/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7296/original/floorplan1.PNG?1734003919"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 96567,
+          "bhk": "1 BHK",
+          "carpetArea": 321,
+          "carpetAreaDisplay": "321 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/18921/configurations/unit-plans/1-bhk/321-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/96567/original/1bhk_3d.PNG?1734003914",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 96568,
+          "bhk": "2 BHK",
+          "carpetArea": 550,
+          "carpetAreaDisplay": "550 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/18921/configurations/unit-plans/2-bhk/550-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/96568/original/2bhk_3d.PNG?1734003915",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 96569,
+          "bhk": "2 BHK",
+          "carpetArea": 642,
+          "carpetAreaDisplay": "642 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 96570,
+          "bhk": "3 BHK",
+          "carpetArea": 676,
+          "carpetAreaDisplay": "676 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/18921/configurations/unit-plans/3-bhk/676-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/96570/original/3bhk_3d.PNG?1734003915",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "321 sq.ft",
+      "price": "On Request"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "550 - 642 sq.ft",
+      "price": "On Request"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "676 sq.ft",
+      "price": "On Request"
+    }
+  ]
+}

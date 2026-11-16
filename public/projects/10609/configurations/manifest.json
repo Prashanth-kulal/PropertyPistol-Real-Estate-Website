@@ -1,0 +1,87 @@
+{
+  "projectId": 10609,
+  "slug": "nms-one8one-ulwe-pid-10609",
+  "name": "NMS One8One",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/nms-one8one-ulwe-pid-10609",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/10609/original/mp.png?1670932268",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3185/original/fp.JPG?1670932269",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 130568,
+          "bhk": "2 BHK",
+          "carpetArea": 688,
+          "carpetAreaDisplay": "688 sq.ft",
+          "builtUpArea": null,
+          "price": "1.13 Cr",
+          "actualPrice": 11287328,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 130571,
+          "bhk": "3 BHK",
+          "carpetArea": 976,
+          "carpetAreaDisplay": "976 sq.ft",
+          "builtUpArea": null,
+          "price": "1.6 Cr",
+          "actualPrice": 16012256,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "688 sq.ft",
+      "price": "1.13 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "976 sq.ft",
+      "price": "1.6 Cr"
+    }
+  ]
+}

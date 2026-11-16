@@ -1,0 +1,120 @@
+{
+  "projectId": 21500,
+  "slug": "raj-legacy-satyam-mira-road-east-pid-21500",
+  "name": "Raj Legacy Satyam",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/raj-legacy-satyam-mira-road-east-pid-21500",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/21500/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/21500/original/mpplge.png?1771998650",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21500/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9230/original/m_fpp-.png?1771998650",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/21500/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9231/original/download_%287%29.png?1771998651",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 133140,
+          "bhk": "1 BHK",
+          "carpetArea": 438,
+          "carpetAreaDisplay": "438 sq.ft",
+          "builtUpArea": null,
+          "price": "87.0 Lacs",
+          "actualPrice": 8700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 139899,
+          "bhk": "2 BHK",
+          "carpetArea": 644,
+          "carpetAreaDisplay": "644 sq.ft",
+          "builtUpArea": null,
+          "price": "1.21 Cr",
+          "actualPrice": 12100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 139900,
+          "bhk": "3 BHK",
+          "carpetArea": 807,
+          "carpetAreaDisplay": "807 sq.ft",
+          "builtUpArea": null,
+          "price": "1.6 Cr",
+          "actualPrice": 16000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "438 sq.ft",
+      "price": "87.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "644 sq.ft",
+      "price": "1.21 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "807 sq.ft",
+      "price": "1.6 Cr"
+    }
+  ]
+}

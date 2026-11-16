@@ -1,0 +1,126 @@
+{
+  "projectId": 8576,
+  "slug": "omkaar-solitaire",
+  "name": "Omkaar Solitaire",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/omkaar-solitaire-vikhroli-east-pid-8576",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6056/original/fpCapture.PNG?1711097704",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 30396,
+          "bhk": "1 BHK",
+          "carpetArea": 379,
+          "carpetAreaDisplay": "379 sq.ft",
+          "builtUpArea": null,
+          "price": "96.48 Lacs",
+          "actualPrice": 9648000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/30396/original/1b.PNG?1711097703",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 111509,
+          "bhk": "1 BHK",
+          "carpetArea": 411,
+          "carpetAreaDisplay": "411 sq.ft",
+          "builtUpArea": null,
+          "price": "1.05 Cr",
+          "actualPrice": 10500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 138371,
+          "bhk": "1 BHK",
+          "carpetArea": 423,
+          "carpetAreaDisplay": "423 sq.ft",
+          "builtUpArea": null,
+          "price": "1.08 Cr",
+          "actualPrice": 10800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 30398,
+          "bhk": "2 BHK",
+          "carpetArea": 565,
+          "carpetAreaDisplay": "565 sq.ft",
+          "builtUpArea": null,
+          "price": "1.44 Cr",
+          "actualPrice": 14400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/30398/original/2b.PNG?1711097704",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 138372,
+          "bhk": "2 BHK",
+          "carpetArea": 575,
+          "carpetAreaDisplay": "575 sq.ft",
+          "builtUpArea": null,
+          "price": "1.55 Cr",
+          "actualPrice": 15500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "379 - 423 sq.ft",
+      "price": "96.48 Lacs - 1.08 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "565 - 575 sq.ft",
+      "price": "1.44 Cr - 1.55 Cr"
+    }
+  ]
+}

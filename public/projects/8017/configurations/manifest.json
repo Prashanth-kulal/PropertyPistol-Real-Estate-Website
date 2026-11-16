@@ -1,0 +1,94 @@
+{
+  "projectId": 8017,
+  "slug": "sairama-autograph",
+  "name": "Sairama Autograph",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sairama-autograph-panvel-pid-8017",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3260/original/fp.JPG?1671184474",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 124448,
+          "bhk": "2 BHK",
+          "carpetArea": 518,
+          "carpetAreaDisplay": "518 sq.ft",
+          "builtUpArea": null,
+          "price": "1.04 Cr",
+          "actualPrice": 10400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 124447,
+          "bhk": "2 BHK",
+          "carpetArea": 605,
+          "carpetAreaDisplay": "605 sq.ft",
+          "builtUpArea": null,
+          "price": "1.21 Cr",
+          "actualPrice": 12100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 124452,
+          "bhk": "3 BHK",
+          "carpetArea": 727,
+          "carpetAreaDisplay": "727 sq.ft",
+          "builtUpArea": null,
+          "price": "1.46 Cr",
+          "actualPrice": 14600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "518 - 605 sq.ft",
+      "price": "1.04 Cr - 1.21 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "727 sq.ft",
+      "price": "1.46 Cr"
+    }
+  ]
+}

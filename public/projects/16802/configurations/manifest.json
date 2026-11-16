@@ -1,0 +1,94 @@
+{
+  "projectId": 16802,
+  "slug": "runwal-garden-city-dombivali-east-pid-16802",
+  "name": "Runwal Garden City",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/runwal-garden-city-dombivali-east-pid-16802",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16802/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16802/original/mp.png?1749191348",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 102333,
+          "bhk": "1 BHK",
+          "carpetArea": 356,
+          "carpetAreaDisplay": "356 sq.ft",
+          "builtUpArea": null,
+          "price": "53.1 Lacs",
+          "actualPrice": 5310000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 119766,
+          "bhk": "2 BHK",
+          "carpetArea": 534,
+          "carpetAreaDisplay": "534 sq.ft",
+          "builtUpArea": null,
+          "price": "80.1 Lacs",
+          "actualPrice": 8010000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140281,
+          "bhk": "2 BHK",
+          "carpetArea": 568,
+          "carpetAreaDisplay": "568 sq.ft",
+          "builtUpArea": null,
+          "price": "85.2 Lacs",
+          "actualPrice": 8520000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "356 sq.ft",
+      "price": "53.1 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "534 - 568 sq.ft",
+      "price": "80.1 Lacs - 85.2 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "projectId": 18318,
+  "slug": "uma-the-nature-titwala-pid-18318",
+  "name": "Uma The Nature",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/uma-the-nature-titwala-pid-18318",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18318/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18318/original/download_%282%29.png?1747985994",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18318/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8130/original/fpp.png?1747985995",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 98618,
+          "bhk": "1 BHK",
+          "carpetArea": 398,
+          "carpetAreaDisplay": "398 sq.ft",
+          "builtUpArea": null,
+          "price": "25.81 Lacs",
+          "actualPrice": 2581000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/18318/configurations/unit-plans/1-bhk/398-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/98618/original/1bhk_natu.png?1747985995",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 106251,
+          "bhk": "2 BHK",
+          "carpetArea": 567,
+          "carpetAreaDisplay": "567 sq.ft",
+          "builtUpArea": null,
+          "price": "36.97 Lacs",
+          "actualPrice": 3697000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/18318/configurations/unit-plans/2-bhk/567-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/106251/original/2.png?1747985994",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "398 sq.ft",
+      "price": "25.81 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "567 sq.ft",
+      "price": "36.97 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "projectId": 19151,
+  "slug": "209-hadapsar-hadapsar-pid-19151",
+  "name": "209 Hadapsar",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/209-hadapsar-hadapsar-pid-19151",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19151/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19151/original/pixelcut-export_%2863%29.jpg?1739801042"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 100353,
+          "bhk": "2 BHK",
+          "carpetArea": 732,
+          "carpetAreaDisplay": "732 sq.ft",
+          "builtUpArea": null,
+          "price": "89.5 Lacs",
+          "actualPrice": 8950000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19151/configurations/unit-plans/2-bhk/732-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/100353/original/1000249633-Picsart-AiImageEnhancer.jpg.png?1751268053",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 100354,
+          "bhk": "3 BHK",
+          "carpetArea": 1070,
+          "carpetAreaDisplay": "1070 sq.ft",
+          "builtUpArea": null,
+          "price": "1.3 Cr",
+          "actualPrice": 13000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19151/configurations/unit-plans/3-bhk/1070-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/100354/original/1000249634-Picsart-AiImageEnhancer.jpg.png?1751268053",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "732 sq.ft",
+      "price": "89.5 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,070 sq.ft",
+      "price": "1.3 Cr"
+    }
+  ]
+}

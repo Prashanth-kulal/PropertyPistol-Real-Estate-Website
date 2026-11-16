@@ -1,0 +1,86 @@
+{
+  "projectId": 10921,
+  "slug": "sukhwani-sepia-tathawade-pid-10921",
+  "name": "Sukhwani Sepia",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sukhwani-sepia-tathawade-pid-10921",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/10921/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/10921/original/mp.jpg?1672916277"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/10921/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3517/original/2.jpg?1672916278"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 134079,
+          "bhk": "2 BHK",
+          "carpetArea": 692,
+          "carpetAreaDisplay": "692 sq.ft",
+          "builtUpArea": null,
+          "price": "99.8 Lacs",
+          "actualPrice": 9980000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 134081,
+          "bhk": "3 BHK",
+          "carpetArea": 1048,
+          "carpetAreaDisplay": "1048 sq.ft",
+          "builtUpArea": null,
+          "price": "1.4 Cr",
+          "actualPrice": 14000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "692 sq.ft",
+      "price": "99.8 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,048 sq.ft",
+      "price": "1.4 Cr"
+    }
+  ]
+}

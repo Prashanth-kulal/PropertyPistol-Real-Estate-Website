@@ -1,0 +1,85 @@
+{
+  "projectId": 14523,
+  "slug": "madina-complex-neral-pid-14523",
+  "name": "Madina Complex",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/madina-complex-neral-pid-14523",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5094/original/floorplan1.JPG?1700660805",
+      "downloaded": false
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5095/original/floorplan2.JPG?1700660805",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 131490,
+          "bhk": "1 BHK",
+          "carpetArea": 590,
+          "carpetAreaDisplay": "590 sq.ft",
+          "builtUpArea": null,
+          "price": "17.0 Lacs",
+          "actualPrice": 1700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 127527,
+          "bhk": "2 BHK",
+          "carpetArea": 770,
+          "carpetAreaDisplay": "770 sq.ft",
+          "builtUpArea": null,
+          "price": "24.0 Lacs",
+          "actualPrice": 2400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "590 sq.ft",
+      "price": "17.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "770 sq.ft",
+      "price": "24.0 Lacs"
+    }
+  ]
+}

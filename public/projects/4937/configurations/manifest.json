@@ -1,0 +1,102 @@
+{
+  "projectId": 4937,
+  "slug": "purva-silversands-keshav-nagar-pid-4937",
+  "name": "Purva Silversands",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/purva-silversands-keshav-nagar-pid-4937",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/4937/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/4937/original/mp.png?1669449855"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/4937/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2985/original/fp.png?1669449856"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 108225,
+          "bhk": "2 BHK",
+          "carpetArea": 910,
+          "carpetAreaDisplay": "910 sq.ft",
+          "builtUpArea": null,
+          "price": "94.0 Lacs",
+          "actualPrice": 9400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 138046,
+          "bhk": "2 BHK",
+          "carpetArea": 1126,
+          "carpetAreaDisplay": "1126 sq.ft",
+          "builtUpArea": null,
+          "price": "1.17 Cr",
+          "actualPrice": 11700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 138047,
+          "bhk": "3 BHK",
+          "carpetArea": 1350,
+          "carpetAreaDisplay": "1350 sq.ft",
+          "builtUpArea": null,
+          "price": "1.76 Cr",
+          "actualPrice": 17600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "910 - 1,126 sq.ft",
+      "price": "94.0 Lacs - 1.17 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,350 sq.ft",
+      "price": "1.76 Cr"
+    }
+  ]
+}

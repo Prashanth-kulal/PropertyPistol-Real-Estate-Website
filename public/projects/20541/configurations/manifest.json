@@ -1,0 +1,106 @@
+{
+  "projectId": 20541,
+  "slug": "century-tower-ulwe-pid-20541",
+  "name": "Century Tower",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/century-tower-ulwe-pid-20541",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20541/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8769/original/gp-cen.png?1754999139",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/20541/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8770/original/fp-cen.png?1754999139",
+      "downloaded": true
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/20541/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8771/original/sp-cen.png?1754999140",
+      "downloaded": true
+    },
+    {
+      "id": 4,
+      "title": "Layout / Site Plan 4",
+      "path": "/projects/20541/configurations/site-plans/site-plan-04.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8772/original/fpce.png?1754999140",
+      "downloaded": true
+    },
+    {
+      "id": 5,
+      "title": "Layout / Site Plan 5",
+      "path": "/projects/20541/configurations/site-plans/site-plan-05.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8773/original/fp-2.png?1754999140",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 123222,
+          "bhk": "1 BHK",
+          "carpetArea": 488,
+          "carpetAreaDisplay": "488 sq.ft",
+          "builtUpArea": null,
+          "price": "54.86 Lacs",
+          "actualPrice": 5486096,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 123223,
+          "bhk": "2 BHK",
+          "carpetArea": 861,
+          "carpetAreaDisplay": "861 sq.ft",
+          "builtUpArea": null,
+          "price": "96.79 Lacs",
+          "actualPrice": 9679362,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "488 sq.ft",
+      "price": "54.86 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "861 sq.ft",
+      "price": "96.79 Lacs"
+    }
+  ]
+}

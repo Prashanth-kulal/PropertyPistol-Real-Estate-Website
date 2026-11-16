@@ -1,0 +1,135 @@
+{
+  "projectId": 3741,
+  "slug": "the-canvas-residences",
+  "name": "The Canvas Residences",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/the-canvas-residences-sewri-pid-3741",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/3741/original/fp.jpg?1607335112",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/1965/original/floor_plan.jpg?1607335112",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 8680,
+          "bhk": "2 BHK",
+          "carpetArea": 617,
+          "carpetAreaDisplay": "617 sq.ft",
+          "builtUpArea": null,
+          "price": "2.65 Cr",
+          "actualPrice": 26500000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/8680/original/2bhk.PNG?1607335112",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 136574,
+          "bhk": "2 BHK",
+          "carpetArea": 662,
+          "carpetAreaDisplay": "662 sq.ft",
+          "builtUpArea": null,
+          "price": "2.84 Cr",
+          "actualPrice": 28400000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 136575,
+          "bhk": "2 BHK",
+          "carpetArea": 666,
+          "carpetAreaDisplay": "666 sq.ft",
+          "builtUpArea": null,
+          "price": "2.86 Cr",
+          "actualPrice": 28600000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 135006,
+          "bhk": "3 BHK",
+          "carpetArea": 850,
+          "carpetAreaDisplay": "850 sq.ft",
+          "builtUpArea": null,
+          "price": "3.65 Cr",
+          "actualPrice": 36500000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139585,
+          "bhk": "3 BHK",
+          "carpetArea": 878,
+          "carpetAreaDisplay": "878 sq.ft",
+          "builtUpArea": null,
+          "price": "3.77 Cr",
+          "actualPrice": 37700000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "617 - 666 sq.ft",
+      "price": "2.65 Cr - 2.86 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "850 - 878 sq.ft",
+      "price": "3.65 Cr - 3.77 Cr"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "projectId": 19092,
+  "slug": "shraddha-palacious-bhandup-west-pid-19092",
+  "name": "Shraddha Palacious",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shraddha-palacious-bhandup-west-pid-19092",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19092/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19092/original/images.jpeg?1738758297",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19092/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7362/original/images_%281%29.jpeg?1754049589",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 99766,
+          "bhk": "1 BHK",
+          "carpetArea": 410,
+          "carpetAreaDisplay": "410 sq.ft",
+          "builtUpArea": null,
+          "price": "1.02 Cr",
+          "actualPrice": 10200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 111274,
+          "bhk": "2 BHK",
+          "carpetArea": 571,
+          "carpetAreaDisplay": "571 sq.ft",
+          "builtUpArea": null,
+          "price": "1.41 Cr",
+          "actualPrice": 14100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "410 sq.ft",
+      "price": "1.02 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "571 sq.ft",
+      "price": "1.41 Cr"
+    }
+  ]
+}

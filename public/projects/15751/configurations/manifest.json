@@ -1,0 +1,96 @@
+{
+  "projectId": 15751,
+  "slug": "saakshi-parvatara-ravet-pid-15751",
+  "name": "Saakshi Parvatara",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/saakshi-parvatara-ravet-pid-15751",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/15751/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5597/original/floorplan1.JPG?1708511139"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/15751/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5598/original/floorplan2.JPG?1708511139"
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/15751/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5599/original/floorplan3.JPG?1708511139"
+    },
+    {
+      "id": 4,
+      "title": "Layout / Site Plan 4",
+      "path": "/projects/15751/configurations/site-plans/site-plan-04.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5600/original/groundfloor.JPG?1708511139"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 52432,
+          "bhk": "2 BHK",
+          "carpetArea": 830,
+          "carpetAreaDisplay": "830 sq.ft",
+          "builtUpArea": null,
+          "price": "78.0 Lacs",
+          "actualPrice": 7800000,
+          "propertyType": "Flat",
+          "plan2D": "/projects/15751/configurations/unit-plans/2-bhk/830-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/52432/original/2bhk_2d2.JPG?1708511138",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 52434,
+          "bhk": "3 BHK",
+          "carpetArea": 1032,
+          "carpetAreaDisplay": "1032 sq.ft",
+          "builtUpArea": null,
+          "price": "93.0 Lacs",
+          "actualPrice": 9300000,
+          "propertyType": "Flat",
+          "plan2D": "/projects/15751/configurations/unit-plans/3-bhk/1032-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/52434/original/3bhk_2d3.JPG?1708511138",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "830 sq.ft",
+      "price": "78.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,032 sq.ft",
+      "price": "93.0 Lacs"
+    }
+  ]
+}

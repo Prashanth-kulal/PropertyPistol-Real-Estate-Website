@@ -1,0 +1,103 @@
+{
+  "projectId": 13404,
+  "slug": "sainath-om-raja-bhandup-west-pid-13404",
+  "name": "Sainath Om Raja",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sainath-om-raja-bhandup-west-pid-13404",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13404/original/pixelcut-export_-_2025-01-17T155727.252.jpg?1737109765",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7313/original/pixelcut-export_-_2025-01-17T155838.796.jpg?1737109766",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 41450,
+          "bhk": "1 BHK",
+          "carpetArea": 368,
+          "carpetAreaDisplay": "368 sq.ft",
+          "builtUpArea": null,
+          "price": "84.46 Lacs",
+          "actualPrice": 8446000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 41451,
+          "bhk": "1 BHK",
+          "carpetArea": 379,
+          "carpetAreaDisplay": "379 sq.ft",
+          "builtUpArea": null,
+          "price": "87.08 Lacs",
+          "actualPrice": 8708000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 57848,
+          "bhk": "2 BHK",
+          "carpetArea": 445,
+          "carpetAreaDisplay": "445 sq.ft",
+          "builtUpArea": null,
+          "price": "1.02 Cr",
+          "actualPrice": 10200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "368 - 379 sq.ft",
+      "price": "84.46 Lacs - 87.08 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "445 sq.ft",
+      "price": "1.02 Cr"
+    }
+  ]
+}

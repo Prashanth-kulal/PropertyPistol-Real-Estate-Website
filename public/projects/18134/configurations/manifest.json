@@ -1,0 +1,78 @@
+{
+  "projectId": 18134,
+  "slug": "shreeji-infinity-kharghar-pid-18134",
+  "name": "Shreeji Infinity",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shreeji-infinity-kharghar-pid-18134",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18134/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8025/original/fp.png?1747474615",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 98342,
+          "bhk": "2 BHK",
+          "carpetArea": 759,
+          "carpetAreaDisplay": "759 sq.ft",
+          "builtUpArea": null,
+          "price": "1.36 Cr",
+          "actualPrice": 13599003,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 93601,
+          "bhk": "3 BHK",
+          "carpetArea": 1254,
+          "carpetAreaDisplay": "1254 sq.ft",
+          "builtUpArea": null,
+          "price": "2.25 Cr",
+          "actualPrice": 22467918,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "759 sq.ft",
+      "price": "1.36 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,254 sq.ft",
+      "price": "2.25 Cr"
+    }
+  ]
+}

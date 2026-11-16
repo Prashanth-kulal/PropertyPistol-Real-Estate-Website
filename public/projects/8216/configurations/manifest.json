@@ -1,0 +1,168 @@
+{
+  "projectId": 8216,
+  "slug": "atmosphere-o2-tower-g",
+  "name": "Atmosphere O2 Tower G",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/atmosphere-o2-tower-g-mulund-west-pid-8216",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/8216/original/download_%284%29.png?1794034411",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9825/original/download_%285%29.png?1794034412",
+      "downloaded": false
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9826/original/download_%286%29.png?1794034413",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 28007,
+          "bhk": "1 BHK",
+          "carpetArea": 647,
+          "carpetAreaDisplay": "647 sq.ft",
+          "builtUpArea": null,
+          "price": "1.6 Cr",
+          "actualPrice": 16000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 57153,
+          "bhk": "2 BHK",
+          "carpetArea": 670,
+          "carpetAreaDisplay": "670 sq.ft",
+          "builtUpArea": null,
+          "price": "1.96 Cr",
+          "actualPrice": 19600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140054,
+          "bhk": "2 BHK",
+          "carpetArea": 726,
+          "carpetAreaDisplay": "726 sq.ft",
+          "builtUpArea": null,
+          "price": "2.12 Cr",
+          "actualPrice": 21200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140055,
+          "bhk": "2 BHK",
+          "carpetArea": 781,
+          "carpetAreaDisplay": "781 sq.ft",
+          "builtUpArea": null,
+          "price": "2.28 Cr",
+          "actualPrice": 22800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 140056,
+          "bhk": "3 BHK",
+          "carpetArea": 975,
+          "carpetAreaDisplay": "975 sq.ft",
+          "builtUpArea": null,
+          "price": "3.41 Cr",
+          "actualPrice": 34100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140057,
+          "bhk": "3 BHK",
+          "carpetArea": 992,
+          "carpetAreaDisplay": "992 sq.ft",
+          "builtUpArea": null,
+          "price": "3.47 Cr",
+          "actualPrice": 34700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "647 sq.ft",
+      "price": "1.6 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "670 - 781 sq.ft",
+      "price": "1.96 Cr - 2.28 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "975 - 992 sq.ft",
+      "price": "3.41 Cr - 3.47 Cr"
+    }
+  ]
+}

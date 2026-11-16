@@ -1,0 +1,100 @@
+{
+  "projectId": 18596,
+  "slug": "rachana-purva-friends-colony-pid-18596",
+  "name": "Rachana Purva",
+  "city": "nagpur",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/rachana-purva-friends-colony-pid-18596",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18596/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7153/original/floorplan1.PNG?1731434736"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/18596/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7154/original/floorplan2.PNG?1731434736"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 92666,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1145,
+          "price": "58.97 Lacs",
+          "actualPrice": 5897000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": "/projects/18596/configurations/unit-plans/2-bhk/variant-92666/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/92666/original/2bhk_3d.PNG?1731434734",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 92667,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1492,
+          "price": "76.84 Lacs",
+          "actualPrice": 7684000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": "/projects/18596/configurations/unit-plans/3-bhk/variant-92667/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/92667/original/3bhk_3d.PNG?1731434734",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 92668,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1726,
+          "price": "88.89 Lacs",
+          "actualPrice": 8889000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "On Request",
+      "price": "58.97 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "76.84 Lacs - 88.89 Lacs"
+    }
+  ]
+}

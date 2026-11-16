@@ -1,0 +1,94 @@
+{
+  "projectId": 2710,
+  "slug": "neelsidhi-anexo",
+  "name": "Neelsidhi Anexo",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/neelsidhi-anexo-ghansoli-pid-2710",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/1347/original/fp.jpg?1572070235",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 4970,
+          "bhk": "1 BHK",
+          "carpetArea": 292,
+          "carpetAreaDisplay": "292 sq.ft",
+          "builtUpArea": null,
+          "price": "82.36 Lacs",
+          "actualPrice": 8236000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 88452,
+          "bhk": "1 BHK",
+          "carpetArea": 444,
+          "carpetAreaDisplay": "444 sq.ft",
+          "builtUpArea": null,
+          "price": "1.25 Cr",
+          "actualPrice": 12500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 88453,
+          "bhk": "2 BHK",
+          "carpetArea": 678,
+          "carpetAreaDisplay": "678 sq.ft",
+          "builtUpArea": null,
+          "price": "1.91 Cr",
+          "actualPrice": 19100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "292 - 444 sq.ft",
+      "price": "82.36 Lacs - 1.25 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "678 sq.ft",
+      "price": "1.91 Cr"
+    }
+  ]
+}

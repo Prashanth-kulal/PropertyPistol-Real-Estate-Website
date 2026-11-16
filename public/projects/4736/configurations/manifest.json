@@ -1,0 +1,78 @@
+{
+  "projectId": 4736,
+  "slug": "metropolis-insignia-towers",
+  "name": "Metropolis Insignia Towers",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/metropolis-insignia-towers-kasarvadavali-pid-4736",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2862/original/fp.png?1668847939",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 62267,
+          "bhk": "1 BHK",
+          "carpetArea": 497,
+          "carpetAreaDisplay": "497 sq.ft",
+          "builtUpArea": null,
+          "price": "70.8 Lacs",
+          "actualPrice": 7080000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 100242,
+          "bhk": "2 BHK",
+          "carpetArea": 650,
+          "carpetAreaDisplay": "650 sq.ft",
+          "builtUpArea": null,
+          "price": "92.6 Lacs",
+          "actualPrice": 9260000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "497 sq.ft",
+      "price": "70.8 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "650 sq.ft",
+      "price": "92.6 Lacs"
+    }
+  ]
+}

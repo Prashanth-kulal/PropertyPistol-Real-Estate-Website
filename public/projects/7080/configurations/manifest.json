@@ -1,0 +1,150 @@
+{
+  "projectId": 7080,
+  "slug": "austin-county-tathawade-pid-7080",
+  "name": "Austin County",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/austin-county-tathawade-pid-7080",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/7080/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/7080/original/mp.jpg?1672309659"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/7080/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2569/original/plan-304-3.jpg?1638856139"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 134637,
+          "bhk": "2 BHK",
+          "carpetArea": 700,
+          "carpetAreaDisplay": "700 sq.ft",
+          "builtUpArea": null,
+          "price": "81.67 Lacs",
+          "actualPrice": 8167000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 134636,
+          "bhk": "2 BHK",
+          "carpetArea": 904,
+          "carpetAreaDisplay": "904 sq.ft",
+          "builtUpArea": null,
+          "price": "1.06 Cr",
+          "actualPrice": 10600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 134638,
+          "bhk": "3 BHK",
+          "carpetArea": 844,
+          "carpetAreaDisplay": "844 sq.ft",
+          "builtUpArea": null,
+          "price": "98.54 Lacs",
+          "actualPrice": 9854000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 134641,
+          "bhk": "3 BHK",
+          "carpetArea": 850,
+          "carpetAreaDisplay": "850 sq.ft",
+          "builtUpArea": null,
+          "price": "99.17 Lacs",
+          "actualPrice": 9917000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 134642,
+          "bhk": "3 BHK",
+          "carpetArea": 958,
+          "carpetAreaDisplay": "958 sq.ft",
+          "builtUpArea": null,
+          "price": "1.12 Cr",
+          "actualPrice": 11200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 134640,
+          "bhk": "3 BHK",
+          "carpetArea": 993,
+          "carpetAreaDisplay": "993 sq.ft",
+          "builtUpArea": null,
+          "price": "1.09 Cr",
+          "actualPrice": 10900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "700 - 904 sq.ft",
+      "price": "81.67 Lacs - 1.06 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "844 - 993 sq.ft",
+      "price": "98.54 Lacs - 1.12 Cr"
+    }
+  ]
+}

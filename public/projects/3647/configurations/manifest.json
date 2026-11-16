@@ -1,0 +1,129 @@
+{
+  "projectId": 3647,
+  "slug": "westcenter-meridian-courts",
+  "name": "Westcenter Meridian Courts",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/westcenter-meridian-courts-kandivali-west-pid-3647",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/3647/original/mpp1.png?1771844240",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9217/original/fp-2.png?1771844240",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 62866,
+          "bhk": "2 BHK",
+          "carpetArea": 562,
+          "carpetAreaDisplay": "562 sq.ft",
+          "builtUpArea": null,
+          "price": "1.95 Cr",
+          "actualPrice": 19500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 137088,
+          "bhk": "2 BHK",
+          "carpetArea": 719,
+          "carpetAreaDisplay": "719 sq.ft",
+          "builtUpArea": null,
+          "price": "2.5 Cr",
+          "actualPrice": 25000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 138237,
+          "bhk": "3 BHK",
+          "carpetArea": 959,
+          "carpetAreaDisplay": "959 sq.ft",
+          "builtUpArea": null,
+          "price": "3.33 Cr",
+          "actualPrice": 33300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 139985,
+          "bhk": "4 BHK",
+          "carpetArea": 1455,
+          "carpetAreaDisplay": "1455 sq.ft",
+          "builtUpArea": null,
+          "price": "5.05 Cr",
+          "actualPrice": 50500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "562 - 719 sq.ft",
+      "price": "1.95 Cr - 2.5 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "959 sq.ft",
+      "price": "3.33 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,455 sq.ft",
+      "price": "5.05 Cr"
+    }
+  ]
+}

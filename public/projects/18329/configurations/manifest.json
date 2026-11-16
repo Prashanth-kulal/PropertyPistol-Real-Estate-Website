@@ -1,0 +1,103 @@
+{
+  "projectId": 18329,
+  "slug": "dosti-willow-balkum-pid-18329",
+  "name": "Dosti Willow",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/dosti-willow-balkum-pid-18329",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18329/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18329/original/mp.png?1737694721",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18329/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7018/original/fp_%281%29.jpg?1737694723",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 90396,
+          "bhk": "2 BHK",
+          "carpetArea": 833,
+          "carpetAreaDisplay": "833 sq.ft",
+          "builtUpArea": null,
+          "price": "1.82 Cr",
+          "actualPrice": 18200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 98974,
+          "bhk": "3 BHK",
+          "carpetArea": 1264,
+          "carpetAreaDisplay": "1264 sq.ft",
+          "builtUpArea": null,
+          "price": "2.76 Cr",
+          "actualPrice": 27600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140162,
+          "bhk": "3 BHK",
+          "carpetArea": 1275,
+          "carpetAreaDisplay": "1275 sq.ft",
+          "builtUpArea": null,
+          "price": "2.79 Cr",
+          "actualPrice": 27900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "833 sq.ft",
+      "price": "1.82 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,264 - 1,275 sq.ft",
+      "price": "2.76 Cr - 2.79 Cr"
+    }
+  ]
+}

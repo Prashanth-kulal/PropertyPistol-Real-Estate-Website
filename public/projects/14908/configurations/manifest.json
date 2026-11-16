@@ -1,0 +1,87 @@
+{
+  "projectId": 14908,
+  "slug": "shreeji-greens-badlapur-west-pid-14908",
+  "name": "Shreeji Greens",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shreeji-greens-badlapur-west-pid-14908",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/14908/original/Screenshot_2023-12-15-12-51-00-24_40deb401b9ffe8e1df2f1cc5ba480b12.jpg?1702625022",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5183/original/Screenshot_2023-12-15-12-51-25-90_40deb401b9ffe8e1df2f1cc5ba480b12.jpg?1702625023",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 46889,
+          "bhk": "1 BHK",
+          "carpetArea": 615,
+          "carpetAreaDisplay": "615 sq.ft",
+          "builtUpArea": null,
+          "price": "29.6 Lacs",
+          "actualPrice": 2960000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 93473,
+          "bhk": "2 BHK",
+          "carpetArea": 885,
+          "carpetAreaDisplay": "885 sq.ft",
+          "builtUpArea": null,
+          "price": "42.5 Lacs",
+          "actualPrice": 4250000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "615 sq.ft",
+      "price": "29.6 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "885 sq.ft",
+      "price": "42.5 Lacs"
+    }
+  ]
+}

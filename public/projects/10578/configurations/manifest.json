@@ -1,0 +1,126 @@
+{
+  "projectId": 10578,
+  "slug": "peninsula-address-one-gahunje-pid-10578",
+  "name": "Peninsula Address One",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/peninsula-address-one-gahunje-pid-10578",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/10578/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/10578/original/mp.png?1738585916"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 120688,
+          "bhk": "1 BHK",
+          "carpetArea": 275,
+          "carpetAreaDisplay": "275 sq.ft",
+          "builtUpArea": null,
+          "price": "28.41 Lacs",
+          "actualPrice": 2841000,
+          "propertyType": "Studio",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 120689,
+          "bhk": "1 BHK",
+          "carpetArea": 288,
+          "carpetAreaDisplay": "288 sq.ft",
+          "builtUpArea": null,
+          "price": "29.75 Lacs",
+          "actualPrice": 2975000,
+          "propertyType": "Studio",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 120690,
+          "bhk": "1 BHK",
+          "carpetArea": 395,
+          "carpetAreaDisplay": "395 sq.ft",
+          "builtUpArea": null,
+          "price": "40.0 Lacs",
+          "actualPrice": 4000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 120691,
+          "bhk": "2 BHK",
+          "carpetArea": 475,
+          "carpetAreaDisplay": "475 sq.ft",
+          "builtUpArea": null,
+          "price": "47.98 Lacs",
+          "actualPrice": 4798000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 120692,
+          "bhk": "2 BHK",
+          "carpetArea": 580,
+          "carpetAreaDisplay": "580 sq.ft",
+          "builtUpArea": null,
+          "price": "58.59 Lacs",
+          "actualPrice": 5859000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "275 - 395 sq.ft",
+      "price": "28.41 Lacs - 40.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "475 - 580 sq.ft",
+      "price": "47.98 Lacs - 58.59 Lacs"
+    }
+  ]
+}

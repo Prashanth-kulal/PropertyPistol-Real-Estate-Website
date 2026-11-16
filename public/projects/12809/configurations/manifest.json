@@ -1,0 +1,78 @@
+{
+  "projectId": 12809,
+  "slug": "livience-aleenta-pashan-pid-12809",
+  "name": "Livience Aleenta",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/livience-aleenta-pashan-pid-12809",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/12809/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4104/original/IMG_20230704_135137.png?1688458909"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 83390,
+          "bhk": "3 BHK",
+          "carpetArea": 1438,
+          "carpetAreaDisplay": "1438 sq.ft",
+          "builtUpArea": null,
+          "price": "3.05 Cr",
+          "actualPrice": 30500000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 83389,
+          "bhk": "4 BHK",
+          "carpetArea": 2200,
+          "carpetAreaDisplay": "2200 sq.ft",
+          "builtUpArea": null,
+          "price": "4.05 Cr",
+          "actualPrice": 40500000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,438 sq.ft",
+      "price": "3.05 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,200 sq.ft",
+      "price": "4.05 Cr"
+    }
+  ]
+}

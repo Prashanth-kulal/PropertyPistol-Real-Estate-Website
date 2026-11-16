@@ -1,0 +1,78 @@
+{
+  "projectId": 20813,
+  "slug": "44-west-seawoods-pid-20813",
+  "name": "44 West",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/44-west-seawoods-pid-20813",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20813/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9160/original/fp.png?1767335342",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 126938,
+          "bhk": "2 BHK",
+          "carpetArea": 621,
+          "carpetAreaDisplay": "621 sq.ft",
+          "builtUpArea": null,
+          "price": "1.29 Cr",
+          "actualPrice": 12937293,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 126939,
+          "bhk": "3 BHK",
+          "carpetArea": 936,
+          "carpetAreaDisplay": "936 sq.ft",
+          "builtUpArea": null,
+          "price": "1.95 Cr",
+          "actualPrice": 19499688,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "621 sq.ft",
+      "price": "1.29 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "936 sq.ft",
+      "price": "1.95 Cr"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "projectId": 8450,
+  "slug": "itrend-life-city-plus-hinjawadi-pid-8450",
+  "name": "ITrend life City Plus",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/itrend-life-city-plus-hinjawadi-pid-8450",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/8450/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/8450/original/mpp.png?1657704116"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 71013,
+          "bhk": "2 BHK",
+          "carpetArea": 747,
+          "carpetAreaDisplay": "747 sq.ft",
+          "builtUpArea": null,
+          "price": "68.0 Lacs",
+          "actualPrice": 6800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 139080,
+          "bhk": "3 BHK",
+          "carpetArea": 975,
+          "carpetAreaDisplay": "975 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139081,
+          "bhk": "3 BHK",
+          "carpetArea": 975,
+          "carpetAreaDisplay": "975 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "747 sq.ft",
+      "price": "68.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "975 sq.ft",
+      "price": "On Request"
+    }
+  ]
+}

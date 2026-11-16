@@ -1,0 +1,110 @@
+{
+  "projectId": 7838,
+  "slug": "dev-drashti-empire-bhiwandi-pid-7838",
+  "name": "Dev Drashti Empire ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/dev-drashti-empire-bhiwandi-pid-7838",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3398/original/fp.png?1672120718",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 29203,
+          "bhk": "1 BHK",
+          "carpetArea": 690,
+          "carpetAreaDisplay": "690 sq.ft",
+          "builtUpArea": null,
+          "price": "37.95 Lacs",
+          "actualPrice": 3795000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/29203/original/1b.JPG?1672120718",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 29204,
+          "bhk": "1 BHK",
+          "carpetArea": 795,
+          "carpetAreaDisplay": "795 sq.ft",
+          "builtUpArea": null,
+          "price": "43.73 Lacs",
+          "actualPrice": 4373000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/29204/original/1b.JPG?1672120718",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 29206,
+          "bhk": "2 BHK",
+          "carpetArea": 1045,
+          "carpetAreaDisplay": "1045 sq.ft",
+          "builtUpArea": null,
+          "price": "57.48 Lacs",
+          "actualPrice": 5748000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/29206/original/2.JPG?1672120718",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 29209,
+          "bhk": "2 BHK",
+          "carpetArea": 1085,
+          "carpetAreaDisplay": "1085 sq.ft",
+          "builtUpArea": null,
+          "price": "59.67 Lacs",
+          "actualPrice": 5967000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/29209/original/2.JPG?1672120718",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "690 - 795 sq.ft",
+      "price": "37.95 Lacs - 43.73 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "1,045 - 1,085 sq.ft",
+      "price": "57.48 Lacs - 59.67 Lacs"
+    }
+  ]
+}

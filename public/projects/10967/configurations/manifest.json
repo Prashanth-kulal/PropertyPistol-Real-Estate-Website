@@ -1,0 +1,86 @@
+{
+  "projectId": 10967,
+  "slug": "ganga-arcadia-kharadi-pid-10967",
+  "name": "Ganga Arcadia",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ganga-arcadia-kharadi-pid-10967",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/10967/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/10967/original/mp_%281%29.jpg?1753771059"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/10967/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3550/original/fp.JPG?1673437878"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 91128,
+          "bhk": "2 BHK",
+          "carpetArea": 822,
+          "carpetAreaDisplay": "822 sq.ft",
+          "builtUpArea": null,
+          "price": "1.4 Cr",
+          "actualPrice": 14000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 85818,
+          "bhk": "3 BHK",
+          "carpetArea": 1152,
+          "carpetAreaDisplay": "1152 sq.ft",
+          "builtUpArea": null,
+          "price": "1.85 Cr",
+          "actualPrice": 18500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "822 sq.ft",
+      "price": "1.4 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,152 sq.ft",
+      "price": "1.85 Cr"
+    }
+  ]
+}

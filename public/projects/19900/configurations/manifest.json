@@ -1,0 +1,110 @@
+{
+  "projectId": 19900,
+  "slug": "kolte-patil-qrious-hinjawadi-pid-19900",
+  "name": "Kolte Patil Qrious",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/kolte-patil-qrious-hinjawadi-pid-19900",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19900/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19900/original/qu-mp.PNG?1748324978"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 114453,
+          "bhk": "2 BHK",
+          "carpetArea": 796,
+          "carpetAreaDisplay": "796 sq.ft",
+          "builtUpArea": null,
+          "price": "72.87 Lacs",
+          "actualPrice": 7287380,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 134245,
+          "bhk": "2 BHK",
+          "carpetArea": 800,
+          "carpetAreaDisplay": "800 sq.ft",
+          "builtUpArea": null,
+          "price": "87.4 Lacs",
+          "actualPrice": 8740000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 134246,
+          "bhk": "3 BHK",
+          "carpetArea": 1212,
+          "carpetAreaDisplay": "1212 sq.ft",
+          "builtUpArea": null,
+          "price": "1.32 Cr",
+          "actualPrice": 13241100,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 114454,
+          "bhk": "3 BHK",
+          "carpetArea": 1213,
+          "carpetAreaDisplay": "1213 sq.ft",
+          "builtUpArea": null,
+          "price": "1.11 Cr",
+          "actualPrice": 11105015,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "796 - 800 sq.ft",
+      "price": "72.87 Lacs - 87.4 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,212 - 1,213 sq.ft",
+      "price": "1.11 Cr - 1.32 Cr"
+    }
+  ]
+}

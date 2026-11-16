@@ -1,0 +1,110 @@
+{
+  "projectId": 18302,
+  "slug": "villa-heritage-dronagiri-pid-18302",
+  "name": "Villa Heritage",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/villa-heritage-dronagiri-pid-18302",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18302/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9059/original/Capture.PNG?1764936537",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 90198,
+          "bhk": "1 BHK",
+          "carpetArea": 360,
+          "carpetAreaDisplay": "360 sq.ft",
+          "builtUpArea": null,
+          "price": "42.0 Lacs",
+          "actualPrice": 4200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 90199,
+          "bhk": "1 BHK",
+          "carpetArea": 397,
+          "carpetAreaDisplay": "397 sq.ft",
+          "builtUpArea": null,
+          "price": "54.0 Lacs",
+          "actualPrice": 5400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 90200,
+          "bhk": "2 BHK",
+          "carpetArea": 470,
+          "carpetAreaDisplay": "470 sq.ft",
+          "builtUpArea": null,
+          "price": "67.0 Lacs",
+          "actualPrice": 6700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 98978,
+          "bhk": "2 BHK",
+          "carpetArea": 635,
+          "carpetAreaDisplay": "635 sq.ft",
+          "builtUpArea": null,
+          "price": "67.99 Lacs",
+          "actualPrice": 6799000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "360 - 397 sq.ft",
+      "price": "42.0 Lacs - 54.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "470 - 635 sq.ft",
+      "price": "67.0 Lacs - 67.99 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "projectId": 5722,
+  "slug": "arvind-bel-air-yelahanka-pid-5722",
+  "name": "Arvind Bel Air",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/arvind-bel-air-yelahanka-pid-5722",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/5722/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/5722/original/mp.png?1713180424"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/5722/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6094/original/fp.png?1713180425"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 18224,
+          "bhk": "2 BHK",
+          "carpetArea": 751,
+          "carpetAreaDisplay": "751 sq.ft",
+          "builtUpArea": null,
+          "price": "1.1 Cr",
+          "actualPrice": 11000000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2.5 BHK",
+      "variants": [
+        {
+          "id": 95487,
+          "bhk": "2.5 BHK",
+          "carpetArea": 915,
+          "carpetAreaDisplay": "915 sq.ft",
+          "builtUpArea": null,
+          "price": "1.32 Cr",
+          "actualPrice": 13200000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 95488,
+          "bhk": "2.5 BHK",
+          "carpetArea": 958,
+          "carpetAreaDisplay": "958 sq.ft",
+          "builtUpArea": null,
+          "price": "1.42 Cr",
+          "actualPrice": 14200000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 95489,
+          "bhk": "3 BHK",
+          "carpetArea": 1024,
+          "carpetAreaDisplay": "1024 sq.ft",
+          "builtUpArea": null,
+          "price": "1.57 Cr",
+          "actualPrice": 15700000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "751 sq.ft",
+      "price": "1.1 Cr"
+    },
+    {
+      "flat_type_name": "2.5 BHK",
+      "carpet_area": "915 - 958 sq.ft",
+      "price": "1.32 Cr - 1.42 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,024 sq.ft",
+      "price": "1.57 Cr"
+    }
+  ]
+}

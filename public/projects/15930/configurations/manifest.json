@@ -1,0 +1,126 @@
+{
+  "projectId": 15930,
+  "slug": "parshwa-greens-dudulgaon-pid-15930",
+  "name": "Parshwa Greens",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/parshwa-greens-dudulgaon-pid-15930",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/15930/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/15930/original/masterplan.JPG?1709720869"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 96518,
+          "bhk": "2 BHK",
+          "carpetArea": 651,
+          "carpetAreaDisplay": "651 sq.ft",
+          "builtUpArea": null,
+          "price": "46.54 Lacs",
+          "actualPrice": 4654000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 96519,
+          "bhk": "2 BHK",
+          "carpetArea": 712,
+          "carpetAreaDisplay": "712 sq.ft",
+          "builtUpArea": null,
+          "price": "52.78 Lacs",
+          "actualPrice": 5278000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 53794,
+          "bhk": "3 BHK",
+          "carpetArea": 848,
+          "carpetAreaDisplay": "848 sq.ft",
+          "builtUpArea": null,
+          "price": "59.46 Lacs",
+          "actualPrice": 5946000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/15930/configurations/unit-plans/3-bhk/848-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/53794/original/3bhk_2d2.JPG?1709720869",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 53793,
+          "bhk": "3 BHK",
+          "carpetArea": 884,
+          "carpetAreaDisplay": "884 sq.ft",
+          "builtUpArea": null,
+          "price": "62.0 Lacs",
+          "actualPrice": 6200000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/15930/configurations/unit-plans/3-bhk/884-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/53793/original/3bhk_2d1.JPG?1709720869",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 109263,
+          "bhk": "3 BHK",
+          "carpetArea": 919,
+          "carpetAreaDisplay": "919 sq.ft",
+          "builtUpArea": null,
+          "price": "64.44 Lacs",
+          "actualPrice": 6444000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "651 - 712 sq.ft",
+      "price": "46.54 Lacs - 52.78 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "848 - 919 sq.ft",
+      "price": "59.46 Lacs - 64.44 Lacs"
+    }
+  ]
+}

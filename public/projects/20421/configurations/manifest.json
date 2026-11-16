@@ -1,0 +1,78 @@
+{
+  "projectId": 20421,
+  "slug": "imperia-aspireville-sector-22d-greater-noida-pid-20421",
+  "name": "Imperia Aspireville",
+  "city": "noida",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/imperia-aspireville-sector-22d-greater-noida-pid-20421",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/20421/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/20421/original/download_%2857%29.png?1766831384"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 121459,
+          "bhk": "3 BHK",
+          "carpetArea": 1400,
+          "carpetAreaDisplay": "1400 sq.ft",
+          "builtUpArea": null,
+          "price": "1.26 Cr",
+          "actualPrice": 12600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 121460,
+          "bhk": "4 BHK",
+          "carpetArea": 1500,
+          "carpetAreaDisplay": "1500 sq.ft",
+          "builtUpArea": null,
+          "price": "1.35 Cr",
+          "actualPrice": 13500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,400 sq.ft",
+      "price": "1.26 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,500 sq.ft",
+      "price": "1.35 Cr"
+    }
+  ]
+}

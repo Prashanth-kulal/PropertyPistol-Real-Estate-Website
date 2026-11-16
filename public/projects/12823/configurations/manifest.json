@@ -1,0 +1,110 @@
+{
+  "projectId": 12823,
+  "slug": "kohinoor-sportsville-hinjawadi-pid-12823",
+  "name": "Kohinoor Sportsville",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/kohinoor-sportsville-hinjawadi-pid-12823",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/12823/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/12823/original/cf620b369d7629b.jpeg?1688714046"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 39705,
+          "bhk": "2 BHK",
+          "carpetArea": 479,
+          "carpetAreaDisplay": "479 sq.ft",
+          "builtUpArea": null,
+          "price": "62.28 Lacs",
+          "actualPrice": 6228000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/12823/configurations/unit-plans/2-bhk/479-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/39705/original/2b.PNG?1764915452",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 135185,
+          "bhk": "2 BHK",
+          "carpetArea": 724,
+          "carpetAreaDisplay": "724 sq.ft",
+          "builtUpArea": null,
+          "price": "94.12 Lacs",
+          "actualPrice": 9412000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 138036,
+          "bhk": "3 BHK",
+          "carpetArea": 864,
+          "carpetAreaDisplay": "864 sq.ft",
+          "builtUpArea": null,
+          "price": "1.12 Cr",
+          "actualPrice": 11200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 138037,
+          "bhk": "3 BHK",
+          "carpetArea": 897,
+          "carpetAreaDisplay": "897 sq.ft",
+          "builtUpArea": null,
+          "price": "1.17 Cr",
+          "actualPrice": 11700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "479 - 724 sq.ft",
+      "price": "62.28 Lacs - 94.12 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "864 - 897 sq.ft",
+      "price": "1.12 Cr - 1.17 Cr"
+    }
+  ]
+}

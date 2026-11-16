@@ -1,0 +1,109 @@
+{
+  "projectId": 2553,
+  "slug": "kalpana-astrova",
+  "name": "Kalpana Astrova",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/kalpana-astrova-panvel-pid-2553",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/2553/original/mp.png?1751615663",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2997/original/fp.png?1751615663",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 45427,
+          "bhk": "1 BHK",
+          "carpetArea": 213,
+          "carpetAreaDisplay": "213 sq.ft",
+          "builtUpArea": null,
+          "price": "38.21 Lacs",
+          "actualPrice": 3821000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139163,
+          "bhk": "1 BHK",
+          "carpetArea": 250,
+          "carpetAreaDisplay": "250 sq.ft",
+          "builtUpArea": null,
+          "price": "44.69 Lacs",
+          "actualPrice": 4469000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139164,
+          "bhk": "1 BHK",
+          "carpetArea": 279,
+          "carpetAreaDisplay": "279 sq.ft",
+          "builtUpArea": null,
+          "price": "50.02 Lacs",
+          "actualPrice": 5002000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139165,
+          "bhk": "1 BHK",
+          "carpetArea": 289,
+          "carpetAreaDisplay": "289 sq.ft",
+          "builtUpArea": null,
+          "price": "51.77 Lacs",
+          "actualPrice": 5177000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "213 - 289 sq.ft",
+      "price": "38.21 Lacs - 51.77 Lacs"
+    }
+  ]
+}

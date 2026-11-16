@@ -1,0 +1,119 @@
+{
+  "projectId": 10491,
+  "slug": "balaji-residency-2-dombivali-east-pid-10491",
+  "name": "Balaji Residency 2",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/balaji-residency-2-dombivali-east-pid-10491",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/10491/original/mp.JPG?1670235011",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7301/original/fp-2.jpg?1734949495",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 34849,
+          "bhk": "1 BHK",
+          "carpetArea": 410,
+          "carpetAreaDisplay": "410 sq.ft",
+          "builtUpArea": null,
+          "price": "55.52 Lacs",
+          "actualPrice": 5552000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/34849/original/1.JPG?1670235011",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 60630,
+          "bhk": "1 BHK",
+          "carpetArea": 439,
+          "carpetAreaDisplay": "439 sq.ft",
+          "builtUpArea": null,
+          "price": "59.31 Lacs",
+          "actualPrice": 5931000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 34850,
+          "bhk": "2 BHK",
+          "carpetArea": 583,
+          "carpetAreaDisplay": "583 sq.ft",
+          "builtUpArea": null,
+          "price": "75.74 Lacs",
+          "actualPrice": 7574000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/34850/original/2.JPG?1670235011",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139499,
+          "bhk": "2 BHK",
+          "carpetArea": 756,
+          "carpetAreaDisplay": "756 sq.ft",
+          "builtUpArea": null,
+          "price": "98.05 Lacs",
+          "actualPrice": 9805000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "410 - 439 sq.ft",
+      "price": "55.52 Lacs - 59.31 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "583 - 756 sq.ft",
+      "price": "75.74 Lacs - 98.05 Lacs"
+    }
+  ]
+}

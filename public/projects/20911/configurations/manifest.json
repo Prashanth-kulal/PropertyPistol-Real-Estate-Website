@@ -1,0 +1,78 @@
+{
+  "projectId": 20911,
+  "slug": "tritonia-man-mandir-bhayandar-east-pid-20911",
+  "name": "Tritonia Man Mandir",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/tritonia-man-mandir-bhayandar-east-pid-20911",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20911/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9738/original/download.png?1791540012",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 127163,
+          "bhk": "1 BHK",
+          "carpetArea": 335,
+          "carpetAreaDisplay": "335 sq.ft",
+          "builtUpArea": null,
+          "price": "45.53 Lacs",
+          "actualPrice": 4552650,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 127164,
+          "bhk": "2 BHK",
+          "carpetArea": 492,
+          "carpetAreaDisplay": "492 sq.ft",
+          "builtUpArea": null,
+          "price": "66.86 Lacs",
+          "actualPrice": 6686280,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "335 sq.ft",
+      "price": "45.53 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "492 sq.ft",
+      "price": "66.86 Lacs"
+    }
+  ]
+}

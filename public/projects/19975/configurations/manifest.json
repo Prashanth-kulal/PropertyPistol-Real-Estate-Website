@@ -1,0 +1,60 @@
+{
+  "projectId": 19975,
+  "slug": "trifecta-retto-doddakannelli-pid-19975",
+  "name": "Trifecta Retto",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/trifecta-retto-doddakannelli-pid-19975",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19975/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19975/original/masternew.png?1750226760"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19975/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8332/original/floor1new.png?1750226761"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 116082,
+          "bhk": "3 BHK",
+          "carpetArea": 710,
+          "carpetAreaDisplay": "710 sq.ft",
+          "builtUpArea": null,
+          "price": "81.38 Lacs",
+          "actualPrice": 8138020,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "710 sq.ft",
+      "price": "81.38 Lacs"
+    }
+  ]
+}

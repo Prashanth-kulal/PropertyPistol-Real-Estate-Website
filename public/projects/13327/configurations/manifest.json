@@ -1,0 +1,84 @@
+{
+  "projectId": 13327,
+  "slug": "nakoda-castle-gate-chikhali-pid-13327",
+  "name": "Nakoda Castle Gate ",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/nakoda-castle-gate-chikhali-pid-13327",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/13327/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6066/original/floorplan1.JPG?1711541544"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/13327/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6067/original/floorplan2.JPG?1711541544"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 78916,
+          "bhk": "1 BHK",
+          "carpetArea": 364,
+          "carpetAreaDisplay": "364 sq.ft",
+          "builtUpArea": null,
+          "price": "30.25 Lacs",
+          "actualPrice": 3025000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 136291,
+          "bhk": "2 BHK",
+          "carpetArea": 686,
+          "carpetAreaDisplay": "686 sq.ft",
+          "builtUpArea": null,
+          "price": "57.0 Lacs",
+          "actualPrice": 5700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "364 sq.ft",
+      "price": "30.25 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "686 sq.ft",
+      "price": "57.0 Lacs"
+    }
+  ]
+}

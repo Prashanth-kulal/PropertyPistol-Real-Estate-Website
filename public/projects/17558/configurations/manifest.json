@@ -1,0 +1,94 @@
+{
+  "projectId": 17558,
+  "slug": "satyam-niranjani-hadapsar-pid-17558",
+  "name": "Satyam Niranjani",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/satyam-niranjani-hadapsar-pid-17558",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/17558/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/17558/original/595363bac004d.jpeg?1721993878"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 75218,
+          "bhk": "1 BHK",
+          "carpetArea": 610,
+          "carpetAreaDisplay": "610 sq.ft",
+          "builtUpArea": null,
+          "price": "33.6 Lacs",
+          "actualPrice": 3360000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 109075,
+          "bhk": "1 BHK",
+          "carpetArea": 655,
+          "carpetAreaDisplay": "655 sq.ft",
+          "builtUpArea": null,
+          "price": "40.0 Lacs",
+          "actualPrice": 4000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 75220,
+          "bhk": "2 BHK",
+          "carpetArea": 932,
+          "carpetAreaDisplay": "932 sq.ft",
+          "builtUpArea": null,
+          "price": "42.5 Lacs",
+          "actualPrice": 4250000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "610 - 655 sq.ft",
+      "price": "33.6 Lacs - 40.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "932 sq.ft",
+      "price": "42.5 Lacs"
+    }
+  ]
+}

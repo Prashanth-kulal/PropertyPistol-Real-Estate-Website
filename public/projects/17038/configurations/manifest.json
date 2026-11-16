@@ -1,0 +1,136 @@
+{
+  "projectId": 17038,
+  "slug": "majestique-aravali-warje-pid-17038",
+  "name": "Majestique Aravali",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/majestique-aravali-warje-pid-17038",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/17038/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6471/original/floorplan1.JPG?1718705204"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 68934,
+          "bhk": "2 BHK",
+          "carpetArea": 777,
+          "carpetAreaDisplay": "777 sq.ft",
+          "builtUpArea": null,
+          "price": "97.9 Lacs",
+          "actualPrice": 9790000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/17038/configurations/unit-plans/2-bhk/777-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/68934/original/2bhk_2d1.JPG?1718705204",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 139101,
+          "bhk": "2 BHK",
+          "carpetArea": 801,
+          "carpetAreaDisplay": "801 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 68935,
+          "bhk": "3 BHK",
+          "carpetArea": 1073,
+          "carpetAreaDisplay": "1073 sq.ft",
+          "builtUpArea": null,
+          "price": "1.35 Cr",
+          "actualPrice": 13500000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/17038/configurations/unit-plans/3-bhk/1073-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/68935/original/3bhk_2d1.JPG?1718705204",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 139102,
+          "bhk": "3 BHK",
+          "carpetArea": 1140,
+          "carpetAreaDisplay": "1140 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 139103,
+          "bhk": "4 BHK",
+          "carpetArea": 1586,
+          "carpetAreaDisplay": "1586 sq.ft",
+          "builtUpArea": null,
+          "price": "1.82 Cr",
+          "actualPrice": 18200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "777 - 801 sq.ft",
+      "price": "97.9 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,073 - 1,140 sq.ft",
+      "price": "1.35 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,586 sq.ft",
+      "price": "1.82 Cr"
+    }
+  ]
+}

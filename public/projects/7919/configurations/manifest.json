@@ -1,0 +1,110 @@
+{
+  "projectId": 7919,
+  "slug": "nexus-park-diva-east-pid-7919",
+  "name": "Nexus Park",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/nexus-park-diva-east-pid-7919",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2637/original/fp.jpg?1646386571",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 25305,
+          "bhk": "1 BHK",
+          "carpetArea": 619,
+          "carpetAreaDisplay": "619 sq.ft",
+          "builtUpArea": null,
+          "price": "30.68 Lacs",
+          "actualPrice": 3068000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 114510,
+          "bhk": "1 BHK",
+          "carpetArea": 709,
+          "carpetAreaDisplay": "709 sq.ft",
+          "builtUpArea": null,
+          "price": "35.15 Lacs",
+          "actualPrice": 3515000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 88907,
+          "bhk": "1 BHK",
+          "carpetArea": 715,
+          "carpetAreaDisplay": "715 sq.ft",
+          "builtUpArea": null,
+          "price": "35.44 Lacs",
+          "actualPrice": 3544000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 138909,
+          "bhk": "2 BHK",
+          "carpetArea": 936,
+          "carpetAreaDisplay": "936 sq.ft",
+          "builtUpArea": null,
+          "price": "46.4 Lacs",
+          "actualPrice": 4640000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "619 - 715 sq.ft",
+      "price": "30.68 Lacs - 35.44 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "936 sq.ft",
+      "price": "46.4 Lacs"
+    }
+  ]
+}

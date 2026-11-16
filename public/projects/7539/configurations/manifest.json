@@ -1,0 +1,103 @@
+{
+  "projectId": 7539,
+  "slug": "arihant-6-anaika",
+  "name": "Arihant 6 Anaika",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/arihant-6-anaika-taloja-pid-7539",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/7539/original/mp.png?1739188159",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7370/original/fp.png?1739188160",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 22518,
+          "bhk": "1 BHK",
+          "carpetArea": 346,
+          "carpetAreaDisplay": "346 sq.ft",
+          "builtUpArea": null,
+          "price": "33.06 Lacs",
+          "actualPrice": 3306000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/22518/original/1b.PNG?1739188159",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 56037,
+          "bhk": "2 BHK",
+          "carpetArea": 513,
+          "carpetAreaDisplay": "513 sq.ft",
+          "builtUpArea": null,
+          "price": "49.06 Lacs",
+          "actualPrice": 4906000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/56037/original/2b.PNG?1739188159",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 126848,
+          "bhk": "2 BHK",
+          "carpetArea": 1115,
+          "carpetAreaDisplay": "1115 sq.ft",
+          "builtUpArea": null,
+          "price": "1.06 Cr",
+          "actualPrice": 10600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "346 sq.ft",
+      "price": "33.06 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "513 - 1,115 sq.ft",
+      "price": "49.06 Lacs - 1.06 Cr"
+    }
+  ]
+}

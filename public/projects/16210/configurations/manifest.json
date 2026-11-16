@@ -1,0 +1,136 @@
+{
+  "projectId": 16210,
+  "slug": "dhananjay-hill-view",
+  "name": "Dhananjay Hill View ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/dhananjay-hill-view-nala-sopara-west-pid-16210",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16210/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6161/original/fp.PNG?1714463784",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 60165,
+          "bhk": "1 BHK",
+          "carpetArea": 276,
+          "carpetAreaDisplay": "276 sq.ft",
+          "builtUpArea": null,
+          "price": "26.44 Lacs",
+          "actualPrice": 2644000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 99389,
+          "bhk": "1 BHK",
+          "carpetArea": 303,
+          "carpetAreaDisplay": "303 sq.ft",
+          "builtUpArea": null,
+          "price": "29.04 Lacs",
+          "actualPrice": 2904000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 60166,
+          "bhk": "2 BHK",
+          "carpetArea": 303,
+          "carpetAreaDisplay": "303 sq.ft",
+          "builtUpArea": null,
+          "price": "40.42 Lacs",
+          "actualPrice": 4042000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": "/projects/16210/configurations/unit-plans/2-bhk/303-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/60166/original/2.PNG?1714463784",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 125954,
+          "bhk": "2 BHK",
+          "carpetArea": 543,
+          "carpetAreaDisplay": "543 sq.ft",
+          "builtUpArea": null,
+          "price": "52.0 Lacs",
+          "actualPrice": 5200000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 60164,
+          "bhk": "3 BHK",
+          "carpetArea": 566,
+          "carpetAreaDisplay": "566 sq.ft",
+          "builtUpArea": null,
+          "price": "54.22 Lacs",
+          "actualPrice": 5422000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": "/projects/16210/configurations/unit-plans/3-bhk/566-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/60164/original/1b.PNG?1714463783",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "276 - 303 sq.ft",
+      "price": "26.44 Lacs - 29.04 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "303 - 543 sq.ft",
+      "price": "40.42 Lacs - 52.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "566 sq.ft",
+      "price": "54.22 Lacs"
+    }
+  ]
+}

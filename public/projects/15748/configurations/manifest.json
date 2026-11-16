@@ -1,0 +1,120 @@
+{
+  "projectId": 15748,
+  "slug": "anp-autograph-punawale-pid-15748",
+  "name": "Anp Autograph",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/anp-autograph-punawale-pid-15748",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/15748/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/15748/original/download_%2840%29.png?1763452217"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 134417,
+          "bhk": "2 BHK",
+          "carpetArea": 846,
+          "carpetAreaDisplay": "846 sq.ft",
+          "builtUpArea": null,
+          "price": "96.44 Lacs",
+          "actualPrice": 9644400,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 107115,
+          "bhk": "3 BHK",
+          "carpetArea": 1150,
+          "carpetAreaDisplay": "1150 sq.ft",
+          "builtUpArea": null,
+          "price": "1.31 Cr",
+          "actualPrice": 13110000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 101524,
+          "bhk": "3 BHK",
+          "carpetArea": 1246,
+          "carpetAreaDisplay": "1246 sq.ft",
+          "builtUpArea": null,
+          "price": "1.42 Cr",
+          "actualPrice": 14204400,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 134418,
+          "bhk": "4 BHK",
+          "carpetArea": 1800,
+          "carpetAreaDisplay": "1800 sq.ft",
+          "builtUpArea": null,
+          "price": "2.05 Cr",
+          "actualPrice": 20520000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "846 sq.ft",
+      "price": "96.44 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,150 - 1,246 sq.ft",
+      "price": "1.31 Cr - 1.42 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,800 sq.ft",
+      "price": "2.05 Cr"
+    }
+  ]
+}

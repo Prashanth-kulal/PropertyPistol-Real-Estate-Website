@@ -1,0 +1,68 @@
+{
+  "projectId": 3951,
+  "slug": "ashoka-grandeur-bhandup-west-pid-3951",
+  "name": "Ashoka Grandeur",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ashoka-grandeur-bhandup-west-pid-3951",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2087/original/fppp.PNG?1614948431",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 9523,
+          "bhk": "1 BHK",
+          "carpetArea": 381,
+          "carpetAreaDisplay": "381 sq.ft",
+          "builtUpArea": null,
+          "price": "88.31 Lacs",
+          "actualPrice": 8831000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/9523/original/1bhk_2d.PNG?1614948429",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/9523/original/1bhk.PNG?1614948429",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 26878,
+          "bhk": "1 BHK",
+          "carpetArea": 431,
+          "carpetAreaDisplay": "431 sq.ft",
+          "builtUpArea": null,
+          "price": "1.0 Cr",
+          "actualPrice": 10000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "381 - 431 sq.ft",
+      "price": "88.31 Lacs - 1.0 Cr"
+    }
+  ]
+}

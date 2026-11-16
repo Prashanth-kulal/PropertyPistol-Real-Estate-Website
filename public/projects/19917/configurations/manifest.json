@@ -1,0 +1,52 @@
+{
+  "projectId": 19917,
+  "slug": "keshav-tathastu-charholi-pid-19917",
+  "name": "Keshav Tathastu",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/keshav-tathastu-charholi-pid-19917",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19917/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8230/original/floor.PNG?1748370568"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 114597,
+          "bhk": "2 BHK",
+          "carpetArea": 702,
+          "carpetAreaDisplay": "702 sq.ft",
+          "builtUpArea": null,
+          "price": "60.0 Lacs",
+          "actualPrice": 6000000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19917/configurations/unit-plans/2-bhk/702-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/114597/original/2bhk_2d.PNG?1748370563",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "702 sq.ft",
+      "price": "60.0 Lacs"
+    }
+  ]
+}

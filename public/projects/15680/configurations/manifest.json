@@ -1,0 +1,78 @@
+{
+  "projectId": 15680,
+  "slug": "experion-elements-sector-45-pid-15680",
+  "name": "Experion Elements",
+  "city": "noida",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/experion-elements-sector-45-pid-15680",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/15680/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/15680/original/mp-ex.png?1748431181"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 50309,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2975,
+          "price": "6.37 Cr",
+          "actualPrice": 63662025,
+          "propertyType": "Flat",
+          "plan2D": "/projects/15680/configurations/unit-plans/3-bhk/variant-50309/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/50309/original/3bhk-ex_%281%29.png?1748431181",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 50308,
+          "bhk": "4 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 3530,
+          "price": "7.55 Cr",
+          "actualPrice": 75538470,
+          "propertyType": "Flat",
+          "plan2D": "/projects/15680/configurations/unit-plans/4-bhk/variant-50308/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/50308/original/4bhk-ex_%281%29.png?1748431181",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "6.37 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "On Request",
+      "price": "7.55 Cr"
+    }
+  ]
+}

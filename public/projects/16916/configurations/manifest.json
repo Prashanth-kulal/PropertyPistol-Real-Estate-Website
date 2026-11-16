@@ -1,0 +1,120 @@
+{
+  "projectId": 16916,
+  "slug": "assetz-canvas-and-cove-phase-1-wing-a-and-b-begur-pid-16916",
+  "name": "Assetz Canvas and Cove Phase 1 Wing A and B",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/assetz-canvas-and-cove-phase-1-wing-a-and-b-begur-pid-16916",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16916/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16916/original/masterplan.JPG?1718111682"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "Studio",
+      "variants": [
+        {
+          "id": 132047,
+          "bhk": "Studio",
+          "carpetArea": 277,
+          "carpetAreaDisplay": "277 sq.ft",
+          "builtUpArea": null,
+          "price": "26.0 Lacs",
+          "actualPrice": 2600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 67884,
+          "bhk": "3 BHK",
+          "carpetArea": 1046,
+          "carpetAreaDisplay": "1046 sq.ft",
+          "builtUpArea": null,
+          "price": "1.75 Cr",
+          "actualPrice": 17500000,
+          "propertyType": "Flat",
+          "plan2D": "/projects/16916/configurations/unit-plans/3-bhk/1046-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/67884/original/3bhk_2d.JPG?1718111682",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 99230,
+          "bhk": "3 BHK",
+          "carpetArea": 1280,
+          "carpetAreaDisplay": "1280 sq.ft",
+          "builtUpArea": null,
+          "price": "2.27 Cr",
+          "actualPrice": 22700000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3.5 BHK",
+      "variants": [
+        {
+          "id": 67885,
+          "bhk": "3.5 BHK",
+          "carpetArea": 1548,
+          "carpetAreaDisplay": "1548 sq.ft",
+          "builtUpArea": null,
+          "price": "2.76 Cr",
+          "actualPrice": 27600000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "Studio",
+      "carpet_area": "277 sq.ft",
+      "price": "26.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,046 - 1,280 sq.ft",
+      "price": "1.75 Cr - 2.27 Cr"
+    },
+    {
+      "flat_type_name": "3.5 BHK",
+      "carpet_area": "1,548 sq.ft",
+      "price": "2.76 Cr"
+    }
+  ]
+}

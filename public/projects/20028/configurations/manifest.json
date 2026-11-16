@@ -1,0 +1,104 @@
+{
+  "projectId": 20028,
+  "slug": "the-aqua-retreat-hinjawadi-pid-20028",
+  "name": "The Aqua Retreat",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/the-aqua-retreat-hinjawadi-pid-20028",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/20028/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/20028/original/mp-park.PNG?1750331634"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 116794,
+          "bhk": "1 BHK",
+          "carpetArea": 558,
+          "carpetAreaDisplay": "558 sq.ft",
+          "builtUpArea": null,
+          "price": "65.29 Lacs",
+          "actualPrice": 6528600,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 116793,
+          "bhk": "2 BHK",
+          "carpetArea": 850,
+          "carpetAreaDisplay": "850 sq.ft",
+          "builtUpArea": null,
+          "price": "99.45 Lacs",
+          "actualPrice": 9945000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 134250,
+          "bhk": "3 BHK",
+          "carpetArea": 1090,
+          "carpetAreaDisplay": "1090 sq.ft",
+          "builtUpArea": null,
+          "price": "1.28 Cr",
+          "actualPrice": 12753000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "558 sq.ft",
+      "price": "65.29 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "850 sq.ft",
+      "price": "99.45 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,090 sq.ft",
+      "price": "1.28 Cr"
+    }
+  ]
+}

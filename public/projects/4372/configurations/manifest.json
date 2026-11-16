@@ -1,0 +1,94 @@
+{
+  "projectId": 4372,
+  "slug": "celosia-avenue-diva-east-pid-4372",
+  "name": "Celosia Avenue",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/celosia-avenue-diva-east-pid-4372",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2926/original/fp.png?1669275248",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 11580,
+          "bhk": "1 BHK",
+          "carpetArea": 431,
+          "carpetAreaDisplay": "431 sq.ft",
+          "builtUpArea": null,
+          "price": "19.39 Lacs",
+          "actualPrice": 1939000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 11581,
+          "bhk": "1 BHK",
+          "carpetArea": 481,
+          "carpetAreaDisplay": "481 sq.ft",
+          "builtUpArea": null,
+          "price": "21.64 Lacs",
+          "actualPrice": 2164000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 11582,
+          "bhk": "2 BHK",
+          "carpetArea": 644,
+          "carpetAreaDisplay": "644 sq.ft",
+          "builtUpArea": null,
+          "price": "28.98 Lacs",
+          "actualPrice": 2898000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "431 - 481 sq.ft",
+      "price": "19.39 Lacs - 21.64 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "644 sq.ft",
+      "price": "28.98 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "projectId": 17885,
+  "slug": "the-edge",
+  "name": "The Edge",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/the-edge-parel-west-pid-17885",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/17885/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7592/original/fp.PNG?1742633296",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 139972,
+          "bhk": "4 BHK",
+          "carpetArea": 2200,
+          "carpetAreaDisplay": "2200 sq.ft",
+          "builtUpArea": null,
+          "price": "12.17 Cr",
+          "actualPrice": 121700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139973,
+          "bhk": "4 BHK",
+          "carpetArea": 3000,
+          "carpetAreaDisplay": "3000 sq.ft",
+          "builtUpArea": null,
+          "price": "14.43 Cr",
+          "actualPrice": 144300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 84923,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1400,
+          "price": "7.29 Cr",
+          "actualPrice": 72900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 131260,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1675,
+          "price": "9.63 Cr",
+          "actualPrice": 96300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,200 - 3,000 sq.ft",
+      "price": "12.17 Cr - 14.43 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "7.29 Cr - 9.63 Cr"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "projectId": 5228,
+  "slug": "puraniks-abitante-bavdhan-pid-5228",
+  "name": "Puraniks Abitante",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/puraniks-abitante-bavdhan-pid-5228",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/5228/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/5228/original/master5new1.jpg?1751612342"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 17147,
+          "bhk": "1 BHK",
+          "carpetArea": 489,
+          "carpetAreaDisplay": "489 sq.ft",
+          "builtUpArea": null,
+          "price": "49.99 Lacs",
+          "actualPrice": 4999000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 129718,
+          "bhk": "2 BHK",
+          "carpetArea": 596,
+          "carpetAreaDisplay": "596 sq.ft",
+          "builtUpArea": null,
+          "price": "79.99 Lacs",
+          "actualPrice": 7999000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 129719,
+          "bhk": "3 BHK",
+          "carpetArea": 867,
+          "carpetAreaDisplay": "867 sq.ft",
+          "builtUpArea": null,
+          "price": "96.99 Lacs",
+          "actualPrice": 9699000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "489 sq.ft",
+      "price": "49.99 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "596 sq.ft",
+      "price": "79.99 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "867 sq.ft",
+      "price": "96.99 Lacs"
+    }
+  ]
+}

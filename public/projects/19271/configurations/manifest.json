@@ -1,0 +1,66 @@
+{
+  "projectId": 19271,
+  "slug": "kiran-swastik-sus-pid-19271",
+  "name": "Kiran Swastik",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/kiran-swastik-sus-pid-19271",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19271/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19271/original/masterplan.PNG?1740740350"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19271/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7451/original/floorplan2.PNG?1740740352"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19271/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7452/original/floorplan3.PNG?1740740352"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 118856,
+          "bhk": "3 BHK",
+          "carpetArea": 942,
+          "carpetAreaDisplay": "942 sq.ft",
+          "builtUpArea": null,
+          "price": "95.0 Lacs",
+          "actualPrice": 9500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "942 sq.ft",
+      "price": "95.0 Lacs"
+    }
+  ]
+}

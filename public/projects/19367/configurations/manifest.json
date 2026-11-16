@@ -1,0 +1,78 @@
+{
+  "projectId": 19367,
+  "slug": "kamdhenu-pinnacle-nerul-pid-19367",
+  "name": "Kamdhenu Pinnacle",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/kamdhenu-pinnacle-nerul-pid-19367",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19367/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7532/original/fp-kam.png?1741792166",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 116123,
+          "bhk": "2 BHK",
+          "carpetArea": 715,
+          "carpetAreaDisplay": "715 sq.ft",
+          "builtUpArea": null,
+          "price": "1.72 Cr",
+          "actualPrice": 17231500,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 102594,
+          "bhk": "3 BHK",
+          "carpetArea": 881,
+          "carpetAreaDisplay": "881 sq.ft",
+          "builtUpArea": null,
+          "price": "2.12 Cr",
+          "actualPrice": 21232100,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "715 sq.ft",
+      "price": "1.72 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "881 sq.ft",
+      "price": "2.12 Cr"
+    }
+  ]
+}

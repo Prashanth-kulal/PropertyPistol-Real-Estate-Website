@@ -1,0 +1,104 @@
+{
+  "projectId": 7249,
+  "slug": "ace-aurum-ravet-pid-7249",
+  "name": "Ace Aurum",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ace-aurum-ravet-pid-7249",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/7249/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3360/original/fp.png?1671702589"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 56381,
+          "bhk": "1 BHK",
+          "carpetArea": 452,
+          "carpetAreaDisplay": "452 sq.ft",
+          "builtUpArea": null,
+          "price": "60.0 Lacs",
+          "actualPrice": 6000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 56379,
+          "bhk": "2 BHK",
+          "carpetArea": 612,
+          "carpetAreaDisplay": "612 sq.ft",
+          "builtUpArea": null,
+          "price": "75.0 Lacs",
+          "actualPrice": 7500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 56380,
+          "bhk": "3 BHK",
+          "carpetArea": 878,
+          "carpetAreaDisplay": "878 sq.ft",
+          "builtUpArea": null,
+          "price": "1.0 Cr",
+          "actualPrice": 10000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "452 sq.ft",
+      "price": "60.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "612 sq.ft",
+      "price": "75.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "878 sq.ft",
+      "price": "1.0 Cr"
+    }
+  ]
+}

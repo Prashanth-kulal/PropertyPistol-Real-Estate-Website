@@ -1,0 +1,78 @@
+{
+  "projectId": 18852,
+  "slug": "ace-aster-kiwale-pid-18852",
+  "name": "Ace Aster",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ace-aster-kiwale-pid-18852",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18852/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18852/original/jamntani.PNG?1746775391"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 95568,
+          "bhk": "2 BHK",
+          "carpetArea": 736,
+          "carpetAreaDisplay": "736 sq.ft",
+          "builtUpArea": null,
+          "price": "70.69 Lacs",
+          "actualPrice": 7069000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/18852/configurations/unit-plans/2-bhk/736-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/95568/original/2bhk.PNG?1746775391",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 95569,
+          "bhk": "3 BHK",
+          "carpetArea": 1032,
+          "carpetAreaDisplay": "1032 sq.ft",
+          "builtUpArea": null,
+          "price": "98.82 Lacs",
+          "actualPrice": 9882000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/18852/configurations/unit-plans/3-bhk/1032-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/95569/original/3bhkk.PNG?1746775392",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "736 sq.ft",
+      "price": "70.69 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,032 sq.ft",
+      "price": "98.82 Lacs"
+    }
+  ]
+}

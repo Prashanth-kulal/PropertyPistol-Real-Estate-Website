@@ -1,0 +1,110 @@
+{
+  "projectId": 11309,
+  "slug": "prestige-elm-park-white-field-pid-11309",
+  "name": "Prestige Elm Park",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/prestige-elm-park-white-field-pid-11309",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/11309/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/11309/original/mp-1400w.jpg?1676286887"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 125611,
+          "bhk": "3 BHK",
+          "carpetArea": 1790,
+          "carpetAreaDisplay": "1790 sq.ft",
+          "builtUpArea": null,
+          "price": "2.7 Cr",
+          "actualPrice": 27000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 125612,
+          "bhk": "3 BHK",
+          "carpetArea": 2045,
+          "carpetAreaDisplay": "2045 sq.ft",
+          "builtUpArea": null,
+          "price": "2.95 Cr",
+          "actualPrice": 29500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 125613,
+          "bhk": "4 BHK",
+          "carpetArea": 2004,
+          "carpetAreaDisplay": "2004 sq.ft",
+          "builtUpArea": null,
+          "price": "3.6 Cr",
+          "actualPrice": 36000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 36686,
+          "bhk": "4 BHK",
+          "carpetArea": 2575,
+          "carpetAreaDisplay": "2575 sq.ft",
+          "builtUpArea": null,
+          "price": "3.85 Cr",
+          "actualPrice": 38500000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/11309/configurations/unit-plans/4-bhk/2575-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/36686/original/4.PNG?1676286887",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,790 - 2,045 sq.ft",
+      "price": "2.7 Cr - 2.95 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,004 - 2,575 sq.ft",
+      "price": "3.6 Cr - 3.85 Cr"
+    }
+  ]
+}

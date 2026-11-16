@@ -1,0 +1,94 @@
+{
+  "projectId": 7685,
+  "slug": "sbm-sky",
+  "name": "SBM Sky",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sbm-sky-vartak-nagar-pid-7685",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6745/original/fp.jpg?1722707193",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 23848,
+          "bhk": "1 BHK",
+          "carpetArea": 354,
+          "carpetAreaDisplay": "354 sq.ft",
+          "builtUpArea": null,
+          "price": "60.18 Lacs",
+          "actualPrice": 6018000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/23848/original/1b.PNG?1715153665",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 76838,
+          "bhk": "2 BHK",
+          "carpetArea": 460,
+          "carpetAreaDisplay": "460 sq.ft",
+          "builtUpArea": null,
+          "price": "78.2 Lacs",
+          "actualPrice": 7820000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/76838/original/2b_%281%29.png?1722707191",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 131271,
+          "bhk": "2 BHK",
+          "carpetArea": 620,
+          "carpetAreaDisplay": "620 sq.ft",
+          "builtUpArea": null,
+          "price": "1.05 Cr",
+          "actualPrice": 10500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "354 sq.ft",
+      "price": "60.18 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "460 - 620 sq.ft",
+      "price": "78.2 Lacs - 1.05 Cr"
+    }
+  ]
+}

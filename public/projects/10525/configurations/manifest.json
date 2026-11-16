@@ -1,0 +1,145 @@
+{
+  "projectId": 10525,
+  "slug": "siteman-swapnalok-bhiwandi-pid-10525",
+  "name": "Siteman Swapnalok",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/siteman-swapnalok-bhiwandi-pid-10525",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/10525/original/mp.JPG?1670324880",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3115/original/fp.JPG?1670324880",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 34928,
+          "bhk": "1 BHK",
+          "carpetArea": 323,
+          "carpetAreaDisplay": "323 sq.ft",
+          "builtUpArea": null,
+          "price": "24.84 Lacs",
+          "actualPrice": 2484000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 34927,
+          "bhk": "1 BHK",
+          "carpetArea": 397,
+          "carpetAreaDisplay": "397 sq.ft",
+          "builtUpArea": null,
+          "price": "29.44 Lacs",
+          "actualPrice": 2944000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 54077,
+          "bhk": "2 BHK",
+          "carpetArea": 428,
+          "carpetAreaDisplay": "428 sq.ft",
+          "builtUpArea": null,
+          "price": "32.88 Lacs",
+          "actualPrice": 3288000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139488,
+          "bhk": "2 BHK",
+          "carpetArea": 504,
+          "carpetAreaDisplay": "504 sq.ft",
+          "builtUpArea": null,
+          "price": "37.64 Lacs",
+          "actualPrice": 3764000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 139489,
+          "bhk": "3 BHK",
+          "carpetArea": 638,
+          "carpetAreaDisplay": "638 sq.ft",
+          "builtUpArea": null,
+          "price": "47.48 Lacs",
+          "actualPrice": 4748000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "323 - 397 sq.ft",
+      "price": "24.84 Lacs - 29.44 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "428 - 504 sq.ft",
+      "price": "32.88 Lacs - 37.64 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "638 sq.ft",
+      "price": "47.48 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "projectId": 8051,
+  "slug": "unique-k-ville-ravet-pid-8051",
+  "name": "Unique K Ville",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/unique-k-ville-ravet-pid-8051",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/8051/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2669/original/floor.PNG?1747823176"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 111836,
+          "bhk": "2 BHK",
+          "carpetArea": 740,
+          "carpetAreaDisplay": "740 sq.ft",
+          "builtUpArea": null,
+          "price": "60.95 Lacs",
+          "actualPrice": 6095000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 111835,
+          "bhk": "2 BHK",
+          "carpetArea": 838,
+          "carpetAreaDisplay": "838 sq.ft",
+          "builtUpArea": null,
+          "price": "69.02 Lacs",
+          "actualPrice": 6902000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 139140,
+          "bhk": "3 BHK",
+          "carpetArea": 863,
+          "carpetAreaDisplay": "863 sq.ft",
+          "builtUpArea": null,
+          "price": "71.08 Lacs",
+          "actualPrice": 7108000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139141,
+          "bhk": "3 BHK",
+          "carpetArea": 984,
+          "carpetAreaDisplay": "984 sq.ft",
+          "builtUpArea": null,
+          "price": "81.04 Lacs",
+          "actualPrice": 8104000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139142,
+          "bhk": "3 BHK",
+          "carpetArea": 1032,
+          "carpetAreaDisplay": "1032 sq.ft",
+          "builtUpArea": null,
+          "price": "85.0 Lacs",
+          "actualPrice": 8500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "740 - 838 sq.ft",
+      "price": "60.95 Lacs - 69.02 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "863 - 1,032 sq.ft",
+      "price": "71.08 Lacs - 85.0 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "projectId": 11128,
+  "slug": "api-vasudev-heights-mira-road-east-pid-11128",
+  "name": "API Vasudev Heights",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/api-vasudev-heights-mira-road-east-pid-11128",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit"
+  ],
+  "masterPlans": [],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 36255,
+          "bhk": "1 BHK",
+          "carpetArea": 410,
+          "carpetAreaDisplay": "410 sq.ft",
+          "builtUpArea": null,
+          "price": "83.01 Lacs",
+          "actualPrice": 8301000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 36256,
+          "bhk": "1 BHK",
+          "carpetArea": 434,
+          "carpetAreaDisplay": "434 sq.ft",
+          "builtUpArea": null,
+          "price": "87.87 Lacs",
+          "actualPrice": 8787000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 138023,
+          "bhk": "2 BHK",
+          "carpetArea": 641,
+          "carpetAreaDisplay": "641 sq.ft",
+          "builtUpArea": null,
+          "price": "1.27 Cr",
+          "actualPrice": 12700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "410 - 434 sq.ft",
+      "price": "83.01 Lacs - 87.87 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "641 sq.ft",
+      "price": "1.27 Cr"
+    }
+  ]
+}

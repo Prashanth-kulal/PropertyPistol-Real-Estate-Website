@@ -1,0 +1,78 @@
+{
+  "projectId": 15588,
+  "slug": "deshpande-chandra-apartment-kothrud-pid-15588",
+  "name": "Deshpande Chandra Apartment",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/deshpande-chandra-apartment-kothrud-pid-15588",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/15588/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5438/original/Chandra-Floor-Plans-01.png?1705316204"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 49794,
+          "bhk": "1 BHK",
+          "carpetArea": 681,
+          "carpetAreaDisplay": "681 sq.ft",
+          "builtUpArea": null,
+          "price": "61.31 Lacs",
+          "actualPrice": 6131000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 49795,
+          "bhk": "3 BHK",
+          "carpetArea": 1060,
+          "carpetAreaDisplay": "1060 sq.ft",
+          "builtUpArea": null,
+          "price": "95.39 Lacs",
+          "actualPrice": 9539000,
+          "propertyType": "Flat",
+          "plan2D": "/projects/15588/configurations/unit-plans/3-bhk/1060-sqft/plan-2d.webp",
+          "plan3D": "/projects/15588/configurations/unit-plans/3-bhk/1060-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/49795/original/3.PNG?1705316203",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/49795/original/3d3d.PNG?1705316203",
+          "has2D": true,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "681 sq.ft",
+      "price": "61.31 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,060 sq.ft",
+      "price": "95.39 Lacs"
+    }
+  ]
+}

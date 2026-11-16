@@ -1,0 +1,78 @@
+{
+  "projectId": 16680,
+  "slug": "reliable-balaji-theo-kalamboli-pid-16680",
+  "name": "Reliable Balaji Theo",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/reliable-balaji-theo-kalamboli-pid-16680",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16680/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6326/original/BalajiFp.PNG?1716880633",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 64606,
+          "bhk": "2 BHK",
+          "carpetArea": 751,
+          "carpetAreaDisplay": "751 sq.ft",
+          "builtUpArea": null,
+          "price": "67.01 Lacs",
+          "actualPrice": 6701173,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/16680/configurations/unit-plans/2-bhk/751-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/64606/original/Balaji_2bhk.png?1748510806",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 84614,
+          "bhk": "3 BHK",
+          "carpetArea": 1043,
+          "carpetAreaDisplay": "1043 sq.ft",
+          "builtUpArea": null,
+          "price": "93.07 Lacs",
+          "actualPrice": 9306689,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/16680/configurations/unit-plans/3-bhk/1043-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/84614/original/3.png?1748510806",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "751 sq.ft",
+      "price": "67.01 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,043 sq.ft",
+      "price": "93.07 Lacs"
+    }
+  ]
+}

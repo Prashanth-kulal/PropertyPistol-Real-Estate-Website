@@ -1,0 +1,78 @@
+{
+  "projectId": 21073,
+  "slug": "ved-krushanrang-charholi-pid-21073",
+  "name": "Ved Krushanrang",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ved-krushanrang-charholi-pid-21073",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21073/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9726/original/fp.PNG?1791280562"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 127582,
+          "bhk": "1 BHK",
+          "carpetArea": 435,
+          "carpetAreaDisplay": "435 sq.ft",
+          "builtUpArea": null,
+          "price": "30.77 Lacs",
+          "actualPrice": 3076755,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/21073/configurations/unit-plans/1-bhk/435-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/127582/original/1.PNG?1791280561",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 127583,
+          "bhk": "3 BHK",
+          "carpetArea": 847,
+          "carpetAreaDisplay": "847 sq.ft",
+          "builtUpArea": null,
+          "price": "59.91 Lacs",
+          "actualPrice": 5990831,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/21073/configurations/unit-plans/3-bhk/847-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/127583/original/3.PNG?1791280561",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "435 sq.ft",
+      "price": "30.77 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "847 sq.ft",
+      "price": "59.91 Lacs"
+    }
+  ]
+}

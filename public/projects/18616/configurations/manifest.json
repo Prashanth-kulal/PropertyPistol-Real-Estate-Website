@@ -1,0 +1,103 @@
+{
+  "projectId": 18616,
+  "slug": "atul-life-phase-1-mulund-west-pid-18616",
+  "name": "Atul Life Phase 1",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/atul-life-phase-1-mulund-west-pid-18616",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18616/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18616/original/mp_la.png?1731508196",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18616/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8287/original/fp.png?1748867287",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 119195,
+          "bhk": "2 BHK",
+          "carpetArea": 726,
+          "carpetAreaDisplay": "726 sq.ft",
+          "builtUpArea": null,
+          "price": "1.7 Cr",
+          "actualPrice": 17000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139421,
+          "bhk": "2 BHK",
+          "carpetArea": 746,
+          "carpetAreaDisplay": "746 sq.ft",
+          "builtUpArea": null,
+          "price": "1.75 Cr",
+          "actualPrice": 17500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 119196,
+          "bhk": "3 BHK",
+          "carpetArea": 1000,
+          "carpetAreaDisplay": "1000 sq.ft",
+          "builtUpArea": null,
+          "price": "2.34 Cr",
+          "actualPrice": 23400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "726 - 746 sq.ft",
+      "price": "1.7 Cr - 1.75 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,000 sq.ft",
+      "price": "2.34 Cr"
+    }
+  ]
+}

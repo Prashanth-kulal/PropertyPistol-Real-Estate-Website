@@ -1,0 +1,78 @@
+{
+  "projectId": 20961,
+  "slug": "swanand-chs-borivali-east-pid-20961",
+  "name": "Swanand CHS",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/swanand-chs-borivali-east-pid-20961",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20961/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8820/original/Sw-Typical-Floor-Plan.jpg?1759134636",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 127271,
+          "bhk": "1 BHK",
+          "carpetArea": 436,
+          "carpetAreaDisplay": "436 sq.ft",
+          "builtUpArea": null,
+          "price": "1.13 Cr",
+          "actualPrice": 11314200,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 127272,
+          "bhk": "3 BHK",
+          "carpetArea": 844,
+          "carpetAreaDisplay": "844 sq.ft",
+          "builtUpArea": null,
+          "price": "2.19 Cr",
+          "actualPrice": 21901800,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "436 sq.ft",
+      "price": "1.13 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "844 sq.ft",
+      "price": "2.19 Cr"
+    }
+  ]
+}

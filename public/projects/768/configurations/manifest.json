@@ -1,0 +1,78 @@
+{
+  "projectId": 768,
+  "slug": "parinee-the-xclusiv",
+  "name": "Parinee The Xclusiv",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/parinee-the-xclusiv-worli-pid-768",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/768/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/416/original/Master_Plan.jpeg?1549875575",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 15356,
+          "bhk": "3 BHK",
+          "carpetArea": 945,
+          "carpetAreaDisplay": "945 sq.ft",
+          "builtUpArea": null,
+          "price": "5.22 Cr",
+          "actualPrice": 52200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 15435,
+          "bhk": "4 BHK",
+          "carpetArea": 1311,
+          "carpetAreaDisplay": "1311 sq.ft",
+          "builtUpArea": null,
+          "price": "7.24 Cr",
+          "actualPrice": 72400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "945 sq.ft",
+      "price": "5.22 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,311 sq.ft",
+      "price": "7.24 Cr"
+    }
+  ]
+}

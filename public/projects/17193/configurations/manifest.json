@@ -1,0 +1,94 @@
+{
+  "projectId": 17193,
+  "slug": "vijaya-aquagreen-ganigarahalli-pid-17193",
+  "name": "Vijaya Aquagreen",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/vijaya-aquagreen-ganigarahalli-pid-17193",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/17193/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/17193/original/masterplan.JPG?1719643071"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 70745,
+          "bhk": "1 BHK",
+          "carpetArea": 455,
+          "carpetAreaDisplay": "455 sq.ft",
+          "builtUpArea": 650,
+          "price": "35.5 Lacs",
+          "actualPrice": 3550000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/17193/configurations/unit-plans/1-bhk/455-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/70745/original/2bhk_2d1.JPG?1719643071",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 125042,
+          "bhk": "1 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 680,
+          "price": "35.5 Lacs",
+          "actualPrice": 3550000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 88839,
+          "bhk": "2 BHK",
+          "carpetArea": 616,
+          "carpetAreaDisplay": "616 sq.ft",
+          "builtUpArea": 880,
+          "price": "48.0 Lacs",
+          "actualPrice": 4800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "455 sq.ft",
+      "price": "35.5 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "616 sq.ft",
+      "price": "48.0 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "projectId": 14247,
+  "slug": "av-samaira-residency-vasai-east-pid-14247",
+  "name": "AV Samaira Residency",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/av-samaira-residency-vasai-east-pid-14247",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4787/original/Samaira_floor1.JPG?1698391203",
+      "downloaded": false
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4788/original/Samaira_floor2.JPG?1698391203",
+      "downloaded": false
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4789/original/Samaira_floor3.JPG?1698391203",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 63480,
+          "bhk": "1 BHK",
+          "carpetArea": 299,
+          "carpetAreaDisplay": "299 sq.ft",
+          "builtUpArea": null,
+          "price": "37.8 Lacs",
+          "actualPrice": 3780000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 44200,
+          "bhk": "1 BHK",
+          "carpetArea": 308,
+          "carpetAreaDisplay": "308 sq.ft",
+          "builtUpArea": null,
+          "price": "38.94 Lacs",
+          "actualPrice": 3894000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 72366,
+          "bhk": "2 BHK",
+          "carpetArea": 422,
+          "carpetAreaDisplay": "422 sq.ft",
+          "builtUpArea": null,
+          "price": "53.35 Lacs",
+          "actualPrice": 5335000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "299 - 308 sq.ft",
+      "price": "37.8 Lacs - 38.94 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "422 sq.ft",
+      "price": "53.35 Lacs"
+    }
+  ]
+}

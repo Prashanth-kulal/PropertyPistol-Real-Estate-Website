@@ -1,0 +1,110 @@
+{
+  "projectId": 22167,
+  "slug": "today-royal-i-land-27",
+  "name": "Today Royal I Land 27",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/today-royal-i-land-27-kharghar-pid-22167",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/22167/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/22167/original/mp.jpg?1785837495",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 137430,
+          "bhk": "2 BHK",
+          "carpetArea": 583,
+          "carpetAreaDisplay": "583 sq.ft",
+          "builtUpArea": null,
+          "price": "1.5 Cr",
+          "actualPrice": 15000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 137431,
+          "bhk": "2 BHK",
+          "carpetArea": 690,
+          "carpetAreaDisplay": "690 sq.ft",
+          "builtUpArea": null,
+          "price": "2.06 Cr",
+          "actualPrice": 20600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 140359,
+          "bhk": "3 BHK",
+          "carpetArea": 728,
+          "carpetAreaDisplay": "728 sq.ft",
+          "builtUpArea": null,
+          "price": "2.07 Cr",
+          "actualPrice": 20700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140360,
+          "bhk": "3 BHK",
+          "carpetArea": 1062,
+          "carpetAreaDisplay": "1062 sq.ft",
+          "builtUpArea": null,
+          "price": "3.72 Cr",
+          "actualPrice": 37200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "583 - 690 sq.ft",
+      "price": "1.5 Cr - 2.06 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "728 - 1,062 sq.ft",
+      "price": "2.07 Cr - 3.72 Cr"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "projectId": 19261,
+  "slug": "geras-joy-on-the-tree-tops-handewadi-pid-19261",
+  "name": "Geras Joy on The Tree Tops",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/geras-joy-on-the-tree-tops-handewadi-pid-19261",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19261/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19261/original/masterplan.PNG?1740723664"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19261/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7443/original/floorplan1.PNG?1740723668"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19261/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7444/original/floorplan2.PNG?1740723668"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 101330,
+          "bhk": "2 BHK",
+          "carpetArea": 755,
+          "carpetAreaDisplay": "755 sq.ft",
+          "builtUpArea": null,
+          "price": "79.0 Lacs",
+          "actualPrice": 7900000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19261/configurations/unit-plans/2-bhk/755-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/101330/original/2bhk_2d1.PNG?1740723664",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 101333,
+          "bhk": "3 BHK",
+          "carpetArea": 1200,
+          "carpetAreaDisplay": "1200 sq.ft",
+          "builtUpArea": null,
+          "price": "1.53 Cr",
+          "actualPrice": 15300000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19261/configurations/unit-plans/3-bhk/1200-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/101333/original/3bhk_2d2.PNG?1740723664",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "755 sq.ft",
+      "price": "79.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,200 sq.ft",
+      "price": "1.53 Cr"
+    }
+  ]
+}

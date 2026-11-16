@@ -1,0 +1,136 @@
+{
+  "projectId": 19404,
+  "slug": "gami-and-jaydeep-estella-chembur-pid-19404",
+  "name": "Gami And Jaydeep Estella",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/gami-and-jaydeep-estella-chembur-pid-19404",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19404/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7553/original/fp-est.png?1742051522",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 102806,
+          "bhk": "1 BHK",
+          "carpetArea": 475,
+          "carpetAreaDisplay": "475 sq.ft",
+          "builtUpArea": null,
+          "price": "97.75 Lacs",
+          "actualPrice": 9775000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19404/configurations/unit-plans/1-bhk/475-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/102806/original/1bhk_est.PNG?1742051517",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 124746,
+          "bhk": "2 BHK",
+          "carpetArea": 605,
+          "carpetAreaDisplay": "605 sq.ft",
+          "builtUpArea": null,
+          "price": "1.34 Cr",
+          "actualPrice": 13400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 102807,
+          "bhk": "2 BHK",
+          "carpetArea": 650,
+          "carpetAreaDisplay": "650 sq.ft",
+          "builtUpArea": null,
+          "price": "1.44 Cr",
+          "actualPrice": 14400000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19404/configurations/unit-plans/2-bhk/650-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/102807/original/2bhk_est.PNG?1742051517",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 102809,
+          "bhk": "3 BHK",
+          "carpetArea": 950,
+          "carpetAreaDisplay": "950 sq.ft",
+          "builtUpArea": null,
+          "price": "2.08 Cr",
+          "actualPrice": 20800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 102810,
+          "bhk": "3 BHK",
+          "carpetArea": 955,
+          "carpetAreaDisplay": "955 sq.ft",
+          "builtUpArea": null,
+          "price": "2.11 Cr",
+          "actualPrice": 21100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "475 sq.ft",
+      "price": "97.75 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "605 - 650 sq.ft",
+      "price": "1.34 Cr - 1.44 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "950 - 955 sq.ft",
+      "price": "2.08 Cr - 2.11 Cr"
+    }
+  ]
+}

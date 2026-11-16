@@ -1,0 +1,104 @@
+{
+  "projectId": 13973,
+  "slug": "proviso-galaxy-maplewoods-airoli-pid-13973",
+  "name": "Proviso Galaxy Maplewoods",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/proviso-galaxy-maplewoods-airoli-pid-13973",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4555/original/fp.PNG?1696939681",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 114440,
+          "bhk": "2 BHK",
+          "carpetArea": 629,
+          "carpetAreaDisplay": "629 sq.ft",
+          "builtUpArea": null,
+          "price": "1.17 Cr",
+          "actualPrice": 11700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 114441,
+          "bhk": "3 BHK",
+          "carpetArea": 820,
+          "carpetAreaDisplay": "820 sq.ft",
+          "builtUpArea": null,
+          "price": "1.59 Cr",
+          "actualPrice": 15900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3.5 BHK",
+      "variants": [
+        {
+          "id": 131886,
+          "bhk": "3.5 BHK",
+          "carpetArea": 986,
+          "carpetAreaDisplay": "986 sq.ft",
+          "builtUpArea": null,
+          "price": "1.79 Cr",
+          "actualPrice": 17900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "629 sq.ft",
+      "price": "1.17 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "820 sq.ft",
+      "price": "1.59 Cr"
+    },
+    {
+      "flat_type_name": "3.5 BHK",
+      "carpet_area": "986 sq.ft",
+      "price": "1.79 Cr"
+    }
+  ]
+}

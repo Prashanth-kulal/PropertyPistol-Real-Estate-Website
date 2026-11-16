@@ -1,0 +1,142 @@
+{
+  "projectId": 4111,
+  "slug": "pravati-garden",
+  "name": "Pravati Garden",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/pravati-garden-taloja-pid-4111",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2180/original/fp.PNG?1617123275",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 10359,
+          "bhk": "1 BHK",
+          "carpetArea": 339,
+          "carpetAreaDisplay": "339 sq.ft",
+          "builtUpArea": null,
+          "price": "35.54 Lacs",
+          "actualPrice": 3554000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/10359/original/1bhk.PNG?1617123419",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 105425,
+          "bhk": "1 BHK",
+          "carpetArea": 343,
+          "carpetAreaDisplay": "343 sq.ft",
+          "builtUpArea": null,
+          "price": "35.93 Lacs",
+          "actualPrice": 3593000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 57481,
+          "bhk": "1 BHK",
+          "carpetArea": 353,
+          "carpetAreaDisplay": "353 sq.ft",
+          "builtUpArea": null,
+          "price": "36.95 Lacs",
+          "actualPrice": 3695000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 105424,
+          "bhk": "1 BHK",
+          "carpetArea": 477,
+          "carpetAreaDisplay": "477 sq.ft",
+          "builtUpArea": null,
+          "price": "49.99 Lacs",
+          "actualPrice": 4999000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 10361,
+          "bhk": "2 BHK",
+          "carpetArea": 527,
+          "carpetAreaDisplay": "527 sq.ft",
+          "builtUpArea": null,
+          "price": "55.15 Lacs",
+          "actualPrice": 5515000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/10361/original/2bhk.PNG?1617123420",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139137,
+          "bhk": "2 BHK",
+          "carpetArea": 543,
+          "carpetAreaDisplay": "543 sq.ft",
+          "builtUpArea": null,
+          "price": "56.91 Lacs",
+          "actualPrice": 5691000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "339 - 477 sq.ft",
+      "price": "35.54 Lacs - 49.99 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "527 - 543 sq.ft",
+      "price": "55.15 Lacs - 56.91 Lacs"
+    }
+  ]
+}

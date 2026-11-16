@@ -1,0 +1,94 @@
+{
+  "projectId": 4833,
+  "slug": "salarpuria-sattva-misty-charm-kanakpura-road-pid-4833",
+  "name": "Salarpuria Sattva Misty Charm",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/salarpuria-sattva-misty-charm-kanakpura-road-pid-4833",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/4833/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5341/original/download_%282%29.png?1703875080"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 48144,
+          "bhk": "2 BHK",
+          "carpetArea": 661,
+          "carpetAreaDisplay": "661 sq.ft",
+          "builtUpArea": null,
+          "price": "1.04 Cr",
+          "actualPrice": 10400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/4833/configurations/unit-plans/2-bhk/661-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/48144/original/2.PNG?1703875079",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 48145,
+          "bhk": "2 BHK",
+          "carpetArea": 709,
+          "carpetAreaDisplay": "709 sq.ft",
+          "builtUpArea": null,
+          "price": "1.11 Cr",
+          "actualPrice": 11100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 48146,
+          "bhk": "3 BHK",
+          "carpetArea": 907,
+          "carpetAreaDisplay": "907 sq.ft",
+          "builtUpArea": null,
+          "price": "1.38 Cr",
+          "actualPrice": 13800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "661 - 709 sq.ft",
+      "price": "1.04 Cr - 1.11 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "907 sq.ft",
+      "price": "1.38 Cr"
+    }
+  ]
+}

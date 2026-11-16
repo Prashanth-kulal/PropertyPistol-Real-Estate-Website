@@ -1,0 +1,110 @@
+{
+  "projectId": 21357,
+  "slug": "bhaveshwar-infinity-ulwe-pid-21357",
+  "name": "Bhaveshwar Infinity",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/bhaveshwar-infinity-ulwe-pid-21357",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21357/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9204/original/fp_%282%29.png?1771588753",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 140437,
+          "bhk": "2 BHK",
+          "carpetArea": 1355,
+          "carpetAreaDisplay": "1355 sq.ft",
+          "builtUpArea": null,
+          "price": "1.27 Cr",
+          "actualPrice": 12700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 132846,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1285,
+          "price": "1.2 Cr",
+          "actualPrice": 12000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/21357/configurations/unit-plans/2-bhk/variant-132846/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/132846/original/2.png?1771588752",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 132847,
+          "bhk": "3 BHK",
+          "carpetArea": 1600,
+          "carpetAreaDisplay": "1600 sq.ft",
+          "builtUpArea": null,
+          "price": "1.59 Cr",
+          "actualPrice": 15900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/21357/configurations/unit-plans/3-bhk/1600-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/132847/original/3.png?1771588752",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 140438,
+          "bhk": "3 BHK",
+          "carpetArea": 1790,
+          "carpetAreaDisplay": "1790 sq.ft",
+          "builtUpArea": null,
+          "price": "1.78 Cr",
+          "actualPrice": 17800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "1,355 sq.ft",
+      "price": "1.2 Cr - 1.27 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,600 - 1,790 sq.ft",
+      "price": "1.59 Cr - 1.78 Cr"
+    }
+  ]
+}

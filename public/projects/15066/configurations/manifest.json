@@ -1,0 +1,94 @@
+{
+  "projectId": 15066,
+  "slug": "mango-sky-height-badlapur-west-pid-15066",
+  "name": "Mango Sky Height ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/mango-sky-height-badlapur-west-pid-15066",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5278/original/floorplan2.JPG?1703183820",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 47528,
+          "bhk": "1 BHK",
+          "carpetArea": 351,
+          "carpetAreaDisplay": "351 sq.ft",
+          "builtUpArea": null,
+          "price": "25.62 Lacs",
+          "actualPrice": 2562000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 133692,
+          "bhk": "1 BHK",
+          "carpetArea": 390,
+          "carpetAreaDisplay": "390 sq.ft",
+          "builtUpArea": null,
+          "price": "28.47 Lacs",
+          "actualPrice": 2847000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 47529,
+          "bhk": "2 BHK",
+          "carpetArea": 654,
+          "carpetAreaDisplay": "654 sq.ft",
+          "builtUpArea": null,
+          "price": "47.74 Lacs",
+          "actualPrice": 4774000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "351 - 390 sq.ft",
+      "price": "25.62 Lacs - 28.47 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "654 sq.ft",
+      "price": "47.74 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "projectId": 11175,
+  "slug": "bella-rossa-phase-2-punawale-pid-11175",
+  "name": "Bella Rossa Phase 2",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/bella-rossa-phase-2-punawale-pid-11175",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/11175/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3610/original/fp.JPG?1675252553"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 72892,
+          "bhk": "2 BHK",
+          "carpetArea": 722,
+          "carpetAreaDisplay": "722 sq.ft",
+          "builtUpArea": null,
+          "price": "75.41 Lacs",
+          "actualPrice": 7541000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 72891,
+          "bhk": "2 BHK",
+          "carpetArea": 728,
+          "carpetAreaDisplay": "728 sq.ft",
+          "builtUpArea": null,
+          "price": "76.04 Lacs",
+          "actualPrice": 7604000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 130359,
+          "bhk": "2 BHK",
+          "carpetArea": 732,
+          "carpetAreaDisplay": "732 sq.ft",
+          "builtUpArea": null,
+          "price": "76.46 Lacs",
+          "actualPrice": 7646000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/11175/configurations/unit-plans/2-bhk/732-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/130359/original/blocka_c2bhk.jpg?1764915243",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 36371,
+          "bhk": "3 BHK",
+          "carpetArea": 957,
+          "carpetAreaDisplay": "957 sq.ft",
+          "builtUpArea": null,
+          "price": "99.96 Lacs",
+          "actualPrice": 9996000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/11175/configurations/unit-plans/3-bhk/957-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/36371/original/blocka_c3bhk.jpg?1675252549",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 72896,
+          "bhk": "3 BHK",
+          "carpetArea": 958,
+          "carpetAreaDisplay": "958 sq.ft",
+          "builtUpArea": null,
+          "price": "1.0 Cr",
+          "actualPrice": 10000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "722 - 732 sq.ft",
+      "price": "75.41 Lacs - 76.46 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "957 - 958 sq.ft",
+      "price": "99.96 Lacs - 1.0 Cr"
+    }
+  ]
+}

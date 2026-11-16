@@ -1,0 +1,74 @@
+{
+  "projectId": 14162,
+  "slug": "bramha-sky-city-dhanori-pid-14162",
+  "name": "Bramha Sky City",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/bramha-sky-city-dhanori-pid-14162",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/14162/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4734/original/bramhaskycity_Floorplan.JPG?1697781423"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/14162/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4735/original/bramhaskycity_Floorplan2.JPG?1697781423"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 93211,
+          "bhk": "2 BHK",
+          "carpetArea": 786,
+          "carpetAreaDisplay": "786 sq.ft",
+          "builtUpArea": null,
+          "price": "66.0 Lacs",
+          "actualPrice": 6600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 43867,
+          "bhk": "2 BHK",
+          "carpetArea": 787,
+          "carpetAreaDisplay": "787 sq.ft",
+          "builtUpArea": null,
+          "price": "66.08 Lacs",
+          "actualPrice": 6608000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/14162/configurations/unit-plans/2-bhk/787-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/43867/original/bramhaskycity_unitplan2bhk2.JPG?1697781423",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "786 - 787 sq.ft",
+      "price": "66.0 Lacs - 66.08 Lacs"
+    }
+  ]
+}

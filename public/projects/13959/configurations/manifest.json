@@ -1,0 +1,78 @@
+{
+  "projectId": 13959,
+  "slug": "delta-palm-beach-nerul-pid-13959",
+  "name": "Delta Palm Beach",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/delta-palm-beach-nerul-pid-13959",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13959/original/mp.PNG?1696915314",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 117028,
+          "bhk": "2 BHK",
+          "carpetArea": 972,
+          "carpetAreaDisplay": "972 sq.ft",
+          "builtUpArea": null,
+          "price": "2.26 Cr",
+          "actualPrice": 22632048,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "5 BHK",
+      "variants": [
+        {
+          "id": 43151,
+          "bhk": "5 BHK",
+          "carpetArea": 3866,
+          "carpetAreaDisplay": "3866 sq.ft",
+          "builtUpArea": null,
+          "price": "9.0 Cr",
+          "actualPrice": 90015944,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "972 sq.ft",
+      "price": "2.26 Cr"
+    },
+    {
+      "flat_type_name": "5 BHK",
+      "carpet_area": "3,866 sq.ft",
+      "price": "9.0 Cr"
+    }
+  ]
+}

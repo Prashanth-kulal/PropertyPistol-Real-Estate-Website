@@ -1,0 +1,52 @@
+{
+  "projectId": 21508,
+  "slug": "salasar-aagman-bhayandar-east-pid-21508",
+  "name": "Salasar Aagman",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/salasar-aagman-bhayandar-east-pid-21508",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21508/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9709/original/fp.PNG?1789804842",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 133156,
+          "bhk": "2 BHK",
+          "carpetArea": 558,
+          "carpetAreaDisplay": "558 sq.ft",
+          "builtUpArea": null,
+          "price": "81.0 Lacs",
+          "actualPrice": 8100000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/21508/configurations/unit-plans/2-bhk/558-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/133156/original/2.PNG?1789804842",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "558 sq.ft",
+      "price": "81.0 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "projectId": 5132,
+  "slug": "total-environment-in-that-quiet-earth-hennur-road-pid-5132",
+  "name": "Total Environment In That Quiet Earth ",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/total-environment-in-that-quiet-earth-hennur-road-pid-5132",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/5132/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/5132/original/mp.png?1638777546"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/5132/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2541/original/fp.png?1638777547"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 16939,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2305,
+          "price": "3.35 Cr",
+          "actualPrice": 33450160,
+          "propertyType": "Flat",
+          "plan2D": "/projects/5132/configurations/unit-plans/3-bhk/variant-16939/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/16939/original/3.png?1638777546",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 134109,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2628,
+          "price": "3.81 Cr",
+          "actualPrice": 38137536,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "3.35 Cr - 3.81 Cr"
+    }
+  ]
+}

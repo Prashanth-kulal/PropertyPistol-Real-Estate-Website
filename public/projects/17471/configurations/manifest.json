@@ -1,0 +1,110 @@
+{
+  "projectId": 17471,
+  "slug": "sai-namah-panvel-pid-17471",
+  "name": "Sai Namah ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sai-namah-panvel-pid-17471",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/17471/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6715/original/Fp_sai.png?1752138355",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 73664,
+          "bhk": "2 BHK",
+          "carpetArea": 599,
+          "carpetAreaDisplay": "599 sq.ft",
+          "builtUpArea": null,
+          "price": "79.9 Lacs",
+          "actualPrice": 7990000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/17471/configurations/unit-plans/2-bhk/599-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/73664/original/2.PNG?1764309911",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 73665,
+          "bhk": "2 BHK",
+          "carpetArea": 690,
+          "carpetAreaDisplay": "690 sq.ft",
+          "builtUpArea": null,
+          "price": "92.13 Lacs",
+          "actualPrice": 9213000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/17471/configurations/unit-plans/2-bhk/690-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/73665/original/3bhk_sai.PNG?1721144897",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 134409,
+          "bhk": "2 BHK",
+          "carpetArea": 801,
+          "carpetAreaDisplay": "801 sq.ft",
+          "builtUpArea": null,
+          "price": "1.07 Cr",
+          "actualPrice": 10700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 134410,
+          "bhk": "3 BHK",
+          "carpetArea": 920,
+          "carpetAreaDisplay": "920 sq.ft",
+          "builtUpArea": null,
+          "price": "1.23 Cr",
+          "actualPrice": 12300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "599 - 801 sq.ft",
+      "price": "79.9 Lacs - 1.07 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "920 sq.ft",
+      "price": "1.23 Cr"
+    }
+  ]
+}

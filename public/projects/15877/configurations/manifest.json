@@ -1,0 +1,158 @@
+{
+  "projectId": 15877,
+  "slug": "vista-residences-goregaon-west-pid-15877",
+  "name": "Vista Residences",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/vista-residences-goregaon-west-pid-15877",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/15877/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5768/original/floorplan1.jpg?1756454971",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 53258,
+          "bhk": "2 BHK",
+          "carpetArea": 766,
+          "carpetAreaDisplay": "766 sq.ft",
+          "builtUpArea": null,
+          "price": "2.97 Cr",
+          "actualPrice": 29700000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/15877/configurations/unit-plans/2-bhk/766-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/53258/original/2bhk_2d.JPG?1709288768",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 124694,
+          "bhk": "2 BHK",
+          "carpetArea": 775,
+          "carpetAreaDisplay": "775 sq.ft",
+          "builtUpArea": null,
+          "price": "3.0 Cr",
+          "actualPrice": 30000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 130103,
+          "bhk": "2 BHK",
+          "carpetArea": 801,
+          "carpetAreaDisplay": "801 sq.ft",
+          "builtUpArea": null,
+          "price": "3.11 Cr",
+          "actualPrice": 31100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 130104,
+          "bhk": "2 BHK",
+          "carpetArea": 848,
+          "carpetAreaDisplay": "848 sq.ft",
+          "builtUpArea": null,
+          "price": "3.29 Cr",
+          "actualPrice": 32900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 130105,
+          "bhk": "2 BHK",
+          "carpetArea": 1110,
+          "carpetAreaDisplay": "1110 sq.ft",
+          "builtUpArea": null,
+          "price": "3.67 Cr",
+          "actualPrice": 36700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 131828,
+          "bhk": "3 BHK",
+          "carpetArea": 1110,
+          "carpetAreaDisplay": "1110 sq.ft",
+          "builtUpArea": null,
+          "price": "4.72 Cr",
+          "actualPrice": 47200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 53259,
+          "bhk": "3 BHK",
+          "carpetArea": 1170,
+          "carpetAreaDisplay": "1170 sq.ft",
+          "builtUpArea": null,
+          "price": "4.54 Cr",
+          "actualPrice": 45400000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/15877/configurations/unit-plans/3-bhk/1170-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/53259/original/3bhk_2d.JPG?1709288768",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "766 - 1,110 sq.ft",
+      "price": "2.97 Cr - 3.67 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,110 - 1,170 sq.ft",
+      "price": "4.54 Cr - 4.72 Cr"
+    }
+  ]
+}

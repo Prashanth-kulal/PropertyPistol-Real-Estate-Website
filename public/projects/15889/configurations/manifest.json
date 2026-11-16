@@ -1,0 +1,84 @@
+{
+  "projectId": 15889,
+  "slug": "divine-homes-sai-breeze-ulwe-pid-15889",
+  "name": "Divine Homes Sai Breeze",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/divine-homes-sai-breeze-ulwe-pid-15889",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/15889/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7255/original/fp.jpeg?1733207663",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 123200,
+          "bhk": "1 BHK",
+          "carpetArea": 413,
+          "carpetAreaDisplay": "413 sq.ft",
+          "builtUpArea": null,
+          "price": "46.2 Lacs",
+          "actualPrice": 4619625,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 53345,
+          "bhk": "1 BHK",
+          "carpetArea": 432,
+          "carpetAreaDisplay": "432 sq.ft",
+          "builtUpArea": null,
+          "price": "48.38 Lacs",
+          "actualPrice": 4837875,
+          "propertyType": "Flat",
+          "plan2D": "/projects/15889/configurations/unit-plans/1-bhk/432-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/53345/original/1.jpg?1752044393",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 123201,
+          "bhk": "1 BHK",
+          "carpetArea": 439,
+          "carpetAreaDisplay": "439 sq.ft",
+          "builtUpArea": null,
+          "price": "49.11 Lacs",
+          "actualPrice": 4910625,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "413 - 439 sq.ft",
+      "price": "46.2 Lacs - 49.11 Lacs"
+    }
+  ]
+}

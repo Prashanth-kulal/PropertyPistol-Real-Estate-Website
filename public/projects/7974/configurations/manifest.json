@@ -1,0 +1,126 @@
+{
+  "projectId": 7974,
+  "slug": "lt-elixir-reserve",
+  "name": "L&T Elixir Reserve",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/landt-elixir-reserve-powai-pid-7974",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/7974/original/download_-_2025-12-09T125613.576.png?1765265465",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 26157,
+          "bhk": "2 BHK",
+          "carpetArea": 631,
+          "carpetAreaDisplay": "631 sq.ft",
+          "builtUpArea": null,
+          "price": "3.85 Cr",
+          "actualPrice": 38500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/26157/original/2bhk.JPG?1648797555",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 127076,
+          "bhk": "2 BHK",
+          "carpetArea": 639,
+          "carpetAreaDisplay": "639 sq.ft",
+          "builtUpArea": null,
+          "price": "3.9 Cr",
+          "actualPrice": 39000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 137060,
+          "bhk": "3 BHK",
+          "carpetArea": 939,
+          "carpetAreaDisplay": "939 sq.ft",
+          "builtUpArea": null,
+          "price": "5.73 Cr",
+          "actualPrice": 57300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 137061,
+          "bhk": "3 BHK",
+          "carpetArea": 1065,
+          "carpetAreaDisplay": "1065 sq.ft",
+          "builtUpArea": null,
+          "price": "6.5 Cr",
+          "actualPrice": 65000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 137062,
+          "bhk": "3 BHK",
+          "carpetArea": 1131,
+          "carpetAreaDisplay": "1131 sq.ft",
+          "builtUpArea": null,
+          "price": "6.9 Cr",
+          "actualPrice": 69000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "631 - 639 sq.ft",
+      "price": "3.85 Cr - 3.9 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "939 - 1,131 sq.ft",
+      "price": "5.73 Cr - 6.9 Cr"
+    }
+  ]
+}

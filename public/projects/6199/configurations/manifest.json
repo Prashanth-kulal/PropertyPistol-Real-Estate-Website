@@ -1,0 +1,110 @@
+{
+  "projectId": 6199,
+  "slug": "sipani-viveza-electronic-city-pid-6199",
+  "name": "Sipani Viveza",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sipani-viveza-electronic-city-pid-6199",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/6199/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/6199/original/cf600018a4ad86d.jpeg?1733832609"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 72236,
+          "bhk": "2 BHK",
+          "carpetArea": 634,
+          "carpetAreaDisplay": "634 sq.ft",
+          "builtUpArea": null,
+          "price": "1.51 Cr",
+          "actualPrice": 15100000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 72234,
+          "bhk": "2 BHK",
+          "carpetArea": 714,
+          "carpetAreaDisplay": "714 sq.ft",
+          "builtUpArea": null,
+          "price": "1.67 Cr",
+          "actualPrice": 16700000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 72237,
+          "bhk": "3 BHK",
+          "carpetArea": 841,
+          "carpetAreaDisplay": "841 sq.ft",
+          "builtUpArea": null,
+          "price": "1.96 Cr",
+          "actualPrice": 19600000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 72232,
+          "bhk": "3 BHK",
+          "carpetArea": 928,
+          "carpetAreaDisplay": "928 sq.ft",
+          "builtUpArea": null,
+          "price": "2.18 Cr",
+          "actualPrice": 21800000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "634 - 714 sq.ft",
+      "price": "1.51 Cr - 1.67 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "841 - 928 sq.ft",
+      "price": "1.96 Cr - 2.18 Cr"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "projectId": 16246,
+  "slug": "estrela-the-ivy-pushpak-nagar-pid-16246",
+  "name": "Estrela The Ivy",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/estrela-the-ivy-pushpak-nagar-pid-16246",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16246/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6177/original/fp.PNG?1714639104",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 60335,
+          "bhk": "1 BHK",
+          "carpetArea": 321,
+          "carpetAreaDisplay": "321 sq.ft",
+          "builtUpArea": null,
+          "price": "42.94 Lacs",
+          "actualPrice": 4294000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/16246/configurations/unit-plans/1-bhk/321-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/60335/original/1.PNG?1714639102",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 138990,
+          "bhk": "1 BHK",
+          "carpetArea": 376,
+          "carpetAreaDisplay": "376 sq.ft",
+          "builtUpArea": null,
+          "price": "50.3 Lacs",
+          "actualPrice": 5030000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 60338,
+          "bhk": "2 BHK",
+          "carpetArea": 466,
+          "carpetAreaDisplay": "466 sq.ft",
+          "builtUpArea": null,
+          "price": "62.34 Lacs",
+          "actualPrice": 6234000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/16246/configurations/unit-plans/2-bhk/466-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/60338/original/2.PNG?1714639103",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 138991,
+          "bhk": "2 BHK",
+          "carpetArea": 565,
+          "carpetAreaDisplay": "565 sq.ft",
+          "builtUpArea": null,
+          "price": "75.59 Lacs",
+          "actualPrice": 7559000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "321 - 376 sq.ft",
+      "price": "42.94 Lacs - 50.3 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "466 - 565 sq.ft",
+      "price": "62.34 Lacs - 75.59 Lacs"
+    }
+  ]
+}

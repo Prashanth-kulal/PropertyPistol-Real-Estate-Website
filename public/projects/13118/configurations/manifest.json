@@ -1,0 +1,78 @@
+{
+  "projectId": 13118,
+  "slug": "the-domus-prive",
+  "name": "The Domus Prive ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/the-domus-prive-seawoods-pid-13118",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6725/original/fp.png?1722420604",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 40680,
+          "bhk": "2 BHK",
+          "carpetArea": 1535,
+          "carpetAreaDisplay": "1535 sq.ft",
+          "builtUpArea": null,
+          "price": "5.12 Cr",
+          "actualPrice": 51200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/40680/original/2_%286%29.jpg?1738582290",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 121339,
+          "bhk": "3 BHK",
+          "carpetArea": 2050,
+          "carpetAreaDisplay": "2050 sq.ft",
+          "builtUpArea": null,
+          "price": "6.83 Cr",
+          "actualPrice": 68300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "1,535 sq.ft",
+      "price": "5.12 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "2,050 sq.ft",
+      "price": "6.83 Cr"
+    }
+  ]
+}

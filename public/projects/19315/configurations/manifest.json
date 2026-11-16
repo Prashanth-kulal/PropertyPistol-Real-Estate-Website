@@ -1,0 +1,161 @@
+{
+  "projectId": 19315,
+  "slug": "shree-aangan-panvel-pid-19315",
+  "name": "Shree Aangan",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shree-aangan-panvel-pid-19315",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19315/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19315/original/mp.png?1752648125",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19315/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8504/original/fp.png?1752648125",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 101853,
+          "bhk": "1 BHK",
+          "carpetArea": 338,
+          "carpetAreaDisplay": "338 sq.ft",
+          "builtUpArea": null,
+          "price": "28.0 Lacs",
+          "actualPrice": 2800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19315/configurations/unit-plans/1-bhk/338-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/101853/original/1b.png?1752648125",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 101852,
+          "bhk": "1 BHK",
+          "carpetArea": 375,
+          "carpetAreaDisplay": "375 sq.ft",
+          "builtUpArea": null,
+          "price": "31.07 Lacs",
+          "actualPrice": 3107000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19315/configurations/unit-plans/1-bhk/375-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/101852/original/1b.png?1752648125",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 130040,
+          "bhk": "1 BHK",
+          "carpetArea": 399,
+          "carpetAreaDisplay": "399 sq.ft",
+          "builtUpArea": null,
+          "price": "33.05 Lacs",
+          "actualPrice": 3305000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 101854,
+          "bhk": "2 BHK",
+          "carpetArea": 527,
+          "carpetAreaDisplay": "527 sq.ft",
+          "builtUpArea": null,
+          "price": "42.0 Lacs",
+          "actualPrice": 4200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19315/configurations/unit-plans/2-bhk/527-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/101854/original/2.png?1752648125",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 134393,
+          "bhk": "2 BHK",
+          "carpetArea": 625,
+          "carpetAreaDisplay": "625 sq.ft",
+          "builtUpArea": null,
+          "price": "49.81 Lacs",
+          "actualPrice": 4981000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 134394,
+          "bhk": "3 BHK",
+          "carpetArea": 946,
+          "carpetAreaDisplay": "946 sq.ft",
+          "builtUpArea": null,
+          "price": "66.0 Lacs",
+          "actualPrice": 6600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "338 - 399 sq.ft",
+      "price": "28.0 Lacs - 33.05 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "527 - 625 sq.ft",
+      "price": "42.0 Lacs - 49.81 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "946 sq.ft",
+      "price": "66.0 Lacs"
+    }
+  ]
+}

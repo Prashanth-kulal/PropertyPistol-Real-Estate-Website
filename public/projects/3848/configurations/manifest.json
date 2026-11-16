@@ -1,0 +1,136 @@
+{
+  "projectId": 3848,
+  "slug": "metro-skyline-bhiwandi-pid-3848",
+  "name": "Metro Skyline",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/metro-skyline-bhiwandi-pid-3848",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2017/original/fp.jpg?1755867145",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 9009,
+          "bhk": "1 BHK",
+          "carpetArea": 530,
+          "carpetAreaDisplay": "530 sq.ft",
+          "builtUpArea": null,
+          "price": "32.2 Lacs",
+          "actualPrice": 3220000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/9009/original/2bhkk.jpg?1612347944",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/9009/original/2bhk.jpg?1612347944",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 134786,
+          "bhk": "1 BHK",
+          "carpetArea": 575,
+          "carpetAreaDisplay": "575 sq.ft",
+          "builtUpArea": null,
+          "price": "35.08 Lacs",
+          "actualPrice": 3508000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "1.5 BHK",
+      "variants": [
+        {
+          "id": 134787,
+          "bhk": "1.5 BHK",
+          "carpetArea": 694,
+          "carpetAreaDisplay": "694 sq.ft",
+          "builtUpArea": null,
+          "price": "42.55 Lacs",
+          "actualPrice": 4255000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 134788,
+          "bhk": "2 BHK",
+          "carpetArea": 766,
+          "carpetAreaDisplay": "766 sq.ft",
+          "builtUpArea": null,
+          "price": "46.79 Lacs",
+          "actualPrice": 4679000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 134789,
+          "bhk": "2 BHK",
+          "carpetArea": 840,
+          "carpetAreaDisplay": "840 sq.ft",
+          "builtUpArea": null,
+          "price": "51.4 Lacs",
+          "actualPrice": 5140000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "530 - 575 sq.ft",
+      "price": "32.2 Lacs - 35.08 Lacs"
+    },
+    {
+      "flat_type_name": "1.5 BHK",
+      "carpet_area": "694 sq.ft",
+      "price": "42.55 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "766 - 840 sq.ft",
+      "price": "46.79 Lacs - 51.4 Lacs"
+    }
+  ]
+}

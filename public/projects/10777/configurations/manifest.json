@@ -1,0 +1,114 @@
+{
+  "projectId": 10777,
+  "slug": "om-mangalam-yash-kiwale-pid-10777",
+  "name": "Om Mangalam Yash",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/om-mangalam-yash-kiwale-pid-10777",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/10777/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/10777/original/download_-_2025-12-04T150816.525.png?1764841182"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/10777/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9037/original/download_-_2025-12-04T150831.447.png?1764841182"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/10777/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9038/original/download_-_2025-12-04T150835.913.png?1764841182"
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/10777/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9039/original/download_-_2025-12-04T150839.163.png?1764841182"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 35449,
+          "bhk": "2 BHK",
+          "carpetArea": 599,
+          "carpetAreaDisplay": "599 sq.ft",
+          "builtUpArea": null,
+          "price": "62.8 Lacs",
+          "actualPrice": 6280000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 118896,
+          "bhk": "3 BHK",
+          "carpetArea": 981,
+          "carpetAreaDisplay": "981 sq.ft",
+          "builtUpArea": null,
+          "price": "90.0 Lacs",
+          "actualPrice": 9000000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139629,
+          "bhk": "3 BHK",
+          "carpetArea": 1144,
+          "carpetAreaDisplay": "1144 sq.ft",
+          "builtUpArea": null,
+          "price": "1.2 Cr",
+          "actualPrice": 12000000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "599 sq.ft",
+      "price": "62.8 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "981 - 1,144 sq.ft",
+      "price": "90.0 Lacs - 1.2 Cr"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "projectId": 15929,
+  "slug": "the-gale-at-godrej-park-world-hinjawadi-pid-15929",
+  "name": "The Gale at Godrej Park World",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/the-gale-at-godrej-park-world-hinjawadi-pid-15929",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/15929/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/15929/original/masterplan.JPG?1709718089"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 89301,
+          "bhk": "1 BHK",
+          "carpetArea": 562,
+          "carpetAreaDisplay": "562 sq.ft",
+          "builtUpArea": null,
+          "price": "65.61 Lacs",
+          "actualPrice": 6561350,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 89373,
+          "bhk": "3 BHK",
+          "carpetArea": 1041,
+          "carpetAreaDisplay": "1041 sq.ft",
+          "builtUpArea": null,
+          "price": "1.22 Cr",
+          "actualPrice": 12153675,
+          "propertyType": "Flat",
+          "plan2D": "/projects/15929/configurations/unit-plans/3-bhk/1041-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/89373/original/2.png?1752129357",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "562 sq.ft",
+      "price": "65.61 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,041 sq.ft",
+      "price": "1.22 Cr"
+    }
+  ]
+}

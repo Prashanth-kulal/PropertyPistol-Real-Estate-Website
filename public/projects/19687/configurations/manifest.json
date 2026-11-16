@@ -1,0 +1,52 @@
+{
+  "projectId": 19687,
+  "slug": "assetz-ren-and-rei-gattahalli-pid-19687",
+  "name": "Assetz Ren and Rei",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/assetz-ren-and-rei-gattahalli-pid-19687",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19687/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19687/original/Masterplan.PNG?1745042247"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 108260,
+          "bhk": "3 BHK",
+          "carpetArea": 1167,
+          "carpetAreaDisplay": "1167 sq.ft",
+          "builtUpArea": null,
+          "price": "1.8 Cr",
+          "actualPrice": 17992806,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19687/configurations/unit-plans/3-bhk/1167-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/108260/original/3bhk_2d1.PNG?1745042247",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,167 sq.ft",
+      "price": "1.8 Cr"
+    }
+  ]
+}

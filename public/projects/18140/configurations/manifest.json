@@ -1,0 +1,110 @@
+{
+  "projectId": 18140,
+  "slug": "vista-heights-ulwe-pid-18140",
+  "name": "Vista Heights",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/vista-heights-ulwe-pid-18140",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18140/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6971/original/download.png?1763713958",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 88493,
+          "bhk": "1 BHK",
+          "carpetArea": 322,
+          "carpetAreaDisplay": "322 sq.ft",
+          "builtUpArea": null,
+          "price": "47.97 Lacs",
+          "actualPrice": 4797000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 88491,
+          "bhk": "1 BHK",
+          "carpetArea": 329,
+          "carpetAreaDisplay": "329 sq.ft",
+          "builtUpArea": null,
+          "price": "48.99 Lacs",
+          "actualPrice": 4899000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 98721,
+          "bhk": "2 BHK",
+          "carpetArea": 496,
+          "carpetAreaDisplay": "496 sq.ft",
+          "builtUpArea": null,
+          "price": "73.96 Lacs",
+          "actualPrice": 7396000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 98722,
+          "bhk": "2 BHK",
+          "carpetArea": 514,
+          "carpetAreaDisplay": "514 sq.ft",
+          "builtUpArea": null,
+          "price": "76.56 Lacs",
+          "actualPrice": 7656000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "322 - 329 sq.ft",
+      "price": "47.97 Lacs - 48.99 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "496 - 514 sq.ft",
+      "price": "73.96 Lacs - 76.56 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "projectId": 19948,
+  "slug": "balaji-sapphire-nerul-pid-19948",
+  "name": "Balaji Sapphire",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/balaji-sapphire-nerul-pid-19948",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19948/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19948/original/mp.PNG?1748864091",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19948/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8286/original/fp.PNG?1748863965",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 129616,
+          "bhk": "2 BHK",
+          "carpetArea": 848,
+          "carpetAreaDisplay": "848 sq.ft",
+          "builtUpArea": null,
+          "price": "2.25 Cr",
+          "actualPrice": 22484720,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 115200,
+          "bhk": "3 BHK",
+          "carpetArea": 1307,
+          "carpetAreaDisplay": "1307 sq.ft",
+          "builtUpArea": null,
+          "price": "3.47 Cr",
+          "actualPrice": 34655105,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19948/configurations/unit-plans/3-bhk/1307-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/115200/original/3.PNG?1748863961",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "848 sq.ft",
+      "price": "2.25 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,307 sq.ft",
+      "price": "3.47 Cr"
+    }
+  ]
+}

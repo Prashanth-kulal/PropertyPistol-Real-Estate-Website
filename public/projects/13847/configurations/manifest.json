@@ -1,0 +1,76 @@
+{
+  "projectId": 13847,
+  "slug": "my-home-raka-hafeezpet-pid-13847",
+  "name": "My Home Raka",
+  "city": "hyderabad",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/my-home-raka-hafeezpet-pid-13847",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/13847/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13847/original/cf62bc388a326b8.jpeg?1695992309"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/13847/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4485/original/cf62bc35de55bb7.jpeg?1695992310"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 135644,
+          "bhk": "3 BHK",
+          "carpetArea": 1378,
+          "carpetAreaDisplay": "1378 sq.ft",
+          "builtUpArea": 1969,
+          "price": "1.77 Cr",
+          "actualPrice": 17700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 75702,
+          "bhk": "3 BHK",
+          "carpetArea": 1964,
+          "carpetAreaDisplay": "1964 sq.ft",
+          "builtUpArea": 2806,
+          "price": "2.53 Cr",
+          "actualPrice": 25300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,378 - 1,964 sq.ft",
+      "price": "1.77 Cr - 2.53 Cr"
+    }
+  ]
+}

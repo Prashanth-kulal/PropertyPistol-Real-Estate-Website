@@ -1,0 +1,92 @@
+{
+  "projectId": 14273,
+  "slug": "sunshine-green-meadows-bachupally-pid-14273",
+  "name": "Sunshine Green Meadows",
+  "city": "hyderabad",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sunshine-green-meadows-bachupally-pid-14273",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/14273/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/14273/original/masterplan.JPG?1698402231"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/14273/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4793/original/floorplan.JPG?1698402231"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/14273/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4794/original/floorplan2.JPG?1698402231"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 44270,
+          "bhk": "2 BHK",
+          "carpetArea": 1168,
+          "carpetAreaDisplay": "1168 sq.ft",
+          "builtUpArea": null,
+          "price": "68.9 Lacs",
+          "actualPrice": 6890000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 44271,
+          "bhk": "3 BHK",
+          "carpetArea": 1560,
+          "carpetAreaDisplay": "1560 sq.ft",
+          "builtUpArea": null,
+          "price": "92.02 Lacs",
+          "actualPrice": 9202000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "1,168 sq.ft",
+      "price": "68.9 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,560 sq.ft",
+      "price": "92.02 Lacs"
+    }
+  ]
+}

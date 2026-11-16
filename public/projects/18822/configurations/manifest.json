@@ -1,0 +1,94 @@
+{
+  "projectId": 18822,
+  "slug": "abv-arbor-ramanathapuram-pid-18822",
+  "name": "ABV Arbor",
+  "city": "coimbatore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/abv-arbor-ramanathapuram-pid-18822",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18822/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7251/original/fp.PNG?1733128939"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 94816,
+          "bhk": "3 BHK",
+          "carpetArea": 1524,
+          "carpetAreaDisplay": "1524 sq.ft",
+          "builtUpArea": null,
+          "price": "1.85 Cr",
+          "actualPrice": 18500000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18822/configurations/unit-plans/3-bhk/1524-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/94816/original/3.jpg?1733128938",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 94817,
+          "bhk": "3 BHK",
+          "carpetArea": 1551,
+          "carpetAreaDisplay": "1551 sq.ft",
+          "builtUpArea": null,
+          "price": "1.88 Cr",
+          "actualPrice": 18800000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18822/configurations/unit-plans/3-bhk/1551-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/94817/original/3bhk.jpg?1733128938",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 94818,
+          "bhk": "4 BHK",
+          "carpetArea": 1676,
+          "carpetAreaDisplay": "1676 sq.ft",
+          "builtUpArea": null,
+          "price": "2.0 Cr",
+          "actualPrice": 20000000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18822/configurations/unit-plans/4-bhk/1676-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/94818/original/4bhk.jpg?1733128938",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,524 - 1,551 sq.ft",
+      "price": "1.85 Cr - 1.88 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,676 sq.ft",
+      "price": "2.0 Cr"
+    }
+  ]
+}

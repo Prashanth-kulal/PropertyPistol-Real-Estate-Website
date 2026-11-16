@@ -1,0 +1,77 @@
+{
+  "projectId": 2122,
+  "slug": "uma-elements-shilphata-pid-2122",
+  "name": "Uma Elements",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/uma-elements-shilphata-pid-2122",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/2122/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/2122/original/master_plan.jpg?1564816736",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/2122/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/1076/original/floor-plan-.jpg?1564816738",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 29268,
+          "bhk": "1 BHK",
+          "carpetArea": 400,
+          "carpetAreaDisplay": "400 sq.ft",
+          "builtUpArea": null,
+          "price": "36.33 Lacs",
+          "actualPrice": 3633000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 89255,
+          "bhk": "1 BHK",
+          "carpetArea": 413,
+          "carpetAreaDisplay": "413 sq.ft",
+          "builtUpArea": null,
+          "price": "37.71 Lacs",
+          "actualPrice": 3771000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "400 - 413 sq.ft",
+      "price": "36.33 Lacs - 37.71 Lacs"
+    }
+  ]
+}

@@ -14,7 +14,9 @@ import {
   LayoutGrid,
   ArrowRight
 } from "lucide-react";
-import { CITIES, PROJECTS, getProjectSlug } from "@/data";
+import { CITIES } from "@/data/cities";
+import { TOP_PROJECTS } from "@/data/topProjects";
+import { getProjectSlug } from "@/lib/projectUtils";
 import WishlistButton from "@/components/common/WishlistButton";
 
 function formatProjectPrice(rawPrice) {
@@ -47,13 +49,13 @@ export default function TopProjects({
     CITIES[0];
 
   // Filter projects by active city and search input
-  let cityProjects = PROJECTS.filter((p) => {
+  let cityProjects = TOP_PROJECTS.filter((p) => {
     const matchCity = activeCityTab === "all" || p.city.toLowerCase() === activeCityTab.toLowerCase();
     return matchCity;
   });
 
   if (cityProjects.length === 0) {
-    cityProjects = PROJECTS.slice(0, 16);
+    cityProjects = TOP_PROJECTS.slice(0, 16);
   }
 
   let displayedProjects = cityProjects;

@@ -1,0 +1,86 @@
+{
+  "projectId": 12745,
+  "slug": "nyati-emerald-baner-pid-12745",
+  "name": "Nyati Emerald",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/nyati-emerald-baner-pid-12745",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/12745/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/12745/original/download_%2899%29.png?1764754375"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/12745/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9029/original/download_%28100%29.png?1764754375"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 39443,
+          "bhk": "2 BHK",
+          "carpetArea": 838,
+          "carpetAreaDisplay": "838 sq.ft",
+          "builtUpArea": null,
+          "price": "1.25 Cr",
+          "actualPrice": 12500000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 39444,
+          "bhk": "3 BHK",
+          "carpetArea": 1213,
+          "carpetAreaDisplay": "1213 sq.ft",
+          "builtUpArea": null,
+          "price": "1.8 Cr",
+          "actualPrice": 18000000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "838 sq.ft",
+      "price": "1.25 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,213 sq.ft",
+      "price": "1.8 Cr"
+    }
+  ]
+}

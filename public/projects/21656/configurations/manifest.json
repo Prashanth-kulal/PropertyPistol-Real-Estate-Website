@@ -1,0 +1,108 @@
+{
+  "projectId": 21656,
+  "slug": "highness-by-binary-infrastructure-wakad-pid-21656",
+  "name": "Highness by Binary Infrastructure",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/highness-by-binary-infrastructure-wakad-pid-21656",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/21656/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/21656/original/mp-highn.png?1776940340"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21656/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9248/original/fp-highn.png?1776940341"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/21656/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9249/original/download.png?1776940341"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 134301,
+          "bhk": "3 BHK",
+          "carpetArea": 901,
+          "carpetAreaDisplay": "901 sq.ft",
+          "builtUpArea": null,
+          "price": "1.32 Cr",
+          "actualPrice": 13200000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/21656/configurations/unit-plans/3-bhk/901-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/134301/original/3bhk-high.png?1776940340",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 139187,
+          "bhk": "3 BHK",
+          "carpetArea": 1255,
+          "carpetAreaDisplay": "1255 sq.ft",
+          "builtUpArea": null,
+          "price": "1.82 Cr",
+          "actualPrice": 18200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 134302,
+          "bhk": "4 BHK",
+          "carpetArea": 1552,
+          "carpetAreaDisplay": "1552 sq.ft",
+          "builtUpArea": null,
+          "price": "2.25 Cr",
+          "actualPrice": 22500000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/21656/configurations/unit-plans/4-bhk/1552-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/134302/original/4bhk-high.png?1776940340",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "901 - 1,255 sq.ft",
+      "price": "1.32 Cr - 1.82 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,552 sq.ft",
+      "price": "2.25 Cr"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "projectId": 21028,
+  "slug": "shripal-sattva-vasai-west-pid-21028",
+  "name": "Shripal Sattva",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shripal-sattva-vasai-west-pid-21028",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21028/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8927/original/fp.jpg?1763447455",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 127441,
+          "bhk": "1 BHK",
+          "carpetArea": 389,
+          "carpetAreaDisplay": "389 sq.ft",
+          "builtUpArea": null,
+          "price": "46.9 Lacs",
+          "actualPrice": 4690000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/21028/configurations/unit-plans/1-bhk/389-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/127441/original/1.jpg?1763447455",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 138780,
+          "bhk": "1 BHK",
+          "carpetArea": 423,
+          "carpetAreaDisplay": "423 sq.ft",
+          "builtUpArea": null,
+          "price": "49.9 Lacs",
+          "actualPrice": 4990000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 138782,
+          "bhk": "2 BHK",
+          "carpetArea": 555,
+          "carpetAreaDisplay": "555 sq.ft",
+          "builtUpArea": null,
+          "price": "66.6 Lacs",
+          "actualPrice": 6660000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 138781,
+          "bhk": "2 BHK",
+          "carpetArea": 561,
+          "carpetAreaDisplay": "561 sq.ft",
+          "builtUpArea": null,
+          "price": "66.9 Lacs",
+          "actualPrice": 6690000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 127442,
+          "bhk": "2 BHK",
+          "carpetArea": 609,
+          "carpetAreaDisplay": "609 sq.ft",
+          "builtUpArea": null,
+          "price": "73.08 Lacs",
+          "actualPrice": 7308000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "389 - 423 sq.ft",
+      "price": "46.9 Lacs - 49.9 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "555 - 609 sq.ft",
+      "price": "66.6 Lacs - 73.08 Lacs"
+    }
+  ]
+}

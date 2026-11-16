@@ -1,0 +1,112 @@
+{
+  "projectId": 8062,
+  "slug": "vighnaharta-life-canvas-mamurdi-pid-8062",
+  "name": "Vighnaharta Life Canvas",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/vighnaharta-life-canvas-mamurdi-pid-8062",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/8062/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/8062/original/mp.JPG?1671173862"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/8062/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3254/original/fp.JPG?1671173862"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 111361,
+          "bhk": "1 BHK",
+          "carpetArea": 530,
+          "carpetAreaDisplay": "530 sq.ft",
+          "builtUpArea": null,
+          "price": "43.0 Lacs",
+          "actualPrice": 4300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 77928,
+          "bhk": "2 BHK",
+          "carpetArea": 728,
+          "carpetAreaDisplay": "728 sq.ft",
+          "builtUpArea": null,
+          "price": "60.0 Lacs",
+          "actualPrice": 6000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 111359,
+          "bhk": "3 BHK",
+          "carpetArea": 991,
+          "carpetAreaDisplay": "991 sq.ft",
+          "builtUpArea": null,
+          "price": "80.26 Lacs",
+          "actualPrice": 8026000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "530 sq.ft",
+      "price": "43.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "728 sq.ft",
+      "price": "60.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "991 sq.ft",
+      "price": "80.26 Lacs"
+    }
+  ]
+}

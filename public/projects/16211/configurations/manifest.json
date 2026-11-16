@@ -1,0 +1,104 @@
+{
+  "projectId": 16211,
+  "slug": "v-shree-jai-vishal-bldg-no-1",
+  "name": "V Shree Jai Vishal Bldg No.1",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/v-shree-jai-vishal-bldg-no.1-virar-west-pid-16211",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16211/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6162/original/fp_%282%29.png?1753724259",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "Studio",
+      "variants": [
+        {
+          "id": 75842,
+          "bhk": "Studio",
+          "carpetArea": 246,
+          "carpetAreaDisplay": "246 sq.ft",
+          "builtUpArea": null,
+          "price": "30.53 Lacs",
+          "actualPrice": 3053000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 60173,
+          "bhk": "1 BHK",
+          "carpetArea": 318,
+          "carpetAreaDisplay": "318 sq.ft",
+          "builtUpArea": null,
+          "price": "39.47 Lacs",
+          "actualPrice": 3947000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": "/projects/16211/configurations/unit-plans/1-bhk/318-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/60173/original/11.PNG?1765964690",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 60174,
+          "bhk": "2 BHK",
+          "carpetArea": 655,
+          "carpetAreaDisplay": "655 sq.ft",
+          "builtUpArea": null,
+          "price": "80.0 Lacs",
+          "actualPrice": 8000000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": "/projects/16211/configurations/unit-plans/2-bhk/655-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/60174/original/2.PNG?1714466728",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "Studio",
+      "carpet_area": "246 sq.ft",
+      "price": "30.53 Lacs"
+    },
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "318 sq.ft",
+      "price": "39.47 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "655 sq.ft",
+      "price": "80.0 Lacs"
+    }
+  ]
+}

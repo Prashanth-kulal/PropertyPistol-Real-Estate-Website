@@ -1,0 +1,92 @@
+{
+  "projectId": 14481,
+  "slug": "janki-panvel-pid-14481",
+  "name": "Janki",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/janki-panvel-pid-14481",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5016/original/floorplan1.JPG?1700222578",
+      "downloaded": false
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5017/original/floorplan2.JPG?1700222578",
+      "downloaded": false
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5018/original/floorplan3.JPG?1700222578",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 45056,
+          "bhk": "2 BHK",
+          "carpetArea": 738,
+          "carpetAreaDisplay": "738 sq.ft",
+          "builtUpArea": null,
+          "price": "66.0 Lacs",
+          "actualPrice": 6600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/45056/original/2.jpg?1749017599",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 124443,
+          "bhk": "3 BHK",
+          "carpetArea": 1035,
+          "carpetAreaDisplay": "1035 sq.ft",
+          "builtUpArea": null,
+          "price": "92.0 Lacs",
+          "actualPrice": 9200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "738 sq.ft",
+      "price": "66.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,035 sq.ft",
+      "price": "92.0 Lacs"
+    }
+  ]
+}

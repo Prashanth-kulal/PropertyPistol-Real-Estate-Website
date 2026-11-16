@@ -1,0 +1,152 @@
+{
+  "projectId": 14469,
+  "slug": "mahindra-citadel-bastion-pimpri-chinchwad-pid-14469",
+  "name": "Mahindra Citadel Bastion",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/mahindra-citadel-bastion-pimpri-chinchwad-pid-14469",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/14469/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/14469/original/mp-ci.png?1748241807"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 127666,
+          "bhk": "2 BHK",
+          "carpetArea": 743,
+          "carpetAreaDisplay": "743 sq.ft",
+          "builtUpArea": null,
+          "price": "1.07 Cr",
+          "actualPrice": 10700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 134251,
+          "bhk": "2 BHK",
+          "carpetArea": 839,
+          "carpetAreaDisplay": "839 sq.ft",
+          "builtUpArea": null,
+          "price": "1.27 Cr",
+          "actualPrice": 12700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 134252,
+          "bhk": "3 BHK",
+          "carpetArea": 1094,
+          "carpetAreaDisplay": "1094 sq.ft",
+          "builtUpArea": null,
+          "price": "1.57 Cr",
+          "actualPrice": 15700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 137993,
+          "bhk": "3 BHK",
+          "carpetArea": 1158,
+          "carpetAreaDisplay": "1158 sq.ft",
+          "builtUpArea": null,
+          "price": "1.76 Cr",
+          "actualPrice": 17600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 137994,
+          "bhk": "3 BHK",
+          "carpetArea": 1377,
+          "carpetAreaDisplay": "1377 sq.ft",
+          "builtUpArea": null,
+          "price": "2.15 Cr",
+          "actualPrice": 21500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 114359,
+          "bhk": "4 BHK",
+          "carpetArea": 1665,
+          "carpetAreaDisplay": "1665 sq.ft",
+          "builtUpArea": null,
+          "price": "2.59 Cr",
+          "actualPrice": 25900000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/14469/configurations/unit-plans/4-bhk/1665-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/114359/original/4bhk.png?1748241807",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "743 - 839 sq.ft",
+      "price": "1.07 Cr - 1.27 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,094 - 1,377 sq.ft",
+      "price": "1.57 Cr - 2.15 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,665 sq.ft",
+      "price": "2.59 Cr"
+    }
+  ]
+}

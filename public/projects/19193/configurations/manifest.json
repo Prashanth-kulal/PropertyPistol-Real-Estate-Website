@@ -1,0 +1,136 @@
+{
+  "projectId": 19193,
+  "slug": "palm-olympia-sector-16c-greater-noida-pid-19193",
+  "name": "Palm Olympia",
+  "city": "noida",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/palm-olympia-sector-16c-greater-noida-pid-19193",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19193/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19193/original/pixelcut-export_-_2025-02-20T161305.400.jpg?1740048304"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 100676,
+          "bhk": "2 BHK",
+          "carpetArea": 816,
+          "carpetAreaDisplay": "816 sq.ft",
+          "builtUpArea": null,
+          "price": "1.36 Cr",
+          "actualPrice": 13600000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19193/configurations/unit-plans/2-bhk/816-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/100676/original/2.PNG?1740048305",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 100677,
+          "bhk": "3 BHK",
+          "carpetArea": 971,
+          "carpetAreaDisplay": "971 sq.ft",
+          "builtUpArea": null,
+          "price": "1.56 Cr",
+          "actualPrice": 15600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 100678,
+          "bhk": "3 BHK",
+          "carpetArea": 1151,
+          "carpetAreaDisplay": "1151 sq.ft",
+          "builtUpArea": null,
+          "price": "1.85 Cr",
+          "actualPrice": 18500000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19193/configurations/unit-plans/3-bhk/1151-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/100678/original/967.jpg?1740048305",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 100679,
+          "bhk": "3 BHK",
+          "carpetArea": 1298,
+          "carpetAreaDisplay": "1298 sq.ft",
+          "builtUpArea": null,
+          "price": "2.08 Cr",
+          "actualPrice": 20800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 100681,
+          "bhk": "4 BHK",
+          "carpetArea": 1659,
+          "carpetAreaDisplay": "1659 sq.ft",
+          "builtUpArea": null,
+          "price": "2.89 Cr",
+          "actualPrice": 28900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "816 sq.ft",
+      "price": "1.36 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "971 - 1,298 sq.ft",
+      "price": "1.56 Cr - 2.08 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,659 sq.ft",
+      "price": "2.89 Cr"
+    }
+  ]
+}

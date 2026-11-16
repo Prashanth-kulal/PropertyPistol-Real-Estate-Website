@@ -1,0 +1,75 @@
+{
+  "projectId": 20835,
+  "slug": "dream-city-panvel-pid-20835",
+  "name": "Dream City",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/dream-city-panvel-pid-20835",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20835/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8915/original/1BUILDING_02.jpg?1763371393",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/20835/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8916/original/1BUILDING_03.jpg?1763371393",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 126977,
+          "bhk": "1 BHK",
+          "carpetArea": 203,
+          "carpetAreaDisplay": "203 sq.ft",
+          "builtUpArea": null,
+          "price": "13.09 Lacs",
+          "actualPrice": 1309350,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 126978,
+          "bhk": "1 BHK",
+          "carpetArea": 402,
+          "carpetAreaDisplay": "402 sq.ft",
+          "builtUpArea": null,
+          "price": "25.93 Lacs",
+          "actualPrice": 2592900,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "203 - 402 sq.ft",
+      "price": "13.09 Lacs - 25.93 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "projectId": 18364,
+  "slug": "elite-vivanta-kharghar-pid-18364",
+  "name": "Elite Vivanta",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/elite-vivanta-kharghar-pid-18364",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18364/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7027/original/fp_fp.PNG?1730134879",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 90691,
+          "bhk": "2 BHK",
+          "carpetArea": 771,
+          "carpetAreaDisplay": "771 sq.ft",
+          "builtUpArea": null,
+          "price": "1.65 Cr",
+          "actualPrice": 16500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/18364/configurations/unit-plans/2-bhk/771-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/90691/original/2bhk_el.PNG?1730134878",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 90692,
+          "bhk": "3 BHK",
+          "carpetArea": 1025,
+          "carpetAreaDisplay": "1025 sq.ft",
+          "builtUpArea": null,
+          "price": "2.25 Cr",
+          "actualPrice": 22500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/18364/configurations/unit-plans/3-bhk/1025-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/90692/original/3bhk_el.PNG?1730134879",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 139033,
+          "bhk": "4 BHK",
+          "carpetArea": 1545,
+          "carpetAreaDisplay": "1545 sq.ft",
+          "builtUpArea": null,
+          "price": "3.39 Cr",
+          "actualPrice": 33900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "771 sq.ft",
+      "price": "1.65 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,025 sq.ft",
+      "price": "2.25 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,545 sq.ft",
+      "price": "3.39 Cr"
+    }
+  ]
+}

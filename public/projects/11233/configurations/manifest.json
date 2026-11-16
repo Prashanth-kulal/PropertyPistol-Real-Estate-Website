@@ -1,0 +1,110 @@
+{
+  "projectId": 11233,
+  "slug": "shree-balaji-135-ghatkopar-east-pid-11233",
+  "name": "Shree Balaji 135",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shree-balaji-135-ghatkopar-east-pid-11233",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6092/original/fp.PNG?1712919204",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 36504,
+          "bhk": "1 BHK",
+          "carpetArea": 373,
+          "carpetAreaDisplay": "373 sq.ft",
+          "builtUpArea": null,
+          "price": "1.0 Cr",
+          "actualPrice": 10000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/36504/original/1b.jpg?1748081092",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 101388,
+          "bhk": "1 BHK",
+          "carpetArea": 395,
+          "carpetAreaDisplay": "395 sq.ft",
+          "builtUpArea": null,
+          "price": "1.06 Cr",
+          "actualPrice": 10600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/101388/original/1.jpg?1748081092",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 124674,
+          "bhk": "2 BHK",
+          "carpetArea": 572,
+          "carpetAreaDisplay": "572 sq.ft",
+          "builtUpArea": null,
+          "price": "1.53 Cr",
+          "actualPrice": 15300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 124675,
+          "bhk": "2 BHK",
+          "carpetArea": 584,
+          "carpetAreaDisplay": "584 sq.ft",
+          "builtUpArea": null,
+          "price": "1.57 Cr",
+          "actualPrice": 15700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "373 - 395 sq.ft",
+      "price": "1.0 Cr - 1.06 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "572 - 584 sq.ft",
+      "price": "1.53 Cr - 1.57 Cr"
+    }
+  ]
+}

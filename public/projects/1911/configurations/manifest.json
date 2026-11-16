@@ -1,0 +1,78 @@
+{
+  "projectId": 1911,
+  "slug": "plus-art",
+  "name": "Plus Art",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/plus-art-lower-parel-east-pid-1911",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/1911/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/1842/original/fp.PNG?1589622164",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 3249,
+          "bhk": "1 BHK",
+          "carpetArea": 472,
+          "carpetAreaDisplay": "472 sq.ft",
+          "builtUpArea": null,
+          "price": "2.54 Cr",
+          "actualPrice": 25400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 3248,
+          "bhk": "2 BHK",
+          "carpetArea": 748,
+          "carpetAreaDisplay": "748 sq.ft",
+          "builtUpArea": null,
+          "price": "4.03 Cr",
+          "actualPrice": 40300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "472 sq.ft",
+      "price": "2.54 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "748 sq.ft",
+      "price": "4.03 Cr"
+    }
+  ]
+}

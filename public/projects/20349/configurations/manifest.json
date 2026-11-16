@@ -1,0 +1,68 @@
+{
+  "projectId": 20349,
+  "slug": "assetz-meru-and-meadow-kanakpura-road-pid-20349",
+  "name": "Assetz Meru and Meadow",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/assetz-meru-and-meadow-kanakpura-road-pid-20349",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/20349/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/20349/original/master.PNG?1753725677"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 120901,
+          "bhk": "3 BHK",
+          "carpetArea": 1140,
+          "carpetAreaDisplay": "1140 sq.ft",
+          "builtUpArea": null,
+          "price": "2.37 Cr",
+          "actualPrice": 23749620,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20349/configurations/unit-plans/3-bhk/1140-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/120901/original/3bhk_2d.PNG?1753725678",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 120902,
+          "bhk": "3 BHK",
+          "carpetArea": 1267,
+          "carpetAreaDisplay": "1267 sq.ft",
+          "builtUpArea": null,
+          "price": "2.64 Cr",
+          "actualPrice": 26395411,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,140 - 1,267 sq.ft",
+      "price": "2.37 Cr - 2.64 Cr"
+    }
+  ]
+}

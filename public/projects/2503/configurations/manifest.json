@@ -1,0 +1,183 @@
+{
+  "projectId": 2503,
+  "slug": "unimont-aurum-karjat-pid-2503",
+  "name": "Unimont Aurum",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/unimont-aurum-karjat-pid-2503",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/2503/original/master_plan.PNG?1570010812",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/1276/original/floor_plan.PNG?1570010812",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 10373,
+          "bhk": "1 BHK",
+          "carpetArea": 460,
+          "carpetAreaDisplay": "460 sq.ft",
+          "builtUpArea": null,
+          "price": "23.0 Lacs",
+          "actualPrice": 2300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/10373/original/1.png?1751875140",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 7327,
+          "bhk": "1 BHK",
+          "carpetArea": 550,
+          "carpetAreaDisplay": "550 sq.ft",
+          "builtUpArea": null,
+          "price": "24.5 Lacs",
+          "actualPrice": 2450000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 45433,
+          "bhk": "1 BHK",
+          "carpetArea": 560,
+          "carpetAreaDisplay": "560 sq.ft",
+          "builtUpArea": null,
+          "price": "25.8 Lacs",
+          "actualPrice": 2580000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 45434,
+          "bhk": "1 BHK",
+          "carpetArea": 595,
+          "carpetAreaDisplay": "595 sq.ft",
+          "builtUpArea": null,
+          "price": "27.0 Lacs",
+          "actualPrice": 2700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 45435,
+          "bhk": "1 BHK",
+          "carpetArea": 615,
+          "carpetAreaDisplay": "615 sq.ft",
+          "builtUpArea": null,
+          "price": "28.0 Lacs",
+          "actualPrice": 2800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 106261,
+          "bhk": "2 BHK",
+          "carpetArea": 735,
+          "carpetAreaDisplay": "735 sq.ft",
+          "builtUpArea": null,
+          "price": "29.0 Lacs",
+          "actualPrice": 2900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/106261/original/2b.png?1751875140",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 106262,
+          "bhk": "2 BHK",
+          "carpetArea": 780,
+          "carpetAreaDisplay": "780 sq.ft",
+          "builtUpArea": null,
+          "price": "35.5 Lacs",
+          "actualPrice": 3550000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 106263,
+          "bhk": "2 BHK",
+          "carpetArea": 840,
+          "carpetAreaDisplay": "840 sq.ft",
+          "builtUpArea": null,
+          "price": "40.0 Lacs",
+          "actualPrice": 4000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "460 - 615 sq.ft",
+      "price": "23.0 Lacs - 28.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "735 - 840 sq.ft",
+      "price": "29.0 Lacs - 40.0 Lacs"
+    }
+  ]
+}

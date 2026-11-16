@@ -1,0 +1,143 @@
+{
+  "projectId": 388,
+  "slug": "l-t-emerald-isle-powai-pid-388",
+  "name": "L&T Emerald Isle",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/l-t-emerald-isle-powai-pid-388",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/388/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/388/original/Master_Plan.JPG?1542347116",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/388/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/26/original/Floor_plan-2.JPG?1542347117",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/388/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/27/original/Floor_Plan-3.JPG?1542347117",
+      "downloaded": true
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/388/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/212/original/floor_abcd.JPG?1544681700",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 108641,
+          "bhk": "3 BHK",
+          "carpetArea": 890,
+          "carpetAreaDisplay": "890 sq.ft",
+          "builtUpArea": null,
+          "price": "5.9 Cr",
+          "actualPrice": 59000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 10988,
+          "bhk": "2 BHK",
+          "carpetArea": 890,
+          "carpetAreaDisplay": "890 sq.ft",
+          "builtUpArea": null,
+          "price": "3.1 Cr",
+          "actualPrice": 31000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 108643,
+          "bhk": "4 BHK",
+          "carpetArea": 1968,
+          "carpetAreaDisplay": "1968 sq.ft",
+          "builtUpArea": null,
+          "price": "7.4 Cr",
+          "actualPrice": 74000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 108644,
+          "bhk": "4 BHK",
+          "carpetArea": 2197,
+          "carpetAreaDisplay": "2197 sq.ft",
+          "builtUpArea": null,
+          "price": "8.39 Cr",
+          "actualPrice": 83900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "890 sq.ft",
+      "price": "5.9 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "890 sq.ft",
+      "price": "3.1 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,968 - 2,197 sq.ft",
+      "price": "7.4 Cr - 8.39 Cr"
+    }
+  ]
+}

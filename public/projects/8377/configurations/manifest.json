@@ -1,0 +1,120 @@
+{
+  "projectId": 8377,
+  "slug": "skyrise-sparkle-dhanori-pid-8377",
+  "name": "Skyrise Sparkle",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/skyrise-sparkle-dhanori-pid-8377",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/8377/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2705/original/fp.png?1656061118"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 29296,
+          "bhk": "2 BHK",
+          "carpetArea": 693,
+          "carpetAreaDisplay": "693 sq.ft",
+          "builtUpArea": null,
+          "price": "78.22 Lacs",
+          "actualPrice": 7822000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/8377/configurations/unit-plans/2-bhk/693-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/29296/original/2.png?1656061116",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "2.5 BHK",
+      "variants": [
+        {
+          "id": 69449,
+          "bhk": "2.5 BHK",
+          "carpetArea": 829,
+          "carpetAreaDisplay": "829 sq.ft",
+          "builtUpArea": null,
+          "price": "93.43 Lacs",
+          "actualPrice": 9343000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 69450,
+          "bhk": "2.5 BHK",
+          "carpetArea": 851,
+          "carpetAreaDisplay": "851 sq.ft",
+          "builtUpArea": null,
+          "price": "95.72 Lacs",
+          "actualPrice": 9572000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 29297,
+          "bhk": "3 BHK",
+          "carpetArea": 953,
+          "carpetAreaDisplay": "953 sq.ft",
+          "builtUpArea": null,
+          "price": "1.07 Cr",
+          "actualPrice": 10700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/8377/configurations/unit-plans/3-bhk/953-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/29297/original/3bhk.png?1656061116",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "693 sq.ft",
+      "price": "78.22 Lacs"
+    },
+    {
+      "flat_type_name": "2.5 BHK",
+      "carpet_area": "829 - 851 sq.ft",
+      "price": "93.43 Lacs - 95.72 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "953 sq.ft",
+      "price": "1.07 Cr"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "projectId": 14368,
+  "slug": "vrinda-heritage-skyward-sector-1-greater-noida-pid-14368",
+  "name": "Vrinda Heritage Skyward",
+  "city": "noida",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/vrinda-heritage-skyward-sector-1-greater-noida-pid-14368",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/14368/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/14368/original/vrinda-heritage-skyward_site_plan.jpeg?1698911266"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 44638,
+          "bhk": "3 BHK",
+          "carpetArea": 1298,
+          "carpetAreaDisplay": "1298 sq.ft",
+          "builtUpArea": null,
+          "price": "1.4 Cr",
+          "actualPrice": 14000000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/14368/configurations/unit-plans/3-bhk/1298-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/44638/original/3.PNG?1698911266",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 44639,
+          "bhk": "3 BHK",
+          "carpetArea": 1698,
+          "carpetAreaDisplay": "1698 sq.ft",
+          "builtUpArea": null,
+          "price": "1.83 Cr",
+          "actualPrice": 18300000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/14368/configurations/unit-plans/3-bhk/1698-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/44639/original/3.PNG?1698911266",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 44640,
+          "bhk": "4 BHK",
+          "carpetArea": 2018,
+          "carpetAreaDisplay": "2018 sq.ft",
+          "builtUpArea": null,
+          "price": "2.18 Cr",
+          "actualPrice": 21800000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/14368/configurations/unit-plans/4-bhk/2018-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/44640/original/4.PNG?1698911267",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,298 - 1,698 sq.ft",
+      "price": "1.4 Cr - 1.83 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,018 sq.ft",
+      "price": "2.18 Cr"
+    }
+  ]
+}

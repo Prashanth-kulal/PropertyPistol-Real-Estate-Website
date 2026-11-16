@@ -1,0 +1,120 @@
+{
+  "projectId": 15379,
+  "slug": "rohan-ekam-balewadi-pid-15379",
+  "name": "Rohan Ekam",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/rohan-ekam-balewadi-pid-15379",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/15379/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/15379/original/cf653c9ece32cd5.png?1704526478"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 48781,
+          "bhk": "2 BHK",
+          "carpetArea": 909,
+          "carpetAreaDisplay": "909 sq.ft",
+          "builtUpArea": null,
+          "price": "1.42 Cr",
+          "actualPrice": 14200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 108165,
+          "bhk": "3 BHK",
+          "carpetArea": 1062,
+          "carpetAreaDisplay": "1062 sq.ft",
+          "builtUpArea": null,
+          "price": "1.7 Cr",
+          "actualPrice": 17000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 108158,
+          "bhk": "3 BHK",
+          "carpetArea": 1410,
+          "carpetAreaDisplay": "1410 sq.ft",
+          "builtUpArea": null,
+          "price": "2.28 Cr",
+          "actualPrice": 22800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 139500,
+          "bhk": "4 BHK",
+          "carpetArea": 2158,
+          "carpetAreaDisplay": "2158 sq.ft",
+          "builtUpArea": null,
+          "price": "3.36 Cr",
+          "actualPrice": 33600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "909 sq.ft",
+      "price": "1.42 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,062 - 1,410 sq.ft",
+      "price": "1.7 Cr - 2.28 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,158 sq.ft",
+      "price": "3.36 Cr"
+    }
+  ]
+}

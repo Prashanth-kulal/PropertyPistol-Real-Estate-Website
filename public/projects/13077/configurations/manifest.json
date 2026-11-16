@@ -1,0 +1,78 @@
+{
+  "projectId": 13077,
+  "slug": "katraj-sierra-katraj-kondhwa-road-pid-13077",
+  "name": "Katraj Sierra",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/katraj-sierra-katraj-kondhwa-road-pid-13077",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/13077/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4242/original/Captureee.PNG?1690454735"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 120576,
+          "bhk": "1 BHK",
+          "carpetArea": 392,
+          "carpetAreaDisplay": "392 sq.ft",
+          "builtUpArea": null,
+          "price": "32.0 Lacs",
+          "actualPrice": 3200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 75383,
+          "bhk": "2 BHK",
+          "carpetArea": 568,
+          "carpetAreaDisplay": "568 sq.ft",
+          "builtUpArea": null,
+          "price": "48.0 Lacs",
+          "actualPrice": 4800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "392 sq.ft",
+      "price": "32.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "568 sq.ft",
+      "price": "48.0 Lacs"
+    }
+  ]
+}

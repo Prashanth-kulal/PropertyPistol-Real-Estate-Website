@@ -1,0 +1,52 @@
+{
+  "projectId": 21426,
+  "slug": "dhariwal-aspire-kandivali-west-pid-21426",
+  "name": "Dhariwal Aspire",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/dhariwal-aspire-kandivali-west-pid-21426",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21426/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9212/original/fp.png?1771833126",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 132992,
+          "bhk": "2 BHK",
+          "carpetArea": 602,
+          "carpetAreaDisplay": "602 sq.ft",
+          "builtUpArea": null,
+          "price": "1.35 Cr",
+          "actualPrice": 13500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/21426/configurations/unit-plans/2-bhk/602-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/132992/original/2b.png?1771833125",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "602 sq.ft",
+      "price": "1.35 Cr"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "projectId": 7657,
+  "slug": "raymond-codename-west-one-park",
+  "name": "Raymond Codename West One Park",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/raymond-codename-west-one-park-thane-west-pid-7657",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/7657/original/mp.PNG?1641983167",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2607/original/fp.PNG?1731495637",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 23695,
+          "bhk": "3 BHK",
+          "carpetArea": 938,
+          "carpetAreaDisplay": "938 sq.ft",
+          "builtUpArea": null,
+          "price": "2.53 Cr",
+          "actualPrice": 25300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/23695/original/3bhk.PNG?1641983167",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 23696,
+          "bhk": "3 BHK",
+          "carpetArea": 1093,
+          "carpetAreaDisplay": "1093 sq.ft",
+          "builtUpArea": null,
+          "price": "2.98 Cr",
+          "actualPrice": 29800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/23696/original/3bhk.PNG?1641983167",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 139549,
+          "bhk": "4 BHK",
+          "carpetArea": 1396,
+          "carpetAreaDisplay": "1396 sq.ft",
+          "builtUpArea": null,
+          "price": "3.82 Cr",
+          "actualPrice": 38200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "938 - 1,093 sq.ft",
+      "price": "2.53 Cr - 2.98 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,396 sq.ft",
+      "price": "3.82 Cr"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "projectId": 4165,
+  "slug": "kendale-emeralds-badlapur-east-pid-4165",
+  "name": "Kendale Emeralds",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/kendale-emeralds-badlapur-east-pid-4165",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/4165/original/mp.jpeg?1617272003",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 92876,
+          "bhk": "1 BHK",
+          "carpetArea": 357,
+          "carpetAreaDisplay": "357 sq.ft",
+          "builtUpArea": null,
+          "price": "28.0 Lacs",
+          "actualPrice": 2800000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 100052,
+          "bhk": "2 BHK",
+          "carpetArea": 518,
+          "carpetAreaDisplay": "518 sq.ft",
+          "builtUpArea": null,
+          "price": "34.0 Lacs",
+          "actualPrice": 3400000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/100052/original/2BHK.jpg?1739444777",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "357 sq.ft",
+      "price": "28.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "518 sq.ft",
+      "price": "34.0 Lacs"
+    }
+  ]
+}

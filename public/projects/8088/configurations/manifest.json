@@ -1,0 +1,104 @@
+{
+  "projectId": 8088,
+  "slug": "jagadguru-prima-glide-park-lohegaon-pid-8088",
+  "name": "Jagadguru Prima Glide Park",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/jagadguru-prima-glide-park-lohegaon-pid-8088",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/8088/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3347/original/fp.JPG?1671690860"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 27245,
+          "bhk": "1 BHK",
+          "carpetArea": 447,
+          "carpetAreaDisplay": "447 sq.ft",
+          "builtUpArea": null,
+          "price": "33.09 Lacs",
+          "actualPrice": 3309000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/8088/configurations/unit-plans/1-bhk/447-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/27245/original/1.JPG?1671690860",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "1.5 BHK",
+      "variants": [
+        {
+          "id": 126541,
+          "bhk": "1.5 BHK",
+          "carpetArea": 605,
+          "carpetAreaDisplay": "605 sq.ft",
+          "builtUpArea": null,
+          "price": "43.55 Lacs",
+          "actualPrice": 4355000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 126542,
+          "bhk": "2 BHK",
+          "carpetArea": 679,
+          "carpetAreaDisplay": "679 sq.ft",
+          "builtUpArea": null,
+          "price": "48.22 Lacs",
+          "actualPrice": 4822000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "447 sq.ft",
+      "price": "33.09 Lacs"
+    },
+    {
+      "flat_type_name": "1.5 BHK",
+      "carpet_area": "605 sq.ft",
+      "price": "43.55 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "679 sq.ft",
+      "price": "48.22 Lacs"
+    }
+  ]
+}

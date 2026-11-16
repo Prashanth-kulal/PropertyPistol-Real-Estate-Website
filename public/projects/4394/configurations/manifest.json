@@ -1,0 +1,100 @@
+{
+  "projectId": 4394,
+  "slug": "raunak-108",
+  "name": "Raunak 108",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/raunak-108-kasarvadavali-pid-4394",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2260/original/fp.PNG?1731496187",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 13604,
+          "bhk": "1 BHK",
+          "carpetArea": 347,
+          "carpetAreaDisplay": "347 sq.ft",
+          "builtUpArea": null,
+          "price": "59.84 Lacs",
+          "actualPrice": 5984000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/13604/original/1bhk.PNG?1634624158",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 129519,
+          "bhk": "1 BHK",
+          "carpetArea": 350,
+          "carpetAreaDisplay": "350 sq.ft",
+          "builtUpArea": null,
+          "price": "60.4 Lacs",
+          "actualPrice": 6040000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 117308,
+          "bhk": "1 BHK",
+          "carpetArea": 405,
+          "carpetAreaDisplay": "405 sq.ft",
+          "builtUpArea": null,
+          "price": "69.0 Lacs",
+          "actualPrice": 6900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 117309,
+          "bhk": "1 BHK",
+          "carpetArea": 412,
+          "carpetAreaDisplay": "412 sq.ft",
+          "builtUpArea": null,
+          "price": "71.0 Lacs",
+          "actualPrice": 7100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "347 - 412 sq.ft",
+      "price": "59.84 Lacs - 71.0 Lacs"
+    }
+  ]
+}

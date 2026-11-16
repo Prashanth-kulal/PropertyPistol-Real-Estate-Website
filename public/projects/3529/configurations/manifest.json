@@ -1,0 +1,78 @@
+{
+  "projectId": 3529,
+  "slug": "eternia-and-enigma",
+  "name": "Eternia And Enigma",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/eternia-and-enigma-mulund-west-pid-3529",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/1765/original/fp.jpg?1581075576",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 6479,
+          "bhk": "3 BHK",
+          "carpetArea": 913,
+          "carpetAreaDisplay": "913 sq.ft",
+          "builtUpArea": null,
+          "price": "2.94 Cr",
+          "actualPrice": 29400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 108692,
+          "bhk": "4 BHK",
+          "carpetArea": 1926,
+          "carpetAreaDisplay": "1926 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "913 sq.ft",
+      "price": "2.94 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,926 sq.ft",
+      "price": "On Request"
+    }
+  ]
+}

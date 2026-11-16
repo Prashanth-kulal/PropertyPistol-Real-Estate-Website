@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { Heart } from "lucide-react";
 import { useWishlist } from "@/context/WishlistContext";
-import { getProjectSlug } from "@/data/projectsData";
+import { getProjectSlug } from "@/lib/projectUtils";
 
 export default function WishlistButton({
   project,

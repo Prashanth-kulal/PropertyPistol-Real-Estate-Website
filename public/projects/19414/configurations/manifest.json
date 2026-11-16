@@ -1,0 +1,86 @@
+{
+  "projectId": 19414,
+  "slug": "galaxy-orizzonte-sus-pid-19414",
+  "name": "Galaxy Orizzonte",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/galaxy-orizzonte-sus-pid-19414",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19414/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19414/original/masterplan.PNG?1742452018"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19414/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7568/original/floor1.PNG?1742452020"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 103231,
+          "bhk": "2 BHK",
+          "carpetArea": 806,
+          "carpetAreaDisplay": "806 sq.ft",
+          "builtUpArea": null,
+          "price": "1.05 Cr",
+          "actualPrice": 10500000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19414/configurations/unit-plans/2-bhk/806-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/103231/original/2bhk_2d1.PNG?1742452018",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 103232,
+          "bhk": "3 BHK",
+          "carpetArea": 1258,
+          "carpetAreaDisplay": "1258 sq.ft",
+          "builtUpArea": null,
+          "price": "1.74 Cr",
+          "actualPrice": 17400000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19414/configurations/unit-plans/3-bhk/1258-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/103232/original/3bhk_2d1.PNG?1742452018",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "806 sq.ft",
+      "price": "1.05 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,258 sq.ft",
+      "price": "1.74 Cr"
+    }
+  ]
+}

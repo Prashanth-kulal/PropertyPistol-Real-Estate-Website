@@ -1,0 +1,84 @@
+{
+  "projectId": 4686,
+  "slug": "vtp-sierra-sus-pid-4686",
+  "name": "VTP Sierra",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/vtp-sierra-sus-pid-4686",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/4686/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/4686/original/mp.png?1669967969"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 57527,
+          "bhk": "2 BHK",
+          "carpetArea": 720,
+          "carpetAreaDisplay": "720 sq.ft",
+          "builtUpArea": null,
+          "price": "79.27 Lacs",
+          "actualPrice": 7927000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 98567,
+          "bhk": "2 BHK",
+          "carpetArea": 728,
+          "carpetAreaDisplay": "728 sq.ft",
+          "builtUpArea": null,
+          "price": "80.15 Lacs",
+          "actualPrice": 8015000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 120345,
+          "bhk": "2 BHK",
+          "carpetArea": 845,
+          "carpetAreaDisplay": "845 sq.ft",
+          "builtUpArea": null,
+          "price": "93.03 Lacs",
+          "actualPrice": 9303000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "720 - 845 sq.ft",
+      "price": "79.27 Lacs - 93.03 Lacs"
+    }
+  ]
+}

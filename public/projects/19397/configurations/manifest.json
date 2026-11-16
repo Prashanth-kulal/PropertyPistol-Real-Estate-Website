@@ -1,0 +1,110 @@
+{
+  "projectId": 19397,
+  "slug": "vishwa-the-butterfly-moshi-pid-19397",
+  "name": "Vishwa The Butterfly",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/vishwa-the-butterfly-moshi-pid-19397",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19397/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7549/original/floor.PNG?1742040633"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 102783,
+          "bhk": "2 BHK",
+          "carpetArea": 756,
+          "carpetAreaDisplay": "756 sq.ft",
+          "builtUpArea": null,
+          "price": "48.56 Lacs",
+          "actualPrice": 4856000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19397/configurations/unit-plans/2-bhk/756-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/102783/original/2bhk_3d1.PNG?1742040626",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 102784,
+          "bhk": "2 BHK",
+          "carpetArea": 795,
+          "carpetAreaDisplay": "795 sq.ft",
+          "builtUpArea": null,
+          "price": "51.06 Lacs",
+          "actualPrice": 5106000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19397/configurations/unit-plans/2-bhk/795-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/102784/original/2bhk_3d2.PNG?1742040626",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 102785,
+          "bhk": "3 BHK",
+          "carpetArea": 1017,
+          "carpetAreaDisplay": "1017 sq.ft",
+          "builtUpArea": null,
+          "price": "65.32 Lacs",
+          "actualPrice": 6532000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19397/configurations/unit-plans/3-bhk/1017-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/102785/original/3bhk_3d1.PNG?1742040626",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 102786,
+          "bhk": "3 BHK",
+          "carpetArea": 1028,
+          "carpetAreaDisplay": "1028 sq.ft",
+          "builtUpArea": null,
+          "price": "66.03 Lacs",
+          "actualPrice": 6603000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19397/configurations/unit-plans/3-bhk/1028-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/102786/original/3bhk_3d2.PNG?1742040627",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "756 - 795 sq.ft",
+      "price": "48.56 Lacs - 51.06 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,017 - 1,028 sq.ft",
+      "price": "65.32 Lacs - 66.03 Lacs"
+    }
+  ]
+}

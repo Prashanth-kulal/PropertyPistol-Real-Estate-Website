@@ -1,0 +1,103 @@
+{
+  "projectId": 1753,
+  "slug": "raunak-residency-vartak-nagar-pid-1753",
+  "name": "Raunak Residency",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/raunak-residency-vartak-nagar-pid-1753",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/1753/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/1753/original/layout-plan-1.jpg?1559734189",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/1753/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/908/original/floor-plan.jpg?1559734191",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 57662,
+          "bhk": "1 BHK",
+          "carpetArea": 344,
+          "carpetAreaDisplay": "344 sq.ft",
+          "builtUpArea": null,
+          "price": "69.83 Lacs",
+          "actualPrice": 6983000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 124102,
+          "bhk": "1 BHK",
+          "carpetArea": 367,
+          "carpetAreaDisplay": "367 sq.ft",
+          "builtUpArea": null,
+          "price": "74.5 Lacs",
+          "actualPrice": 7450000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 114004,
+          "bhk": "2 BHK",
+          "carpetArea": 532,
+          "carpetAreaDisplay": "532 sq.ft",
+          "builtUpArea": null,
+          "price": "1.08 Cr",
+          "actualPrice": 10800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "344 - 367 sq.ft",
+      "price": "69.83 Lacs - 74.5 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "532 sq.ft",
+      "price": "1.08 Cr"
+    }
+  ]
+}

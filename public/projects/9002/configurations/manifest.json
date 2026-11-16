@@ -1,0 +1,85 @@
+{
+  "projectId": 9002,
+  "slug": "mahavir-complex",
+  "name": "Mahavir Complex",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/mahavir-complex-palghar-pid-9002",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit"
+  ],
+  "masterPlans": [],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 31462,
+          "bhk": "1 BHK",
+          "carpetArea": 360,
+          "carpetAreaDisplay": "360 sq.ft",
+          "builtUpArea": null,
+          "price": "25.74 Lacs",
+          "actualPrice": 2574000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/31462/original/1_%285%29.png?1750751987",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 31463,
+          "bhk": "2 BHK",
+          "carpetArea": 603,
+          "carpetAreaDisplay": "603 sq.ft",
+          "builtUpArea": null,
+          "price": "43.12 Lacs",
+          "actualPrice": 4312000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 56165,
+          "bhk": "2 BHK",
+          "carpetArea": 636,
+          "carpetAreaDisplay": "636 sq.ft",
+          "builtUpArea": null,
+          "price": "45.48 Lacs",
+          "actualPrice": 4548000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/56165/original/2b.PNG?1750751987",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "360 sq.ft",
+      "price": "25.74 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "603 - 636 sq.ft",
+      "price": "43.12 Lacs - 45.48 Lacs"
+    }
+  ]
+}

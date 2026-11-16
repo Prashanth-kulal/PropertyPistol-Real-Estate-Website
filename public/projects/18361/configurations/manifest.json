@@ -1,0 +1,120 @@
+{
+  "projectId": 18361,
+  "slug": "devraj-prime-avenue-ulwe-pid-18361",
+  "name": "Devraj Prime Avenue",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/devraj-prime-avenue-ulwe-pid-18361",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18361/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7025/original/fp-Dev.png?1730132366",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 90681,
+          "bhk": "2 BHK",
+          "carpetArea": 605,
+          "carpetAreaDisplay": "605 sq.ft",
+          "builtUpArea": null,
+          "price": "96.0 Lacs",
+          "actualPrice": 9600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/18361/configurations/unit-plans/2-bhk/605-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/90681/original/fp-Dev.png?1730132365",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 137360,
+          "bhk": "2 BHK",
+          "carpetArea": 648,
+          "carpetAreaDisplay": "648 sq.ft",
+          "builtUpArea": null,
+          "price": "1.0 Cr",
+          "actualPrice": 10000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 137361,
+          "bhk": "3 BHK",
+          "carpetArea": 909,
+          "carpetAreaDisplay": "909 sq.ft",
+          "builtUpArea": null,
+          "price": "1.44 Cr",
+          "actualPrice": 14400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 137362,
+          "bhk": "4 BHK",
+          "carpetArea": 1200,
+          "carpetAreaDisplay": "1200 sq.ft",
+          "builtUpArea": null,
+          "price": "1.9 Cr",
+          "actualPrice": 19000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "605 - 648 sq.ft",
+      "price": "96.0 Lacs - 1.0 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "909 sq.ft",
+      "price": "1.44 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,200 sq.ft",
+      "price": "1.9 Cr"
+    }
+  ]
+}

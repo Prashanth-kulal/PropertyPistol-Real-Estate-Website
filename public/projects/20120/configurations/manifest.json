@@ -1,0 +1,78 @@
+{
+  "projectId": 20120,
+  "slug": "assetz-zen-and-sato-jala-hobli-pid-20120",
+  "name": "Assetz Zen and Sato",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/assetz-zen-and-sato-jala-hobli-pid-20120",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/20120/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/20120/original/master.PNG?1752220118"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 118714,
+          "bhk": "3 BHK",
+          "carpetArea": 1403,
+          "carpetAreaDisplay": "1403 sq.ft",
+          "builtUpArea": null,
+          "price": "2.76 Cr",
+          "actualPrice": 27627876,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20120/configurations/unit-plans/3-bhk/1403-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/118714/original/3bhk_2d.PNG?1752220118",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 118716,
+          "bhk": "4 BHK",
+          "carpetArea": 1921,
+          "carpetAreaDisplay": "1921 sq.ft",
+          "builtUpArea": null,
+          "price": "3.78 Cr",
+          "actualPrice": 37828332,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20120/configurations/unit-plans/4-bhk/1921-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/118716/original/4bhk_2d.PNG?1752220118",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,403 sq.ft",
+      "price": "2.76 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,921 sq.ft",
+      "price": "3.78 Cr"
+    }
+  ]
+}

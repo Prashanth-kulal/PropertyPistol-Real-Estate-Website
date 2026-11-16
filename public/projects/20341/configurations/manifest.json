@@ -1,0 +1,78 @@
+{
+  "projectId": 20341,
+  "slug": "aalap-sinhgad-road-pid-20341",
+  "name": "Aalap",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/aalap-sinhgad-road-pid-20341",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/20341/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/20341/original/aa-mp.png?1753708761"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 120830,
+          "bhk": "2 BHK",
+          "carpetArea": 878,
+          "carpetAreaDisplay": "878 sq.ft",
+          "builtUpArea": null,
+          "price": "80.16 Lacs",
+          "actualPrice": 8016140,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 120831,
+          "bhk": "3 BHK",
+          "carpetArea": 1223,
+          "carpetAreaDisplay": "1223 sq.ft",
+          "builtUpArea": null,
+          "price": "1.12 Cr",
+          "actualPrice": 11165990,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "878 sq.ft",
+      "price": "80.16 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,223 sq.ft",
+      "price": "1.12 Cr"
+    }
+  ]
+}

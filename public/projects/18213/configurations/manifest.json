@@ -1,0 +1,110 @@
+{
+  "projectId": 18213,
+  "slug": "forest-hills-at-the-prestige-city-mulund-west-pid-18213",
+  "name": "Forest Hills at The Prestige City",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/forest-hills-at-the-prestige-city-mulund-west-pid-18213",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18213/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18213/original/mp-forest.png?1752473267",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 89073,
+          "bhk": "3 BHK",
+          "carpetArea": 1020,
+          "carpetAreaDisplay": "1020 sq.ft",
+          "builtUpArea": null,
+          "price": "2.7 Cr",
+          "actualPrice": 27000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 89074,
+          "bhk": "3 BHK",
+          "carpetArea": 1328,
+          "carpetAreaDisplay": "1328 sq.ft",
+          "builtUpArea": null,
+          "price": "3.72 Cr",
+          "actualPrice": 37200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 139237,
+          "bhk": "4 BHK",
+          "carpetArea": 1730,
+          "carpetAreaDisplay": "1730 sq.ft",
+          "builtUpArea": null,
+          "price": "5.0 Cr",
+          "actualPrice": 50000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139238,
+          "bhk": "4 BHK",
+          "carpetArea": 2134,
+          "carpetAreaDisplay": "2134 sq.ft",
+          "builtUpArea": null,
+          "price": "6.45 Cr",
+          "actualPrice": 64500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,020 - 1,328 sq.ft",
+      "price": "2.7 Cr - 3.72 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,730 - 2,134 sq.ft",
+      "price": "5.0 Cr - 6.45 Cr"
+    }
+  ]
+}

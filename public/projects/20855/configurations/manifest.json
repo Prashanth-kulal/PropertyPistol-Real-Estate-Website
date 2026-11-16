@@ -1,0 +1,111 @@
+{
+  "projectId": 20855,
+  "slug": "veer-hills-pokhran-road-no-1-pid-20855",
+  "name": "Veer Hills",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/veer-hills-pokhran-road-no-1-pid-20855",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit"
+  ],
+  "masterPlans": [],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 127016,
+          "bhk": "1 BHK",
+          "carpetArea": 463,
+          "carpetAreaDisplay": "463 sq.ft",
+          "builtUpArea": null,
+          "price": "97.0 Lacs",
+          "actualPrice": 9700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 137544,
+          "bhk": "2 BHK",
+          "carpetArea": 574,
+          "carpetAreaDisplay": "574 sq.ft",
+          "builtUpArea": null,
+          "price": "1.21 Cr",
+          "actualPrice": 12100000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20855/configurations/unit-plans/2-bhk/574-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/137544/original/2.JPG?1794466573",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 140153,
+          "bhk": "2 BHK",
+          "carpetArea": 653,
+          "carpetAreaDisplay": "653 sq.ft",
+          "builtUpArea": null,
+          "price": "1.35 Cr",
+          "actualPrice": 13500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2.5 BHK",
+      "variants": [
+        {
+          "id": 140154,
+          "bhk": "2.5 BHK",
+          "carpetArea": 920,
+          "carpetAreaDisplay": "920 sq.ft",
+          "builtUpArea": null,
+          "price": "1.95 Cr",
+          "actualPrice": 19500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "463 sq.ft",
+      "price": "97.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "574 - 653 sq.ft",
+      "price": "1.21 Cr - 1.35 Cr"
+    },
+    {
+      "flat_type_name": "2.5 BHK",
+      "carpet_area": "920 sq.ft",
+      "price": "1.95 Cr"
+    }
+  ]
+}

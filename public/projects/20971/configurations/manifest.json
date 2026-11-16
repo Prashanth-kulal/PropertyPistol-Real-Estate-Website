@@ -1,0 +1,103 @@
+{
+  "projectId": 20971,
+  "slug": "laukik-balaji-classica-athena-and-iris-dombivali-east-pid-20971",
+  "name": "Laukik Balaji Classica Athena and Iris",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/laukik-balaji-classica-athena-and-iris-dombivali-east-pid-20971",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/20971/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/20971/original/mp.png?1763618666",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20971/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8950/original/fp.png?1763618666",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 127306,
+          "bhk": "1 BHK",
+          "carpetArea": 376,
+          "carpetAreaDisplay": "376 sq.ft",
+          "builtUpArea": null,
+          "price": "32.18 Lacs",
+          "actualPrice": 3218000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140243,
+          "bhk": "1 BHK",
+          "carpetArea": 427,
+          "carpetAreaDisplay": "427 sq.ft",
+          "builtUpArea": null,
+          "price": "36.54 Lacs",
+          "actualPrice": 3654000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 140244,
+          "bhk": "2 BHK",
+          "carpetArea": 527,
+          "carpetAreaDisplay": "527 sq.ft",
+          "builtUpArea": null,
+          "price": "45.07 Lacs",
+          "actualPrice": 4507000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "376 - 427 sq.ft",
+      "price": "32.18 Lacs - 36.54 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "527 sq.ft",
+      "price": "45.07 Lacs"
+    }
+  ]
+}

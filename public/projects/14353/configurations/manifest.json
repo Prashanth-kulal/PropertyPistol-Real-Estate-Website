@@ -1,0 +1,86 @@
+{
+  "projectId": 14353,
+  "slug": "gmc-aero-square-devanahalli-pid-14353",
+  "name": "GMC Aero Square",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/gmc-aero-square-devanahalli-pid-14353",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/14353/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/14353/original/Masterplan.JPG?1698841541"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/14353/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4866/original/Typicalfloorplan.JPG?1698841541"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 101744,
+          "bhk": "2 BHK",
+          "carpetArea": 520,
+          "carpetAreaDisplay": "520 sq.ft",
+          "builtUpArea": null,
+          "price": "36.0 Lacs",
+          "actualPrice": 3599960,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 59207,
+          "bhk": "3 BHK",
+          "carpetArea": 975,
+          "carpetAreaDisplay": "975 sq.ft",
+          "builtUpArea": null,
+          "price": "67.5 Lacs",
+          "actualPrice": 6749925,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "520 sq.ft",
+      "price": "36.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "975 sq.ft",
+      "price": "67.5 Lacs"
+    }
+  ]
+}

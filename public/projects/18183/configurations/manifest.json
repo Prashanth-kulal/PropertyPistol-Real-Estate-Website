@@ -1,0 +1,135 @@
+{
+  "projectId": 18183,
+  "slug": "supreme-boulevard",
+  "name": "Supreme Boulevard",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/supreme-boulevard-chembur-pid-18183",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18183/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18183/original/download_%281%29.png?1728647566",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18183/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6986/original/download_%282%29.png?1728647567",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 140045,
+          "bhk": "2 BHK",
+          "carpetArea": 727,
+          "carpetAreaDisplay": "727 sq.ft",
+          "builtUpArea": null,
+          "price": "2.75 Cr",
+          "actualPrice": 27500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 136937,
+          "bhk": "2 BHK",
+          "carpetArea": 758,
+          "carpetAreaDisplay": "758 sq.ft",
+          "builtUpArea": null,
+          "price": "2.86 Cr",
+          "actualPrice": 28600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 121740,
+          "bhk": "3 BHK",
+          "carpetArea": 881,
+          "carpetAreaDisplay": "881 sq.ft",
+          "builtUpArea": null,
+          "price": "3.33 Cr",
+          "actualPrice": 33300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 88705,
+          "bhk": "3 BHK",
+          "carpetArea": 938,
+          "carpetAreaDisplay": "938 sq.ft",
+          "builtUpArea": null,
+          "price": "3.54 Cr",
+          "actualPrice": 35400000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18183/configurations/unit-plans/3-bhk/938-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/88705/original/3B.PNG?1728647566",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 136938,
+          "bhk": "3 BHK",
+          "carpetArea": 1065,
+          "carpetAreaDisplay": "1065 sq.ft",
+          "builtUpArea": null,
+          "price": "4.02 Cr",
+          "actualPrice": 40200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "727 - 758 sq.ft",
+      "price": "2.75 Cr - 2.86 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "881 - 1,065 sq.ft",
+      "price": "3.33 Cr - 4.02 Cr"
+    }
+  ]
+}

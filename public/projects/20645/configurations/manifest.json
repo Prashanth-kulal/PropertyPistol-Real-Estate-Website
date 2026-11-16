@@ -1,0 +1,86 @@
+{
+  "projectId": 20645,
+  "slug": "anahata-samethanahalli-pid-20645",
+  "name": "Anahata",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/anahata-samethanahalli-pid-20645",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/20645/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/20645/original/download_%2833%29.png?1766820254"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20645/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9140/original/download_%2834%29.png?1766820255"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 125983,
+          "bhk": "1 BHK",
+          "carpetArea": 363,
+          "carpetAreaDisplay": "363 sq.ft",
+          "builtUpArea": null,
+          "price": "42.34 Lacs",
+          "actualPrice": 4234395,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 125984,
+          "bhk": "3 BHK",
+          "carpetArea": 959,
+          "carpetAreaDisplay": "959 sq.ft",
+          "builtUpArea": null,
+          "price": "1.12 Cr",
+          "actualPrice": 11186735,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "363 sq.ft",
+      "price": "42.34 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "959 sq.ft",
+      "price": "1.12 Cr"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "projectId": 13395,
+  "slug": "rudra-odc-1-goregaon-west-pid-13395",
+  "name": "Rudra ODC 1 ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/rudra-odc-1-goregaon-west-pid-13395",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13395/original/Captureqas.PNG?1692275869",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4361/original/Capturewddws.PNG?1692275869",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 117860,
+          "bhk": "1 BHK",
+          "carpetArea": 404,
+          "carpetAreaDisplay": "404 sq.ft",
+          "builtUpArea": null,
+          "price": "1.28 Cr",
+          "actualPrice": 12800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 117859,
+          "bhk": "2 BHK",
+          "carpetArea": 594,
+          "carpetAreaDisplay": "594 sq.ft",
+          "builtUpArea": null,
+          "price": "1.88 Cr",
+          "actualPrice": 18800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 52013,
+          "bhk": "3 BHK",
+          "carpetArea": 868,
+          "carpetAreaDisplay": "868 sq.ft",
+          "builtUpArea": null,
+          "price": "2.75 Cr",
+          "actualPrice": 27500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "404 sq.ft",
+      "price": "1.28 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "594 sq.ft",
+      "price": "1.88 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "868 sq.ft",
+      "price": "2.75 Cr"
+    }
+  ]
+}

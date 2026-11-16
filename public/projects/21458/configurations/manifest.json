@@ -1,0 +1,94 @@
+{
+  "projectId": 21458,
+  "slug": "swastik-prabhasa",
+  "name": "Swastik Prabhasa",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/swastik-prabhasa-ghatkopar-west-pid-21458",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21458/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9220/original/fp.png?1771911733",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 133053,
+          "bhk": "2 BHK",
+          "carpetArea": 508,
+          "carpetAreaDisplay": "508 sq.ft",
+          "builtUpArea": null,
+          "price": "1.5 Cr",
+          "actualPrice": 15000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 133054,
+          "bhk": "2 BHK",
+          "carpetArea": 765,
+          "carpetAreaDisplay": "765 sq.ft",
+          "builtUpArea": null,
+          "price": "2.29 Cr",
+          "actualPrice": 22900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 140041,
+          "bhk": "3 BHK",
+          "carpetArea": 931,
+          "carpetAreaDisplay": "931 sq.ft",
+          "builtUpArea": null,
+          "price": "2.78 Cr",
+          "actualPrice": 27800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "508 - 765 sq.ft",
+      "price": "1.5 Cr - 2.29 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "931 sq.ft",
+      "price": "2.78 Cr"
+    }
+  ]
+}

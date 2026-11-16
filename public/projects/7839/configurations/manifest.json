@@ -1,0 +1,136 @@
+{
+  "projectId": 7839,
+  "slug": "kohinoor-eden-kalyan-east-pid-7839",
+  "name": "Kohinoor Eden",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/kohinoor-eden-kalyan-east-pid-7839",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/7839/original/mp.png?1669563163",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 131261,
+          "bhk": "1 BHK",
+          "carpetArea": 367,
+          "carpetAreaDisplay": "367 sq.ft",
+          "builtUpArea": null,
+          "price": "33.88 Lacs",
+          "actualPrice": 3388000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140311,
+          "bhk": "1 BHK",
+          "carpetArea": 457,
+          "carpetAreaDisplay": "457 sq.ft",
+          "builtUpArea": null,
+          "price": "42.18 Lacs",
+          "actualPrice": 4218000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 140312,
+          "bhk": "2 BHK",
+          "carpetArea": 567,
+          "carpetAreaDisplay": "567 sq.ft",
+          "builtUpArea": null,
+          "price": "52.35 Lacs",
+          "actualPrice": 5235000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140313,
+          "bhk": "2 BHK",
+          "carpetArea": 823,
+          "carpetAreaDisplay": "823 sq.ft",
+          "builtUpArea": null,
+          "price": "75.98 Lacs",
+          "actualPrice": 7598000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 140314,
+          "bhk": "3 BHK",
+          "carpetArea": 884,
+          "carpetAreaDisplay": "884 sq.ft",
+          "builtUpArea": null,
+          "price": "81.58 Lacs",
+          "actualPrice": 8158000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "367 - 457 sq.ft",
+      "price": "33.88 Lacs - 42.18 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "567 - 823 sq.ft",
+      "price": "52.35 Lacs - 75.98 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "884 sq.ft",
+      "price": "81.58 Lacs"
+    }
+  ]
+}

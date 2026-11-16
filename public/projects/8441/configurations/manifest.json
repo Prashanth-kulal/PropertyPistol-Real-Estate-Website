@@ -1,0 +1,126 @@
+{
+  "projectId": 8441,
+  "slug": "shraddha-privilege-vikhroli-east-pid-8441",
+  "name": "Shraddha Privilege",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shraddha-privilege-vikhroli-east-pid-8441",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6059/original/Shraddha_Privilege_Floor_Plan.jpg?1711098528",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 56123,
+          "bhk": "1 BHK",
+          "carpetArea": 353,
+          "carpetAreaDisplay": "353 sq.ft",
+          "builtUpArea": null,
+          "price": "65.37 Lacs",
+          "actualPrice": 6537000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 29691,
+          "bhk": "1 BHK",
+          "carpetArea": 359,
+          "carpetAreaDisplay": "359 sq.ft",
+          "builtUpArea": null,
+          "price": "66.48 Lacs",
+          "actualPrice": 6648000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 138845,
+          "bhk": "1 BHK",
+          "carpetArea": 378,
+          "carpetAreaDisplay": "378 sq.ft",
+          "builtUpArea": null,
+          "price": "70.0 Lacs",
+          "actualPrice": 7000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 138846,
+          "bhk": "2 BHK",
+          "carpetArea": 535,
+          "carpetAreaDisplay": "535 sq.ft",
+          "builtUpArea": null,
+          "price": "97.8 Lacs",
+          "actualPrice": 9780000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 138847,
+          "bhk": "2 BHK",
+          "carpetArea": 547,
+          "carpetAreaDisplay": "547 sq.ft",
+          "builtUpArea": null,
+          "price": "1.0 Cr",
+          "actualPrice": 10000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "353 - 378 sq.ft",
+      "price": "65.37 Lacs - 70.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "535 - 547 sq.ft",
+      "price": "97.8 Lacs - 1.0 Cr"
+    }
+  ]
+}

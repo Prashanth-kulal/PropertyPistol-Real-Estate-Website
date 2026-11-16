@@ -1,0 +1,110 @@
+{
+  "projectId": 16998,
+  "slug": "the-orchids-bavdhan-pid-16998",
+  "name": "The Orchids",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/the-orchids-bavdhan-pid-16998",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16998/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16998/original/mp.png?1754051079"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 129038,
+          "bhk": "3 BHK",
+          "carpetArea": 1159,
+          "carpetAreaDisplay": "1159 sq.ft",
+          "builtUpArea": null,
+          "price": "2.72 Cr",
+          "actualPrice": 27200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 121719,
+          "bhk": "3 BHK",
+          "carpetArea": 1305,
+          "carpetAreaDisplay": "1305 sq.ft",
+          "builtUpArea": null,
+          "price": "3.07 Cr",
+          "actualPrice": 30700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "5 BHK",
+      "variants": [
+        {
+          "id": 139329,
+          "bhk": "5 BHK",
+          "carpetArea": 2406,
+          "carpetAreaDisplay": "2406 sq.ft",
+          "builtUpArea": null,
+          "price": "5.65 Cr",
+          "actualPrice": 56500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139330,
+          "bhk": "5 BHK",
+          "carpetArea": 2484,
+          "carpetAreaDisplay": "2484 sq.ft",
+          "builtUpArea": null,
+          "price": "5.84 Cr",
+          "actualPrice": 58400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,159 - 1,305 sq.ft",
+      "price": "2.72 Cr - 3.07 Cr"
+    },
+    {
+      "flat_type_name": "5 BHK",
+      "carpet_area": "2,406 - 2,484 sq.ft",
+      "price": "5.65 Cr - 5.84 Cr"
+    }
+  ]
+}

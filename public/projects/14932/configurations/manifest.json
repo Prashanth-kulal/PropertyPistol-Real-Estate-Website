@@ -1,0 +1,86 @@
+{
+  "projectId": 14932,
+  "slug": "brigade-fairmont-at-brigade-orchards-devanahalli-pid-14932",
+  "name": "Brigade Fairmont At Brigade Orchards",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/brigade-fairmont-at-brigade-orchards-devanahalli-pid-14932",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/14932/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/14932/original/mpp_.PNG?1702710940"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/14932/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5198/original/fpp.PNG?1702710941"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 47013,
+          "bhk": "3 BHK",
+          "carpetArea": 1238,
+          "carpetAreaDisplay": "1238 sq.ft",
+          "builtUpArea": null,
+          "price": "1.58 Cr",
+          "actualPrice": 15794404,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/14932/configurations/unit-plans/3-bhk/1238-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/47013/original/3bb.PNG?1702710940",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 47015,
+          "bhk": "4 BHK",
+          "carpetArea": 1430,
+          "carpetAreaDisplay": "1430 sq.ft",
+          "builtUpArea": null,
+          "price": "1.82 Cr",
+          "actualPrice": 18243940,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/14932/configurations/unit-plans/4-bhk/1430-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/47015/original/4b.PNG?1702710941",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,238 sq.ft",
+      "price": "1.58 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,430 sq.ft",
+      "price": "1.82 Cr"
+    }
+  ]
+}

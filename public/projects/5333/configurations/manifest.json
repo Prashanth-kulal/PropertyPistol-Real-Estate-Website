@@ -1,0 +1,136 @@
+{
+  "projectId": 5333,
+  "slug": "godrej-nest-sector-150-pid-5333",
+  "name": "Godrej Nest",
+  "city": "noida",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/godrej-nest-sector-150-pid-5333",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/5333/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/5333/original/mp.png?1694858743"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 46972,
+          "bhk": "2 BHK",
+          "carpetArea": 742,
+          "carpetAreaDisplay": "742 sq.ft",
+          "builtUpArea": null,
+          "price": "1.96 Cr",
+          "actualPrice": 19600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 125771,
+          "bhk": "3 BHK",
+          "carpetArea": 1129,
+          "carpetAreaDisplay": "1129 sq.ft",
+          "builtUpArea": null,
+          "price": "2.4 Cr",
+          "actualPrice": 24000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 125772,
+          "bhk": "3 BHK",
+          "carpetArea": 1223,
+          "carpetAreaDisplay": "1223 sq.ft",
+          "builtUpArea": null,
+          "price": "2.6 Cr",
+          "actualPrice": 26000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 125774,
+          "bhk": "3 BHK",
+          "carpetArea": 1636,
+          "carpetAreaDisplay": "1636 sq.ft",
+          "builtUpArea": null,
+          "price": "3.48 Cr",
+          "actualPrice": 34800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 115443,
+          "bhk": "4 BHK",
+          "carpetArea": 2164,
+          "carpetAreaDisplay": "2164 sq.ft",
+          "builtUpArea": null,
+          "price": "4.6 Cr",
+          "actualPrice": 46000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "742 sq.ft",
+      "price": "1.96 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,129 - 1,636 sq.ft",
+      "price": "2.4 Cr - 3.48 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,164 sq.ft",
+      "price": "4.6 Cr"
+    }
+  ]
+}

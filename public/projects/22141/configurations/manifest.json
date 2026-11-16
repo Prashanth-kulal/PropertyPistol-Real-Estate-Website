@@ -1,0 +1,92 @@
+{
+  "projectId": 22141,
+  "slug": "satyam-heaven-kamothe-pid-22141",
+  "name": "Satyam Heaven",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/satyam-heaven-kamothe-pid-22141",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/22141/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9600/original/download.png?1785581867",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/22141/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9601/original/download_%281%29.png?1785581867",
+      "downloaded": true
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/22141/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9602/original/download_%282%29.png?1785581867",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 137343,
+          "bhk": "1 BHK",
+          "carpetArea": 363,
+          "carpetAreaDisplay": "363 sq.ft",
+          "builtUpArea": null,
+          "price": "69.44 Lacs",
+          "actualPrice": 6944000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 137344,
+          "bhk": "2 BHK",
+          "carpetArea": 649,
+          "carpetAreaDisplay": "649 sq.ft",
+          "builtUpArea": null,
+          "price": "1.24 Cr",
+          "actualPrice": 12400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "363 sq.ft",
+      "price": "69.44 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "649 sq.ft",
+      "price": "1.24 Cr"
+    }
+  ]
+}

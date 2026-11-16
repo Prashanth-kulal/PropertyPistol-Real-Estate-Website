@@ -1,0 +1,98 @@
+{
+  "projectId": 20002,
+  "slug": "lodha-haven-hosa-road-pid-20002",
+  "name": "Lodha Haven",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/lodha-haven-hosa-road-pid-20002",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/20002/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/20002/original/download_-_2025-12-09T160653.445.png?1765276667"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20002/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9082/original/download_-_2025-12-09T160657.376.png?1765276667"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/20002/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9083/original/download_-_2025-12-09T160701.031.png?1765276667"
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/20002/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9084/original/download_-_2025-12-09T160705.123.png?1765276667"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 116291,
+          "bhk": "3 BHK",
+          "carpetArea": 1040,
+          "carpetAreaDisplay": "1040 sq.ft",
+          "builtUpArea": null,
+          "price": "2.13 Cr",
+          "actualPrice": 21280480,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 126263,
+          "bhk": "4 BHK",
+          "carpetArea": 1950,
+          "carpetAreaDisplay": "1950 sq.ft",
+          "builtUpArea": null,
+          "price": "3.99 Cr",
+          "actualPrice": 39900900,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,040 sq.ft",
+      "price": "2.13 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,950 sq.ft",
+      "price": "3.99 Cr"
+    }
+  ]
+}

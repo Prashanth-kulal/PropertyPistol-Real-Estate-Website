@@ -1,0 +1,110 @@
+{
+  "projectId": 21484,
+  "slug": "matrix-mk-imperial",
+  "name": "Matrix Mk Imperial",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/matrix-mk-imperial-vikhroli-east-pid-21484",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21484/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9225/original/fp.JPG?1771931155",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 133104,
+          "bhk": "1 BHK",
+          "carpetArea": 359,
+          "carpetAreaDisplay": "359 sq.ft",
+          "builtUpArea": null,
+          "price": "70.74 Lacs",
+          "actualPrice": 7074000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/21484/configurations/unit-plans/1-bhk/359-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/133104/original/1.JPG?1771931153",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 140031,
+          "bhk": "1 BHK",
+          "carpetArea": 435,
+          "carpetAreaDisplay": "435 sq.ft",
+          "builtUpArea": null,
+          "price": "85.72 Lacs",
+          "actualPrice": 8572000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 140032,
+          "bhk": "2 BHK",
+          "carpetArea": 554,
+          "carpetAreaDisplay": "554 sq.ft",
+          "builtUpArea": null,
+          "price": "1.09 Cr",
+          "actualPrice": 10900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 133105,
+          "bhk": "2 BHK",
+          "carpetArea": 684,
+          "carpetAreaDisplay": "684 sq.ft",
+          "builtUpArea": null,
+          "price": "1.35 Cr",
+          "actualPrice": 13500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/21484/configurations/unit-plans/2-bhk/684-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/133105/original/2.JPG?1771931153",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "359 - 435 sq.ft",
+      "price": "70.74 Lacs - 85.72 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "554 - 684 sq.ft",
+      "price": "1.09 Cr - 1.35 Cr"
+    }
+  ]
+}

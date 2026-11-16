@@ -1,0 +1,86 @@
+{
+  "projectId": 19964,
+  "slug": "vajram-vivera-kogilu-pid-19964",
+  "name": "Vajram Vivera",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/vajram-vivera-kogilu-pid-19964",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19964/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19964/original/master1.png?1749295254"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19964/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8324/original/floornew.png?1749295262"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 115832,
+          "bhk": "3 BHK",
+          "carpetArea": 1022,
+          "carpetAreaDisplay": "1022 sq.ft",
+          "builtUpArea": null,
+          "price": "1.62 Cr",
+          "actualPrice": 16155776,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 115836,
+          "bhk": "4 BHK",
+          "carpetArea": 1564,
+          "carpetAreaDisplay": "1564 sq.ft",
+          "builtUpArea": null,
+          "price": "2.47 Cr",
+          "actualPrice": 24723712,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,022 sq.ft",
+      "price": "1.62 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,564 sq.ft",
+      "price": "2.47 Cr"
+    }
+  ]
+}

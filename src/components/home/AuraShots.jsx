@@ -11,7 +11,7 @@ import {
   ArrowRight,
   Wrench
 } from "lucide-react";
-import { SHOTS_TOOLS } from "@/data";
+import { SHOTS_TOOLS } from "@/data/siteConstants";
 
 import { useRouter } from "next/navigation";
 

@@ -1,0 +1,110 @@
+{
+  "projectId": 9442,
+  "slug": "magus-city-bhiwandi-pid-9442",
+  "name": "Magus City",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/magus-city-bhiwandi-pid-9442",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7587/original/fp.PNG?1742536430",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 127528,
+          "bhk": "1 BHK",
+          "carpetArea": 330,
+          "carpetAreaDisplay": "330 sq.ft",
+          "builtUpArea": null,
+          "price": "23.46 Lacs",
+          "actualPrice": 2346000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 127529,
+          "bhk": "1 BHK",
+          "carpetArea": 410,
+          "carpetAreaDisplay": "410 sq.ft",
+          "builtUpArea": null,
+          "price": "29.15 Lacs",
+          "actualPrice": 2915000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 140298,
+          "bhk": "2 BHK",
+          "carpetArea": 490,
+          "carpetAreaDisplay": "490 sq.ft",
+          "builtUpArea": null,
+          "price": "34.84 Lacs",
+          "actualPrice": 3484000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140299,
+          "bhk": "2 BHK",
+          "carpetArea": 510,
+          "carpetAreaDisplay": "510 sq.ft",
+          "builtUpArea": null,
+          "price": "36.26 Lacs",
+          "actualPrice": 3626000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "330 - 410 sq.ft",
+      "price": "23.46 Lacs - 29.15 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "490 - 510 sq.ft",
+      "price": "34.84 Lacs - 36.26 Lacs"
+    }
+  ]
+}

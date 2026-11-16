@@ -1,0 +1,86 @@
+{
+  "projectId": 15931,
+  "slug": "majestique-signature-towers-balewadi-pid-15931",
+  "name": "Majestique Signature Towers",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/majestique-signature-towers-balewadi-pid-15931",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/15931/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/15931/original/mp.png?1746775211"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/15931/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5875/original/fp-jj.png?1746784663"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 74905,
+          "bhk": "2 BHK",
+          "carpetArea": 835,
+          "carpetAreaDisplay": "835 sq.ft",
+          "builtUpArea": null,
+          "price": "1.45 Cr",
+          "actualPrice": 14500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 53807,
+          "bhk": "3 BHK",
+          "carpetArea": 1198,
+          "carpetAreaDisplay": "1198 sq.ft",
+          "builtUpArea": null,
+          "price": "2.5 Cr",
+          "actualPrice": 25000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "835 sq.ft",
+      "price": "1.45 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,198 sq.ft",
+      "price": "2.5 Cr"
+    }
+  ]
+}

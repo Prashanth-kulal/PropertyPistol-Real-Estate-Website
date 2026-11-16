@@ -1,0 +1,78 @@
+{
+  "projectId": 15516,
+  "slug": "goyal-orchid-salisbury-thanisandra-pid-15516",
+  "name": "Goyal Orchid Salisbury",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/goyal-orchid-salisbury-thanisandra-pid-15516",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/15516/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/15516/original/SALISBURY-WEBSITE-MASTER-PLAN-4.jpg?1704964920"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 115445,
+          "bhk": "2 BHK",
+          "carpetArea": 605,
+          "carpetAreaDisplay": "605 sq.ft",
+          "builtUpArea": null,
+          "price": "92.84 Lacs",
+          "actualPrice": 9284330,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 49511,
+          "bhk": "3 BHK",
+          "carpetArea": 1089,
+          "carpetAreaDisplay": "1089 sq.ft",
+          "builtUpArea": null,
+          "price": "1.67 Cr",
+          "actualPrice": 16711794,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "605 sq.ft",
+      "price": "92.84 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,089 sq.ft",
+      "price": "1.67 Cr"
+    }
+  ]
+}

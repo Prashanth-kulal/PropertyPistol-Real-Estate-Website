@@ -1,0 +1,91 @@
+{
+  "projectId": 15895,
+  "slug": "krishna-vrundavan-wahal-pid-15895",
+  "name": "Krishna Vrundavan",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/krishna-vrundavan-wahal-pid-15895",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/15895/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/15895/original/mo.jpg?1790157911",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/15895/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5805/original/floorplan1.JPG?1709383252",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/15895/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5806/original/floorplan2.JPG?1709383252",
+      "downloaded": true
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/15895/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5807/original/floorplan3.JPG?1709383253",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 53376,
+          "bhk": "1 BHK",
+          "carpetArea": 315,
+          "carpetAreaDisplay": "315 sq.ft",
+          "builtUpArea": null,
+          "price": "34.0 Lacs",
+          "actualPrice": 3400000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/15895/configurations/unit-plans/1-bhk/315-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/53376/original/1_%2810%29.jpg?1790157911",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 98838,
+          "bhk": "1 BHK",
+          "carpetArea": 421,
+          "carpetAreaDisplay": "421 sq.ft",
+          "builtUpArea": null,
+          "price": "46.0 Lacs",
+          "actualPrice": 4600000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/15895/configurations/unit-plans/1-bhk/421-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/98838/original/2_%289%29.jpg?1790157911",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "315 - 421 sq.ft",
+      "price": "34.0 Lacs - 46.0 Lacs"
+    }
+  ]
+}

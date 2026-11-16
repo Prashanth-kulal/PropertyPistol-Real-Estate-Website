@@ -1,0 +1,78 @@
+{
+  "projectId": 16764,
+  "slug": "ruparel-celestia-mulund-east-pid-16764",
+  "name": "Ruparel Celestia",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ruparel-celestia-mulund-east-pid-16764",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16764/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6381/original/FP_celestial.PNG?1717088558",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 119647,
+          "bhk": "1 BHK",
+          "carpetArea": 414,
+          "carpetAreaDisplay": "414 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 65232,
+          "bhk": "2 BHK",
+          "carpetArea": 728,
+          "carpetAreaDisplay": "728 sq.ft",
+          "builtUpArea": null,
+          "price": "1.99 Cr",
+          "actualPrice": 19900000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/16764/configurations/unit-plans/2-bhk/728-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/65232/original/2bhk_Celestial.PNG?1717088556",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "414 sq.ft",
+      "price": "On Request"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "728 sq.ft",
+      "price": "1.99 Cr"
+    }
+  ]
+}

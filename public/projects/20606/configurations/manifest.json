@@ -1,0 +1,110 @@
+{
+  "projectId": 20606,
+  "slug": "grk-orion-heights-panvel-pid-20606",
+  "name": "GRK Orion Heights",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/grk-orion-heights-panvel-pid-20606",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20606/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9711/original/fp.PNG?1790065263",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 123939,
+          "bhk": "1 BHK",
+          "carpetArea": 491,
+          "carpetAreaDisplay": "491 sq.ft",
+          "builtUpArea": null,
+          "price": "41.53 Lacs",
+          "actualPrice": 4152500,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/20606/configurations/unit-plans/1-bhk/491-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/123939/original/1b.PNG?1790065261",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 123940,
+          "bhk": "1 BHK",
+          "carpetArea": 523,
+          "carpetAreaDisplay": "523 sq.ft",
+          "builtUpArea": null,
+          "price": "44.28 Lacs",
+          "actualPrice": 4427500,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 123941,
+          "bhk": "2 BHK",
+          "carpetArea": 748,
+          "carpetAreaDisplay": "748 sq.ft",
+          "builtUpArea": null,
+          "price": "63.25 Lacs",
+          "actualPrice": 6325000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/20606/configurations/unit-plans/2-bhk/748-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/123941/original/2b.PNG?1790065261",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 123942,
+          "bhk": "2 BHK",
+          "carpetArea": 767,
+          "carpetAreaDisplay": "767 sq.ft",
+          "builtUpArea": null,
+          "price": "64.9 Lacs",
+          "actualPrice": 6490000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "491 - 523 sq.ft",
+      "price": "41.53 Lacs - 44.28 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "748 - 767 sq.ft",
+      "price": "63.25 Lacs - 64.9 Lacs"
+    }
+  ]
+}

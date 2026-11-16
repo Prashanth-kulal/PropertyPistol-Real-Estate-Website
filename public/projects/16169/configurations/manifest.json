@@ -1,0 +1,87 @@
+{
+  "projectId": 16169,
+  "slug": "puranik-ikigai-thane-west-pid-16169",
+  "name": "Puranik Ikigai",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/puranik-ikigai-thane-west-pid-16169",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16169/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16169/original/MP.jpg?1714373539",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16169/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6144/original/FP.jpg?1714373539",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 59942,
+          "bhk": "1 BHK",
+          "carpetArea": 397,
+          "carpetAreaDisplay": "397 sq.ft",
+          "builtUpArea": null,
+          "price": "49.99 Lacs",
+          "actualPrice": 4999000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/16169/configurations/unit-plans/1-bhk/397-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/59942/original/1.PNG?1714373539",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 59943,
+          "bhk": "2 BHK",
+          "carpetArea": 500,
+          "carpetAreaDisplay": "500 sq.ft",
+          "builtUpArea": null,
+          "price": "74.99 Lacs",
+          "actualPrice": 7499000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/16169/configurations/unit-plans/2-bhk/500-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/59943/original/2B.PNG?1714373539",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "397 sq.ft",
+      "price": "49.99 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "500 sq.ft",
+      "price": "74.99 Lacs"
+    }
+  ]
+}

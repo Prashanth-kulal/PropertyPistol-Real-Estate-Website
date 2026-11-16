@@ -17,8 +17,8 @@ import {
   Building2,
   Home
 } from "lucide-react";
-import { CITIES } from "@/data";
-import { getSearchSuggestions, interpretSearchQuery } from "@/data/searchIndex";
+import { CITIES } from "@/data/cities";
+import { getSearchSuggestions, interpretSearchQuery, warmUpSearchIndex } from "@/data/searchIndex";
 
 export default function HeroBanner({
   selectedCity,
@@ -618,7 +618,10 @@ export default function HeroBanner({
                   setSearchInput(e.target.value);
                   setShowSuggestions(true);
                 }}
-                onFocus={() => setShowSuggestions(true)}
+                onFocus={() => {
+                  warmUpSearchIndex();
+                  setShowSuggestions(true);
+                }}
                 onKeyDown={handleSearchKeyDown}
                 className="w-full bg-transparent text-xs sm:text-sm text-gray-800 placeholder-gray-400 focus:outline-hidden py-1.5 font-medium"
               />

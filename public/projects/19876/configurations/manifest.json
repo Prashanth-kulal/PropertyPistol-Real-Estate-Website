@@ -1,0 +1,102 @@
+{
+  "projectId": 19876,
+  "slug": "infini-jagtap-city-charholi-pid-19876",
+  "name": "Infini Jagtap City",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/infini-jagtap-city-charholi-pid-19876",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19876/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19876/original/master1.png?1749106036"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19876/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8143/original/floor.PNG?1747990109"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 114115,
+          "bhk": "2 BHK",
+          "carpetArea": 764,
+          "carpetAreaDisplay": "764 sq.ft",
+          "builtUpArea": null,
+          "price": "71.0 Lacs",
+          "actualPrice": 7100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19876/configurations/unit-plans/2-bhk/764-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/114115/original/2bhk_3dnew.png?1749106036",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 139104,
+          "bhk": "2 BHK",
+          "carpetArea": 770,
+          "carpetAreaDisplay": "770 sq.ft",
+          "builtUpArea": null,
+          "price": "72.0 Lacs",
+          "actualPrice": 7200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 139105,
+          "bhk": "3 BHK",
+          "carpetArea": 977,
+          "carpetAreaDisplay": "977 sq.ft",
+          "builtUpArea": null,
+          "price": "91.0 Lacs",
+          "actualPrice": 9100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "764 - 770 sq.ft",
+      "price": "71.0 Lacs - 72.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "977 sq.ft",
+      "price": "91.0 Lacs"
+    }
+  ]
+}

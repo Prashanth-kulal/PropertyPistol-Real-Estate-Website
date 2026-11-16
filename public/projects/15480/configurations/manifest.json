@@ -1,0 +1,126 @@
+{
+  "projectId": 15480,
+  "slug": "naiknavare-shivatman-shivaji-nagar-pid-15480",
+  "name": "Naiknavare Shivatman",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/naiknavare-shivatman-shivaji-nagar-pid-15480",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/15480/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5412/original/ground-floor-parking.jpg?1704881721"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 49344,
+          "bhk": "2 BHK",
+          "carpetArea": 739,
+          "carpetAreaDisplay": "739 sq.ft",
+          "builtUpArea": null,
+          "price": "1.64 Cr",
+          "actualPrice": 16400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/15480/configurations/unit-plans/2-bhk/739-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/49344/original/typical-floor-2bhk.jpeg?1704881720",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 90857,
+          "bhk": "2 BHK",
+          "carpetArea": 1062,
+          "carpetAreaDisplay": "1062 sq.ft",
+          "builtUpArea": null,
+          "price": "2.36 Cr",
+          "actualPrice": 23600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 49346,
+          "bhk": "3 BHK",
+          "carpetArea": 959,
+          "carpetAreaDisplay": "959 sq.ft",
+          "builtUpArea": null,
+          "price": "2.12 Cr",
+          "actualPrice": 21200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/15480/configurations/unit-plans/3-bhk/959-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/49346/original/3bhk-1.jpeg?1704881720",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 90858,
+          "bhk": "3 BHK",
+          "carpetArea": 1136,
+          "carpetAreaDisplay": "1136 sq.ft",
+          "builtUpArea": null,
+          "price": "2.51 Cr",
+          "actualPrice": 25100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 135936,
+          "bhk": "3 BHK",
+          "carpetArea": 1841,
+          "carpetAreaDisplay": "1841 sq.ft",
+          "builtUpArea": null,
+          "price": "4.07 Cr",
+          "actualPrice": 40700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "739 - 1,062 sq.ft",
+      "price": "1.64 Cr - 2.36 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "959 - 1,841 sq.ft",
+      "price": "2.12 Cr - 4.07 Cr"
+    }
+  ]
+}

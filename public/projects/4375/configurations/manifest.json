@@ -1,0 +1,142 @@
+{
+  "projectId": 4375,
+  "slug": "sarvesh-one",
+  "name": "Sarvesh One",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sarvesh-one-lower-parel-west-pid-4375",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2239/original/floor-plans3.jpg?1620623856",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 11602,
+          "bhk": "1 BHK",
+          "carpetArea": 412,
+          "carpetAreaDisplay": "412 sq.ft",
+          "builtUpArea": null,
+          "price": "1.7 Cr",
+          "actualPrice": 17000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/11602/original/1bhk.jpg?1620623852",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 101864,
+          "bhk": "1 BHK",
+          "carpetArea": 438,
+          "carpetAreaDisplay": "438 sq.ft",
+          "builtUpArea": null,
+          "price": "1.81 Cr",
+          "actualPrice": 18100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 101865,
+          "bhk": "1 BHK",
+          "carpetArea": 473,
+          "carpetAreaDisplay": "473 sq.ft",
+          "builtUpArea": null,
+          "price": "1.95 Cr",
+          "actualPrice": 19500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 101866,
+          "bhk": "1 BHK",
+          "carpetArea": 481,
+          "carpetAreaDisplay": "481 sq.ft",
+          "builtUpArea": null,
+          "price": "1.99 Cr",
+          "actualPrice": 19900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/101866/original/1.png?1752740838",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 101868,
+          "bhk": "2 BHK",
+          "carpetArea": 581,
+          "carpetAreaDisplay": "581 sq.ft",
+          "builtUpArea": null,
+          "price": "2.4 Cr",
+          "actualPrice": 24000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/101868/original/2.png?1752740839",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 101867,
+          "bhk": "2 BHK",
+          "carpetArea": 590,
+          "carpetAreaDisplay": "590 sq.ft",
+          "builtUpArea": null,
+          "price": "2.44 Cr",
+          "actualPrice": 24400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/101867/original/2.png?1752740839",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "412 - 481 sq.ft",
+      "price": "1.7 Cr - 1.99 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "581 - 590 sq.ft",
+      "price": "2.4 Cr - 2.44 Cr"
+    }
+  ]
+}

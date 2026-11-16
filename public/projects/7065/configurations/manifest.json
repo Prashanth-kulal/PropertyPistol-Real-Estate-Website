@@ -1,0 +1,78 @@
+{
+  "projectId": 7065,
+  "slug": "rachana-bella-casa-royale-sus-pid-7065",
+  "name": "Rachana Bella Casa Royale",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/rachana-bella-casa-royale-sus-pid-7065",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/7065/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2462/original/fp.PNG?1638447221"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 21188,
+          "bhk": "2 BHK",
+          "carpetArea": 956,
+          "carpetAreaDisplay": "956 sq.ft",
+          "builtUpArea": null,
+          "price": "1.14 Cr",
+          "actualPrice": 11376400,
+          "propertyType": "Flat",
+          "plan2D": "/projects/7065/configurations/unit-plans/2-bhk/956-sqft/plan-2d.webp",
+          "plan3D": "/projects/7065/configurations/unit-plans/2-bhk/956-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/21188/original/2bhk.PNG?1638447219",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/21188/original/2.PNG?1638447220",
+          "has2D": true,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 21189,
+          "bhk": "3 BHK",
+          "carpetArea": 1200,
+          "carpetAreaDisplay": "1200 sq.ft",
+          "builtUpArea": null,
+          "price": "1.43 Cr",
+          "actualPrice": 14280000,
+          "propertyType": "Flat",
+          "plan2D": "/projects/7065/configurations/unit-plans/3-bhk/1200-sqft/plan-2d.webp",
+          "plan3D": "/projects/7065/configurations/unit-plans/3-bhk/1200-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/21189/original/3bhk.PNG?1638447220",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/21189/original/3.PNG?1638447220",
+          "has2D": true,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "956 sq.ft",
+      "price": "1.14 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,200 sq.ft",
+      "price": "1.43 Cr"
+    }
+  ]
+}

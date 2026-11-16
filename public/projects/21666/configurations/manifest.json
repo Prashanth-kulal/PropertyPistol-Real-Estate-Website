@@ -1,0 +1,94 @@
+{
+  "projectId": 21666,
+  "slug": "siddhivinayak-gaurav-taloja-pid-21666",
+  "name": "Siddhivinayak Gaurav",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/siddhivinayak-gaurav-taloja-pid-21666",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21666/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9253/original/fp.png?1776966740",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 134340,
+          "bhk": "1 BHK",
+          "carpetArea": 417,
+          "carpetAreaDisplay": "417 sq.ft",
+          "builtUpArea": null,
+          "price": "45.03 Lacs",
+          "actualPrice": 4503000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 140422,
+          "bhk": "2 BHK",
+          "carpetArea": 580,
+          "carpetAreaDisplay": "580 sq.ft",
+          "builtUpArea": null,
+          "price": "62.64 Lacs",
+          "actualPrice": 6264000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140423,
+          "bhk": "2 BHK",
+          "carpetArea": 700,
+          "carpetAreaDisplay": "700 sq.ft",
+          "builtUpArea": null,
+          "price": "75.6 Lacs",
+          "actualPrice": 7560000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "417 sq.ft",
+      "price": "45.03 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "580 - 700 sq.ft",
+      "price": "62.64 Lacs - 75.6 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "projectId": 9631,
+  "slug": "acme-eucalyptia",
+  "name": "Acme Eucalyptia",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/acme-eucalyptia-thane-west-pid-9631",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2864/original/fp.jpg?1669012277",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 32779,
+          "bhk": "2 BHK",
+          "carpetArea": 565,
+          "carpetAreaDisplay": "565 sq.ft",
+          "builtUpArea": null,
+          "price": "1.25 Cr",
+          "actualPrice": 12500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 50802,
+          "bhk": "2 BHK",
+          "carpetArea": 601,
+          "carpetAreaDisplay": "601 sq.ft",
+          "builtUpArea": null,
+          "price": "1.33 Cr",
+          "actualPrice": 13300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 50803,
+          "bhk": "2 BHK",
+          "carpetArea": 625,
+          "carpetAreaDisplay": "625 sq.ft",
+          "builtUpArea": null,
+          "price": "1.38 Cr",
+          "actualPrice": 13800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 32780,
+          "bhk": "2 BHK",
+          "carpetArea": 637,
+          "carpetAreaDisplay": "637 sq.ft",
+          "builtUpArea": null,
+          "price": "1.4 Cr",
+          "actualPrice": 14000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "565 - 637 sq.ft",
+      "price": "1.25 Cr - 1.4 Cr"
+    }
+  ]
+}

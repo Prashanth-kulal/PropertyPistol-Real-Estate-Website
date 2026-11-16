@@ -1,0 +1,110 @@
+{
+  "projectId": 8015,
+  "slug": "runwal-timeless-wadala-pid-8015",
+  "name": "Runwal Timeless",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/runwal-timeless-wadala-pid-8015",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/8015/original/16281679131%282%29.jpg?1651041523",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 111861,
+          "bhk": "2 BHK",
+          "carpetArea": 583,
+          "carpetAreaDisplay": "583 sq.ft",
+          "builtUpArea": null,
+          "price": "2.18 Cr",
+          "actualPrice": 21800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 86955,
+          "bhk": "2 BHK",
+          "carpetArea": 737,
+          "carpetAreaDisplay": "737 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 111860,
+          "bhk": "3 BHK",
+          "carpetArea": 915,
+          "carpetAreaDisplay": "915 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 34228,
+          "bhk": "3 BHK",
+          "carpetArea": 1002,
+          "carpetAreaDisplay": "1002 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "583 - 737 sq.ft",
+      "price": "2.18 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "915 - 1,002 sq.ft",
+      "price": "On Request"
+    }
+  ]
+}

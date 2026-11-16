@@ -1,0 +1,128 @@
+{
+  "projectId": 16733,
+  "slug": "gulmohar-sky-park-dhanori-pid-16733",
+  "name": "Gulmohar Sky Park ",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/gulmohar-sky-park-dhanori-pid-16733",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16733/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16733/original/cf654a32b78c528.jpeg?1717058898"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16733/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6880/original/fp.jpg?1725002867"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 134351,
+          "bhk": "1 BHK",
+          "carpetArea": 530,
+          "carpetAreaDisplay": "530 sq.ft",
+          "builtUpArea": null,
+          "price": "42.93 Lacs",
+          "actualPrice": 4293000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 65071,
+          "bhk": "2 BHK",
+          "carpetArea": 685,
+          "carpetAreaDisplay": "685 sq.ft",
+          "builtUpArea": null,
+          "price": "55.49 Lacs",
+          "actualPrice": 5548500,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/16733/configurations/unit-plans/2-bhk/685-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/65071/original/2.jpg?1725002867",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 129738,
+          "bhk": "3 BHK",
+          "carpetArea": 1049,
+          "carpetAreaDisplay": "1049 sq.ft",
+          "builtUpArea": null,
+          "price": "84.97 Lacs",
+          "actualPrice": 8496900,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 134352,
+          "bhk": "3 BHK",
+          "carpetArea": 1056,
+          "carpetAreaDisplay": "1056 sq.ft",
+          "builtUpArea": null,
+          "price": "85.54 Lacs",
+          "actualPrice": 8553600,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "530 sq.ft",
+      "price": "42.93 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "685 sq.ft",
+      "price": "55.49 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,049 - 1,056 sq.ft",
+      "price": "84.97 Lacs - 85.54 Lacs"
+    }
+  ]
+}

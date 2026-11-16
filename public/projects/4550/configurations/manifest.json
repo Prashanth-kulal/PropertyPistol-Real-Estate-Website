@@ -1,0 +1,87 @@
+{
+  "projectId": 4550,
+  "slug": "arihant-5-anaika",
+  "name": "Arihant 5 Anaika",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/arihant-5-anaika-taloja-pid-4550",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/4550/original/mp.PNG?1732960140",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2988/original/fp.PNG?1732960141",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 14201,
+          "bhk": "1 BHK",
+          "carpetArea": 391,
+          "carpetAreaDisplay": "391 sq.ft",
+          "builtUpArea": null,
+          "price": "43.0 Lacs",
+          "actualPrice": 4300000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/14201/original/1.JPG?1669450270",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 14202,
+          "bhk": "2 BHK",
+          "carpetArea": 543,
+          "carpetAreaDisplay": "543 sq.ft",
+          "builtUpArea": null,
+          "price": "59.0 Lacs",
+          "actualPrice": 5900000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/14202/original/2.JPG?1669450270",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "391 sq.ft",
+      "price": "43.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "543 sq.ft",
+      "price": "59.0 Lacs"
+    }
+  ]
+}

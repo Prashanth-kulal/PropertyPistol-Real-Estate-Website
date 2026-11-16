@@ -1,0 +1,145 @@
+{
+  "projectId": 8586,
+  "slug": "gp-complex",
+  "name": "GP Complex",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/gp-complex-naigaon-east-pid-8586",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/8586/original/mp.jpg?1660723555",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2729/original/fp.PNG?1739537115",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 30484,
+          "bhk": "1 BHK",
+          "carpetArea": 408,
+          "carpetAreaDisplay": "408 sq.ft",
+          "builtUpArea": null,
+          "price": "34.08 Lacs",
+          "actualPrice": 3408000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/30484/original/1b.jpg?1739537114",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 30485,
+          "bhk": "2 BHK",
+          "carpetArea": 563,
+          "carpetAreaDisplay": "563 sq.ft",
+          "builtUpArea": null,
+          "price": "46.91 Lacs",
+          "actualPrice": 4691000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/30485/original/pixelcut-export_-_2025-02-14T181325.555.jpg?1739537114",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 112220,
+          "bhk": "2 BHK",
+          "carpetArea": 568,
+          "carpetAreaDisplay": "568 sq.ft",
+          "builtUpArea": null,
+          "price": "47.34 Lacs",
+          "actualPrice": 4734000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139957,
+          "bhk": "2 BHK",
+          "carpetArea": 577,
+          "carpetAreaDisplay": "577 sq.ft",
+          "builtUpArea": null,
+          "price": "48.08 Lacs",
+          "actualPrice": 4808000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 139958,
+          "bhk": "3 BHK",
+          "carpetArea": 795,
+          "carpetAreaDisplay": "795 sq.ft",
+          "builtUpArea": null,
+          "price": "66.25 Lacs",
+          "actualPrice": 6625000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "408 sq.ft",
+      "price": "34.08 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "563 - 577 sq.ft",
+      "price": "46.91 Lacs - 48.08 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "795 sq.ft",
+      "price": "66.25 Lacs"
+    }
+  ]
+}

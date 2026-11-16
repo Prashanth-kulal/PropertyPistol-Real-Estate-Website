@@ -1,0 +1,104 @@
+{
+  "projectId": 16437,
+  "slug": "raheja-galaxy-nibm-road-pid-16437",
+  "name": "Raheja Galaxy",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/raheja-galaxy-nibm-road-pid-16437",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16437/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16437/original/rk.PNG?1748250959"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 62019,
+          "bhk": "2 BHK",
+          "carpetArea": 896,
+          "carpetAreaDisplay": "896 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 110751,
+          "bhk": "3 BHK",
+          "carpetArea": 1244,
+          "carpetAreaDisplay": "1244 sq.ft",
+          "builtUpArea": null,
+          "price": "1.77 Cr",
+          "actualPrice": 17700000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3.5 BHK",
+      "variants": [
+        {
+          "id": 62020,
+          "bhk": "3.5 BHK",
+          "carpetArea": 1774,
+          "carpetAreaDisplay": "1774 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "896 sq.ft",
+      "price": "On Request"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,244 sq.ft",
+      "price": "1.77 Cr"
+    },
+    {
+      "flat_type_name": "3.5 BHK",
+      "carpet_area": "1,774 sq.ft",
+      "price": "On Request"
+    }
+  ]
+}

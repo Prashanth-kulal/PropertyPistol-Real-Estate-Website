@@ -1,0 +1,124 @@
+{
+  "projectId": 13385,
+  "slug": "inspire-residency-andheri-east-pid-13385",
+  "name": "Inspire Residency",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/inspire-residency-andheri-east-pid-13385",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4356/original/fppp.png?1746261817",
+      "downloaded": false
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7873/original/fp-ins2.png?1746261817",
+      "downloaded": false
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7874/original/fp-ins3.png?1746261817",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 76926,
+          "bhk": "1 BHK",
+          "carpetArea": 412,
+          "carpetAreaDisplay": "412 sq.ft",
+          "builtUpArea": null,
+          "price": "1.37 Cr",
+          "actualPrice": 13700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/76926/original/1.png?1765785804",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 110809,
+          "bhk": "1 BHK",
+          "carpetArea": 428,
+          "carpetAreaDisplay": "428 sq.ft",
+          "builtUpArea": null,
+          "price": "1.42 Cr",
+          "actualPrice": 14200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 76927,
+          "bhk": "2 BHK",
+          "carpetArea": 571,
+          "carpetAreaDisplay": "571 sq.ft",
+          "builtUpArea": null,
+          "price": "2.0 Cr",
+          "actualPrice": 20000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/76927/original/2.png?1765785804",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 51343,
+          "bhk": "2 BHK",
+          "carpetArea": 627,
+          "carpetAreaDisplay": "627 sq.ft",
+          "builtUpArea": null,
+          "price": "2.2 Cr",
+          "actualPrice": 22000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/51343/original/2b.png?1765785803",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "412 - 428 sq.ft",
+      "price": "1.37 Cr - 1.42 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "571 - 627 sq.ft",
+      "price": "2.0 Cr - 2.2 Cr"
+    }
+  ]
+}

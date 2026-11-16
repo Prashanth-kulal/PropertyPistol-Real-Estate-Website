@@ -1,0 +1,120 @@
+{
+  "projectId": 10177,
+  "slug": "unique-k-shire-punawale-pid-10177",
+  "name": "Unique K Shire",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/unique-k-shire-punawale-pid-10177",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/10177/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/10177/original/mpk_%281%29.png?1763447427"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 76861,
+          "bhk": "2 BHK",
+          "carpetArea": 790,
+          "carpetAreaDisplay": "790 sq.ft",
+          "builtUpArea": null,
+          "price": "76.86 Lacs",
+          "actualPrice": 7685910,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 134419,
+          "bhk": "2 BHK",
+          "carpetArea": 808,
+          "carpetAreaDisplay": "808 sq.ft",
+          "builtUpArea": null,
+          "price": "78.21 Lacs",
+          "actualPrice": 7820632,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 134420,
+          "bhk": "3 BHK",
+          "carpetArea": 1084,
+          "carpetAreaDisplay": "1084 sq.ft",
+          "builtUpArea": null,
+          "price": "1.05 Cr",
+          "actualPrice": 10492036,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 134421,
+          "bhk": "4 BHK",
+          "carpetArea": 1326,
+          "carpetAreaDisplay": "1326 sq.ft",
+          "builtUpArea": null,
+          "price": "1.29 Cr",
+          "actualPrice": 12900654,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "790 - 808 sq.ft",
+      "price": "76.86 Lacs - 78.21 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,084 sq.ft",
+      "price": "1.05 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,326 sq.ft",
+      "price": "1.29 Cr"
+    }
+  ]
+}

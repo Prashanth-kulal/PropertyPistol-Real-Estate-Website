@@ -1,0 +1,104 @@
+{
+  "projectId": 9509,
+  "slug": "l-k-samarpan-jogeshwari-east-pid-9509",
+  "name": "L K Samarpan",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/l-k-samarpan-jogeshwari-east-pid-9509",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7358/original/samarpan-floor-plan-1.png?1738753451",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 32523,
+          "bhk": "1 BHK",
+          "carpetArea": 457,
+          "carpetAreaDisplay": "457 sq.ft",
+          "builtUpArea": null,
+          "price": "1.35 Cr",
+          "actualPrice": 13500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "1.5 BHK",
+      "variants": [
+        {
+          "id": 32524,
+          "bhk": "1.5 BHK",
+          "carpetArea": 545,
+          "carpetAreaDisplay": "545 sq.ft",
+          "builtUpArea": null,
+          "price": "1.6 Cr",
+          "actualPrice": 16000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 91619,
+          "bhk": "2 BHK",
+          "carpetArea": 792,
+          "carpetAreaDisplay": "792 sq.ft",
+          "builtUpArea": null,
+          "price": "2.32 Cr",
+          "actualPrice": 23200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "457 sq.ft",
+      "price": "1.35 Cr"
+    },
+    {
+      "flat_type_name": "1.5 BHK",
+      "carpet_area": "545 sq.ft",
+      "price": "1.6 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "792 sq.ft",
+      "price": "2.32 Cr"
+    }
+  ]
+}

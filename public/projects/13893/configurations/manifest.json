@@ -1,0 +1,156 @@
+{
+  "projectId": 13893,
+  "slug": "vtp-dolce-vita-manjri-pid-13893",
+  "name": "VTP Dolce Vita",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/vtp-dolce-vita-manjri-pid-13893",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/13893/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13893/original/mp.png?1746780745"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/13893/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7947/original/fp-d.png?1746780745"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/13893/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7948/original/fp-d2.png?1746780746"
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/13893/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7949/original/fp-d3.png?1746780746"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 129688,
+          "bhk": "1 BHK",
+          "carpetArea": 470,
+          "carpetAreaDisplay": "470 sq.ft",
+          "builtUpArea": null,
+          "price": "50.71 Lacs",
+          "actualPrice": 5071300,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 134356,
+          "bhk": "2 BHK",
+          "carpetArea": 674,
+          "carpetAreaDisplay": "674 sq.ft",
+          "builtUpArea": null,
+          "price": "74.14 Lacs",
+          "actualPrice": 7414000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 134357,
+          "bhk": "2 BHK",
+          "carpetArea": 756,
+          "carpetAreaDisplay": "756 sq.ft",
+          "builtUpArea": null,
+          "price": "83.16 Lacs",
+          "actualPrice": 8316000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 42948,
+          "bhk": "3 BHK",
+          "carpetArea": 1400,
+          "carpetAreaDisplay": "1400 sq.ft",
+          "builtUpArea": null,
+          "price": "1.54 Cr",
+          "actualPrice": 15400000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/13893/configurations/unit-plans/3-bhk/1400-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/42948/original/3bhk-d.png?1763452451",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 134358,
+          "bhk": "3 BHK",
+          "carpetArea": 1460,
+          "carpetAreaDisplay": "1460 sq.ft",
+          "builtUpArea": null,
+          "price": "1.58 Cr",
+          "actualPrice": 15753400,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "470 sq.ft",
+      "price": "50.71 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "674 - 756 sq.ft",
+      "price": "74.14 Lacs - 83.16 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,400 - 1,460 sq.ft",
+      "price": "1.54 Cr - 1.58 Cr"
+    }
+  ]
+}

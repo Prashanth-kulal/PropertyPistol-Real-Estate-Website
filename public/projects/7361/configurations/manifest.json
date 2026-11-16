@@ -1,0 +1,110 @@
+{
+  "projectId": 7361,
+  "slug": "sagitarius-bluegrass-residences-kalyani-nagar-pid-7361",
+  "name": "Sagitarius Bluegrass Residences",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sagitarius-bluegrass-residences-kalyani-nagar-pid-7361",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/7361/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/7361/original/mp.png?1671701850"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 138723,
+          "bhk": "3 BHK",
+          "carpetArea": 1093,
+          "carpetAreaDisplay": "1093 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/7361/configurations/unit-plans/3-bhk/1093-sqft/plan-2d.webp",
+          "plan3D": "/projects/7361/configurations/unit-plans/3-bhk/1093-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/138723/original/smart-west-avenue-2.png?1792058497",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/138723/original/3bhk-Smart.png?1792058497",
+          "has2D": true,
+          "has3D": true
+        },
+        {
+          "id": 138726,
+          "bhk": "3 BHK",
+          "carpetArea": 1253,
+          "carpetAreaDisplay": "1253 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 138724,
+          "bhk": "3 BHK",
+          "carpetArea": 1461,
+          "carpetAreaDisplay": "1461 sq.ft",
+          "builtUpArea": null,
+          "price": "3.17 Cr",
+          "actualPrice": 31700000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/7361/configurations/unit-plans/3-bhk/1461-sqft/plan-2d.webp",
+          "plan3D": "/projects/7361/configurations/unit-plans/3-bhk/1461-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/138724/original/3-bhk-grand-central-greens.png?1792058497",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/138724/original/3BHK-Grand.png?1792058498",
+          "has2D": true,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 138725,
+          "bhk": "4 BHK",
+          "carpetArea": 1912,
+          "carpetAreaDisplay": "1912 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/7361/configurations/unit-plans/4-bhk/1912-sqft/plan-2d.webp",
+          "plan3D": "/projects/7361/configurations/unit-plans/4-bhk/1912-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/138725/original/4-bhk-grand-river-side.png?1792058498",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/138725/original/4bhk-Grand.png?1792058498",
+          "has2D": true,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,093 - 1,461 sq.ft",
+      "price": "3.17 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,912 sq.ft",
+      "price": "On Request"
+    }
+  ]
+}

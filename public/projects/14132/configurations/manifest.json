@@ -1,0 +1,78 @@
+{
+  "projectId": 14132,
+  "slug": "lodha-giardino-kharadi-pid-14132",
+  "name": "Lodha Giardino ",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/lodha-giardino-kharadi-pid-14132",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/14132/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/14132/original/Captureqdasfqdqedf.PNG?1697190466"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 127138,
+          "bhk": "3 BHK",
+          "carpetArea": 1478,
+          "carpetAreaDisplay": "1478 sq.ft",
+          "builtUpArea": null,
+          "price": "3.1 Cr",
+          "actualPrice": 31000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 127139,
+          "bhk": "4 BHK",
+          "carpetArea": 1668,
+          "carpetAreaDisplay": "1668 sq.ft",
+          "builtUpArea": null,
+          "price": "3.5 Cr",
+          "actualPrice": 35000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,478 sq.ft",
+      "price": "3.1 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,668 sq.ft",
+      "price": "3.5 Cr"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "projectId": 10677,
+  "slug": "roswalt-zaiden-jogeshwari-west-pid-10677",
+  "name": "Roswalt Zaiden",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/roswalt-zaiden-jogeshwari-west-pid-10677",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/10677/original/master_plan_img_1.jpg?1671109096",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3243/original/floor_plan_img_1.jpg?1671109097",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 76935,
+          "bhk": "1 BHK",
+          "carpetArea": 425,
+          "carpetAreaDisplay": "425 sq.ft",
+          "builtUpArea": null,
+          "price": "1.15 Cr",
+          "actualPrice": 11496250,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 126715,
+          "bhk": "3 BHK",
+          "carpetArea": 1050,
+          "carpetAreaDisplay": "1050 sq.ft",
+          "builtUpArea": null,
+          "price": "2.84 Cr",
+          "actualPrice": 28402500,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "425 sq.ft",
+      "price": "1.15 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,050 sq.ft",
+      "price": "2.84 Cr"
+    }
+  ]
+}

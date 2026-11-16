@@ -1,0 +1,142 @@
+{
+  "projectId": 21504,
+  "slug": "madhav-bliss",
+  "name": "Madhav Bliss",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/madhav-bliss-shilphata-pid-21504",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21504/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9244/original/tfp--.png?1772870452",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 133514,
+          "bhk": "1 BHK",
+          "carpetArea": 416,
+          "carpetAreaDisplay": "416 sq.ft",
+          "builtUpArea": null,
+          "price": "40.77 Lacs",
+          "actualPrice": 4076800,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/21504/configurations/unit-plans/1-bhk/416-sqft/plan-2d.webp",
+          "plan3D": "/projects/21504/configurations/unit-plans/1-bhk/416-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/133514/original/2d.PNG?1772871026",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/133514/original/3d.PNG?1772871026",
+          "has2D": true,
+          "has3D": true
+        },
+        {
+          "id": 133518,
+          "bhk": "1 BHK",
+          "carpetArea": 426,
+          "carpetAreaDisplay": "426 sq.ft",
+          "builtUpArea": null,
+          "price": "41.75 Lacs",
+          "actualPrice": 4174800,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 133517,
+          "bhk": "1 BHK",
+          "carpetArea": 428,
+          "carpetAreaDisplay": "428 sq.ft",
+          "builtUpArea": null,
+          "price": "41.94 Lacs",
+          "actualPrice": 4194400,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 133148,
+          "bhk": "1 BHK",
+          "carpetArea": 437,
+          "carpetAreaDisplay": "437 sq.ft",
+          "builtUpArea": null,
+          "price": "42.83 Lacs",
+          "actualPrice": 4282600,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/21504/configurations/unit-plans/1-bhk/437-sqft/plan-2d.webp",
+          "plan3D": "/projects/21504/configurations/unit-plans/1-bhk/437-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/133148/original/1bhk.PNG?1772870937",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/133148/original/3d-1bhk.PNG?1772870937",
+          "has2D": true,
+          "has3D": true
+        },
+        {
+          "id": 133515,
+          "bhk": "1 BHK",
+          "carpetArea": 470,
+          "carpetAreaDisplay": "470 sq.ft",
+          "builtUpArea": null,
+          "price": "46.06 Lacs",
+          "actualPrice": 4606000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 133516,
+          "bhk": "2 BHK",
+          "carpetArea": 763,
+          "carpetAreaDisplay": "763 sq.ft",
+          "builtUpArea": null,
+          "price": "74.77 Lacs",
+          "actualPrice": 7477400,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/21504/configurations/unit-plans/2-bhk/763-sqft/plan-2d.webp",
+          "plan3D": "/projects/21504/configurations/unit-plans/2-bhk/763-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/133516/original/2bhk.PNG?1772870938",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/133516/original/2bhk-3d.PNG?1772870938",
+          "has2D": true,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "416 - 470 sq.ft",
+      "price": "40.77 Lacs - 46.06 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "763 sq.ft",
+      "price": "74.77 Lacs"
+    }
+  ]
+}

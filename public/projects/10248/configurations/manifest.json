@@ -1,0 +1,124 @@
+{
+  "projectId": 10248,
+  "slug": "mont-vert-kingstown-bhugaon-pid-10248",
+  "name": "Mont Vert Kingstown",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/mont-vert-kingstown-bhugaon-pid-10248",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/10248/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/10248/original/mp.png?1668666941"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/10248/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2812/original/fp.jpg?1668666942"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 34176,
+          "bhk": "2 BHK",
+          "carpetArea": 675,
+          "carpetAreaDisplay": "675 sq.ft",
+          "builtUpArea": null,
+          "price": "56.73 Lacs",
+          "actualPrice": 5673000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/10248/configurations/unit-plans/2-bhk/675-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/34176/original/2bbbhk.JPG?1668666941",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 119041,
+          "bhk": "2 BHK",
+          "carpetArea": 690,
+          "carpetAreaDisplay": "690 sq.ft",
+          "builtUpArea": null,
+          "price": "57.97 Lacs",
+          "actualPrice": 5797000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 119042,
+          "bhk": "2 BHK",
+          "carpetArea": 694,
+          "carpetAreaDisplay": "694 sq.ft",
+          "builtUpArea": null,
+          "price": "58.36 Lacs",
+          "actualPrice": 5836000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 138053,
+          "bhk": "2 BHK",
+          "carpetArea": 700,
+          "carpetAreaDisplay": "700 sq.ft",
+          "builtUpArea": null,
+          "price": "58.85 Lacs",
+          "actualPrice": 5885000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 138054,
+          "bhk": "2 BHK",
+          "carpetArea": 707,
+          "carpetAreaDisplay": "707 sq.ft",
+          "builtUpArea": null,
+          "price": "59.43 Lacs",
+          "actualPrice": 5943000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "675 - 707 sq.ft",
+      "price": "56.73 Lacs - 59.43 Lacs"
+    }
+  ]
+}

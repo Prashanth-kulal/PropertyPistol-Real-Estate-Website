@@ -1,0 +1,102 @@
+{
+  "projectId": 10915,
+  "slug": "songs-from-the-woods-ghorpadi-pid-10915",
+  "name": "Songs From The Woods ",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/songs-from-the-woods-ghorpadi-pid-10915",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/10915/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/10915/original/mp.jpg?1672913745"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/10915/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3514/original/fp.png?1672913746"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 99629,
+          "bhk": "3 BHK",
+          "carpetArea": 1445,
+          "carpetAreaDisplay": "1445 sq.ft",
+          "builtUpArea": null,
+          "price": "4.89 Cr",
+          "actualPrice": 48900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 35754,
+          "bhk": "3 BHK",
+          "carpetArea": 2511,
+          "carpetAreaDisplay": "2511 sq.ft",
+          "builtUpArea": null,
+          "price": "9.37 Cr",
+          "actualPrice": 93700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 140126,
+          "bhk": "4 BHK",
+          "carpetArea": 4095,
+          "carpetAreaDisplay": "4095 sq.ft",
+          "builtUpArea": null,
+          "price": "15.11 Cr",
+          "actualPrice": 151100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,445 - 2,511 sq.ft",
+      "price": "4.89 Cr - 9.37 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "4,095 sq.ft",
+      "price": "15.11 Cr"
+    }
+  ]
+}

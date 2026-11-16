@@ -1,0 +1,78 @@
+{
+  "projectId": 20310,
+  "slug": "space-37-grandstand-baner-pid-20310",
+  "name": "Space 37 Grandstand",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/space-37-grandstand-baner-pid-20310",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20310/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8624/original/fp-rand.png?1753465382"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 120544,
+          "bhk": "3 BHK",
+          "carpetArea": 1358,
+          "carpetAreaDisplay": "1358 sq.ft",
+          "builtUpArea": null,
+          "price": "2.19 Cr",
+          "actualPrice": 21900000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20310/configurations/unit-plans/3-bhk/1358-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/120544/original/3bhk-rand.png?1753465379",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 120547,
+          "bhk": "4 BHK",
+          "carpetArea": 1935,
+          "carpetAreaDisplay": "1935 sq.ft",
+          "builtUpArea": null,
+          "price": "2.99 Cr",
+          "actualPrice": 29900000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20310/configurations/unit-plans/4-bhk/1935-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/120547/original/4bhk-rand.png?1753465379",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,358 sq.ft",
+      "price": "2.19 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,935 sq.ft",
+      "price": "2.99 Cr"
+    }
+  ]
+}

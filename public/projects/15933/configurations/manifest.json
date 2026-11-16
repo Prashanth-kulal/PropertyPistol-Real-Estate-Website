@@ -1,0 +1,94 @@
+{
+  "projectId": 15933,
+  "slug": "kanifnath-royal-kp-stellar-nibm-road-pid-15933",
+  "name": "Kanifnath Royal KP Stellar",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/kanifnath-royal-kp-stellar-nibm-road-pid-15933",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/15933/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/15933/original/masterplan.JPG?1709726424"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 53825,
+          "bhk": "2 BHK",
+          "carpetArea": 770,
+          "carpetAreaDisplay": "770 sq.ft",
+          "builtUpArea": null,
+          "price": "80.0 Lacs",
+          "actualPrice": 8000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 53826,
+          "bhk": "2 BHK",
+          "carpetArea": 790,
+          "carpetAreaDisplay": "790 sq.ft",
+          "builtUpArea": null,
+          "price": "82.0 Lacs",
+          "actualPrice": 8200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 53827,
+          "bhk": "3 BHK",
+          "carpetArea": 1030,
+          "carpetAreaDisplay": "1030 sq.ft",
+          "builtUpArea": null,
+          "price": "1.08 Cr",
+          "actualPrice": 10800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "770 - 790 sq.ft",
+      "price": "80.0 Lacs - 82.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,030 sq.ft",
+      "price": "1.08 Cr"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "projectId": 3364,
+  "slug": "mittal-skye-31-wadala-pid-3364",
+  "name": "Mittal Skye 31",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/mittal-skye-31-wadala-pid-3364",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/3364/original/layout.jpg?1579085946",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/1680/original/fp.jpg?1579085946",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 6174,
+          "bhk": "2 BHK",
+          "carpetArea": 741,
+          "carpetAreaDisplay": "741 sq.ft",
+          "builtUpArea": null,
+          "price": "1.65 Cr",
+          "actualPrice": 16500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/6174/original/2bhk.jpg?1579085946",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 135333,
+          "bhk": "4 BHK",
+          "carpetArea": 1480,
+          "carpetAreaDisplay": "1480 sq.ft",
+          "builtUpArea": null,
+          "price": "3.49 Cr",
+          "actualPrice": 34900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "741 sq.ft",
+      "price": "1.65 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,480 sq.ft",
+      "price": "3.49 Cr"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "projectId": 17964,
+  "slug": "shapoorji-parkwest-sequoia-binny-pete-pid-17964",
+  "name": "Shapoorji Parkwest Sequoia",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shapoorji-parkwest-sequoia-binny-pete-pid-17964",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/17964/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/17964/original/images_%2823%29.jpeg?1727185977"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 86750,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2100,
+          "price": "2.8 Cr",
+          "actualPrice": 28000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 86752,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2242,
+          "price": "2.99 Cr",
+          "actualPrice": 29900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4.5 BHK",
+      "variants": [
+        {
+          "id": 86749,
+          "bhk": "4.5 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2750,
+          "price": "3.8 Cr",
+          "actualPrice": 38000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 122178,
+          "bhk": "4.5 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2900,
+          "price": "4.01 Cr",
+          "actualPrice": 40100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "2.8 Cr - 2.99 Cr"
+    },
+    {
+      "flat_type_name": "4.5 BHK",
+      "carpet_area": "On Request",
+      "price": "3.8 Cr - 4.01 Cr"
+    }
+  ]
+}

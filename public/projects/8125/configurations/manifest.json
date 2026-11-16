@@ -1,0 +1,94 @@
+{
+  "projectId": 8125,
+  "slug": "raj-urbania-ambernath-east-pid-8125",
+  "name": "Raj Urbania",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/raj-urbania-ambernath-east-pid-8125",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3494/original/fp.JPG?1672653019",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 29281,
+          "bhk": "1 BHK",
+          "carpetArea": 417,
+          "carpetAreaDisplay": "417 sq.ft",
+          "builtUpArea": null,
+          "price": "24.09 Lacs",
+          "actualPrice": 2409000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/29281/original/1.jpeg?1762857635",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 29279,
+          "bhk": "1 BHK",
+          "carpetArea": 440,
+          "carpetAreaDisplay": "440 sq.ft",
+          "builtUpArea": null,
+          "price": "25.42 Lacs",
+          "actualPrice": 2542000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/29279/original/1.JPG?1672653018",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 29282,
+          "bhk": "2 BHK",
+          "carpetArea": 639,
+          "carpetAreaDisplay": "639 sq.ft",
+          "builtUpArea": null,
+          "price": "36.92 Lacs",
+          "actualPrice": 3692000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/29282/original/2.JPG?1672653018",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "417 - 440 sq.ft",
+      "price": "24.09 Lacs - 25.42 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "639 sq.ft",
+      "price": "36.92 Lacs"
+    }
+  ]
+}

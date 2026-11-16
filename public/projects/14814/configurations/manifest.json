@@ -1,0 +1,78 @@
+{
+  "projectId": 14814,
+  "slug": "advait-78-east-kurla-east-pid-14814",
+  "name": "Advait 78 East",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/advait-78-east-kurla-east-pid-14814",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8432/original/fp.png?1755853031",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 46519,
+          "bhk": "1 BHK",
+          "carpetArea": 408,
+          "carpetAreaDisplay": "408 sq.ft",
+          "builtUpArea": null,
+          "price": "1.02 Cr",
+          "actualPrice": 10200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 82187,
+          "bhk": "2 BHK",
+          "carpetArea": 541,
+          "carpetAreaDisplay": "541 sq.ft",
+          "builtUpArea": null,
+          "price": "1.35 Cr",
+          "actualPrice": 13500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "408 sq.ft",
+      "price": "1.02 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "541 sq.ft",
+      "price": "1.35 Cr"
+    }
+  ]
+}

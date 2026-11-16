@@ -1,0 +1,78 @@
+{
+  "projectId": 20740,
+  "slug": "ajmera-iris-electronic-city-pid-20740",
+  "name": "Ajmera Iris",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ajmera-iris-electronic-city-pid-20740",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/20740/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/20740/original/mp.PNG?1766222313"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 126147,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1215,
+          "price": "98.42 Lacs",
+          "actualPrice": 9841500,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20740/configurations/unit-plans/2-bhk/variant-126147/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/126147/original/2b.PNG?1766222313",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 126148,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1565,
+          "price": "1.27 Cr",
+          "actualPrice": 12676500,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20740/configurations/unit-plans/3-bhk/variant-126148/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/126148/original/3.PNG?1766222313",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "On Request",
+      "price": "98.42 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "1.27 Cr"
+    }
+  ]
+}

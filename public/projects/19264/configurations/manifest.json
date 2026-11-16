@@ -1,0 +1,226 @@
+{
+  "projectId": 19264,
+  "slug": "nivasa-ananya-lohegaon-pid-19264",
+  "name": "Nivasa Ananya",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/nivasa-ananya-lohegaon-pid-19264",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19264/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19264/original/masterplan.PNG?1740733797"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19264/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7445/original/floor1.PNG?1740733802"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19264/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7446/original/floor2.PNG?1740733802"
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/19264/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7447/original/floor3.PNG?1740733802"
+    },
+    {
+      "id": 4,
+      "title": "Layout / Site Plan 4",
+      "path": "/projects/19264/configurations/site-plans/site-plan-04.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7448/original/floor4.PNG?1740733802"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 137824,
+          "bhk": "2 BHK",
+          "carpetArea": 644,
+          "carpetAreaDisplay": "644 sq.ft",
+          "builtUpArea": null,
+          "price": "67.19 Lacs",
+          "actualPrice": 6719000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 101376,
+          "bhk": "2 BHK",
+          "carpetArea": 652,
+          "carpetAreaDisplay": "652 sq.ft",
+          "builtUpArea": null,
+          "price": "64.38 Lacs",
+          "actualPrice": 6438000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19264/configurations/unit-plans/2-bhk/652-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/101376/original/2bhk_2d1.PNG?1740733797",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 101377,
+          "bhk": "2 BHK",
+          "carpetArea": 712,
+          "carpetAreaDisplay": "712 sq.ft",
+          "builtUpArea": null,
+          "price": "73.46 Lacs",
+          "actualPrice": 7346000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19264/configurations/unit-plans/2-bhk/712-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/101377/original/2bhk_2d2.PNG?1740733797",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 114522,
+          "bhk": "2 BHK",
+          "carpetArea": 723,
+          "carpetAreaDisplay": "723 sq.ft",
+          "builtUpArea": null,
+          "price": "70.7 Lacs",
+          "actualPrice": 7070000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2.5 BHK",
+      "variants": [
+        {
+          "id": 114523,
+          "bhk": "2.5 BHK",
+          "carpetArea": 837,
+          "carpetAreaDisplay": "837 sq.ft",
+          "builtUpArea": null,
+          "price": "86.36 Lacs",
+          "actualPrice": 8636000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 137825,
+          "bhk": "2.5 BHK",
+          "carpetArea": 838,
+          "carpetAreaDisplay": "838 sq.ft",
+          "builtUpArea": null,
+          "price": "85.0 Lacs",
+          "actualPrice": 8500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 101379,
+          "bhk": "3 BHK",
+          "carpetArea": 902,
+          "carpetAreaDisplay": "902 sq.ft",
+          "builtUpArea": null,
+          "price": "94.08 Lacs",
+          "actualPrice": 9408000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19264/configurations/unit-plans/3-bhk/902-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/101379/original/3bhk_2d2.PNG?1740733797",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 137826,
+          "bhk": "3 BHK",
+          "carpetArea": 980,
+          "carpetAreaDisplay": "980 sq.ft",
+          "builtUpArea": null,
+          "price": "96.55 Lacs",
+          "actualPrice": 9655000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 101378,
+          "bhk": "3 BHK",
+          "carpetArea": 996,
+          "carpetAreaDisplay": "996 sq.ft",
+          "builtUpArea": null,
+          "price": "1.01 Cr",
+          "actualPrice": 10100000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19264/configurations/unit-plans/3-bhk/996-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/101378/original/3bhk_2d1.PNG?1740733797",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "644 - 723 sq.ft",
+      "price": "64.38 Lacs - 73.46 Lacs"
+    },
+    {
+      "flat_type_name": "2.5 BHK",
+      "carpet_area": "837 - 838 sq.ft",
+      "price": "85.0 Lacs - 86.36 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "902 - 996 sq.ft",
+      "price": "94.08 Lacs - 1.01 Cr"
+    }
+  ]
+}

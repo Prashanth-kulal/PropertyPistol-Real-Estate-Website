@@ -1,0 +1,109 @@
+{
+  "projectId": 8858,
+  "slug": "gurukrupa-one-panvel-pid-8858",
+  "name": "Gurukrupa One",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/gurukrupa-one-panvel-pid-8858",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/8858/original/mp.PNG?1750318647",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8385/original/fp.PNG?1750318649",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 124387,
+          "bhk": "1 BHK",
+          "carpetArea": 243,
+          "carpetAreaDisplay": "243 sq.ft",
+          "builtUpArea": null,
+          "price": "18.87 Lacs",
+          "actualPrice": 1887000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 86775,
+          "bhk": "1 BHK",
+          "carpetArea": 346,
+          "carpetAreaDisplay": "346 sq.ft",
+          "builtUpArea": null,
+          "price": "26.85 Lacs",
+          "actualPrice": 2685000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/86775/original/1b.PNG?1750318647",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 124383,
+          "bhk": "1 BHK",
+          "carpetArea": 350,
+          "carpetAreaDisplay": "350 sq.ft",
+          "builtUpArea": null,
+          "price": "27.23 Lacs",
+          "actualPrice": 2723000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 124385,
+          "bhk": "1 BHK",
+          "carpetArea": 377,
+          "carpetAreaDisplay": "377 sq.ft",
+          "builtUpArea": null,
+          "price": "29.29 Lacs",
+          "actualPrice": 2929000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "243 - 377 sq.ft",
+      "price": "18.87 Lacs - 29.29 Lacs"
+    }
+  ]
+}

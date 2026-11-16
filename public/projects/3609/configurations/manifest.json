@@ -1,0 +1,110 @@
+{
+  "projectId": 3609,
+  "slug": "godrej-exquisite",
+  "name": "Godrej Exquisite",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/godrej-exquisite-thane-west-pid-3609",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/3609/original/mp-god.png?1746186650",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7852/original/fp-god.png?1746186652",
+      "downloaded": false
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7853/original/fpp-god.png?1746186652",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 8317,
+          "bhk": "2 BHK",
+          "carpetArea": 655,
+          "carpetAreaDisplay": "655 sq.ft",
+          "builtUpArea": null,
+          "price": "1.59 Cr",
+          "actualPrice": 15900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/8317/original/2bhk-god.png?1746186650",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 10980,
+          "bhk": "2 BHK",
+          "carpetArea": 724,
+          "carpetAreaDisplay": "724 sq.ft",
+          "builtUpArea": null,
+          "price": "1.79 Cr",
+          "actualPrice": 17900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 74302,
+          "bhk": "3 BHK",
+          "carpetArea": 922,
+          "carpetAreaDisplay": "922 sq.ft",
+          "builtUpArea": null,
+          "price": "2.29 Cr",
+          "actualPrice": 22900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/74302/original/3bhk-god.png?1746186650",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "655 - 724 sq.ft",
+      "price": "1.59 Cr - 1.79 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "922 sq.ft",
+      "price": "2.29 Cr"
+    }
+  ]
+}

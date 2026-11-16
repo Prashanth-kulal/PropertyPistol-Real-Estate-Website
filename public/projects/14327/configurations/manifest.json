@@ -1,0 +1,76 @@
+{
+  "projectId": 14327,
+  "slug": "evantha-earthen-ambience-sarjapura-pid-14327",
+  "name": "Evantha Earthen Ambience",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/evantha-earthen-ambience-sarjapura-pid-14327",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/14327/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/14327/original/cf645e00b1dfd55.jpeg?1698746264"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/14327/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4854/original/cf645e00294e43b.jpeg?1698746265"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 88246,
+          "bhk": "4 BHK",
+          "carpetArea": 1883,
+          "carpetAreaDisplay": "1883 sq.ft",
+          "builtUpArea": 2690,
+          "price": "2.27 Cr",
+          "actualPrice": 22700000,
+          "propertyType": "Independent House/Villa",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 88248,
+          "bhk": "4 BHK",
+          "carpetArea": 2329,
+          "carpetAreaDisplay": "2329 sq.ft",
+          "builtUpArea": 3328,
+          "price": "2.81 Cr",
+          "actualPrice": 28100000,
+          "propertyType": "Independent House/Villa",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,883 - 2,329 sq.ft",
+      "price": "2.27 Cr - 2.81 Cr"
+    }
+  ]
+}

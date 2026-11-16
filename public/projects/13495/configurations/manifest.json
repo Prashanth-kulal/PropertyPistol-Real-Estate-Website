@@ -1,0 +1,110 @@
+{
+  "projectId": 13495,
+  "slug": "dsr-brown-creeper-gunjur-pid-13495",
+  "name": "DSR Brown Creeper",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/dsr-brown-creeper-gunjur-pid-13495",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/13495/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13495/original/cf62725e2ba3d1b.jpeg?1693044198"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 41689,
+          "bhk": "2 BHK",
+          "carpetArea": 1107,
+          "carpetAreaDisplay": "1107 sq.ft",
+          "builtUpArea": null,
+          "price": "1.11 Cr",
+          "actualPrice": 11100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 114017,
+          "bhk": "2 BHK",
+          "carpetArea": 1250,
+          "carpetAreaDisplay": "1250 sq.ft",
+          "builtUpArea": null,
+          "price": "1.25 Cr",
+          "actualPrice": 12500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 41687,
+          "bhk": "3 BHK",
+          "carpetArea": 1408,
+          "carpetAreaDisplay": "1408 sq.ft",
+          "builtUpArea": null,
+          "price": "1.41 Cr",
+          "actualPrice": 14100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 41688,
+          "bhk": "3 BHK",
+          "carpetArea": 1566,
+          "carpetAreaDisplay": "1566 sq.ft",
+          "builtUpArea": null,
+          "price": "1.57 Cr",
+          "actualPrice": 15700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "1,107 - 1,250 sq.ft",
+      "price": "1.11 Cr - 1.25 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,408 - 1,566 sq.ft",
+      "price": "1.41 Cr - 1.57 Cr"
+    }
+  ]
+}

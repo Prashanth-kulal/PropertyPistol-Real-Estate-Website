@@ -1,0 +1,122 @@
+{
+  "projectId": 14204,
+  "slug": "ram-address-one-bibwewadi-pid-14204",
+  "name": "Ram Address One",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ram-address-one-bibwewadi-pid-14204",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/14204/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4761/original/floorplan1.JPG?1698085078"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/14204/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4762/original/floorplan2.JPG?1698085078"
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/14204/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4763/original/floorplan3.JPG?1698085078"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 64627,
+          "bhk": "3 BHK",
+          "carpetArea": 1101,
+          "carpetAreaDisplay": "1101 sq.ft",
+          "builtUpArea": null,
+          "price": "1.74 Cr",
+          "actualPrice": 17400000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 44064,
+          "bhk": "3 BHK",
+          "carpetArea": 1173,
+          "carpetAreaDisplay": "1173 sq.ft",
+          "builtUpArea": null,
+          "price": "1.84 Cr",
+          "actualPrice": 18400000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": "/projects/14204/configurations/unit-plans/3-bhk/1173-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/44064/original/3bhk_3d.JPG?1698085077",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 44065,
+          "bhk": "4 BHK",
+          "carpetArea": 1415,
+          "carpetAreaDisplay": "1415 sq.ft",
+          "builtUpArea": null,
+          "price": "2.24 Cr",
+          "actualPrice": 22400000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": "/projects/14204/configurations/unit-plans/4-bhk/1415-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/44065/original/4bhk_3d.JPG?1698085077",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 72846,
+          "bhk": "4 BHK",
+          "carpetArea": 1482,
+          "carpetAreaDisplay": "1482 sq.ft",
+          "builtUpArea": null,
+          "price": "2.35 Cr",
+          "actualPrice": 23500000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,101 - 1,173 sq.ft",
+      "price": "1.74 Cr - 1.84 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,415 - 1,482 sq.ft",
+      "price": "2.24 Cr - 2.35 Cr"
+    }
+  ]
+}

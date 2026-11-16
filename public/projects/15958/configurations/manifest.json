@@ -1,0 +1,144 @@
+{
+  "projectId": 15958,
+  "slug": "sai-prasan-kismathpur-kismathpur-pid-15958",
+  "name": "Sai Prasan Kismathpur",
+  "city": "hyderabad",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sai-prasan-kismathpur-kismathpur-pid-15958",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/15958/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/15958/original/masterplan.JPG?1709889574"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/15958/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5909/original/floorplan.JPG?1709889574"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 54190,
+          "bhk": "2 BHK",
+          "carpetArea": 1121,
+          "carpetAreaDisplay": "1121 sq.ft",
+          "builtUpArea": null,
+          "price": "81.83 Lacs",
+          "actualPrice": 8183000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 54191,
+          "bhk": "2 BHK",
+          "carpetArea": 1181,
+          "carpetAreaDisplay": "1181 sq.ft",
+          "builtUpArea": null,
+          "price": "86.21 Lacs",
+          "actualPrice": 8621000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 54192,
+          "bhk": "3 BHK",
+          "carpetArea": 1478,
+          "carpetAreaDisplay": "1478 sq.ft",
+          "builtUpArea": null,
+          "price": "1.08 Cr",
+          "actualPrice": 10800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 130769,
+          "bhk": "3 BHK",
+          "carpetArea": 1646,
+          "carpetAreaDisplay": "1646 sq.ft",
+          "builtUpArea": null,
+          "price": "1.2 Cr",
+          "actualPrice": 12000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 130770,
+          "bhk": "4 BHK",
+          "carpetArea": 2848,
+          "carpetAreaDisplay": "2848 sq.ft",
+          "builtUpArea": null,
+          "price": "2.08 Cr",
+          "actualPrice": 20800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "1,121 - 1,181 sq.ft",
+      "price": "81.83 Lacs - 86.21 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,478 - 1,646 sq.ft",
+      "price": "1.08 Cr - 1.2 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,848 sq.ft",
+      "price": "2.08 Cr"
+    }
+  ]
+}

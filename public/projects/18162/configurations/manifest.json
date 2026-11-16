@@ -1,0 +1,119 @@
+{
+  "projectId": 18162,
+  "slug": "sm-elite-taloja-pid-18162",
+  "name": "SM Elite",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sm-elite-taloja-pid-18162",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18162/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18162/original/mp.png?1751354392",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18162/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8413/original/fp.png?1751354393",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 123449,
+          "bhk": "2 BHK",
+          "carpetArea": 518,
+          "carpetAreaDisplay": "518 sq.ft",
+          "builtUpArea": null,
+          "price": "52.98 Lacs",
+          "actualPrice": 5298000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 129783,
+          "bhk": "2 BHK",
+          "carpetArea": 548,
+          "carpetAreaDisplay": "548 sq.ft",
+          "builtUpArea": null,
+          "price": "56.05 Lacs",
+          "actualPrice": 5605000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 123450,
+          "bhk": "3 BHK",
+          "carpetArea": 699,
+          "carpetAreaDisplay": "699 sq.ft",
+          "builtUpArea": null,
+          "price": "71.5 Lacs",
+          "actualPrice": 7150000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 123451,
+          "bhk": "3 BHK",
+          "carpetArea": 804,
+          "carpetAreaDisplay": "804 sq.ft",
+          "builtUpArea": null,
+          "price": "82.29 Lacs",
+          "actualPrice": 8229000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "518 - 548 sq.ft",
+      "price": "52.98 Lacs - 56.05 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "699 - 804 sq.ft",
+      "price": "71.5 Lacs - 82.29 Lacs"
+    }
+  ]
+}

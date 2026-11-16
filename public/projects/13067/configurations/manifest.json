@@ -1,0 +1,104 @@
+{
+  "projectId": 13067,
+  "slug": "gb-dinkar-sadashiv-peth-pid-13067",
+  "name": "GB Dinkar",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/gb-dinkar-sadashiv-peth-pid-13067",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/13067/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4233/original/Capturefffvg.png?1753780174"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 40526,
+          "bhk": "2 BHK",
+          "carpetArea": 641,
+          "carpetAreaDisplay": "641 sq.ft",
+          "builtUpArea": null,
+          "price": "98.75 Lacs",
+          "actualPrice": 9875000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2.5 BHK",
+      "variants": [
+        {
+          "id": 40527,
+          "bhk": "2.5 BHK",
+          "carpetArea": 800,
+          "carpetAreaDisplay": "800 sq.ft",
+          "builtUpArea": null,
+          "price": "1.23 Cr",
+          "actualPrice": 12300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 102988,
+          "bhk": "3 BHK",
+          "carpetArea": 896,
+          "carpetAreaDisplay": "896 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "641 sq.ft",
+      "price": "98.75 Lacs"
+    },
+    {
+      "flat_type_name": "2.5 BHK",
+      "carpet_area": "800 sq.ft",
+      "price": "1.23 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "896 sq.ft",
+      "price": "On Request"
+    }
+  ]
+}

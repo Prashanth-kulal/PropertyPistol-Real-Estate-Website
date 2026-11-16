@@ -1,0 +1,78 @@
+{
+  "projectId": 16333,
+  "slug": "binary-temple-tree-sompura-pid-16333",
+  "name": "Binary Temple Tree",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/binary-temple-tree-sompura-pid-16333",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16333/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16333/original/masterplan.JPG?1715338730"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 70178,
+          "bhk": "2 BHK",
+          "carpetArea": 699,
+          "carpetAreaDisplay": "699 sq.ft",
+          "builtUpArea": null,
+          "price": "73.56 Lacs",
+          "actualPrice": 7355577,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 61467,
+          "bhk": "3 BHK",
+          "carpetArea": 1068,
+          "carpetAreaDisplay": "1068 sq.ft",
+          "builtUpArea": null,
+          "price": "1.12 Cr",
+          "actualPrice": 11238564,
+          "propertyType": "Flat",
+          "plan2D": "/projects/16333/configurations/unit-plans/3-bhk/1068-sqft/plan-2d.webp",
+          "plan3D": "/projects/16333/configurations/unit-plans/3-bhk/1068-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/61467/original/3bhk_2d.JPG?1715338730",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/61467/original/3bhk_3d.JPG?1715338730",
+          "has2D": true,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "699 sq.ft",
+      "price": "73.56 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,068 sq.ft",
+      "price": "1.12 Cr"
+    }
+  ]
+}

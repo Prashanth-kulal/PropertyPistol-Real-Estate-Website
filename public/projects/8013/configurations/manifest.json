@@ -1,0 +1,78 @@
+{
+  "projectId": 8013,
+  "slug": "goyal-my-home-kiwale-kiwale-pid-8013",
+  "name": "Goyal My Home Kiwale",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/goyal-my-home-kiwale-kiwale-pid-8013",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/8013/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/8013/original/my-home-kiwale-layout.jpg?1650978050"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 116846,
+          "bhk": "1 BHK",
+          "carpetArea": 430,
+          "carpetAreaDisplay": "430 sq.ft",
+          "builtUpArea": null,
+          "price": "41.33 Lacs",
+          "actualPrice": 4133000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 26684,
+          "bhk": "2 BHK",
+          "carpetArea": 660,
+          "carpetAreaDisplay": "660 sq.ft",
+          "builtUpArea": null,
+          "price": "63.43 Lacs",
+          "actualPrice": 6343000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/8013/configurations/unit-plans/2-bhk/660-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/26684/original/2bhk.png?1650978051",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "430 sq.ft",
+      "price": "41.33 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "660 sq.ft",
+      "price": "63.43 Lacs"
+    }
+  ]
+}

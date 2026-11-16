@@ -1,0 +1,104 @@
+{
+  "projectId": 19937,
+  "slug": "redshift-bloomville-hinjawadi-pid-19937",
+  "name": "Redshift Bloomville",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/redshift-bloomville-hinjawadi-pid-19937",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19937/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19937/original/masterplan1.png?1748847523"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 115110,
+          "bhk": "1 BHK",
+          "carpetArea": 423,
+          "carpetAreaDisplay": "423 sq.ft",
+          "builtUpArea": null,
+          "price": "52.17 Lacs",
+          "actualPrice": 5217000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 115108,
+          "bhk": "2 BHK",
+          "carpetArea": 584,
+          "carpetAreaDisplay": "584 sq.ft",
+          "builtUpArea": null,
+          "price": "71.99 Lacs",
+          "actualPrice": 7199000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19937/configurations/unit-plans/2-bhk/584-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/115108/original/2bhk_3dnew1.png?1748847523",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 115109,
+          "bhk": "3 BHK",
+          "carpetArea": 778,
+          "carpetAreaDisplay": "778 sq.ft",
+          "builtUpArea": null,
+          "price": "95.99 Lacs",
+          "actualPrice": 9599000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "423 sq.ft",
+      "price": "52.17 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "584 sq.ft",
+      "price": "71.99 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "778 sq.ft",
+      "price": "95.99 Lacs"
+    }
+  ]
+}

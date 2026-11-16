@@ -1,0 +1,118 @@
+{
+  "projectId": 7098,
+  "slug": "raghunandan-kasturi-kondhwa-pid-7098",
+  "name": "Raghunandan Kasturi",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/raghunandan-kasturi-kondhwa-pid-7098",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/7098/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/7098/original/mp.png?1671087523"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/7098/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3226/original/fp.png?1671087526"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 136382,
+          "bhk": "1 BHK",
+          "carpetArea": 398,
+          "carpetAreaDisplay": "398 sq.ft",
+          "builtUpArea": null,
+          "price": "30.99 Lacs",
+          "actualPrice": 3099000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 136383,
+          "bhk": "1 BHK",
+          "carpetArea": 416,
+          "carpetAreaDisplay": "416 sq.ft",
+          "builtUpArea": null,
+          "price": "33.99 Lacs",
+          "actualPrice": 3399000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 21312,
+          "bhk": "2 BHK",
+          "carpetArea": 548,
+          "carpetAreaDisplay": "548 sq.ft",
+          "builtUpArea": null,
+          "price": "43.36 Lacs",
+          "actualPrice": 4336000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/7098/configurations/unit-plans/2-bhk/548-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/21312/original/2.png?1671087523",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 88285,
+          "bhk": "2 BHK",
+          "carpetArea": 619,
+          "carpetAreaDisplay": "619 sq.ft",
+          "builtUpArea": null,
+          "price": "48.98 Lacs",
+          "actualPrice": 4898000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "398 - 416 sq.ft",
+      "price": "30.99 Lacs - 33.99 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "548 - 619 sq.ft",
+      "price": "43.36 Lacs - 48.98 Lacs"
+    }
+  ]
+}

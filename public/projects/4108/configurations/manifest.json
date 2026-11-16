@@ -1,0 +1,119 @@
+{
+  "projectId": 4108,
+  "slug": "sunrise-parkview-shilphata-pid-4108",
+  "name": "Sunrise Parkview",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sunrise-parkview-shilphata-pid-4108",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/4108/original/mp.PNG?1617107585",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2178/original/fp.PNG?1617107587",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 10353,
+          "bhk": "1 BHK",
+          "carpetArea": 356,
+          "carpetAreaDisplay": "356 sq.ft",
+          "builtUpArea": null,
+          "price": "29.59 Lacs",
+          "actualPrice": 2959000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/10353/original/1bhk.jpeg?1625485656",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 92881,
+          "bhk": "1 BHK",
+          "carpetArea": 400,
+          "carpetAreaDisplay": "400 sq.ft",
+          "builtUpArea": null,
+          "price": "33.25 Lacs",
+          "actualPrice": 3325000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 92882,
+          "bhk": "2 BHK",
+          "carpetArea": 570,
+          "carpetAreaDisplay": "570 sq.ft",
+          "builtUpArea": null,
+          "price": "47.38 Lacs",
+          "actualPrice": 4738000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139787,
+          "bhk": "2 BHK",
+          "carpetArea": 574,
+          "carpetAreaDisplay": "574 sq.ft",
+          "builtUpArea": null,
+          "price": "47.72 Lacs",
+          "actualPrice": 4772000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "356 - 400 sq.ft",
+      "price": "29.59 Lacs - 33.25 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "570 - 574 sq.ft",
+      "price": "47.38 Lacs - 47.72 Lacs"
+    }
+  ]
+}

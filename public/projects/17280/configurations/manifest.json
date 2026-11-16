@@ -1,0 +1,52 @@
+{
+  "projectId": 17280,
+  "slug": "casa-salvador-salvador-do-mundo-pid-17280",
+  "name": "Casa Salvador ",
+  "city": "goa",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/casa-salvador-salvador-do-mundo-pid-17280",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/17280/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6602/original/fp_casa.png?1719901074"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 71240,
+          "bhk": "4 BHK",
+          "carpetArea": 2249,
+          "carpetAreaDisplay": "2249 sq.ft",
+          "builtUpArea": null,
+          "price": "5.5 Cr",
+          "actualPrice": 55000000,
+          "propertyType": "Independent House/Villa",
+          "plan2D": "/projects/17280/configurations/unit-plans/4-bhk/2249-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/71240/original/IMG_20250804_135359.jpg?1754295870",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,249 sq.ft",
+      "price": "5.5 Cr"
+    }
+  ]
+}

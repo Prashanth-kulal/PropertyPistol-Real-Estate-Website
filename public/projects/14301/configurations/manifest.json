@@ -1,0 +1,66 @@
+{
+  "projectId": 14301,
+  "slug": "greenmark-mayfair-sunrise-kollur-pid-14301",
+  "name": "Greenmark Mayfair Sunrise",
+  "city": "hyderabad",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/greenmark-mayfair-sunrise-kollur-pid-14301",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/14301/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/14301/original/MASTER-PLAN-FINAL-scaled.jpg?1698688361"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/14301/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4826/original/West_FACING_SECOND_FLOOR.jpg?1698688362"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/14301/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4842/original/EAST_FACING_FIRST_FLOOR.jpg?1698688362"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 44367,
+          "bhk": "4 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 3888,
+          "price": "4.7 Cr",
+          "actualPrice": 47000000,
+          "propertyType": "Independent House/Villa",
+          "plan2D": "/projects/14301/configurations/unit-plans/4-bhk/variant-44367/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/44367/original/4bhkvilla_2d.JPG?1698660581",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "On Request",
+      "price": "4.7 Cr"
+    }
+  ]
+}

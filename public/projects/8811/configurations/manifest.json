@@ -1,0 +1,78 @@
+{
+  "projectId": 8811,
+  "slug": "delta-luxuria-airoli-pid-8811",
+  "name": "Delta Luxuria",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/delta-luxuria-airoli-pid-8811",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6039/original/fp.jpg?1710838598",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 31066,
+          "bhk": "2 BHK",
+          "carpetArea": 860,
+          "carpetAreaDisplay": "860 sq.ft",
+          "builtUpArea": null,
+          "price": "1.99 Cr",
+          "actualPrice": 19900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/31066/original/2b.jpg?1710838598",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/31066/original/2.jpg?1710838598",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 31067,
+          "bhk": "3 BHK",
+          "carpetArea": 1169,
+          "carpetAreaDisplay": "1169 sq.ft",
+          "builtUpArea": null,
+          "price": "3.6 Cr",
+          "actualPrice": 36000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/31067/original/3b.jpg?1710838598",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/31067/original/3.jpg?1710838598",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "860 sq.ft",
+      "price": "1.99 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,169 sq.ft",
+      "price": "3.6 Cr"
+    }
+  ]
+}

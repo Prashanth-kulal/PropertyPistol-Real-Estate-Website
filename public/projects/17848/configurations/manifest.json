@@ -1,0 +1,106 @@
+{
+  "projectId": 17848,
+  "slug": "indushree-mount-ponda-pid-17848",
+  "name": "Indushree Mount ",
+  "city": "goa",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/indushree-mount-ponda-pid-17848",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/17848/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9128/original/download_%2818%29.png?1766816909"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/17848/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9129/original/download_%2819%29.png?1766816909"
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/17848/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9130/original/download_%2820%29.png?1766816909"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 82924,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 959,
+          "price": "86.31 Lacs",
+          "actualPrice": 8631000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/17848/configurations/unit-plans/2-bhk/variant-82924/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/82924/original/2bhk_indu.PNG?1725032269",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 82923,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1048,
+          "price": "94.32 Lacs",
+          "actualPrice": 9432000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/17848/configurations/unit-plans/2-bhk/variant-82923/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/82923/original/2bhk_indu.PNG?1725032269",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 82925,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1214,
+          "price": "1.09 Cr",
+          "actualPrice": 10900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/17848/configurations/unit-plans/3-bhk/variant-82925/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/82925/original/3bhk_ind.PNG?1725032270",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "On Request",
+      "price": "86.31 Lacs - 94.32 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "1.09 Cr"
+    }
+  ]
+}

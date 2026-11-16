@@ -1,0 +1,78 @@
+{
+  "projectId": 18334,
+  "slug": "sharada-paritosh-balewadi-pid-18334",
+  "name": "Sharada Paritosh",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sharada-paritosh-balewadi-pid-18334",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18334/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18334/original/cf61d50d18a182c.jpeg?1730099262"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 90519,
+          "bhk": "2 BHK",
+          "carpetArea": 742,
+          "carpetAreaDisplay": "742 sq.ft",
+          "builtUpArea": null,
+          "price": "95.0 Lacs",
+          "actualPrice": 9500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 90522,
+          "bhk": "3 BHK",
+          "carpetArea": 1174,
+          "carpetAreaDisplay": "1174 sq.ft",
+          "builtUpArea": null,
+          "price": "1.48 Cr",
+          "actualPrice": 14800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "742 sq.ft",
+      "price": "95.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,174 sq.ft",
+      "price": "1.48 Cr"
+    }
+  ]
+}

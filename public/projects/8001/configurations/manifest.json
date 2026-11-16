@@ -1,0 +1,78 @@
+{
+  "projectId": 8001,
+  "slug": "ajmera-manhattan-wadala-pid-8001",
+  "name": "Ajmera Manhattan ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ajmera-manhattan-wadala-pid-8001",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2663/original/16450208111%281%29.jpg?1650959476",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 56156,
+          "bhk": "3 BHK",
+          "carpetArea": 1239,
+          "carpetAreaDisplay": "1239 sq.ft",
+          "builtUpArea": null,
+          "price": "5.08 Cr",
+          "actualPrice": 50800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 56154,
+          "bhk": "4 BHK",
+          "carpetArea": 1782,
+          "carpetAreaDisplay": "1782 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,239 sq.ft",
+      "price": "5.08 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,782 sq.ft",
+      "price": "On Request"
+    }
+  ]
+}

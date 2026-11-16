@@ -1,0 +1,110 @@
+{
+  "projectId": 11027,
+  "slug": "raj-silverstone-badlapur-east-pid-11027",
+  "name": "Raj Silverstone",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/raj-silverstone-badlapur-east-pid-11027",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5679/original/fp.PNG?1708932904",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 136375,
+          "bhk": "2 BHK",
+          "carpetArea": 594,
+          "carpetAreaDisplay": "594 sq.ft",
+          "builtUpArea": null,
+          "price": "43.5 Lacs",
+          "actualPrice": 4350000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 136376,
+          "bhk": "2 BHK",
+          "carpetArea": 651,
+          "carpetAreaDisplay": "651 sq.ft",
+          "builtUpArea": null,
+          "price": "47.5 Lacs",
+          "actualPrice": 4750000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 137716,
+          "bhk": "3 BHK",
+          "carpetArea": 896,
+          "carpetAreaDisplay": "896 sq.ft",
+          "builtUpArea": null,
+          "price": "67.5 Lacs",
+          "actualPrice": 6750000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 137717,
+          "bhk": "3 BHK",
+          "carpetArea": 1059,
+          "carpetAreaDisplay": "1059 sq.ft",
+          "builtUpArea": null,
+          "price": "78.5 Lacs",
+          "actualPrice": 7850000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "594 - 651 sq.ft",
+      "price": "43.5 Lacs - 47.5 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "896 - 1,059 sq.ft",
+      "price": "67.5 Lacs - 78.5 Lacs"
+    }
+  ]
+}

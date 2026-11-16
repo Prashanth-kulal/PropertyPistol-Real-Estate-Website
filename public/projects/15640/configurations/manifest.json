@@ -1,0 +1,149 @@
+{
+  "projectId": 15640,
+  "slug": "edmont-aurelia-kandivali-west-pid-15640",
+  "name": "Edmont Aurelia",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/edmont-aurelia-kandivali-west-pid-15640",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/15640/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/15640/original/floorplan.JPG?1705501673",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/15640/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5450/original/floorplan1.JPG?1705501673",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/15640/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5452/original/floorplan3.JPG?1705501673",
+      "downloaded": true
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/15640/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5453/original/floorplan4.JPG?1705501673",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 116864,
+          "bhk": "2 BHK",
+          "carpetArea": 761,
+          "carpetAreaDisplay": "761 sq.ft",
+          "builtUpArea": null,
+          "price": "2.37 Cr",
+          "actualPrice": 23700000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/15640/configurations/unit-plans/2-bhk/761-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/116864/original/2b.JPG?1784281329",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 139668,
+          "bhk": "2 BHK",
+          "carpetArea": 823,
+          "carpetAreaDisplay": "823 sq.ft",
+          "builtUpArea": null,
+          "price": "2.57 Cr",
+          "actualPrice": 25700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 116867,
+          "bhk": "3 BHK",
+          "carpetArea": 931,
+          "carpetAreaDisplay": "931 sq.ft",
+          "builtUpArea": null,
+          "price": "2.91 Cr",
+          "actualPrice": 29100000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/15640/configurations/unit-plans/3-bhk/931-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/116867/original/3.JPG?1784281329",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 139669,
+          "bhk": "3 BHK",
+          "carpetArea": 1218,
+          "carpetAreaDisplay": "1218 sq.ft",
+          "builtUpArea": null,
+          "price": "3.1 Cr",
+          "actualPrice": 31000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139670,
+          "bhk": "3 BHK",
+          "carpetArea": 1255,
+          "carpetAreaDisplay": "1255 sq.ft",
+          "builtUpArea": null,
+          "price": "3.92 Cr",
+          "actualPrice": 39200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "761 - 823 sq.ft",
+      "price": "2.37 Cr - 2.57 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "931 - 1,255 sq.ft",
+      "price": "2.91 Cr - 3.92 Cr"
+    }
+  ]
+}

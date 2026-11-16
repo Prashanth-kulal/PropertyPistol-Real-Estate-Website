@@ -1,0 +1,78 @@
+{
+  "projectId": 7176,
+  "slug": "majestique-ephelia-kondhwa-pid-7176",
+  "name": "Majestique Ephelia ",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/majestique-ephelia-kondhwa-pid-7176",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/7176/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2582/original/upld_594819643338830434_Floorplan3.jpg?1638875805"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 87878,
+          "bhk": "3 BHK",
+          "carpetArea": 1064,
+          "carpetAreaDisplay": "1064 sq.ft",
+          "builtUpArea": null,
+          "price": "1.15 Cr",
+          "actualPrice": 11500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 93317,
+          "bhk": "4 BHK",
+          "carpetArea": 1569,
+          "carpetAreaDisplay": "1569 sq.ft",
+          "builtUpArea": null,
+          "price": "1.7 Cr",
+          "actualPrice": 17000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,064 sq.ft",
+      "price": "1.15 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,569 sq.ft",
+      "price": "1.7 Cr"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "projectId": 19364,
+  "slug": "dream-delmont-bavdhan-pid-19364",
+  "name": "Dream Delmont",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/dream-delmont-bavdhan-pid-19364",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19364/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19364/original/masterplan.PNG?1741784038"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19364/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7529/original/floor1.PNG?1741784041"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19364/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7530/original/floor2.PNG?1741784041"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 102585,
+          "bhk": "3 BHK",
+          "carpetArea": 1110,
+          "carpetAreaDisplay": "1110 sq.ft",
+          "builtUpArea": null,
+          "price": "1.53 Cr",
+          "actualPrice": 15300000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19364/configurations/unit-plans/3-bhk/1110-sqft/plan-2d.webp",
+          "plan3D": "/projects/19364/configurations/unit-plans/3-bhk/1110-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/102585/original/3bhk_2d.PNG?1741784038",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/102585/original/3bhk_3d.PNG?1741784038",
+          "has2D": true,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,110 sq.ft",
+      "price": "1.53 Cr"
+    }
+  ]
+}

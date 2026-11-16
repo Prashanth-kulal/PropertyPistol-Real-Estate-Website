@@ -1,0 +1,86 @@
+{
+  "projectId": 19398,
+  "slug": "kings-county-wakad-pid-19398",
+  "name": "Kings County",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/kings-county-wakad-pid-19398",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit"
+  ],
+  "masterPlans": [],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 102787,
+          "bhk": "3 BHK",
+          "carpetArea": 1093,
+          "carpetAreaDisplay": "1093 sq.ft",
+          "builtUpArea": null,
+          "price": "1.45 Cr",
+          "actualPrice": 14500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19398/configurations/unit-plans/3-bhk/1093-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/102787/original/3bhk_3dnew1.png?1742043213",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 137209,
+          "bhk": "3 BHK",
+          "carpetArea": 1195,
+          "carpetAreaDisplay": "1195 sq.ft",
+          "builtUpArea": null,
+          "price": "1.6 Cr",
+          "actualPrice": 16000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 102789,
+          "bhk": "4 BHK",
+          "carpetArea": 1540,
+          "carpetAreaDisplay": "1540 sq.ft",
+          "builtUpArea": null,
+          "price": "2.06 Cr",
+          "actualPrice": 20600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19398/configurations/unit-plans/4-bhk/1540-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/102789/original/4bhk_3dnew1.png?1742043213",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,093 - 1,195 sq.ft",
+      "price": "1.45 Cr - 1.6 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,540 sq.ft",
+      "price": "2.06 Cr"
+    }
+  ]
+}

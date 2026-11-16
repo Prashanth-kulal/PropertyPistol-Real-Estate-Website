@@ -1,0 +1,145 @@
+{
+  "projectId": 15878,
+  "slug": "mahindra-vista-kandivali-east-pid-15878",
+  "name": "Mahindra Vista",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/mahindra-vista-kandivali-east-pid-15878",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/15878/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/15878/original/mp.PNG?1717228849",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/15878/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6388/original/fp.PNG?1717228850",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 111725,
+          "bhk": "2 BHK",
+          "carpetArea": 600,
+          "carpetAreaDisplay": "600 sq.ft",
+          "builtUpArea": null,
+          "price": "1.86 Cr",
+          "actualPrice": 18600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 111723,
+          "bhk": "2 BHK",
+          "carpetArea": 813,
+          "carpetAreaDisplay": "813 sq.ft",
+          "builtUpArea": null,
+          "price": "2.67 Cr",
+          "actualPrice": 26700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 139658,
+          "bhk": "3 BHK",
+          "carpetArea": 934,
+          "carpetAreaDisplay": "934 sq.ft",
+          "builtUpArea": null,
+          "price": "2.92 Cr",
+          "actualPrice": 29200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139659,
+          "bhk": "3 BHK",
+          "carpetArea": 1061,
+          "carpetAreaDisplay": "1061 sq.ft",
+          "builtUpArea": null,
+          "price": "3.35 Cr",
+          "actualPrice": 33500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 139660,
+          "bhk": "4 BHK",
+          "carpetArea": 1624,
+          "carpetAreaDisplay": "1624 sq.ft",
+          "builtUpArea": null,
+          "price": "5.26 Cr",
+          "actualPrice": 52600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "600 - 813 sq.ft",
+      "price": "1.86 Cr - 2.67 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "934 - 1,061 sq.ft",
+      "price": "2.92 Cr - 3.35 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,624 sq.ft",
+      "price": "5.26 Cr"
+    }
+  ]
+}

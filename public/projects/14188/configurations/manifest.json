@@ -1,0 +1,120 @@
+{
+  "projectId": 14188,
+  "slug": "k-pune-bavdhan-pid-14188",
+  "name": "K Pune",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/k-pune-bavdhan-pid-14188",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/14188/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/14188/original/mp.png?1698042529"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 107293,
+          "bhk": "2 BHK",
+          "carpetArea": 812,
+          "carpetAreaDisplay": "812 sq.ft",
+          "builtUpArea": null,
+          "price": "94.96 Lacs",
+          "actualPrice": 9496340,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 107296,
+          "bhk": "3 BHK",
+          "carpetArea": 1251,
+          "carpetAreaDisplay": "1251 sq.ft",
+          "builtUpArea": null,
+          "price": "1.46 Cr",
+          "actualPrice": 14630445,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 134437,
+          "bhk": "4 BHK",
+          "carpetArea": 1515,
+          "carpetAreaDisplay": "1515 sq.ft",
+          "builtUpArea": null,
+          "price": "1.77 Cr",
+          "actualPrice": 17717925,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 134438,
+          "bhk": "4 BHK",
+          "carpetArea": 1708,
+          "carpetAreaDisplay": "1708 sq.ft",
+          "builtUpArea": null,
+          "price": "2.0 Cr",
+          "actualPrice": 19975060,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "812 sq.ft",
+      "price": "94.96 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,251 sq.ft",
+      "price": "1.46 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,515 - 1,708 sq.ft",
+      "price": "1.77 Cr - 2.0 Cr"
+    }
+  ]
+}

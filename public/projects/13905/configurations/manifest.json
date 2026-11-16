@@ -1,0 +1,87 @@
+{
+  "projectId": 13905,
+  "slug": "omkara-pride-taloja-pid-13905",
+  "name": "Omkara Pride",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/omkara-pride-taloja-pid-13905",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13905/original/download_%281%29.png?1747983845",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8123/original/fp.png?1747983845",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 98609,
+          "bhk": "1 BHK",
+          "carpetArea": 465,
+          "carpetAreaDisplay": "465 sq.ft",
+          "builtUpArea": null,
+          "price": "34.88 Lacs",
+          "actualPrice": 3487500,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 137313,
+          "bhk": "3 BHK",
+          "carpetArea": 1234,
+          "carpetAreaDisplay": "1234 sq.ft",
+          "builtUpArea": null,
+          "price": "92.55 Lacs",
+          "actualPrice": 9255000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "465 sq.ft",
+      "price": "34.88 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,234 sq.ft",
+      "price": "92.55 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "projectId": 13070,
+  "slug": "ceratec-presidential-towers-ravet-pid-13070",
+  "name": "Ceratec Presidential Towers",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ceratec-presidential-towers-ravet-pid-13070",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/13070/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4235/original/Captureffddee.PNG?1690452584"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/13070/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4236/original/Capturefdsdfe.PNG?1690452585"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 54585,
+          "bhk": "2 BHK",
+          "carpetArea": 727,
+          "carpetAreaDisplay": "727 sq.ft",
+          "builtUpArea": null,
+          "price": "93.56 Lacs",
+          "actualPrice": 9356000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": "/projects/13070/configurations/unit-plans/2-bhk/727-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/54585/original/2b.png?1769754348",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 139524,
+          "bhk": "2 BHK",
+          "carpetArea": 792,
+          "carpetAreaDisplay": "792 sq.ft",
+          "builtUpArea": null,
+          "price": "1.02 Cr",
+          "actualPrice": 10200000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 101756,
+          "bhk": "2 BHK",
+          "carpetArea": 822,
+          "carpetAreaDisplay": "822 sq.ft",
+          "builtUpArea": null,
+          "price": "1.06 Cr",
+          "actualPrice": 10600000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 83625,
+          "bhk": "3 BHK",
+          "carpetArea": 1031,
+          "carpetAreaDisplay": "1031 sq.ft",
+          "builtUpArea": null,
+          "price": "1.33 Cr",
+          "actualPrice": 13300000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "727 - 822 sq.ft",
+      "price": "93.56 Lacs - 1.06 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,031 sq.ft",
+      "price": "1.33 Cr"
+    }
+  ]
+}

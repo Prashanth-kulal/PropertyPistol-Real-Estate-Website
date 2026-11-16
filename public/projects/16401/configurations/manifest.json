@@ -1,0 +1,120 @@
+{
+  "projectId": 16401,
+  "slug": "satre-happynest-kanjurmarg-east-pid-16401",
+  "name": "Satre Happynest",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/satre-happynest-kanjurmarg-east-pid-16401",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16401/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9823/original/download_%2852%29.png?1793614719",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 61872,
+          "bhk": "1 BHK",
+          "carpetArea": 420,
+          "carpetAreaDisplay": "420 sq.ft",
+          "builtUpArea": null,
+          "price": "99.0 Lacs",
+          "actualPrice": 9900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 61875,
+          "bhk": "2 BHK",
+          "carpetArea": 626,
+          "carpetAreaDisplay": "626 sq.ft",
+          "builtUpArea": null,
+          "price": "1.45 Cr",
+          "actualPrice": 14500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139736,
+          "bhk": "2 BHK",
+          "carpetArea": 663,
+          "carpetAreaDisplay": "663 sq.ft",
+          "builtUpArea": null,
+          "price": "1.55 Cr",
+          "actualPrice": 15500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3.5 BHK",
+      "variants": [
+        {
+          "id": 139737,
+          "bhk": "3.5 BHK",
+          "carpetArea": 1046,
+          "carpetAreaDisplay": "1046 sq.ft",
+          "builtUpArea": null,
+          "price": "2.55 Cr",
+          "actualPrice": 25500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "420 sq.ft",
+      "price": "99.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "626 - 663 sq.ft",
+      "price": "1.45 Cr - 1.55 Cr"
+    },
+    {
+      "flat_type_name": "3.5 BHK",
+      "carpet_area": "1,046 sq.ft",
+      "price": "2.55 Cr"
+    }
+  ]
+}

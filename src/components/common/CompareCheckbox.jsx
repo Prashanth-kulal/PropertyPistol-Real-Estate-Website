@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { Check } from "lucide-react";
 import { useComparison } from "@/context/ComparisonContext";
-import { getProjectSlug } from "@/data/projectsData";
+import { getProjectSlug } from "@/lib/projectUtils";
 
 export default function CompareCheckbox({
   project,

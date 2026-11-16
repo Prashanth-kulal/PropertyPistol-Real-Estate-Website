@@ -1,0 +1,68 @@
+{
+  "projectId": 17896,
+  "slug": "bramhacorp-townhouse-balewadi-pid-17896",
+  "name": "Bramhacorp Townhouse",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/bramhacorp-townhouse-balewadi-pid-17896",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/17896/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/17896/original/mp-bramha.png?1753521489"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "Studio",
+      "variants": [
+        {
+          "id": 85057,
+          "bhk": "Studio",
+          "carpetArea": 152,
+          "carpetAreaDisplay": "152 sq.ft",
+          "builtUpArea": null,
+          "price": "33.96 Lacs",
+          "actualPrice": 3396000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/17896/configurations/unit-plans/studio/152-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/85057/original/ST.PNG?1726060479",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 120574,
+          "bhk": "Studio",
+          "carpetArea": 188,
+          "carpetAreaDisplay": "188 sq.ft",
+          "builtUpArea": null,
+          "price": "42.0 Lacs",
+          "actualPrice": 4200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "Studio",
+      "carpet_area": "152 - 188 sq.ft",
+      "price": "33.96 Lacs - 42.0 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "projectId": 7671,
+  "slug": "empire-residency-kalyan-east-pid-7671",
+  "name": "Empire Residency",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/empire-residency-kalyan-east-pid-7671",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3538/original/fp.png?1673260445",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 23769,
+          "bhk": "1 BHK",
+          "carpetArea": 410,
+          "carpetAreaDisplay": "410 sq.ft",
+          "builtUpArea": null,
+          "price": "35.98 Lacs",
+          "actualPrice": 3598000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 23771,
+          "bhk": "1 BHK",
+          "carpetArea": 422,
+          "carpetAreaDisplay": "422 sq.ft",
+          "builtUpArea": null,
+          "price": "36.99 Lacs",
+          "actualPrice": 3699000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 129364,
+          "bhk": "2 BHK",
+          "carpetArea": 521,
+          "carpetAreaDisplay": "521 sq.ft",
+          "builtUpArea": null,
+          "price": "45.66 Lacs",
+          "actualPrice": 4566000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 129365,
+          "bhk": "2 BHK",
+          "carpetArea": 534,
+          "carpetAreaDisplay": "534 sq.ft",
+          "builtUpArea": null,
+          "price": "46.81 Lacs",
+          "actualPrice": 4681000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "410 - 422 sq.ft",
+      "price": "35.98 Lacs - 36.99 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "521 - 534 sq.ft",
+      "price": "45.66 Lacs - 46.81 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "projectId": 17060,
+  "slug": "prism-city-charholi-pid-17060",
+  "name": "Prism City",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/prism-city-charholi-pid-17060",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/17060/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6476/original/floorplan1.JPG?1718715369"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/17060/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6477/original/floorplan2.JPG?1718715369"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 134062,
+          "bhk": "2 BHK",
+          "carpetArea": 695,
+          "carpetAreaDisplay": "695 sq.ft",
+          "builtUpArea": null,
+          "price": "65.43 Lacs",
+          "actualPrice": 6543000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 134063,
+          "bhk": "2 BHK",
+          "carpetArea": 697,
+          "carpetAreaDisplay": "697 sq.ft",
+          "builtUpArea": null,
+          "price": "65.62 Lacs",
+          "actualPrice": 6562000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 134064,
+          "bhk": "2 BHK",
+          "carpetArea": 739,
+          "carpetAreaDisplay": "739 sq.ft",
+          "builtUpArea": null,
+          "price": "69.57 Lacs",
+          "actualPrice": 6957000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 69006,
+          "bhk": "3 BHK",
+          "carpetArea": 1129,
+          "carpetAreaDisplay": "1129 sq.ft",
+          "builtUpArea": null,
+          "price": "1.05 Cr",
+          "actualPrice": 10500000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/17060/configurations/unit-plans/3-bhk/1129-sqft/plan-2d.webp",
+          "plan3D": "/projects/17060/configurations/unit-plans/3-bhk/1129-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/69006/original/3bhk_2d.JPG?1718715367",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/69006/original/3bhk_3d.JPG?1718715368",
+          "has2D": true,
+          "has3D": true
+        },
+        {
+          "id": 134067,
+          "bhk": "3 BHK",
+          "carpetArea": 1135,
+          "carpetAreaDisplay": "1135 sq.ft",
+          "builtUpArea": null,
+          "price": "1.06 Cr",
+          "actualPrice": 10600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "695 - 739 sq.ft",
+      "price": "65.43 Lacs - 69.57 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,129 - 1,135 sq.ft",
+      "price": "1.05 Cr - 1.06 Cr"
+    }
+  ]
+}

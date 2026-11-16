@@ -9,7 +9,7 @@ import React, {
   useMemo
 } from "react";
 import { Heart, Check, X } from "lucide-react";
-import { getProjectSlug } from "@/data/projectsData";
+import { getProjectSlug } from "@/lib/projectUtils";
 
 const WishlistContext = createContext(null);
 

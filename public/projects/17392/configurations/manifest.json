@@ -1,0 +1,78 @@
+{
+  "projectId": 17392,
+  "slug": "devashri-elanza-1-and-2-gogol-pid-17392",
+  "name": "Devashri Elanza 1 and 2",
+  "city": "goa",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/devashri-elanza-1-and-2-gogol-pid-17392",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/17392/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6656/original/Devashri-Elanza-1_Block-A-2-4-6-Floor-Plan.jpg?1720795637"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 72928,
+          "bhk": "2 BHK",
+          "carpetArea": 572,
+          "carpetAreaDisplay": "572 sq.ft",
+          "builtUpArea": null,
+          "price": "1.13 Cr",
+          "actualPrice": 11300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 72930,
+          "bhk": "3 BHK",
+          "carpetArea": 725,
+          "carpetAreaDisplay": "725 sq.ft",
+          "builtUpArea": null,
+          "price": "1.44 Cr",
+          "actualPrice": 14400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "572 sq.ft",
+      "price": "1.13 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "725 sq.ft",
+      "price": "1.44 Cr"
+    }
+  ]
+}

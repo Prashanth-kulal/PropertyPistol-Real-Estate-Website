@@ -1,0 +1,78 @@
+{
+  "projectId": 20013,
+  "slug": "winds-of-change-by-ckpc-harohalli-pid-20013",
+  "name": "Winds of Change by CKPC",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/winds-of-change-by-ckpc-harohalli-pid-20013",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/20013/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/20013/original/master.PNG?1750060562"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 116467,
+          "bhk": "1 BHK",
+          "carpetArea": 448,
+          "carpetAreaDisplay": "448 sq.ft",
+          "builtUpArea": null,
+          "price": "61.9 Lacs",
+          "actualPrice": 6190016,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20013/configurations/unit-plans/1-bhk/448-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/116467/original/1bhk_2d.PNG?1750060563",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 126260,
+          "bhk": "4 BHK",
+          "carpetArea": 1539,
+          "carpetAreaDisplay": "1539 sq.ft",
+          "builtUpArea": null,
+          "price": "2.13 Cr",
+          "actualPrice": 21264363,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "448 sq.ft",
+      "price": "61.9 Lacs"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,539 sq.ft",
+      "price": "2.13 Cr"
+    }
+  ]
+}

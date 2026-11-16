@@ -1,0 +1,161 @@
+{
+  "projectId": 4039,
+  "slug": "mahindra-alcove",
+  "name": "Mahindra Alcove",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/mahindra-alcove-andheri-east-pid-4039",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/4039/original/Acme-Master-Plan.jpg?1616400292",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2125/original/Acme-Typical-Floor-Plan-DE.jpeg?1616400293",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 139983,
+          "bhk": "1 BHK",
+          "carpetArea": 453,
+          "carpetAreaDisplay": "453 sq.ft",
+          "builtUpArea": null,
+          "price": "1.46 Cr",
+          "actualPrice": 14600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139984,
+          "bhk": "1 BHK",
+          "carpetArea": 459,
+          "carpetAreaDisplay": "459 sq.ft",
+          "builtUpArea": null,
+          "price": "1.48 Cr",
+          "actualPrice": 14800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 12760,
+          "bhk": "2 BHK",
+          "carpetArea": 725,
+          "carpetAreaDisplay": "725 sq.ft",
+          "builtUpArea": null,
+          "price": "2.25 Cr",
+          "actualPrice": 22500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 45379,
+          "bhk": "2 BHK",
+          "carpetArea": 762,
+          "carpetAreaDisplay": "762 sq.ft",
+          "builtUpArea": null,
+          "price": "2.13 Cr",
+          "actualPrice": 21300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 45378,
+          "bhk": "3 BHK",
+          "carpetArea": 860,
+          "carpetAreaDisplay": "860 sq.ft",
+          "builtUpArea": null,
+          "price": "2.41 Cr",
+          "actualPrice": 24100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 128228,
+          "bhk": "3 BHK",
+          "carpetArea": 1024,
+          "carpetAreaDisplay": "1024 sq.ft",
+          "builtUpArea": null,
+          "price": "2.87 Cr",
+          "actualPrice": 28700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "453 - 459 sq.ft",
+      "price": "1.46 Cr - 1.48 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "725 - 762 sq.ft",
+      "price": "2.13 Cr - 2.25 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "860 - 1,024 sq.ft",
+      "price": "2.41 Cr - 2.87 Cr"
+    }
+  ]
+}

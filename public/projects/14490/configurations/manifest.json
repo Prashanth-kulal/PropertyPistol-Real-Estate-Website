@@ -1,0 +1,85 @@
+{
+  "projectId": 14490,
+  "slug": "deepali-landscape-badlapur-east-pid-14490",
+  "name": "Deepali Landscape",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/deepali-landscape-badlapur-east-pid-14490",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5046/original/floorplan1.JPG?1700307226",
+      "downloaded": false
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5047/original/floorplan2.JPG?1700307226",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 45087,
+          "bhk": "1 BHK",
+          "carpetArea": 383,
+          "carpetAreaDisplay": "383 sq.ft",
+          "builtUpArea": null,
+          "price": "29.99 Lacs",
+          "actualPrice": 2999000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/45087/original/1bhk_3d.JPG?1700307226",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 45088,
+          "bhk": "2 BHK",
+          "carpetArea": 601,
+          "carpetAreaDisplay": "601 sq.ft",
+          "builtUpArea": null,
+          "price": "41.99 Lacs",
+          "actualPrice": 4199000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/45088/original/2bhk_3d.JPG?1700307226",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "383 sq.ft",
+      "price": "29.99 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "601 sq.ft",
+      "price": "41.99 Lacs"
+    }
+  ]
+}

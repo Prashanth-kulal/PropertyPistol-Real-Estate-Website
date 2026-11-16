@@ -1,0 +1,58 @@
+{
+  "projectId": 20123,
+  "slug": "kanchanpuram-wagholi-pid-20123",
+  "name": "Kanchanpuram",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/kanchanpuram-wagholi-pid-20123",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20123/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8469/original/fp-k.PNG?1752226927"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/20123/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8470/original/am-fp.PNG?1752226927"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 128299,
+          "bhk": "2 BHK",
+          "carpetArea": 696,
+          "carpetAreaDisplay": "696 sq.ft",
+          "builtUpArea": null,
+          "price": "70.0 Lacs",
+          "actualPrice": 7000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "696 sq.ft",
+      "price": "70.0 Lacs"
+    }
+  ]
+}

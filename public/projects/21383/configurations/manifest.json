@@ -1,0 +1,117 @@
+{
+  "projectId": 21383,
+  "slug": "kolte-codename-serenova-andheri-west-pid-21383",
+  "name": "Kolte Codename Serenova",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/kolte-codename-serenova-andheri-west-pid-21383",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21383/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9206/original/gp-sj.png?1771666350",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/21383/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9207/original/ssg.png?1771666350",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 140270,
+          "bhk": "2 BHK",
+          "carpetArea": 471,
+          "carpetAreaDisplay": "471 sq.ft",
+          "builtUpArea": null,
+          "price": "2.42 Cr",
+          "actualPrice": 24200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 132906,
+          "bhk": "2 BHK",
+          "carpetArea": 710,
+          "carpetAreaDisplay": "710 sq.ft",
+          "builtUpArea": null,
+          "price": "3.65 Cr",
+          "actualPrice": 36500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 132907,
+          "bhk": "3 BHK",
+          "carpetArea": 1083,
+          "carpetAreaDisplay": "1083 sq.ft",
+          "builtUpArea": null,
+          "price": "5.6 Cr",
+          "actualPrice": 56000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140269,
+          "bhk": "3 BHK",
+          "carpetArea": 1093,
+          "carpetAreaDisplay": "1093 sq.ft",
+          "builtUpArea": null,
+          "price": "5.65 Cr",
+          "actualPrice": 56500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "471 - 710 sq.ft",
+      "price": "2.42 Cr - 3.65 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,083 - 1,093 sq.ft",
+      "price": "5.6 Cr - 5.65 Cr"
+    }
+  ]
+}

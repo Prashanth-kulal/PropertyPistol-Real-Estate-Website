@@ -1,0 +1,101 @@
+{
+  "projectId": 22153,
+  "slug": "silvra-one",
+  "name": "Silvra One",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/silvra-one-khopoli-pid-22153",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit"
+  ],
+  "masterPlans": [],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 137378,
+          "bhk": "1 BHK",
+          "carpetArea": 338,
+          "carpetAreaDisplay": "338 sq.ft",
+          "builtUpArea": null,
+          "price": "23.5 Lacs",
+          "actualPrice": 2350000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/22153/configurations/unit-plans/1-bhk/338-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/137378/original/1.JPG?1785756919",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 140206,
+          "bhk": "1 BHK",
+          "carpetArea": 354,
+          "carpetAreaDisplay": "354 sq.ft",
+          "builtUpArea": null,
+          "price": "24.61 Lacs",
+          "actualPrice": 2461000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 137379,
+          "bhk": "2 BHK",
+          "carpetArea": 457,
+          "carpetAreaDisplay": "457 sq.ft",
+          "builtUpArea": null,
+          "price": "31.0 Lacs",
+          "actualPrice": 3100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/22153/configurations/unit-plans/2-bhk/457-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/137379/original/2.JPG?1785756919",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 140207,
+          "bhk": "2 BHK",
+          "carpetArea": 562,
+          "carpetAreaDisplay": "562 sq.ft",
+          "builtUpArea": null,
+          "price": "38.19 Lacs",
+          "actualPrice": 3819000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "338 - 354 sq.ft",
+      "price": "23.5 Lacs - 24.61 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "457 - 562 sq.ft",
+      "price": "31.0 Lacs - 38.19 Lacs"
+    }
+  ]
+}

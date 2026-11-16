@@ -1,0 +1,94 @@
+{
+  "projectId": 18208,
+  "slug": "shubharambh-residency-bhiwandi-pid-18208",
+  "name": "Shubharambh Residency",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shubharambh-residency-bhiwandi-pid-18208",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18208/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18208/original/site-plan.jpg?1752822495",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18208/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6993/original/floor-plan1-lg.jpg?1729073980",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/18208/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6994/original/floor-plan2-lg.jpg?1729073980",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 130175,
+          "bhk": "1 BHK",
+          "carpetArea": 408,
+          "carpetAreaDisplay": "408 sq.ft",
+          "builtUpArea": null,
+          "price": "36.61 Lacs",
+          "actualPrice": 3661000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 89058,
+          "bhk": "2 BHK",
+          "carpetArea": 580,
+          "carpetAreaDisplay": "580 sq.ft",
+          "builtUpArea": null,
+          "price": "52.84 Lacs",
+          "actualPrice": 5284000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/18208/configurations/unit-plans/2-bhk/580-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/89058/original/2b.PNG?1729073978",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "408 sq.ft",
+      "price": "36.61 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "580 sq.ft",
+      "price": "52.84 Lacs"
+    }
+  ]
+}

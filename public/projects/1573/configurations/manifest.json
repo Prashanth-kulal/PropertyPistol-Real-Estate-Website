@@ -1,0 +1,119 @@
+{
+  "projectId": 1573,
+  "slug": "kalpataru-parkcity-kolshet-road-pid-1573",
+  "name": "Kalpataru Parkcity",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/kalpataru-parkcity-kolshet-road-pid-1573",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/1573/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/1573/original/2021-02-03.png?1612424108",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/1573/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/837/original/floor_plan.jpg?1557395100",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 135056,
+          "bhk": "2 BHK",
+          "carpetArea": 531,
+          "carpetAreaDisplay": "531 sq.ft",
+          "builtUpArea": null,
+          "price": "1.18 Cr",
+          "actualPrice": 11774925,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 135064,
+          "bhk": "2 BHK",
+          "carpetArea": 615,
+          "carpetAreaDisplay": "615 sq.ft",
+          "builtUpArea": null,
+          "price": "1.36 Cr",
+          "actualPrice": 13637625,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 130496,
+          "bhk": "3 BHK",
+          "carpetArea": 911,
+          "carpetAreaDisplay": "911 sq.ft",
+          "builtUpArea": null,
+          "price": "2.02 Cr",
+          "actualPrice": 20201425,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/1573/configurations/unit-plans/3-bhk/911-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/130496/original/3bhkkk_prem.jpg?1765277690",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 135063,
+          "bhk": "3 BHK",
+          "carpetArea": 1561,
+          "carpetAreaDisplay": "1561 sq.ft",
+          "builtUpArea": null,
+          "price": "3.46 Cr",
+          "actualPrice": 34615175,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "531 - 615 sq.ft",
+      "price": "1.18 Cr - 1.36 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "911 - 1,561 sq.ft",
+      "price": "2.02 Cr - 3.46 Cr"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "projectId": 19346,
+  "slug": "yashada-dreamsong-mamurdi-pid-19346",
+  "name": "Yashada Dreamsong",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/yashada-dreamsong-mamurdi-pid-19346",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19346/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7516/original/floor1.PNG?1741760918"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19346/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7517/original/floor2.PNG?1741760918"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 102465,
+          "bhk": "2 BHK",
+          "carpetArea": 745,
+          "carpetAreaDisplay": "745 sq.ft",
+          "builtUpArea": null,
+          "price": "69.0 Lacs",
+          "actualPrice": 6900000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19346/configurations/unit-plans/2-bhk/745-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/102465/original/2bhk_2d.PNG?1741760917",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 120393,
+          "bhk": "2 BHK",
+          "carpetArea": 855,
+          "carpetAreaDisplay": "855 sq.ft",
+          "builtUpArea": null,
+          "price": "78.0 Lacs",
+          "actualPrice": 7800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 102466,
+          "bhk": "3 BHK",
+          "carpetArea": 987,
+          "carpetAreaDisplay": "987 sq.ft",
+          "builtUpArea": null,
+          "price": "89.0 Lacs",
+          "actualPrice": 8900000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19346/configurations/unit-plans/3-bhk/987-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/102466/original/3bhk_2d.PNG?1741760917",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 102467,
+          "bhk": "3 BHK",
+          "carpetArea": 1101,
+          "carpetAreaDisplay": "1101 sq.ft",
+          "builtUpArea": null,
+          "price": "98.0 Lacs",
+          "actualPrice": 9800000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19346/configurations/unit-plans/3-bhk/1101-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/102467/original/3bhk_2d2.PNG?1741760917",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "745 - 855 sq.ft",
+      "price": "69.0 Lacs - 78.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "987 - 1,101 sq.ft",
+      "price": "89.0 Lacs - 98.0 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "projectId": 19555,
+  "slug": "osian-estrella-45-baner-pid-19555",
+  "name": "Osian Estrella 45",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/osian-estrella-45-baner-pid-19555",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19555/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7672/original/floor1.PNG?1743860520"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19555/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7673/original/floor2.PNG?1743860520"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 105625,
+          "bhk": "3 BHK",
+          "carpetArea": 997,
+          "carpetAreaDisplay": "997 sq.ft",
+          "builtUpArea": null,
+          "price": "1.71 Cr",
+          "actualPrice": 17100000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19555/configurations/unit-plans/3-bhk/997-sqft/plan-2d.webp",
+          "plan3D": "/projects/19555/configurations/unit-plans/3-bhk/997-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/105625/original/3bhk_2d.PNG?1743860517",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/105625/original/3bhk_3d.PNG?1743860517",
+          "has2D": true,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "997 sq.ft",
+      "price": "1.71 Cr"
+    }
+  ]
+}

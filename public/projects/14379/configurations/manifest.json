@@ -1,0 +1,68 @@
+{
+  "projectId": 14379,
+  "slug": "trecento-residencies-by-gaurs-jaypee-greens-pid-14379",
+  "name": "Trecento Residencies by Gaurs",
+  "city": "noida",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/trecento-residencies-by-gaurs-jaypee-greens-pid-14379",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/14379/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/14379/original/siteplan-full.jpg?1698989933"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 51547,
+          "bhk": "4 BHK",
+          "carpetArea": 3866,
+          "carpetAreaDisplay": "3866 sq.ft",
+          "builtUpArea": null,
+          "price": "12.5 Cr",
+          "actualPrice": 125000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 44674,
+          "bhk": "4 BHK",
+          "carpetArea": 3919,
+          "carpetAreaDisplay": "3919 sq.ft",
+          "builtUpArea": null,
+          "price": "12.63 Cr",
+          "actualPrice": 126300000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/14379/configurations/unit-plans/4-bhk/3919-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/44674/original/type-a-big.jpg?1698989933",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "3,866 - 3,919 sq.ft",
+      "price": "12.5 Cr - 12.63 Cr"
+    }
+  ]
+}

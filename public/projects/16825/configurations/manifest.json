@@ -1,0 +1,78 @@
+{
+  "projectId": 16825,
+  "slug": "myhna-orchid-gunjur-pid-16825",
+  "name": "Myhna Orchid",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/myhna-orchid-gunjur-pid-16825",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16825/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16825/original/masterplan.JPG?1717675328"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 66930,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1150,
+          "price": "97.75 Lacs",
+          "actualPrice": 9775000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/16825/configurations/unit-plans/2-bhk/variant-66930/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/66930/original/2bhk_2d.JPG?1717675328",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 66932,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1720,
+          "price": "1.46 Cr",
+          "actualPrice": 14620000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/16825/configurations/unit-plans/3-bhk/variant-66932/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/66932/original/3bhk_2d.JPG?1717675328",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "On Request",
+      "price": "97.75 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "1.46 Cr"
+    }
+  ]
+}

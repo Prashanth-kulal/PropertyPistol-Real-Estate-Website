@@ -1,0 +1,94 @@
+{
+  "projectId": 21287,
+  "slug": "nandanvan-residency-karjat-pid-21287",
+  "name": "Nandanvan Residency",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/nandanvan-residency-karjat-pid-21287",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21287/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9178/original/loc.jpg?1771414644",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 132706,
+          "bhk": "1 BHK",
+          "carpetArea": 436,
+          "carpetAreaDisplay": "436 sq.ft",
+          "builtUpArea": null,
+          "price": "28.51 Lacs",
+          "actualPrice": 2851000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/21287/configurations/unit-plans/1-bhk/436-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/132706/original/1b.PNG?1771414642",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 140229,
+          "bhk": "1 BHK",
+          "carpetArea": 530,
+          "carpetAreaDisplay": "530 sq.ft",
+          "builtUpArea": null,
+          "price": "34.65 Lacs",
+          "actualPrice": 3465000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 132707,
+          "bhk": "2 BHK",
+          "carpetArea": 613,
+          "carpetAreaDisplay": "613 sq.ft",
+          "builtUpArea": null,
+          "price": "40.08 Lacs",
+          "actualPrice": 4008000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/21287/configurations/unit-plans/2-bhk/613-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/132707/original/2_%285%29.png?1771414643",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "436 - 530 sq.ft",
+      "price": "28.51 Lacs - 34.65 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "613 sq.ft",
+      "price": "40.08 Lacs"
+    }
+  ]
+}

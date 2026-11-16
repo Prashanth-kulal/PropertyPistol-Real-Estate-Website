@@ -1,0 +1,108 @@
+{
+  "projectId": 5189,
+  "slug": "nirman-milestone-ravet-pid-5189",
+  "name": "Nirman Milestone",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/nirman-milestone-ravet-pid-5189",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/5189/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/5189/original/mp-nr.png?1747822588"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/5189/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8054/original/fp-ni.png?1747822589"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 17058,
+          "bhk": "2 BHK",
+          "carpetArea": 626,
+          "carpetAreaDisplay": "626 sq.ft",
+          "builtUpArea": null,
+          "price": "48.83 Lacs",
+          "actualPrice": 4883000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 57572,
+          "bhk": "2 BHK",
+          "carpetArea": 696,
+          "carpetAreaDisplay": "696 sq.ft",
+          "builtUpArea": null,
+          "price": "54.19 Lacs",
+          "actualPrice": 5419000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": "/projects/5189/configurations/unit-plans/2-bhk/696-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/57572/original/2bhk-ir.png?1747822589",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 81075,
+          "bhk": "2 BHK",
+          "carpetArea": 703,
+          "carpetAreaDisplay": "703 sq.ft",
+          "builtUpArea": null,
+          "price": "54.77 Lacs",
+          "actualPrice": 5477000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 81076,
+          "bhk": "2 BHK",
+          "carpetArea": 732,
+          "carpetAreaDisplay": "732 sq.ft",
+          "builtUpArea": null,
+          "price": "57.06 Lacs",
+          "actualPrice": 5706000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "626 - 732 sq.ft",
+      "price": "48.83 Lacs - 57.06 Lacs"
+    }
+  ]
+}

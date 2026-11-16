@@ -1,0 +1,100 @@
+{
+  "projectId": 19273,
+  "slug": "vishal-eastern-front-mundhwa-pid-19273",
+  "name": "Vishal Eastern Front",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/vishal-eastern-front-mundhwa-pid-19273",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19273/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7453/original/floor1.PNG?1740747599"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19273/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7454/original/floor2.PNG?1740747599"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 101430,
+          "bhk": "2 BHK",
+          "carpetArea": 813,
+          "carpetAreaDisplay": "813 sq.ft",
+          "builtUpArea": null,
+          "price": "93.39 Lacs",
+          "actualPrice": 9339000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19273/configurations/unit-plans/2-bhk/813-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/101430/original/2bhk_3dnew.PNG?1740747258",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 101431,
+          "bhk": "3 BHK",
+          "carpetArea": 980,
+          "carpetAreaDisplay": "980 sq.ft",
+          "builtUpArea": null,
+          "price": "1.12 Cr",
+          "actualPrice": 11200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19273/configurations/unit-plans/3-bhk/980-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/101431/original/3bhk_3dnew.png?1740747258",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 101432,
+          "bhk": "3 BHK",
+          "carpetArea": 1096,
+          "carpetAreaDisplay": "1096 sq.ft",
+          "builtUpArea": null,
+          "price": "1.25 Cr",
+          "actualPrice": 12500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "813 sq.ft",
+      "price": "93.39 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "980 - 1,096 sq.ft",
+      "price": "1.12 Cr - 1.25 Cr"
+    }
+  ]
+}

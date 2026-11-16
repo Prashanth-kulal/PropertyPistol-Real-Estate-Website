@@ -1,0 +1,66 @@
+{
+  "projectId": 19485,
+  "slug": "parth-kiona-pimpri-chinchwad-pid-19485",
+  "name": "Parth Kiona",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/parth-kiona-pimpri-chinchwad-pid-19485",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19485/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19485/original/masterplan.PNG?1742990636"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19485/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7625/original/floor1.PNG?1742990639"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19485/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7626/original/floor2.PNG?1742990639"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 104157,
+          "bhk": "2 BHK",
+          "carpetArea": 767,
+          "carpetAreaDisplay": "767 sq.ft",
+          "builtUpArea": null,
+          "price": "83.05 Lacs",
+          "actualPrice": 8305000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "767 sq.ft",
+      "price": "83.05 Lacs"
+    }
+  ]
+}

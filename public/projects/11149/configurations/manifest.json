@@ -1,0 +1,94 @@
+{
+  "projectId": 11149,
+  "slug": "miracle-mithila-nigdi-pid-11149",
+  "name": "Miracle Mithila",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/miracle-mithila-nigdi-pid-11149",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/11149/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3601/original/fp.JPG?1675164842"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 36319,
+          "bhk": "2 BHK",
+          "carpetArea": 722,
+          "carpetAreaDisplay": "722 sq.ft",
+          "builtUpArea": null,
+          "price": "1.1 Cr",
+          "actualPrice": 11000000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 36320,
+          "bhk": "2 BHK",
+          "carpetArea": 1030,
+          "carpetAreaDisplay": "1030 sq.ft",
+          "builtUpArea": null,
+          "price": "1.57 Cr",
+          "actualPrice": 15700000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 72750,
+          "bhk": "3 BHK",
+          "carpetArea": 1180,
+          "carpetAreaDisplay": "1180 sq.ft",
+          "builtUpArea": null,
+          "price": "1.8 Cr",
+          "actualPrice": 18000000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "722 - 1,030 sq.ft",
+      "price": "1.1 Cr - 1.57 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,180 sq.ft",
+      "price": "1.8 Cr"
+    }
+  ]
+}

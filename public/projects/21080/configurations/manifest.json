@@ -1,0 +1,86 @@
+{
+  "projectId": 21080,
+  "slug": "suraj-ekyum-tathawade-pid-21080",
+  "name": "Suraj Ekyum",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/suraj-ekyum-tathawade-pid-21080",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit"
+  ],
+  "masterPlans": [],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 127606,
+          "bhk": "1 BHK",
+          "carpetArea": 455,
+          "carpetAreaDisplay": "455 sq.ft",
+          "builtUpArea": null,
+          "price": "28.0 Lacs",
+          "actualPrice": 2800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/21080/configurations/unit-plans/1-bhk/455-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/127606/original/suraj-ekyum-apartment-1-bhk-615sqft-20250705160704.jpg?1780300889",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 139264,
+          "bhk": "2 BHK",
+          "carpetArea": 600,
+          "carpetAreaDisplay": "600 sq.ft",
+          "builtUpArea": null,
+          "price": "37.0 Lacs",
+          "actualPrice": 3700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139265,
+          "bhk": "2 BHK",
+          "carpetArea": 764,
+          "carpetAreaDisplay": "764 sq.ft",
+          "builtUpArea": null,
+          "price": "48.0 Lacs",
+          "actualPrice": 4800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "455 sq.ft",
+      "price": "28.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "600 - 764 sq.ft",
+      "price": "37.0 Lacs - 48.0 Lacs"
+    }
+  ]
+}

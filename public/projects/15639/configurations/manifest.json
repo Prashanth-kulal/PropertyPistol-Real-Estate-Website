@@ -1,0 +1,94 @@
+{
+  "projectId": 15639,
+  "slug": "nirala-trio-sector-2-greater-noida-pid-15639",
+  "name": "Nirala Trio",
+  "city": "noida",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/nirala-trio-sector-2-greater-noida-pid-15639",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/15639/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/15639/original/masterplan.JPG?1705560292"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 50079,
+          "bhk": "3 BHK",
+          "carpetArea": 1325,
+          "carpetAreaDisplay": "1325 sq.ft",
+          "builtUpArea": null,
+          "price": "1.89 Cr",
+          "actualPrice": 18900000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/15639/configurations/unit-plans/3-bhk/1325-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/50079/original/3bhk_2d1.JPG?1705560292",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3.5 BHK",
+      "variants": [
+        {
+          "id": 107835,
+          "bhk": "3.5 BHK",
+          "carpetArea": 1600,
+          "carpetAreaDisplay": "1600 sq.ft",
+          "builtUpArea": null,
+          "price": "2.28 Cr",
+          "actualPrice": 22800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 107836,
+          "bhk": "3.5 BHK",
+          "carpetArea": 1675,
+          "carpetAreaDisplay": "1675 sq.ft",
+          "builtUpArea": null,
+          "price": "2.39 Cr",
+          "actualPrice": 23900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,325 sq.ft",
+      "price": "1.89 Cr"
+    },
+    {
+      "flat_type_name": "3.5 BHK",
+      "carpet_area": "1,600 - 1,675 sq.ft",
+      "price": "2.28 Cr - 2.39 Cr"
+    }
+  ]
+}

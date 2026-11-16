@@ -1,0 +1,78 @@
+{
+  "projectId": 18592,
+  "slug": "dev-signature-one-rajendra-nagar-pid-18592",
+  "name": "Dev Signature One",
+  "city": "hyderabad",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/dev-signature-one-rajendra-nagar-pid-18592",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18592/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18592/original/mp.jpg?1778666365"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 92658,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2011,
+          "price": "1.45 Cr",
+          "actualPrice": 14479200,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18592/configurations/unit-plans/3-bhk/variant-92658/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/92658/original/3_%281%29.jpg?1775124737",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 92657,
+          "bhk": "4 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 3698,
+          "price": "2.66 Cr",
+          "actualPrice": 26625600,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18592/configurations/unit-plans/4-bhk/variant-92657/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/92657/original/4.jpg?1775124736",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "1.45 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "On Request",
+      "price": "2.66 Cr"
+    }
+  ]
+}

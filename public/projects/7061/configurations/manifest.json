@@ -1,0 +1,104 @@
+{
+  "projectId": 7061,
+  "slug": "runwal-the-central-park-pimpri-chinchwad-pid-7061",
+  "name": "Runwal The Central Park",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/runwal-the-central-park-pimpri-chinchwad-pid-7061",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/7061/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/7061/original/mp.jpg?1638455193"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 21153,
+          "bhk": "2 BHK",
+          "carpetArea": 860,
+          "carpetAreaDisplay": "860 sq.ft",
+          "builtUpArea": null,
+          "price": "1.1 Cr",
+          "actualPrice": 11000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 71685,
+          "bhk": "3 BHK",
+          "carpetArea": 1314,
+          "carpetAreaDisplay": "1314 sq.ft",
+          "builtUpArea": null,
+          "price": "2.0 Cr",
+          "actualPrice": 20000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 99498,
+          "bhk": "4 BHK",
+          "carpetArea": 2050,
+          "carpetAreaDisplay": "2050 sq.ft",
+          "builtUpArea": null,
+          "price": "2.35 Cr",
+          "actualPrice": 23500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "860 sq.ft",
+      "price": "1.1 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,314 sq.ft",
+      "price": "2.0 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,050 sq.ft",
+      "price": "2.35 Cr"
+    }
+  ]
+}

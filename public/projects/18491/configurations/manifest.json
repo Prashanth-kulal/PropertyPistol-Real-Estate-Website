@@ -1,0 +1,119 @@
+{
+  "projectId": 18491,
+  "slug": "the-aga-hall-estate",
+  "name": "The Aga Hall Estate",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/the-aga-hall-estate-mazgaon-pid-18491",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18491/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18491/original/mp_aga.png?1730991249",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18491/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7081/original/fp_aga.png?1730991250",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 115586,
+          "bhk": "2 BHK",
+          "carpetArea": 660,
+          "carpetAreaDisplay": "660 sq.ft",
+          "builtUpArea": null,
+          "price": "3.71 Cr",
+          "actualPrice": 37100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 121680,
+          "bhk": "2 BHK",
+          "carpetArea": 960,
+          "carpetAreaDisplay": "960 sq.ft",
+          "builtUpArea": null,
+          "price": "5.4 Cr",
+          "actualPrice": 54000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 121681,
+          "bhk": "3 BHK",
+          "carpetArea": 1309,
+          "carpetAreaDisplay": "1309 sq.ft",
+          "builtUpArea": null,
+          "price": "7.36 Cr",
+          "actualPrice": 73600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139205,
+          "bhk": "3 BHK",
+          "carpetArea": 1404,
+          "carpetAreaDisplay": "1404 sq.ft",
+          "builtUpArea": null,
+          "price": "7.9 Cr",
+          "actualPrice": 79000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "660 - 960 sq.ft",
+      "price": "3.71 Cr - 5.4 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,309 - 1,404 sq.ft",
+      "price": "7.36 Cr - 7.9 Cr"
+    }
+  ]
+}

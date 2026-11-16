@@ -1,0 +1,103 @@
+{
+  "projectId": 2208,
+  "slug": "sheth-zuri",
+  "name": "Sheth Zuri",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sheth-zuri-thane-west-pid-2208",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/2208/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/2208/original/layout-l.png?1565772975",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/2208/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8745/original/FloorPlan.jpg?1754647036",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 24985,
+          "bhk": "1 BHK",
+          "carpetArea": 426,
+          "carpetAreaDisplay": "426 sq.ft",
+          "builtUpArea": null,
+          "price": "1.17 Cr",
+          "actualPrice": 11700000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/2208/configurations/unit-plans/1-bhk/426-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/24985/original/1.PNG?1731756161",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 3865,
+          "bhk": "2 BHK",
+          "carpetArea": 515,
+          "carpetAreaDisplay": "515 sq.ft",
+          "builtUpArea": null,
+          "price": "1.42 Cr",
+          "actualPrice": 14200000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/2208/configurations/unit-plans/2-bhk/515-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/3865/original/2.PNG?1731756161",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 51407,
+          "bhk": "2 BHK",
+          "carpetArea": 654,
+          "carpetAreaDisplay": "654 sq.ft",
+          "builtUpArea": null,
+          "price": "1.8 Cr",
+          "actualPrice": 18000000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/2208/configurations/unit-plans/2-bhk/654-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/51407/original/2.PNG?1731756161",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "426 sq.ft",
+      "price": "1.17 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "515 - 654 sq.ft",
+      "price": "1.42 Cr - 1.8 Cr"
+    }
+  ]
+}

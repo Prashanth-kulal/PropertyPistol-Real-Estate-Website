@@ -1,0 +1,100 @@
+{
+  "projectId": 17200,
+  "slug": "meher-ganga-somalwada-pid-17200",
+  "name": "Meher Ganga",
+  "city": "nagpur",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/meher-ganga-somalwada-pid-17200",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/17200/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6546/original/floorplan1.JPG?1719653741"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/17200/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6547/original/floorplan2.JPG?1719653741"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 70794,
+          "bhk": "2 BHK",
+          "carpetArea": 875,
+          "carpetAreaDisplay": "875 sq.ft",
+          "builtUpArea": 1250,
+          "price": "65.0 Lacs",
+          "actualPrice": 6500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/17200/configurations/unit-plans/2-bhk/875-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/70794/original/2bhk_3d.JPG?1719653740",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 70795,
+          "bhk": "3 BHK",
+          "carpetArea": 1050,
+          "carpetAreaDisplay": "1050 sq.ft",
+          "builtUpArea": 1500,
+          "price": "85.0 Lacs",
+          "actualPrice": 8500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/17200/configurations/unit-plans/3-bhk/1050-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/70795/original/3bhk_3d1.JPG?1719653740",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 70796,
+          "bhk": "3 BHK",
+          "carpetArea": 1400,
+          "carpetAreaDisplay": "1400 sq.ft",
+          "builtUpArea": 2000,
+          "price": "1.01 Cr",
+          "actualPrice": 10100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "875 sq.ft",
+      "price": "65.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,050 - 1,400 sq.ft",
+      "price": "85.0 Lacs - 1.01 Cr"
+    }
+  ]
+}

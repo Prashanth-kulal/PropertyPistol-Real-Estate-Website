@@ -1,0 +1,78 @@
+{
+  "projectId": 20897,
+  "slug": "kartik-enclave-bhiwandi-pid-20897",
+  "name": "Kartik Enclave",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/kartik-enclave-bhiwandi-pid-20897",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20897/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8951/original/fp.PNG?1763619050",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 127118,
+          "bhk": "1 BHK",
+          "carpetArea": 439,
+          "carpetAreaDisplay": "439 sq.ft",
+          "builtUpArea": null,
+          "price": "45.8 Lacs",
+          "actualPrice": 4580000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/20897/configurations/unit-plans/1-bhk/439-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/127118/original/1b.PNG?1763619047",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 127119,
+          "bhk": "2 BHK",
+          "carpetArea": 614,
+          "carpetAreaDisplay": "614 sq.ft",
+          "builtUpArea": null,
+          "price": "64.8 Lacs",
+          "actualPrice": 6480000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/20897/configurations/unit-plans/2-bhk/614-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/127119/original/2b.PNG?1763619047",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "439 sq.ft",
+      "price": "45.8 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "614 sq.ft",
+      "price": "64.8 Lacs"
+    }
+  ]
+}

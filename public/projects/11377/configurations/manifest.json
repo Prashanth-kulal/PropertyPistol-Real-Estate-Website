@@ -1,0 +1,94 @@
+{
+  "projectId": 11377,
+  "slug": "mi-casa-primaliva-hadapsar-pid-11377",
+  "name": "Mi Casa Primaliva",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/mi-casa-primaliva-hadapsar-pid-11377",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/11377/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3654/original/fp.PNG?1676553571"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 36829,
+          "bhk": "2 BHK",
+          "carpetArea": 792,
+          "carpetAreaDisplay": "792 sq.ft",
+          "builtUpArea": null,
+          "price": "1.08 Cr",
+          "actualPrice": 10800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 36828,
+          "bhk": "3 BHK",
+          "carpetArea": 907,
+          "carpetAreaDisplay": "907 sq.ft",
+          "builtUpArea": null,
+          "price": "1.29 Cr",
+          "actualPrice": 12900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 96824,
+          "bhk": "3 BHK",
+          "carpetArea": 1021,
+          "carpetAreaDisplay": "1021 sq.ft",
+          "builtUpArea": null,
+          "price": "1.45 Cr",
+          "actualPrice": 14500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "792 sq.ft",
+      "price": "1.08 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "907 - 1,021 sq.ft",
+      "price": "1.29 Cr - 1.45 Cr"
+    }
+  ]
+}

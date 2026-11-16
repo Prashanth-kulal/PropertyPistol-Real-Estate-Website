@@ -1,0 +1,86 @@
+{
+  "projectId": 19347,
+  "slug": "probha-oasis-sinhgad-road-pid-19347",
+  "name": "Probha Oasis",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/probha-oasis-sinhgad-road-pid-19347",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit"
+  ],
+  "masterPlans": [],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 102468,
+          "bhk": "2 BHK",
+          "carpetArea": 833,
+          "carpetAreaDisplay": "833 sq.ft",
+          "builtUpArea": null,
+          "price": "1.12 Cr",
+          "actualPrice": 11200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19347/configurations/unit-plans/2-bhk/833-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/102468/original/2bhk_3d.PNG?1741763634",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 102469,
+          "bhk": "3 BHK",
+          "carpetArea": 1118,
+          "carpetAreaDisplay": "1118 sq.ft",
+          "builtUpArea": null,
+          "price": "1.52 Cr",
+          "actualPrice": 15200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19347/configurations/unit-plans/3-bhk/1118-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/102469/original/3bhk_3d.PNG?1741763635",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 109768,
+          "bhk": "3 BHK",
+          "carpetArea": 1215,
+          "carpetAreaDisplay": "1215 sq.ft",
+          "builtUpArea": null,
+          "price": "1.64 Cr",
+          "actualPrice": 16400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "833 sq.ft",
+      "price": "1.12 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,118 - 1,215 sq.ft",
+      "price": "1.52 Cr - 1.64 Cr"
+    }
+  ]
+}

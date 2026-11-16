@@ -1,0 +1,52 @@
+{
+  "projectId": 18116,
+  "slug": "condor-dahlia-kuravankonam-pid-18116",
+  "name": "Condor Dahlia",
+  "city": "trivandrum",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/condor-dahlia-kuravankonam-pid-18116",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18116/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6968/original/typical-floor-1132x800.jpg?1728457528"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 88339,
+          "bhk": "3 BHK",
+          "carpetArea": 1204,
+          "carpetAreaDisplay": "1204 sq.ft",
+          "builtUpArea": 1808,
+          "price": "1.61 Cr",
+          "actualPrice": 16100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/18116/configurations/unit-plans/3-bhk/1204-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/88339/original/3.PNG?1764842463",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,204 sq.ft",
+      "price": "1.61 Cr"
+    }
+  ]
+}

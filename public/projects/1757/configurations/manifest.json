@@ -1,0 +1,78 @@
+{
+  "projectId": 1757,
+  "slug": "sai-krupa-valley-neral-pid-1757",
+  "name": "Sai Krupa Valley",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sai-krupa-valley-neral-pid-1757",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/1757/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/1011/original/floor_plan.jpg?1562739285",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 2922,
+          "bhk": "1 BHK",
+          "carpetArea": 585,
+          "carpetAreaDisplay": "585 sq.ft",
+          "builtUpArea": null,
+          "price": "23.5 Lacs",
+          "actualPrice": 2350000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/1757/configurations/unit-plans/1-bhk/585-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/2922/original/1_bhk.jpg?1562739284",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 13585,
+          "bhk": "2 BHK",
+          "carpetArea": 818,
+          "carpetAreaDisplay": "818 sq.ft",
+          "builtUpArea": null,
+          "price": "33.0 Lacs",
+          "actualPrice": 3300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "585 sq.ft",
+      "price": "23.5 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "818 sq.ft",
+      "price": "33.0 Lacs"
+    }
+  ]
+}

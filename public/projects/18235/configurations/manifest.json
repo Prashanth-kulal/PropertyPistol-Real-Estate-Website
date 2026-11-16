@@ -1,0 +1,110 @@
+{
+  "projectId": 18235,
+  "slug": "silver-gardenia-moshi-pid-18235",
+  "name": "Silver Gardenia",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/silver-gardenia-moshi-pid-18235",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18235/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18235/original/images.jpeg?1729667740"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 125472,
+          "bhk": "1 BHK",
+          "carpetArea": 495,
+          "carpetAreaDisplay": "495 sq.ft",
+          "builtUpArea": null,
+          "price": "41.75 Lacs",
+          "actualPrice": 4175325,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 125473,
+          "bhk": "1 BHK",
+          "carpetArea": 496,
+          "carpetAreaDisplay": "496 sq.ft",
+          "builtUpArea": null,
+          "price": "41.84 Lacs",
+          "actualPrice": 4183760,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 134376,
+          "bhk": "4 BHK",
+          "carpetArea": 1119,
+          "carpetAreaDisplay": "1119 sq.ft",
+          "builtUpArea": null,
+          "price": "94.39 Lacs",
+          "actualPrice": 9438765,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 134377,
+          "bhk": "4 BHK",
+          "carpetArea": 1120,
+          "carpetAreaDisplay": "1120 sq.ft",
+          "builtUpArea": null,
+          "price": "94.47 Lacs",
+          "actualPrice": 9447200,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "495 - 496 sq.ft",
+      "price": "41.75 Lacs - 41.84 Lacs"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,119 - 1,120 sq.ft",
+      "price": "94.39 Lacs - 94.47 Lacs"
+    }
+  ]
+}

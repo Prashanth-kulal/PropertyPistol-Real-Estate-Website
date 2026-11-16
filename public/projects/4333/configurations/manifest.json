@@ -1,0 +1,78 @@
+{
+  "projectId": 4333,
+  "slug": "karnika-galaxy-diva-east-pid-4333",
+  "name": "Karnika Galaxy",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/karnika-galaxy-diva-east-pid-4333",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2927/original/fp.png?1669275685",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 133236,
+          "bhk": "1 BHK",
+          "carpetArea": 472,
+          "carpetAreaDisplay": "472 sq.ft",
+          "builtUpArea": null,
+          "price": "40.5 Lacs",
+          "actualPrice": 4050000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 133237,
+          "bhk": "2 BHK",
+          "carpetArea": 533,
+          "carpetAreaDisplay": "533 sq.ft",
+          "builtUpArea": null,
+          "price": "51.64 Lacs",
+          "actualPrice": 5164000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "472 sq.ft",
+      "price": "40.5 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "533 sq.ft",
+      "price": "51.64 Lacs"
+    }
+  ]
+}

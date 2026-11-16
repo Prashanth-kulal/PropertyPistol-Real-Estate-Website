@@ -1,0 +1,104 @@
+{
+  "projectId": 19423,
+  "slug": "manisha-64-hills-bavdhan-pid-19423",
+  "name": "Manisha 64 Hills",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/manisha-64-hills-bavdhan-pid-19423",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19423/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7577/original/floor1.png?1742840612"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 103370,
+          "bhk": "3 BHK",
+          "carpetArea": 1569,
+          "carpetAreaDisplay": "1569 sq.ft",
+          "builtUpArea": null,
+          "price": "2.54 Cr",
+          "actualPrice": 25400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 103371,
+          "bhk": "4 BHK",
+          "carpetArea": 1992,
+          "carpetAreaDisplay": "1992 sq.ft",
+          "builtUpArea": null,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19423/configurations/unit-plans/4-bhk/1992-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/103371/original/4bhk_3d.PNG?1742477878",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "5 BHK",
+      "variants": [
+        {
+          "id": 103372,
+          "bhk": "5 BHK",
+          "carpetArea": 4726,
+          "carpetAreaDisplay": "4726 sq.ft",
+          "builtUpArea": null,
+          "price": "6.24 Cr",
+          "actualPrice": 62400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,569 sq.ft",
+      "price": "2.54 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,992 sq.ft",
+      "price": "On Request"
+    },
+    {
+      "flat_type_name": "5 BHK",
+      "carpet_area": "4,726 sq.ft",
+      "price": "6.24 Cr"
+    }
+  ]
+}

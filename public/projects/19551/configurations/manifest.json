@@ -1,0 +1,110 @@
+{
+  "projectId": 19551,
+  "slug": "my-home-akurdi-akurdi-pid-19551",
+  "name": "My Home Akurdi",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/my-home-akurdi-akurdi-pid-19551",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19551/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7668/original/floor1.PNG?1743848264"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 105535,
+          "bhk": "2 BHK",
+          "carpetArea": 781,
+          "carpetAreaDisplay": "781 sq.ft",
+          "builtUpArea": null,
+          "price": "81.48 Lacs",
+          "actualPrice": 8148000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19551/configurations/unit-plans/2-bhk/781-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/105535/original/3bhk_2d2.PNG?1743848259",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 105534,
+          "bhk": "2 BHK",
+          "carpetArea": 840,
+          "carpetAreaDisplay": "840 sq.ft",
+          "builtUpArea": null,
+          "price": "86.6 Lacs",
+          "actualPrice": 8660000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19551/configurations/unit-plans/2-bhk/840-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/105534/original/3bhk_2d1.PNG?1743848259",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 105532,
+          "bhk": "3 BHK",
+          "carpetArea": 1054,
+          "carpetAreaDisplay": "1054 sq.ft",
+          "builtUpArea": null,
+          "price": "1.07 Cr",
+          "actualPrice": 10700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 105531,
+          "bhk": "3 BHK",
+          "carpetArea": 1126,
+          "carpetAreaDisplay": "1126 sq.ft",
+          "builtUpArea": null,
+          "price": "1.17 Cr",
+          "actualPrice": 11700000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19551/configurations/unit-plans/3-bhk/1126-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/105531/original/2bhk_2d2.PNG?1743848259",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "781 - 840 sq.ft",
+      "price": "81.48 Lacs - 86.6 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,054 - 1,126 sq.ft",
+      "price": "1.07 Cr - 1.17 Cr"
+    }
+  ]
+}

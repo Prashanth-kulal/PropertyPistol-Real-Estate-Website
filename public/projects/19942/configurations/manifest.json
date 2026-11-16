@@ -1,0 +1,119 @@
+{
+  "projectId": 19942,
+  "slug": "shreeji-estrella-kharghar-pid-19942",
+  "name": "Shreeji Estrella",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shreeji-estrella-kharghar-pid-19942",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19942/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19942/original/m.jpg?1748856965",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19942/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8282/original/fp.PNG?1748856968",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 130394,
+          "bhk": "3 BHK",
+          "carpetArea": 1046,
+          "carpetAreaDisplay": "1046 sq.ft",
+          "builtUpArea": null,
+          "price": "2.34 Cr",
+          "actualPrice": 23400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 115162,
+          "bhk": "3 BHK",
+          "carpetArea": 1082,
+          "carpetAreaDisplay": "1082 sq.ft",
+          "builtUpArea": null,
+          "price": "2.56 Cr",
+          "actualPrice": 25600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 130395,
+          "bhk": "4 BHK",
+          "carpetArea": 1401,
+          "carpetAreaDisplay": "1401 sq.ft",
+          "builtUpArea": null,
+          "price": "3.1 Cr",
+          "actualPrice": 31000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 115163,
+          "bhk": "4 BHK",
+          "carpetArea": 1805,
+          "carpetAreaDisplay": "1805 sq.ft",
+          "builtUpArea": null,
+          "price": "4.0 Cr",
+          "actualPrice": 40000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19942/configurations/unit-plans/4-bhk/1805-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/115163/original/4.PNG?1748856965",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,046 - 1,082 sq.ft",
+      "price": "2.34 Cr - 2.56 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,401 - 1,805 sq.ft",
+      "price": "3.1 Cr - 4.0 Cr"
+    }
+  ]
+}

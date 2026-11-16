@@ -1,0 +1,101 @@
+{
+  "projectId": 21577,
+  "slug": "kulswamini-brahmand",
+  "name": "Kulswamini Brahmand",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/kulswamini-brahmand-thakurli-east-pid-21577",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21577/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9234/original/download_%284%29.png?1772098364",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/21577/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9235/original/download_%285%29.png?1772098364",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 133291,
+          "bhk": "1 BHK",
+          "carpetArea": 317,
+          "carpetAreaDisplay": "317 sq.ft",
+          "builtUpArea": null,
+          "price": "45.0 Lacs",
+          "actualPrice": 4500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 133292,
+          "bhk": "1 BHK",
+          "carpetArea": 318,
+          "carpetAreaDisplay": "318 sq.ft",
+          "builtUpArea": null,
+          "price": "45.1 Lacs",
+          "actualPrice": 4510000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 140088,
+          "bhk": "2 BHK",
+          "carpetArea": 476,
+          "carpetAreaDisplay": "476 sq.ft",
+          "builtUpArea": null,
+          "price": "62.0 Lacs",
+          "actualPrice": 6200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "317 - 318 sq.ft",
+      "price": "45.0 Lacs - 45.1 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "476 sq.ft",
+      "price": "62.0 Lacs"
+    }
+  ]
+}

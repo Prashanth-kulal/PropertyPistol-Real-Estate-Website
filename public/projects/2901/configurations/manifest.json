@@ -1,0 +1,78 @@
+{
+  "projectId": 2901,
+  "slug": "panvelkar-aangan-vasind-pid-2901",
+  "name": "Panvelkar Aangan",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/panvelkar-aangan-vasind-pid-2901",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/2901/original/master_plan.jpg?1573799445",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 7664,
+          "bhk": "1 BHK",
+          "carpetArea": 378,
+          "carpetAreaDisplay": "378 sq.ft",
+          "builtUpArea": null,
+          "price": "15.6 Lacs",
+          "actualPrice": 1560000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/7664/original/1bhk.jpg?1592981436",
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 51275,
+          "bhk": "2 BHK",
+          "carpetArea": 477,
+          "carpetAreaDisplay": "477 sq.ft",
+          "builtUpArea": null,
+          "price": "19.69 Lacs",
+          "actualPrice": 1969000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "378 sq.ft",
+      "price": "15.6 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "477 sq.ft",
+      "price": "19.69 Lacs"
+    }
+  ]
+}

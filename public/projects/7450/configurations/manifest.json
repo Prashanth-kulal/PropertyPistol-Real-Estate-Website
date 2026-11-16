@@ -1,0 +1,78 @@
+{
+  "projectId": 7450,
+  "slug": "blue-27th-avenue-bavdhan-pid-7450",
+  "name": "Blue 27th Avenue",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/blue-27th-avenue-bavdhan-pid-7450",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/7450/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3412/original/fp.jpg?1672138380"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2.5 BHK",
+      "variants": [
+        {
+          "id": 97774,
+          "bhk": "2.5 BHK",
+          "carpetArea": 823,
+          "carpetAreaDisplay": "823 sq.ft",
+          "builtUpArea": null,
+          "price": "1.02 Cr",
+          "actualPrice": 10200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 97775,
+          "bhk": "3 BHK",
+          "carpetArea": 1064,
+          "carpetAreaDisplay": "1064 sq.ft",
+          "builtUpArea": null,
+          "price": "1.3 Cr",
+          "actualPrice": 13000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2.5 BHK",
+      "carpet_area": "823 sq.ft",
+      "price": "1.02 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,064 sq.ft",
+      "price": "1.3 Cr"
+    }
+  ]
+}

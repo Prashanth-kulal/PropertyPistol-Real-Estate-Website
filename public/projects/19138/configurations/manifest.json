@@ -1,0 +1,78 @@
+{
+  "projectId": 19138,
+  "slug": "the-greenfront-hinjawadi-pid-19138",
+  "name": "The Greenfront",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/the-greenfront-hinjawadi-pid-19138",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19138/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19138/original/mp-od.png?1746187489"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 100308,
+          "bhk": "2 BHK",
+          "carpetArea": 944,
+          "carpetAreaDisplay": "944 sq.ft",
+          "builtUpArea": null,
+          "price": "1.12 Cr",
+          "actualPrice": 11162800,
+          "propertyType": "Duplex",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 129670,
+          "bhk": "4 BHK",
+          "carpetArea": 2229,
+          "carpetAreaDisplay": "2229 sq.ft",
+          "builtUpArea": null,
+          "price": "2.64 Cr",
+          "actualPrice": 26357925,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "944 sq.ft",
+      "price": "1.12 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,229 sq.ft",
+      "price": "2.64 Cr"
+    }
+  ]
+}

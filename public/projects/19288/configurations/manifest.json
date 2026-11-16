@@ -1,0 +1,78 @@
+{
+  "projectId": 19288,
+  "slug": "envogue-2-pimpri-chinchwad-pid-19288",
+  "name": "Envogue 2",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/envogue-2-pimpri-chinchwad-pid-19288",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19288/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19288/original/masterplan.PNG?1740982499"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 101550,
+          "bhk": "3 BHK",
+          "carpetArea": 1265,
+          "carpetAreaDisplay": "1265 sq.ft",
+          "builtUpArea": null,
+          "price": "1.62 Cr",
+          "actualPrice": 16192000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 101551,
+          "bhk": "4 BHK",
+          "carpetArea": 1840,
+          "carpetAreaDisplay": "1840 sq.ft",
+          "builtUpArea": null,
+          "price": "2.36 Cr",
+          "actualPrice": 23552000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,265 sq.ft",
+      "price": "1.62 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,840 sq.ft",
+      "price": "2.36 Cr"
+    }
+  ]
+}

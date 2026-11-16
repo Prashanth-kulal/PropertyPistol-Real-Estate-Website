@@ -1,0 +1,86 @@
+{
+  "projectId": 7508,
+  "slug": "godrej-park-springs-manjri-pid-7508",
+  "name": "Godrej Park Springs",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/godrej-park-springs-manjri-pid-7508",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/7508/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/7508/original/mp.PNG?1752129081"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/7508/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8444/original/fp.PNG?1752129081"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 95103,
+          "bhk": "1 BHK",
+          "carpetArea": 450,
+          "carpetAreaDisplay": "450 sq.ft",
+          "builtUpArea": null,
+          "price": "51.26 Lacs",
+          "actualPrice": 5125500,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 111958,
+          "bhk": "3 BHK",
+          "carpetArea": 780,
+          "carpetAreaDisplay": "780 sq.ft",
+          "builtUpArea": null,
+          "price": "88.84 Lacs",
+          "actualPrice": 8884200,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "450 sq.ft",
+      "price": "51.26 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "780 sq.ft",
+      "price": "88.84 Lacs"
+    }
+  ]
+}

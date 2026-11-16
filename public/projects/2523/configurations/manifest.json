@@ -1,0 +1,155 @@
+{
+  "projectId": 2523,
+  "slug": "labdhi-gardens-neral-pid-2523",
+  "name": "Labdhi Gardens",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/labdhi-gardens-neral-pid-2523",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/2523/original/mp.JPG?1669799257",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/1288/original/lg-typical-floor-plan_type-a.jpg?1570095280",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "Studio",
+      "variants": [
+        {
+          "id": 114111,
+          "bhk": "Studio",
+          "carpetArea": 254,
+          "carpetAreaDisplay": "254 sq.ft",
+          "builtUpArea": null,
+          "price": "17.01 Lacs",
+          "actualPrice": 1701000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 34619,
+          "bhk": "1 BHK",
+          "carpetArea": 340,
+          "carpetAreaDisplay": "340 sq.ft",
+          "builtUpArea": null,
+          "price": "22.77 Lacs",
+          "actualPrice": 2277000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 27692,
+          "bhk": "2 BHK",
+          "carpetArea": 431,
+          "carpetAreaDisplay": "431 sq.ft",
+          "builtUpArea": null,
+          "price": "28.87 Lacs",
+          "actualPrice": 2887000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 139035,
+          "bhk": "3 BHK",
+          "carpetArea": 496,
+          "carpetAreaDisplay": "496 sq.ft",
+          "builtUpArea": null,
+          "price": "33.22 Lacs",
+          "actualPrice": 3322000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139036,
+          "bhk": "3 BHK",
+          "carpetArea": 526,
+          "carpetAreaDisplay": "526 sq.ft",
+          "builtUpArea": null,
+          "price": "35.23 Lacs",
+          "actualPrice": 3523000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "Studio",
+      "carpet_area": "254 sq.ft",
+      "price": "17.01 Lacs"
+    },
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "340 sq.ft",
+      "price": "22.77 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "431 sq.ft",
+      "price": "28.87 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "496 - 526 sq.ft",
+      "price": "33.22 Lacs - 35.23 Lacs"
+    }
+  ]
+}

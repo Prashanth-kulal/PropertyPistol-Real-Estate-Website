@@ -1,0 +1,78 @@
+{
+  "projectId": 8714,
+  "slug": "raunak-city-kalyan-west-pid-8714",
+  "name": "Raunak City",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/raunak-city-kalyan-west-pid-8714",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/8714/original/mp.png?1669104114",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 30857,
+          "bhk": "1 BHK",
+          "carpetArea": 369,
+          "carpetAreaDisplay": "369 sq.ft",
+          "builtUpArea": null,
+          "price": "43.38 Lacs",
+          "actualPrice": 4338000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 30858,
+          "bhk": "2 BHK",
+          "carpetArea": 489,
+          "carpetAreaDisplay": "489 sq.ft",
+          "builtUpArea": null,
+          "price": "57.72 Lacs",
+          "actualPrice": 5772000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "369 sq.ft",
+      "price": "43.38 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "489 sq.ft",
+      "price": "57.72 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "projectId": 12980,
+  "slug": "whitehill-royal-tulip-sarjapura-pid-12980",
+  "name": "Whitehill Royal Tulip",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/whitehill-royal-tulip-sarjapura-pid-12980",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/12980/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/12980/original/cf62259dbd34986.jpeg?1690182059"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/12980/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4185/original/floor1.PNG?1747780201"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/12980/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8034/original/floor2.PNG?1747780201"
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/12980/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8035/original/floor3.PNG?1747780201"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 40284,
+          "bhk": "1 BHK",
+          "carpetArea": 475,
+          "carpetAreaDisplay": "475 sq.ft",
+          "builtUpArea": null,
+          "price": "53.35 Lacs",
+          "actualPrice": 5334725,
+          "propertyType": "Independent House/Villa",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 126280,
+          "bhk": "4 BHK",
+          "carpetArea": 1495,
+          "carpetAreaDisplay": "1495 sq.ft",
+          "builtUpArea": null,
+          "price": "1.68 Cr",
+          "actualPrice": 16790345,
+          "propertyType": "Independent House/Villa",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "475 sq.ft",
+      "price": "53.35 Lacs"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,495 sq.ft",
+      "price": "1.68 Cr"
+    }
+  ]
+}

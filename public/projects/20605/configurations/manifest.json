@@ -1,0 +1,78 @@
+{
+  "projectId": 20605,
+  "slug": "sky-lark-panvel-pid-20605",
+  "name": "Sky Lark",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sky-lark-panvel-pid-20605",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20605/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8809/original/sky-fp.PNG?1755773476",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 123937,
+          "bhk": "1 BHK",
+          "carpetArea": 469,
+          "carpetAreaDisplay": "469 sq.ft",
+          "builtUpArea": null,
+          "price": "39.08 Lacs",
+          "actualPrice": 3908177,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 123938,
+          "bhk": "2 BHK",
+          "carpetArea": 776,
+          "carpetAreaDisplay": "776 sq.ft",
+          "builtUpArea": null,
+          "price": "64.66 Lacs",
+          "actualPrice": 6466408,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "469 sq.ft",
+      "price": "39.08 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "776 sq.ft",
+      "price": "64.66 Lacs"
+    }
+  ]
+}

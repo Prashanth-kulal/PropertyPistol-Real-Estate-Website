@@ -1,0 +1,94 @@
+{
+  "projectId": 10585,
+  "slug": "platinum-genx-tower-baner-pid-10585",
+  "name": "Platinum Genx Tower",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/platinum-genx-tower-baner-pid-10585",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/10585/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3137/original/fp.png?1670501029"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 86246,
+          "bhk": "2 BHK",
+          "carpetArea": 813,
+          "carpetAreaDisplay": "813 sq.ft",
+          "builtUpArea": null,
+          "price": "83.0 Lacs",
+          "actualPrice": 8300000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 86247,
+          "bhk": "3 BHK",
+          "carpetArea": 1245,
+          "carpetAreaDisplay": "1245 sq.ft",
+          "builtUpArea": null,
+          "price": "1.24 Cr",
+          "actualPrice": 12400000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 55597,
+          "bhk": "3 BHK",
+          "carpetArea": 1311,
+          "carpetAreaDisplay": "1311 sq.ft",
+          "builtUpArea": null,
+          "price": "1.31 Cr",
+          "actualPrice": 13100000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "813 sq.ft",
+      "price": "83.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,245 - 1,311 sq.ft",
+      "price": "1.24 Cr - 1.31 Cr"
+    }
+  ]
+}

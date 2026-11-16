@@ -1,0 +1,143 @@
+{
+  "projectId": 20076,
+  "slug": "sauda-heights-tower-2",
+  "name": "Sauda Heights Tower 2 ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sauda-heights-tower-2-sandhurst-road-pid-20076",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20076/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8439/original/gp-sauda.png?1752057841",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/20076/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8440/original/tfp-sauda1.png?1752057842",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 118374,
+          "bhk": "1 BHK",
+          "carpetArea": 371,
+          "carpetAreaDisplay": "371 sq.ft",
+          "builtUpArea": null,
+          "price": "50.08 Lacs",
+          "actualPrice": 5008000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20076/configurations/unit-plans/1-bhk/371-sqft/plan-2d.webp",
+          "plan3D": "/projects/20076/configurations/unit-plans/1-bhk/371-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/118374/original/1bhk-2d.PNG?1752057838",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/118374/original/1bhk-3d.PNG?1752057839",
+          "has2D": true,
+          "has3D": true
+        },
+        {
+          "id": 118375,
+          "bhk": "1 BHK",
+          "carpetArea": 437,
+          "carpetAreaDisplay": "437 sq.ft",
+          "builtUpArea": null,
+          "price": "58.99 Lacs",
+          "actualPrice": 5899000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 118376,
+          "bhk": "2 BHK",
+          "carpetArea": 560,
+          "carpetAreaDisplay": "560 sq.ft",
+          "builtUpArea": null,
+          "price": "75.6 Lacs",
+          "actualPrice": 7560000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 118377,
+          "bhk": "2 BHK",
+          "carpetArea": 644,
+          "carpetAreaDisplay": "644 sq.ft",
+          "builtUpArea": null,
+          "price": "86.94 Lacs",
+          "actualPrice": 8694000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20076/configurations/unit-plans/2-bhk/644-sqft/plan-2d.webp",
+          "plan3D": "/projects/20076/configurations/unit-plans/2-bhk/644-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/118377/original/2bhk-661.PNG?1752057839",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/118377/original/2bhk-661-3d.PNG?1752057839",
+          "has2D": true,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 118378,
+          "bhk": "4 BHK",
+          "carpetArea": 1505,
+          "carpetAreaDisplay": "1505 sq.ft",
+          "builtUpArea": null,
+          "price": "2.03 Cr",
+          "actualPrice": 20300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "371 - 437 sq.ft",
+      "price": "50.08 Lacs - 58.99 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "560 - 644 sq.ft",
+      "price": "75.6 Lacs - 86.94 Lacs"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,505 sq.ft",
+      "price": "2.03 Cr"
+    }
+  ]
+}

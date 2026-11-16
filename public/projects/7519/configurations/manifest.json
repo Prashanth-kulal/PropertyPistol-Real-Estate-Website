@@ -1,0 +1,142 @@
+{
+  "projectId": 7519,
+  "slug": "city-one-panache-ravet-pid-7519",
+  "name": "City One Panache",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/city-one-panache-ravet-pid-7519",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/7519/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3130/original/fp.png?1670482180"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 56564,
+          "bhk": "3 BHK",
+          "carpetArea": 1383,
+          "carpetAreaDisplay": "1383 sq.ft",
+          "builtUpArea": null,
+          "price": "1.54 Cr",
+          "actualPrice": 15400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 78693,
+          "bhk": "3 BHK",
+          "carpetArea": 1553,
+          "carpetAreaDisplay": "1553 sq.ft",
+          "builtUpArea": null,
+          "price": "1.73 Cr",
+          "actualPrice": 17300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 22472,
+          "bhk": "3 BHK",
+          "carpetArea": 2123,
+          "carpetAreaDisplay": "2123 sq.ft",
+          "builtUpArea": null,
+          "price": "2.36 Cr",
+          "actualPrice": 23600000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/7519/configurations/unit-plans/3-bhk/2123-sqft/plan-2d.webp",
+          "plan3D": "/projects/7519/configurations/unit-plans/3-bhk/2123-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/22472/original/3.JPG?1670482178",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/22472/original/3b.png?1670482178",
+          "has2D": true,
+          "has3D": true
+        },
+        {
+          "id": 126881,
+          "bhk": "3 BHK",
+          "carpetArea": 2261,
+          "carpetAreaDisplay": "2261 sq.ft",
+          "builtUpArea": null,
+          "price": "2.51 Cr",
+          "actualPrice": 25100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 126882,
+          "bhk": "3 BHK",
+          "carpetArea": 2722,
+          "carpetAreaDisplay": "2722 sq.ft",
+          "builtUpArea": null,
+          "price": "3.03 Cr",
+          "actualPrice": 30300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 78695,
+          "bhk": "4 BHK",
+          "carpetArea": 1870,
+          "carpetAreaDisplay": "1870 sq.ft",
+          "builtUpArea": null,
+          "price": "2.08 Cr",
+          "actualPrice": 20800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,383 - 2,722 sq.ft",
+      "price": "1.54 Cr - 3.03 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,870 sq.ft",
+      "price": "2.08 Cr"
+    }
+  ]
+}

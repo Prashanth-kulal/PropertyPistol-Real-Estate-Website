@@ -1,0 +1,78 @@
+{
+  "projectId": 19324,
+  "slug": "kohinoor-woodshire-bhugaon-pid-19324",
+  "name": "Kohinoor Woodshire",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/kohinoor-woodshire-bhugaon-pid-19324",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19324/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19324/original/mp-wo.png?1746780310"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 101911,
+          "bhk": "2 BHK",
+          "carpetArea": 794,
+          "carpetAreaDisplay": "794 sq.ft",
+          "builtUpArea": null,
+          "price": "71.82 Lacs",
+          "actualPrice": 7181730,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 126897,
+          "bhk": "4 BHK",
+          "carpetArea": 1541,
+          "carpetAreaDisplay": "1541 sq.ft",
+          "builtUpArea": null,
+          "price": "1.39 Cr",
+          "actualPrice": 13938345,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "794 sq.ft",
+      "price": "71.82 Lacs"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,541 sq.ft",
+      "price": "1.39 Cr"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "projectId": 13045,
+  "slug": "geecee-emerald-kharghar-pid-13045",
+  "name": "GeeCee Emerald ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/geecee-emerald-kharghar-pid-13045",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13045/original/Capturecdddd.PNG?1690287669",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4206/original/Capturefvfd.PNG?1690287671",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 108480,
+          "bhk": "2 BHK",
+          "carpetArea": 682,
+          "carpetAreaDisplay": "682 sq.ft",
+          "builtUpArea": null,
+          "price": "1.46 Cr",
+          "actualPrice": 14600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 108482,
+          "bhk": "2 BHK",
+          "carpetArea": 740,
+          "carpetAreaDisplay": "740 sq.ft",
+          "builtUpArea": null,
+          "price": "1.59 Cr",
+          "actualPrice": 15900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 139068,
+          "bhk": "3 BHK",
+          "carpetArea": 996,
+          "carpetAreaDisplay": "996 sq.ft",
+          "builtUpArea": null,
+          "price": "2.13 Cr",
+          "actualPrice": 21300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 139069,
+          "bhk": "4 BHK",
+          "carpetArea": 1687,
+          "carpetAreaDisplay": "1687 sq.ft",
+          "builtUpArea": null,
+          "price": "3.62 Cr",
+          "actualPrice": 36200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "682 - 740 sq.ft",
+      "price": "1.46 Cr - 1.59 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "996 sq.ft",
+      "price": "2.13 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,687 sq.ft",
+      "price": "3.62 Cr"
+    }
+  ]
+}

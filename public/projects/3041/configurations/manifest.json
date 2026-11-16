@@ -1,0 +1,103 @@
+{
+  "projectId": 3041,
+  "slug": "darvesh-horizon",
+  "name": "Darvesh Horizon",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/darvesh-horizon-dahisar-east-pid-3041",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/3041/original/mp.jpg?1575115781",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/1492/original/fp.jpg?1575115782",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 130198,
+          "bhk": "1 BHK",
+          "carpetArea": 395,
+          "carpetAreaDisplay": "395 sq.ft",
+          "builtUpArea": null,
+          "price": "72.56 Lacs",
+          "actualPrice": 7256000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 133928,
+          "bhk": "1 BHK",
+          "carpetArea": 531,
+          "carpetAreaDisplay": "531 sq.ft",
+          "builtUpArea": null,
+          "price": "97.64 Lacs",
+          "actualPrice": 9764000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 133929,
+          "bhk": "2 BHK",
+          "carpetArea": 697,
+          "carpetAreaDisplay": "697 sq.ft",
+          "builtUpArea": null,
+          "price": "1.28 Cr",
+          "actualPrice": 12800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "395 - 531 sq.ft",
+      "price": "72.56 Lacs - 97.64 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "697 sq.ft",
+      "price": "1.28 Cr"
+    }
+  ]
+}

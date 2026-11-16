@@ -1,0 +1,78 @@
+{
+  "projectId": 19947,
+  "slug": "elegant-aura-jakkur-pid-19947",
+  "name": "Elegant Aura",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/elegant-aura-jakkur-pid-19947",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19947/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19947/original/master.PNG?1748863168"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 130928,
+          "bhk": "2 BHK",
+          "carpetArea": 754,
+          "carpetAreaDisplay": "754 sq.ft",
+          "builtUpArea": null,
+          "price": "1.02 Cr",
+          "actualPrice": 10241582,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 115195,
+          "bhk": "4 BHK",
+          "carpetArea": 1755,
+          "carpetAreaDisplay": "1755 sq.ft",
+          "builtUpArea": null,
+          "price": "1.6 Cr",
+          "actualPrice": 16000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "754 sq.ft",
+      "price": "1.02 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,755 sq.ft",
+      "price": "1.6 Cr"
+    }
+  ]
+}

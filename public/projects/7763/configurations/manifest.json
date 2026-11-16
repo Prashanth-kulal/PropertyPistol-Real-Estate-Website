@@ -1,0 +1,110 @@
+{
+  "projectId": 7763,
+  "slug": "birla-niyaara",
+  "name": "Birla Niyaara",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/birla-niyaara-worli-pid-7763",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/7763/original/mp_%282%29.jpg?1738223956",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 93258,
+          "bhk": "4 BHK",
+          "carpetArea": 3028,
+          "carpetAreaDisplay": "3028 sq.ft",
+          "builtUpArea": null,
+          "price": "30.28 Cr",
+          "actualPrice": 302800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/93258/original/4.jpg?1738223821",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 114895,
+          "bhk": "4 BHK",
+          "carpetArea": 3231,
+          "carpetAreaDisplay": "3231 sq.ft",
+          "builtUpArea": null,
+          "price": "32.31 Cr",
+          "actualPrice": 323100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "5 BHK",
+      "variants": [
+        {
+          "id": 93261,
+          "bhk": "5 BHK",
+          "carpetArea": 3974,
+          "carpetAreaDisplay": "3974 sq.ft",
+          "builtUpArea": 4000,
+          "price": "39.74 Cr",
+          "actualPrice": 397400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 102944,
+          "bhk": "5 BHK",
+          "carpetArea": 4287,
+          "carpetAreaDisplay": "4287 sq.ft",
+          "builtUpArea": null,
+          "price": "42.87 Cr",
+          "actualPrice": 428700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "3,028 - 3,231 sq.ft",
+      "price": "30.28 Cr - 32.31 Cr"
+    },
+    {
+      "flat_type_name": "5 BHK",
+      "carpet_area": "3,974 - 4,287 sq.ft",
+      "price": "39.74 Cr - 42.87 Cr"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "projectId": 8179,
+  "slug": "godrej-riviera-kalyan-west-pid-8179",
+  "name": "Godrej Riviera",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/godrej-riviera-kalyan-west-pid-8179",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/8179/original/master-plan.jpg?1653457845",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 27916,
+          "bhk": "1 BHK",
+          "carpetArea": 355,
+          "carpetAreaDisplay": "355 sq.ft",
+          "builtUpArea": null,
+          "price": "39.99 Lacs",
+          "actualPrice": 3999000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/27916/original/1bhk.jpg?1653457845",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 27917,
+          "bhk": "2 BHK",
+          "carpetArea": 502,
+          "carpetAreaDisplay": "502 sq.ft",
+          "builtUpArea": null,
+          "price": "67.99 Lacs",
+          "actualPrice": 6799000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/27917/original/2.jpg?1653457845",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "355 sq.ft",
+      "price": "39.99 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "502 sq.ft",
+      "price": "67.99 Lacs"
+    }
+  ]
+}

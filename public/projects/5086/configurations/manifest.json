@@ -1,0 +1,78 @@
+{
+  "projectId": 5086,
+  "slug": "vipul-laxmi-puram-sinhgad-road-pid-5086",
+  "name": "Vipul Laxmi Puram",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/vipul-laxmi-puram-sinhgad-road-pid-5086",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/5086/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2982/original/fp.png?1669449074"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 16835,
+          "bhk": "1 BHK",
+          "carpetArea": 412,
+          "carpetAreaDisplay": "412 sq.ft",
+          "builtUpArea": null,
+          "price": "30.32 Lacs",
+          "actualPrice": 3032000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/5086/configurations/unit-plans/1-bhk/412-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/16835/original/1.JPG?1669449074",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 139642,
+          "bhk": "2 BHK",
+          "carpetArea": 575,
+          "carpetAreaDisplay": "575 sq.ft",
+          "builtUpArea": null,
+          "price": "42.32 Lacs",
+          "actualPrice": 4232000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "412 sq.ft",
+      "price": "30.32 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "575 sq.ft",
+      "price": "42.32 Lacs"
+    }
+  ]
+}

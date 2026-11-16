@@ -1,0 +1,99 @@
+{
+  "projectId": 15641,
+  "slug": "goodwill-wisteria-vashi-pid-15641",
+  "name": "Goodwill Wisteria",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/goodwill-wisteria-vashi-pid-15641",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/15641/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5454/original/floorplan1.JPG?1705503674",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/15641/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5455/original/floorplan2.JPG?1705503674",
+      "downloaded": true
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/15641/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5456/original/floorplan3.JPG?1705503674",
+      "downloaded": true
+    },
+    {
+      "id": 4,
+      "title": "Layout / Site Plan 4",
+      "path": "/projects/15641/configurations/site-plans/site-plan-04.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5457/original/floorplan4.JPG?1705503674",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 126415,
+          "bhk": "3 BHK",
+          "carpetArea": 1290,
+          "carpetAreaDisplay": "1290 sq.ft",
+          "builtUpArea": null,
+          "price": "3.26 Cr",
+          "actualPrice": 32640870,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "5 BHK",
+      "variants": [
+        {
+          "id": 99784,
+          "bhk": "5 BHK",
+          "carpetArea": 2528,
+          "carpetAreaDisplay": "2528 sq.ft",
+          "builtUpArea": null,
+          "price": "6.4 Cr",
+          "actualPrice": 63965984,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,290 sq.ft",
+      "price": "3.26 Cr"
+    },
+    {
+      "flat_type_name": "5 BHK",
+      "carpet_area": "2,528 sq.ft",
+      "price": "6.4 Cr"
+    }
+  ]
+}

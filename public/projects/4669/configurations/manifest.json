@@ -1,0 +1,68 @@
+{
+  "projectId": 4669,
+  "slug": "marathon-neopark-bhandup-west-pid-4669",
+  "name": "Marathon Neopark",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/marathon-neopark-bhandup-west-pid-4669",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/4669/original/mp.PNG?1733231491",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 27824,
+          "bhk": "1 BHK",
+          "carpetArea": 328,
+          "carpetAreaDisplay": "328 sq.ft",
+          "builtUpArea": null,
+          "price": "68.24 Lacs",
+          "actualPrice": 6824000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/27824/original/11.PNG?1733231491",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/27824/original/1bhk.png?1733231492",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 98865,
+          "bhk": "1 BHK",
+          "carpetArea": 355,
+          "carpetAreaDisplay": "355 sq.ft",
+          "builtUpArea": null,
+          "price": "73.25 Lacs",
+          "actualPrice": 7325000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "328 - 355 sq.ft",
+      "price": "68.24 Lacs - 73.25 Lacs"
+    }
+  ]
+}

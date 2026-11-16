@@ -1,0 +1,68 @@
+{
+  "projectId": 6600,
+  "slug": "shivantha-gardenia-isnapur-pid-6600",
+  "name": "Shivantha Gardenia",
+  "city": "hyderabad",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shivantha-gardenia-isnapur-pid-6600",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/6600/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5670/original/fp.PNG?1708768610"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 20215,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 895,
+          "price": "37.59 Lacs",
+          "actualPrice": 3759000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/6600/configurations/unit-plans/2-bhk/variant-20215/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/20215/original/2b.PNG?1708768609",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 35038,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1030,
+          "price": "43.26 Lacs",
+          "actualPrice": 4326000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/6600/configurations/unit-plans/2-bhk/variant-35038/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/35038/original/2b.PNG?1708768609",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "On Request",
+      "price": "37.59 Lacs - 43.26 Lacs"
+    }
+  ]
+}

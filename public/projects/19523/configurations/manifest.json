@@ -1,0 +1,78 @@
+{
+  "projectId": 19523,
+  "slug": "nx-sai-villa-9-manewada-pid-19523",
+  "name": "NX Sai Villa 9",
+  "city": "nagpur",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/nx-sai-villa-9-manewada-pid-19523",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19523/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7643/original/floor_%281%29.png?1748495603"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 104941,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1100,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": "/projects/19523/configurations/unit-plans/2-bhk/variant-104941/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/104941/original/2bhk_3d.PNG?1743660902",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 104942,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1500,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": "/projects/19523/configurations/unit-plans/3-bhk/variant-104942/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/104942/original/3bhk_3dnew.png?1743660902",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "On Request",
+      "price": "On Request"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "On Request"
+    }
+  ]
+}

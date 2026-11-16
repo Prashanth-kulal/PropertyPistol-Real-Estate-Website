@@ -1,0 +1,94 @@
+{
+  "projectId": 16992,
+  "slug": "mittal-sun-orchid-kothrud-pid-16992",
+  "name": "Mittal Sun Orchid",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/mittal-sun-orchid-kothrud-pid-16992",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16992/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16992/original/cf663e0b3f9b57b.jpeg?1718306949"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 68449,
+          "bhk": "2 BHK",
+          "carpetArea": 809,
+          "carpetAreaDisplay": "809 sq.ft",
+          "builtUpArea": null,
+          "price": "1.72 Cr",
+          "actualPrice": 17200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 68450,
+          "bhk": "2 BHK",
+          "carpetArea": 822,
+          "carpetAreaDisplay": "822 sq.ft",
+          "builtUpArea": null,
+          "price": "1.74 Cr",
+          "actualPrice": 17400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2.5 BHK",
+      "variants": [
+        {
+          "id": 68451,
+          "bhk": "2.5 BHK",
+          "carpetArea": 936,
+          "carpetAreaDisplay": "936 sq.ft",
+          "builtUpArea": null,
+          "price": "1.99 Cr",
+          "actualPrice": 19900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "809 - 822 sq.ft",
+      "price": "1.72 Cr - 1.74 Cr"
+    },
+    {
+      "flat_type_name": "2.5 BHK",
+      "carpet_area": "936 sq.ft",
+      "price": "1.99 Cr"
+    }
+  ]
+}

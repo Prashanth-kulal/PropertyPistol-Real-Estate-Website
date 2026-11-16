@@ -1,0 +1,86 @@
+{
+  "projectId": 16572,
+  "slug": "casagrand-vivacity-huskur-pid-16572",
+  "name": "Casagrand Vivacity",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/casagrand-vivacity-huskur-pid-16572",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16572/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16572/original/mp_%288%29.png?1755674236"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16572/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6283/original/fp_%2820%29.png?1755674236"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 72105,
+          "bhk": "1 BHK",
+          "carpetArea": 434,
+          "carpetAreaDisplay": "434 sq.ft",
+          "builtUpArea": null,
+          "price": "32.71 Lacs",
+          "actualPrice": 3271058,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 123784,
+          "bhk": "4 BHK",
+          "carpetArea": 2491,
+          "carpetAreaDisplay": "2491 sq.ft",
+          "builtUpArea": null,
+          "price": "1.88 Cr",
+          "actualPrice": 18774667,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "434 sq.ft",
+      "price": "32.71 Lacs"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,491 sq.ft",
+      "price": "1.88 Cr"
+    }
+  ]
+}

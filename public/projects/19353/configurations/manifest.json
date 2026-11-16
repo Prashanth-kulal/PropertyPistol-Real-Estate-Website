@@ -1,0 +1,78 @@
+{
+  "projectId": 19353,
+  "slug": "austin-yana-tathawade-pid-19353",
+  "name": "Austin Yana",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/austin-yana-tathawade-pid-19353",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19353/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19353/original/masterplan.PNG?1741775257"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 102513,
+          "bhk": "2 BHK",
+          "carpetArea": 746,
+          "carpetAreaDisplay": "746 sq.ft",
+          "builtUpArea": null,
+          "price": "92.43 Lacs",
+          "actualPrice": 9242940,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19353/configurations/unit-plans/2-bhk/746-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/102513/original/2bhk_2d2.PNG?1741775257",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 102517,
+          "bhk": "4 BHK",
+          "carpetArea": 1600,
+          "carpetAreaDisplay": "1600 sq.ft",
+          "builtUpArea": null,
+          "price": "1.98 Cr",
+          "actualPrice": 19824000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19353/configurations/unit-plans/4-bhk/1600-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/102517/original/4bhk_2d2.PNG?1741775257",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "746 sq.ft",
+      "price": "92.43 Lacs"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,600 sq.ft",
+      "price": "1.98 Cr"
+    }
+  ]
+}

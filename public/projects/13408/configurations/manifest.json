@@ -1,0 +1,110 @@
+{
+  "projectId": 13408,
+  "slug": "sai-sastha-samrat-bhandup-west-pid-13408",
+  "name": "Sai Sastha Samrat",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sai-sastha-samrat-bhandup-west-pid-13408",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4365/original/fp.png?1748073601",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 RK",
+      "variants": [
+        {
+          "id": 41460,
+          "bhk": "1 RK",
+          "carpetArea": 233,
+          "carpetAreaDisplay": "233 sq.ft",
+          "builtUpArea": null,
+          "price": "48.88 Lacs",
+          "actualPrice": 4888000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/41460/original/1rk.png?1748073600",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 138041,
+          "bhk": "1 RK",
+          "carpetArea": 243,
+          "carpetAreaDisplay": "243 sq.ft",
+          "builtUpArea": null,
+          "price": "51.07 Lacs",
+          "actualPrice": 5107000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 57840,
+          "bhk": "1 BHK",
+          "carpetArea": 331,
+          "carpetAreaDisplay": "331 sq.ft",
+          "builtUpArea": null,
+          "price": "69.43 Lacs",
+          "actualPrice": 6943000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/57840/original/1b.png?1748073600",
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 57841,
+          "bhk": "1 BHK",
+          "carpetArea": 371,
+          "carpetAreaDisplay": "371 sq.ft",
+          "builtUpArea": null,
+          "price": "77.7 Lacs",
+          "actualPrice": 7770000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 RK",
+      "carpet_area": "233 - 243 sq.ft",
+      "price": "48.88 Lacs - 51.07 Lacs"
+    },
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "331 - 371 sq.ft",
+      "price": "69.43 Lacs - 77.7 Lacs"
+    }
+  ]
+}

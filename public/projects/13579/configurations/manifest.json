@@ -1,0 +1,68 @@
+{
+  "projectId": 13579,
+  "slug": "shiv-zen-world-manjri-pid-13579",
+  "name": "Shiv Zen World",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/shiv-zen-world-manjri-pid-13579",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/13579/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13579/original/Capturesdqawd.PNG?1693553326"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 62534,
+          "bhk": "2 BHK",
+          "carpetArea": 557,
+          "carpetAreaDisplay": "557 sq.ft",
+          "builtUpArea": null,
+          "price": "70.0 Lacs",
+          "actualPrice": 7000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 62536,
+          "bhk": "2 BHK",
+          "carpetArea": 623,
+          "carpetAreaDisplay": "623 sq.ft",
+          "builtUpArea": null,
+          "price": "78.42 Lacs",
+          "actualPrice": 7842000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "557 - 623 sq.ft",
+      "price": "70.0 Lacs - 78.42 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "projectId": 17983,
+  "slug": "raheja-antares",
+  "name": "Raheja Antares",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/raheja-antares-kanjurmarg-west-pid-17983",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/17983/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/17983/original/images_%2847%29.jpeg?1727344731",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 87009,
+          "bhk": "3 BHK",
+          "carpetArea": 1138,
+          "carpetAreaDisplay": "1138 sq.ft",
+          "builtUpArea": null,
+          "price": "4.2 Cr",
+          "actualPrice": 42000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3.5 BHK",
+      "variants": [
+        {
+          "id": 140046,
+          "bhk": "3.5 BHK",
+          "carpetArea": 1312,
+          "carpetAreaDisplay": "1312 sq.ft",
+          "builtUpArea": null,
+          "price": "4.95 Cr",
+          "actualPrice": 49500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 131222,
+          "bhk": "4 BHK",
+          "carpetArea": 1687,
+          "carpetAreaDisplay": "1687 sq.ft",
+          "builtUpArea": null,
+          "price": "6.4 Cr",
+          "actualPrice": 64000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140047,
+          "bhk": "4 BHK",
+          "carpetArea": 1720,
+          "carpetAreaDisplay": "1720 sq.ft",
+          "builtUpArea": null,
+          "price": "6.52 Cr",
+          "actualPrice": 65200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,138 sq.ft",
+      "price": "4.2 Cr"
+    },
+    {
+      "flat_type_name": "3.5 BHK",
+      "carpet_area": "1,312 sq.ft",
+      "price": "4.95 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,687 - 1,720 sq.ft",
+      "price": "6.4 Cr - 6.52 Cr"
+    }
+  ]
+}

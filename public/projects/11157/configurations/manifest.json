@@ -1,0 +1,110 @@
+{
+  "projectId": 11157,
+  "slug": "flower-city-moshi-pid-11157",
+  "name": "Flower City",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/flower-city-moshi-pid-11157",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/11157/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/11157/original/mp.JPG?1675167737"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 99023,
+          "bhk": "1 BHK",
+          "carpetArea": 512,
+          "carpetAreaDisplay": "512 sq.ft",
+          "builtUpArea": null,
+          "price": "37.0 Lacs",
+          "actualPrice": 3700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 109082,
+          "bhk": "1 BHK",
+          "carpetArea": 526,
+          "carpetAreaDisplay": "526 sq.ft",
+          "builtUpArea": null,
+          "price": "39.0 Lacs",
+          "actualPrice": 3900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 109083,
+          "bhk": "2 BHK",
+          "carpetArea": 638,
+          "carpetAreaDisplay": "638 sq.ft",
+          "builtUpArea": null,
+          "price": "47.0 Lacs",
+          "actualPrice": 4700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 109084,
+          "bhk": "2 BHK",
+          "carpetArea": 670,
+          "carpetAreaDisplay": "670 sq.ft",
+          "builtUpArea": null,
+          "price": "50.0 Lacs",
+          "actualPrice": 5000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "512 - 526 sq.ft",
+      "price": "37.0 Lacs - 39.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "638 - 670 sq.ft",
+      "price": "47.0 Lacs - 50.0 Lacs"
+    }
+  ]
+}

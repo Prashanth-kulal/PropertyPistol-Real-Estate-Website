@@ -1,0 +1,184 @@
+{
+  "projectId": 14152,
+  "slug": "narang-privado",
+  "name": "Narang Privado",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/narang-privado-thane-west-pid-14152",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4691/original/Capture.png?1756449579",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 52006,
+          "bhk": "1 BHK",
+          "carpetArea": 416,
+          "carpetAreaDisplay": "416 sq.ft",
+          "builtUpArea": null,
+          "price": "1.08 Cr",
+          "actualPrice": 10800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 140003,
+          "bhk": "2 BHK",
+          "carpetArea": 479,
+          "carpetAreaDisplay": "479 sq.ft",
+          "builtUpArea": null,
+          "price": "1.36 Cr",
+          "actualPrice": 13600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140004,
+          "bhk": "2 BHK",
+          "carpetArea": 737,
+          "carpetAreaDisplay": "737 sq.ft",
+          "builtUpArea": null,
+          "price": "1.87 Cr",
+          "actualPrice": 18700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140005,
+          "bhk": "2 BHK",
+          "carpetArea": 749,
+          "carpetAreaDisplay": "749 sq.ft",
+          "builtUpArea": null,
+          "price": "2.12 Cr",
+          "actualPrice": 21200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 140007,
+          "bhk": "3 BHK",
+          "carpetArea": 1070,
+          "carpetAreaDisplay": "1070 sq.ft",
+          "builtUpArea": null,
+          "price": "3.03 Cr",
+          "actualPrice": 30300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140006,
+          "bhk": "3 BHK",
+          "carpetArea": 1075,
+          "carpetAreaDisplay": "1075 sq.ft",
+          "builtUpArea": null,
+          "price": "2.83 Cr",
+          "actualPrice": 28300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140008,
+          "bhk": "3 BHK",
+          "carpetArea": 1128,
+          "carpetAreaDisplay": "1128 sq.ft",
+          "builtUpArea": null,
+          "price": "3.06 Cr",
+          "actualPrice": 30600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140009,
+          "bhk": "3 BHK",
+          "carpetArea": 1223,
+          "carpetAreaDisplay": "1223 sq.ft",
+          "builtUpArea": null,
+          "price": "3.46 Cr",
+          "actualPrice": 34600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "416 sq.ft",
+      "price": "1.08 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "479 - 749 sq.ft",
+      "price": "1.36 Cr - 2.12 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,070 - 1,223 sq.ft",
+      "price": "2.83 Cr - 3.46 Cr"
+    }
+  ]
+}

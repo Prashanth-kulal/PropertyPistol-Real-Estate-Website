@@ -1,0 +1,68 @@
+{
+  "projectId": 17434,
+  "slug": "rachana-ekaa-2-chinchbhuwan-pid-17434",
+  "name": "Rachana Ekaa 2",
+  "city": "nagpur",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/rachana-ekaa-2-chinchbhuwan-pid-17434",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/17434/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6701/original/floorplan1.JPG?1720960463"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 73259,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1028,
+          "price": "50.37 Lacs",
+          "actualPrice": 5037000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/17434/configurations/unit-plans/2-bhk/variant-73259/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/73259/original/2bhk_3d.JPG?1720960462",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 73260,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1159,
+          "price": "56.79 Lacs",
+          "actualPrice": 5679000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/17434/configurations/unit-plans/2-bhk/variant-73260/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/73260/original/2bhk_3d2.JPG?1720960463",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "On Request",
+      "price": "50.37 Lacs - 56.79 Lacs"
+    }
+  ]
+}

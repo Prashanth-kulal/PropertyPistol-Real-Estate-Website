@@ -1,0 +1,61 @@
+{
+  "projectId": 564,
+  "slug": "unique-vistas",
+  "name": "Unique Vistas",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/unique-vistas-patlipada-pid-564",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/564/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/564/original/Master_Plan.jpg?1545289069",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/564/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/279/original/Floor_Plan.jpeg?1545289084",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 550,
+          "bhk": "1 BHK",
+          "carpetArea": 475,
+          "carpetAreaDisplay": "475 sq.ft",
+          "builtUpArea": null,
+          "price": "85.0 Lacs",
+          "actualPrice": 8500000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/564/configurations/unit-plans/1-bhk/475-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/550/original/Unit_Plan_1BHK.jpg?1545289070",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "475 sq.ft",
+      "price": "85.0 Lacs"
+    }
+  ]
+}

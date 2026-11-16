@@ -1,0 +1,103 @@
+{
+  "projectId": 18846,
+  "slug": "the-baya-sunrise",
+  "name": "The Baya Sunrise",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/the-baya-sunrise-dadar-east-pid-18846",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18846/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18846/original/mpp.png?1746177172",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18846/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7845/original/fp-bay.png?1746177176",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 109328,
+          "bhk": "1 BHK",
+          "carpetArea": 483,
+          "carpetAreaDisplay": "483 sq.ft",
+          "builtUpArea": null,
+          "price": "2.13 Cr",
+          "actualPrice": 21300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 139558,
+          "bhk": "2 BHK",
+          "carpetArea": 620,
+          "carpetAreaDisplay": "620 sq.ft",
+          "builtUpArea": null,
+          "price": "2.82 Cr",
+          "actualPrice": 28200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139559,
+          "bhk": "2 BHK",
+          "carpetArea": 844,
+          "carpetAreaDisplay": "844 sq.ft",
+          "builtUpArea": null,
+          "price": "3.84 Cr",
+          "actualPrice": 38400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "483 sq.ft",
+      "price": "2.13 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "620 - 844 sq.ft",
+      "price": "2.82 Cr - 3.84 Cr"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "projectId": 18090,
+  "slug": "pyramid-centria-nerul-pid-18090",
+  "name": "Pyramid Centria",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/pyramid-centria-nerul-pid-18090",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18090/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18090/original/MP.jpg?1728371859",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18090/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6964/original/FP.jpg?1728371859",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 88160,
+          "bhk": "2 BHK",
+          "carpetArea": 756,
+          "carpetAreaDisplay": "756 sq.ft",
+          "builtUpArea": null,
+          "price": "1.71 Cr",
+          "actualPrice": 17124912,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 88161,
+          "bhk": "3 BHK",
+          "carpetArea": 1300,
+          "carpetAreaDisplay": "1300 sq.ft",
+          "builtUpArea": null,
+          "price": "2.94 Cr",
+          "actualPrice": 29447600,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "756 sq.ft",
+      "price": "1.71 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,300 sq.ft",
+      "price": "2.94 Cr"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "projectId": 18161,
+  "slug": "surana-avion-pushpak-nagar-pid-18161",
+  "name": "Surana Avion",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/surana-avion-pushpak-nagar-pid-18161",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18161/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7306/original/pixelcut-export_-_2025-01-09T120314.225.jpg?1736404411",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 100633,
+          "bhk": "1 BHK",
+          "carpetArea": 336,
+          "carpetAreaDisplay": "336 sq.ft",
+          "builtUpArea": null,
+          "price": "35.0 Lacs",
+          "actualPrice": 3500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/18161/configurations/unit-plans/1-bhk/336-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/100633/original/1.jpg?1747473883",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 88558,
+          "bhk": "1 BHK",
+          "carpetArea": 428,
+          "carpetAreaDisplay": "428 sq.ft",
+          "builtUpArea": null,
+          "price": "44.58 Lacs",
+          "actualPrice": 4458000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "336 - 428 sq.ft",
+      "price": "35.0 Lacs - 44.58 Lacs"
+    }
+  ]
+}

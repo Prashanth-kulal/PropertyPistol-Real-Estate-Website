@@ -1,0 +1,133 @@
+{
+  "projectId": 427,
+  "slug": "lodha-eternis",
+  "name": "Lodha Eternis",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/lodha-eternis-andheri-east-pid-427",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/427/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/427/original/Master_Plan_%288%29.jpg?1542958211",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/427/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/107/original/Floor_Plan_1_%284%29.jpg?1542958213",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/427/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/108/original/Floor_Plan_2_%284%29.jpg?1542958213",
+      "downloaded": true
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/427/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/109/original/Floor_Plan_3_%282%29.jpg?1542958213",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 131870,
+          "bhk": "2 BHK",
+          "carpetArea": 623,
+          "carpetAreaDisplay": "623 sq.ft",
+          "builtUpArea": null,
+          "price": "1.99 Cr",
+          "actualPrice": 19900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 137112,
+          "bhk": "2 BHK",
+          "carpetArea": 798,
+          "carpetAreaDisplay": "798 sq.ft",
+          "builtUpArea": null,
+          "price": "2.55 Cr",
+          "actualPrice": 25500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 137113,
+          "bhk": "3 BHK",
+          "carpetArea": 915,
+          "carpetAreaDisplay": "915 sq.ft",
+          "builtUpArea": null,
+          "price": "2.93 Cr",
+          "actualPrice": 29300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 137114,
+          "bhk": "3 BHK",
+          "carpetArea": 1195,
+          "carpetAreaDisplay": "1195 sq.ft",
+          "builtUpArea": null,
+          "price": "3.82 Cr",
+          "actualPrice": 38200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "623 - 798 sq.ft",
+      "price": "1.99 Cr - 2.55 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "915 - 1,195 sq.ft",
+      "price": "2.93 Cr - 3.82 Cr"
+    }
+  ]
+}

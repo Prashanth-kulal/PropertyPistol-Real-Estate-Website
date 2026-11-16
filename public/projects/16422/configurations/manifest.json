@@ -1,0 +1,68 @@
+{
+  "projectId": 16422,
+  "slug": "sarvshubh-shriram-niwas-mulund-east-pid-16422",
+  "name": "Sarvshubh Shriram Niwas",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sarvshubh-shriram-niwas-mulund-east-pid-16422",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16422/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6231/original/fp_%281%29.png?1754367121",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 61939,
+          "bhk": "2 BHK",
+          "carpetArea": 594,
+          "carpetAreaDisplay": "594 sq.ft",
+          "builtUpArea": null,
+          "price": "1.59 Cr",
+          "actualPrice": 15900000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/16422/configurations/unit-plans/2-bhk/594-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/61939/original/594.PNG?1715663430",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 61940,
+          "bhk": "2 BHK",
+          "carpetArea": 683,
+          "carpetAreaDisplay": "683 sq.ft",
+          "builtUpArea": null,
+          "price": "1.91 Cr",
+          "actualPrice": 19100000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/16422/configurations/unit-plans/2-bhk/683-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/61940/original/683.PNG?1715663430",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "594 - 683 sq.ft",
+      "price": "1.59 Cr - 1.91 Cr"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "projectId": 15919,
+  "slug": "confident-ridge-chandanagar-pid-15919",
+  "name": "Confident Ridge",
+  "city": "hyderabad",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/confident-ridge-chandanagar-pid-15919",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/15919/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/15919/original/masterplan.JPG?1709641424"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/15919/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5866/original/typicalfloorplan.JPG?1709641424"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 53668,
+          "bhk": "2 BHK",
+          "carpetArea": 927,
+          "carpetAreaDisplay": "927 sq.ft",
+          "builtUpArea": null,
+          "price": "86.13 Lacs",
+          "actualPrice": 8613000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 53669,
+          "bhk": "2 BHK",
+          "carpetArea": 934,
+          "carpetAreaDisplay": "934 sq.ft",
+          "builtUpArea": null,
+          "price": "86.78 Lacs",
+          "actualPrice": 8678000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 53670,
+          "bhk": "3 BHK",
+          "carpetArea": 1064,
+          "carpetAreaDisplay": "1064 sq.ft",
+          "builtUpArea": null,
+          "price": "98.8 Lacs",
+          "actualPrice": 9880000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 53671,
+          "bhk": "3 BHK",
+          "carpetArea": 1190,
+          "carpetAreaDisplay": "1190 sq.ft",
+          "builtUpArea": null,
+          "price": "1.1 Cr",
+          "actualPrice": 11000000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "927 - 934 sq.ft",
+      "price": "86.13 Lacs - 86.78 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,064 - 1,190 sq.ft",
+      "price": "98.8 Lacs - 1.1 Cr"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "projectId": 16679,
+  "slug": "sapp-parkside-erandwane-pid-16679",
+  "name": "Sapp Parkside",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sapp-parkside-erandwane-pid-16679",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16679/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16679/original/images_%2813%29.jpeg?1716880539"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 124792,
+          "bhk": "3 BHK",
+          "carpetArea": 1289,
+          "carpetAreaDisplay": "1289 sq.ft",
+          "builtUpArea": null,
+          "price": "1.68 Cr",
+          "actualPrice": 16800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 124793,
+          "bhk": "3 BHK",
+          "carpetArea": 1297,
+          "carpetAreaDisplay": "1297 sq.ft",
+          "builtUpArea": null,
+          "price": "1.69 Cr",
+          "actualPrice": 16900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 64602,
+          "bhk": "3 BHK",
+          "carpetArea": 2022,
+          "carpetAreaDisplay": "2022 sq.ft",
+          "builtUpArea": null,
+          "price": "4.12 Cr",
+          "actualPrice": 41200000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/16679/configurations/unit-plans/3-bhk/2022-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/64602/original/3bhk.PNG?1729150171",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,289 - 2,022 sq.ft",
+      "price": "1.68 Cr - 4.12 Cr"
+    }
+  ]
+}

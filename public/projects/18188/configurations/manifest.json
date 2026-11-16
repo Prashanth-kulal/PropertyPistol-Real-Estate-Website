@@ -1,0 +1,104 @@
+{
+  "projectId": 18188,
+  "slug": "auriga-9-borivali-west-pid-18188",
+  "name": "Auriga 9",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/auriga-9-borivali-west-pid-18188",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18188/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6987/original/fp_auriga.png?1728659471",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 114880,
+          "bhk": "2 BHK",
+          "carpetArea": 782,
+          "carpetAreaDisplay": "782 sq.ft",
+          "builtUpArea": null,
+          "price": "3.02 Cr",
+          "actualPrice": 30200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 98437,
+          "bhk": "3 BHK",
+          "carpetArea": 1155,
+          "carpetAreaDisplay": "1155 sq.ft",
+          "builtUpArea": null,
+          "price": "4.52 Cr",
+          "actualPrice": 45200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4.5 BHK",
+      "variants": [
+        {
+          "id": 114879,
+          "bhk": "4.5 BHK",
+          "carpetArea": 1890,
+          "carpetAreaDisplay": "1890 sq.ft",
+          "builtUpArea": null,
+          "price": "7.37 Cr",
+          "actualPrice": 73700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "782 sq.ft",
+      "price": "3.02 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,155 sq.ft",
+      "price": "4.52 Cr"
+    },
+    {
+      "flat_type_name": "4.5 BHK",
+      "carpet_area": "1,890 sq.ft",
+      "price": "7.37 Cr"
+    }
+  ]
+}

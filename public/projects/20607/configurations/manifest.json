@@ -1,0 +1,92 @@
+{
+  "projectId": 20607,
+  "slug": "renucorp-vanaha-panvel-pid-20607",
+  "name": "Renucorp Vanaha",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/renucorp-vanaha-panvel-pid-20607",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20607/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9174/original/download_%2814%29.png?1771412552",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/20607/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9175/original/download_%2815%29.png?1771412552",
+      "downloaded": true
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/20607/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9176/original/download_%2816%29.png?1771412553",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 123943,
+          "bhk": "1 BHK",
+          "carpetArea": 467,
+          "carpetAreaDisplay": "467 sq.ft",
+          "builtUpArea": null,
+          "price": "43.27 Lacs",
+          "actualPrice": 4326755,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 123944,
+          "bhk": "2 BHK",
+          "carpetArea": 700,
+          "carpetAreaDisplay": "700 sq.ft",
+          "builtUpArea": null,
+          "price": "64.86 Lacs",
+          "actualPrice": 6485500,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "467 sq.ft",
+      "price": "43.27 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "700 sq.ft",
+      "price": "64.86 Lacs"
+    }
+  ]
+}

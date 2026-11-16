@@ -1,0 +1,126 @@
+{
+  "projectId": 19545,
+  "slug": "gurukrupa-sharanam-dahisar-east-pid-19545",
+  "name": "Gurukrupa Sharanam",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/gurukrupa-sharanam-dahisar-east-pid-19545",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19545/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7662/original/fp-gur.png?1743780519",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 129588,
+          "bhk": "1 BHK",
+          "carpetArea": 400,
+          "carpetAreaDisplay": "400 sq.ft",
+          "builtUpArea": null,
+          "price": "88.42 Lacs",
+          "actualPrice": 8842000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19545/configurations/unit-plans/1-bhk/400-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/129588/original/1bhk-gur.png?1763201166",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 105366,
+          "bhk": "1 BHK",
+          "carpetArea": 406,
+          "carpetAreaDisplay": "406 sq.ft",
+          "builtUpArea": null,
+          "price": "89.75 Lacs",
+          "actualPrice": 8975000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 117620,
+          "bhk": "1 BHK",
+          "carpetArea": 416,
+          "carpetAreaDisplay": "416 sq.ft",
+          "builtUpArea": null,
+          "price": "91.96 Lacs",
+          "actualPrice": 9196000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 105368,
+          "bhk": "2 BHK",
+          "carpetArea": 570,
+          "carpetAreaDisplay": "570 sq.ft",
+          "builtUpArea": null,
+          "price": "1.26 Cr",
+          "actualPrice": 12600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19545/configurations/unit-plans/2-bhk/570-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/105368/original/2bhk-gur.png?1763201165",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 129589,
+          "bhk": "2 BHK",
+          "carpetArea": 600,
+          "carpetAreaDisplay": "600 sq.ft",
+          "builtUpArea": null,
+          "price": "1.33 Cr",
+          "actualPrice": 13300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19545/configurations/unit-plans/2-bhk/600-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/129589/original/2bhk-gur.png?1763201166",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "400 - 416 sq.ft",
+      "price": "88.42 Lacs - 91.96 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "570 - 600 sq.ft",
+      "price": "1.26 Cr - 1.33 Cr"
+    }
+  ]
+}

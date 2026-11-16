@@ -1,0 +1,70 @@
+{
+  "projectId": 18272,
+  "slug": "lodha-palais-kothrud-pid-18272",
+  "name": "Lodha Palais",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/lodha-palais-kothrud-pid-18272",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit"
+  ],
+  "masterPlans": [],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 90071,
+          "bhk": "3 BHK",
+          "carpetArea": 1679,
+          "carpetAreaDisplay": "1679 sq.ft",
+          "builtUpArea": null,
+          "price": "4.05 Cr",
+          "actualPrice": 40500000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18272/configurations/unit-plans/3-bhk/1679-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/90071/original/3_Bed-Residences-Unit-3-Tower-B-_-Unit-2-Tower-A.jpg?1764663849",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 115267,
+          "bhk": "4 BHK",
+          "carpetArea": 2023,
+          "carpetAreaDisplay": "2023 sq.ft",
+          "builtUpArea": null,
+          "price": "5.15 Cr",
+          "actualPrice": 51500000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18272/configurations/unit-plans/4-bhk/2023-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/115267/original/4-Bed-Residences-Tower-A-_-B.jpg?1764663849",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,679 sq.ft",
+      "price": "4.05 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,023 sq.ft",
+      "price": "5.15 Cr"
+    }
+  ]
+}

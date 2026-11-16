@@ -1,0 +1,78 @@
+{
+  "projectId": 9900,
+  "slug": "ilife-upper-nibm-nibm-road-pid-9900",
+  "name": "ILife Upper NIBM",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ilife-upper-nibm-nibm-road-pid-9900",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/9900/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3303/original/fp.png?1671454337"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 134139,
+          "bhk": "2 BHK",
+          "carpetArea": 715,
+          "carpetAreaDisplay": "715 sq.ft",
+          "builtUpArea": null,
+          "price": "55.0 Lacs",
+          "actualPrice": 5500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 134140,
+          "bhk": "3 BHK",
+          "carpetArea": 807,
+          "carpetAreaDisplay": "807 sq.ft",
+          "builtUpArea": null,
+          "price": "68.0 Lacs",
+          "actualPrice": 6800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "715 sq.ft",
+      "price": "55.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "807 sq.ft",
+      "price": "68.0 Lacs"
+    }
+  ]
+}

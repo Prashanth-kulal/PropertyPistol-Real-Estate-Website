@@ -1,0 +1,103 @@
+{
+  "projectId": 3042,
+  "slug": "ahuja-linkpark",
+  "name": "Ahuja Linkpark",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ahuja-linkpark-malad-west-pid-3042",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/3042/original/master_plan.jpeg?1579090407",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/1681/original/fp.jpeg?1579090408",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 65035,
+          "bhk": "2 BHK",
+          "carpetArea": 644,
+          "carpetAreaDisplay": "644 sq.ft",
+          "builtUpArea": null,
+          "price": "1.76 Cr",
+          "actualPrice": 17600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 5568,
+          "bhk": "2 BHK",
+          "carpetArea": 701,
+          "carpetAreaDisplay": "701 sq.ft",
+          "builtUpArea": null,
+          "price": "1.91 Cr",
+          "actualPrice": 19100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/5568/original/2bhk.jpeg?1579090407",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 5569,
+          "bhk": "3 BHK",
+          "carpetArea": 998,
+          "carpetAreaDisplay": "998 sq.ft",
+          "builtUpArea": null,
+          "price": "2.66 Cr",
+          "actualPrice": 26600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/5569/original/3bhk.jpeg?1579090407",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "644 - 701 sq.ft",
+      "price": "1.76 Cr - 1.91 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "998 sq.ft",
+      "price": "2.66 Cr"
+    }
+  ]
+}

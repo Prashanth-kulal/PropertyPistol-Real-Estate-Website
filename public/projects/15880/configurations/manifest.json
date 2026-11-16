@@ -1,0 +1,94 @@
+{
+  "projectId": 15880,
+  "slug": "punit-imperia-kharghar-pid-15880",
+  "name": "Punit Imperia",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/punit-imperia-kharghar-pid-15880",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/15880/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7256/original/download_%283%29.png?1733210738",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 106765,
+          "bhk": "2 BHK",
+          "carpetArea": 709,
+          "carpetAreaDisplay": "709 sq.ft",
+          "builtUpArea": null,
+          "price": "1.72 Cr",
+          "actualPrice": 17200000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 53284,
+          "bhk": "3 BHK",
+          "carpetArea": 1068,
+          "carpetAreaDisplay": "1068 sq.ft",
+          "builtUpArea": null,
+          "price": "2.65 Cr",
+          "actualPrice": 26500000,
+          "propertyType": "Flat",
+          "plan2D": "/projects/15880/configurations/unit-plans/3-bhk/1068-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/53284/original/3bhk_2d.JPG?1709295153",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 138396,
+          "bhk": "3 BHK",
+          "carpetArea": 1193,
+          "carpetAreaDisplay": "1193 sq.ft",
+          "builtUpArea": null,
+          "price": "2.96 Cr",
+          "actualPrice": 29600000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "709 sq.ft",
+      "price": "1.72 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,068 - 1,193 sq.ft",
+      "price": "2.65 Cr - 2.96 Cr"
+    }
+  ]
+}

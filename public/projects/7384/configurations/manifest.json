@@ -1,0 +1,60 @@
+{
+  "projectId": 7384,
+  "slug": "pharande-kairosa-punawale-pid-7384",
+  "name": "Pharande Kairosa",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/pharande-kairosa-punawale-pid-7384",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/7384/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/7384/original/mp.JPG?1671693529"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/7384/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3354/original/fp.png?1671693529"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 103625,
+          "bhk": "2 BHK",
+          "carpetArea": 752,
+          "carpetAreaDisplay": "752 sq.ft",
+          "builtUpArea": null,
+          "price": "78.0 Lacs",
+          "actualPrice": 7800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "752 sq.ft",
+      "price": "78.0 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "projectId": 5162,
+  "slug": "tirupati-nakshatra-hinjawadi-pid-5162",
+  "name": "Tirupati Nakshatra",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/tirupati-nakshatra-hinjawadi-pid-5162",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/5162/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/5162/original/mp.JPG?1673860081"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/5162/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3562/original/fp.JPG?1673860082"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 129871,
+          "bhk": "1 BHK",
+          "carpetArea": 387,
+          "carpetAreaDisplay": "387 sq.ft",
+          "builtUpArea": null,
+          "price": "25.11 Lacs",
+          "actualPrice": 2511000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 57338,
+          "bhk": "1 BHK",
+          "carpetArea": 391,
+          "carpetAreaDisplay": "391 sq.ft",
+          "builtUpArea": null,
+          "price": "25.29 Lacs",
+          "actualPrice": 2529000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 17004,
+          "bhk": "2 BHK",
+          "carpetArea": 580,
+          "carpetAreaDisplay": "580 sq.ft",
+          "builtUpArea": null,
+          "price": "38.12 Lacs",
+          "actualPrice": 3812000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/5162/configurations/unit-plans/2-bhk/580-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/17004/original/2.JPG?1673860081",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 93618,
+          "bhk": "2 BHK",
+          "carpetArea": 703,
+          "carpetAreaDisplay": "703 sq.ft",
+          "builtUpArea": null,
+          "price": "45.61 Lacs",
+          "actualPrice": 4561000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "387 - 391 sq.ft",
+      "price": "25.11 Lacs - 25.29 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "580 - 703 sq.ft",
+      "price": "38.12 Lacs - 45.61 Lacs"
+    }
+  ]
+}

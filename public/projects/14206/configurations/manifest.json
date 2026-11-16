@@ -1,0 +1,128 @@
+{
+  "projectId": 14206,
+  "slug": "skyi-iris-racecourse-wanowrie-pid-14206",
+  "name": "SKYi Iris Racecourse",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/skyi-iris-racecourse-wanowrie-pid-14206",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/14206/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/14206/original/Masterplan.JPG?1698127959"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/14206/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4764/original/floorplan.JPG?1698127959"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 72678,
+          "bhk": "3 BHK",
+          "carpetArea": 1314,
+          "carpetAreaDisplay": "1314 sq.ft",
+          "builtUpArea": null,
+          "price": "2.07 Cr",
+          "actualPrice": 20700000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 139501,
+          "bhk": "4 BHK",
+          "carpetArea": 1681,
+          "carpetAreaDisplay": "1681 sq.ft",
+          "builtUpArea": null,
+          "price": "2.56 Cr",
+          "actualPrice": 25600000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139502,
+          "bhk": "4 BHK",
+          "carpetArea": 3042,
+          "carpetAreaDisplay": "3042 sq.ft",
+          "builtUpArea": null,
+          "price": "6.56 Cr",
+          "actualPrice": 65600000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "5 BHK",
+      "variants": [
+        {
+          "id": 139503,
+          "bhk": "5 BHK",
+          "carpetArea": 3508,
+          "carpetAreaDisplay": "3508 sq.ft",
+          "builtUpArea": null,
+          "price": "7.56 Cr",
+          "actualPrice": 75600000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,314 sq.ft",
+      "price": "2.07 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,681 - 3,042 sq.ft",
+      "price": "2.56 Cr - 6.56 Cr"
+    },
+    {
+      "flat_type_name": "5 BHK",
+      "carpet_area": "3,508 sq.ft",
+      "price": "7.56 Cr"
+    }
+  ]
+}

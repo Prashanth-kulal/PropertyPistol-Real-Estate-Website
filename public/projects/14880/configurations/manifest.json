@@ -1,0 +1,75 @@
+{
+  "projectId": 14880,
+  "slug": "one-akshar-sanpada-pid-14880",
+  "name": "One Akshar",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/one-akshar-sanpada-pid-14880",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5166/original/download_%281%29.png?1702535049",
+      "downloaded": false
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5167/original/download.png?1702535049",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 56658,
+          "bhk": "4 BHK",
+          "carpetArea": 1196,
+          "carpetAreaDisplay": "1196 sq.ft",
+          "builtUpArea": null,
+          "price": "15.0 Cr",
+          "actualPrice": 150000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 111918,
+          "bhk": "4 BHK",
+          "carpetArea": 2542,
+          "carpetAreaDisplay": "2542 sq.ft",
+          "builtUpArea": null,
+          "price": "31.86 Cr",
+          "actualPrice": 318600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,196 - 2,542 sq.ft",
+      "price": "15.0 Cr - 31.86 Cr"
+    }
+  ]
+}

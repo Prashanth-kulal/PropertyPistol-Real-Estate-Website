@@ -1,0 +1,136 @@
+{
+  "projectId": 21374,
+  "slug": "chheda-imperial-matunga-east-pid-21374",
+  "name": "Chheda Imperial",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/chheda-imperial-matunga-east-pid-21374",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/21374/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/21374/original/ground-floor-plan.jpg?1788946048",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 132886,
+          "bhk": "3 BHK",
+          "carpetArea": 695,
+          "carpetAreaDisplay": "695 sq.ft",
+          "builtUpArea": null,
+          "price": "4.63 Cr",
+          "actualPrice": 46300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139367,
+          "bhk": "3 BHK",
+          "carpetArea": 867,
+          "carpetAreaDisplay": "867 sq.ft",
+          "builtUpArea": null,
+          "price": "5.78 Cr",
+          "actualPrice": 57800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139368,
+          "bhk": "3 BHK",
+          "carpetArea": 1110,
+          "carpetAreaDisplay": "1110 sq.ft",
+          "builtUpArea": null,
+          "price": "7.4 Cr",
+          "actualPrice": 74000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 132887,
+          "bhk": "2 BHK",
+          "carpetArea": 833,
+          "carpetAreaDisplay": "833 sq.ft",
+          "builtUpArea": null,
+          "price": "5.55 Cr",
+          "actualPrice": 55500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 139369,
+          "bhk": "4 BHK",
+          "carpetArea": 2400,
+          "carpetAreaDisplay": "2400 sq.ft",
+          "builtUpArea": null,
+          "price": "16.0 Cr",
+          "actualPrice": 160000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "695 - 1,110 sq.ft",
+      "price": "4.63 Cr - 7.4 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "833 sq.ft",
+      "price": "5.55 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "2,400 sq.ft",
+      "price": "16.0 Cr"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "projectId": 20552,
+  "slug": "birla-evam-manjri-pid-20552",
+  "name": "Birla Evam",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/birla-evam-manjri-pid-20552",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/20552/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/20552/original/mp.png?1791289974"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 123286,
+          "bhk": "2 BHK",
+          "carpetArea": 664,
+          "carpetAreaDisplay": "664 sq.ft",
+          "builtUpArea": null,
+          "price": "75.91 Lacs",
+          "actualPrice": 7591000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20552/configurations/unit-plans/2-bhk/664-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/123286/original/2.png?1791289974",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 138596,
+          "bhk": "2 BHK",
+          "carpetArea": 707,
+          "carpetAreaDisplay": "707 sq.ft",
+          "builtUpArea": null,
+          "price": "77.0 Lacs",
+          "actualPrice": 7700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 138597,
+          "bhk": "2 BHK",
+          "carpetArea": 789,
+          "carpetAreaDisplay": "789 sq.ft",
+          "builtUpArea": null,
+          "price": "84.0 Lacs",
+          "actualPrice": 8400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 138598,
+          "bhk": "2 BHK",
+          "carpetArea": 805,
+          "carpetAreaDisplay": "805 sq.ft",
+          "builtUpArea": null,
+          "price": "92.0 Lacs",
+          "actualPrice": 9200000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20552/configurations/unit-plans/2-bhk/805-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/138598/original/2.png?1791289974",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 138599,
+          "bhk": "3 BHK",
+          "carpetArea": 898,
+          "carpetAreaDisplay": "898 sq.ft",
+          "builtUpArea": null,
+          "price": "1.03 Cr",
+          "actualPrice": 10300000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20552/configurations/unit-plans/3-bhk/898-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/138599/original/3.png?1791289974",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        },
+        {
+          "id": 138600,
+          "bhk": "3 BHK",
+          "carpetArea": 1048,
+          "carpetAreaDisplay": "1048 sq.ft",
+          "builtUpArea": null,
+          "price": "1.2 Cr",
+          "actualPrice": 12000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 138601,
+          "bhk": "3 BHK",
+          "carpetArea": 1122,
+          "carpetAreaDisplay": "1122 sq.ft",
+          "builtUpArea": null,
+          "price": "1.22 Cr",
+          "actualPrice": 12200000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20552/configurations/unit-plans/3-bhk/1122-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/138601/original/3.png?1791289975",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "664 - 805 sq.ft",
+      "price": "75.91 Lacs - 92.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "898 - 1,122 sq.ft",
+      "price": "1.03 Cr - 1.22 Cr"
+    }
+  ]
+}

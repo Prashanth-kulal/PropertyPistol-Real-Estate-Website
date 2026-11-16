@@ -1,0 +1,68 @@
+{
+  "projectId": 21419,
+  "slug": "evana-by-geecee-bandra-east-pid-21419",
+  "name": "Evana By Geecee",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/evana-by-geecee-bandra-east-pid-21419",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21419/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9211/original/1.jpg?1771829736",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 132977,
+          "bhk": "2 BHK",
+          "carpetArea": 675,
+          "carpetAreaDisplay": "675 sq.ft",
+          "builtUpArea": null,
+          "price": "2.36 Cr",
+          "actualPrice": 23625000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 132978,
+          "bhk": "2 BHK",
+          "carpetArea": 693,
+          "carpetAreaDisplay": "693 sq.ft",
+          "builtUpArea": null,
+          "price": "2.43 Cr",
+          "actualPrice": 24255000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "675 - 693 sq.ft",
+      "price": "2.36 Cr - 2.43 Cr"
+    }
+  ]
+}

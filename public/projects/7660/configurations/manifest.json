@@ -1,0 +1,111 @@
+{
+  "projectId": 7660,
+  "slug": "mahaavir-exotique",
+  "name": "Mahaavir Exotique",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/mahaavir-exotique-kharghar-pid-7660",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit"
+  ],
+  "masterPlans": [],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 23711,
+          "bhk": "1 BHK",
+          "carpetArea": 415,
+          "carpetAreaDisplay": "415 sq.ft",
+          "builtUpArea": null,
+          "price": "61.14 Lacs",
+          "actualPrice": 6114000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/23711/original/f1.jpg?1694363405",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 137746,
+          "bhk": "1 BHK",
+          "carpetArea": 424,
+          "carpetAreaDisplay": "424 sq.ft",
+          "builtUpArea": null,
+          "price": "67.5 Lacs",
+          "actualPrice": 6750000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 23707,
+          "bhk": "2 BHK",
+          "carpetArea": 641,
+          "carpetAreaDisplay": "641 sq.ft",
+          "builtUpArea": null,
+          "price": "94.57 Lacs",
+          "actualPrice": 9457000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/23707/original/f3.jpg?1694363405",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 139122,
+          "bhk": "3 BHK",
+          "carpetArea": 700,
+          "carpetAreaDisplay": "700 sq.ft",
+          "builtUpArea": null,
+          "price": "1.75 Cr",
+          "actualPrice": 17500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "415 - 424 sq.ft",
+      "price": "61.14 Lacs - 67.5 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "641 sq.ft",
+      "price": "94.57 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "700 sq.ft",
+      "price": "1.75 Cr"
+    }
+  ]
+}

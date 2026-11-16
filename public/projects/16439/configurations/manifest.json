@@ -1,0 +1,94 @@
+{
+  "projectId": 16439,
+  "slug": "dream-aspire-andheri-west-pid-16439",
+  "name": "Dream Aspire",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/dream-aspire-andheri-west-pid-16439",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16439/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16439/original/masterplan_drea.png?1715687639",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 136978,
+          "bhk": "2 BHK",
+          "carpetArea": 713,
+          "carpetAreaDisplay": "713 sq.ft",
+          "builtUpArea": null,
+          "price": "2.24 Cr",
+          "actualPrice": 22400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 136979,
+          "bhk": "2 BHK",
+          "carpetArea": 918,
+          "carpetAreaDisplay": "918 sq.ft",
+          "builtUpArea": null,
+          "price": "2.85 Cr",
+          "actualPrice": 28500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 104340,
+          "bhk": "3 BHK",
+          "carpetArea": 1172,
+          "carpetAreaDisplay": "1172 sq.ft",
+          "builtUpArea": null,
+          "price": "3.28 Cr",
+          "actualPrice": 32800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "713 - 918 sq.ft",
+      "price": "2.24 Cr - 2.85 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,172 sq.ft",
+      "price": "3.28 Cr"
+    }
+  ]
+}

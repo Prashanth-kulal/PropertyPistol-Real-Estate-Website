@@ -1,0 +1,87 @@
+{
+  "projectId": 18274,
+  "slug": "belmac-infinity-panvel-pid-18274",
+  "name": "Belmac Infinity",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/belmac-infinity-panvel-pid-18274",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18274/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18274/original/mp.png?1748510100",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18274/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8262/original/fp.png?1748510103",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 90081,
+          "bhk": "1 BHK",
+          "carpetArea": 420,
+          "carpetAreaDisplay": "420 sq.ft",
+          "builtUpArea": null,
+          "price": "41.3 Lacs",
+          "actualPrice": 4129860,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18274/configurations/unit-plans/1-bhk/420-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/90081/original/1.png?1748510100",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 90082,
+          "bhk": "2 BHK",
+          "carpetArea": 650,
+          "carpetAreaDisplay": "650 sq.ft",
+          "builtUpArea": null,
+          "price": "63.91 Lacs",
+          "actualPrice": 6391450,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18274/configurations/unit-plans/2-bhk/650-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/90082/original/2.PNG?1748510100",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "420 sq.ft",
+      "price": "41.3 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "650 sq.ft",
+      "price": "63.91 Lacs"
+    }
+  ]
+}

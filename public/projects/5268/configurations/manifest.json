@@ -1,0 +1,176 @@
+{
+  "projectId": 5268,
+  "slug": "amanora-ascent-tower-hadapsar-pid-5268",
+  "name": "Amanora Ascent Tower",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/amanora-ascent-tower-hadapsar-pid-5268",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/5268/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/5268/original/mp.JPG?1669376552"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/5268/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2971/original/fp.png?1669376552"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 136384,
+          "bhk": "1 BHK",
+          "carpetArea": 482,
+          "carpetAreaDisplay": "482 sq.ft",
+          "builtUpArea": null,
+          "price": "90.13 Lacs",
+          "actualPrice": 9013000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 136385,
+          "bhk": "1 BHK",
+          "carpetArea": 532,
+          "carpetAreaDisplay": "532 sq.ft",
+          "builtUpArea": null,
+          "price": "99.48 Lacs",
+          "actualPrice": 9948000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 100360,
+          "bhk": "2 BHK",
+          "carpetArea": 747,
+          "carpetAreaDisplay": "747 sq.ft",
+          "builtUpArea": null,
+          "price": "1.4 Cr",
+          "actualPrice": 14000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 46979,
+          "bhk": "2 BHK",
+          "carpetArea": 782,
+          "carpetAreaDisplay": "782 sq.ft",
+          "builtUpArea": null,
+          "price": "1.46 Cr",
+          "actualPrice": 14600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 98136,
+          "bhk": "2 BHK",
+          "carpetArea": 817,
+          "carpetAreaDisplay": "817 sq.ft",
+          "builtUpArea": null,
+          "price": "1.53 Cr",
+          "actualPrice": 15300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 112532,
+          "bhk": "3 BHK",
+          "carpetArea": 1017,
+          "carpetAreaDisplay": "1017 sq.ft",
+          "builtUpArea": null,
+          "price": "2.0 Cr",
+          "actualPrice": 20000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 112531,
+          "bhk": "3 BHK",
+          "carpetArea": 1290,
+          "carpetAreaDisplay": "1290 sq.ft",
+          "builtUpArea": null,
+          "price": "2.41 Cr",
+          "actualPrice": 24100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "482 - 532 sq.ft",
+      "price": "90.13 Lacs - 99.48 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "747 - 817 sq.ft",
+      "price": "1.4 Cr - 1.53 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,017 - 1,290 sq.ft",
+      "price": "2.0 Cr - 2.41 Cr"
+    }
+  ]
+}

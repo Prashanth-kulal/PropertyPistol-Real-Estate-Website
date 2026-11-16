@@ -1,0 +1,52 @@
+{
+  "projectId": 19773,
+  "slug": "m-and-t-buildcon-sonali-apartment-khamla-pid-19773",
+  "name": "M and T Buildcon Sonali Apartment",
+  "city": "nagpur",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/m-and-t-buildcon-sonali-apartment-khamla-pid-19773",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19773/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7815/original/floor.PNG?1745919952"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 110241,
+          "bhk": "3 BHK",
+          "carpetArea": 840,
+          "carpetAreaDisplay": "840 sq.ft",
+          "builtUpArea": null,
+          "price": "1.0 Cr",
+          "actualPrice": 10000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/19773/configurations/unit-plans/3-bhk/840-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/110241/original/3bhk_3dnew.png?1745919950",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "840 sq.ft",
+      "price": "1.0 Cr"
+    }
+  ]
+}

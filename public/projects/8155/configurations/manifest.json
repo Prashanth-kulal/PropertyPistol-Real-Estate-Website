@@ -1,0 +1,142 @@
+{
+  "projectId": 8155,
+  "slug": "ambrosia-alley-hadapsar-pid-8155",
+  "name": "Ambrosia Alley",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ambrosia-alley-hadapsar-pid-8155",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/8155/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8869/original/amb.png?1762858001"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 138702,
+          "bhk": "1 BHK",
+          "carpetArea": 517,
+          "carpetAreaDisplay": "517 sq.ft",
+          "builtUpArea": null,
+          "price": "75.03 Lacs",
+          "actualPrice": 7503000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/8155/configurations/unit-plans/1-bhk/517-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/138702/original/download_%2824%29.png?1791782928",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 138703,
+          "bhk": "1 BHK",
+          "carpetArea": 518,
+          "carpetAreaDisplay": "518 sq.ft",
+          "builtUpArea": null,
+          "price": "75.17 Lacs",
+          "actualPrice": 7517000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 138704,
+          "bhk": "1 BHK",
+          "carpetArea": 552,
+          "carpetAreaDisplay": "552 sq.ft",
+          "builtUpArea": null,
+          "price": "80.11 Lacs",
+          "actualPrice": 8011000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 138705,
+          "bhk": "2 BHK",
+          "carpetArea": 757,
+          "carpetAreaDisplay": "757 sq.ft",
+          "builtUpArea": null,
+          "price": "1.1 Cr",
+          "actualPrice": 11000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/8155/configurations/unit-plans/2-bhk/757-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/138705/original/download_%2825%29.png?1791782929",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 138706,
+          "bhk": "2 BHK",
+          "carpetArea": 790,
+          "carpetAreaDisplay": "790 sq.ft",
+          "builtUpArea": null,
+          "price": "1.15 Cr",
+          "actualPrice": 11500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 138707,
+          "bhk": "2 BHK",
+          "carpetArea": 792,
+          "carpetAreaDisplay": "792 sq.ft",
+          "builtUpArea": null,
+          "price": "1.15 Cr",
+          "actualPrice": 11500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "517 - 552 sq.ft",
+      "price": "75.03 Lacs - 80.11 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "757 - 792 sq.ft",
+      "price": "1.1 Cr - 1.15 Cr"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "projectId": 13915,
+  "slug": "swastik-coral-vikhroli-east-pid-13915",
+  "name": "Swastik Coral ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/swastik-coral-vikhroli-east-pid-13915",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4518/original/b-map.jpg?1696588327",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 43007,
+          "bhk": "1 BHK",
+          "carpetArea": 366,
+          "carpetAreaDisplay": "366 sq.ft",
+          "builtUpArea": null,
+          "price": "79.23 Lacs",
+          "actualPrice": 7923000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 43008,
+          "bhk": "1 BHK",
+          "carpetArea": 410,
+          "carpetAreaDisplay": "410 sq.ft",
+          "builtUpArea": null,
+          "price": "88.76 Lacs",
+          "actualPrice": 8876000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 139741,
+          "bhk": "2 BHK",
+          "carpetArea": 512,
+          "carpetAreaDisplay": "512 sq.ft",
+          "builtUpArea": null,
+          "price": "1.11 Cr",
+          "actualPrice": 11100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139742,
+          "bhk": "2 BHK",
+          "carpetArea": 555,
+          "carpetAreaDisplay": "555 sq.ft",
+          "builtUpArea": null,
+          "price": "1.2 Cr",
+          "actualPrice": 12000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "366 - 410 sq.ft",
+      "price": "79.23 Lacs - 88.76 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "512 - 555 sq.ft",
+      "price": "1.11 Cr - 1.2 Cr"
+    }
+  ]
+}

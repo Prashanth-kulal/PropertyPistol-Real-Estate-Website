@@ -1,0 +1,78 @@
+{
+  "projectId": 7983,
+  "slug": "the-rao-heights-moshi-pid-7983",
+  "name": "The Rao Heights",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/the-rao-heights-moshi-pid-7983",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/7983/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2662/original/fp.jpg?1649230722"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 26285,
+          "bhk": "1 BHK",
+          "carpetArea": 578,
+          "carpetAreaDisplay": "578 sq.ft",
+          "builtUpArea": null,
+          "price": "52.0 Lacs",
+          "actualPrice": 5200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 78132,
+          "bhk": "2 BHK",
+          "carpetArea": 830,
+          "carpetAreaDisplay": "830 sq.ft",
+          "builtUpArea": null,
+          "price": "74.0 Lacs",
+          "actualPrice": 7400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "578 sq.ft",
+      "price": "52.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "830 sq.ft",
+      "price": "74.0 Lacs"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "projectId": 17656,
+  "slug": "haware-sky-chembur-pid-17656",
+  "name": "Haware Sky ",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/haware-sky-chembur-pid-17656",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/17656/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6772/original/fp_haware.png?1723471689",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 86548,
+          "bhk": "1 BHK",
+          "carpetArea": 372,
+          "carpetAreaDisplay": "372 sq.ft",
+          "builtUpArea": null,
+          "price": "1.01 Cr",
+          "actualPrice": 10100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/17656/configurations/unit-plans/1-bhk/372-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/86548/original/1b.PNG?1727114259",
+          "has2D": false,
+          "has3D": true
+        },
+        {
+          "id": 139177,
+          "bhk": "1 BHK",
+          "carpetArea": 395,
+          "carpetAreaDisplay": "395 sq.ft",
+          "builtUpArea": null,
+          "price": "1.08 Cr",
+          "actualPrice": 10800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 86551,
+          "bhk": "2 BHK",
+          "carpetArea": 547,
+          "carpetAreaDisplay": "547 sq.ft",
+          "builtUpArea": null,
+          "price": "1.49 Cr",
+          "actualPrice": 14900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139176,
+          "bhk": "2 BHK",
+          "carpetArea": 609,
+          "carpetAreaDisplay": "609 sq.ft",
+          "builtUpArea": null,
+          "price": "1.65 Cr",
+          "actualPrice": 16500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "372 - 395 sq.ft",
+      "price": "1.01 Cr - 1.08 Cr"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "547 - 609 sq.ft",
+      "price": "1.49 Cr - 1.65 Cr"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "projectId": 4124,
+  "slug": "parvati-vashtu",
+  "name": "Parvati Vashtu",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/parvati-vashtu-taloja-pid-4124",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2174/original/fp.PNG?1617097742",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 15182,
+          "bhk": "1 BHK",
+          "carpetArea": 274,
+          "carpetAreaDisplay": "274 sq.ft",
+          "builtUpArea": null,
+          "price": "34.0 Lacs",
+          "actualPrice": 3400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 131643,
+          "bhk": "1 BHK",
+          "carpetArea": 331,
+          "carpetAreaDisplay": "331 sq.ft",
+          "builtUpArea": null,
+          "price": "41.1 Lacs",
+          "actualPrice": 4110000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "274 - 331 sq.ft",
+      "price": "34.0 Lacs - 41.1 Lacs"
+    }
+  ]
+}

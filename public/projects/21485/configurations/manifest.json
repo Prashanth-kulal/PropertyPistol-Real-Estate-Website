@@ -1,0 +1,78 @@
+{
+  "projectId": 21485,
+  "slug": "chanakya-by-vadilal-creation-khidkali-pid-21485",
+  "name": "Chanakya by Vadilal Creation",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/chanakya-by-vadilal-creation-khidkali-pid-21485",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21485/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9594/original/fp.jpg?1784096569",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 133106,
+          "bhk": "1 BHK",
+          "carpetArea": 404,
+          "carpetAreaDisplay": "404 sq.ft",
+          "builtUpArea": null,
+          "price": "42.0 Lacs",
+          "actualPrice": 4200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/21485/configurations/unit-plans/1-bhk/404-sqft/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/133106/original/1.JPG?1784096569",
+          "has2D": false,
+          "has3D": true
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 133107,
+          "bhk": "2 BHK",
+          "carpetArea": 636,
+          "carpetAreaDisplay": "636 sq.ft",
+          "builtUpArea": null,
+          "price": "66.12 Lacs",
+          "actualPrice": 6612000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "404 sq.ft",
+      "price": "42.0 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "636 sq.ft",
+      "price": "66.12 Lacs"
+    }
+  ]
+}

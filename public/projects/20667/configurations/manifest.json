@@ -1,0 +1,78 @@
+{
+  "projectId": 20667,
+  "slug": "mythri-sity-doddakannelli-pid-20667",
+  "name": "Mythri Sity",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/mythri-sity-doddakannelli-pid-20667",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/20667/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/20667/original/ma.PNG?1766826139"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 126019,
+          "bhk": "2 BHK",
+          "carpetArea": 768,
+          "carpetAreaDisplay": "768 sq.ft",
+          "builtUpArea": null,
+          "price": "1.21 Cr",
+          "actualPrice": 12051456,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 126020,
+          "bhk": "4 BHK",
+          "carpetArea": 1625,
+          "carpetAreaDisplay": "1625 sq.ft",
+          "builtUpArea": null,
+          "price": "2.55 Cr",
+          "actualPrice": 25499500,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "768 sq.ft",
+      "price": "1.21 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,625 sq.ft",
+      "price": "2.55 Cr"
+    }
+  ]
+}

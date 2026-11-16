@@ -1,0 +1,78 @@
+{
+  "projectId": 19902,
+  "slug": "solitaire-kothrud-a-building-kothrud-pid-19902",
+  "name": "Solitaire Kothrud A Building",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/solitaire-kothrud-a-building-kothrud-pid-19902",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19902/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19902/original/ko.png?1748331877"
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 131734,
+          "bhk": "2 BHK",
+          "carpetArea": 1307,
+          "carpetAreaDisplay": "1307 sq.ft",
+          "builtUpArea": null,
+          "price": "2.91 Cr",
+          "actualPrice": 29100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 131735,
+          "bhk": "3 BHK",
+          "carpetArea": 1860,
+          "carpetAreaDisplay": "1860 sq.ft",
+          "builtUpArea": null,
+          "price": "4.28 Cr",
+          "actualPrice": 42800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "1,307 sq.ft",
+      "price": "2.91 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,860 sq.ft",
+      "price": "4.28 Cr"
+    }
+  ]
+}

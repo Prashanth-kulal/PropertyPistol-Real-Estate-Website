@@ -1,0 +1,84 @@
+{
+  "projectId": 19331,
+  "slug": "jn-aa-privilege-tathawade-pid-19331",
+  "name": "JN AA Privilege",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/jn-aa-privilege-tathawade-pid-19331",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19331/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7485/original/floor1.PNG?1741267521"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19331/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7486/original/floor2.PNG?1741267521"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 137811,
+          "bhk": "2 BHK",
+          "carpetArea": 736,
+          "carpetAreaDisplay": "736 sq.ft",
+          "builtUpArea": null,
+          "price": "78.0 Lacs",
+          "actualPrice": 7800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 137812,
+          "bhk": "3 BHK",
+          "carpetArea": 940,
+          "carpetAreaDisplay": "940 sq.ft",
+          "builtUpArea": null,
+          "price": "1.15 Cr",
+          "actualPrice": 11500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "736 sq.ft",
+      "price": "78.0 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "940 sq.ft",
+      "price": "1.15 Cr"
+    }
+  ]
+}

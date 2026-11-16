@@ -1,0 +1,183 @@
+{
+  "projectId": 14189,
+  "slug": "partum-reserve-by-rustomjee-dahisar-west-pid-14189",
+  "name": "Partum Reserve by Rustomjee",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/partum-reserve-by-rustomjee-dahisar-west-pid-14189",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/14189/original/Groundfloorplan.JPG?1698043354",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4751/original/floorplan.JPG?1698043354",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 93552,
+          "bhk": "2 BHK",
+          "carpetArea": 744,
+          "carpetAreaDisplay": "744 sq.ft",
+          "builtUpArea": null,
+          "price": "2.34 Cr",
+          "actualPrice": 23400000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 105798,
+          "bhk": "2 BHK",
+          "carpetArea": 751,
+          "carpetAreaDisplay": "751 sq.ft",
+          "builtUpArea": null,
+          "price": "2.36 Cr",
+          "actualPrice": 23600000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 44026,
+          "bhk": "2 BHK",
+          "carpetArea": 769,
+          "carpetAreaDisplay": "769 sq.ft",
+          "builtUpArea": null,
+          "price": "2.42 Cr",
+          "actualPrice": 24200000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 105799,
+          "bhk": "2 BHK",
+          "carpetArea": 823,
+          "carpetAreaDisplay": "823 sq.ft",
+          "builtUpArea": null,
+          "price": "2.59 Cr",
+          "actualPrice": 25900000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 44025,
+          "bhk": "3 BHK",
+          "carpetArea": 1184,
+          "carpetAreaDisplay": "1184 sq.ft",
+          "builtUpArea": null,
+          "price": "3.72 Cr",
+          "actualPrice": 37200000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 105800,
+          "bhk": "3 BHK",
+          "carpetArea": 1186,
+          "carpetAreaDisplay": "1186 sq.ft",
+          "builtUpArea": null,
+          "price": "3.73 Cr",
+          "actualPrice": 37300000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 63414,
+          "bhk": "3 BHK",
+          "carpetArea": 1187,
+          "carpetAreaDisplay": "1187 sq.ft",
+          "builtUpArea": null,
+          "price": "3.62 Cr",
+          "actualPrice": 36200000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 105801,
+          "bhk": "3 BHK",
+          "carpetArea": 1273,
+          "carpetAreaDisplay": "1273 sq.ft",
+          "builtUpArea": null,
+          "price": "4.0 Cr",
+          "actualPrice": 40000000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "744 - 823 sq.ft",
+      "price": "2.34 Cr - 2.59 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,184 - 1,273 sq.ft",
+      "price": "3.62 Cr - 4.0 Cr"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "projectId": 19750,
+  "slug": "infinity-greenwoods-balagere-pid-19750",
+  "name": "Infinity Greenwoods",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/infinity-greenwoods-balagere-pid-19750",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19750/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7794/original/floor1.PNG?1745563587"
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19750/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7795/original/floor2.PNG?1745563587"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 109587,
+          "bhk": "2 BHK",
+          "carpetArea": 839,
+          "carpetAreaDisplay": "839 sq.ft",
+          "builtUpArea": null,
+          "price": "98.1 Lacs",
+          "actualPrice": 9809588,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 109588,
+          "bhk": "3 BHK",
+          "carpetArea": 1157,
+          "carpetAreaDisplay": "1157 sq.ft",
+          "builtUpArea": null,
+          "price": "1.35 Cr",
+          "actualPrice": 13527644,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "839 sq.ft",
+      "price": "98.1 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,157 sq.ft",
+      "price": "1.35 Cr"
+    }
+  ]
+}

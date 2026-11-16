@@ -1,0 +1,142 @@
+{
+  "projectId": 10351,
+  "slug": "harivishva-infinia-tathawade-pid-10351",
+  "name": "Harivishva Infinia",
+  "city": "pune",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/harivishva-infinia-tathawade-pid-10351",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/10351/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3018/original/fp.png?1669638115"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 137236,
+          "bhk": "2 BHK",
+          "carpetArea": 691,
+          "carpetAreaDisplay": "691 sq.ft",
+          "builtUpArea": null,
+          "price": "86.42 Lacs",
+          "actualPrice": 8642000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 34519,
+          "bhk": "2 BHK",
+          "carpetArea": 776,
+          "carpetAreaDisplay": "776 sq.ft",
+          "builtUpArea": null,
+          "price": "96.32 Lacs",
+          "actualPrice": 9632000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/10351/configurations/unit-plans/2-bhk/776-sqft/plan-2d.webp",
+          "plan3D": "/projects/10351/configurations/unit-plans/2-bhk/776-sqft/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/34519/original/2.JPG?1669638114",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/34519/original/2b.JPG?1669638114",
+          "has2D": true,
+          "has3D": true
+        },
+        {
+          "id": 135921,
+          "bhk": "2 BHK",
+          "carpetArea": 822,
+          "carpetAreaDisplay": "822 sq.ft",
+          "builtUpArea": null,
+          "price": "1.02 Cr",
+          "actualPrice": 10200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 137235,
+          "bhk": "2 BHK",
+          "carpetArea": 856,
+          "carpetAreaDisplay": "856 sq.ft",
+          "builtUpArea": null,
+          "price": "1.06 Cr",
+          "actualPrice": 10600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 140128,
+          "bhk": "3 BHK",
+          "carpetArea": 968,
+          "carpetAreaDisplay": "968 sq.ft",
+          "builtUpArea": null,
+          "price": "1.2 Cr",
+          "actualPrice": 12000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 140129,
+          "bhk": "3 BHK",
+          "carpetArea": 1051,
+          "carpetAreaDisplay": "1051 sq.ft",
+          "builtUpArea": null,
+          "price": "1.3 Cr",
+          "actualPrice": 13000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "691 - 856 sq.ft",
+      "price": "86.42 Lacs - 1.06 Cr"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "968 - 1,051 sq.ft",
+      "price": "1.2 Cr - 1.3 Cr"
+    }
+  ]
+}

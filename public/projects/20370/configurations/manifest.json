@@ -1,0 +1,60 @@
+{
+  "projectId": 20370,
+  "slug": "bren-aspera-old-madras-road-pid-20370",
+  "name": "Bren Aspera",
+  "city": "bangalore",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/bren-aspera-old-madras-road-pid-20370",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/20370/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/20370/original/master.PNG?1753783142"
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20370/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8651/original/floor.PNG?1753783147"
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 121079,
+          "bhk": "3 BHK",
+          "carpetArea": 1680,
+          "carpetAreaDisplay": "1680 sq.ft",
+          "builtUpArea": null,
+          "price": "1.99 Cr",
+          "actualPrice": 19900000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20370/configurations/unit-plans/3-bhk/1680-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/121079/original/3bhk_2d.PNG?1753783142",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,680 sq.ft",
+      "price": "1.99 Cr"
+    }
+  ]
+}

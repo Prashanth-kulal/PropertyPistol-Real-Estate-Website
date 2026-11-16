@@ -1,0 +1,78 @@
+{
+  "projectId": 4672,
+  "slug": "sai-galaxy-shilphata-pid-4672",
+  "name": "Sai Galaxy",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sai-galaxy-shilphata-pid-4672",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2924/original/fp.png?1739441997",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 BHK",
+      "variants": [
+        {
+          "id": 131404,
+          "bhk": "1 BHK",
+          "carpetArea": 359,
+          "carpetAreaDisplay": "359 sq.ft",
+          "builtUpArea": null,
+          "price": "29.75 Lacs",
+          "actualPrice": 2975000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
+        {
+          "id": 21413,
+          "bhk": "2 BHK",
+          "carpetArea": 500,
+          "carpetAreaDisplay": "500 sq.ft",
+          "builtUpArea": null,
+          "price": "41.8 Lacs",
+          "actualPrice": 4180000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/21413/original/2.JPG?1669274422",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 BHK",
+      "carpet_area": "359 sq.ft",
+      "price": "29.75 Lacs"
+    },
+    {
+      "flat_type_name": "2 BHK",
+      "carpet_area": "500 sq.ft",
+      "price": "41.8 Lacs"
+    }
+  ]
+}

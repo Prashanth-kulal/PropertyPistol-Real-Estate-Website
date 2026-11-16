@@ -1,0 +1,177 @@
+{
+  "projectId": 11318,
+  "slug": "lodha-bellevue",
+  "name": "Lodha Bellevue",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/lodha-bellevue-mahalaxmi-east-pid-11318",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-16",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/11318/original/mp_%282%29.jpg?1746705295",
+      "downloaded": false
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": null,
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9075/original/download_-_2025-12-09T135809.569.png?1765268924",
+      "downloaded": false
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 129301,
+          "bhk": "3 BHK",
+          "carpetArea": 1111,
+          "carpetAreaDisplay": "1111 sq.ft",
+          "builtUpArea": null,
+          "price": "6.29 Cr",
+          "actualPrice": 62900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139563,
+          "bhk": "3 BHK",
+          "carpetArea": 1162,
+          "carpetAreaDisplay": "1162 sq.ft",
+          "builtUpArea": null,
+          "price": "6.44 Cr",
+          "actualPrice": 64400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139564,
+          "bhk": "3 BHK",
+          "carpetArea": 1206,
+          "carpetAreaDisplay": "1206 sq.ft",
+          "builtUpArea": null,
+          "price": "6.83 Cr",
+          "actualPrice": 68300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 55580,
+          "bhk": "4 BHK",
+          "carpetArea": 1602,
+          "carpetAreaDisplay": "1602 sq.ft",
+          "builtUpArea": null,
+          "price": "9.08 Cr",
+          "actualPrice": 90800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/55580/original/4.PNG?1732012208",
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139565,
+          "bhk": "4 BHK",
+          "carpetArea": 1640,
+          "carpetAreaDisplay": "1640 sq.ft",
+          "builtUpArea": null,
+          "price": "9.29 Cr",
+          "actualPrice": 92900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        },
+        {
+          "id": 139566,
+          "bhk": "4 BHK",
+          "carpetArea": 1960,
+          "carpetAreaDisplay": "1960 sq.ft",
+          "builtUpArea": null,
+          "price": "11.11 Cr",
+          "actualPrice": 111100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "5 BHK",
+      "variants": [
+        {
+          "id": 139567,
+          "bhk": "5 BHK",
+          "carpetArea": 2400,
+          "carpetAreaDisplay": "2400 sq.ft",
+          "builtUpArea": null,
+          "price": "13.6 Cr",
+          "actualPrice": 136000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "1,111 - 1,206 sq.ft",
+      "price": "6.29 Cr - 6.83 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "1,602 - 1,960 sq.ft",
+      "price": "9.08 Cr - 11.11 Cr"
+    },
+    {
+      "flat_type_name": "5 BHK",
+      "carpet_area": "2,400 sq.ft",
+      "price": "13.6 Cr"
+    }
+  ]
+}
