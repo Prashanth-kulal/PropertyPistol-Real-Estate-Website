@@ -16,13 +16,65 @@ import {
 import { getProjectConfigurations, cacheProjectManifest } from "@/data/configurations";
 
 /**
- * Format price string to match the reference style: "INR 4.89 Cr" or "INR 53.91 Lacs"
+ * Extract a numeric area from any available variant field
+ * Priority: carpetArea -> builtUpArea -> area -> superBuiltUpArea
+ */
+function resolveAreaNumber(v) {
+  if (!v) return null;
+  const parseVal = (val) => {
+    if (val == null) return null;
+    if (typeof val === "number" && !isNaN(val) && val > 0) return val;
+    const s = String(val).trim();
+    if (!s || /on\s*request/i.test(s) || s === "null" || s === "undefined") return null;
+    const num = parseFloat(s.replace(/[^0-9.]/g, ""));
+    return !isNaN(num) && num > 0 ? num : null;
+  };
+  return parseVal(v.carpetArea) || parseVal(v.builtUpArea) || parseVal(v.area) || parseVal(v.superBuiltUpArea);
+}
+
+/**
+ * Generate clean, human-readable labels for variant tabs:
+ * e.g. "1000 Sq.ft.", "1250 Sq.ft."
+ * Disambiguates identical areas within the same BHK with (A), (B)
+ * If no numeric area is found: "Area on Request" (single variant) or "Variant 1", "Variant 2"
+ */
+function getVariantTabLabels(variants) {
+  if (!variants || variants.length === 0) return [];
+  const areas = variants.map(resolveAreaNumber);
+
+  // Count occurrences of each area
+  const counts = {};
+  areas.forEach((a) => {
+    if (a != null) counts[a] = (counts[a] || 0) + 1;
+  });
+
+  const seen = {};
+  return variants.map((v, i) => {
+    const a = areas[i];
+    if (a != null) {
+      if (counts[a] > 1) {
+        seen[a] = (seen[a] || 0) + 1;
+        const tag = String.fromCharCode(64 + seen[a]); // A, B, C...
+        return `${a} Sq.ft. (${tag})`;
+      }
+      return `${a} Sq.ft.`;
+    }
+    if (variants.length === 1) {
+      return "Area on Request";
+    }
+    return `Variant ${i + 1}`;
+  });
+}
+
+/**
+ * Format price string to match reference style: "INR 4.89 Cr" or "INR 53.91 Lacs"
  */
 function formatPriceDisplay(priceStr) {
-  if (!priceStr || priceStr === "On Request" || priceStr === "Price on Request") {
+  if (!priceStr || /on\s*request/i.test(String(priceStr))) {
     return "On Request";
   }
-  const clean = String(priceStr).replace(/^₹\s*/, "").trim();
+  const clean = String(priceStr).replace(/^[₹\s]+/, "").trim();
+  if (!clean) return "On Request";
   if (clean.toLowerCase().startsWith("inr")) {
     return clean;
   }
@@ -33,14 +85,15 @@ function formatPriceDisplay(priceStr) {
  * Format area display: "1000 Sq.ft."
  */
 function formatAreaDisplay(areaVal) {
-  if (!areaVal || areaVal === "On Request") {
+  if (!areaVal) return "On Request";
+  const s = String(areaVal).trim();
+  if (!s || /on\s*request/i.test(s) || s === "null" || s === "undefined") {
     return "On Request";
   }
-  const str = String(areaVal).trim();
-  if (/sq\.?ft/i.test(str)) {
-    return str.replace(/sq\.?ft\.?/i, "Sq.ft.");
+  if (/sq\.?ft/i.test(s)) {
+    return s.replace(/sq\.?ft\.?/i, "Sq.ft.");
   }
-  return `${str} Sq.ft.`;
+  return `${s} Sq.ft.`;
 }
 
 export default function ConfigurationsSection({ project, onOpenEnquiry, onScheduleVisit }) {
@@ -73,7 +126,7 @@ export default function ConfigurationsSection({ project, onOpenEnquiry, onSchedu
           setConfigData(manifest);
         }
       })
-      .catch(() => {});
+      .catch(() => { });
   }, [project?.id, project?.sourceId, configData?.verificationStatus, configData?.projectId]);
 
   // Determine available genuine plan types (Unit Plans | Master Plan | Site Plan)
@@ -106,6 +159,13 @@ export default function ConfigurationsSection({ project, onOpenEnquiry, onSchedu
 
   // Active BHK group
   const activeBhkGroup = configData?.unitPlans?.[activeBhkIndex] || null;
+
+  // Compute tab labels for the variants of the active BHK group
+  const variantTabLabels = useMemo(() => {
+    if (!activeBhkGroup?.variants || activeBhkGroup.variants.length === 0) return [];
+    return getVariantTabLabels(activeBhkGroup.variants);
+  }, [activeBhkGroup]);
+
   // Active area variant
   const activeVariant =
     activeBhkGroup?.variants?.[activeVariantIndex] || activeBhkGroup?.variants?.[0] || null;
@@ -114,27 +174,23 @@ export default function ConfigurationsSection({ project, onOpenEnquiry, onSchedu
   const has2D = Boolean(activeVariant?.plan2D || activeVariant?.twoDOriginalUrl);
   const has3D = Boolean(activeVariant?.plan3D || activeVariant?.threeDOriginalUrl);
 
-  // Sync viewMode preference
+  // When changing variants: if user is in 3D mode but the new variant has NO 3D plan while having 2D, fallback to 2D
   useEffect(() => {
-    if (has2D) {
-      setViewMode("2D");
-    } else if (has3D) {
-      setViewMode("3D");
-    } else {
+    if (viewMode === "3D" && !has3D && has2D) {
       setViewMode("2D");
     }
-  }, [activeVariant, has2D, has3D]);
+  }, [activeVariant, has2D, has3D, viewMode]);
 
   // Active displayed image for unit plan
   const unitPlanImage = useMemo(() => {
     if (!activeVariant) return null;
-    if (viewMode === "2D" && (activeVariant.plan2D || activeVariant.twoDOriginalUrl)) {
-      return activeVariant.plan2D || activeVariant.twoDOriginalUrl;
+    if (viewMode === "2D") {
+      return activeVariant.plan2D || activeVariant.twoDOriginalUrl || null;
     }
-    if (viewMode === "3D" && (activeVariant.plan3D || activeVariant.threeDOriginalUrl)) {
-      return activeVariant.plan3D || activeVariant.threeDOriginalUrl;
+    if (viewMode === "3D") {
+      return activeVariant.plan3D || activeVariant.threeDOriginalUrl || null;
     }
-    return null;
+    return activeVariant.plan2D || activeVariant.twoDOriginalUrl || null;
   }, [activeVariant, viewMode]);
 
   // Active master plan image
@@ -169,9 +225,9 @@ export default function ConfigurationsSection({ project, onOpenEnquiry, onSchedu
           <button
             type="button"
             onClick={() => setActivePlanType("unit")}
-            className={`px-5 py-2 rounded-lg text-sm font-semibold transition-all cursor-pointer ${
+            className={`px-5 py-2 rounded-md text-sm font-semibold transition-all cursor-pointer ${
               activePlanType === "unit"
-                ? "border-2 border-[#EA580C] text-[#252525] bg-white shadow-2xs"
+                ? "border border-[#EA580C] text-[#252525] bg-white shadow-2xs"
                 : "border border-gray-200 text-gray-600 hover:text-gray-900 bg-white"
             }`}
           >
@@ -182,9 +238,9 @@ export default function ConfigurationsSection({ project, onOpenEnquiry, onSchedu
             <button
               type="button"
               onClick={() => setActivePlanType("master")}
-              className={`px-5 py-2 rounded-lg text-sm font-semibold transition-all cursor-pointer flex items-center gap-1.5 ${
+              className={`px-5 py-2 rounded-md text-sm font-semibold transition-all cursor-pointer flex items-center gap-1.5 ${
                 activePlanType === "master"
-                  ? "border-2 border-[#EA580C] text-[#252525] bg-white shadow-2xs"
+                  ? "border border-[#EA580C] text-[#252525] bg-white shadow-2xs"
                   : "border border-gray-200 text-gray-600 hover:text-gray-900 bg-white"
               }`}
             >
@@ -197,9 +253,9 @@ export default function ConfigurationsSection({ project, onOpenEnquiry, onSchedu
             <button
               type="button"
               onClick={() => setActivePlanType("site")}
-              className={`px-5 py-2 rounded-lg text-sm font-semibold transition-all cursor-pointer flex items-center gap-1.5 ${
+              className={`px-5 py-2 rounded-md text-sm font-semibold transition-all cursor-pointer flex items-center gap-1.5 ${
                 activePlanType === "site"
-                  ? "border-2 border-[#EA580C] text-[#252525] bg-white shadow-2xs"
+                  ? "border border-[#EA580C] text-[#252525] bg-white shadow-2xs"
                   : "border border-gray-200 text-gray-600 hover:text-gray-900 bg-white"
               }`}
             >
@@ -212,7 +268,7 @@ export default function ConfigurationsSection({ project, onOpenEnquiry, onSchedu
 
       {/* 2. UNIT PLANS MAIN CARD */}
       {activePlanType === "unit" && (
-        <div className="rounded-2xl border border-gray-200 bg-white shadow-xs overflow-hidden">
+        <div className="rounded-lg border border-gray-200 bg-white shadow-xs overflow-hidden">
           {/* Top of Card: Boxed BHK buttons & Area selectors */}
           <div className="p-6 pb-0">
             {/* Boxed BHK Button(s) */}
@@ -225,9 +281,9 @@ export default function ConfigurationsSection({ project, onOpenEnquiry, onSchedu
                       key={grp.bhk || idx}
                       type="button"
                       onClick={() => setActiveBhkIndex(idx)}
-                      className={`px-6 py-2.5 rounded-sm text-sm font-bold transition-all cursor-pointer border ${
+                      className={`px-6 py-2 rounded-xs text-sm font-bold transition-all cursor-pointer border ${
                         isActive
-                          ? "border-gray-300 border-b-2 border-b-[#EA580C] bg-white text-[#252525] shadow-2xs"
+                          ? "border-gray-200 border-b-2 border-b-[#EA580C] bg-white text-[#252525] shadow-2xs"
                           : "border-gray-200 text-gray-500 hover:text-gray-900 bg-gray-50/60"
                       }`}
                     >
@@ -240,19 +296,18 @@ export default function ConfigurationsSection({ project, onOpenEnquiry, onSchedu
 
             {/* Area Size Selector (under selected BHK) */}
             {activeBhkGroup?.variants && activeBhkGroup.variants.length > 0 && (
-              <div className="flex items-center gap-8 overflow-x-auto pt-2 pb-0 scrollbar-none">
-                {activeBhkGroup.variants.map((v, vIdx) => {
-                  const label = formatAreaDisplay(v.carpetArea || v.carpetAreaDisplay || `Variant ${vIdx + 1}`);
+              <div className="flex items-center gap-8 overflow-x-auto pt-2 pb-0 scrollbar-none -mb-[1px]">
+                {variantTabLabels.map((label, vIdx) => {
                   const isActive = activeVariantIndex === vIdx;
                   return (
                     <button
-                      key={v.id || vIdx}
+                      key={activeBhkGroup.variants[vIdx]?.id || vIdx}
                       type="button"
                       onClick={() => setActiveVariantIndex(vIdx)}
-                      className={`text-sm font-bold transition-all relative pb-2.5 cursor-pointer whitespace-nowrap ${
+                      className={`text-sm transition-all relative pb-2.5 cursor-pointer whitespace-nowrap ${
                         isActive
-                          ? "text-[#252525] border-b-2 border-[#EA580C]"
-                          : "text-gray-500 hover:text-gray-900 border-b-2 border-transparent"
+                          ? "text-[#252525] font-bold border-b-2 border-[#EA580C]"
+                          : "text-gray-500 hover:text-gray-900 font-medium border-b-2 border-transparent"
                       }`}
                     >
                       {label}
@@ -263,66 +318,73 @@ export default function ConfigurationsSection({ project, onOpenEnquiry, onSchedu
             )}
           </div>
 
-          {/* Full-width Divider Line */}
+          {/* Full-width Divider Line directly below area tabs */}
           <div className="border-b border-gray-200 w-full" />
 
           {/* Two-Column Layout (Left Specs | Right Plan Image with 2D/3D toggle) */}
           <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-gray-200">
             {/* LEFT COLUMN: 2x2 Specifications Grid */}
             <div className="p-6 md:p-8 flex flex-col justify-center">
-              <div className="grid grid-cols-2 gap-y-10 gap-x-8">
+              <div className="grid grid-cols-2 gap-y-8 gap-x-6 sm:gap-x-10">
                 {/* Price */}
                 <div>
-                  <div className="flex items-center gap-1.5 text-xs text-gray-500 font-medium">
+                  <div className="flex items-center gap-1.5 text-xs text-gray-500 font-normal">
                     <span className="font-semibold text-gray-400">₹</span> Price:
                   </div>
-                  <div className="text-xl sm:text-2xl font-extrabold text-[#252525] mt-1.5 tracking-tight">
+                  <div className="text-base sm:text-lg font-bold text-[#252525] mt-1 tracking-tight">
                     {formatPriceDisplay(activeVariant?.price || project?.price)}
                   </div>
                 </div>
 
                 {/* Builtup Area */}
                 <div>
-                  <div className="flex items-center gap-1.5 text-xs text-gray-500 font-medium">
-                    <Scan className="w-3.5 h-3.5 text-gray-400" /> Builtup Area:
+                  <div className="flex items-center gap-1.5 text-xs text-gray-500 font-normal">
+                    <Scan className="w-3.5 h-3.5 text-gray-400 stroke-[1.75]" /> Builtup Area:
                   </div>
-                  <div className="text-xl sm:text-2xl font-extrabold text-[#252525] mt-1.5 tracking-tight">
-                    {formatAreaDisplay(activeVariant?.builtUpArea || project?.builtUpArea || "On Request")}
+                  <div className="text-base sm:text-lg font-bold text-[#252525] mt-1 tracking-tight">
+                    {formatAreaDisplay(
+                      activeVariant?.builtUpArea ||
+                      (activeVariant?.builtUpAreaDisplay !== "On Request" ? activeVariant?.builtUpAreaDisplay : null) ||
+                      project?.builtUpArea
+                    )}
                   </div>
                 </div>
 
                 {/* Carpet Area */}
                 <div>
-                  <div className="flex items-center gap-1.5 text-xs text-gray-500 font-medium">
-                    <Scan className="w-3.5 h-3.5 text-gray-400" /> Carpet Area:
+                  <div className="flex items-center gap-1.5 text-xs text-gray-500 font-normal">
+                    <Scan className="w-3.5 h-3.5 text-gray-400 stroke-[1.75]" /> Carpet Area:
                   </div>
-                  <div className="text-xl sm:text-2xl font-extrabold text-[#252525] mt-1.5 tracking-tight">
-                    {formatAreaDisplay(activeVariant?.carpetArea || project?.carpetArea || "On Request")}
+                  <div className="text-base sm:text-lg font-bold text-[#252525] mt-1 tracking-tight">
+                    {formatAreaDisplay(
+                      activeVariant?.carpetArea ||
+                      (activeVariant?.carpetAreaDisplay !== "On Request" ? activeVariant?.carpetAreaDisplay : null) ||
+                      project?.carpetArea
+                    )}
                   </div>
                 </div>
 
                 {/* Property Type */}
                 <div>
-                  <div className="flex items-center gap-1.5 text-xs text-gray-500 font-medium">
-                    <Building2 className="w-3.5 h-3.5 text-gray-400" /> Property Type:
+                  <div className="flex items-center gap-1.5 text-xs text-gray-500 font-normal">
+                    <Building2 className="w-3.5 h-3.5 text-gray-400 stroke-[1.75]" /> Property Type:
                   </div>
-                  <div className="text-xl sm:text-2xl font-extrabold text-[#252525] mt-1.5 tracking-tight">
-                    {activeVariant?.propertyType || project?.type || "Apartment"}
+                  <div className="text-base sm:text-lg font-bold text-[#252525] mt-1 tracking-tight">
+                    {activeVariant?.propertyType || project?.propertyType || project?.type || "Apartment"}
                   </div>
                 </div>
               </div>
             </div>
 
             {/* RIGHT COLUMN: Plan Image Container with 2D / 3D pill toggle */}
-            <div className="p-6 md:p-8 relative flex flex-col items-center justify-center min-h-[320px]">
+            <div className="p-6 md:p-8 relative flex flex-col items-center justify-center min-h-[300px]">
               {/* 2D / 3D Pill Toggle positioned in UPPER RIGHT corner */}
               <div className="absolute top-4 right-4 z-10">
-                <div className="inline-flex rounded-full border border-gray-300 bg-white p-0.5 shadow-2xs">
+                <div className="inline-flex items-center rounded-full border border-gray-200 bg-white p-0.5 shadow-2xs">
                   <button
                     type="button"
                     onClick={() => setViewMode("2D")}
-                    disabled={!has2D && !has3D}
-                    className={`px-3.5 py-1 rounded-l-full text-xs font-bold transition-all cursor-pointer ${
+                    className={`px-3 py-0.5 rounded-full text-xs font-bold transition-all cursor-pointer ${
                       viewMode === "2D"
                         ? "bg-[#EA580C] text-white shadow-2xs"
                         : "text-gray-400 hover:text-gray-700 bg-transparent"
@@ -333,14 +395,11 @@ export default function ConfigurationsSection({ project, onOpenEnquiry, onSchedu
                   <button
                     type="button"
                     onClick={() => setViewMode("3D")}
-                    disabled={!has3D}
-                    className={`px-3.5 py-1 rounded-r-full text-xs font-bold transition-all cursor-pointer ${
+                    className={`px-3 py-0.5 rounded-full text-xs font-bold transition-all cursor-pointer ${
                       viewMode === "3D"
                         ? "bg-[#EA580C] text-white shadow-2xs"
-                        : has3D
-                        ? "text-gray-400 hover:text-gray-700 bg-transparent"
-                        : "text-gray-300 cursor-not-allowed bg-transparent"
-                    }`}
+                        : "text-gray-400 hover:text-gray-700 bg-transparent"
+                      }`}
                   >
                     3D
                   </button>
@@ -426,7 +485,7 @@ export default function ConfigurationsSection({ project, onOpenEnquiry, onSchedu
 
       {/* 3. MASTER PLAN CONTENT */}
       {activePlanType === "master" && configData?.masterPlans?.length > 0 && (
-        <div className="rounded-2xl border border-gray-200 bg-white p-6 shadow-xs space-y-4">
+        <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-xs space-y-4">
           <div className="flex items-center justify-between">
             <span className="text-sm font-bold text-[#252525]">
               Master Architectural Plan
@@ -438,7 +497,7 @@ export default function ConfigurationsSection({ project, onOpenEnquiry, onSchedu
                     key={mp.id || idx}
                     type="button"
                     onClick={() => setActiveMasterPlanIdx(idx)}
-                    className={`px-3 py-1 rounded-lg text-xs font-bold border ${
+                    className={`px-3 py-1 rounded-md text-xs font-bold border ${
                       activeMasterPlanIdx === idx
                         ? "bg-[#EA580C] text-white border-[#EA580C]"
                         : "bg-white text-gray-600 border-gray-200"
@@ -451,7 +510,7 @@ export default function ConfigurationsSection({ project, onOpenEnquiry, onSchedu
             )}
           </div>
 
-          <div className="relative rounded-xl overflow-hidden bg-gray-50 border border-gray-100 p-4 flex items-center justify-center group">
+          <div className="relative rounded-lg overflow-hidden bg-gray-50 border border-gray-100 p-4 flex items-center justify-center group">
             <img
               src={currentMasterPlan?.path || currentMasterPlan?.originalUrl}
               alt={`${project?.name || "Project"} Master Plan`}
@@ -472,7 +531,7 @@ export default function ConfigurationsSection({ project, onOpenEnquiry, onSchedu
 
       {/* 4. SITE / LAYOUT PLAN CONTENT */}
       {activePlanType === "site" && configData?.sitePlans?.length > 0 && (
-        <div className="rounded-2xl border border-gray-200 bg-white p-6 shadow-xs space-y-4">
+        <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-xs space-y-4">
           <div className="flex items-center justify-between">
             <span className="text-sm font-bold text-[#252525]">
               Site & Tower Layout Plan
@@ -484,7 +543,7 @@ export default function ConfigurationsSection({ project, onOpenEnquiry, onSchedu
                     key={sp.id || idx}
                     type="button"
                     onClick={() => setActiveSitePlanIdx(idx)}
-                    className={`px-3 py-1 rounded-lg text-xs font-bold border ${
+                    className={`px-3 py-1 rounded-md text-xs font-bold border ${
                       activeSitePlanIdx === idx
                         ? "bg-[#EA580C] text-white border-[#EA580C]"
                         : "bg-white text-gray-600 border-gray-200"
@@ -497,7 +556,7 @@ export default function ConfigurationsSection({ project, onOpenEnquiry, onSchedu
             )}
           </div>
 
-          <div className="relative rounded-xl overflow-hidden bg-gray-50 border border-gray-100 p-4 flex items-center justify-center group">
+          <div className="relative rounded-lg overflow-hidden bg-gray-50 border border-gray-100 p-4 flex items-center justify-center group">
             <img
               src={currentSitePlan?.path || currentSitePlan?.originalUrl}
               alt={`${project?.name || "Project"} Site Plan`}

@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
 import { X, ArrowLeftRight } from "lucide-react";
 
 export default function UnitConverterModal({ isOpen, onClose }) {
@@ -95,6 +96,13 @@ export default function UnitConverterModal({ isOpen, onClose }) {
           >
             Close Converter
           </button>
+          <Link
+            href="/unit-converter"
+            onClick={onClose}
+            className="block text-center text-xs font-semibold text-[#AE7419] hover:underline pt-1"
+          >
+            Open Full Unit Converter Page &rarr;
+          </Link>
         </div>
       </div>
     </div>

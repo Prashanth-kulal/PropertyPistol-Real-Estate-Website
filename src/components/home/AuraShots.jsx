@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Link from "next/link";
 import {
   ShieldCheck,
   Calculator,
@@ -13,11 +14,7 @@ import {
 } from "lucide-react";
 import { SHOTS_TOOLS } from "@/data/siteConstants";
 
-import { useRouter } from "next/navigation";
-
 export default function AuraShots({ onOpenEmi, onOpenConverter, onOpenConsultation }) {
-  const router = useRouter();
-
   const getIcon = (iconName) => {
     const iconClass = "w-4 h-4 sm:w-5 sm:h-5 text-[#D29324]";
     switch (iconName) {
@@ -35,24 +32,6 @@ export default function AuraShots({ onOpenEmi, onOpenConverter, onOpenConsultati
         return <FileText className={iconClass} />;
       default:
         return <Calculator className={iconClass} />;
-    }
-  };
-
-  const handleToolClick = (action) => {
-    if (action === "emi") {
-      router.push("/emi-calculator");
-    } else if (action === "investment") {
-      router.push("/investment-calculator");
-    } else if (action === "rent-receipts") {
-      router.push("/rent-receipt-generator");
-     } else if (action === "property-advisory") {
-  window.location.href = "/property-advisory";
-    } else if (action === "converter") {
-  router.push("/unit-converter");
-    } else if (action === "stamp-duty") {
-  router.push("/stamp-duty-calculator");
-    } else if (onOpenConsultation) {
-      onOpenConsultation();
     }
   };
 
@@ -76,9 +55,9 @@ export default function AuraShots({ onOpenEmi, onOpenConverter, onOpenConsultati
         {/* All 6 Items in One Single Row on Desktop */}
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-3.5">
           {SHOTS_TOOLS.map((tool, idx) => (
-            <div
+            <Link
               key={tool.id}
-              onClick={() => handleToolClick(tool.action)}
+              href={tool.href}
               className={`bg-white rounded-2xl border border-[#E8E3DA] p-3.5 sm:p-4 shadow-xs hover:shadow-xl hover:-translate-y-2 hover:border-[#D29324] transition-all duration-300 cursor-pointer flex flex-col justify-between group btn-tactile active:scale-[0.98] stagger-${idx + 1}`}
             >
               <div>
@@ -105,7 +84,7 @@ export default function AuraShots({ onOpenEmi, onOpenConverter, onOpenConsultati
                 <span>Launch Calculator</span>
                 <ArrowRight className="w-3.5 h-3.5 transform group-hover:translate-x-1.5 transition-transform duration-200 shrink-0" />
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>

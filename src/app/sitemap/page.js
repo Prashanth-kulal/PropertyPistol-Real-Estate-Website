@@ -59,6 +59,7 @@ export default function SitemapPage() {
       title: "Calculators & Financial Utilities",
       icon: Calculator,
       links: [
+        { label: "Property Advisory Concierge", href: "/property-advisory" },
         { label: "Home Loan EMI Calculator", href: "/emi-calculator" },
         { label: "Real Estate Investment Calculator", href: "/investment-calculator" },
         { label: "State Stamp Duty & Cess Calculator", href: "/stamp-duty-calculator" },

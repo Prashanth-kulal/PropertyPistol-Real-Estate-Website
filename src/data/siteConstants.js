@@ -35,49 +35,48 @@ export const SHOTS_TOOLS = [
     title: "Property Advisory",
     description: "Expert guidance for smarter decisions",
     icon: "ShieldCheck",
-    action: "property-advisory"
+    action: "property-advisory",
+    href: "/property-advisory"
   },
   {
     id: "stamp-duty",
     title: "Stamp Duty Calculator",
     description: "Estimate stamp duty on your property deals",
     icon: "Calculator",
-    action: "stamp-duty"
+    action: "stamp-duty",
+    href: "/stamp-duty-calculator"
   },
   {
     id: "converter",
     title: "Unit Converter",
     description: "Easily switch between sq. ft., sq. m., acres & more",
     icon: "ArrowLeftRight",
-    action: "converter"
+    action: "converter",
+    href: "/unit-converter"
   },
   {
-    id: "home-loan",
-    title: "Home Loan Services",
-    description: "Tailored loans with competitive interest rates",
+    id: "emi",
+    title: "EMI Calculator",
+    description: "Plan your monthly payments with ease",
     icon: "Banknote",
-    action: "home-loan"
+    action: "emi",
+    href: "/emi-calculator"
   },
   {
-    id: "insights",
-    title: "Price Insights",
-    description: "Track trends and capital appreciation rates",
+    id: "investment",
+    title: "Investment Calculator",
+    description: "Estimate returns on your property",
     icon: "TrendingUp",
-    action: "price-insights"
+    action: "investment",
+    href: "/investment-calculator"
   },
   {
-    id: "rent-agreement",
-    title: "Rent Agreement",
-    description: "Create seamless, legally binding agreements",
+    id: "rent-receipts",
+    title: "Get Rent Receipts",
+    description: "Generate your rent receipts online",
     icon: "FileText",
-    action: "rent-agreement"
-  },
-  {
-    id: "inspection",
-    title: "Home Inspection",
-    description: "Verify construction quality & safety standards",
-    icon: "Wrench",
-    action: "home-inspection"
+    action: "rent-receipts",
+    href: "/rent-receipt-generator"
   }
 ];
 

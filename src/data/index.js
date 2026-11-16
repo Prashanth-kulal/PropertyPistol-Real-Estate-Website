@@ -215,50 +215,7 @@ export const DEVELOPERS = [
   { id: "oberoi", slug: "oberoi-realty", name: "Oberoi Realty", experience: "31 Years", projects: "70+ Projects", logo: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=120&h=120&q=80" }
 ];
 
-export const SHOTS_TOOLS = [
-  {
-  id: "advisory",
-  title: "Property Advisory",
-  description: "Expert guidance for smarter decisions",
-  icon: "ShieldCheck",
-  action: "property-advisory"
-},
-  {
-    id: "stamp-duty",
-    title: "Stamp Duty Calculator",
-    description: "Estimate stamp duty on your property deals",
-    icon: "Calculator",
-    action: "stamp-duty"
-  },
-  {
-    id: "converter",
-    title: "Unit Converter",
-    description: "Easily switch between sq. ft., sq. m., acres & more",
-    icon: "ArrowLeftRight",
-    action: "converter"
-  },
-  {
-    id: "emi",
-    title: "EMI Calculator",
-    description: "Plan your monthly payments with ease",
-    icon: "Banknote",
-    action: "emi"
-  },
-  {
-    id: "investment",
-    title: "Investment Calculator",
-    description: "Estimate returns on your property",
-    icon: "TrendingUp",
-    action: "investment"
-  },
-  {
-    id: "rent-receipts",
-    title: "Get Rent Receipts",
-    description: "Generate your rent receipts online",
-    icon: "FileText",
-    action: "rent-receipts"
-  }
-];
+export { SHOTS_TOOLS } from "./siteConstants.js";
 
 export const ACHIEVEMENTS = [
   { label: "Total Properties", value: "30,000+", icon: "Building2" },
