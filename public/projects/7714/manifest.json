@@ -1,0 +1,50 @@
+{
+  "projectId": 7714,
+  "projectName": "Marina Vista Tower 2",
+  "slug": "marina-vista-tower-2-emaar-beachfront-pid-7714",
+  "city": "dubai",
+  "cityName": "Dubai",
+  "country": "United Arab Emirates",
+  "currency": "AED",
+  "locality": "Emaar Beachfront",
+  "region": "Dubai",
+  "builder": "Emaar Properties",
+  "totalImages": 2,
+  "hasCover": true,
+  "watermarkSettings": {
+    "opacity": 0.65,
+    "position": "bottom-right",
+    "scaleRatio": 0.1,
+    "paddingRatio": 0.03,
+    "quality": 90
+  },
+  "images": [
+    {
+      "index": 0,
+      "filename": "cover.jpg",
+      "path": "/projects/7714/cover.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/138339/original/B16_Cam09.jpg?1732517052",
+      "source": "propertypistol_s3",
+      "width": 1920,
+      "height": 1440,
+      "fileSizeBytes": 747677,
+      "watermarked": true,
+      "watermarkOpacity": 0.65,
+      "status": "VERIFIED_PROJECT_IMAGE"
+    },
+    {
+      "index": 1,
+      "filename": "gallery-1.jpg",
+      "path": "/projects/7714/gallery-1.jpg",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/home/ubuntu/pp-website/public/assets/images/141271/original/B16_Ext_Cam07.jpg?1732517052",
+      "source": "propertypistol_s3",
+      "width": 1920,
+      "height": 1440,
+      "fileSizeBytes": 921325,
+      "watermarked": true,
+      "watermarkOpacity": 0.65,
+      "status": "VERIFIED_PROJECT_IMAGE"
+    }
+  ],
+  "updatedAt": "2026-11-13T12:58:14.665Z"
+}
