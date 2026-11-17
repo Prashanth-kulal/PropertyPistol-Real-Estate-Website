@@ -16,6 +16,8 @@ import { NOIDA_REGISTRY_PROJECTS } from "./noidaProjectsRegistry.js";
 import { PUNE_REGISTRY_PROJECTS } from "./puneProjectsRegistry.js";
 import { HYDERABAD_REGISTRY_PROJECTS } from "./hyderabadProjectsRegistry.js";
 import { CHENNAI_REGISTRY_PROJECTS } from "./chennaiProjectsRegistry.js";
+import { GURUGRAM_REGISTRY_PROJECTS } from "./gurugramProjectsRegistry.js";
+import { KOLKATA_REGISTRY_PROJECTS } from "./kolkataProjectsRegistry.js";
 
 export const CITY_DETAILS = {
   mumbai: {
@@ -245,8 +247,8 @@ export const CITY_DETAILS = {
     name: "Gurugram",
     state: "Haryana",
     tagline: "Millennium City of Luxury Living & Global Multinational Headquarters",
-    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=80",
-    projectsCount: 650,
+    heroImage: "/projects/17721/cover.jpg",
+    projectsCount: 180,
     avgPriceSqFt: "₹15,400",
     appreciationRate: "+16.2% YoY",
     rentalYield: "4.5% p.a.",
@@ -304,8 +306,8 @@ export const CITY_DETAILS = {
     name: "Kolkata",
     state: "West Bengal",
     tagline: "City of Joy with Vibrant Architectural Heritage and Modern IT Metros",
-    heroImage: "https://images.unsplash.com/photo-1558431382-27e303142255?auto=format&fit=crop&w=1600&q=80",
-    projectsCount: 540,
+    heroImage: "/projects/19014/cover.jpg",
+    projectsCount: 444,
     avgPriceSqFt: "₹6,400",
     appreciationRate: "+8.9% YoY",
     rentalYield: "3.6% p.a.",
@@ -665,56 +667,8 @@ export const CITY_PROPERTIES = {
   calicut: CALICUT_REGISTRY_PROJECTS,
   noida: NOIDA_REGISTRY_PROJECTS,
   chennai: CHENNAI_REGISTRY_PROJECTS,
-
-  gurugram: [
-    {
-      id: "ggn-1",
-      name: "DLF The Arbour",
-      builder: "DLF Limited",
-      builderLogo: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=120&h=120&q=80",
-      city: "gurugram",
-      location: "Sector 63, Golf Course Ext Road",
-      price: "7.5 Cr",
-      priceNumeric: 75000000,
-      avgPrice: "₹18.9 K / sq.ft",
-      flatTypes: "4 BHK Luxury Suites",
-      carpetArea: "3,950 sq.ft",
-      status: "Under Construction",
-      rera: "RC/REP/HARERA/GGM/686/418/2023/30",
-      tag: "Ultra Luxury",
-      rating: 5.0,
-      type: "Apartment",
-      images: [
-        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=80",
-        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80"
-      ],
-      features: ["Private Lift Lobby", "Double Height Balcony", "Central Park"]
-    },
-    {
-      id: "ggn-2",
-      name: "Smartworld The Edition",
-      builder: "Smartworld Developers",
-      builderLogo: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=120&h=120&q=80",
-      city: "gurugram",
-      location: "Sector 66, Golf Course Ext Road",
-      price: "3.2 Cr",
-      priceNumeric: 32000000,
-      avgPrice: "₹16.4 K / sq.ft",
-      flatTypes: "3 BHK, 4 BHK",
-      carpetArea: "1,950 - 2,800 sq.ft",
-      status: "New Launch",
-      rera: "RC/REP/HARERA/GGM/758/490/2023/102",
-      tag: "New Launch",
-      rating: 4.8,
-      type: "Apartment",
-      images: [
-        "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=900&q=80",
-        "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=900&q=80"
-      ],
-      features: ["Private Lounge", "Dual Balconies", "Heated Pool"]
-    }
-  ],
-
+  gurugram: GURUGRAM_REGISTRY_PROJECTS,
+  kolkata: KOLKATA_REGISTRY_PROJECTS,
   hyderabad: HYDERABAD_REGISTRY_PROJECTS
 };
 

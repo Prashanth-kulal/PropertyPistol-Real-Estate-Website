@@ -18,6 +18,8 @@ import { getNoidaProjectBySlug, NOIDA_ALL_SLUGS } from "./noidaProjectsRegistry.
 import { getPuneProjectBySlug, PUNE_ALL_SLUGS } from "./puneProjectsRegistry.js";
 import { getHyderabadProjectBySlug, HYDERABAD_ALL_SLUGS } from "./hyderabadProjectsRegistry.js";
 import { getChennaiProjectBySlug, CHENNAI_ALL_SLUGS } from "./chennaiProjectsRegistry.js";
+import { getGurugramProjectBySlug, GURUGRAM_ALL_SLUGS } from "./gurugramProjectsRegistry.js";
+import { getKolkataProjectBySlug, KOLKATA_ALL_SLUGS } from "./kolkataProjectsRegistry.js";
 
 // Standard Floor Plan Generator Helper
 function generateFloorPlans(typologies = "2, 3 BHK", basePriceStr = "2.5 Cr", carpetAreaStr = "800 - 1,400 sq.ft") {
@@ -867,10 +869,22 @@ export function getProjectBySlug(rawSlug) {
     return hyderabadProject;
   }
 
-  // 2m. Direct match in Chennai Projects Registry (156 verified projects)
+  // 2m. Direct match in Chennai Projects Registry (159 verified projects)
   const chennaiProject = getChennaiProjectBySlug(cleanSlug);
   if (chennaiProject) {
     return chennaiProject;
+  }
+
+  // 2n. Direct match in Gurugram Projects Registry (180 verified projects)
+  const gurugramProject = getGurugramProjectBySlug(cleanSlug);
+  if (gurugramProject) {
+    return gurugramProject;
+  }
+
+  // 2o. Direct match in Kolkata Projects Registry (444 verified projects)
+  const kolkataProject = getKolkataProjectBySlug(cleanSlug);
+  if (kolkataProject) {
+    return kolkataProject;
   }
 
   // 3. Search in DEVELOPERS_DATA
@@ -1096,6 +1110,8 @@ export function getAllProjectSlugs() {
   PUNE_ALL_SLUGS.forEach((s) => slugs.add(s));
   HYDERABAD_ALL_SLUGS.forEach((s) => slugs.add(s));
   CHENNAI_ALL_SLUGS.forEach((s) => slugs.add(s));
+  GURUGRAM_ALL_SLUGS.forEach((s) => slugs.add(s));
+  KOLKATA_ALL_SLUGS.forEach((s) => slugs.add(s));
   CANONICAL_PROJECTS.forEach((p) => slugs.add(p.slug));
   GLOBAL_PROJECTS.forEach((p) => slugs.add(getProjectSlug(p)));
   DEVELOPERS_DATA.forEach((d) => {

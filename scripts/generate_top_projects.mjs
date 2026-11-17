@@ -11,6 +11,8 @@ import { GOA_REGISTRY_PROJECTS } from '../src/data/goaProjectsRegistry.js';
 import { NAGPUR_REGISTRY_PROJECTS } from '../src/data/nagpurProjectsRegistry.js';
 import { COIMBATORE_REGISTRY_PROJECTS } from '../src/data/coimbatoreProjectsRegistry.js';
 import { CHENNAI_REGISTRY_PROJECTS } from '../src/data/chennaiProjectsRegistry.js';
+import { GURUGRAM_REGISTRY_PROJECTS } from '../src/data/gurugramProjectsRegistry.js';
+import { KOLKATA_REGISTRY_PROJECTS } from '../src/data/kolkataProjectsRegistry.js';
 
 console.log('Extracting top genuine projects for homepage carousel...');
 
@@ -24,6 +26,8 @@ const topGoa = GOA_REGISTRY_PROJECTS.slice(0, 16);
 const topNagpur = NAGPUR_REGISTRY_PROJECTS.slice(0, 16);
 const topCoimbatore = COIMBATORE_REGISTRY_PROJECTS.slice(0, 16);
 const topChennai = CHENNAI_REGISTRY_PROJECTS.slice(0, 16);
+const topGurugram = GURUGRAM_REGISTRY_PROJECTS.slice(0, 16);
+const topKolkata = KOLKATA_REGISTRY_PROJECTS.slice(0, 16);
 
 const topProjects = [
   ...topMumbai,
@@ -36,6 +40,8 @@ const topProjects = [
   ...topNagpur,
   ...topCoimbatore,
   ...topChennai,
+  ...topGurugram,
+  ...topKolkata,
 ];
 
 const fileContent = `// Pre-selected verified top projects for homepage showcase

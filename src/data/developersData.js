@@ -14,6 +14,8 @@ import { BANGALORE_REGISTRY_PROJECTS } from "./bangaloreProjectsRegistry.js";
 import { NOIDA_REGISTRY_PROJECTS } from "./noidaProjectsRegistry.js";
 import { PUNE_REGISTRY_PROJECTS } from "./puneProjectsRegistry.js";
 import { CHENNAI_REGISTRY_PROJECTS } from "./chennaiProjectsRegistry.js";
+import { GURUGRAM_REGISTRY_PROJECTS } from "./gurugramProjectsRegistry.js";
+import { KOLKATA_REGISTRY_PROJECTS } from "./kolkataProjectsRegistry.js";
 
 export const DEVELOPERS_DATA = [
   {
@@ -1227,6 +1229,34 @@ export function enrichDeveloperWithProjects(dev) {
     );
   });
 
+  const gurugramMatches = GURUGRAM_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === dev.slug) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return (
+      bNorm === normSlug ||
+      bNorm.includes(normSlug) ||
+      normSlug.includes(bNorm) ||
+      bNorm === normDevName ||
+      bNorm.includes(normDevName) ||
+      normDevName.includes(bNorm)
+    );
+  });
+
+  const kolkataMatches = KOLKATA_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === dev.slug) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return (
+      bNorm === normSlug ||
+      bNorm.includes(normSlug) ||
+      normSlug.includes(bNorm) ||
+      bNorm === normDevName ||
+      bNorm.includes(normDevName) ||
+      normDevName.includes(bNorm)
+    );
+  });
+
   const existingCities = dev.cities || [];
   const existingMumbaiCity = existingCities.find((c) => c.citySlug === "mumbai") || {
     name: "Mumbai",
@@ -1517,7 +1547,7 @@ export function enrichDeveloperWithProjects(dev) {
       }))
     : dev.featuredProjects;
 
-  const totalCount = finalProjects.length + delhiMatches.length + goaMatches.length + coimbatoreMatches.length + nagpurMatches.length + thrissurMatches.length + trivandrumMatches.length + calicutMatches.length + bangaloreMatches.length + puneMatches.length;
+  const totalCount = finalProjects.length + delhiMatches.length + goaMatches.length + coimbatoreMatches.length + nagpurMatches.length + thrissurMatches.length + trivandrumMatches.length + calicutMatches.length + bangaloreMatches.length + puneMatches.length + gurugramMatches.length + kolkataMatches.length;
   return {
     ...dev,
     projectCount: `${totalCount}+ Projects`,
@@ -2138,6 +2168,114 @@ export function getDeveloperBySlug(slug) {
           ongoingCount: ongoing,
           upcomingCount: upcoming,
           projects: chennaiDevMatches
+        }
+      ]
+    };
+  }
+
+  // Synthesize developer profile dynamically from GURUGRAM_REGISTRY_PROJECTS
+  const gurugramDevMatches = GURUGRAM_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === normalized) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return bNorm === normSlug || bNorm.includes(normSlug) || normSlug.includes(bNorm);
+  });
+
+  if (gurugramDevMatches.length > 0) {
+    const builderName = gurugramDevMatches[0].builder;
+    const logo = gurugramDevMatches[0].builderLogo || "/images/logo/logo-emblem.png";
+    const ongoing = gurugramDevMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch"
+    ).length;
+    const upcoming = gurugramDevMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch"
+    ).length;
+
+    return {
+      id: normalized,
+      slug: gurugramDevMatches[0].developerSlug || normalized,
+      name: builderName,
+      logo: logo,
+      tagline: `Premier Residential Communities Across Gurugram`,
+      experience: "20+ Years",
+      projectCount: `${gurugramDevMatches.length}+ Projects`,
+      established: "2005",
+      aboutUs: gurugramDevMatches[0].builderDescription || `${builderName} is a leading real estate developer delivering quality homes across Gurugram.`,
+      description: gurugramDevMatches[0].builderDescription || `${builderName} develops high-grade residential and commercial communities across Gurugram with HARERA compliance and modern architectural standards.`,
+      stats: [
+        { label: "Active Projects", value: `${gurugramDevMatches.length}+` },
+        { label: "Location", value: "Gurugram, Haryana" },
+        { label: "HARERA Compliant", value: "100%" },
+        { label: "Brokerage", value: "0%" }
+      ],
+      featuredProjects: gurugramDevMatches.slice(0, 3).map((p) => ({
+        title: p.name,
+        location: p.location,
+        price: p.price === "On Request" ? "On Request" : (p.price.includes("₹") ? p.price : `₹${p.price}*`),
+        image: p.images?.[0] || "/images/placeholder-property.jpg",
+        slug: p.slug
+      })),
+      cities: [
+        {
+          name: "Gurugram",
+          citySlug: "gurugram",
+          ongoingCount: ongoing,
+          upcomingCount: upcoming,
+          projects: gurugramDevMatches
+        }
+      ]
+    };
+  }
+
+  // Synthesize developer profile dynamically from KOLKATA_REGISTRY_PROJECTS
+  const kolkataDevMatches = KOLKATA_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === normalized) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return bNorm === normSlug || bNorm.includes(normSlug) || normSlug.includes(bNorm);
+  });
+
+  if (kolkataDevMatches.length > 0) {
+    const builderName = kolkataDevMatches[0].builder;
+    const logo = kolkataDevMatches[0].builderLogo || "/images/logo/logo-emblem.png";
+    const ongoing = kolkataDevMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch"
+    ).length;
+    const upcoming = kolkataDevMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch"
+    ).length;
+
+    return {
+      id: normalized,
+      slug: kolkataDevMatches[0].developerSlug || normalized,
+      name: builderName,
+      logo: logo,
+      tagline: `Premier Residential Communities Across Kolkata`,
+      experience: "20+ Years",
+      projectCount: `${kolkataDevMatches.length}+ Projects`,
+      established: "2005",
+      aboutUs: kolkataDevMatches[0].builderDescription || `${builderName} is a leading real estate developer delivering quality homes across Kolkata.`,
+      description: kolkataDevMatches[0].builderDescription || `${builderName} develops high-grade residential and commercial communities across Kolkata with WBRERA compliance and modern architectural standards.`,
+      stats: [
+        { label: "Active Projects", value: `${kolkataDevMatches.length}+` },
+        { label: "Location", value: "Kolkata, West Bengal" },
+        { label: "WBRERA Compliant", value: "100%" },
+        { label: "Brokerage", value: "0%" }
+      ],
+      featuredProjects: kolkataDevMatches.slice(0, 3).map((p) => ({
+        title: p.name,
+        location: p.location,
+        price: p.price === "On Request" ? "On Request" : (p.price.includes("₹") ? p.price : `₹${p.price}*`),
+        image: p.images?.[0] || "/images/placeholder-property.jpg",
+        slug: p.slug
+      })),
+      cities: [
+        {
+          name: "Kolkata",
+          citySlug: "kolkata",
+          ongoingCount: ongoing,
+          upcomingCount: upcoming,
+          projects: kolkataDevMatches
         }
       ]
     };
