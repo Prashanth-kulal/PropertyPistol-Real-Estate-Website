@@ -1,0 +1,83 @@
+{
+  "projectId": 19666,
+  "slug": "woodland-crest-meydan-pid-19666",
+  "name": "Woodland Crest",
+  "city": "dubai",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/woodland-crest-meydan-pid-19666",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-17",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19666/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19666/original/mp.jpg?1744884982",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 Bedroom",
+      "variants": [
+        {
+          "id": 107820,
+          "bhk": "1 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 630,
+          "price": "1.4 M",
+          "actualPrice": 1400000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19666/configurations/unit-plans/1-bedroom/variant-107820/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/107820/original/1b.PNG?1744884982",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 Bedroom",
+      "variants": [
+        {
+          "id": 107821,
+          "bhk": "2 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1021,
+          "price": "2.2 M",
+          "actualPrice": 2200000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19666/configurations/unit-plans/2-bedroom/variant-107821/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/107821/original/2b.PNG?1744884982",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 Bedroom",
+      "carpet_area": "On Request",
+      "price": "1.4 M"
+    },
+    {
+      "flat_type_name": "2 Bedroom",
+      "carpet_area": "On Request",
+      "price": "2.2 M"
+    }
+  ]
+}

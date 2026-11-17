@@ -1,0 +1,102 @@
+{
+  "projectId": 15690,
+  "slug": "address-residences-al-marjan-island-pid-15690",
+  "name": "Address Residences",
+  "city": "dubai",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/address-residences-al-marjan-island-pid-15690",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-17",
+  "planTypes": [
+    "unit"
+  ],
+  "masterPlans": [],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 Bedroom",
+      "variants": [
+        {
+          "id": 50354,
+          "bhk": "1 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 659,
+          "price": "1.7 M",
+          "actualPrice": 1700000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/15690/configurations/unit-plans/1-bedroom/variant-50354/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/50354/original/11.PNG?1742976112",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 Bedroom",
+      "variants": [
+        {
+          "id": 104049,
+          "bhk": "2 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1131,
+          "price": "1.7 M",
+          "actualPrice": 1700000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/15690/configurations/unit-plans/2-bedroom/variant-104049/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/104049/original/22.PNG?1742976112",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 Bedroom",
+      "variants": [
+        {
+          "id": 112167,
+          "bhk": "3 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1646,
+          "price": "1.7 M",
+          "actualPrice": 1700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 Bedroom",
+      "carpet_area": "On Request",
+      "price": "1.7 M"
+    },
+    {
+      "flat_type_name": "2 Bedroom",
+      "carpet_area": "On Request",
+      "price": "On Request"
+    },
+    {
+      "flat_type_name": "3 Bedroom",
+      "carpet_area": "On Request",
+      "price": "On Request"
+    }
+  ]
+}

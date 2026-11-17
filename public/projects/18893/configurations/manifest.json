@@ -1,0 +1,147 @@
+{
+  "projectId": 18893,
+  "slug": "ajwan-residences-khor-fakkan-pid-18893",
+  "name": "Ajwan Residences",
+  "city": "dubai",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ajwan-residences-khor-fakkan-pid-18893",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-17",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18893/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18893/original/m_.PNG?1733728545",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 Bedroom",
+      "variants": [
+        {
+          "id": 96009,
+          "bhk": "2 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1657,
+          "price": "1.9 M",
+          "actualPrice": 1900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 Bedroom",
+      "variants": [
+        {
+          "id": 96010,
+          "bhk": "3 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1808,
+          "price": "2.1 M",
+          "actualPrice": 2100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 96012,
+          "bhk": "3 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2680,
+          "price": "4.1 M",
+          "actualPrice": 4100000,
+          "propertyType": "Duplex",
+          "plan2D": "/projects/18893/configurations/unit-plans/3-bedroom/variant-96012/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/96012/original/3dup.PNG?1733728545",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 Bedroom",
+      "variants": [
+        {
+          "id": 96011,
+          "bhk": "4 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2560,
+          "price": "3.3 M",
+          "actualPrice": 3300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 96013,
+          "bhk": "4 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2927,
+          "price": "4.2 M",
+          "actualPrice": 4200000,
+          "propertyType": "Duplex",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 Bedroom",
+      "carpet_area": "On Request",
+      "price": "1.9 M"
+    },
+    {
+      "flat_type_name": "3 Bedroom",
+      "carpet_area": "On Request",
+      "price": "2.1 M - 4.1 M"
+    },
+    {
+      "flat_type_name": "4 Bedroom",
+      "carpet_area": "On Request",
+      "price": "3.3 M - 4.2 M"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "projectId": 14140,
+  "slug": "reportage-village-dubailand-pid-14140",
+  "name": "Reportage Village",
+  "city": "dubai",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/reportage-village-dubailand-pid-14140",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-17",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/14140/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/14140/original/CaptureSsfasadf.PNG?1697195892",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "3 Bedroom",
+      "variants": [
+        {
+          "id": 51912,
+          "bhk": "3 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 4587,
+          "price": "2.5 M",
+          "actualPrice": 2500000,
+          "propertyType": "Townhouse",
+          "plan2D": "/projects/14140/configurations/unit-plans/3-bedroom/variant-51912/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/51912/original/3.PNG?1742976836",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 Bedroom",
+      "carpet_area": "On Request",
+      "price": "2.5 M"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "projectId": 16534,
+  "slug": "karl-lagerfeld-villas-mohammed-bin-rashid-al-maktoum-city-pid-16534",
+  "name": "Karl Lagerfeld Villas",
+  "city": "dubai",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/karl-lagerfeld-villas-mohammed-bin-rashid-al-maktoum-city-pid-16534",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-17",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16534/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16534/original/mp.PNG?1715944381",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "5 Bedroom",
+      "variants": [
+        {
+          "id": 138075,
+          "bhk": "5 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 6857,
+          "price": "16.0 M",
+          "actualPrice": 16000000,
+          "propertyType": "Independent House/Villa",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "6 Bedroom",
+      "variants": [
+        {
+          "id": 87632,
+          "bhk": "6 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 8516,
+          "price": "25.11 M",
+          "actualPrice": 25105500,
+          "propertyType": "Independent House/Villa",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "5 Bedroom",
+      "carpet_area": "On Request",
+      "price": "16.0 M"
+    },
+    {
+      "flat_type_name": "6 Bedroom",
+      "carpet_area": "On Request",
+      "price": "25.11 M"
+    }
+  ]
+}

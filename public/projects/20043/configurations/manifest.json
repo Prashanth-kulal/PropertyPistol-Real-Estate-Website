@@ -1,0 +1,102 @@
+{
+  "projectId": 20043,
+  "slug": "granada-2-zayed-city-pid-20043",
+  "name": "Granada 2",
+  "city": "dubai",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/granada-2-zayed-city-pid-20043",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-17",
+  "planTypes": [
+    "unit"
+  ],
+  "masterPlans": [],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 Bedroom",
+      "variants": [
+        {
+          "id": 132108,
+          "bhk": "1 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 624,
+          "price": "690.0 K",
+          "actualPrice": 690000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 Bedroom",
+      "variants": [
+        {
+          "id": 116874,
+          "bhk": "2 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1012,
+          "price": "990.0 K",
+          "actualPrice": 990000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20043/configurations/unit-plans/2-bedroom/variant-116874/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/116874/original/2b.png?1750405400",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 Bedroom",
+      "variants": [
+        {
+          "id": 132109,
+          "bhk": "3 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1797,
+          "price": "1.8 M",
+          "actualPrice": 1800000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 Bedroom",
+      "carpet_area": "On Request",
+      "price": "690.0 K"
+    },
+    {
+      "flat_type_name": "2 Bedroom",
+      "carpet_area": "On Request",
+      "price": "990.0 K"
+    },
+    {
+      "flat_type_name": "3 Bedroom",
+      "carpet_area": "On Request",
+      "price": "1.8 M"
+    }
+  ]
+}

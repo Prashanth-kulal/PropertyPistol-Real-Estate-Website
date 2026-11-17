@@ -1,0 +1,55 @@
+{
+  "projectId": 18043,
+  "slug": "sobha-orbis-motor-city-pid-18043",
+  "name": "Sobha Orbis",
+  "city": "dubai",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sobha-orbis-motor-city-pid-18043",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-17",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18043/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18043/original/master.jpg?1727935019",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 Bedroom",
+      "variants": [
+        {
+          "id": 87605,
+          "bhk": "1 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 535,
+          "price": "1.1 M",
+          "actualPrice": 1100000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18043/configurations/unit-plans/1-bedroom/variant-87605/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/87605/original/1-br.jpg?1727935019",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 Bedroom",
+      "carpet_area": "On Request",
+      "price": "1.1 M"
+    }
+  ]
+}

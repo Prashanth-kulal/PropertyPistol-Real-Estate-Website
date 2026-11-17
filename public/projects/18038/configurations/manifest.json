@@ -1,0 +1,64 @@
+{
+  "projectId": 18038,
+  "slug": "royal-park-masdar-city-pid-18038",
+  "name": "Royal Park",
+  "city": "dubai",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/royal-park-masdar-city-pid-18038",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-17",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18038/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18038/original/mp-1400w.jpg?1746195885",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18038/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6961/original/fp.png?1731567323",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 Bedroom",
+      "variants": [
+        {
+          "id": 87532,
+          "bhk": "1 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 482,
+          "price": "754.81 K",
+          "actualPrice": 754806,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 Bedroom",
+      "carpet_area": "On Request",
+      "price": "754.81 K"
+    }
+  ]
+}

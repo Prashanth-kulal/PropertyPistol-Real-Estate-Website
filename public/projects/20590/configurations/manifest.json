@@ -1,0 +1,74 @@
+{
+  "projectId": 20590,
+  "slug": "damac-golf-greens-damac-hill-pid-20590",
+  "name": "Damac Golf Greens",
+  "city": "dubai",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/damac-golf-greens-damac-hill-pid-20590",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-17",
+  "planTypes": [
+    "unit"
+  ],
+  "masterPlans": [],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 Bedroom",
+      "variants": [
+        {
+          "id": 123655,
+          "bhk": "1 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 656,
+          "price": "1.0 M",
+          "actualPrice": 1000000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20590/configurations/unit-plans/1-bedroom/variant-123655/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/123655/original/1.PNG?1755587659",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 Bedroom",
+      "variants": [
+        {
+          "id": 123656,
+          "bhk": "2 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1025,
+          "price": "1.75 M",
+          "actualPrice": 1750000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20590/configurations/unit-plans/2-bedroom/variant-123656/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/123656/original/2.PNG?1755587659",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 Bedroom",
+      "carpet_area": "On Request",
+      "price": "1.0 M"
+    },
+    {
+      "flat_type_name": "2 Bedroom",
+      "carpet_area": "On Request",
+      "price": "1.75 M"
+    }
+  ]
+}

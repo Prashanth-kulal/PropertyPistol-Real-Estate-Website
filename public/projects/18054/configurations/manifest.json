@@ -1,0 +1,83 @@
+{
+  "projectId": 18054,
+  "slug": "damac-sun-city-al-yelayiss-1-pid-18054",
+  "name": "Damac Sun City",
+  "city": "dubai",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/damac-sun-city-al-yelayiss-1-pid-18054",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-17",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18054/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18054/original/masterplan.jpg?1750745291",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "4 Bedroom",
+      "variants": [
+        {
+          "id": 87706,
+          "bhk": "4 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2319,
+          "price": "2.7 M",
+          "actualPrice": 2700000,
+          "propertyType": "Townhouse",
+          "plan2D": "/projects/18054/configurations/unit-plans/4-bedroom/variant-87706/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/87706/original/4b.PNG?1750745291",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "5 Bedroom",
+      "variants": [
+        {
+          "id": 87707,
+          "bhk": "5 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 3324,
+          "price": "3.83 M",
+          "actualPrice": 3830000,
+          "propertyType": "Townhouse",
+          "plan2D": "/projects/18054/configurations/unit-plans/5-bedroom/variant-87707/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/87707/original/5b.PNG?1750745291",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "4 Bedroom",
+      "carpet_area": "On Request",
+      "price": "2.7 M"
+    },
+    {
+      "flat_type_name": "5 Bedroom",
+      "carpet_area": "On Request",
+      "price": "3.83 M"
+    }
+  ]
+}

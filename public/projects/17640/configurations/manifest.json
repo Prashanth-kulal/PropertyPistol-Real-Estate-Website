@@ -1,0 +1,55 @@
+{
+  "projectId": 17640,
+  "slug": "reportage-verdana-dubai-investment-park-1-pid-17640",
+  "name": "Reportage Verdana",
+  "city": "dubai",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/reportage-verdana-dubai-investment-park-1-pid-17640",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-17",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/17640/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/17640/original/mp.PNG?1723465272",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "4 Bedroom",
+      "variants": [
+        {
+          "id": 110683,
+          "bhk": "4 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2730,
+          "price": "1.89 M",
+          "actualPrice": 1890000,
+          "propertyType": "Townhouse",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "4 Bedroom",
+      "carpet_area": "On Request",
+      "price": "1.89 M"
+    }
+  ]
+}

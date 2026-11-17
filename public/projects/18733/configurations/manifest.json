@@ -1,0 +1,92 @@
+{
+  "projectId": 18733,
+  "slug": "marina-place-1-mina-rashid-pid-18733",
+  "name": "Marina Place 1",
+  "city": "dubai",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/marina-place-1-mina-rashid-pid-18733",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-17",
+  "planTypes": [
+    "unit"
+  ],
+  "masterPlans": [],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 Bedroom",
+      "variants": [
+        {
+          "id": 93842,
+          "bhk": "1 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 817,
+          "price": "2.35 M",
+          "actualPrice": 2351000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18733/configurations/unit-plans/1-bedroom/variant-93842/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/93842/original/1b.PNG?1747726020",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        },
+        {
+          "id": 138994,
+          "bhk": "1 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 901,
+          "price": "2.38 M",
+          "actualPrice": 2384000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 Bedroom",
+      "variants": [
+        {
+          "id": 138995,
+          "bhk": "2 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1164,
+          "price": "3.9 M",
+          "actualPrice": 3900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 Bedroom",
+      "carpet_area": "On Request",
+      "price": "2.35 M - 2.38 M"
+    },
+    {
+      "flat_type_name": "2 Bedroom",
+      "carpet_area": "On Request",
+      "price": "3.9 M"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "projectId": 15495,
+  "slug": "cape-hayat-hayat-island-pid-15495",
+  "name": "Cape Hayat",
+  "city": "dubai",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/cape-hayat-hayat-island-pid-15495",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-17",
+  "planTypes": [
+    "unit"
+  ],
+  "masterPlans": [],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "Studio",
+      "variants": [
+        {
+          "id": 67353,
+          "bhk": "Studio",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 465,
+          "price": "590.0 K",
+          "actualPrice": 590000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "1 Bedroom",
+      "variants": [
+        {
+          "id": 49445,
+          "bhk": "1 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 964,
+          "price": "590.0 K",
+          "actualPrice": 590000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/15495/configurations/unit-plans/1-bedroom/variant-49445/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/49445/original/1b.PNG?1704946945",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 Bedroom",
+      "variants": [
+        {
+          "id": 49447,
+          "bhk": "2 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1447,
+          "price": "590.0 K",
+          "actualPrice": 590000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/15495/configurations/unit-plans/2-bedroom/variant-49447/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/49447/original/2.PNG?1704946945",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "Studio",
+      "carpet_area": "On Request",
+      "price": "590.0 K"
+    },
+    {
+      "flat_type_name": "1 Bedroom",
+      "carpet_area": "On Request",
+      "price": "On Request"
+    },
+    {
+      "flat_type_name": "2 Bedroom",
+      "carpet_area": "On Request",
+      "price": "On Request"
+    }
+  ]
+}

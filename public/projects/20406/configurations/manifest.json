@@ -1,0 +1,111 @@
+{
+  "projectId": 20406,
+  "slug": "azha-millennium-residences-jumeirah-village-triangle-pid-20406",
+  "name": " Azha Millennium Residences",
+  "city": "dubai",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/azha-millennium-residences-jumeirah-village-triangle-pid-20406",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-17",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/20406/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8674/original/fp.PNG?1753867980",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "Studio",
+      "variants": [
+        {
+          "id": 121304,
+          "bhk": "Studio",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 380,
+          "price": "650.0 K",
+          "actualPrice": 650000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20406/configurations/unit-plans/studio/variant-121304/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/121304/original/stu.PNG?1753867978",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "1 Bedroom",
+      "variants": [
+        {
+          "id": 121305,
+          "bhk": "1 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 880,
+          "price": "1.35 M",
+          "actualPrice": 1350000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20406/configurations/unit-plans/1-bedroom/variant-121305/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/121305/original/1b.PNG?1753867978",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 Bedroom",
+      "variants": [
+        {
+          "id": 121306,
+          "bhk": "2 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1450,
+          "price": "2.1 M",
+          "actualPrice": 2100000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20406/configurations/unit-plans/2-bedroom/variant-121306/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/121306/original/2b.PNG?1753867978",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "Studio",
+      "carpet_area": "On Request",
+      "price": "650.0 K"
+    },
+    {
+      "flat_type_name": "1 Bedroom",
+      "carpet_area": "On Request",
+      "price": "1.35 M"
+    },
+    {
+      "flat_type_name": "2 Bedroom",
+      "carpet_area": "On Request",
+      "price": "2.1 M"
+    }
+  ]
+}

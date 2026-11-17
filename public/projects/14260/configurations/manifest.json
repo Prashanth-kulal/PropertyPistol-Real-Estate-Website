@@ -1,0 +1,83 @@
+{
+  "projectId": 14260,
+  "slug": "abad-woods-park-vytilla-14260",
+  "name": "ABAD Woods Park",
+  "city": "kochi",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/abad-woods-park-vytilla-pid-14260",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-17",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/14260/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4783/original/fp.png?1698318238",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/14260/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7837/original/gp-abad.png?1746167401",
+      "downloaded": true
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/14260/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7838/original/fp-abad.png?1746167401",
+      "downloaded": true
+    },
+    {
+      "id": 4,
+      "title": "Layout / Site Plan 4",
+      "path": "/projects/14260/configurations/site-plans/site-plan-04.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7839/original/fpp-abad.png?1746167401",
+      "downloaded": true
+    },
+    {
+      "id": 5,
+      "title": "Layout / Site Plan 5",
+      "path": "/projects/14260/configurations/site-plans/site-plan-05.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7840/original/fp-ad.png?1746167402",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 113364,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1390,
+          "price": "1.15 Cr",
+          "actualPrice": 11500000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/14260/configurations/unit-plans/3-bhk/variant-113364/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/113364/original/3.png?1747636760",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "1.15 Cr"
+    }
+  ]
+}

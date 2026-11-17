@@ -1,0 +1,83 @@
+{
+  "projectId": 18941,
+  "slug": "binghatti-elite-dubai-production-city-pid-18941",
+  "name": "Binghatti Elite",
+  "city": "dubai",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/binghatti-elite-dubai-production-city-pid-18941",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-17",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18941/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18941/original/fp.PNG?1753515710",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "Studio",
+      "variants": [
+        {
+          "id": 96896,
+          "bhk": "Studio",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 376,
+          "price": "675.0 K",
+          "actualPrice": 675000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18941/configurations/unit-plans/studio/variant-96896/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/96896/original/stu.PNG?1753515710",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "1 Bedroom",
+      "variants": [
+        {
+          "id": 96897,
+          "bhk": "1 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 818,
+          "price": "975.0 K",
+          "actualPrice": 975000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18941/configurations/unit-plans/1-bedroom/variant-96897/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/96897/original/1.PNG?1753515710",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "Studio",
+      "carpet_area": "On Request",
+      "price": "675.0 K"
+    },
+    {
+      "flat_type_name": "1 Bedroom",
+      "carpet_area": "On Request",
+      "price": "975.0 K"
+    }
+  ]
+}

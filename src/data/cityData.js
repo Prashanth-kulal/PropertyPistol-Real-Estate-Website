@@ -20,6 +20,8 @@ import { GURUGRAM_REGISTRY_PROJECTS } from "./gurugramProjectsRegistry.js";
 import { KOLKATA_REGISTRY_PROJECTS } from "./kolkataProjectsRegistry.js";
 import { AHMEDABAD_REGISTRY_PROJECTS } from "./ahmedabadProjectsRegistry.js";
 import { LUCKNOW_REGISTRY_PROJECTS } from "./lucknowProjectsRegistry.js";
+import { DUBAI_REGISTRY_PROJECTS } from "./dubaiProjectsRegistry.js";
+import { KOCHI_REGISTRY_PROJECTS } from "./kochiProjectsRegistry.js";
 
 export const CITY_DETAILS = {
   mumbai: {
@@ -362,24 +364,35 @@ export const CITY_DETAILS = {
     name: "Dubai",
     state: "UAE",
     tagline: "The World's Luxury Real Estate & Zero-Tax Capital",
-    heroImage: "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1600&q=80",
-    projectsCount: 320,
-    avgPriceSqFt: "AED 1,650",
+    heroImage: "/projects/18232/cover.jpg",
+    projectsCount: 514,
+    avgPriceSqFt: "AED 1,850",
     appreciationRate: "+18.4% YoY",
     rentalYield: "7.2% p.a.",
     reraAuthority: "Dubai RERA (DLD)",
     stampDuty: "4% DLD Fee",
     description: "Dubai offers zero income tax, high rental yields (6-8%), 10-year Golden Visa eligibility, and unrivaled cosmopolitan security.",
     localities: [
-      { name: "Downtown Dubai", avgPrice: "AED 2,800 / sq.ft", projects: 45, tag: "Burj Khalifa" },
-      { name: "Dubai Marina", avgPrice: "AED 1,950 / sq.ft", projects: 52, tag: "Waterfront Living" },
-      { name: "Business Bay", avgPrice: "AED 1,800 / sq.ft", projects: 60, tag: "Canal Views" },
-      { name: "Palm Jumeirah", avgPrice: "AED 3,900 / sq.ft", projects: 30, tag: "Ultra Luxury Island" }
+      { name: "Jumeirah Village Circle", avgPrice: "AED 1,150 / sq.ft", projects: 29, tag: "High Rental Yield" },
+      { name: "Dubai Islands", avgPrice: "AED 2,200 / sq.ft", projects: 26, tag: "Beachfront Luxury" },
+      { name: "Business Bay", avgPrice: "AED 2,100 / sq.ft", projects: 22, tag: "Canal & Downtown Views" },
+      { name: "Dubailand", avgPrice: "AED 1,350 / sq.ft", projects: 21, tag: "Integrated Community" },
+      { name: "Al Reem Island", avgPrice: "AED 1,250 / sq.ft", projects: 16, tag: "Waterfront Living" },
+      { name: "Dubai Creek Harbour", avgPrice: "AED 2,300 / sq.ft", projects: 13, tag: "Iconic Skyline" },
+      { name: "Town Square", avgPrice: "AED 1,050 / sq.ft", projects: 13, tag: "Family Friendly" },
+      { name: "Dubai South", avgPrice: "AED 1,100 / sq.ft", projects: 12, tag: "Al Maktoum Airport Corridor" },
+      { name: "Dubai Maritime City", avgPrice: "AED 2,400 / sq.ft", projects: 12, tag: "Seafront Living" },
+      { name: "Mohammed Bin Rashid Al Maktoum City", avgPrice: "AED 2,250 / sq.ft", projects: 12, tag: "Crystal Lagoons" },
+      { name: "Palm Jumeirah", avgPrice: "AED 4,200 / sq.ft", projects: 8, tag: "Ultra Luxury World Icon" }
     ],
     faqs: [
       {
         q: "How does the UAE Golden Visa work with property purchase?",
-        a: "Purchasing property worth AED 2 Million (approx. ₹4.5 Crore) qualifies investors and their families for a renewable 10-year UAE Golden Visa."
+        a: "Purchasing property worth AED 2 Million qualifies investors and their families for a renewable 10-year UAE Golden Visa."
+      },
+      {
+        q: "What are the transaction costs for buying property in Dubai?",
+        a: "The standard Dubai Land Department (DLD) transfer fee is 4% of property purchase price plus standard administrative registration fees."
       }
     ]
   },
@@ -448,8 +461,8 @@ export const CITY_DETAILS = {
     name: "Kochi",
     state: "Kerala",
     tagline: "Queen of the Arabian Sea & Kerala's Premier Commercial & IT Epicenter",
-    heroImage: "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&w=1600&q=80",
-    projectsCount: 210,
+    heroImage: "/projects/11928/cover.jpg",
+    projectsCount: 28,
     avgPriceSqFt: "₹6,800",
     appreciationRate: "+10.8% YoY",
     rentalYield: "4.3% p.a.",
@@ -673,7 +686,9 @@ export const CITY_PROPERTIES = {
   kolkata: KOLKATA_REGISTRY_PROJECTS,
   hyderabad: HYDERABAD_REGISTRY_PROJECTS,
   ahmedabad: AHMEDABAD_REGISTRY_PROJECTS,
-  lucknow: LUCKNOW_REGISTRY_PROJECTS
+  lucknow: LUCKNOW_REGISTRY_PROJECTS,
+  dubai: DUBAI_REGISTRY_PROJECTS,
+  kochi: KOCHI_REGISTRY_PROJECTS
 };
 
 // Returns city projects or smartly generates rich verified mock projects for secondary cities

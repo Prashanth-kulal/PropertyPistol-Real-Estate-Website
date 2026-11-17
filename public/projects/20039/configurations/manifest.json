@@ -1,0 +1,74 @@
+{
+  "projectId": 20039,
+  "slug": "bugatti-residences-business-bay-pid-20039",
+  "name": "Bugatti Residences",
+  "city": "dubai",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/bugatti-residences-business-bay-pid-20039",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-17",
+  "planTypes": [
+    "unit"
+  ],
+  "masterPlans": [],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 Bedroom",
+      "variants": [
+        {
+          "id": 116847,
+          "bhk": "2 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2036,
+          "price": "19.4 M",
+          "actualPrice": 19400000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20039/configurations/unit-plans/2-bedroom/variant-116847/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/116847/original/2.PNG?1750401006",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 Bedroom",
+      "variants": [
+        {
+          "id": 116848,
+          "bhk": "3 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 6137,
+          "price": "38.6 M",
+          "actualPrice": 38600000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20039/configurations/unit-plans/3-bedroom/variant-116848/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/116848/original/3.PNG?1750401006",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 Bedroom",
+      "carpet_area": "On Request",
+      "price": "19.4 M"
+    },
+    {
+      "flat_type_name": "3 Bedroom",
+      "carpet_area": "On Request",
+      "price": "38.6 M"
+    }
+  ]
+}

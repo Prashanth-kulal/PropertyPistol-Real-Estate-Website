@@ -1,0 +1,102 @@
+{
+  "projectId": 20499,
+  "slug": "treppan-tower-jumeirah-village-triangle-pid-20499",
+  "name": "Treppan Tower",
+  "city": "dubai",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/treppan-tower-jumeirah-village-triangle-pid-20499",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-17",
+  "planTypes": [
+    "unit"
+  ],
+  "masterPlans": [],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "Studio",
+      "variants": [
+        {
+          "id": 138965,
+          "bhk": "Studio",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 415,
+          "price": "750.0 K",
+          "actualPrice": 750000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "1 Bedroom",
+      "variants": [
+        {
+          "id": 122022,
+          "bhk": "1 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 850,
+          "price": "1.75 M",
+          "actualPrice": 1750000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20499/configurations/unit-plans/1-bedroom/variant-122022/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/122022/original/1br.PNG?1754305285",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 Bedroom",
+      "variants": [
+        {
+          "id": 122025,
+          "bhk": "3 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1785,
+          "price": "5.9 M",
+          "actualPrice": 5900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "Studio",
+      "carpet_area": "On Request",
+      "price": "750.0 K"
+    },
+    {
+      "flat_type_name": "1 Bedroom",
+      "carpet_area": "On Request",
+      "price": "1.75 M"
+    },
+    {
+      "flat_type_name": "3 Bedroom",
+      "carpet_area": "On Request",
+      "price": "5.9 M"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "projectId": 20480,
+  "slug": "reem-hills-apartments-al-reem-island-pid-20480",
+  "name": "Reem Hills Apartments",
+  "city": "dubai",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/reem-hills-apartments-al-reem-island-pid-20480",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-17",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/20480/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/20480/original/6019bdff-eb83-4f5a-929d-63228648c84d.png?1754157579",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 Bedroom",
+      "variants": [
+        {
+          "id": 121892,
+          "bhk": "1 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 786,
+          "price": "1.2 M",
+          "actualPrice": 1200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 Bedroom",
+      "carpet_area": "On Request",
+      "price": "1.2 M"
+    }
+  ]
+}

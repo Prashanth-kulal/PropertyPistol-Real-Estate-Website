@@ -1,0 +1,55 @@
+{
+  "projectId": 19790,
+  "slug": "arada-masaar-2-masaar-pid-19790",
+  "name": "Arada Masaar 2",
+  "city": "dubai",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/arada-masaar-2-masaar-pid-19790",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-17",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19790/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19790/original/mp.jpg?1746178392",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 Bedroom",
+      "variants": [
+        {
+          "id": 110579,
+          "bhk": "2 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": null,
+          "price": "1.57 M",
+          "actualPrice": 1570000,
+          "propertyType": "Townhouse",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 Bedroom",
+      "carpet_area": "On Request",
+      "price": "1.57 M"
+    }
+  ]
+}

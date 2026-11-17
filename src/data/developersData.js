@@ -18,6 +18,8 @@ import { GURUGRAM_REGISTRY_PROJECTS } from "./gurugramProjectsRegistry.js";
 import { KOLKATA_REGISTRY_PROJECTS } from "./kolkataProjectsRegistry.js";
 import { AHMEDABAD_REGISTRY_PROJECTS } from "./ahmedabadProjectsRegistry.js";
 import { LUCKNOW_REGISTRY_PROJECTS } from "./lucknowProjectsRegistry.js";
+import { DUBAI_REGISTRY_PROJECTS } from "./dubaiProjectsRegistry.js";
+import { KOCHI_REGISTRY_PROJECTS } from "./kochiProjectsRegistry.js";
 
 export const DEVELOPERS_DATA = [
   {
@@ -570,6 +572,59 @@ export const DEVELOPERS_DATA = [
           }
         ]
       }
+      ,
+      {
+        name: "Kochi",
+        citySlug: "kochi",
+        ongoingCount: 2,
+        upcomingCount: 0,
+        projects: [
+          {
+            id: 11921,
+            slug: "prestige-eden-garden-kalamassery-11921",
+            title: "Prestige Eden Garden",
+            builder: "Prestige Group",
+            city: "kochi",
+            location: "Kalamassery, Kochi",
+            status: "Under Construction",
+            price: "₹ 1.66 Cr",
+            priceNumeric: 16600000,
+            avgPrice: "On Request",
+            flatTypes: "3 & 4 BHK Apartment",
+            carpetArea: "On Request",
+            rera: "K-RERA/PRJ/ERN/002/2022",
+            rating: 4.8,
+            tag: "Grade-A Community",
+            images: [
+              "/projects/11921/cover.jpg",
+              "/projects/11921/gallery-1.jpg"
+            ],
+            features: ["Clubhouse", "Swimming Pool", "Gym", "Landscaped Garden", "Children's Play Area"]
+          },
+          {
+            id: 19795,
+            slug: "prestige-panorama-kundanoor-19795",
+            title: "Prestige Panorama",
+            builder: "Prestige Group",
+            city: "kochi",
+            location: "Kundanoor, Kochi",
+            status: "Under Construction",
+            price: "₹ 1.35 Cr",
+            priceNumeric: 13500000,
+            avgPrice: "On Request",
+            flatTypes: "2 & 3 BHK Apartment",
+            carpetArea: "On Request",
+            rera: "K-RERA/PRJ/227/2020",
+            rating: 4.8,
+            tag: "Waterfront Proximity",
+            images: [
+              "/projects/19795/cover.jpg",
+              "/projects/19795/gallery-1.jpg"
+            ],
+            features: ["Swimming Pool", "Gym", "Badminton Court", "Party Hall", "CCTV Surveillance"]
+          }
+        ]
+      }
     ]
   },
   {
@@ -769,6 +824,57 @@ export const DEVELOPERS_DATA = [
               "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80"
             ],
             features: ["German Hardware Fixtures", "Bespoke Clubhouse", "Temperature Regulated Pool"]
+          }
+        ]
+      }
+      ,
+      {
+        name: "Kochi",
+        citySlug: "kochi",
+        ongoingCount: 1,
+        upcomingCount: 0,
+        projects: [
+          {
+            id: "sobha-atlantis-vytilla-11928",
+            slug: "sobha-atlantis-vytilla-11928",
+            title: "Sobha Atlantis",
+            builder: "Sobha Limited",
+            city: "kochi",
+            location: "Vytilla, Kochi",
+            status: "Under Construction",
+            price: "1.34 Cr onwards",
+            priceNumeric: 13400000,
+            avgPrice: "₹8.20 K / sq.ft",
+            flatTypes: "3 & 4 BHK",
+            carpetArea: "1,634 - 2,200 sq.ft",
+            rera: "K-RERA/PRJ/2020/001",
+            rating: 4.8,
+            tag: "Luxury Living",
+            images: [
+              "/projects/11928/cover.jpg"
+            ],
+            features: ["Waterfront Living", "Clubhouse", "Swimming Pool", "Gymnasium"]
+          },
+          {
+            id: "sobha-marina-one-marine-drive-11926",
+            slug: "sobha-marina-one-marine-drive-11926",
+            title: "Sobha Marina One",
+            builder: "Sobha Limited",
+            city: "kochi",
+            location: "Marine Drive, Kochi",
+            status: "Ready to Move",
+            price: "2.10 Cr onwards",
+            priceNumeric: 21000000,
+            avgPrice: "₹10.50 K / sq.ft",
+            flatTypes: "3 & 4 BHK",
+            carpetArea: "2,000 - 3,500 sq.ft",
+            rera: "K-RERA/PRJ/2020/002",
+            rating: 4.9,
+            tag: "Super Luxury",
+            images: [
+              "/projects/11926/cover.jpg"
+            ],
+            features: ["Marine Drive View", "5-Acre Urban Park", "Infinity Pool", "Private Marina"]
           }
         ]
       }
@@ -1259,6 +1365,34 @@ export function enrichDeveloperWithProjects(dev) {
     );
   });
 
+  const kochiMatches = KOCHI_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === dev.slug) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return (
+      bNorm === normSlug ||
+      bNorm.includes(normSlug) ||
+      normSlug.includes(bNorm) ||
+      bNorm === normDevName ||
+      bNorm.includes(normDevName) ||
+      normDevName.includes(bNorm)
+    );
+  });
+
+  const dubaiMatches = DUBAI_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === dev.slug) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return (
+      bNorm === normSlug ||
+      bNorm.includes(normSlug) ||
+      normSlug.includes(bNorm) ||
+      bNorm === normDevName ||
+      bNorm.includes(normDevName) ||
+      normDevName.includes(bNorm)
+    );
+  });
+
   const existingCities = dev.cities || [];
   const existingMumbaiCity = existingCities.find((c) => c.citySlug === "mumbai") || {
     name: "Mumbai",
@@ -1538,6 +1672,60 @@ export function enrichDeveloperWithProjects(dev) {
     }
   }
 
+  if (kochiMatches.length > 0) {
+    const kchOngoing = kochiMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch" || p.status === "Pre-Launch"
+    ).length;
+    const kchUpcoming = kochiMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch" || p.status === "Pre-Launch"
+    ).length;
+    const existingKchIndex = updatedCities.findIndex((c) => c.citySlug === "kochi");
+    if (existingKchIndex >= 0) {
+      updatedCities[existingKchIndex] = {
+        ...updatedCities[existingKchIndex],
+        name: "Kochi",
+        ongoingCount: kchOngoing || updatedCities[existingKchIndex].ongoingCount || 1,
+        upcomingCount: kchUpcoming || updatedCities[existingKchIndex].upcomingCount || 1,
+        projects: kochiMatches
+      };
+    } else {
+      updatedCities.push({
+        name: "Kochi",
+        citySlug: "kochi",
+        ongoingCount: kchOngoing,
+        upcomingCount: kchUpcoming,
+        projects: kochiMatches
+      });
+    }
+  }
+
+  if (dubaiMatches.length > 0) {
+    const dxbOngoing = dubaiMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch" || p.status === "Pre-Launch"
+    ).length;
+    const dxbUpcoming = dubaiMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch" || p.status === "Pre-Launch"
+    ).length;
+    const existingDxbIndex = updatedCities.findIndex((c) => c.citySlug === "dubai");
+    if (existingDxbIndex >= 0) {
+      updatedCities[existingDxbIndex] = {
+        ...updatedCities[existingDxbIndex],
+        name: "Dubai",
+        ongoingCount: dxbOngoing || updatedCities[existingDxbIndex].ongoingCount || 1,
+        upcomingCount: dxbUpcoming || updatedCities[existingDxbIndex].upcomingCount || 1,
+        projects: dubaiMatches
+      };
+    } else {
+      updatedCities.push({
+        name: "Dubai",
+        citySlug: "dubai",
+        ongoingCount: dxbOngoing,
+        upcomingCount: dxbUpcoming,
+        projects: dubaiMatches
+      });
+    }
+  }
+
   // Use top matching projects for featured showcase
   const featured = matches.length > 0
     ? matches.slice(0, 3).map((p) => ({
@@ -1549,7 +1737,7 @@ export function enrichDeveloperWithProjects(dev) {
       }))
     : dev.featuredProjects;
 
-  const totalCount = finalProjects.length + delhiMatches.length + goaMatches.length + coimbatoreMatches.length + nagpurMatches.length + thrissurMatches.length + trivandrumMatches.length + calicutMatches.length + bangaloreMatches.length + puneMatches.length + gurugramMatches.length + kolkataMatches.length;
+  const totalCount = finalProjects.length + delhiMatches.length + goaMatches.length + coimbatoreMatches.length + nagpurMatches.length + thrissurMatches.length + trivandrumMatches.length + calicutMatches.length + bangaloreMatches.length + puneMatches.length + gurugramMatches.length + kolkataMatches.length + kochiMatches.length + dubaiMatches.length;
   return {
     ...dev,
     projectCount: `${totalCount}+ Projects`,
@@ -2332,6 +2520,116 @@ export function getDeveloperBySlug(slug) {
           ongoingCount: ongoing,
           upcomingCount: upcoming,
           projects: ahmedabadDevMatches
+        }
+      ]
+    };
+  }
+
+  // Synthesize developer profile dynamically from KOCHI_REGISTRY_PROJECTS
+  const kochiDevMatches = KOCHI_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === normalized) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return bNorm === normSlug || bNorm.includes(normSlug) || normSlug.includes(bNorm);
+  });
+
+  if (kochiDevMatches.length > 0) {
+    const builderName = kochiDevMatches[0].builder;
+    const logo = kochiDevMatches[0].builderLogo || "/images/logo/logo-emblem.png";
+    const ongoing = kochiDevMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch"
+    ).length;
+    const upcoming = kochiDevMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch"
+    ).length;
+
+    return {
+      id: normalized,
+      slug: kochiDevMatches[0].developerSlug || normalized,
+      name: builderName,
+      logo: logo,
+      tagline: `Premier Residential Communities Across Kochi & Kerala`,
+      experience: "20+ Years",
+      projectCount: `${kochiDevMatches.length}+ Projects`,
+      established: "2005",
+      aboutUs: kochiDevMatches[0].builderDescription || `${builderName} is a leading real estate developer with verified residential developments across Kochi and Kerala.`,
+      description: kochiDevMatches[0].builderDescription || `${builderName} delivers high-grade residential and commercial communities across Kochi with K-RERA compliance and modern architectural standards.`,
+      stats: [
+        { label: "Active Projects", value: `${kochiDevMatches.length}+` },
+        { label: "Location", value: "Kochi, Kerala" },
+        { label: "K-RERA Compliant", value: "100%" },
+        { label: "Brokerage", value: "0%" }
+      ],
+      featuredProjects: kochiDevMatches.slice(0, 3).map((p) => ({
+        title: p.name,
+        location: p.location,
+        price: p.price === "On Request" ? "On Request" : (p.price.includes("₹") ? p.price : `₹${p.price}*`),
+        image: p.images?.[0] || "/images/placeholder-property.jpg",
+        slug: p.slug
+      })),
+      cities: [
+        {
+          name: "Kochi",
+          citySlug: "kochi",
+          ongoingCount: ongoing,
+          upcomingCount: upcoming,
+          projects: kochiDevMatches
+        }
+      ]
+    };
+  }
+
+  // Check in DUBAI_REGISTRY_PROJECTS
+  const dubaiMatches = DUBAI_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === normalized) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return bNorm === normSlug || bNorm.includes(normSlug) || normSlug.includes(bNorm);
+  });
+
+  if (dubaiMatches.length > 0) {
+    const builderName = dubaiMatches[0].builder;
+    const logo =
+      dubaiMatches[0].builderLogo ||
+      "/images/placeholder-property.jpg";
+    const ongoing = dubaiMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch"
+    ).length;
+    const upcoming = dubaiMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch"
+    ).length;
+
+    return {
+      id: normalized,
+      slug: dubaiMatches[0].developerSlug || normalized,
+      name: builderName,
+      logo: logo,
+      tagline: `Iconic Real Estate Developments Across Dubai & UAE`,
+      experience: "15+ Years",
+      projectCount: `${dubaiMatches.length}+ Projects`,
+      established: "2005",
+      aboutUs: `${builderName} is a prestigious developer with verified landmark developments across Dubai, Abu Dhabi, and the UAE.`,
+      description: `${builderName} has delivered iconic architectural residences in Dubai, featuring high rental yields, premier finishes, and world-class luxury amenities.`,
+      stats: [
+        { label: "Active Projects", value: `${dubaiMatches.length}+` },
+        { label: "Location", value: "Dubai & UAE" },
+        { label: "DLD Verified", value: "100%" },
+        { label: "Zero Tax", value: "Yes" }
+      ],
+      featuredProjects: dubaiMatches.slice(0, 3).map((p) => ({
+        title: p.name,
+        location: p.location,
+        price: `AED ${p.price}*`,
+        image: p.images?.[0] || "/images/placeholder-property.jpg",
+        slug: p.slug
+      })),
+      cities: [
+        {
+          name: "Dubai",
+          citySlug: "dubai",
+          ongoingCount: ongoing,
+          upcomingCount: upcoming,
+          projects: dubaiMatches
         }
       ]
     };

@@ -1,0 +1,83 @@
+{
+  "projectId": 17882,
+  "slug": "seville-at-bloom-living-zayed-city-pid-17882",
+  "name": "Seville at Bloom Living",
+  "city": "dubai",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/seville-at-bloom-living-zayed-city-pid-17882",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-17",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/17882/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/17882/original/mp.PNG?1725969437",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "2 Bedroom",
+      "variants": [
+        {
+          "id": 84867,
+          "bhk": "2 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1303,
+          "price": "1.78 M",
+          "actualPrice": 1780000,
+          "propertyType": "Townhouse",
+          "plan2D": "/projects/17882/configurations/unit-plans/2-bedroom/variant-84867/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/84867/original/2bb.PNG?1726730364",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 Bedroom",
+      "variants": [
+        {
+          "id": 84868,
+          "bhk": "3 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1635,
+          "price": "1.78 M",
+          "actualPrice": 1780000,
+          "propertyType": "Townhouse",
+          "plan2D": "/projects/17882/configurations/unit-plans/3-bedroom/variant-84868/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/84868/original/3b.PNG?1726730364",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 Bedroom",
+      "carpet_area": "On Request",
+      "price": "1.78 M"
+    },
+    {
+      "flat_type_name": "3 Bedroom",
+      "carpet_area": "On Request",
+      "price": "On Request"
+    }
+  ]
+}

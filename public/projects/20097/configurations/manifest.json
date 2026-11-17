@@ -1,0 +1,83 @@
+{
+  "projectId": 20097,
+  "slug": "voi-residence-dubai-south-pid-20097",
+  "name": "VOI Residence",
+  "city": "dubai",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/voi-residence-dubai-south-pid-20097",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-17",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/20097/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/20097/original/masterplan.jpg?1752149518",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 Bedroom",
+      "variants": [
+        {
+          "id": 118583,
+          "bhk": "1 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 695,
+          "price": "782.0 K",
+          "actualPrice": 782000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20097/configurations/unit-plans/1-bedroom/variant-118583/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/118583/original/1b.PNG?1752149518",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 Bedroom",
+      "variants": [
+        {
+          "id": 118584,
+          "bhk": "2 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 774,
+          "price": "782.0 K",
+          "actualPrice": 782000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/20097/configurations/unit-plans/2-bedroom/variant-118584/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/118584/original/2b.PNG?1752149519",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 Bedroom",
+      "carpet_area": "On Request",
+      "price": "782.0 K"
+    },
+    {
+      "flat_type_name": "2 Bedroom",
+      "carpet_area": "On Request",
+      "price": "On Request"
+    }
+  ]
+}

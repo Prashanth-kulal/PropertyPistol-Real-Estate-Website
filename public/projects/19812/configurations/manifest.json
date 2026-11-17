@@ -1,0 +1,99 @@
+{
+  "projectId": 19812,
+  "slug": "siddhi-the-woods-panangad-19812",
+  "name": "Siddhi The Woods",
+  "city": "kochi",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/siddhi-the-woods-panangad-pid-19812",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-17",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19812/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19812/original/layout-plan-woods-1.png?1746265045",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19812/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7878/original/THE-WOODS-FLOOR-PLAN-scaled.jpg?1746265046",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19812/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7879/original/WhatsApp-Image-2024-11-07-at-2.21.37-PM.jpeg?1746265046",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 110822,
+          "bhk": "3 BHK",
+          "carpetArea": 2200,
+          "carpetAreaDisplay": "2200 sq.ft",
+          "builtUpArea": null,
+          "price": "₹ 35 lakh",
+          "actualPrice": 0,
+          "propertyType": "Independent House/Villa",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 138758,
+          "bhk": "4 BHK",
+          "carpetArea": 3100,
+          "carpetAreaDisplay": "3100 sq.ft",
+          "builtUpArea": null,
+          "price": "₹ 35 lakh",
+          "actualPrice": 0,
+          "propertyType": "Independent House/Villa",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "2,200 sq.ft",
+      "price": "On Request"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "3,100 sq.ft",
+      "price": "On Request"
+    }
+  ]
+}

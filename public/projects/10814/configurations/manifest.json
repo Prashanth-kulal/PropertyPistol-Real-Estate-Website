@@ -1,0 +1,111 @@
+{
+  "projectId": 10814,
+  "slug": "cavalli-couture-business-bay-pid-10814",
+  "name": "Cavalli Couture",
+  "city": "dubai",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/cavalli-couture-business-bay-pid-10814",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-17",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/10814/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3417/original/fp.jpg?1672145152",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 Bedroom",
+      "variants": [
+        {
+          "id": 35543,
+          "bhk": "3 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 4300,
+          "price": "16.5 M",
+          "actualPrice": 16500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 Bedroom",
+      "variants": [
+        {
+          "id": 45066,
+          "bhk": "4 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 5300,
+          "price": "21.0 M",
+          "actualPrice": 21000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "5 Bedroom",
+      "variants": [
+        {
+          "id": 45067,
+          "bhk": "5 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 8750,
+          "price": "33.0 M",
+          "actualPrice": 33000000,
+          "propertyType": "Duplex",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 Bedroom",
+      "carpet_area": "On Request",
+      "price": "16.5 M"
+    },
+    {
+      "flat_type_name": "4 Bedroom",
+      "carpet_area": "On Request",
+      "price": "21.0 M"
+    },
+    {
+      "flat_type_name": "5 Bedroom",
+      "carpet_area": "On Request",
+      "price": "33.0 M"
+    }
+  ]
+}

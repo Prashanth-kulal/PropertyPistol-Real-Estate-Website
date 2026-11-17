@@ -1,0 +1,83 @@
+{
+  "projectId": 18622,
+  "slug": "ohana-by-the-sea-ghantoot-pid-18622",
+  "name": "Ohana By The Sea",
+  "city": "dubai",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/ohana-by-the-sea-ghantoot-pid-18622",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-17",
+  "planTypes": [
+    "unit",
+    "master"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18622/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18622/original/masterplan.jpg?1742891023",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "4 Bedroom",
+      "variants": [
+        {
+          "id": 92788,
+          "bhk": "4 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 3552,
+          "price": "7.7 M",
+          "actualPrice": 7700000,
+          "propertyType": "Independent House/Villa",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "5 Bedroom",
+      "variants": [
+        {
+          "id": 92789,
+          "bhk": "5 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 4467,
+          "price": "9.78 M",
+          "actualPrice": 9780000,
+          "propertyType": "Independent House/Villa",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "4 Bedroom",
+      "carpet_area": "On Request",
+      "price": "7.7 M"
+    },
+    {
+      "flat_type_name": "5 Bedroom",
+      "carpet_area": "On Request",
+      "price": "9.78 M"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "projectId": 12915,
+  "slug": "harbour-lights-dubai-maritime-city-pid-12915",
+  "name": "Harbour Lights",
+  "city": "dubai",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/harbour-lights-dubai-maritime-city-pid-12915",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-17",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/12915/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/12915/original/images_%283%29.jpg?1689754202",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/12915/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4150/original/download.png?1689754203",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "2 Bedroom",
+      "variants": [
+        {
+          "id": 39928,
+          "bhk": "2 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2051,
+          "price": "6.67 M",
+          "actualPrice": 6666000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "2 Bedroom",
+      "carpet_area": "On Request",
+      "price": "6.67 M"
+    }
+  ]
+}

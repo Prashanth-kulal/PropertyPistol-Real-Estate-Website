@@ -1,0 +1,122 @@
+{
+  "projectId": 14043,
+  "slug": "abad-sunrise-park-maradu-14043",
+  "name": "ABAD Sunrise Park ",
+  "city": "kochi",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/abad-sunrise-park-maradu-pid-14043",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-17",
+  "planTypes": [
+    "unit",
+    "site"
+  ],
+  "masterPlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/14043/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7998/original/gp-abad.png?1747030732",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/14043/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7999/original/fp-abad.png?1747030732",
+      "downloaded": true
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/14043/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8000/original/fp2-abad.png?1747030733",
+      "downloaded": true
+    },
+    {
+      "id": 4,
+      "title": "Layout / Site Plan 4",
+      "path": "/projects/14043/configurations/site-plans/site-plan-04.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8001/original/tfp-abad.png?1747030733",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 43376,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1757,
+          "price": "1.23 Cr",
+          "actualPrice": 12300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 118757,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2035,
+          "price": "1.42 Cr",
+          "actualPrice": 14200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 72392,
+          "bhk": "4 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2627,
+          "price": "1.83 Cr",
+          "actualPrice": 18300000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/14043/configurations/unit-plans/4-bhk/variant-72392/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/72392/original/4bhk-abad.png?1747030729",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "1.23 Cr - 1.42 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "On Request",
+      "price": "1.83 Cr"
+    }
+  ]
+}

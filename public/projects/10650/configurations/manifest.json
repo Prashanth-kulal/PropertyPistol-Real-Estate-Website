@@ -1,0 +1,74 @@
+{
+  "projectId": 10650,
+  "slug": "sobha-one-residences-mohammed-bin-rashid-al-maktoum-city-pid-10650",
+  "name": "Sobha One Residences",
+  "city": "dubai",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sobha-one-residences-mohammed-bin-rashid-al-maktoum-city-pid-10650",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-17",
+  "planTypes": [
+    "unit"
+  ],
+  "masterPlans": [],
+  "sitePlans": [],
+  "unitPlans": [
+    {
+      "bhk": "1 Bedroom",
+      "variants": [
+        {
+          "id": 35178,
+          "bhk": "1 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 537,
+          "price": "10.04 M",
+          "actualPrice": 10035027,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/10650/configurations/unit-plans/1-bedroom/variant-35178/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/35178/original/1.JPG?1671098348",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "5 Bedroom",
+      "variants": [
+        {
+          "id": 137686,
+          "bhk": "5 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 3781,
+          "price": "14.56 M",
+          "actualPrice": 14560627,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 Bedroom",
+      "carpet_area": "On Request",
+      "price": "10.04 M"
+    },
+    {
+      "flat_type_name": "5 Bedroom",
+      "carpet_area": "On Request",
+      "price": "14.56 M"
+    }
+  ]
+}

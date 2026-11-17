@@ -1,0 +1,64 @@
+{
+  "projectId": 11892,
+  "slug": "asset-laurels-kakkanad-11892",
+  "name": "Asset Laurels",
+  "city": "kochi",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/asset-laurels-kakkanad-pid-11892",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-17",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/11892/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/11892/original/cf62cd3aab8df94.png?1682079437",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/11892/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/3773/original/cf62cd3ac8c6069.png?1682079438",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 37922,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1271,
+          "price": "99.0 Lacs",
+          "actualPrice": 9900000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "99.0 Lacs"
+    }
+  ]
+}

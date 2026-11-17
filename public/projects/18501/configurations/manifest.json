@@ -1,0 +1,120 @@
+{
+  "projectId": 18501,
+  "slug": "sidr-residences-expo-city-pid-18501",
+  "name": "Sidr Residences",
+  "city": "dubai",
+  "officialSourceUrl": "https://www.propertypistol.com/projects/sidr-residences-expo-city-pid-18501",
+  "verificationStatus": "VERIFIED",
+  "lastVerified": "2026-11-17",
+  "planTypes": [
+    "unit",
+    "master",
+    "site"
+  ],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/18501/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/18501/original/Gallery-Sidr_5.png?1731061335",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18501/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7086/original/fp.PNG?1731061438",
+      "downloaded": true
+    }
+  ],
+  "unitPlans": [
+    {
+      "bhk": "1 Bedroom",
+      "variants": [
+        {
+          "id": 92071,
+          "bhk": "1 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 984,
+          "price": "1.88 M",
+          "actualPrice": 1880000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18501/configurations/unit-plans/1-bedroom/variant-92071/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/92071/original/1.PNG?1731061335",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 Bedroom",
+      "variants": [
+        {
+          "id": 92072,
+          "bhk": "2 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1378,
+          "price": "2.58 M",
+          "actualPrice": 2580000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18501/configurations/unit-plans/2-bedroom/variant-92072/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/92072/original/2.PNG?1731061335",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 Bedroom",
+      "variants": [
+        {
+          "id": 92073,
+          "bhk": "3 Bedroom",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1695,
+          "price": "3.25 M",
+          "actualPrice": 3250000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18501/configurations/unit-plans/3-bedroom/variant-92073/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/92073/original/3.PNG?1731061335",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        }
+      ]
+    }
+  ],
+  "configurationSummary": [
+    {
+      "flat_type_name": "1 Bedroom",
+      "carpet_area": "On Request",
+      "price": "1.88 M"
+    },
+    {
+      "flat_type_name": "2 Bedroom",
+      "carpet_area": "On Request",
+      "price": "2.58 M"
+    },
+    {
+      "flat_type_name": "3 Bedroom",
+      "carpet_area": "On Request",
+      "price": "3.25 M"
+    }
+  ]
+}
