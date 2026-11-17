@@ -16,6 +16,8 @@ import { PUNE_REGISTRY_PROJECTS } from "./puneProjectsRegistry.js";
 import { CHENNAI_REGISTRY_PROJECTS } from "./chennaiProjectsRegistry.js";
 import { GURUGRAM_REGISTRY_PROJECTS } from "./gurugramProjectsRegistry.js";
 import { KOLKATA_REGISTRY_PROJECTS } from "./kolkataProjectsRegistry.js";
+import { AHMEDABAD_REGISTRY_PROJECTS } from "./ahmedabadProjectsRegistry.js";
+import { LUCKNOW_REGISTRY_PROJECTS } from "./lucknowProjectsRegistry.js";
 
 export const DEVELOPERS_DATA = [
   {
@@ -2276,6 +2278,114 @@ export function getDeveloperBySlug(slug) {
           ongoingCount: ongoing,
           upcomingCount: upcoming,
           projects: kolkataDevMatches
+        }
+      ]
+    };
+  }
+
+  // Synthesize developer profile dynamically from AHMEDABAD_REGISTRY_PROJECTS
+  const ahmedabadDevMatches = AHMEDABAD_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === normalized) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return bNorm === normSlug || bNorm.includes(normSlug) || normSlug.includes(bNorm);
+  });
+
+  if (ahmedabadDevMatches.length > 0) {
+    const builderName = ahmedabadDevMatches[0].builder;
+    const logo = ahmedabadDevMatches[0].builderLogo || "/images/logo/logo-emblem.png";
+    const ongoing = ahmedabadDevMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch"
+    ).length;
+    const upcoming = ahmedabadDevMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch"
+    ).length;
+
+    return {
+      id: normalized,
+      slug: ahmedabadDevMatches[0].developerSlug || normalized,
+      name: builderName,
+      logo: logo,
+      tagline: `Premier Residential Communities Across Ahmedabad & GIFT City`,
+      experience: "20+ Years",
+      projectCount: `${ahmedabadDevMatches.length}+ Projects`,
+      established: "2005",
+      aboutUs: ahmedabadDevMatches[0].builderDescription || `${builderName} is a leading real estate developer delivering quality homes across Ahmedabad.`,
+      description: ahmedabadDevMatches[0].builderDescription || `${builderName} develops high-grade residential and commercial communities across Ahmedabad with GujRERA compliance and modern architectural standards.`,
+      stats: [
+        { label: "Active Projects", value: `${ahmedabadDevMatches.length}+` },
+        { label: "Location", value: "Ahmedabad, Gujarat" },
+        { label: "GujRERA Compliant", value: "100%" },
+        { label: "Brokerage", value: "0%" }
+      ],
+      featuredProjects: ahmedabadDevMatches.slice(0, 3).map((p) => ({
+        title: p.name,
+        location: p.location,
+        price: p.price === "On Request" ? "On Request" : (p.price.includes("₹") ? p.price : `₹${p.price}*`),
+        image: p.images?.[0] || "/images/placeholder-property.jpg",
+        slug: p.slug
+      })),
+      cities: [
+        {
+          name: "Ahmedabad",
+          citySlug: "ahmedabad",
+          ongoingCount: ongoing,
+          upcomingCount: upcoming,
+          projects: ahmedabadDevMatches
+        }
+      ]
+    };
+  }
+
+  // Synthesize developer profile dynamically from LUCKNOW_REGISTRY_PROJECTS
+  const lucknowDevMatches = LUCKNOW_REGISTRY_PROJECTS.filter((p) => {
+    if (p.developerSlug === normalized) return true;
+    if (!p.builder) return false;
+    const bNorm = p.builder.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return bNorm === normSlug || bNorm.includes(normSlug) || normSlug.includes(bNorm);
+  });
+
+  if (lucknowDevMatches.length > 0) {
+    const builderName = lucknowDevMatches[0].builder;
+    const logo = lucknowDevMatches[0].builderLogo || "/images/logo/logo-emblem.png";
+    const ongoing = lucknowDevMatches.filter(
+      (p) => p.status === "Under Construction" || p.status === "New Launch"
+    ).length;
+    const upcoming = lucknowDevMatches.filter(
+      (p) => p.status === "Upcoming" || p.status === "New Launch"
+    ).length;
+
+    return {
+      id: normalized,
+      slug: lucknowDevMatches[0].developerSlug || normalized,
+      name: builderName,
+      logo: logo,
+      tagline: `Premier Residential Communities Across Lucknow & Uttar Pradesh`,
+      experience: "20+ Years",
+      projectCount: `${lucknowDevMatches.length}+ Projects`,
+      established: "2005",
+      aboutUs: lucknowDevMatches[0].builderDescription || `${builderName} is a leading real estate developer delivering quality homes across Lucknow.`,
+      description: lucknowDevMatches[0].builderDescription || `${builderName} develops high-grade residential communities across Lucknow with UP RERA compliance and modern architectural standards.`,
+      stats: [
+        { label: "Active Projects", value: `${lucknowDevMatches.length}+` },
+        { label: "Location", value: "Lucknow, Uttar Pradesh" },
+        { label: "UP RERA Compliant", value: "100%" },
+        { label: "Brokerage", value: "0%" }
+      ],
+      featuredProjects: lucknowDevMatches.slice(0, 3).map((p) => ({
+        title: p.name,
+        location: p.location,
+        price: p.price === "On Request" ? "On Request" : (p.price.includes("₹") ? p.price : `₹${p.price}*`),
+        image: p.images?.[0] || "/images/placeholder-property.jpg",
+        slug: p.slug
+      })),
+      cities: [
+        {
+          name: "Lucknow",
+          citySlug: "lucknow",
+          ongoingCount: ongoing,
+          upcomingCount: upcoming,
+          projects: lucknowDevMatches
         }
       ]
     };

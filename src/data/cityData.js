@@ -18,6 +18,8 @@ import { HYDERABAD_REGISTRY_PROJECTS } from "./hyderabadProjectsRegistry.js";
 import { CHENNAI_REGISTRY_PROJECTS } from "./chennaiProjectsRegistry.js";
 import { GURUGRAM_REGISTRY_PROJECTS } from "./gurugramProjectsRegistry.js";
 import { KOLKATA_REGISTRY_PROJECTS } from "./kolkataProjectsRegistry.js";
+import { AHMEDABAD_REGISTRY_PROJECTS } from "./ahmedabadProjectsRegistry.js";
+import { LUCKNOW_REGISTRY_PROJECTS } from "./lucknowProjectsRegistry.js";
 
 export const CITY_DETAILS = {
   mumbai: {
@@ -333,8 +335,8 @@ export const CITY_DETAILS = {
     name: "Ahmedabad",
     state: "Gujarat",
     tagline: "India's First UNESCO Heritage City & Industrial Economic Marvel",
-    heroImage: "https://images.unsplash.com/photo-1609137144822-26d24fc6170c?auto=format&fit=crop&w=1600&q=80",
-    projectsCount: 490,
+    heroImage: "/projects/22210/cover.jpg",
+    projectsCount: 255,
     avgPriceSqFt: "₹6,100",
     appreciationRate: "+10.5% YoY",
     rentalYield: "3.8% p.a.",
@@ -414,8 +416,8 @@ export const CITY_DETAILS = {
     name: "Lucknow",
     state: "Uttar Pradesh",
     tagline: "The City of Nawabs & Rapidly Growing North Indian Urban Hub",
-    heroImage: "https://images.unsplash.com/photo-1629853692882-990a424ca6b8?auto=format&fit=crop&w=1600&q=80",
-    projectsCount: 290,
+    heroImage: "/projects/7804/cover.jpg",
+    projectsCount: 91,
     avgPriceSqFt: "₹5,400",
     appreciationRate: "+12.4% YoY",
     rentalYield: "4.1% p.a.",
@@ -669,7 +671,9 @@ export const CITY_PROPERTIES = {
   chennai: CHENNAI_REGISTRY_PROJECTS,
   gurugram: GURUGRAM_REGISTRY_PROJECTS,
   kolkata: KOLKATA_REGISTRY_PROJECTS,
-  hyderabad: HYDERABAD_REGISTRY_PROJECTS
+  hyderabad: HYDERABAD_REGISTRY_PROJECTS,
+  ahmedabad: AHMEDABAD_REGISTRY_PROJECTS,
+  lucknow: LUCKNOW_REGISTRY_PROJECTS
 };
 
 // Returns city projects or smartly generates rich verified mock projects for secondary cities
