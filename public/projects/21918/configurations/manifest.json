@@ -16,20 +16,22 @@
       "bhk": "2 BHK",
       "variants": [
         {
-          "id": 219181,
+          "id": 136104,
           "bhk": "2 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
-          "price": "₹ 1.43 Cr",
+          "builtUpArea": 1125,
+          "price": "1.43 Cr",
           "actualPrice": 14287500,
-          "propertyType": "Medium Rise",
+          "propertyType": "Independent Floor",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,20 +39,22 @@
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 219182,
+          "id": 136105,
           "bhk": "3 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
-          "price": "₹ 1.43 Cr",
-          "actualPrice": 14287500,
-          "propertyType": "Medium Rise",
+          "builtUpArea": 1610,
+          "price": "2.04 Cr",
+          "actualPrice": 20447000,
+          "propertyType": "Independent Floor",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -59,12 +63,12 @@
     {
       "flat_type_name": "2 BHK",
       "carpet_area": "On Request",
-      "price": "₹ 1.43 Cr"
+      "price": "1.43 Cr"
     },
     {
       "flat_type_name": "3 BHK",
       "carpet_area": "On Request",
-      "price": "₹ 1.43 Cr"
+      "price": "2.04 Cr"
     }
   ]
 }

@@ -7,29 +7,40 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "master"
   ],
-  "masterPlans": [],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/21962/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/21962/original/mpp1.PNG?1781687970",
+      "downloaded": true
+    }
+  ],
   "sitePlans": [],
   "unitPlans": [
     {
       "bhk": "4 BHK",
       "variants": [
         {
-          "id": 219621,
+          "id": 136283,
           "bhk": "4 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
-          "price": "₹ 20.65 Cr",
+          "builtUpArea": 7000,
+          "price": "20.65 Cr",
           "actualPrice": 206500000,
-          "propertyType": "High Rise",
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -38,7 +49,7 @@
     {
       "flat_type_name": "4 BHK",
       "carpet_area": "On Request",
-      "price": "₹ 20.65 Cr"
+      "price": "20.65 Cr"
     }
   ]
 }

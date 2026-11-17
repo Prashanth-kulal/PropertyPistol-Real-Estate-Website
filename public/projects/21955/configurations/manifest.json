@@ -16,20 +16,22 @@
       "bhk": "4 BHK",
       "variants": [
         {
-          "id": 219551,
+          "id": 136266,
           "bhk": "4 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
-          "price": "₹ 11.53 Cr",
+          "builtUpArea": 4285,
+          "price": "11.53 Cr",
           "actualPrice": 115266500,
-          "propertyType": "High Rise",
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -38,7 +40,7 @@
     {
       "flat_type_name": "4 BHK",
       "carpet_area": "On Request",
-      "price": "₹ 11.53 Cr"
+      "price": "11.53 Cr"
     }
   ]
 }

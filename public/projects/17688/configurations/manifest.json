@@ -7,29 +7,63 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "master",
+    "site"
   ],
-  "masterPlans": [],
-  "sitePlans": [],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/17688/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/17688/original/IMG_20250623_162411.jpg?1750676095",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/17688/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6780/original/fp_pur2.png?1723551302",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/17688/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6783/original/fpp.png?1723551375",
+      "downloaded": true
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/17688/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6779/original/floorplan-min-1-lg.jpg?1750676096",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "4 BHK",
       "variants": [
         {
-          "id": 176881,
+          "id": 78836,
           "bhk": "4 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
+          "builtUpArea": 4375,
           "price": "3.97 Cr",
-          "actualPrice": 39700000,
+          "actualPrice": 39670510,
           "propertyType": "Apartment",
-          "plan2D": null,
+          "plan2D": "/projects/17688/configurations/unit-plans/4-bhk/variant-78836/plan-2d.webp",
           "plan3D": null,
-          "twoDOriginalUrl": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/78836/original/4bhk_pur.png?1723551299",
           "threeDOriginalUrl": null,
-          "has2D": false,
-          "has3D": false
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     }

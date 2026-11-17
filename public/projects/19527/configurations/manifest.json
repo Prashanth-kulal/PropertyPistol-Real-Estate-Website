@@ -7,29 +7,40 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "master"
   ],
-  "masterPlans": [],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19527/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19527/original/4c5fb71ad3335_copy_1920x1440.jpg?1743672836",
+      "downloaded": true
+    }
+  ],
   "sitePlans": [],
   "unitPlans": [
     {
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 195271,
+          "id": 105002,
           "bhk": "3 BHK",
           "carpetArea": 571,
           "carpetAreaDisplay": "571 sq.ft",
           "builtUpArea": null,
-          "price": "44.02 Lacs",
-          "actualPrice": 4402410,
+          "price": "44.01 Lacs",
+          "actualPrice": 4401000,
           "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -38,7 +49,7 @@
     {
       "flat_type_name": "3 BHK",
       "carpet_area": "571 sq.ft",
-      "price": "44.02 Lacs"
+      "price": "44.01 Lacs"
     }
   ]
 }

@@ -7,29 +7,65 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "site"
   ],
   "masterPlans": [],
-  "sitePlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/22026/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9502/original/download_%289%29.png?1782468603",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/22026/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9503/original/download_%2810%29.png?1782468603",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "4 BHK",
       "variants": [
         {
-          "id": 220261,
+          "id": 136444,
           "bhk": "4 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
-          "price": "₹ 1.83 Cr",
+          "builtUpArea": 3699,
+          "price": "1.83 Cr",
           "actualPrice": 18261963,
-          "propertyType": "High Rise",
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 136445,
+          "bhk": "4 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 6345,
+          "price": "3.13 Cr",
+          "actualPrice": 31325265,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -38,7 +74,7 @@
     {
       "flat_type_name": "4 BHK",
       "carpet_area": "On Request",
-      "price": "₹ 1.83 Cr"
+      "price": "1.83 Cr - 3.13 Cr"
     }
   ]
 }

@@ -7,45 +7,90 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "site"
   ],
   "masterPlans": [],
-  "sitePlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16028/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6032/original/floorplan1.JPG?1710532255",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/16028/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6033/original/floorplan2.JPG?1710532255",
+      "downloaded": true
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/16028/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6034/original/floorplan3.JPG?1710532255",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 160281,
+          "id": 54925,
           "bhk": "3 BHK",
-          "carpetArea": 1425,
-          "carpetAreaDisplay": "1425 sq.ft",
-          "builtUpArea": null,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1425,
           "price": "99.75 Lacs",
           "actualPrice": 9975000,
           "propertyType": "Apartment",
           "plan2D": null,
-          "plan3D": null,
+          "plan3D": "/projects/16028/configurations/unit-plans/3-bhk/variant-54925/plan-3d.webp",
           "twoDOriginalUrl": null,
-          "threeDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/54925/original/3bhk_3d1.JPG?1710532255",
           "has2D": false,
-          "has3D": false
+          "has3D": true,
+          "downloaded": false,
+          "downloaded3D": true
         },
         {
-          "id": 160282,
+          "id": 54926,
           "bhk": "3 BHK",
-          "carpetArea": 1482,
-          "carpetAreaDisplay": "1482 sq.ft",
-          "builtUpArea": null,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1460,
+          "price": "1.02 Cr",
+          "actualPrice": 10200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": "/projects/16028/configurations/unit-plans/3-bhk/variant-54926/plan-3d.webp",
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/54926/original/3bhk_3d2.JPG?1710532255",
+          "has2D": false,
+          "has3D": true,
+          "downloaded": false,
+          "downloaded3D": true
+        },
+        {
+          "id": 78408,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1482,
           "price": "1.04 Cr",
-          "actualPrice": 10374000,
+          "actualPrice": 10400000,
           "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -53,13 +98,8 @@
   "configurationSummary": [
     {
       "flat_type_name": "3 BHK",
-      "carpet_area": "1425 sq.ft",
-      "price": "99.75 Lacs"
-    },
-    {
-      "flat_type_name": "3 BHK",
-      "carpet_area": "1482 sq.ft",
-      "price": "1.04 Cr"
+      "carpet_area": "On Request",
+      "price": "99.75 Lacs - 1.04 Cr"
     }
   ]
 }

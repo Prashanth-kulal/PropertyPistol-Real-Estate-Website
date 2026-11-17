@@ -16,20 +16,40 @@
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 73491,
+          "id": 117124,
           "bhk": "3 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
-          "price": "₹ 3.75 Cr",
+          "builtUpArea": 2750,
+          "price": "3.75 Cr",
           "actualPrice": 37500000,
-          "propertyType": "High Rise",
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 117126,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 3815,
+          "price": "5.21 Cr",
+          "actualPrice": 52100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,20 +57,58 @@
       "bhk": "4 BHK",
       "variants": [
         {
-          "id": 73492,
+          "id": 138414,
           "bhk": "4 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
-          "price": "₹ 3.75 Cr",
-          "actualPrice": 37500000,
-          "propertyType": "High Rise",
+          "builtUpArea": 3920,
+          "price": "5.35 Cr",
+          "actualPrice": 53500000,
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 138415,
+          "bhk": "4 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 4075,
+          "price": "5.56 Cr",
+          "actualPrice": 55600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 138416,
+          "bhk": "4 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 5975,
+          "price": "8.16 Cr",
+          "actualPrice": 81600000,
+          "propertyType": "Pent House",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -59,12 +117,12 @@
     {
       "flat_type_name": "3 BHK",
       "carpet_area": "On Request",
-      "price": "₹ 3.75 Cr"
+      "price": "3.75 Cr - 5.21 Cr"
     },
     {
       "flat_type_name": "4 BHK",
       "carpet_area": "On Request",
-      "price": "₹ 3.75 Cr"
+      "price": "5.35 Cr - 8.16 Cr"
     }
   ]
 }

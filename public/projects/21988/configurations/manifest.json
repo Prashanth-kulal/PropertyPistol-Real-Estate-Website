@@ -7,29 +7,54 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "site"
   ],
   "masterPlans": [],
-  "sitePlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21988/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9471/original/download_%2822%29.png?1782296903",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/21988/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9472/original/download_%2823%29.png?1782296903",
+      "downloaded": true
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/21988/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9473/original/download_%2824%29.png?1782296904",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "2 BHK",
       "variants": [
         {
-          "id": 219881,
+          "id": 136347,
           "bhk": "2 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
-          "price": "₹ 53.99 Lacs",
+          "builtUpArea": 1620,
+          "price": "53.99 Lacs",
           "actualPrice": 5399460,
-          "propertyType": "High Rise",
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,20 +62,22 @@
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 219882,
+          "id": 136348,
           "bhk": "3 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
-          "price": "₹ 53.99 Lacs",
-          "actualPrice": 5399460,
-          "propertyType": "High Rise",
+          "builtUpArea": 2025,
+          "price": "67.49 Lacs",
+          "actualPrice": 6749325,
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -59,12 +86,12 @@
     {
       "flat_type_name": "2 BHK",
       "carpet_area": "On Request",
-      "price": "₹ 53.99 Lacs"
+      "price": "53.99 Lacs"
     },
     {
       "flat_type_name": "3 BHK",
       "carpet_area": "On Request",
-      "price": "₹ 53.99 Lacs"
+      "price": "67.49 Lacs"
     }
   ]
 }

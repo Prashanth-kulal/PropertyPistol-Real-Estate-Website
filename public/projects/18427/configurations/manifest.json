@@ -16,20 +16,76 @@
       "bhk": "2 BHK",
       "variants": [
         {
-          "id": 184271,
+          "id": 91542,
           "bhk": "2 BHK",
-          "carpetArea": 883,
-          "carpetAreaDisplay": "883 sq.ft",
-          "builtUpArea": null,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 883,
           "price": "48.56 Lacs",
-          "actualPrice": 4856500,
+          "actualPrice": 4856000,
           "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 132367,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 890,
+          "price": "48.95 Lacs",
+          "actualPrice": 4895000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 132368,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 926,
+          "price": "50.93 Lacs",
+          "actualPrice": 5093000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 91543,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 933,
+          "price": "51.31 Lacs",
+          "actualPrice": 5131000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,11 +93,29 @@
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 184272,
+          "id": 91544,
           "bhk": "3 BHK",
-          "carpetArea": 1248,
-          "carpetAreaDisplay": "1248 sq.ft",
-          "builtUpArea": null,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1197,
+          "price": "65.83 Lacs",
+          "actualPrice": 6583000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 91541,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1248,
           "price": "68.64 Lacs",
           "actualPrice": 6864000,
           "propertyType": "Apartment",
@@ -50,7 +124,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -58,13 +134,13 @@
   "configurationSummary": [
     {
       "flat_type_name": "2 BHK",
-      "carpet_area": "883 sq.ft",
-      "price": "48.56 Lacs"
+      "carpet_area": "On Request",
+      "price": "48.56 Lacs - 51.31 Lacs"
     },
     {
       "flat_type_name": "3 BHK",
-      "carpet_area": "1248 sq.ft",
-      "price": "68.64 Lacs"
+      "carpet_area": "On Request",
+      "price": "65.83 Lacs - 68.64 Lacs"
     }
   ]
 }

@@ -7,45 +7,67 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "master",
+    "site"
   ],
-  "masterPlans": [],
-  "sitePlans": [],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/22113/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/22113/original/dakshini-site-plan.jpg?1783597363",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/22113/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9589/original/dakshini-3rd-floor.jpg?1783597363",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 221131,
+          "id": 136820,
           "bhk": "3 BHK",
-          "carpetArea": 1250,
-          "carpetAreaDisplay": "1250 sq.ft",
-          "builtUpArea": null,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1250,
           "price": "1.05 Cr",
-          "actualPrice": 10487500,
+          "actualPrice": 10490000,
           "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
-          "id": 221132,
+          "id": 136821,
           "bhk": "3 BHK",
-          "carpetArea": 1625,
-          "carpetAreaDisplay": "1625 sq.ft",
-          "builtUpArea": null,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1625,
           "price": "1.36 Cr",
-          "actualPrice": 13633750,
+          "actualPrice": 13637000,
           "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -53,13 +75,8 @@
   "configurationSummary": [
     {
       "flat_type_name": "3 BHK",
-      "carpet_area": "1250 sq.ft",
-      "price": "1.05 Cr"
-    },
-    {
-      "flat_type_name": "3 BHK",
-      "carpet_area": "1625 sq.ft",
-      "price": "1.36 Cr"
+      "carpet_area": "On Request",
+      "price": "1.05 Cr - 1.36 Cr"
     }
   ]
 }

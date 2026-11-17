@@ -7,29 +7,58 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "master"
   ],
-  "masterPlans": [],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/13867/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13867/original/Captureafdadfafd.PNG?1696401550",
+      "downloaded": true
+    }
+  ],
   "sitePlans": [],
   "unitPlans": [
     {
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 138671,
+          "id": 54978,
           "bhk": "3 BHK",
           "carpetArea": 2071,
           "carpetAreaDisplay": "2071 sq.ft",
           "builtUpArea": null,
           "price": "2.28 Cr",
-          "actualPrice": 22801710,
-          "propertyType": "Medium Rise",
+          "actualPrice": 22800000,
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 42872,
+          "bhk": "3 BHK",
+          "carpetArea": 2250,
+          "carpetAreaDisplay": "2250 sq.ft",
+          "builtUpArea": null,
+          "price": "2.81 Cr",
+          "actualPrice": 28100000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,20 +66,40 @@
       "bhk": "4 BHK",
       "variants": [
         {
-          "id": 138672,
+          "id": 54979,
           "bhk": "4 BHK",
-          "carpetArea": 2553,
-          "carpetAreaDisplay": "2553 sq.ft",
+          "carpetArea": 2390,
+          "carpetAreaDisplay": "2390 sq.ft",
           "builtUpArea": null,
-          "price": "2.81 Cr",
-          "actualPrice": 28108530,
-          "propertyType": "Medium Rise",
+          "price": "2.99 Cr",
+          "actualPrice": 29900000,
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 42871,
+          "bhk": "4 BHK",
+          "carpetArea": 2553,
+          "carpetAreaDisplay": "2553 sq.ft",
+          "builtUpArea": null,
+          "price": "3.19 Cr",
+          "actualPrice": 31900000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -58,13 +107,13 @@
   "configurationSummary": [
     {
       "flat_type_name": "3 BHK",
-      "carpet_area": "2071 sq.ft",
-      "price": "2.28 Cr"
+      "carpet_area": "2,071 - 2,250 sq.ft",
+      "price": "2.28 Cr - 2.81 Cr"
     },
     {
       "flat_type_name": "4 BHK",
-      "carpet_area": "2553 sq.ft",
-      "price": "2.81 Cr"
+      "carpet_area": "2,390 - 2,553 sq.ft",
+      "price": "2.99 Cr - 3.19 Cr"
     }
   ]
 }

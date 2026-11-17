@@ -7,29 +7,40 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "master"
   ],
-  "masterPlans": [],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/21937/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/21937/original/download_%2824%29.png?1781520679",
+      "downloaded": true
+    }
+  ],
   "sitePlans": [],
   "unitPlans": [
     {
       "bhk": "2 BHK",
       "variants": [
         {
-          "id": 219371,
+          "id": 136193,
           "bhk": "2 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
-          "price": "₹ 2.22 Cr",
+          "builtUpArea": 1480,
+          "price": "2.22 Cr",
           "actualPrice": 22200000,
-          "propertyType": "High Rise",
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,20 +48,22 @@
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 219372,
+          "id": 136194,
           "bhk": "3 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
-          "price": "₹ 2.22 Cr",
-          "actualPrice": 22200000,
-          "propertyType": "High Rise",
+          "builtUpArea": 1780,
+          "price": "2.67 Cr",
+          "actualPrice": 26700000,
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -59,12 +72,12 @@
     {
       "flat_type_name": "2 BHK",
       "carpet_area": "On Request",
-      "price": "₹ 2.22 Cr"
+      "price": "2.22 Cr"
     },
     {
       "flat_type_name": "3 BHK",
       "carpet_area": "On Request",
-      "price": "₹ 2.22 Cr"
+      "price": "2.67 Cr"
     }
   ]
 }

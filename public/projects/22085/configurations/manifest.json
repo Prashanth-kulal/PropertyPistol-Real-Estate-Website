@@ -7,20 +7,38 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "master",
+    "site"
   ],
-  "masterPlans": [],
-  "sitePlans": [],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/22085/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/22085/original/mp.jpg?1783333290",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/22085/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9567/original/fp.jpg?1783333291",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 220851,
+          "id": 136691,
           "bhk": "3 BHK",
-          "carpetArea": 1600,
-          "carpetAreaDisplay": "1600 sq.ft",
-          "builtUpArea": null,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1600,
           "price": "1.57 Cr",
           "actualPrice": 15680000,
           "propertyType": "Apartment",
@@ -29,14 +47,16 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
-          "id": 220852,
+          "id": 136692,
           "bhk": "3 BHK",
-          "carpetArea": 1900,
-          "carpetAreaDisplay": "1900 sq.ft",
-          "builtUpArea": null,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1900,
           "price": "1.86 Cr",
           "actualPrice": 18620000,
           "propertyType": "Apartment",
@@ -45,7 +65,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -53,13 +75,8 @@
   "configurationSummary": [
     {
       "flat_type_name": "3 BHK",
-      "carpet_area": "1600 sq.ft",
-      "price": "1.57 Cr"
-    },
-    {
-      "flat_type_name": "3 BHK",
-      "carpet_area": "1900 sq.ft",
-      "price": "1.86 Cr"
+      "carpet_area": "On Request",
+      "price": "1.57 Cr - 1.86 Cr"
     }
   ]
 }

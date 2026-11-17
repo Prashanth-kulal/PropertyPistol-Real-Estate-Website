@@ -7,29 +7,68 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "site"
   ],
   "masterPlans": [],
-  "sitePlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/22067/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9554/original/download.png?1782908532",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/22067/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9555/original/download_%281%29.png?1782908533",
+      "downloaded": true
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/22067/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9556/original/download_%282%29.png?1782908533",
+      "downloaded": true
+    },
+    {
+      "id": 4,
+      "title": "Layout / Site Plan 4",
+      "path": "/projects/22067/configurations/site-plans/site-plan-04.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9557/original/download_%283%29.png?1782908533",
+      "downloaded": true
+    },
+    {
+      "id": 5,
+      "title": "Layout / Site Plan 5",
+      "path": "/projects/22067/configurations/site-plans/site-plan-05.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9558/original/download_%284%29.png?1782908533",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "2 BHK",
       "variants": [
         {
-          "id": 220671,
+          "id": 136591,
           "bhk": "2 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
-          "price": "₹ 48.1 Lacs",
+          "builtUpArea": 1300,
+          "price": "48.1 Lacs",
           "actualPrice": 4810000,
-          "propertyType": "High Rise",
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,20 +76,22 @@
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 220672,
+          "id": 136592,
           "bhk": "3 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
-          "price": "₹ 48.1 Lacs",
-          "actualPrice": 4810000,
-          "propertyType": "High Rise",
+          "builtUpArea": 1850,
+          "price": "68.45 Lacs",
+          "actualPrice": 6845000,
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -59,12 +100,12 @@
     {
       "flat_type_name": "2 BHK",
       "carpet_area": "On Request",
-      "price": "₹ 48.1 Lacs"
+      "price": "48.1 Lacs"
     },
     {
       "flat_type_name": "3 BHK",
       "carpet_area": "On Request",
-      "price": "₹ 48.1 Lacs"
+      "price": "68.45 Lacs"
     }
   ]
 }

@@ -7,29 +7,40 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "site"
   ],
   "masterPlans": [],
-  "sitePlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19342/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7514/original/fp_u.png?1741708157",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 193421,
+          "id": 102458,
           "bhk": "3 BHK",
           "carpetArea": 912,
           "carpetAreaDisplay": "912 sq.ft",
           "builtUpArea": null,
-          "price": "83.45 Lacs",
-          "actualPrice": 8344800,
-          "propertyType": "High Rise",
+          "price": "83.44 Lacs",
+          "actualPrice": 8344000,
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -38,7 +49,7 @@
     {
       "flat_type_name": "3 BHK",
       "carpet_area": "912 sq.ft",
-      "price": "83.45 Lacs"
+      "price": "83.44 Lacs"
     }
   ]
 }

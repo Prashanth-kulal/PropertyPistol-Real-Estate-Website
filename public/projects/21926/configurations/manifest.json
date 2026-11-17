@@ -16,20 +16,22 @@
       "bhk": "2 BHK",
       "variants": [
         {
-          "id": 219261,
+          "id": 136118,
           "bhk": "2 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
-          "price": "₹ 1.09 Cr",
+          "builtUpArea": 1089,
+          "price": "1.09 Cr",
           "actualPrice": 10890000,
-          "propertyType": "Medium Rise",
+          "propertyType": "Independent Floor",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -38,7 +40,7 @@
     {
       "flat_type_name": "2 BHK",
       "carpet_area": "On Request",
-      "price": "₹ 1.09 Cr"
+      "price": "1.09 Cr"
     }
   ]
 }

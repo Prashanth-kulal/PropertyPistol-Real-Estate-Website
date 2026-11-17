@@ -16,20 +16,40 @@
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 177611,
+          "id": 82001,
           "bhk": "3 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
-          "price": "₹ 71.36 Lacs",
+          "builtUpArea": 2214,
+          "price": "71.36 Lacs",
           "actualPrice": 7136000,
-          "propertyType": "Low Rise",
+          "propertyType": "Independent House/Villa",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 82002,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2358,
+          "price": "76.0 Lacs",
+          "actualPrice": 7600000,
+          "propertyType": "Independent House/Villa",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,20 +57,40 @@
       "bhk": "4 BHK",
       "variants": [
         {
-          "id": 177612,
+          "id": 82003,
           "bhk": "4 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
-          "price": "₹ 71.36 Lacs",
-          "actualPrice": 7136000,
-          "propertyType": "Low Rise",
+          "builtUpArea": 3492,
+          "price": "1.1 Cr",
+          "actualPrice": 11000000,
+          "propertyType": "Independent House/Villa",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 82004,
+          "bhk": "4 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 3645,
+          "price": "1.15 Cr",
+          "actualPrice": 11500000,
+          "propertyType": "Independent House/Villa",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -59,12 +99,12 @@
     {
       "flat_type_name": "3 BHK",
       "carpet_area": "On Request",
-      "price": "₹ 71.36 Lacs"
+      "price": "71.36 Lacs - 76.0 Lacs"
     },
     {
       "flat_type_name": "4 BHK",
       "carpet_area": "On Request",
-      "price": "₹ 71.36 Lacs"
+      "price": "1.1 Cr - 1.15 Cr"
     }
   ]
 }

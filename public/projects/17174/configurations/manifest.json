@@ -7,29 +7,40 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "site"
   ],
   "masterPlans": [],
-  "sitePlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/17174/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6539/original/fp_ak.png?1719565374",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "2 BHK",
       "variants": [
         {
-          "id": 171741,
+          "id": 70543,
           "bhk": "2 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
-          "price": "₹ 47.97 Lacs",
+          "builtUpArea": 605,
+          "price": "47.97 Lacs",
           "actualPrice": 4797000,
-          "propertyType": "High Rise",
-          "plan2D": null,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/17174/configurations/unit-plans/2-bhk/variant-70543/plan-2d.webp",
           "plan3D": null,
-          "twoDOriginalUrl": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/70543/original/2bhk_ak.PNG?1719565370",
           "threeDOriginalUrl": null,
-          "has2D": false,
-          "has3D": false
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,20 +48,22 @@
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 171742,
+          "id": 70545,
           "bhk": "3 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
-          "price": "₹ 47.97 Lacs",
-          "actualPrice": 4797000,
-          "propertyType": "High Rise",
-          "plan2D": null,
+          "builtUpArea": 764,
+          "price": "60.58 Lacs",
+          "actualPrice": 6058000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/17174/configurations/unit-plans/3-bhk/variant-70545/plan-2d.webp",
           "plan3D": null,
-          "twoDOriginalUrl": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/70545/original/3bhk_ak.PNG?1719565370",
           "threeDOriginalUrl": null,
-          "has2D": false,
-          "has3D": false
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     }
@@ -59,12 +72,12 @@
     {
       "flat_type_name": "2 BHK",
       "carpet_area": "On Request",
-      "price": "₹ 47.97 Lacs"
+      "price": "47.97 Lacs"
     },
     {
       "flat_type_name": "3 BHK",
       "carpet_area": "On Request",
-      "price": "₹ 47.97 Lacs"
+      "price": "60.58 Lacs"
     }
   ]
 }

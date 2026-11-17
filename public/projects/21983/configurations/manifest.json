@@ -7,29 +7,40 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "site"
   ],
   "masterPlans": [],
-  "sitePlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/21983/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9466/original/mahadev-glory-floor-plan.jpg?1782294856",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "2 BHK",
       "variants": [
         {
-          "id": 219831,
+          "id": 136339,
           "bhk": "2 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
-          "price": "₹ 51.3 Lacs",
+          "builtUpArea": 1350,
+          "price": "51.3 Lacs",
           "actualPrice": 5130000,
-          "propertyType": "High Rise",
-          "plan2D": null,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/21983/configurations/unit-plans/2-bhk/variant-136339/plan-2d.webp",
           "plan3D": null,
-          "twoDOriginalUrl": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/136339/original/2.JPG?1782294853",
           "threeDOriginalUrl": null,
-          "has2D": false,
-          "has3D": false
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,20 +48,22 @@
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 219832,
+          "id": 136340,
           "bhk": "3 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
-          "price": "₹ 51.3 Lacs",
-          "actualPrice": 5130000,
-          "propertyType": "High Rise",
-          "plan2D": null,
+          "builtUpArea": 1850,
+          "price": "70.3 Lacs",
+          "actualPrice": 7030000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/21983/configurations/unit-plans/3-bhk/variant-136340/plan-2d.webp",
           "plan3D": null,
-          "twoDOriginalUrl": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/136340/original/3.JPG?1782294853",
           "threeDOriginalUrl": null,
-          "has2D": false,
-          "has3D": false
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     }
@@ -59,12 +72,12 @@
     {
       "flat_type_name": "2 BHK",
       "carpet_area": "On Request",
-      "price": "₹ 51.3 Lacs"
+      "price": "51.3 Lacs"
     },
     {
       "flat_type_name": "3 BHK",
       "carpet_area": "On Request",
-      "price": "₹ 51.3 Lacs"
+      "price": "70.3 Lacs"
     }
   ]
 }

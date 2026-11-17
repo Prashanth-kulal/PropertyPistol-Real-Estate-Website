@@ -7,45 +7,58 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "site"
   ],
   "masterPlans": [],
-  "sitePlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18143/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6973/original/fp-auram.png?1728549829",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "4 BHK",
       "variants": [
         {
-          "id": 181431,
+          "id": 88510,
           "bhk": "4 BHK",
           "carpetArea": 2123,
           "carpetAreaDisplay": "2123 sq.ft",
           "builtUpArea": null,
           "price": "On Request",
-          "actualPrice": null,
-          "propertyType": "High Rise",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
-          "id": 181432,
+          "id": 88511,
           "bhk": "4 BHK",
           "carpetArea": 2286,
           "carpetAreaDisplay": "2286 sq.ft",
           "builtUpArea": null,
           "price": "On Request",
-          "actualPrice": null,
-          "propertyType": "High Rise",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -53,12 +66,7 @@
   "configurationSummary": [
     {
       "flat_type_name": "4 BHK",
-      "carpet_area": "2123 sq.ft",
-      "price": "On Request"
-    },
-    {
-      "flat_type_name": "4 BHK",
-      "carpet_area": "2286 sq.ft",
+      "carpet_area": "2,123 - 2,286 sq.ft",
       "price": "On Request"
     }
   ]

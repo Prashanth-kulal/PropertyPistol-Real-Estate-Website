@@ -16,20 +16,45 @@
       "bhk": "2 BHK",
       "variants": [
         {
-          "id": 164101,
+          "id": 61903,
           "bhk": "2 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
+          "builtUpArea": 1175,
           "price": "59.93 Lacs",
-          "actualPrice": 5993000,
+          "actualPrice": 5992500,
           "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "3 BHK",
+      "variants": [
+        {
+          "id": 102755,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1638,
+          "price": "83.54 Lacs",
+          "actualPrice": 8353800,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -39,6 +64,11 @@
       "flat_type_name": "2 BHK",
       "carpet_area": "On Request",
       "price": "59.93 Lacs"
+    },
+    {
+      "flat_type_name": "3 BHK",
+      "carpet_area": "On Request",
+      "price": "83.54 Lacs"
     }
   ]
 }

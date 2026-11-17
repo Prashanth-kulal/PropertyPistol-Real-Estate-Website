@@ -16,20 +16,45 @@
       "bhk": "4 BHK",
       "variants": [
         {
-          "id": 218301,
+          "id": 135596,
           "bhk": "4 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
+          "builtUpArea": 2450,
           "price": "1.59 Cr",
-          "actualPrice": 15900000,
+          "actualPrice": 15925000,
           "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "5 BHK",
+      "variants": [
+        {
+          "id": 135597,
+          "bhk": "5 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 3000,
+          "price": "1.95 Cr",
+          "actualPrice": 19500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -39,6 +64,11 @@
       "flat_type_name": "4 BHK",
       "carpet_area": "On Request",
       "price": "1.59 Cr"
+    },
+    {
+      "flat_type_name": "5 BHK",
+      "carpet_area": "On Request",
+      "price": "1.95 Cr"
     }
   ]
 }

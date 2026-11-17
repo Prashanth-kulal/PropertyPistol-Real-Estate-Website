@@ -7,29 +7,70 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "master",
+    "site"
   ],
-  "masterPlans": [],
-  "sitePlans": [],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16020/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16020/original/masterplan.JPG?1710500262",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16020/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6013/original/floorplan1.JPG?1710500263",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/16020/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6014/original/floorplan2.JPG?1710500263",
+      "downloaded": true
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/16020/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6015/original/floorplan3.JPG?1710500263",
+      "downloaded": true
+    },
+    {
+      "id": 4,
+      "title": "Layout / Site Plan 4",
+      "path": "/projects/16020/configurations/site-plans/site-plan-04.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6016/original/floorplan4.JPG?1710500263",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "2 BHK",
       "variants": [
         {
-          "id": 160201,
+          "id": 112726,
           "bhk": "2 BHK",
-          "carpetArea": 962,
-          "carpetAreaDisplay": "962 sq.ft",
-          "builtUpArea": null,
-          "price": "50.41 Lacs",
-          "actualPrice": 5040880,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 962,
+          "price": "50.46 Lacs",
+          "actualPrice": 5045600,
           "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,20 +78,22 @@
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 160202,
+          "id": 100104,
           "bhk": "3 BHK",
-          "carpetArea": 1341,
-          "carpetAreaDisplay": "1341 sq.ft",
-          "builtUpArea": null,
-          "price": "70.27 Lacs",
-          "actualPrice": 7026840,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1341,
+          "price": "71.07 Lacs",
+          "actualPrice": 7107300,
           "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -58,13 +101,13 @@
   "configurationSummary": [
     {
       "flat_type_name": "2 BHK",
-      "carpet_area": "962 sq.ft",
-      "price": "50.41 Lacs"
+      "carpet_area": "On Request",
+      "price": "50.46 Lacs"
     },
     {
       "flat_type_name": "3 BHK",
-      "carpet_area": "1341 sq.ft",
-      "price": "70.27 Lacs"
+      "carpet_area": "On Request",
+      "price": "71.07 Lacs"
     }
   ]
 }

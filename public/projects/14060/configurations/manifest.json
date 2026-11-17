@@ -7,29 +7,49 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "master",
+    "site"
   ],
-  "masterPlans": [],
-  "sitePlans": [],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/14060/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/14060/original/mp-1400w.jpg?1697050502",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/14060/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4609/original/Merlin-Serenia-Floor-Plan-1-1.jpg?1697050506",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "2 BHK",
       "variants": [
         {
-          "id": 140601,
+          "id": 43416,
           "bhk": "2 BHK",
-          "carpetArea": 732,
-          "carpetAreaDisplay": "732 sq.ft",
-          "builtUpArea": null,
-          "price": "64.42 Lacs",
-          "actualPrice": 6441600,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 732,
+          "price": "64.39 Lacs",
+          "actualPrice": 6439404,
           "propertyType": "Apartment",
-          "plan2D": null,
+          "plan2D": "/projects/14060/configurations/unit-plans/2-bhk/variant-43416/plan-2d.webp",
           "plan3D": null,
-          "twoDOriginalUrl": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/43416/original/2_%281%29.jpg?1764308161",
           "threeDOriginalUrl": null,
-          "has2D": false,
-          "has3D": false
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,20 +57,22 @@
       "bhk": "4 BHK",
       "variants": [
         {
-          "id": 140602,
+          "id": 43419,
           "bhk": "4 BHK",
-          "carpetArea": 1454,
-          "carpetAreaDisplay": "1454 sq.ft",
-          "builtUpArea": null,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1454,
           "price": "1.28 Cr",
-          "actualPrice": 12795200,
+          "actualPrice": 12790838,
           "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -58,12 +80,12 @@
   "configurationSummary": [
     {
       "flat_type_name": "2 BHK",
-      "carpet_area": "732 sq.ft",
-      "price": "64.42 Lacs"
+      "carpet_area": "On Request",
+      "price": "64.39 Lacs"
     },
     {
       "flat_type_name": "4 BHK",
-      "carpet_area": "1454 sq.ft",
+      "carpet_area": "On Request",
       "price": "1.28 Cr"
     }
   ]

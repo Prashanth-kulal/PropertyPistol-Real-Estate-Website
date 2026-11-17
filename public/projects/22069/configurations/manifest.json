@@ -16,20 +16,22 @@
       "bhk": "2 BHK",
       "variants": [
         {
-          "id": 220691,
+          "id": 136595,
           "bhk": "2 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
-          "price": "₹ 52.8 Lacs",
+          "builtUpArea": 1395,
+          "price": "52.8 Lacs",
           "actualPrice": 5280075,
-          "propertyType": "High Rise",
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,20 +39,22 @@
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 220692,
+          "id": 136596,
           "bhk": "3 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
-          "price": "₹ 52.8 Lacs",
-          "actualPrice": 5280075,
-          "propertyType": "High Rise",
+          "builtUpArea": 1890,
+          "price": "71.54 Lacs",
+          "actualPrice": 7153650,
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -59,12 +63,12 @@
     {
       "flat_type_name": "2 BHK",
       "carpet_area": "On Request",
-      "price": "₹ 52.8 Lacs"
+      "price": "52.8 Lacs"
     },
     {
       "flat_type_name": "3 BHK",
       "carpet_area": "On Request",
-      "price": "₹ 52.8 Lacs"
+      "price": "71.54 Lacs"
     }
   ]
 }

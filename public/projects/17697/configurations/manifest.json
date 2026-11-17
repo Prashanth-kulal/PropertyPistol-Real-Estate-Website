@@ -7,45 +7,76 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "master"
   ],
-  "masterPlans": [],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/17697/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/17697/original/masterplan.jpg?1723559959",
+      "downloaded": true
+    }
+  ],
   "sitePlans": [],
   "unitPlans": [
     {
       "bhk": "5 BHK",
       "variants": [
         {
-          "id": 176971,
+          "id": 78877,
           "bhk": "5 BHK",
-          "carpetArea": 2445,
-          "carpetAreaDisplay": "2445 sq.ft",
-          "builtUpArea": null,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2445,
           "price": "2.93 Cr",
-          "actualPrice": 29291100,
+          "actualPrice": 29300000,
           "propertyType": "Independent House/Villa",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
-          "id": 176972,
+          "id": 103180,
           "bhk": "5 BHK",
-          "carpetArea": 2618,
-          "carpetAreaDisplay": "2618 sq.ft",
-          "builtUpArea": null,
-          "price": "3.14 Cr",
-          "actualPrice": 31363640,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2570,
+          "price": "3.08 Cr",
+          "actualPrice": 30800000,
           "propertyType": "Independent House/Villa",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 132430,
+          "bhk": "5 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2618,
+          "price": "3.14 Cr",
+          "actualPrice": 31400000,
+          "propertyType": "Independent House/Villa",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -53,13 +84,8 @@
   "configurationSummary": [
     {
       "flat_type_name": "5 BHK",
-      "carpet_area": "2445 sq.ft",
-      "price": "2.93 Cr"
-    },
-    {
-      "flat_type_name": "5 BHK",
-      "carpet_area": "2618 sq.ft",
-      "price": "3.14 Cr"
+      "carpet_area": "On Request",
+      "price": "2.93 Cr - 3.14 Cr"
     }
   ]
 }

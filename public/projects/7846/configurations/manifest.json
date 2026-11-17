@@ -16,20 +16,22 @@
       "bhk": "2 BHK",
       "variants": [
         {
-          "id": 78461,
+          "id": 24793,
           "bhk": "2 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
+          "builtUpArea": 954,
           "price": "On Request",
-          "actualPrice": null,
-          "propertyType": "Apartment",
+          "actualPrice": 0,
+          "propertyType": "Flat",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }

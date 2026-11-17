@@ -7,21 +7,30 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "master"
   ],
-  "masterPlans": [],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/14815/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/14815/original/moo.PNG?1783341620",
+      "downloaded": true
+    }
+  ],
   "sitePlans": [],
   "unitPlans": [
     {
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 148151,
+          "id": 46521,
           "bhk": "3 BHK",
-          "carpetArea": 2000,
-          "carpetAreaDisplay": "2000 sq.ft",
-          "builtUpArea": null,
-          "price": "75 Lacs",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2000,
+          "price": "75.0 Lacs",
           "actualPrice": 7500000,
           "propertyType": "Independent House/Villa",
           "plan2D": null,
@@ -29,7 +38,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -37,8 +48,8 @@
   "configurationSummary": [
     {
       "flat_type_name": "3 BHK",
-      "carpet_area": "2000 sq.ft",
-      "price": "75 Lacs"
+      "carpet_area": "On Request",
+      "price": "75.0 Lacs"
     }
   ]
 }

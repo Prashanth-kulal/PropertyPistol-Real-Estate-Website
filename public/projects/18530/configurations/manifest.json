@@ -7,29 +7,61 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "site"
   ],
   "masterPlans": [],
-  "sitePlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18530/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8995/original/download_%2823%29.png?1763792086",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/18530/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8996/original/download_%2824%29.png?1763792086",
+      "downloaded": true
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/18530/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8997/original/download_%2825%29.png?1763792086",
+      "downloaded": true
+    },
+    {
+      "id": 4,
+      "title": "Layout / Site Plan 4",
+      "path": "/projects/18530/configurations/site-plans/site-plan-04.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8998/original/download_%2826%29.png?1763792087",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 185301,
+          "id": 92140,
           "bhk": "3 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
-          "price": "₹ 1.05 Cr",
+          "builtUpArea": 2200,
+          "price": "1.05 Cr",
           "actualPrice": 10500000,
-          "propertyType": "High Rise",
-          "plan2D": null,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18530/configurations/unit-plans/3-bhk/variant-92140/plan-2d.webp",
           "plan3D": null,
-          "twoDOriginalUrl": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/92140/original/3bhk_can.png?1731074210",
           "threeDOriginalUrl": null,
-          "has2D": false,
-          "has3D": false
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,20 +69,40 @@
       "bhk": "4 BHK",
       "variants": [
         {
-          "id": 185302,
+          "id": 92141,
           "bhk": "4 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
-          "price": "₹ 1.05 Cr",
-          "actualPrice": 10500000,
-          "propertyType": "High Rise",
+          "builtUpArea": 3300,
+          "price": "1.61 Cr",
+          "actualPrice": 16100000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18530/configurations/unit-plans/4-bhk/variant-92141/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/92141/original/4bhk_can.png?1731074210",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        },
+        {
+          "id": 92142,
+          "bhk": "4 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 3600,
+          "price": "1.6 Cr",
+          "actualPrice": 16000000,
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -58,20 +110,22 @@
       "bhk": "5 BHK",
       "variants": [
         {
-          "id": 185303,
+          "id": 92143,
           "bhk": "5 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
-          "price": "₹ 1.05 Cr",
-          "actualPrice": 10500000,
-          "propertyType": "High Rise",
+          "builtUpArea": 5100,
+          "price": "2.48 Cr",
+          "actualPrice": 24800000,
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -80,17 +134,17 @@
     {
       "flat_type_name": "3 BHK",
       "carpet_area": "On Request",
-      "price": "₹ 1.05 Cr"
+      "price": "1.05 Cr"
     },
     {
       "flat_type_name": "4 BHK",
       "carpet_area": "On Request",
-      "price": "₹ 1.05 Cr"
+      "price": "1.6 Cr - 1.61 Cr"
     },
     {
       "flat_type_name": "5 BHK",
       "carpet_area": "On Request",
-      "price": "₹ 1.05 Cr"
+      "price": "2.48 Cr"
     }
   ]
 }

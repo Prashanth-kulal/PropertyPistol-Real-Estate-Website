@@ -16,20 +16,22 @@
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 201141,
+          "id": 118650,
           "bhk": "3 BHK",
           "carpetArea": 980,
           "carpetAreaDisplay": "980 sq.ft",
-          "builtUpArea": null,
-          "price": "1.23 Cr",
-          "actualPrice": 12250000,
+          "builtUpArea": 1400,
+          "price": "1.75 Cr",
+          "actualPrice": 17500000,
           "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -38,7 +40,7 @@
     {
       "flat_type_name": "3 BHK",
       "carpet_area": "980 sq.ft",
-      "price": "1.23 Cr"
+      "price": "1.75 Cr"
     }
   ]
 }

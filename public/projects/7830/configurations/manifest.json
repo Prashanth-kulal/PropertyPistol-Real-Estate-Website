@@ -7,29 +7,58 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "master"
   ],
-  "masterPlans": [],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/7830/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/7830/original/mp.png?1645082830",
+      "downloaded": true
+    }
+  ],
   "sitePlans": [],
   "unitPlans": [
     {
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 78301,
+          "id": 24693,
           "bhk": "3 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
+          "builtUpArea": 1200,
           "price": "75.0 Lacs",
           "actualPrice": 7500000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/7830/configurations/unit-plans/3-bhk/variant-24693/plan-2d.webp",
+          "plan3D": "/projects/7830/configurations/unit-plans/3-bhk/variant-24693/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/24693/original/3bhk.JPG?1645082830",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/24693/original/3bh.JPG?1645082830",
+          "has2D": true,
+          "has3D": true,
+          "downloaded": true,
+          "downloaded3D": true
+        },
+        {
+          "id": 62639,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1465,
+          "price": "91.0 Lacs",
+          "actualPrice": 9100000,
           "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -38,7 +67,7 @@
     {
       "flat_type_name": "3 BHK",
       "carpet_area": "On Request",
-      "price": "75.0 Lacs"
+      "price": "75.0 Lacs - 91.0 Lacs"
     }
   ]
 }

@@ -16,20 +16,22 @@
       "bhk": "4 BHK",
       "variants": [
         {
-          "id": 161381,
+          "id": 103641,
           "bhk": "4 BHK",
           "carpetArea": 1921,
           "carpetAreaDisplay": "1921 sq.ft",
           "builtUpArea": null,
           "price": "5.88 Cr",
-          "actualPrice": 58801810,
-          "propertyType": "High Rise",
+          "actualPrice": 58800000,
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -37,7 +39,7 @@
   "configurationSummary": [
     {
       "flat_type_name": "4 BHK",
-      "carpet_area": "1921 sq.ft",
+      "carpet_area": "1,921 sq.ft",
       "price": "5.88 Cr"
     }
   ]

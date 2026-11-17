@@ -7,45 +7,81 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "master",
+    "site"
   ],
-  "masterPlans": [],
-  "sitePlans": [],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16271/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16271/original/cf5ca816566b68a.jpeg?1714653536",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16271/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8159/original/tf.png?1748007557",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/16271/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8160/original/fp-.png?1748007557",
+      "downloaded": true
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/16271/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8161/original/gp-.png?1748007557",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 162711,
+          "id": 60424,
           "bhk": "3 BHK",
-          "carpetArea": 1483,
-          "carpetAreaDisplay": "1483 sq.ft",
-          "builtUpArea": null,
-          "price": "70.15 Lacs",
-          "actualPrice": 7014590,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1483,
+          "price": "70.1 Lacs",
+          "actualPrice": 7010000,
           "propertyType": "Independent House/Villa",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
-          "id": 162712,
+          "id": 88689,
           "bhk": "3 BHK",
-          "carpetArea": 1513,
-          "carpetAreaDisplay": "1513 sq.ft",
-          "builtUpArea": null,
-          "price": "71.56 Lacs",
-          "actualPrice": 7156490,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1513,
+          "price": "72.0 Lacs",
+          "actualPrice": 7200000,
           "propertyType": "Independent House/Villa",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -53,13 +89,8 @@
   "configurationSummary": [
     {
       "flat_type_name": "3 BHK",
-      "carpet_area": "1483 sq.ft",
-      "price": "70.15 Lacs"
-    },
-    {
-      "flat_type_name": "3 BHK",
-      "carpet_area": "1513 sq.ft",
-      "price": "71.56 Lacs"
+      "carpet_area": "On Request",
+      "price": "70.1 Lacs - 72.0 Lacs"
     }
   ]
 }

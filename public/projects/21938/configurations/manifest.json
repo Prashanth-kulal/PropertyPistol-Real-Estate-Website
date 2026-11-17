@@ -16,20 +16,22 @@
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 219381,
+          "id": 136195,
           "bhk": "3 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
-          "price": "₹ 1.45 Cr",
+          "builtUpArea": 1650,
+          "price": "1.45 Cr",
           "actualPrice": 14503500,
-          "propertyType": "Low Rise",
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -38,7 +40,7 @@
     {
       "flat_type_name": "3 BHK",
       "carpet_area": "On Request",
-      "price": "₹ 1.45 Cr"
+      "price": "1.45 Cr"
     }
   ]
 }

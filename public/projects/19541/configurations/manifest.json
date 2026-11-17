@@ -16,20 +16,22 @@
       "bhk": "2 BHK",
       "variants": [
         {
-          "id": 195411,
+          "id": 105107,
           "bhk": "2 BHK",
           "carpetArea": 560,
           "carpetAreaDisplay": "560 sq.ft",
-          "builtUpArea": null,
-          "price": "Price on Request",
-          "actualPrice": null,
+          "builtUpArea": 799,
+          "price": "On Request",
+          "actualPrice": 0,
           "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,20 +39,22 @@
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 195412,
+          "id": 105108,
           "bhk": "3 BHK",
           "carpetArea": 746,
           "carpetAreaDisplay": "746 sq.ft",
-          "builtUpArea": null,
-          "price": "Price on Request",
-          "actualPrice": null,
+          "builtUpArea": 1066,
+          "price": "On Request",
+          "actualPrice": 0,
           "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -59,12 +63,12 @@
     {
       "flat_type_name": "2 BHK",
       "carpet_area": "560 sq.ft",
-      "price": "Price on Request"
+      "price": "On Request"
     },
     {
       "flat_type_name": "3 BHK",
       "carpet_area": "746 sq.ft",
-      "price": "Price on Request"
+      "price": "On Request"
     }
   ]
 }

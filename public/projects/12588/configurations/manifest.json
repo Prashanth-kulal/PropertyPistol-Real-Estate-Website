@@ -7,20 +7,38 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "master",
+    "site"
   ],
-  "masterPlans": [],
-  "sitePlans": [],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/12588/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/12588/original/MEENA-ECO-VISTA-MASTER-PLAN.jpg?1686556384",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/12588/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4042/original/ECO-Vista-Floor-plan-1.jpg?1686556385",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "2 BHK",
       "variants": [
         {
-          "id": 125881,
+          "id": 108733,
           "bhk": "2 BHK",
-          "carpetArea": 925,
-          "carpetAreaDisplay": "925 sq.ft",
-          "builtUpArea": null,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 925,
           "price": "53.65 Lacs",
           "actualPrice": 5365000,
           "propertyType": "Apartment",
@@ -29,7 +47,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,20 +57,22 @@
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 125882,
+          "id": 108738,
           "bhk": "3 BHK",
-          "carpetArea": 1420,
-          "carpetAreaDisplay": "1420 sq.ft",
-          "builtUpArea": null,
-          "price": "82.36 Lacs",
-          "actualPrice": 8236000,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1420,
+          "price": "82.35 Lacs",
+          "actualPrice": 8235000,
           "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -58,13 +80,13 @@
   "configurationSummary": [
     {
       "flat_type_name": "2 BHK",
-      "carpet_area": "925 sq.ft",
+      "carpet_area": "On Request",
       "price": "53.65 Lacs"
     },
     {
       "flat_type_name": "3 BHK",
-      "carpet_area": "1420 sq.ft",
-      "price": "82.36 Lacs"
+      "carpet_area": "On Request",
+      "price": "82.35 Lacs"
     }
   ]
 }

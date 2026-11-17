@@ -7,21 +7,39 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "master",
+    "site"
   ],
-  "masterPlans": [],
-  "sitePlans": [],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19797/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19797/original/mp.jpg?1746182816",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19797/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7850/original/fp-villa.PNG?1746183063",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 197971,
+          "id": 116461,
           "bhk": "3 BHK",
-          "carpetArea": 1665,
-          "carpetAreaDisplay": "1665 sq.ft",
-          "builtUpArea": null,
-          "price": "1.20 Cr",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1665,
+          "price": "1.2 Cr",
           "actualPrice": 11988000,
           "propertyType": "Independent House/Villa",
           "plan2D": null,
@@ -29,7 +47,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,11 +57,11 @@
       "bhk": "4 BHK",
       "variants": [
         {
-          "id": 197972,
+          "id": 110616,
           "bhk": "4 BHK",
-          "carpetArea": 2410,
-          "carpetAreaDisplay": "2410 sq.ft",
-          "builtUpArea": null,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2410,
           "price": "1.74 Cr",
           "actualPrice": 17352000,
           "propertyType": "Independent House/Villa",
@@ -50,7 +70,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -58,12 +80,12 @@
   "configurationSummary": [
     {
       "flat_type_name": "3 BHK",
-      "carpet_area": "1665 sq.ft",
-      "price": "1.20 Cr"
+      "carpet_area": "On Request",
+      "price": "1.2 Cr"
     },
     {
       "flat_type_name": "4 BHK",
-      "carpet_area": "2410 sq.ft",
+      "carpet_area": "On Request",
       "price": "1.74 Cr"
     }
   ]

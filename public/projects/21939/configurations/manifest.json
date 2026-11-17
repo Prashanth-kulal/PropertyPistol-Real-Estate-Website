@@ -16,20 +16,40 @@
       "bhk": "1 BHK",
       "variants": [
         {
-          "id": 219391,
+          "id": 136196,
           "bhk": "1 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
-          "price": "₹ 2.25 Cr",
+          "builtUpArea": 980,
+          "price": "2.25 Cr",
           "actualPrice": 22540000,
-          "propertyType": "High Rise",
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 136197,
+          "bhk": "1 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1650,
+          "price": "3.8 Cr",
+          "actualPrice": 37950000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -38,7 +58,7 @@
     {
       "flat_type_name": "1 BHK",
       "carpet_area": "On Request",
-      "price": "₹ 2.25 Cr"
+      "price": "2.25 Cr - 3.8 Cr"
     }
   ]
 }

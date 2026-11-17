@@ -16,20 +16,22 @@
       "bhk": "1 BHK",
       "variants": [
         {
-          "id": 139661,
+          "id": 43178,
           "bhk": "1 BHK",
-          "carpetArea": 481,
-          "carpetAreaDisplay": "481 sq.ft",
-          "builtUpArea": null,
-          "price": "19.87 Lacs",
-          "actualPrice": 1986530,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 481,
+          "price": "19.84 Lacs",
+          "actualPrice": 1984125,
           "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,20 +39,22 @@
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 139662,
+          "id": 73642,
           "bhk": "3 BHK",
-          "carpetArea": 1400,
-          "carpetAreaDisplay": "1400 sq.ft",
-          "builtUpArea": null,
-          "price": "57.82 Lacs",
-          "actualPrice": 5782000,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1400,
+          "price": "57.75 Lacs",
+          "actualPrice": 5775000,
           "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -58,13 +62,13 @@
   "configurationSummary": [
     {
       "flat_type_name": "1 BHK",
-      "carpet_area": "481 sq.ft",
-      "price": "19.87 Lacs"
+      "carpet_area": "On Request",
+      "price": "19.84 Lacs"
     },
     {
       "flat_type_name": "3 BHK",
-      "carpet_area": "1400 sq.ft",
-      "price": "57.82 Lacs"
+      "carpet_area": "On Request",
+      "price": "57.75 Lacs"
     }
   ]
 }

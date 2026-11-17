@@ -7,45 +7,58 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "site"
   ],
   "masterPlans": [],
-  "sitePlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18688/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7194/original/fp_mah.PNG?1731683207",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 186881,
+          "id": 93090,
           "bhk": "3 BHK",
           "carpetArea": 865,
           "carpetAreaDisplay": "865 sq.ft",
           "builtUpArea": null,
-          "price": "86.07 Lacs",
-          "actualPrice": 8606750,
-          "propertyType": "High Rise",
+          "price": "86.11 Lacs",
+          "actualPrice": 8611000,
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
-          "id": 186882,
+          "id": 93091,
           "bhk": "3 BHK",
           "carpetArea": 868,
           "carpetAreaDisplay": "868 sq.ft",
           "builtUpArea": null,
-          "price": "86.37 Lacs",
-          "actualPrice": 8636600,
-          "propertyType": "High Rise",
+          "price": "86.44 Lacs",
+          "actualPrice": 8644000,
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -53,13 +66,8 @@
   "configurationSummary": [
     {
       "flat_type_name": "3 BHK",
-      "carpet_area": "865 sq.ft",
-      "price": "86.07 Lacs"
-    },
-    {
-      "flat_type_name": "3 BHK",
-      "carpet_area": "868 sq.ft",
-      "price": "86.37 Lacs"
+      "carpet_area": "865 - 868 sq.ft",
+      "price": "86.11 Lacs - 86.44 Lacs"
     }
   ]
 }

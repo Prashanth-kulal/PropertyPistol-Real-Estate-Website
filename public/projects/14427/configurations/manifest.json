@@ -16,11 +16,11 @@
       "bhk": "2 BHK",
       "variants": [
         {
-          "id": 144271,
+          "id": 133913,
           "bhk": "2 BHK",
-          "carpetArea": 977,
-          "carpetAreaDisplay": "977 sq.ft",
-          "builtUpArea": null,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 977,
           "price": "66.24 Lacs",
           "actualPrice": 6624060,
           "propertyType": "Apartment",
@@ -29,7 +29,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,11 +39,29 @@
       "bhk": "4 BHK",
       "variants": [
         {
-          "id": 144272,
+          "id": 133919,
           "bhk": "4 BHK",
-          "carpetArea": 2583,
-          "carpetAreaDisplay": "2583 sq.ft",
-          "builtUpArea": null,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2417,
+          "price": "1.64 Cr",
+          "actualPrice": 16387260,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 136851,
+          "bhk": "4 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2583,
           "price": "1.75 Cr",
           "actualPrice": 17512740,
           "propertyType": "Apartment",
@@ -50,7 +70,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -58,13 +80,13 @@
   "configurationSummary": [
     {
       "flat_type_name": "2 BHK",
-      "carpet_area": "977 sq.ft",
+      "carpet_area": "On Request",
       "price": "66.24 Lacs"
     },
     {
       "flat_type_name": "4 BHK",
-      "carpet_area": "2583 sq.ft",
-      "price": "1.75 Cr"
+      "carpet_area": "On Request",
+      "price": "1.64 Cr - 1.75 Cr"
     }
   ]
 }

@@ -16,20 +16,45 @@
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 200981,
+          "id": 118585,
           "bhk": "3 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
+          "builtUpArea": 3000,
           "price": "1.8 Cr",
           "actualPrice": 18000000,
-          "propertyType": "Apartment",
+          "propertyType": "Independent House/Villa",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "4 BHK",
+      "variants": [
+        {
+          "id": 118586,
+          "bhk": "4 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 4200,
+          "price": "2.52 Cr",
+          "actualPrice": 25200000,
+          "propertyType": "Independent House/Villa",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -39,6 +64,11 @@
       "flat_type_name": "3 BHK",
       "carpet_area": "On Request",
       "price": "1.8 Cr"
+    },
+    {
+      "flat_type_name": "4 BHK",
+      "carpet_area": "On Request",
+      "price": "2.52 Cr"
     }
   ]
 }

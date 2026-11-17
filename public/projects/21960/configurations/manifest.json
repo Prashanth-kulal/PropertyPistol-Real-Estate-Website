@@ -16,20 +16,22 @@
       "bhk": "6 BHK",
       "variants": [
         {
-          "id": 219601,
+          "id": 136279,
           "bhk": "6 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
-          "price": "₹ 15.75 Cr",
+          "builtUpArea": 6300,
+          "price": "15.75 Cr",
           "actualPrice": 157500000,
-          "propertyType": "High Rise",
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -38,7 +40,7 @@
     {
       "flat_type_name": "6 BHK",
       "carpet_area": "On Request",
-      "price": "₹ 15.75 Cr"
+      "price": "15.75 Cr"
     }
   ]
 }

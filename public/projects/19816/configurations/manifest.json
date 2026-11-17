@@ -7,29 +7,40 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "master"
   ],
-  "masterPlans": [],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19816/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19816/original/images%281%29_copy_1920x1440.jpg?1746682484",
+      "downloaded": true
+    }
+  ],
   "sitePlans": [],
   "unitPlans": [
     {
       "bhk": "4 BHK",
       "variants": [
         {
-          "id": 198161,
+          "id": 111646,
           "bhk": "4 BHK",
-          "carpetArea": 1996,
-          "carpetAreaDisplay": "1996 sq.ft",
-          "builtUpArea": null,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1996,
           "price": "3.57 Cr",
           "actualPrice": 35728400,
           "propertyType": "Apartment",
-          "plan2D": null,
+          "plan2D": "/projects/19816/configurations/unit-plans/4-bhk/variant-111646/plan-2d.webp",
           "plan3D": null,
-          "twoDOriginalUrl": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/111646/original/9eab134b-7b45-46e2-8c9c-a4112e87edf9.png?1754288256",
           "threeDOriginalUrl": null,
-          "has2D": false,
-          "has3D": false
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,11 +48,11 @@
       "bhk": "5 BHK",
       "variants": [
         {
-          "id": 198162,
+          "id": 131147,
           "bhk": "5 BHK",
-          "carpetArea": 2453,
-          "carpetAreaDisplay": "2453 sq.ft",
-          "builtUpArea": null,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2453,
           "price": "4.39 Cr",
           "actualPrice": 43908700,
           "propertyType": "Apartment",
@@ -50,7 +61,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -58,12 +71,12 @@
   "configurationSummary": [
     {
       "flat_type_name": "4 BHK",
-      "carpet_area": "1996 sq.ft",
+      "carpet_area": "On Request",
       "price": "3.57 Cr"
     },
     {
       "flat_type_name": "5 BHK",
-      "carpet_area": "2453 sq.ft",
+      "carpet_area": "On Request",
       "price": "4.39 Cr"
     }
   ]

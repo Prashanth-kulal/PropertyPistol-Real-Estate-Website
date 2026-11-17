@@ -7,29 +7,47 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "site"
   ],
   "masterPlans": [],
-  "sitePlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19594/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7701/original/gp-ratna.png?1744214780",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19594/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7702/original/fp-ratna.png?1744214780",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "2 BHK",
       "variants": [
         {
-          "id": 195941,
+          "id": 106423,
           "bhk": "2 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
-          "price": "₹ 57.49 Lacs",
+          "builtUpArea": 1589,
+          "price": "57.49 Lacs",
           "actualPrice": 5749002,
-          "propertyType": "High Rise",
-          "plan2D": null,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19594/configurations/unit-plans/2-bhk/variant-106423/plan-2d.webp",
           "plan3D": null,
-          "twoDOriginalUrl": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/106423/original/2bhk-ratna.png?1744214777",
           "threeDOriginalUrl": null,
-          "has2D": false,
-          "has3D": false
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,20 +55,22 @@
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 195942,
+          "id": 106424,
           "bhk": "3 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
-          "price": "₹ 57.49 Lacs",
-          "actualPrice": 5749002,
-          "propertyType": "High Rise",
-          "plan2D": null,
+          "builtUpArea": 1793,
+          "price": "64.87 Lacs",
+          "actualPrice": 6487074,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19594/configurations/unit-plans/3-bhk/variant-106424/plan-2d.webp",
           "plan3D": null,
-          "twoDOriginalUrl": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/106424/original/3bhk-ratna.png?1744214777",
           "threeDOriginalUrl": null,
-          "has2D": false,
-          "has3D": false
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     }
@@ -59,12 +79,12 @@
     {
       "flat_type_name": "2 BHK",
       "carpet_area": "On Request",
-      "price": "₹ 57.49 Lacs"
+      "price": "57.49 Lacs"
     },
     {
       "flat_type_name": "3 BHK",
       "carpet_area": "On Request",
-      "price": "₹ 57.49 Lacs"
+      "price": "64.87 Lacs"
     }
   ]
 }

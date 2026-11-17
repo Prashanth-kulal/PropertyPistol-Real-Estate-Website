@@ -7,45 +7,112 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "site"
   ],
   "masterPlans": [],
-  "sitePlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19411/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7560/original/fp_ser.png?1742321103",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 194111,
+          "id": 103069,
           "bhk": "3 BHK",
           "carpetArea": 851,
           "carpetAreaDisplay": "851 sq.ft",
           "builtUpArea": null,
-          "price": "85.01 Lacs",
-          "actualPrice": 8501490,
-          "propertyType": "Medium Rise",
+          "price": "85.0 Lacs",
+          "actualPrice": 8500000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19411/configurations/unit-plans/3-bhk/851-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/103069/original/b.PNG?1742321102",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        },
+        {
+          "id": 125899,
+          "bhk": "3 BHK",
+          "carpetArea": 855,
+          "carpetAreaDisplay": "855 sq.ft",
+          "builtUpArea": null,
+          "price": "85.4 Lacs",
+          "actualPrice": 8540000,
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
-          "id": 194112,
+          "id": 125900,
+          "bhk": "3 BHK",
+          "carpetArea": 857,
+          "carpetAreaDisplay": "857 sq.ft",
+          "builtUpArea": null,
+          "price": "85.8 Lacs",
+          "actualPrice": 8580000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 125901,
+          "bhk": "3 BHK",
+          "carpetArea": 866,
+          "carpetAreaDisplay": "866 sq.ft",
+          "builtUpArea": null,
+          "price": "86.7 Lacs",
+          "actualPrice": 8670000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 125902,
           "bhk": "3 BHK",
           "carpetArea": 867,
           "carpetAreaDisplay": "867 sq.ft",
           "builtUpArea": null,
-          "price": "86.61 Lacs",
-          "actualPrice": 8661330,
-          "propertyType": "Medium Rise",
+          "price": "90.0 Lacs",
+          "actualPrice": 9000000,
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -53,13 +120,8 @@
   "configurationSummary": [
     {
       "flat_type_name": "3 BHK",
-      "carpet_area": "851 sq.ft",
-      "price": "85.01 Lacs"
-    },
-    {
-      "flat_type_name": "3 BHK",
-      "carpet_area": "867 sq.ft",
-      "price": "86.61 Lacs"
+      "carpet_area": "851 - 867 sq.ft",
+      "price": "85.0 Lacs - 90.0 Lacs"
     }
   ]
 }

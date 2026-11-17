@@ -7,45 +7,72 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "master",
+    "site"
   ],
-  "masterPlans": [],
-  "sitePlans": [],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/7841/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/7841/original/tm-plan.jpg?1645170857",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/7841/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/2625/original/Typical-Floor-Plan-Tower-01HR.jpg?1645170858",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "1 BHK",
       "variants": [
         {
-          "id": 78411,
+          "id": 121790,
           "bhk": "1 BHK",
           "carpetArea": 525,
           "carpetAreaDisplay": "525 sq.ft",
           "builtUpArea": null,
-          "price": "40.32 Lacs",
-          "actualPrice": 4032000,
+          "price": "40.3 Lacs",
+          "actualPrice": 4030000,
           "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
-        },
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "2 BHK",
+      "variants": [
         {
-          "id": 78412,
-          "bhk": "1 BHK",
+          "id": 24784,
+          "bhk": "2 BHK",
           "carpetArea": 805,
           "carpetAreaDisplay": "805 sq.ft",
           "builtUpArea": null,
-          "price": "61.82 Lacs",
-          "actualPrice": 6182400,
+          "price": "61.79 Lacs",
+          "actualPrice": 6179000,
           "propertyType": "Apartment",
-          "plan2D": null,
+          "plan2D": "/projects/7841/configurations/unit-plans/2-bhk/805-sqft/plan-2d.webp",
           "plan3D": null,
-          "twoDOriginalUrl": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/24784/original/2BHK.JPG?1645170857",
           "threeDOriginalUrl": null,
-          "has2D": false,
-          "has3D": false
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     }
@@ -54,12 +81,12 @@
     {
       "flat_type_name": "1 BHK",
       "carpet_area": "525 sq.ft",
-      "price": "40.32 Lacs"
+      "price": "40.3 Lacs"
     },
     {
-      "flat_type_name": "1 BHK",
+      "flat_type_name": "2 BHK",
       "carpet_area": "805 sq.ft",
-      "price": "61.82 Lacs"
+      "price": "61.79 Lacs"
     }
   ]
 }

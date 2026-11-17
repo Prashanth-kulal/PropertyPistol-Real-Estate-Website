@@ -7,29 +7,65 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "site"
   ],
   "masterPlans": [],
-  "sitePlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19593/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7699/original/gp-sun.png?1744212999",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19593/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7700/original/fp-sun.png?1744212999",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "2 BHK",
       "variants": [
         {
-          "id": 195931,
+          "id": 106420,
           "bhk": "2 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
-          "price": "₹ 67.04 Lacs",
+          "builtUpArea": 1215,
+          "price": "67.04 Lacs",
           "actualPrice": 6704000,
-          "propertyType": "High Rise",
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19593/configurations/unit-plans/2-bhk/variant-106420/plan-2d.webp",
+          "plan3D": "/projects/19593/configurations/unit-plans/2-bhk/variant-106420/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/106420/original/2bhk-sun.png?1744212993",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/106420/original/2bhk-sun.png?1744212993",
+          "has2D": true,
+          "has3D": true,
+          "downloaded": true,
+          "downloaded3D": true
+        },
+        {
+          "id": 106421,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1260,
+          "price": "69.53 Lacs",
+          "actualPrice": 6953000,
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,20 +73,22 @@
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 195932,
+          "id": 106422,
           "bhk": "3 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
-          "price": "₹ 67.04 Lacs",
-          "actualPrice": 6704000,
-          "propertyType": "High Rise",
-          "plan2D": null,
-          "plan3D": null,
-          "twoDOriginalUrl": null,
-          "threeDOriginalUrl": null,
-          "has2D": false,
-          "has3D": false
+          "builtUpArea": 1855,
+          "price": "1.12 Cr",
+          "actualPrice": 11200000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19593/configurations/unit-plans/3-bhk/variant-106422/plan-2d.webp",
+          "plan3D": "/projects/19593/configurations/unit-plans/3-bhk/variant-106422/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/106422/original/3bhk-sun.png?1744212994",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/106422/original/download_%2825%29.png?1744212994",
+          "has2D": true,
+          "has3D": true,
+          "downloaded": true,
+          "downloaded3D": true
         }
       ]
     }
@@ -59,12 +97,12 @@
     {
       "flat_type_name": "2 BHK",
       "carpet_area": "On Request",
-      "price": "₹ 67.04 Lacs"
+      "price": "67.04 Lacs - 69.53 Lacs"
     },
     {
       "flat_type_name": "3 BHK",
       "carpet_area": "On Request",
-      "price": "₹ 67.04 Lacs"
+      "price": "1.12 Cr"
     }
   ]
 }

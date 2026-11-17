@@ -7,29 +7,61 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "site"
   ],
   "masterPlans": [],
-  "sitePlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/14971/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8292/original/gp-kalim.png?1748930965",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/14971/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8293/original/fp-kalim.png?1748930965",
+      "downloaded": true
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/14971/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8294/original/fp2-kalim.png?1748930965",
+      "downloaded": true
+    },
+    {
+      "id": 4,
+      "title": "Layout / Site Plan 4",
+      "path": "/projects/14971/configurations/site-plans/site-plan-04.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8295/original/fp-kamli3.png?1748930966",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "4 BHK",
       "variants": [
         {
-          "id": 149711,
+          "id": 47138,
           "bhk": "4 BHK",
-          "carpetArea": 1916,
-          "carpetAreaDisplay": "1916 sq.ft",
-          "builtUpArea": null,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1916,
           "price": "2.79 Cr",
-          "actualPrice": 27896960,
+          "actualPrice": 27900000,
           "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,20 +69,22 @@
       "bhk": "5 BHK",
       "variants": [
         {
-          "id": 149712,
+          "id": 108147,
           "bhk": "5 BHK",
-          "carpetArea": 2800,
-          "carpetAreaDisplay": "2800 sq.ft",
-          "builtUpArea": null,
-          "price": "4.08 Cr",
-          "actualPrice": 40768000,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2800,
+          "price": "4.07 Cr",
+          "actualPrice": 40700000,
           "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -58,13 +92,13 @@
   "configurationSummary": [
     {
       "flat_type_name": "4 BHK",
-      "carpet_area": "1916 sq.ft",
+      "carpet_area": "On Request",
       "price": "2.79 Cr"
     },
     {
       "flat_type_name": "5 BHK",
-      "carpet_area": "2800 sq.ft",
-      "price": "4.08 Cr"
+      "carpet_area": "On Request",
+      "price": "4.07 Cr"
     }
   ]
 }

@@ -7,45 +7,65 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "site"
   ],
   "masterPlans": [],
-  "sitePlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19854/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8056/original/skygreen_ground_floor_plan-1.jpg?1747825579",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19854/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8057/original/skygreen_typical_floor_plan-1.jpg?1747825579",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "4 BHK",
       "variants": [
         {
-          "id": 198541,
+          "id": 113787,
           "bhk": "4 BHK",
           "carpetArea": 2089,
           "carpetAreaDisplay": "2089 sq.ft",
           "builtUpArea": null,
           "price": "2.84 Cr",
-          "actualPrice": 28410400,
-          "propertyType": "Medium Rise",
-          "plan2D": null,
+          "actualPrice": 28400000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19854/configurations/unit-plans/4-bhk/2089-sqft/plan-2d.webp",
           "plan3D": null,
-          "twoDOriginalUrl": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/113787/original/4bhk-sky.jpg?1747825574",
           "threeDOriginalUrl": null,
-          "has2D": false,
-          "has3D": false
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         },
         {
-          "id": 198542,
+          "id": 113788,
           "bhk": "4 BHK",
           "carpetArea": 2263,
           "carpetAreaDisplay": "2263 sq.ft",
           "builtUpArea": null,
-          "price": "3.08 Cr",
-          "actualPrice": 30776800,
-          "propertyType": "Medium Rise",
-          "plan2D": null,
+          "price": "3.07 Cr",
+          "actualPrice": 30700000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19854/configurations/unit-plans/4-bhk/2263-sqft/plan-2d.webp",
           "plan3D": null,
-          "twoDOriginalUrl": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/113788/original/4bhk2-sky.jpg?1747825574",
           "threeDOriginalUrl": null,
-          "has2D": false,
-          "has3D": false
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     }
@@ -53,13 +73,8 @@
   "configurationSummary": [
     {
       "flat_type_name": "4 BHK",
-      "carpet_area": "2089 sq.ft",
-      "price": "2.84 Cr"
-    },
-    {
-      "flat_type_name": "4 BHK",
-      "carpet_area": "2263 sq.ft",
-      "price": "3.08 Cr"
+      "carpet_area": "2,089 - 2,263 sq.ft",
+      "price": "2.84 Cr - 3.07 Cr"
     }
   ]
 }

@@ -16,36 +16,40 @@
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 153511,
+          "id": 48684,
           "bhk": "3 BHK",
-          "carpetArea": 1914,
-          "carpetAreaDisplay": "1914 sq.ft",
-          "builtUpArea": null,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1914,
           "price": "1.34 Cr",
-          "actualPrice": 13398000,
+          "actualPrice": 13400000,
           "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
-          "id": 153512,
+          "id": 48685,
           "bhk": "3 BHK",
-          "carpetArea": 2011,
-          "carpetAreaDisplay": "2011 sq.ft",
-          "builtUpArea": null,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2011,
           "price": "1.41 Cr",
-          "actualPrice": 14077000,
+          "actualPrice": 14100000,
           "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -53,13 +57,8 @@
   "configurationSummary": [
     {
       "flat_type_name": "3 BHK",
-      "carpet_area": "1914 sq.ft",
-      "price": "1.34 Cr"
-    },
-    {
-      "flat_type_name": "3 BHK",
-      "carpet_area": "2011 sq.ft",
-      "price": "1.41 Cr"
+      "carpet_area": "On Request",
+      "price": "1.34 Cr - 1.41 Cr"
     }
   ]
 }

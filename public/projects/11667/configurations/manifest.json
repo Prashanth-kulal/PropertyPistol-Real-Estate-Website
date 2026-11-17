@@ -16,11 +16,11 @@
       "bhk": "4 BHK",
       "variants": [
         {
-          "id": 116671,
+          "id": 37451,
           "bhk": "4 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
+          "builtUpArea": 3592,
           "price": "2.5 Cr",
           "actualPrice": 25000000,
           "propertyType": "Apartment",
@@ -29,7 +29,68 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 37450,
+          "bhk": "4 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 3644,
+          "price": "2.54 Cr",
+          "actualPrice": 25400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        }
+      ]
+    },
+    {
+      "bhk": "6 BHK",
+      "variants": [
+        {
+          "id": 122138,
+          "bhk": "6 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 6834,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 122139,
+          "bhk": "6 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 6941,
+          "price": "On Request",
+          "actualPrice": 0,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -38,7 +99,12 @@
     {
       "flat_type_name": "4 BHK",
       "carpet_area": "On Request",
-      "price": "2.5 Cr"
+      "price": "2.5 Cr - 2.54 Cr"
+    },
+    {
+      "flat_type_name": "6 BHK",
+      "carpet_area": "On Request",
+      "price": "On Request"
     }
   ]
 }

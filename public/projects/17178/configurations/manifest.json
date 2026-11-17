@@ -7,29 +7,76 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "site"
   ],
   "masterPlans": [],
-  "sitePlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/17178/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6541/original/fp.jpg?1726814348",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "4 BHK",
       "variants": [
         {
-          "id": 171781,
+          "id": 91386,
           "bhk": "4 BHK",
           "carpetArea": 3072,
           "carpetAreaDisplay": "3072 sq.ft",
           "builtUpArea": null,
           "price": "5.61 Cr",
-          "actualPrice": 56094720,
-          "propertyType": "High Rise",
+          "actualPrice": 56100000,
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 70554,
+          "bhk": "4 BHK",
+          "carpetArea": 3077,
+          "carpetAreaDisplay": "3077 sq.ft",
+          "builtUpArea": null,
+          "price": "5.62 Cr",
+          "actualPrice": 56200000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/17178/configurations/unit-plans/4-bhk/3077-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/70554/original/4.jpg?1726814337",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        },
+        {
+          "id": 103144,
+          "bhk": "4 BHK",
+          "carpetArea": 5271,
+          "carpetAreaDisplay": "5271 sq.ft",
+          "builtUpArea": null,
+          "price": "8.54 Cr",
+          "actualPrice": 85400000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,20 +84,94 @@
       "bhk": "5 BHK",
       "variants": [
         {
-          "id": 171782,
+          "id": 70555,
           "bhk": "5 BHK",
-          "carpetArea": 7288,
-          "carpetAreaDisplay": "7288 sq.ft",
+          "carpetArea": 3949,
+          "carpetAreaDisplay": "3949 sq.ft",
           "builtUpArea": null,
-          "price": "13.31 Cr",
-          "actualPrice": 133078880,
-          "propertyType": "High Rise",
+          "price": "6.77 Cr",
+          "actualPrice": 67700000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/17178/configurations/unit-plans/5-bhk/3949-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/70555/original/5.jpg?1726814337",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        },
+        {
+          "id": 103145,
+          "bhk": "5 BHK",
+          "carpetArea": 4080,
+          "carpetAreaDisplay": "4080 sq.ft",
+          "builtUpArea": null,
+          "price": "6.95 Cr",
+          "actualPrice": 69500000,
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 103146,
+          "bhk": "5 BHK",
+          "carpetArea": 4096,
+          "carpetAreaDisplay": "4096 sq.ft",
+          "builtUpArea": null,
+          "price": "6.97 Cr",
+          "actualPrice": 69700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 103147,
+          "bhk": "5 BHK",
+          "carpetArea": 7253,
+          "carpetAreaDisplay": "7253 sq.ft",
+          "builtUpArea": null,
+          "price": "14.45 Cr",
+          "actualPrice": 144500000,
+          "propertyType": "Pent House",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 70556,
+          "bhk": "5 BHK",
+          "carpetArea": 7288,
+          "carpetAreaDisplay": "7288 sq.ft",
+          "builtUpArea": null,
+          "price": "14.51 Cr",
+          "actualPrice": 145100000,
+          "propertyType": "Pent House",
+          "plan2D": "/projects/17178/configurations/unit-plans/5-bhk/7288-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/70556/original/5.jpg?1726814339",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     }
@@ -58,13 +179,13 @@
   "configurationSummary": [
     {
       "flat_type_name": "4 BHK",
-      "carpet_area": "3072 sq.ft",
-      "price": "5.61 Cr"
+      "carpet_area": "3,072 - 5,271 sq.ft",
+      "price": "5.61 Cr - 8.54 Cr"
     },
     {
       "flat_type_name": "5 BHK",
-      "carpet_area": "7288 sq.ft",
-      "price": "13.31 Cr"
+      "carpet_area": "3,949 - 7,288 sq.ft",
+      "price": "6.77 Cr - 14.51 Cr"
     }
   ]
 }

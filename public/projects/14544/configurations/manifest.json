@@ -7,29 +7,109 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "master",
+    "site"
   ],
-  "masterPlans": [],
-  "sitePlans": [],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/14544/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/14544/original/masterplan.JPG?1700821487",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/14544/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5116/original/floorplan1.JPG?1700821488",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/14544/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5117/original/floorplan2.JPG?1700821488",
+      "downloaded": true
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/14544/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5118/original/floorplan3.JPG?1700821488",
+      "downloaded": true
+    },
+    {
+      "id": 4,
+      "title": "Layout / Site Plan 4",
+      "path": "/projects/14544/configurations/site-plans/site-plan-04.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5119/original/floorplan4.JPG?1700821488",
+      "downloaded": true
+    },
+    {
+      "id": 5,
+      "title": "Layout / Site Plan 5",
+      "path": "/projects/14544/configurations/site-plans/site-plan-05.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5120/original/floorplan5.JPG?1700821488",
+      "downloaded": true
+    },
+    {
+      "id": 6,
+      "title": "Layout / Site Plan 6",
+      "path": "/projects/14544/configurations/site-plans/site-plan-06.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5121/original/floorplan6.JPG?1700821488",
+      "downloaded": true
+    },
+    {
+      "id": 7,
+      "title": "Layout / Site Plan 7",
+      "path": "/projects/14544/configurations/site-plans/site-plan-07.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/5122/original/floorplan7.JPG?1700821488",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "2 BHK",
       "variants": [
         {
-          "id": 145441,
+          "id": 45456,
           "bhk": "2 BHK",
           "carpetArea": 981,
           "carpetAreaDisplay": "981 sq.ft",
           "builtUpArea": null,
           "price": "1.32 Cr",
-          "actualPrice": 13204260,
-          "propertyType": "Medium Rise",
+          "actualPrice": 13200000,
+          "propertyType": "Independent Floor",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 45457,
+          "bhk": "2 BHK",
+          "carpetArea": 1118,
+          "carpetAreaDisplay": "1118 sq.ft",
+          "builtUpArea": null,
+          "price": "1.51 Cr",
+          "actualPrice": 15100000,
+          "propertyType": "Independent Floor",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,20 +117,76 @@
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 145442,
+          "id": 112281,
           "bhk": "3 BHK",
-          "carpetArea": 1530,
-          "carpetAreaDisplay": "1530 sq.ft",
+          "carpetArea": 1235,
+          "carpetAreaDisplay": "1235 sq.ft",
           "builtUpArea": null,
-          "price": "2.06 Cr",
-          "actualPrice": 20593800,
-          "propertyType": "Medium Rise",
+          "price": "2.02 Cr",
+          "actualPrice": 20200000,
+          "propertyType": "Independent House/Villa",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 45459,
+          "bhk": "3 BHK",
+          "carpetArea": 1335,
+          "carpetAreaDisplay": "1335 sq.ft",
+          "builtUpArea": null,
+          "price": "1.8 Cr",
+          "actualPrice": 18000000,
+          "propertyType": "Independent Floor",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 112282,
+          "bhk": "3 BHK",
+          "carpetArea": 1496,
+          "carpetAreaDisplay": "1496 sq.ft",
+          "builtUpArea": null,
+          "price": "2.07 Cr",
+          "actualPrice": 20700000,
+          "propertyType": "Independent House/Villa",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 104354,
+          "bhk": "3 BHK",
+          "carpetArea": 1530,
+          "carpetAreaDisplay": "1530 sq.ft",
+          "builtUpArea": null,
+          "price": "1.67 Cr",
+          "actualPrice": 16700000,
+          "propertyType": "Independent House/Villa",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -58,13 +194,13 @@
   "configurationSummary": [
     {
       "flat_type_name": "2 BHK",
-      "carpet_area": "981 sq.ft",
-      "price": "1.32 Cr"
+      "carpet_area": "981 - 1,118 sq.ft",
+      "price": "1.32 Cr - 1.51 Cr"
     },
     {
       "flat_type_name": "3 BHK",
-      "carpet_area": "1530 sq.ft",
-      "price": "2.06 Cr"
+      "carpet_area": "1,235 - 1,530 sq.ft",
+      "price": "1.67 Cr - 2.07 Cr"
     }
   ]
 }

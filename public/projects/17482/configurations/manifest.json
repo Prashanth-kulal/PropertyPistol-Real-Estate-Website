@@ -16,36 +16,40 @@
       "bhk": "2 BHK",
       "variants": [
         {
-          "id": 174821,
+          "id": 74008,
           "bhk": "2 BHK",
           "carpetArea": 637,
           "carpetAreaDisplay": "637 sq.ft",
           "builtUpArea": null,
-          "price": "Price on Request",
-          "actualPrice": null,
+          "price": "On Request",
+          "actualPrice": 0,
           "propertyType": "Flat",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
-          "id": 174822,
+          "id": 74009,
           "bhk": "2 BHK",
           "carpetArea": 742,
           "carpetAreaDisplay": "742 sq.ft",
           "builtUpArea": null,
-          "price": "Price on Request",
-          "actualPrice": null,
+          "price": "On Request",
+          "actualPrice": 0,
           "propertyType": "Flat",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -53,13 +57,8 @@
   "configurationSummary": [
     {
       "flat_type_name": "2 BHK",
-      "carpet_area": "637 sq.ft",
-      "price": "Price on Request"
-    },
-    {
-      "flat_type_name": "2 BHK",
-      "carpet_area": "742 sq.ft",
-      "price": "Price on Request"
+      "carpet_area": "637 - 742 sq.ft",
+      "price": "On Request"
     }
   ]
 }

@@ -16,36 +16,40 @@
       "bhk": "4 BHK",
       "variants": [
         {
-          "id": 149621,
+          "id": 47115,
           "bhk": "4 BHK",
-          "carpetArea": 1648,
-          "carpetAreaDisplay": "1648 sq.ft",
-          "builtUpArea": null,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1648,
           "price": "1.32 Cr",
-          "actualPrice": 13200480,
+          "actualPrice": 13200000,
           "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
-          "id": 149622,
+          "id": 47116,
           "bhk": "4 BHK",
-          "carpetArea": 1790,
-          "carpetAreaDisplay": "1790 sq.ft",
-          "builtUpArea": null,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1790,
           "price": "1.43 Cr",
-          "actualPrice": 14337900,
+          "actualPrice": 14300000,
           "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -53,13 +57,8 @@
   "configurationSummary": [
     {
       "flat_type_name": "4 BHK",
-      "carpet_area": "1648 sq.ft",
-      "price": "1.32 Cr"
-    },
-    {
-      "flat_type_name": "4 BHK",
-      "carpet_area": "1790 sq.ft",
-      "price": "1.43 Cr"
+      "carpet_area": "On Request",
+      "price": "1.32 Cr - 1.43 Cr"
     }
   ]
 }

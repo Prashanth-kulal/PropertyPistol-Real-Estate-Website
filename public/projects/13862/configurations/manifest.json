@@ -7,29 +7,63 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "master",
+    "site"
   ],
-  "masterPlans": [],
-  "sitePlans": [],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/13862/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13862/original/Site-Plan_%281%29.jpg?1696335689",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/13862/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4491/original/S5.jpg?1696335691",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/13862/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4492/original/S6.jpg?1696335691",
+      "downloaded": true
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/13862/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/4493/original/S7.jpg?1696335691",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "2 BHK",
       "variants": [
         {
-          "id": 138621,
+          "id": 123301,
           "bhk": "2 BHK",
           "carpetArea": 990,
           "carpetAreaDisplay": "990 sq.ft",
           "builtUpArea": null,
           "price": "1.43 Cr",
-          "actualPrice": 14295600,
-          "propertyType": "Medium Rise",
+          "actualPrice": 14300000,
+          "propertyType": "Independent Floor",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,20 +71,40 @@
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 138622,
+          "id": 51137,
           "bhk": "3 BHK",
-          "carpetArea": 1440,
-          "carpetAreaDisplay": "1440 sq.ft",
+          "carpetArea": 1250,
+          "carpetAreaDisplay": "1250 sq.ft",
           "builtUpArea": null,
-          "price": "2.08 Cr",
-          "actualPrice": 20793600,
-          "propertyType": "Medium Rise",
+          "price": "1.8 Cr",
+          "actualPrice": 18000000,
+          "propertyType": "Independent Floor",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 42858,
+          "bhk": "3 BHK",
+          "carpetArea": 1440,
+          "carpetAreaDisplay": "1440 sq.ft",
+          "builtUpArea": null,
+          "price": "2.07 Cr",
+          "actualPrice": 20700000,
+          "propertyType": "Independent Floor",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -63,8 +117,8 @@
     },
     {
       "flat_type_name": "3 BHK",
-      "carpet_area": "1440 sq.ft",
-      "price": "2.08 Cr"
+      "carpet_area": "1,250 - 1,440 sq.ft",
+      "price": "1.8 Cr - 2.07 Cr"
     }
   ]
 }

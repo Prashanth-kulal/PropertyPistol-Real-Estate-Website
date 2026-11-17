@@ -7,29 +7,49 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "master",
+    "site"
   ],
-  "masterPlans": [],
-  "sitePlans": [],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19495/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19495/original/mp-shilp.png?1743078382",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19495/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7630/original/fp_shil.png?1743078386",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 194951,
+          "id": 104333,
           "bhk": "3 BHK",
           "carpetArea": 1750,
           "carpetAreaDisplay": "1750 sq.ft",
           "builtUpArea": null,
-          "price": "91.35 Lacs",
-          "actualPrice": 9135000,
-          "propertyType": "High Rise",
-          "plan2D": null,
+          "price": "91.39 Lacs",
+          "actualPrice": 9139000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19495/configurations/unit-plans/3-bhk/1750-sqft/plan-2d.webp",
           "plan3D": null,
-          "twoDOriginalUrl": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/104333/original/3bhk_shil.png?1743078382",
           "threeDOriginalUrl": null,
-          "has2D": false,
-          "has3D": false
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     }
@@ -37,8 +57,8 @@
   "configurationSummary": [
     {
       "flat_type_name": "3 BHK",
-      "carpet_area": "1750 sq.ft",
-      "price": "91.35 Lacs"
+      "carpet_area": "1,750 sq.ft",
+      "price": "91.39 Lacs"
     }
   ]
 }

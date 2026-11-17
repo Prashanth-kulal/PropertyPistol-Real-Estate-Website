@@ -7,29 +7,94 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "site"
   ],
   "masterPlans": [],
-  "sitePlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/17211/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6554/original/fp_gala.png?1719661368",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "4 BHK",
       "variants": [
         {
-          "id": 172111,
+          "id": 91378,
           "bhk": "4 BHK",
           "carpetArea": 3317,
           "carpetAreaDisplay": "3317 sq.ft",
           "builtUpArea": null,
           "price": "5.13 Cr",
-          "actualPrice": 51313990,
-          "propertyType": "High Rise",
+          "actualPrice": 51300000,
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 121228,
+          "bhk": "4 BHK",
+          "carpetArea": 3979,
+          "carpetAreaDisplay": "3979 sq.ft",
+          "builtUpArea": null,
+          "price": "6.15 Cr",
+          "actualPrice": 61500000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 121226,
+          "bhk": "4 BHK",
+          "carpetArea": 3982,
+          "carpetAreaDisplay": "3982 sq.ft",
+          "builtUpArea": null,
+          "price": "6.16 Cr",
+          "actualPrice": 61600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 121227,
+          "bhk": "4 BHK",
+          "carpetArea": 3987,
+          "carpetAreaDisplay": "3987 sq.ft",
+          "builtUpArea": null,
+          "price": "6.16 Cr",
+          "actualPrice": 61600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,20 +102,76 @@
       "bhk": "5 BHK",
       "variants": [
         {
-          "id": 172112,
+          "id": 70848,
           "bhk": "5 BHK",
-          "carpetArea": 6295,
-          "carpetAreaDisplay": "6295 sq.ft",
+          "carpetArea": 4066,
+          "carpetAreaDisplay": "4066 sq.ft",
           "builtUpArea": null,
-          "price": "9.74 Cr",
-          "actualPrice": 97383650,
-          "propertyType": "High Rise",
+          "price": "6.28 Cr",
+          "actualPrice": 62800000,
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 121225,
+          "bhk": "5 BHK",
+          "carpetArea": 5383,
+          "carpetAreaDisplay": "5383 sq.ft",
+          "builtUpArea": null,
+          "price": "8.32 Cr",
+          "actualPrice": 83200000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 121224,
+          "bhk": "5 BHK",
+          "carpetArea": 6278,
+          "carpetAreaDisplay": "6278 sq.ft",
+          "builtUpArea": null,
+          "price": "9.7 Cr",
+          "actualPrice": 97000000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 121223,
+          "bhk": "5 BHK",
+          "carpetArea": 6295,
+          "carpetAreaDisplay": "6295 sq.ft",
+          "builtUpArea": null,
+          "price": "9.73 Cr",
+          "actualPrice": 97300000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -58,13 +179,13 @@
   "configurationSummary": [
     {
       "flat_type_name": "4 BHK",
-      "carpet_area": "3317 sq.ft",
-      "price": "5.13 Cr"
+      "carpet_area": "3,317 - 3,987 sq.ft",
+      "price": "5.13 Cr - 6.16 Cr"
     },
     {
       "flat_type_name": "5 BHK",
-      "carpet_area": "6295 sq.ft",
-      "price": "9.74 Cr"
+      "carpet_area": "4,066 - 6,295 sq.ft",
+      "price": "6.28 Cr - 9.73 Cr"
     }
   ]
 }

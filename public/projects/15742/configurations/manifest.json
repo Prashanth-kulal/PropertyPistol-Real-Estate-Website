@@ -7,29 +7,40 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "master"
   ],
-  "masterPlans": [],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/15742/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/15742/original/masterplan.JPG?1707219027",
+      "downloaded": true
+    }
+  ],
   "sitePlans": [],
   "unitPlans": [
     {
       "bhk": "2 BHK",
       "variants": [
         {
-          "id": 157421,
+          "id": 126705,
           "bhk": "2 BHK",
           "carpetArea": 918,
           "carpetAreaDisplay": "918 sq.ft",
           "builtUpArea": null,
           "price": "54.99 Lacs",
-          "actualPrice": 5498820,
+          "actualPrice": 5499000,
           "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,20 +48,22 @@
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 157422,
+          "id": 126703,
           "bhk": "3 BHK",
           "carpetArea": 1144,
           "carpetAreaDisplay": "1144 sq.ft",
           "builtUpArea": null,
-          "price": "68.53 Lacs",
-          "actualPrice": 6852560,
+          "price": "74.99 Lacs",
+          "actualPrice": 7499000,
           "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -63,8 +76,8 @@
     },
     {
       "flat_type_name": "3 BHK",
-      "carpet_area": "1144 sq.ft",
-      "price": "68.53 Lacs"
+      "carpet_area": "1,144 sq.ft",
+      "price": "74.99 Lacs"
     }
   ]
 }

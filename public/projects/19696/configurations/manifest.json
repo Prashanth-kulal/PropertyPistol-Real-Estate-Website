@@ -7,29 +7,47 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "site"
   ],
   "masterPlans": [],
-  "sitePlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19696/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7753/original/fp-suryam.png?1745075373",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/19696/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7754/original/suryam2.png?1745075373",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 196961,
+          "id": 108433,
           "bhk": "3 BHK",
           "carpetArea": 814,
           "carpetAreaDisplay": "814 sq.ft",
           "builtUpArea": null,
-          "price": "1.10 Cr",
-          "actualPrice": 10997140,
-          "propertyType": "High Rise",
+          "price": "1.1 Cr",
+          "actualPrice": 11000000,
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,20 +55,22 @@
       "bhk": "3.5 BHK",
       "variants": [
         {
-          "id": 196962,
+          "id": 108434,
           "bhk": "3.5 BHK",
           "carpetArea": 950,
           "carpetAreaDisplay": "950 sq.ft",
           "builtUpArea": null,
           "price": "1.28 Cr",
-          "actualPrice": 12834500,
-          "propertyType": "High Rise",
+          "actualPrice": 12800000,
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -59,7 +79,7 @@
     {
       "flat_type_name": "3 BHK",
       "carpet_area": "814 sq.ft",
-      "price": "1.10 Cr"
+      "price": "1.1 Cr"
     },
     {
       "flat_type_name": "3.5 BHK",

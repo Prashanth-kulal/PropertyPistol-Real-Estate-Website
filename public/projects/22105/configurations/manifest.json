@@ -16,12 +16,12 @@
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 221051,
+          "id": 136790,
           "bhk": "3 BHK",
-          "carpetArea": 2200,
-          "carpetAreaDisplay": "2200 sq.ft",
-          "builtUpArea": null,
-          "price": "2.20 Cr",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2200,
+          "price": "2.2 Cr",
           "actualPrice": 22000000,
           "propertyType": "Independent House/Villa",
           "plan2D": null,
@@ -29,7 +29,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,12 +39,12 @@
       "bhk": "4 BHK",
       "variants": [
         {
-          "id": 221052,
+          "id": 136791,
           "bhk": "4 BHK",
-          "carpetArea": 4200,
-          "carpetAreaDisplay": "4200 sq.ft",
-          "builtUpArea": null,
-          "price": "4.20 Cr",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 4200,
+          "price": "4.2 Cr",
           "actualPrice": 42000000,
           "propertyType": "Independent House/Villa",
           "plan2D": null,
@@ -50,7 +52,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -58,13 +62,13 @@
   "configurationSummary": [
     {
       "flat_type_name": "3 BHK",
-      "carpet_area": "2200 sq.ft",
-      "price": "2.20 Cr"
+      "carpet_area": "On Request",
+      "price": "2.2 Cr"
     },
     {
       "flat_type_name": "4 BHK",
-      "carpet_area": "4200 sq.ft",
-      "price": "4.20 Cr"
+      "carpet_area": "On Request",
+      "price": "4.2 Cr"
     }
   ]
 }

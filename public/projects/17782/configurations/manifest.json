@@ -7,29 +7,49 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "master",
+    "site"
   ],
-  "masterPlans": [],
-  "sitePlans": [],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/17782/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/17782/original/mp.jpg?1724840210",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/17782/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6861/original/fp.jpg?1724840211",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 177821,
+          "id": 82233,
           "bhk": "3 BHK",
           "carpetArea": 1117,
           "carpetAreaDisplay": "1117 sq.ft",
           "builtUpArea": null,
           "price": "1.28 Cr",
-          "actualPrice": 12800820,
-          "propertyType": "Medium Rise",
-          "plan2D": null,
+          "actualPrice": 12800000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/17782/configurations/unit-plans/3-bhk/1117-sqft/plan-2d.webp",
           "plan3D": null,
-          "twoDOriginalUrl": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/82233/original/3.jpg?1724840210",
           "threeDOriginalUrl": null,
-          "has2D": false,
-          "has3D": false
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     }
@@ -37,7 +57,7 @@
   "configurationSummary": [
     {
       "flat_type_name": "3 BHK",
-      "carpet_area": "1117 sq.ft",
+      "carpet_area": "1,117 sq.ft",
       "price": "1.28 Cr"
     }
   ]

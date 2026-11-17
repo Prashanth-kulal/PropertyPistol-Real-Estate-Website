@@ -7,29 +7,121 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "master",
+    "site"
   ],
-  "masterPlans": [],
-  "sitePlans": [],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/19686/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/19686/original/mp-smaor.png?1744911383",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/19686/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7732/original/fp-smao.png?1744911389",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "4 BHK",
       "variants": [
         {
-          "id": 196861,
+          "id": 107940,
           "bhk": "4 BHK",
           "carpetArea": 2327,
           "carpetAreaDisplay": "2327 sq.ft",
           "builtUpArea": null,
           "price": "3.14 Cr",
-          "actualPrice": 31391230,
-          "propertyType": "High Rise",
+          "actualPrice": 31400000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19686/configurations/unit-plans/4-bhk/2327-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/107940/original/4bhk-sm.png?1744911383",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        },
+        {
+          "id": 107941,
+          "bhk": "4 BHK",
+          "carpetArea": 2329,
+          "carpetAreaDisplay": "2329 sq.ft",
+          "builtUpArea": null,
+          "price": "3.15 Cr",
+          "actualPrice": 31500000,
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 107942,
+          "bhk": "4 BHK",
+          "carpetArea": 2411,
+          "carpetAreaDisplay": "2411 sq.ft",
+          "builtUpArea": null,
+          "price": "3.26 Cr",
+          "actualPrice": 32600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 107943,
+          "bhk": "4 BHK",
+          "carpetArea": 2414,
+          "carpetAreaDisplay": "2414 sq.ft",
+          "builtUpArea": null,
+          "price": "3.26 Cr",
+          "actualPrice": 32600000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 107944,
+          "bhk": "4 BHK",
+          "carpetArea": 2499,
+          "carpetAreaDisplay": "2499 sq.ft",
+          "builtUpArea": null,
+          "price": "3.37 Cr",
+          "actualPrice": 33700000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/19686/configurations/unit-plans/4-bhk/2499-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/107944/original/4bhk-sma.png?1744911383",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,20 +129,76 @@
       "bhk": "5 BHK",
       "variants": [
         {
-          "id": 196862,
+          "id": 107945,
           "bhk": "5 BHK",
-          "carpetArea": 4505,
-          "carpetAreaDisplay": "4505 sq.ft",
+          "carpetArea": 4269,
+          "carpetAreaDisplay": "4269 sq.ft",
           "builtUpArea": null,
-          "price": "6.08 Cr",
-          "actualPrice": 60772450,
-          "propertyType": "High Rise",
+          "price": "5.77 Cr",
+          "actualPrice": 57700000,
+          "propertyType": "Pent House",
+          "plan2D": "/projects/19686/configurations/unit-plans/5-bhk/4269-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/107945/original/5bhk-sm.png?1744911383",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        },
+        {
+          "id": 107946,
+          "bhk": "5 BHK",
+          "carpetArea": 4372,
+          "carpetAreaDisplay": "4372 sq.ft",
+          "builtUpArea": null,
+          "price": "5.91 Cr",
+          "actualPrice": 59100000,
+          "propertyType": "Pent House",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 107947,
+          "bhk": "5 BHK",
+          "carpetArea": 4424,
+          "carpetAreaDisplay": "4424 sq.ft",
+          "builtUpArea": null,
+          "price": "5.97 Cr",
+          "actualPrice": 59700000,
+          "propertyType": "Pent House",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 107948,
+          "bhk": "5 BHK",
+          "carpetArea": 4505,
+          "carpetAreaDisplay": "4505 sq.ft",
+          "builtUpArea": null,
+          "price": "6.08 Cr",
+          "actualPrice": 60800000,
+          "propertyType": "Pent House",
+          "plan2D": "/projects/19686/configurations/unit-plans/5-bhk/4505-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/107948/original/5bhk-samor.png?1744911383",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     }
@@ -58,13 +206,13 @@
   "configurationSummary": [
     {
       "flat_type_name": "4 BHK",
-      "carpet_area": "2327 sq.ft",
-      "price": "3.14 Cr"
+      "carpet_area": "2,327 - 2,499 sq.ft",
+      "price": "3.14 Cr - 3.37 Cr"
     },
     {
       "flat_type_name": "5 BHK",
-      "carpet_area": "4505 sq.ft",
-      "price": "6.08 Cr"
+      "carpet_area": "4,269 - 4,505 sq.ft",
+      "price": "5.77 Cr - 6.08 Cr"
     }
   ]
 }

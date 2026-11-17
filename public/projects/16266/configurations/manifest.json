@@ -7,29 +7,40 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "master"
   ],
-  "masterPlans": [],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16266/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16266/original/cf5c501a3135d4c.jpg?1714652130",
+      "downloaded": true
+    }
+  ],
   "sitePlans": [],
   "unitPlans": [
     {
       "bhk": "2 BHK",
       "variants": [
         {
-          "id": 162661,
+          "id": 98327,
           "bhk": "2 BHK",
           "carpetArea": 654,
           "carpetAreaDisplay": "654 sq.ft",
           "builtUpArea": null,
-          "price": "Price on Request",
-          "actualPrice": null,
+          "price": "On Request",
+          "actualPrice": 0,
           "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,20 +48,22 @@
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 162662,
+          "id": 113281,
           "bhk": "3 BHK",
           "carpetArea": 886,
           "carpetAreaDisplay": "886 sq.ft",
           "builtUpArea": null,
-          "price": "Price on Request",
-          "actualPrice": null,
+          "price": "On Request",
+          "actualPrice": 0,
           "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -59,12 +72,12 @@
     {
       "flat_type_name": "2 BHK",
       "carpet_area": "654 sq.ft",
-      "price": "Price on Request"
+      "price": "On Request"
     },
     {
       "flat_type_name": "3 BHK",
       "carpet_area": "886 sq.ft",
-      "price": "Price on Request"
+      "price": "On Request"
     }
   ]
 }

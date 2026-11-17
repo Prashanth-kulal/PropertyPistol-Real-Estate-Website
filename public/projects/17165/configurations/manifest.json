@@ -7,29 +7,58 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "site"
   ],
   "masterPlans": [],
-  "sitePlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/17165/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6534/original/fp_vivan.png?1719560888",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "2 BHK",
       "variants": [
         {
-          "id": 171651,
+          "id": 70515,
           "bhk": "2 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
-          "price": "₹ 53.0 Lacs",
+          "builtUpArea": 740,
+          "price": "53.0 Lacs",
           "actualPrice": 5300000,
-          "propertyType": "High Rise",
-          "plan2D": null,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/17165/configurations/unit-plans/2-bhk/variant-70515/plan-2d.webp",
           "plan3D": null,
-          "twoDOriginalUrl": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/70515/original/2bhk_ivan.PNG?1719560884",
           "threeDOriginalUrl": null,
-          "has2D": false,
-          "has3D": false
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        },
+        {
+          "id": 70516,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 750,
+          "price": "54.0 Lacs",
+          "actualPrice": 5400000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/17165/configurations/unit-plans/2-bhk/variant-70516/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/70516/original/2bhk_ivan.PNG?1719560884",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,20 +66,22 @@
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 171652,
+          "id": 70517,
           "bhk": "3 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
-          "price": "₹ 53.0 Lacs",
-          "actualPrice": 5300000,
-          "propertyType": "High Rise",
-          "plan2D": null,
+          "builtUpArea": 974,
+          "price": "71.0 Lacs",
+          "actualPrice": 7100000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/17165/configurations/unit-plans/3-bhk/variant-70517/plan-2d.webp",
           "plan3D": null,
-          "twoDOriginalUrl": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/70517/original/3bhk_vivan.PNG?1719560884",
           "threeDOriginalUrl": null,
-          "has2D": false,
-          "has3D": false
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     }
@@ -59,12 +90,12 @@
     {
       "flat_type_name": "2 BHK",
       "carpet_area": "On Request",
-      "price": "₹ 53.0 Lacs"
+      "price": "53.0 Lacs - 54.0 Lacs"
     },
     {
       "flat_type_name": "3 BHK",
       "carpet_area": "On Request",
-      "price": "₹ 53.0 Lacs"
+      "price": "71.0 Lacs"
     }
   ]
 }

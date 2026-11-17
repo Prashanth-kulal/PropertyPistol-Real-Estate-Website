@@ -7,29 +7,76 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "master"
   ],
-  "masterPlans": [],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/7370/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/7370/original/GLS-Avenue-86-Site-Plan-min.jpg?1639366964",
+      "downloaded": true
+    }
+  ],
   "sitePlans": [],
   "unitPlans": [
     {
       "bhk": "2 BHK",
       "variants": [
         {
-          "id": 73701,
+          "id": 22179,
           "bhk": "2 BHK",
           "carpetArea": 448,
           "carpetAreaDisplay": "448 sq.ft",
           "builtUpArea": null,
-          "price": "53.76 Lacs",
-          "actualPrice": 5376000,
-          "propertyType": "High Rise",
+          "price": "53.77 Lacs",
+          "actualPrice": 5377000,
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 112793,
+          "bhk": "2 BHK",
+          "carpetArea": 451,
+          "carpetAreaDisplay": "451 sq.ft",
+          "builtUpArea": null,
+          "price": "54.08 Lacs",
+          "actualPrice": 5408000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 112794,
+          "bhk": "2 BHK",
+          "carpetArea": 463,
+          "carpetAreaDisplay": "463 sq.ft",
+          "builtUpArea": null,
+          "price": "55.59 Lacs",
+          "actualPrice": 5559000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,20 +84,40 @@
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 73702,
+          "id": 112796,
           "bhk": "3 BHK",
-          "carpetArea": 642,
-          "carpetAreaDisplay": "642 sq.ft",
+          "carpetArea": 636,
+          "carpetAreaDisplay": "636 sq.ft",
           "builtUpArea": null,
-          "price": "77.04 Lacs",
-          "actualPrice": 7704000,
-          "propertyType": "High Rise",
+          "price": "76.25 Lacs",
+          "actualPrice": 7625000,
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 112795,
+          "bhk": "3 BHK",
+          "carpetArea": 642,
+          "carpetAreaDisplay": "642 sq.ft",
+          "builtUpArea": null,
+          "price": "77.02 Lacs",
+          "actualPrice": 7702000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -58,13 +125,13 @@
   "configurationSummary": [
     {
       "flat_type_name": "2 BHK",
-      "carpet_area": "448 sq.ft",
-      "price": "53.76 Lacs"
+      "carpet_area": "448 - 463 sq.ft",
+      "price": "53.77 Lacs - 55.59 Lacs"
     },
     {
       "flat_type_name": "3 BHK",
-      "carpet_area": "642 sq.ft",
-      "price": "77.04 Lacs"
+      "carpet_area": "636 - 642 sq.ft",
+      "price": "76.25 Lacs - 77.02 Lacs"
     }
   ]
 }

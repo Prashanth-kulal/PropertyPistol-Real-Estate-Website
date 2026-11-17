@@ -7,29 +7,56 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "master",
+    "site"
   ],
-  "masterPlans": [],
-  "sitePlans": [],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16749/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16749/original/masterplan.JPG?1717067207",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16749/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6372/original/floorplan1.jpg?1753772533",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/16749/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6373/original/floorplan2.jpg?1753772533",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "2 BHK",
       "variants": [
         {
-          "id": 167491,
+          "id": 65155,
           "bhk": "2 BHK",
-          "carpetArea": 750,
-          "carpetAreaDisplay": "750 sq.ft",
-          "builtUpArea": null,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 750,
           "price": "31.88 Lacs",
           "actualPrice": 3187500,
           "propertyType": "Apartment",
-          "plan2D": null,
-          "plan3D": null,
-          "twoDOriginalUrl": null,
-          "threeDOriginalUrl": null,
-          "has2D": false,
-          "has3D": false
+          "plan2D": "/projects/16749/configurations/unit-plans/2-bhk/variant-65155/plan-2d.webp",
+          "plan3D": "/projects/16749/configurations/unit-plans/2-bhk/variant-65155/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/65155/original/2bhk_2d1.JPG?1717067208",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/65155/original/2bhk_3d1.JPG?1717067208",
+          "has2D": true,
+          "has3D": true,
+          "downloaded": true,
+          "downloaded3D": true
         }
       ]
     },
@@ -37,20 +64,22 @@
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 167492,
+          "id": 65157,
           "bhk": "3 BHK",
-          "carpetArea": 1200,
-          "carpetAreaDisplay": "1200 sq.ft",
-          "builtUpArea": null,
-          "price": "51 Lacs",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1200,
+          "price": "51.0 Lacs",
           "actualPrice": 5100000,
           "propertyType": "Apartment",
-          "plan2D": null,
-          "plan3D": null,
-          "twoDOriginalUrl": null,
-          "threeDOriginalUrl": null,
-          "has2D": false,
-          "has3D": false
+          "plan2D": "/projects/16749/configurations/unit-plans/3-bhk/variant-65157/plan-2d.webp",
+          "plan3D": "/projects/16749/configurations/unit-plans/3-bhk/variant-65157/plan-3d.webp",
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/65157/original/3bhk_2d1.JPG?1717067208",
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/65157/original/3bhk_3d1.JPG?1717067208",
+          "has2D": true,
+          "has3D": true,
+          "downloaded": true,
+          "downloaded3D": true
         }
       ]
     }
@@ -58,13 +87,13 @@
   "configurationSummary": [
     {
       "flat_type_name": "2 BHK",
-      "carpet_area": "750 sq.ft",
+      "carpet_area": "On Request",
       "price": "31.88 Lacs"
     },
     {
       "flat_type_name": "3 BHK",
-      "carpet_area": "1200 sq.ft",
-      "price": "51 Lacs"
+      "carpet_area": "On Request",
+      "price": "51.0 Lacs"
     }
   ]
 }

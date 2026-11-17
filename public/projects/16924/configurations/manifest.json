@@ -16,36 +16,40 @@
       "bhk": "2 BHK",
       "variants": [
         {
-          "id": 169241,
+          "id": 67935,
           "bhk": "2 BHK",
           "carpetArea": 767,
           "carpetAreaDisplay": "767 sq.ft",
           "builtUpArea": null,
-          "price": "82.22 Lacs",
-          "actualPrice": 8222240,
+          "price": "82.2 Lacs",
+          "actualPrice": 8220000,
           "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
-          "id": 169242,
+          "id": 67936,
           "bhk": "2 BHK",
           "carpetArea": 819,
           "carpetAreaDisplay": "819 sq.ft",
           "builtUpArea": null,
-          "price": "87.80 Lacs",
-          "actualPrice": 8779680,
+          "price": "87.75 Lacs",
+          "actualPrice": 8775000,
           "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -53,13 +57,8 @@
   "configurationSummary": [
     {
       "flat_type_name": "2 BHK",
-      "carpet_area": "767 sq.ft",
-      "price": "82.22 Lacs"
-    },
-    {
-      "flat_type_name": "2 BHK",
-      "carpet_area": "819 sq.ft",
-      "price": "87.80 Lacs"
+      "carpet_area": "767 - 819 sq.ft",
+      "price": "82.2 Lacs - 87.75 Lacs"
     }
   ]
 }

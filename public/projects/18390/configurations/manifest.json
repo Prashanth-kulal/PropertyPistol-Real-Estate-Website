@@ -16,20 +16,40 @@
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 183901,
+          "id": 90902,
           "bhk": "3 BHK",
-          "carpetArea": 1298,
-          "carpetAreaDisplay": "1298 sq.ft",
-          "builtUpArea": null,
-          "price": "42.06 Lacs",
-          "actualPrice": 4205520,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1298,
+          "price": "42.0 Lacs",
+          "actualPrice": 4200000,
           "propertyType": "Independent House/Villa",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 114524,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1895,
+          "price": "57.0 Lacs",
+          "actualPrice": 5700000,
+          "propertyType": "Independent House/Villa",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,20 +57,22 @@
       "bhk": "4 BHK",
       "variants": [
         {
-          "id": 183902,
+          "id": 90903,
           "bhk": "4 BHK",
-          "carpetArea": 1895,
-          "carpetAreaDisplay": "1895 sq.ft",
-          "builtUpArea": null,
-          "price": "61.40 Lacs",
-          "actualPrice": 6139800,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1606,
+          "price": "50.0 Lacs",
+          "actualPrice": 5000000,
           "propertyType": "Independent House/Villa",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -58,13 +80,13 @@
   "configurationSummary": [
     {
       "flat_type_name": "3 BHK",
-      "carpet_area": "1298 sq.ft",
-      "price": "42.06 Lacs"
+      "carpet_area": "On Request",
+      "price": "42.0 Lacs - 57.0 Lacs"
     },
     {
       "flat_type_name": "4 BHK",
-      "carpet_area": "1895 sq.ft",
-      "price": "61.40 Lacs"
+      "carpet_area": "On Request",
+      "price": "50.0 Lacs"
     }
   ]
 }

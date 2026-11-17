@@ -16,11 +16,11 @@
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 162091,
+          "id": 68708,
           "bhk": "3 BHK",
-          "carpetArea": 1178,
-          "carpetAreaDisplay": "1178 sq.ft",
-          "builtUpArea": null,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1178,
           "price": "53.01 Lacs",
           "actualPrice": 5301000,
           "propertyType": "Apartment",
@@ -29,15 +29,17 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
-          "id": 162092,
+          "id": 60163,
           "bhk": "3 BHK",
-          "carpetArea": 1180,
-          "carpetAreaDisplay": "1180 sq.ft",
-          "builtUpArea": null,
-          "price": "53.10 Lacs",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1180,
+          "price": "53.1 Lacs",
           "actualPrice": 5310000,
           "propertyType": "Apartment",
           "plan2D": null,
@@ -45,7 +47,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -53,13 +57,8 @@
   "configurationSummary": [
     {
       "flat_type_name": "3 BHK",
-      "carpet_area": "1178 sq.ft",
-      "price": "53.01 Lacs"
-    },
-    {
-      "flat_type_name": "3 BHK",
-      "carpet_area": "1180 sq.ft",
-      "price": "53.10 Lacs"
+      "carpet_area": "On Request",
+      "price": "53.01 Lacs - 53.1 Lacs"
     }
   ]
 }

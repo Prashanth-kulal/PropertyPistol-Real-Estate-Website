@@ -7,45 +7,58 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "master"
   ],
-  "masterPlans": [],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/5108/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/5108/original/download_%2821%29.png?1790322656",
+      "downloaded": true
+    }
+  ],
   "sitePlans": [],
   "unitPlans": [
     {
       "bhk": "2 BHK",
       "variants": [
         {
-          "id": 51081,
+          "id": 137254,
           "bhk": "2 BHK",
           "carpetArea": 585,
           "carpetAreaDisplay": "585 sq.ft",
           "builtUpArea": null,
-          "price": "23.87 Lacs",
-          "actualPrice": 2386800,
-          "propertyType": "High Rise",
+          "price": "23.84 Lacs",
+          "actualPrice": 2384000,
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
-          "id": 51082,
+          "id": 137255,
           "bhk": "2 BHK",
           "carpetArea": 594,
           "carpetAreaDisplay": "594 sq.ft",
           "builtUpArea": null,
-          "price": "24.24 Lacs",
-          "actualPrice": 2423520,
-          "propertyType": "High Rise",
+          "price": "24.17 Lacs",
+          "actualPrice": 2417000,
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -53,13 +66,8 @@
   "configurationSummary": [
     {
       "flat_type_name": "2 BHK",
-      "carpet_area": "585 sq.ft",
-      "price": "23.87 Lacs"
-    },
-    {
-      "flat_type_name": "2 BHK",
-      "carpet_area": "594 sq.ft",
-      "price": "24.24 Lacs"
+      "carpet_area": "585 - 594 sq.ft",
+      "price": "23.84 Lacs - 24.17 Lacs"
     }
   ]
 }

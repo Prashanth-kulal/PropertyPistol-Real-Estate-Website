@@ -16,11 +16,11 @@
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 149161,
+          "id": 46931,
           "bhk": "3 BHK",
-          "carpetArea": 1175,
-          "carpetAreaDisplay": "1175 sq.ft",
-          "builtUpArea": null,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1175,
           "price": "64.63 Lacs",
           "actualPrice": 6462500,
           "propertyType": "Independent House/Villa",
@@ -29,7 +29,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,11 +39,11 @@
       "bhk": "4 BHK",
       "variants": [
         {
-          "id": 149162,
+          "id": 84393,
           "bhk": "4 BHK",
-          "carpetArea": 1875,
-          "carpetAreaDisplay": "1875 sq.ft",
-          "builtUpArea": null,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1875,
           "price": "1.03 Cr",
           "actualPrice": 10312500,
           "propertyType": "Independent House/Villa",
@@ -50,7 +52,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -58,12 +62,12 @@
   "configurationSummary": [
     {
       "flat_type_name": "3 BHK",
-      "carpet_area": "1175 sq.ft",
+      "carpet_area": "On Request",
       "price": "64.63 Lacs"
     },
     {
       "flat_type_name": "4 BHK",
-      "carpet_area": "1875 sq.ft",
+      "carpet_area": "On Request",
       "price": "1.03 Cr"
     }
   ]

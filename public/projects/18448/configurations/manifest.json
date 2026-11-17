@@ -7,29 +7,40 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "site"
   ],
   "masterPlans": [],
-  "sitePlans": [],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/18448/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/7062/original/fp_gra.png?1730893408",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "2 BHK",
       "variants": [
         {
-          "id": 184481,
+          "id": 91694,
           "bhk": "2 BHK",
           "carpetArea": 1354,
           "carpetAreaDisplay": "1354 sq.ft",
           "builtUpArea": null,
-          "price": "54.97 Lacs",
-          "actualPrice": 5497240,
-          "propertyType": "High Rise",
-          "plan2D": null,
+          "price": "55.0 Lacs",
+          "actualPrice": 5500000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18448/configurations/unit-plans/2-bhk/1354-sqft/plan-2d.webp",
           "plan3D": null,
-          "twoDOriginalUrl": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/91694/original/2bhk_gar.PNG?1730893404",
           "threeDOriginalUrl": null,
-          "has2D": false,
-          "has3D": false
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,20 +48,22 @@
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 184482,
+          "id": 91695,
           "bhk": "3 BHK",
           "carpetArea": 1735,
           "carpetAreaDisplay": "1735 sq.ft",
           "builtUpArea": null,
-          "price": "70.44 Lacs",
-          "actualPrice": 7044100,
-          "propertyType": "High Rise",
-          "plan2D": null,
+          "price": "75.0 Lacs",
+          "actualPrice": 7500000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/18448/configurations/unit-plans/3-bhk/1735-sqft/plan-2d.webp",
           "plan3D": null,
-          "twoDOriginalUrl": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/91695/original/3bhk_gr.PNG?1730893404",
           "threeDOriginalUrl": null,
-          "has2D": false,
-          "has3D": false
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     }
@@ -58,13 +71,13 @@
   "configurationSummary": [
     {
       "flat_type_name": "2 BHK",
-      "carpet_area": "1354 sq.ft",
-      "price": "54.97 Lacs"
+      "carpet_area": "1,354 sq.ft",
+      "price": "55.0 Lacs"
     },
     {
       "flat_type_name": "3 BHK",
-      "carpet_area": "1735 sq.ft",
-      "price": "70.44 Lacs"
+      "carpet_area": "1,735 sq.ft",
+      "price": "75.0 Lacs"
     }
   ]
 }

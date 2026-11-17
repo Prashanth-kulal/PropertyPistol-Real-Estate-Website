@@ -7,29 +7,40 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "master"
   ],
-  "masterPlans": [],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/17048/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/17048/original/m_.PNG?1718709348",
+      "downloaded": true
+    }
+  ],
   "sitePlans": [],
   "unitPlans": [
     {
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 170481,
+          "id": 68969,
           "bhk": "3 BHK",
           "carpetArea": 1765,
           "carpetAreaDisplay": "1765 sq.ft",
           "builtUpArea": null,
           "price": "6.85 Cr",
-          "actualPrice": 68499650,
-          "propertyType": "High Rise",
-          "plan2D": null,
+          "actualPrice": 68500000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/17048/configurations/unit-plans/3-bhk/1765-sqft/plan-2d.webp",
           "plan3D": null,
-          "twoDOriginalUrl": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/68969/original/3.PNG?1718709348",
           "threeDOriginalUrl": null,
-          "has2D": false,
-          "has3D": false
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,20 +48,22 @@
       "bhk": "4 BHK",
       "variants": [
         {
-          "id": 170482,
+          "id": 68970,
           "bhk": "4 BHK",
           "carpetArea": 2346,
           "carpetAreaDisplay": "2346 sq.ft",
           "builtUpArea": null,
-          "price": "9.10 Cr",
-          "actualPrice": 91048260,
-          "propertyType": "High Rise",
-          "plan2D": null,
+          "price": "8.48 Cr",
+          "actualPrice": 84800000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/17048/configurations/unit-plans/4-bhk/2346-sqft/plan-2d.webp",
           "plan3D": null,
-          "twoDOriginalUrl": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/68970/original/4.PNG?1718709348",
           "threeDOriginalUrl": null,
-          "has2D": false,
-          "has3D": false
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     }
@@ -58,13 +71,13 @@
   "configurationSummary": [
     {
       "flat_type_name": "3 BHK",
-      "carpet_area": "1765 sq.ft",
+      "carpet_area": "1,765 sq.ft",
       "price": "6.85 Cr"
     },
     {
       "flat_type_name": "4 BHK",
-      "carpet_area": "2346 sq.ft",
-      "price": "9.10 Cr"
+      "carpet_area": "2,346 sq.ft",
+      "price": "8.48 Cr"
     }
   ]
 }

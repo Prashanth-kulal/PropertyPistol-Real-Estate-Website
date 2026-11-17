@@ -16,20 +16,22 @@
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 211251,
+          "id": 127882,
           "bhk": "3 BHK",
           "carpetArea": 1552,
           "carpetAreaDisplay": "1552 sq.ft",
           "builtUpArea": null,
-          "price": "9.30 Cr",
-          "actualPrice": 92995840,
-          "propertyType": "High Rise",
+          "price": "9.3 Cr",
+          "actualPrice": 93000000,
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,20 +39,40 @@
       "bhk": "4 BHK",
       "variants": [
         {
-          "id": 211252,
+          "id": 137422,
           "bhk": "4 BHK",
-          "carpetArea": 2249,
-          "carpetAreaDisplay": "2249 sq.ft",
+          "carpetArea": 1941,
+          "carpetAreaDisplay": "1941 sq.ft",
           "builtUpArea": null,
-          "price": "13.48 Cr",
-          "actualPrice": 134760080,
-          "propertyType": "High Rise",
+          "price": "11.8 Cr",
+          "actualPrice": 118000000,
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 127883,
+          "bhk": "4 BHK",
+          "carpetArea": 2249,
+          "carpetAreaDisplay": "2249 sq.ft",
+          "builtUpArea": null,
+          "price": "13.67 Cr",
+          "actualPrice": 136700000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -58,13 +80,13 @@
   "configurationSummary": [
     {
       "flat_type_name": "3 BHK",
-      "carpet_area": "1552 sq.ft",
-      "price": "9.30 Cr"
+      "carpet_area": "1,552 sq.ft",
+      "price": "9.3 Cr"
     },
     {
       "flat_type_name": "4 BHK",
-      "carpet_area": "2249 sq.ft",
-      "price": "13.48 Cr"
+      "carpet_area": "1,941 - 2,249 sq.ft",
+      "price": "11.8 Cr - 13.67 Cr"
     }
   ]
 }

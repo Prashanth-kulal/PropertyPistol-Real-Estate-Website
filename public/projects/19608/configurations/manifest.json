@@ -16,12 +16,12 @@
       "bhk": "5 BHK",
       "variants": [
         {
-          "id": 196081,
+          "id": 106938,
           "bhk": "5 BHK",
-          "carpetArea": 4400,
-          "carpetAreaDisplay": "4400 sq.ft",
-          "builtUpArea": null,
-          "price": "9.90 Cr",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 4400,
+          "price": "9.9 Cr",
           "actualPrice": 99000000,
           "propertyType": "Apartment",
           "plan2D": null,
@@ -29,7 +29,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -37,8 +39,8 @@
   "configurationSummary": [
     {
       "flat_type_name": "5 BHK",
-      "carpet_area": "4400 sq.ft",
-      "price": "9.90 Cr"
+      "carpet_area": "On Request",
+      "price": "9.9 Cr"
     }
   ]
 }

@@ -16,20 +16,22 @@
       "bhk": "5 BHK",
       "variants": [
         {
-          "id": 219591,
+          "id": 136278,
           "bhk": "5 BHK",
           "carpetArea": null,
           "carpetAreaDisplay": "On Request",
-          "builtUpArea": null,
-          "price": "₹ 4.42 Cr",
+          "builtUpArea": 3216,
+          "price": "4.42 Cr",
           "actualPrice": 44197488,
-          "propertyType": "High Rise",
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -38,7 +40,7 @@
     {
       "flat_type_name": "5 BHK",
       "carpet_area": "On Request",
-      "price": "₹ 4.42 Cr"
+      "price": "4.42 Cr"
     }
   ]
 }

@@ -16,36 +16,76 @@
       "bhk": "2 BHK",
       "variants": [
         {
-          "id": 108651,
+          "id": 35652,
           "bhk": "2 BHK",
           "carpetArea": 580,
           "carpetAreaDisplay": "580 sq.ft",
           "builtUpArea": null,
           "price": "69.66 Lacs",
-          "actualPrice": 6965800,
-          "propertyType": "High Rise",
+          "actualPrice": 6966000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/10865/configurations/unit-plans/2-bhk/580-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/35652/original/2.PNG?1709717543",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        },
+        {
+          "id": 53773,
+          "bhk": "2 BHK",
+          "carpetArea": 585,
+          "carpetAreaDisplay": "585 sq.ft",
+          "builtUpArea": null,
+          "price": "70.27 Lacs",
+          "actualPrice": 7027000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/10865/configurations/unit-plans/2-bhk/585-sqft/plan-2d.webp",
+          "plan3D": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/53773/original/2.PNG?1709717543",
+          "threeDOriginalUrl": null,
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
+        },
+        {
+          "id": 113151,
+          "bhk": "2 BHK",
+          "carpetArea": 588,
+          "carpetAreaDisplay": "588 sq.ft",
+          "builtUpArea": null,
+          "price": "70.67 Lacs",
+          "actualPrice": 7067000,
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
-          "id": 108652,
+          "id": 113152,
           "bhk": "2 BHK",
           "carpetArea": 597,
           "carpetAreaDisplay": "597 sq.ft",
           "builtUpArea": null,
-          "price": "71.70 Lacs",
-          "actualPrice": 7169970,
-          "propertyType": "High Rise",
+          "price": "71.73 Lacs",
+          "actualPrice": 7173000,
+          "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -53,13 +93,8 @@
   "configurationSummary": [
     {
       "flat_type_name": "2 BHK",
-      "carpet_area": "580 sq.ft",
-      "price": "69.66 Lacs"
-    },
-    {
-      "flat_type_name": "2 BHK",
-      "carpet_area": "597 sq.ft",
-      "price": "71.70 Lacs"
+      "carpet_area": "580 - 597 sq.ft",
+      "price": "69.66 Lacs - 71.73 Lacs"
     }
   ]
 }

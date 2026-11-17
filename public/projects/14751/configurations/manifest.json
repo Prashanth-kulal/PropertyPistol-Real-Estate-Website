@@ -7,29 +7,56 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "master",
+    "site"
   ],
-  "masterPlans": [],
-  "sitePlans": [],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/14751/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/14751/original/IMG_20250621_132833.jpg?1750493110",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/14751/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8393/original/urban-lakes-floor_plan-1.jpg?1750493090",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/14751/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8394/original/urban-lakes-floor_plan-1.jpg?1750493111",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "1 BHK",
       "variants": [
         {
-          "id": 147511,
+          "id": 115892,
           "bhk": "1 BHK",
-          "carpetArea": 488,
-          "carpetAreaDisplay": "488 sq.ft",
-          "builtUpArea": null,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 488,
           "price": "21.23 Lacs",
           "actualPrice": 2122800,
           "propertyType": "Apartment",
           "plan2D": null,
-          "plan3D": null,
+          "plan3D": "/projects/14751/configurations/unit-plans/1-bhk/variant-115892/plan-3d.webp",
           "twoDOriginalUrl": null,
-          "threeDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/115892/original/urban-lakes-unit_plan-1.jpg?1750493111",
           "has2D": false,
-          "has3D": false
+          "has3D": true,
+          "downloaded": false,
+          "downloaded3D": true
         }
       ]
     },
@@ -37,20 +64,22 @@
       "bhk": "2 BHK",
       "variants": [
         {
-          "id": 147512,
+          "id": 115894,
           "bhk": "2 BHK",
-          "carpetArea": 852,
-          "carpetAreaDisplay": "852 sq.ft",
-          "builtUpArea": null,
-          "price": "37.06 Lacs",
-          "actualPrice": 3706200,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 700,
+          "price": "31.68 Lacs",
+          "actualPrice": 3167500,
           "propertyType": "Apartment",
           "plan2D": null,
-          "plan3D": null,
+          "plan3D": "/projects/14751/configurations/unit-plans/2-bhk/variant-115894/plan-3d.webp",
           "twoDOriginalUrl": null,
-          "threeDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/115894/original/urban-lakes-unit_plan-2.jpg?1750493111",
           "has2D": false,
-          "has3D": false
+          "has3D": true,
+          "downloaded": false,
+          "downloaded3D": true
         }
       ]
     },
@@ -58,20 +87,22 @@
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 147513,
+          "id": 115896,
           "bhk": "3 BHK",
-          "carpetArea": 1215,
-          "carpetAreaDisplay": "1215 sq.ft",
-          "builtUpArea": null,
-          "price": "52.85 Lacs",
-          "actualPrice": 5285250,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1007,
+          "price": "43.8 Lacs",
+          "actualPrice": 4380450,
           "propertyType": "Apartment",
           "plan2D": null,
-          "plan3D": null,
+          "plan3D": "/projects/14751/configurations/unit-plans/3-bhk/variant-115896/plan-3d.webp",
           "twoDOriginalUrl": null,
-          "threeDOriginalUrl": null,
+          "threeDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/three_d_plans/115896/original/urban-lakes-unit_plan-4.jpg?1750493111",
           "has2D": false,
-          "has3D": false
+          "has3D": true,
+          "downloaded": false,
+          "downloaded3D": true
         }
       ]
     },
@@ -79,20 +110,22 @@
       "bhk": "4 BHK",
       "variants": [
         {
-          "id": 147514,
+          "id": 115895,
           "bhk": "4 BHK",
-          "carpetArea": 1579,
-          "carpetAreaDisplay": "1579 sq.ft",
-          "builtUpArea": null,
-          "price": "68.69 Lacs",
-          "actualPrice": 6868650,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1579,
+          "price": "71.45 Lacs",
+          "actualPrice": 7144975,
           "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -100,23 +133,23 @@
   "configurationSummary": [
     {
       "flat_type_name": "1 BHK",
-      "carpet_area": "488 sq.ft",
+      "carpet_area": "On Request",
       "price": "21.23 Lacs"
     },
     {
       "flat_type_name": "2 BHK",
-      "carpet_area": "852 sq.ft",
-      "price": "37.06 Lacs"
+      "carpet_area": "On Request",
+      "price": "31.68 Lacs"
     },
     {
       "flat_type_name": "3 BHK",
-      "carpet_area": "1215 sq.ft",
-      "price": "52.85 Lacs"
+      "carpet_area": "On Request",
+      "price": "43.8 Lacs"
     },
     {
       "flat_type_name": "4 BHK",
-      "carpet_area": "1579 sq.ft",
-      "price": "68.69 Lacs"
+      "carpet_area": "On Request",
+      "price": "71.45 Lacs"
     }
   ]
 }

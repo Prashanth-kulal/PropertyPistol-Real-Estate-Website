@@ -7,20 +7,80 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "master",
+    "site"
   ],
-  "masterPlans": [],
-  "sitePlans": [],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/22222/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/22222/original/download_%2828%29.png?1787743532",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/22222/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9655/original/download_%2829%29.png?1787743533",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/22222/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9656/original/download_%2830%29.png?1787743533",
+      "downloaded": true
+    },
+    {
+      "id": 3,
+      "title": "Layout / Site Plan 3",
+      "path": "/projects/22222/configurations/site-plans/site-plan-03.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9657/original/download_%2831%29.png?1787743534",
+      "downloaded": true
+    },
+    {
+      "id": 4,
+      "title": "Layout / Site Plan 4",
+      "path": "/projects/22222/configurations/site-plans/site-plan-04.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9658/original/download_%2832%29.png?1787743534",
+      "downloaded": true
+    },
+    {
+      "id": 5,
+      "title": "Layout / Site Plan 5",
+      "path": "/projects/22222/configurations/site-plans/site-plan-05.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9659/original/download_%2833%29.png?1787743534",
+      "downloaded": true
+    },
+    {
+      "id": 6,
+      "title": "Layout / Site Plan 6",
+      "path": "/projects/22222/configurations/site-plans/site-plan-06.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9660/original/download_%2834%29.png?1787743534",
+      "downloaded": true
+    },
+    {
+      "id": 7,
+      "title": "Layout / Site Plan 7",
+      "path": "/projects/22222/configurations/site-plans/site-plan-07.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/9661/original/download_%2835%29.png?1787743534",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 222221,
+          "id": 137963,
           "bhk": "3 BHK",
-          "carpetArea": 1442,
-          "carpetAreaDisplay": "1442 sq.ft",
-          "builtUpArea": null,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1442,
           "price": "1.33 Cr",
           "actualPrice": 13266400,
           "propertyType": "Apartment",
@@ -29,7 +89,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,11 +99,11 @@
       "bhk": "4 BHK",
       "variants": [
         {
-          "id": 222222,
+          "id": 137964,
           "bhk": "4 BHK",
-          "carpetArea": 2025,
-          "carpetAreaDisplay": "2025 sq.ft",
-          "builtUpArea": null,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2025,
           "price": "1.86 Cr",
           "actualPrice": 18630000,
           "propertyType": "Apartment",
@@ -50,7 +112,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -58,12 +122,12 @@
   "configurationSummary": [
     {
       "flat_type_name": "3 BHK",
-      "carpet_area": "1442 sq.ft",
+      "carpet_area": "On Request",
       "price": "1.33 Cr"
     },
     {
       "flat_type_name": "4 BHK",
-      "carpet_area": "2025 sq.ft",
+      "carpet_area": "On Request",
       "price": "1.86 Cr"
     }
   ]

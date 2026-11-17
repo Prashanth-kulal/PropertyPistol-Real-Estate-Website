@@ -7,29 +7,67 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "master",
+    "site"
   ],
-  "masterPlans": [],
-  "sitePlans": [],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/13877/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13877/original/the-aravallis-layout-site-plan_%281%29.jpg?1754657058",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/13877/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/8760/original/the-aravallis-layout-site-plans-typical-floor-paln_%281%29.jpg?1754657113",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 138771,
+          "id": 42898,
           "bhk": "3 BHK",
           "carpetArea": 1568,
           "carpetAreaDisplay": "1568 sq.ft",
           "builtUpArea": null,
           "price": "4.76 Cr",
-          "actualPrice": 47604480,
-          "propertyType": "High Rise",
+          "actualPrice": 47600000,
+          "propertyType": "Flat",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 68765,
+          "bhk": "3 BHK",
+          "carpetArea": 1582,
+          "carpetAreaDisplay": "1582 sq.ft",
+          "builtUpArea": null,
+          "price": "4.8 Cr",
+          "actualPrice": 48000000,
+          "propertyType": "Flat",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,20 +75,22 @@
       "bhk": "4 BHK",
       "variants": [
         {
-          "id": 138772,
+          "id": 42899,
           "bhk": "4 BHK",
           "carpetArea": 1959,
           "carpetAreaDisplay": "1959 sq.ft",
           "builtUpArea": null,
-          "price": "5.95 Cr",
-          "actualPrice": 59475240,
-          "propertyType": "High Rise",
+          "price": "6.19 Cr",
+          "actualPrice": 61900000,
+          "propertyType": "Flat",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -58,13 +98,13 @@
   "configurationSummary": [
     {
       "flat_type_name": "3 BHK",
-      "carpet_area": "1568 sq.ft",
-      "price": "4.76 Cr"
+      "carpet_area": "1,568 - 1,582 sq.ft",
+      "price": "4.76 Cr - 4.8 Cr"
     },
     {
       "flat_type_name": "4 BHK",
-      "carpet_area": "1959 sq.ft",
-      "price": "5.95 Cr"
+      "carpet_area": "1,959 sq.ft",
+      "price": "6.19 Cr"
     }
   ]
 }

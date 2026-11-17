@@ -7,29 +7,40 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "master"
   ],
-  "masterPlans": [],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/13772/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/13772/original/site-plan.jpg?1695383227",
+      "downloaded": true
+    }
+  ],
   "sitePlans": [],
   "unitPlans": [
     {
       "bhk": "4 BHK",
       "variants": [
         {
-          "id": 137721,
+          "id": 42592,
           "bhk": "4 BHK",
           "carpetArea": 3500,
           "carpetAreaDisplay": "3500 sq.ft",
           "builtUpArea": null,
-          "price": "4.50 Cr",
-          "actualPrice": 45010000,
-          "propertyType": "High Rise",
-          "plan2D": null,
+          "price": "4.5 Cr",
+          "actualPrice": 45000000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/13772/configurations/unit-plans/4-bhk/3500-sqft/plan-2d.webp",
           "plan3D": null,
-          "twoDOriginalUrl": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/42592/original/4bhk-mapsko-icon.jpg?1695383227",
           "threeDOriginalUrl": null,
-          "has2D": false,
-          "has3D": false
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     }
@@ -37,8 +48,8 @@
   "configurationSummary": [
     {
       "flat_type_name": "4 BHK",
-      "carpet_area": "3500 sq.ft",
-      "price": "4.50 Cr"
+      "carpet_area": "3,500 sq.ft",
+      "price": "4.5 Cr"
     }
   ]
 }

@@ -16,20 +16,40 @@
       "bhk": "2 BHK",
       "variants": [
         {
-          "id": 189031,
+          "id": 108758,
           "bhk": "2 BHK",
-          "carpetArea": 877,
-          "carpetAreaDisplay": "877 sq.ft",
-          "builtUpArea": null,
-          "price": "66.74 Lacs",
-          "actualPrice": 6673970,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 877,
+          "price": "66.77 Lacs",
+          "actualPrice": 6677000,
           "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 108759,
+          "bhk": "2 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 900,
+          "price": "68.44 Lacs",
+          "actualPrice": 6844000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,20 +57,76 @@
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 189032,
+          "id": 119789,
           "bhk": "3 BHK",
-          "carpetArea": 1204,
-          "carpetAreaDisplay": "1204 sq.ft",
-          "builtUpArea": null,
-          "price": "91.62 Lacs",
-          "actualPrice": 9162440,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1168,
+          "price": "87.93 Lacs",
+          "actualPrice": 8793000,
           "propertyType": "Apartment",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 119787,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1171,
+          "price": "88.14 Lacs",
+          "actualPrice": 8814000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 119788,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1185,
+          "price": "89.16 Lacs",
+          "actualPrice": 8916000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
+        },
+        {
+          "id": 96094,
+          "bhk": "3 BHK",
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 1204,
+          "price": "90.54 Lacs",
+          "actualPrice": 9054000,
+          "propertyType": "Apartment",
+          "plan2D": null,
+          "plan3D": null,
+          "twoDOriginalUrl": null,
+          "threeDOriginalUrl": null,
+          "has2D": false,
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -58,13 +134,13 @@
   "configurationSummary": [
     {
       "flat_type_name": "2 BHK",
-      "carpet_area": "877 sq.ft",
-      "price": "66.74 Lacs"
+      "carpet_area": "On Request",
+      "price": "66.77 Lacs - 68.44 Lacs"
     },
     {
       "flat_type_name": "3 BHK",
-      "carpet_area": "1204 sq.ft",
-      "price": "91.62 Lacs"
+      "carpet_area": "On Request",
+      "price": "87.93 Lacs - 90.54 Lacs"
     }
   ]
 }

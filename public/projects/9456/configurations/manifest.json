@@ -16,7 +16,7 @@
       "bhk": "4 BHK",
       "variants": [
         {
-          "id": 94561,
+          "id": 32408,
           "bhk": "4 BHK",
           "carpetArea": 4075,
           "carpetAreaDisplay": "4075 sq.ft",
@@ -29,10 +29,12 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         },
         {
-          "id": 94562,
+          "id": 131006,
           "bhk": "4 BHK",
           "carpetArea": 4090,
           "carpetAreaDisplay": "4090 sq.ft",
@@ -45,7 +47,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -53,13 +57,8 @@
   "configurationSummary": [
     {
       "flat_type_name": "4 BHK",
-      "carpet_area": "4075 sq.ft",
-      "price": "5.71 Cr"
-    },
-    {
-      "flat_type_name": "4 BHK",
-      "carpet_area": "4090 sq.ft",
-      "price": "5.73 Cr"
+      "carpet_area": "4,075 - 4,090 sq.ft",
+      "price": "5.71 Cr - 5.73 Cr"
     }
   ]
 }

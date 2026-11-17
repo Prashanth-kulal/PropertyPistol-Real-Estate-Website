@@ -7,20 +7,29 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "master"
   ],
-  "masterPlans": [],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/22088/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/22088/original/mp.jpg?1783334934",
+      "downloaded": true
+    }
+  ],
   "sitePlans": [],
   "unitPlans": [
     {
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 220881,
+          "id": 136699,
           "bhk": "3 BHK",
-          "carpetArea": 2200,
-          "carpetAreaDisplay": "2200 sq.ft",
-          "builtUpArea": null,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 2200,
           "price": "1.24 Cr",
           "actualPrice": 12430000,
           "propertyType": "Independent House/Villa",
@@ -29,7 +38,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,11 +48,11 @@
       "bhk": "4 BHK",
       "variants": [
         {
-          "id": 220882,
+          "id": 136700,
           "bhk": "4 BHK",
-          "carpetArea": 4000,
-          "carpetAreaDisplay": "4000 sq.ft",
-          "builtUpArea": null,
+          "carpetArea": null,
+          "carpetAreaDisplay": "On Request",
+          "builtUpArea": 4000,
           "price": "2.26 Cr",
           "actualPrice": 22600000,
           "propertyType": "Independent House/Villa",
@@ -50,7 +61,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -58,12 +71,12 @@
   "configurationSummary": [
     {
       "flat_type_name": "3 BHK",
-      "carpet_area": "2200 sq.ft",
+      "carpet_area": "On Request",
       "price": "1.24 Cr"
     },
     {
       "flat_type_name": "4 BHK",
-      "carpet_area": "4000 sq.ft",
+      "carpet_area": "On Request",
       "price": "2.26 Cr"
     }
   ]

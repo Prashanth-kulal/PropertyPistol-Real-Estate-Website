@@ -7,21 +7,30 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "master"
   ],
-  "masterPlans": [],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/17716/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/17716/original/cf6458eaba6f586.jpeg?1724150394",
+      "downloaded": true
+    }
+  ],
   "sitePlans": [],
   "unitPlans": [
     {
       "bhk": "1 BHK",
       "variants": [
         {
-          "id": 177161,
+          "id": 111044,
           "bhk": "1 BHK",
           "carpetArea": 410,
           "carpetAreaDisplay": "410 sq.ft",
           "builtUpArea": null,
-          "price": "16.40 Lacs",
+          "price": "16.4 Lacs",
           "actualPrice": 1640000,
           "propertyType": "Apartment",
           "plan2D": null,
@@ -29,7 +38,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,7 +48,7 @@
       "bhk": "2 BHK",
       "variants": [
         {
-          "id": 177162,
+          "id": 111045,
           "bhk": "2 BHK",
           "carpetArea": 577,
           "carpetAreaDisplay": "577 sq.ft",
@@ -50,7 +61,9 @@
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -59,7 +72,7 @@
     {
       "flat_type_name": "1 BHK",
       "carpet_area": "410 sq.ft",
-      "price": "16.40 Lacs"
+      "price": "16.4 Lacs"
     },
     {
       "flat_type_name": "2 BHK",

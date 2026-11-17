@@ -16,36 +16,40 @@
       "bhk": "4 BHK",
       "variants": [
         {
-          "id": 171521,
+          "id": 70466,
           "bhk": "4 BHK",
           "carpetArea": 2398,
           "carpetAreaDisplay": "2398 sq.ft",
           "builtUpArea": null,
-          "price": "2.90 Cr",
-          "actualPrice": 28991820,
-          "propertyType": "High Rise",
-          "plan2D": null,
+          "price": "2.9 Cr",
+          "actualPrice": 29000000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/17152/configurations/unit-plans/4-bhk/2398-sqft/plan-2d.webp",
           "plan3D": null,
-          "twoDOriginalUrl": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/70466/original/4bhk_retreat.PNG?1719554508",
           "threeDOriginalUrl": null,
-          "has2D": false,
-          "has3D": false
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         },
         {
-          "id": 171522,
+          "id": 70467,
           "bhk": "4 BHK",
           "carpetArea": 2431,
           "carpetAreaDisplay": "2431 sq.ft",
           "builtUpArea": null,
           "price": "2.94 Cr",
-          "actualPrice": 29390790,
-          "propertyType": "High Rise",
-          "plan2D": null,
+          "actualPrice": 29400000,
+          "propertyType": "Apartment",
+          "plan2D": "/projects/17152/configurations/unit-plans/4-bhk/2431-sqft/plan-2d.webp",
           "plan3D": null,
-          "twoDOriginalUrl": null,
+          "twoDOriginalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/two_d_plans/70467/original/4bhk_retreat.PNG?1719554508",
           "threeDOriginalUrl": null,
-          "has2D": false,
-          "has3D": false
+          "has2D": true,
+          "has3D": false,
+          "downloaded": true,
+          "downloaded3D": false
         }
       ]
     }
@@ -53,13 +57,8 @@
   "configurationSummary": [
     {
       "flat_type_name": "4 BHK",
-      "carpet_area": "2398 sq.ft",
-      "price": "2.90 Cr"
-    },
-    {
-      "flat_type_name": "4 BHK",
-      "carpet_area": "2431 sq.ft",
-      "price": "2.94 Cr"
+      "carpet_area": "2,398 - 2,431 sq.ft",
+      "price": "2.9 Cr - 2.94 Cr"
     }
   ]
 }

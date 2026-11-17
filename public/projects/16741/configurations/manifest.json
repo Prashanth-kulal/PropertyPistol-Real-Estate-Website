@@ -7,29 +7,56 @@
   "verificationStatus": "VERIFIED",
   "lastVerified": "2026-11-17",
   "planTypes": [
-    "unit"
+    "unit",
+    "master",
+    "site"
   ],
-  "masterPlans": [],
-  "sitePlans": [],
+  "masterPlans": [
+    {
+      "id": 1,
+      "title": "Master Plan 1",
+      "path": "/projects/16741/configurations/master-plans/master-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/master_plans/16741/original/masterplan.JPG?1717063083",
+      "downloaded": true
+    }
+  ],
+  "sitePlans": [
+    {
+      "id": 1,
+      "title": "Layout / Site Plan 1",
+      "path": "/projects/16741/configurations/site-plans/site-plan-01.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6368/original/floorplan.JPG?1717063084",
+      "downloaded": true
+    },
+    {
+      "id": 2,
+      "title": "Layout / Site Plan 2",
+      "path": "/projects/16741/configurations/site-plans/site-plan-02.webp",
+      "originalUrl": "https://s3.ap-south-1.amazonaws.com/website-prod-public/files/6369/original/floorplan1.JPG?1717063084",
+      "downloaded": true
+    }
+  ],
   "unitPlans": [
     {
       "bhk": "2 BHK",
       "variants": [
         {
-          "id": 167411,
+          "id": 65112,
           "bhk": "2 BHK",
           "carpetArea": 896,
           "carpetAreaDisplay": "896 sq.ft",
           "builtUpArea": null,
-          "price": "88.97 Lacs",
-          "actualPrice": 8897280,
+          "price": "89.0 Lacs",
+          "actualPrice": 8900000,
           "propertyType": "Flat",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     },
@@ -37,20 +64,22 @@
       "bhk": "3 BHK",
       "variants": [
         {
-          "id": 167412,
+          "id": 65113,
           "bhk": "3 BHK",
           "carpetArea": 1136,
           "carpetAreaDisplay": "1136 sq.ft",
           "builtUpArea": null,
-          "price": "1.13 Cr",
-          "actualPrice": 11280480,
+          "price": "1.07 Cr",
+          "actualPrice": 10700000,
           "propertyType": "Flat",
           "plan2D": null,
           "plan3D": null,
           "twoDOriginalUrl": null,
           "threeDOriginalUrl": null,
           "has2D": false,
-          "has3D": false
+          "has3D": false,
+          "downloaded": false,
+          "downloaded3D": false
         }
       ]
     }
@@ -59,12 +88,12 @@
     {
       "flat_type_name": "2 BHK",
       "carpet_area": "896 sq.ft",
-      "price": "88.97 Lacs"
+      "price": "89.0 Lacs"
     },
     {
       "flat_type_name": "3 BHK",
-      "carpet_area": "1136 sq.ft",
-      "price": "1.13 Cr"
+      "carpet_area": "1,136 sq.ft",
+      "price": "1.07 Cr"
     }
   ]
 }
