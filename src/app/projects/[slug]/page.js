@@ -991,12 +991,18 @@ function ProjectDetailContent() {
     }
   };
 
+  // Conditionally show Price Insights only for Mumbai projects
+  const isMumbaiProject =
+    (project?.city || project?.cityName || "").trim().toLowerCase() === "mumbai";
+
   // Sticky in-page navigation sections (strictly matching DOM section flow)
   const navSections = useMemo(
     () => [
       { id: "overview", label: "Overview" },
       { id: "configurations", label: "Configurations" },
-      { id: "price-insights", label: "Price Insights" },
+      ...(isMumbaiProject
+        ? [{ id: "price-insights", label: "Price Insights" }]
+        : []),
       { id: "amenities", label: "Amenities" },
       { id: "location", label: "Location" },
       { id: "emi", label: "Payment Calculator" },
@@ -1004,7 +1010,7 @@ function ProjectDetailContent() {
       { id: "similar", label: "Similar Projects" },
       { id: "faqs", label: "FAQs" },
     ],
-    []
+    [isMumbaiProject]
   );
 
   const scrollToSection = (id) => {
@@ -1510,10 +1516,12 @@ function ProjectDetailContent() {
               onScheduleVisit={() => setEnquiryMode("visit")}
             />
 
-            {/* Price Insights of Locality (Interactive SVG Graph) */}
-            <div id="price-insights" className="scroll-mt-32">
-              <PriceInsightsChart project={project} />
-            </div>
+            {/* Price Insights of Locality (Interactive SVG Graph - Mumbai projects only) */}
+            {isMumbaiProject && (
+              <div id="price-insights" className="scroll-mt-32">
+                <PriceInsightsChart project={project} />
+              </div>
+            )}
 
             {/* Price Details & Table */}
             <section
