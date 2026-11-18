@@ -14,17 +14,10 @@ import {
   LayoutGrid,
   ArrowRight
 } from "lucide-react";
-import { CITIES, PROJECTS, getProjectSlug } from "@/data";
+import { CITIES, PROJECTS, getProjectSlug, formatPricePerSqFt, formatProjectPrice } from "@/data";
 import WishlistButton from "@/components/common/WishlistButton";
 
-function formatProjectPrice(rawPrice) {
-  if (!rawPrice) return "On Request";
-  const cleaned = String(rawPrice).trim();
-  if (!cleaned || /^on request$/i.test(cleaned) || cleaned.startsWith("₹")) {
-    return cleaned || "On Request";
-  }
-  return `₹ ${cleaned}`;
-}
+export { formatPricePerSqFt, formatProjectPrice };
 
 export default function TopProjects({
   selectedCity,
@@ -284,7 +277,7 @@ export default function TopProjects({
               "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80"
             ];
             const activeImage = imagesList[currentImgIndex];
-            const formattedPrice = formatProjectPrice(project.price);
+            const formattedPrice = formatProjectPrice(project.price, project);
 
             return (
               <div
@@ -346,7 +339,7 @@ export default function TopProjects({
                     </div>
                     {project.avgPrice && (
                       <div className="text-[10px] text-white/85 font-medium truncate">
-                        {project.avgPrice}
+                        {formatPricePerSqFt(project.avgPrice, project)}
                       </div>
                     )}
                   </Link>

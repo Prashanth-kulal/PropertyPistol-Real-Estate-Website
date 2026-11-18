@@ -461,5 +461,7 @@ export {
   CANONICAL_PROJECTS,
   getProjectSlug,
   getProjectBySlug,
-  getAllProjectSlugs
+  getAllProjectSlugs,
+  formatPricePerSqFt,
+  formatProjectPrice
 } from "./projectsData.js";

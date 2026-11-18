@@ -39,7 +39,7 @@ import WishlistButton from "@/components/common/WishlistButton";
 import CompareCheckbox from "@/components/common/CompareCheckbox";
 import CompareTray from "@/components/common/CompareTray";
 import { useWishlist } from "@/context/WishlistContext";
-import { CITIES, getProjectSlug } from "@/data";
+import { CITIES, getProjectSlug, formatPricePerSqFt, formatProjectPrice } from "@/data";
 import { getCityDetails, getPropertiesForCity } from "@/data/cityData";
 import { resolveCategory } from "@/data/categoryData";
 
@@ -965,7 +965,7 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
                         {/* Bottom-Left Price Tag Overlay Pill */}
                         <div className="absolute bottom-2.5 left-2.5 z-10 pointer-events-none">
                           <div className="px-2.5 py-0.5 bg-white/95 backdrop-blur-xs rounded-full shadow-md text-xs font-black text-[#252525]">
-                            ₹ {project.price}
+                            {formatProjectPrice(project.price, project)}
                           </div>
                         </div>
 
@@ -1039,7 +1039,7 @@ export default function CategoryListingPage({ cityId = "mumbai", categorySlug = 
 
                             <div className="min-w-0">
                               <span className="font-semibold text-gray-900 block truncate text-xs">
-                                {project.avgPrice || "INR 28.08 K"}
+                                {formatPricePerSqFt(project.avgPrice, project) || "₹ 28.08 K"}
                               </span>
                               <span className="text-[10px] text-gray-400 block font-medium">
                                 Per Sq.ft

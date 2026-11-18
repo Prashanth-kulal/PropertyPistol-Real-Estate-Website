@@ -25,7 +25,7 @@ import ProjectInquiryModal from "@/components/common/ProjectInquiryModal";
 import CitySelectorModal from "@/components/common/CitySelectorModal";
 import AuraAiModal from "@/components/common/AuraAiModal";
 import { useComparison, resolveCompareProject, MAX_COMPARE_PROJECTS } from "@/context/ComparisonContext";
-import { getProjectSlug } from "@/data/projectsData";
+import { getProjectSlug, formatPricePerSqFt, formatProjectPrice } from "@/data";
 
 function ComparePageContent() {
   const router = useRouter();
@@ -103,7 +103,7 @@ function ComparePageContent() {
     {
       id: "minPricePerSqft",
       label: "Min Price Per Sqft",
-      render: (p) => p.minPricePerSqft || p.avgPrice || "Not available"
+      render: (p) => formatPricePerSqFt(p.minPricePerSqft || p.avgPrice, p) || "Not available"
     },
     {
       id: "possessionStatus",
@@ -312,7 +312,7 @@ function ComparePageContent() {
                           )}
                           {project.price && (
                             <span className="text-xs font-black text-[#252525] block mt-0.5">
-                              ₹{project.price}
+                              {formatProjectPrice(project.price, project)}
                             </span>
                           )}
                         </div>

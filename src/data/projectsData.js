@@ -1173,3 +1173,85 @@ export function getAllProjectSlugs() {
   });
   return Array.from(slugs);
 }
+
+/**
+ * Format project main price (e.g. "54.81 Lacs" -> "₹ 54.81 Lacs", "2.45 M" (Dubai) -> "AED 2.45 M")
+ * Applies AED for Dubai projects and ₹ for Indian projects, avoiding duplicates.
+ */
+export function formatProjectPrice(rawPrice, project = null) {
+  let value = rawPrice;
+  let proj = project;
+
+  if (rawPrice && typeof rawPrice === "object") {
+    proj = rawPrice;
+    value = rawPrice.price;
+  }
+
+  if (!value) return "On Request";
+  let cleaned = String(value).trim();
+  if (!cleaned || /^on request$/i.test(cleaned)) {
+    return cleaned || "On Request";
+  }
+
+  const isDubai =
+    proj?.currency === "AED" ||
+    proj?.currencySymbol === "AED" ||
+    proj?.city?.toLowerCase() === "dubai" ||
+    proj?.cityName?.toLowerCase() === "dubai" ||
+    /^aed\b/i.test(cleaned);
+
+  if (isDubai) {
+    cleaned = cleaned.replace(/^(₹|inr|aed)\s*/i, "").trim();
+    return `AED ${cleaned}`;
+  }
+
+  cleaned = cleaned.replace(/^(₹|inr)\s*/i, "").trim();
+  return `₹ ${cleaned}`;
+}
+
+/**
+ * Format price per square foot (e.g. "14.98 K / sq.ft" -> "₹ 14.98 K / sq.ft", "1.29 K" (Dubai) -> "AED 1.29 K / sq.ft")
+ * Adds the correct currency symbol (AED for Dubai, ₹ for Indian cities), ensures "/ sq.ft" suffix is present,
+ * and avoids duplicate currency symbols or suffixes.
+ */
+export function formatPricePerSqFt(rawPrice, project = null) {
+  let value = rawPrice;
+  let proj = project;
+
+  if (rawPrice && typeof rawPrice === "object") {
+    proj = rawPrice;
+    value = rawPrice.avgPrice || rawPrice.minPricePerSqft;
+  }
+
+  if (!value) return "";
+  let cleaned = String(value).trim();
+  if (!cleaned || /^on request$/i.test(cleaned)) {
+    return cleaned || "";
+  }
+
+  const isDubai =
+    proj?.currency === "AED" ||
+    proj?.currencySymbol === "AED" ||
+    proj?.city?.toLowerCase() === "dubai" ||
+    proj?.cityName?.toLowerCase() === "dubai" ||
+    /^aed\b/i.test(cleaned);
+
+  if (isDubai) {
+    cleaned = cleaned.replace(/^(₹|inr|aed)\s*/i, "").trim();
+    if (!/sq\.?ft/i.test(cleaned)) {
+      cleaned = `${cleaned.replace(/\/$/, "").trim()} / sq.ft`;
+    }
+    return `AED ${cleaned}`;
+  }
+
+  // Prepend rupee symbol if not already present
+  cleaned = cleaned.replace(/^(₹|inr)\s*/i, "").trim();
+  cleaned = `₹ ${cleaned}`;
+
+  // Append "/ sq.ft" suffix if missing
+  if (!/sq\.?ft/i.test(cleaned)) {
+    cleaned = `${cleaned.replace(/\/$/, "").trim()} / sq.ft`;
+  }
+
+  return cleaned;
+}

@@ -37,7 +37,7 @@ import {
   getRelatedDevelopers,
   getAllDevelopers
 } from "@/data/developersData";
-import { getProjectSlug } from "@/data";
+import { getProjectSlug, formatPricePerSqFt, formatProjectPrice } from "@/data";
 
 function DeveloperDetailContent() {
   const params = useParams();
@@ -508,10 +508,10 @@ function DeveloperDetailContent() {
 
                           <div className="text-right shrink-0">
                             <div className="text-sm sm:text-base font-extrabold text-[#AE7419]">
-                              ₹{project.price}
+                              {formatProjectPrice(project.price, project)}
                             </div>
                             <div className="text-[10px] text-[#6B7280] font-medium">
-                              {project.avgPrice}
+                              {formatPricePerSqFt(project.avgPrice, project)}
                             </div>
                           </div>
                         </div>

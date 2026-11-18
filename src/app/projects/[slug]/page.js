@@ -77,6 +77,7 @@ import {
   getProjectBySlug,
   getProjectSlug,
   CANONICAL_PROJECTS,
+  formatPricePerSqFt,
 } from "@/data/projectsData";
 import LocationMapSection from "@/components/project/LocationMapSection";
 
@@ -2310,7 +2311,10 @@ function ProjectDetailContent() {
                     {project.currency === "AED" || project.city === "dubai" ? "AED " : "₹"}{project.price}
                   </div>
                   <span className="text-[10px] text-[#6B7280]">
-                    {project.currency === "AED" || project.city === "dubai" ? "AED " : "₹"}{project.avgPrice || (project.currency === "AED" ? "1,850/sq.ft" : "33.48 K/sq.ft")}
+                    {formatPricePerSqFt(
+                      project.avgPrice || (project.currency === "AED" || project.city === "dubai" ? "1,850" : "33.48 K"),
+                      project
+                    )}
                   </span>
                 </div>
               </div>

@@ -25,7 +25,7 @@ import CitySelectorModal from "@/components/common/CitySelectorModal";
 import AuraAiModal from "@/components/common/AuraAiModal";
 import ProjectInquiryModal from "@/components/common/ProjectInquiryModal";
 import { useWishlist } from "@/context/WishlistContext";
-import { CITIES } from "@/data";
+import { CITIES, formatPricePerSqFt, formatProjectPrice } from "@/data";
 
 export default function SavedPropertiesPage() {
   const { savedProperties, savedCount, isLoaded, clearAllSaved, removeSave } =
@@ -298,11 +298,11 @@ export default function SavedPropertiesPage() {
                     >
                       <div>
                         <div className="text-lg font-extrabold tracking-tight drop-shadow-sm">
-                          ₹{project.price}
+                          {formatProjectPrice(project.price, project)}
                         </div>
                         {project.avgPrice && (
                           <div className="text-[10px] text-gray-200">
-                            {project.avgPrice}
+                            {formatPricePerSqFt(project.avgPrice, project)}
                           </div>
                         )}
                       </div>

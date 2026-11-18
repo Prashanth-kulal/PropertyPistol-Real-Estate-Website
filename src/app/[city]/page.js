@@ -43,7 +43,7 @@ import UnitConverterModal from "@/components/common/UnitConverterModal";
 import AuraAiModal from "@/components/common/AuraAiModal";
 import CommuteTimeModal from "@/components/common/CommuteTimeModal";
 import WishlistButton from "@/components/common/WishlistButton";
-import { CITIES, DEVELOPERS, getProjectSlug } from "@/data";
+import { CITIES, DEVELOPERS, getProjectSlug, formatPricePerSqFt, formatProjectPrice } from "@/data";
 import {
   getCityDetails,
   getPropertiesForCity,
@@ -245,10 +245,10 @@ function CityPageContent() {
           {/* Price Tag Overlay */}
           <Link href={`/projects/${projectSlug}`} className="absolute bottom-2.5 left-2.5 right-2.5 text-white">
             <div className="text-sm sm:text-base font-black drop-shadow-sm leading-tight">
-              ₹{project.price}
+              {formatProjectPrice(project.price, project)}
             </div>
             <div className="text-[10px] text-gray-200 truncate">
-              {project.avgPrice}
+              {formatPricePerSqFt(project.avgPrice, project)}
             </div>
           </Link>
         </div>
